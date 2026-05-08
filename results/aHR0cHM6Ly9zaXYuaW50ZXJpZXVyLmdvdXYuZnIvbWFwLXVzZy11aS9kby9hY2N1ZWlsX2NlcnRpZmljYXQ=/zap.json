@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 18:53:32",
-	"created": "2026-05-08T18:53:32.305907994Z",
+	"@generated": "Fri, 8 May 2026 19:50:46",
+	"created": "2026-05-08T19:50:46.533375929Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -50,7 +50,7 @@
 			"site": "https://siv.interieur.gouv.fr",
 			"key": "insight.endpoint.ctype.image/gif",
 			"description": "Percentage of endpoints with content type image/gif",
-			"statistic": "2"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -114,7 +114,7 @@
 			"site": "https://siv.interieur.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "23"
+			"statistic": "27"
 		}
 	],
 	"site":[ 
@@ -135,7 +135,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "164",
+							"id": "165",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js",
 							"method": "GET",
@@ -145,9 +145,9 @@
 							"otherinfo": "The identified library prototypejs, version 1.7.2 is vulnerable.\nCVE-2020-27511\nhttps://github.com/prototypejs/prototype/issues/355\nhttps://nvd.nist.gov/vuln/detail/CVE-2020-27511\n"
 						},
 						{
-							"id": "132",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "141",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -162,7 +162,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "216"
+					"sourceid": "217"
 				},
 				{
 					"pluginid": "10202",
@@ -175,39 +175,39 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
+							"id": "13",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\"  action=\"csa_retour_dem_certificat\" style=\"width:auto; text-align:right\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
+						},
+						{
 							"id": "12",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\"  action=\"csa_retour_dem_certificat\" style=\"width:auto; text-align:right\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
+							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\" action=\"article_en_savoir_plus_csa\" style=\"width:auto; text-align:right\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "11",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
+							"id": "99",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\" action=\"article_en_savoir_plus_csa\" style=\"width:auto; text-align:right\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"\" ]."
+							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\"  action=\"csa_retour_dem_certificat\" style=\"width:auto; text-align:right\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
 						},
 						{
 							"id": "98",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form method=\"post\" name=\"monform\" id=\"monform\"  action=\"csa_retour_dem_certificat\" style=\"width:auto; text-align:right\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
-						},
-						{
-							"id": "97",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -215,7 +215,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"\" ]."
 						},
 						{
-							"id": "155",
+							"id": "153",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_retour_dem_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_retour_dem_certificat ()(Commencer)",
 							"method": "POST",
@@ -275,7 +275,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "54",
 							"uri": "https://siv.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -285,7 +285,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "65",
 							"uri": "https://siv.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -325,7 +325,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -335,9 +335,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "92",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -345,7 +345,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "88",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil",
 							"method": "GET",
@@ -355,9 +355,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_contact",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_contact",
+							"id": "106",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/pages/aide/ECR_USG_MEN_CSA_01.html",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/pages\/aide\/ECR_USG_MEN_CSA_01.html",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -385,9 +385,9 @@
 					"desc": "<p>A hyperlink pointing to another host name was found. As session ID URL rewrite is used, it may be disclosed in referer header to external hosts.</p>",
 					"instances":[ 
 						{
-							"id": "102",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "101",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -395,9 +395,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "117",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "118",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -405,9 +405,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/simtax_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/simtax_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "105",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/simtax_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/simtax_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -435,53 +435,53 @@
 					"desc": "<p>URL rewrite is used to track user session ID. The session ID may be disclosed via cross-site referer header. In addition, the session ID might be stored in browser history or server logs.</p>",
 					"instances":[ 
 						{
+							"id": "124",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/css/usager/colorbox.css;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/css\/usager\/colorbox.css;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "jsessionid=901BD080A9BBD573A2C441922E6098C3",
+							"otherinfo": ""
+						},
+						{
 							"id": "125",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/css/usager/colorbox.css;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/css\/usager\/colorbox.css;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/css/usager/nav.css;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/css\/usager\/nav.css;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "jsessionid=114E38D8EA89A8E8AFD657E02640FD32",
+							"evidence": "jsessionid=901BD080A9BBD573A2C441922E6098C3",
 							"otherinfo": ""
 						},
 						{
-							"id": "126",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/css/usager/nav.css;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/css\/usager\/nav.css;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "100",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "jsessionid=114E38D8EA89A8E8AFD657E02640FD32",
+							"evidence": "jsessionid=901BD080A9BBD573A2C441922E6098C3",
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "117",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "jsessionid=114E38D8EA89A8E8AFD657E02640FD32",
+							"evidence": "jsessionid=901BD080A9BBD573A2C441922E6098C3",
 							"otherinfo": ""
 						},
 						{
-							"id": "116",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "104",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/simtax_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/simtax_accueil;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "jsessionid=114E38D8EA89A8E8AFD657E02640FD32",
-							"otherinfo": ""
-						},
-						{
-							"id": "105",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/simtax_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/simtax_accueil;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "jsessionid=114E38D8EA89A8E8AFD657E02640FD32",
+							"evidence": "jsessionid=901BD080A9BBD573A2C441922E6098C3",
 							"otherinfo": ""
 						}
 					],
@@ -492,7 +492,7 @@
 					"reference": "<p>https://seclists.org/webappsec/2002/q4/111</p>",
 					"cweid": "598",
 					"wascid": "13",
-					"sourceid": "121"
+					"sourceid": "123"
 				},
 				{
 					"pluginid": "10003",
@@ -505,7 +505,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "162",
+							"id": "160",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js",
 							"method": "GET",
@@ -515,9 +515,9 @@
 							"otherinfo": "The identified library jquery, version 1.10.2 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nhttps://github.com/jquery/jquery/issues/2432\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://bugs.jquery.com/ticket/11974\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "150",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "149",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -525,7 +525,7 @@
 							"otherinfo": "The identified library jquery, version 1.10.2 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nhttps://github.com/jquery/jquery/issues/2432\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://bugs.jquery.com/ticket/11974\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "161",
+							"id": "159",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_005.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_005.js",
 							"method": "GET",
@@ -535,9 +535,9 @@
 							"otherinfo": "The identified library jquery-ui, version 1.10.2 is vulnerable.\nCVE-2021-41184\nCVE-2021-41183\nCVE-2021-41182\nCVE-2022-31160\nhttps://github.com/advisories/GHSA-h6gj-6jjq-h8g9\nhttps://bugs.jqueryui.com/ticket/15284\nhttps://github.com/jquery/jquery-ui/commit/8cc5bae1caa1fcf96bf5862c5646c787020ba3f9\nhttps://nvd.nist.gov/vuln/detail/CVE-2022-31160\nhttps://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41184\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41183\nhttps://github.com/jquery/jquery-ui/security/advisories/GHSA-9gj3-hwp5-pmwc\nhttps://nvd.nist.gov/vuln/detail/CVE-2021-41182\nhttps://github.com/jquery/jquery-ui/issues/2101\n"
 						},
 						{
-							"id": "152",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_005.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_005.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "155",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_005.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_005.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -552,7 +552,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "204"
+					"sourceid": "202"
 				},
 				{
 					"pluginid": "10010",
@@ -565,7 +565,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "8",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -595,7 +595,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "11",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -625,7 +625,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -665,7 +665,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "38",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -705,7 +705,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "40",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -753,19 +753,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "77",
-							"uri": "https://siv.interieur.gouv.fr/static/css/style-apd-couleur.css",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/static\/css\/style-apd-couleur.css",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
@@ -785,7 +775,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "160",
+							"id": "156",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js",
 							"method": "GET",
@@ -795,9 +785,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "138",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "136",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -805,7 +795,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "166",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js",
 							"method": "GET",
@@ -815,9 +805,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "159",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "161",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -875,7 +865,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "59",
 							"uri": "https://siv.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -885,7 +875,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "68",
 							"uri": "https://siv.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -915,7 +905,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "7",
 							"uri": "https://siv.interieur.gouv.fr/",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/",
 							"method": "GET",
@@ -945,7 +935,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "55",
 							"uri": "https://siv.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -955,7 +945,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "66",
 							"uri": "https://siv.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -985,7 +975,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "10",
 							"uri": "https://siv.interieur.gouv.fr/",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1005,7 +995,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "73",
+							"id": "78",
 							"uri": "https://siv.interieur.gouv.fr/static/css/style-apd-couleur.css",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/static\/css\/style-apd-couleur.css",
 							"method": "GET",
@@ -1015,7 +1005,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "82",
+							"id": "81",
 							"uri": "https://siv.interieur.gouv.fr/static/css/style-apd.css",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/static\/css\/style-apd.css",
 							"method": "GET",
@@ -1026,8 +1016,8 @@
 						},
 						{
 							"id": "85",
-							"uri": "https://siv.interieur.gouv.fr/static/css/style.css",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/static\/css\/style.css",
+							"uri": "https://siv.interieur.gouv.fr/static/images/bords/dot.gif",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/static\/images\/bords\/dot.gif",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1055,7 +1045,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "163",
+							"id": "162",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js",
 							"method": "GET",
@@ -1065,9 +1055,9 @@
 							"otherinfo": "\\x000fn\uFFFD\\x000c\\x001e\uFFFD\uFFFD\\x0001:\\x000f\uFFFDuq\uFFFD\uFFFD\uFFFD\\x001f>\uFFFD9\uFFFD~x\uFFFDM4"
 						},
 						{
-							"id": "151",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "150",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/usg/jquery_004.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/usg\/jquery_004.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1082,7 +1072,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "204"
+					"sourceid": "202"
 				},
 				{
 					"pluginid": "10027",
@@ -1095,9 +1085,9 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "142",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/lang/calendar-fr.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/lang\/calendar-fr.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "140",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/lang/calendar-fr.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/lang\/calendar-fr.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1105,9 +1095,9 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 2 times, the first in likely comment: \"// Translator: David Duret, <pilgrim@mala-template.net> from previous french version\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "140",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "138",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1115,9 +1105,9 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//if there is a date to initialize from\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "139",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "137",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1125,9 +1115,9 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 2 times, the first in likely comment: \"//User can call function submitFlatDates directly in Calendar object to handle the submission of multiple dates.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "141",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "139",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar-setup.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1135,9 +1125,9 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"/**\n *  This function \"patches\" an input field (or other element) to use a calendar\n *  widget for date selection.\n *\n *  Note t\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "148",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "147",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1145,9 +1135,9 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 6 times, the first in likely comment: \"/**\n * \\internal This function is called from the constructor, only once, to\n * initialize some internal arrays containing trans\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "145",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "144",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1155,9 +1145,9 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected 12 times, the first in likely comment: \"// FIX FOR OPERA'S BUG : need to create new table for every row of months as the Opera displays\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "143",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "142",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1165,9 +1155,9 @@
 							"otherinfo": "The following pattern was used: \\bFIXME\\b and was detected 15 times, the first in likely comment: \"// FIXME: should we make the domain, path and expiration time configurable?\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "146",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "145",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1175,9 +1165,9 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected 3 times, the first in likely comment: \"/**\n * Gets called when the mouse leaves a button.  This function \"undoes\" what\n * dayMouseOver did, that is, it removes the \"ro\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "147",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "146",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1185,9 +1175,9 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 8 times, the first in likely comment: \"/**\n * Event handler that gets called when the end-user moves the mouse over the\n * document.\n *\n * This function is pretty comp\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "149",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "148",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1195,9 +1185,9 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected 2 times, the first in likely comment: \"/**\n * \"refresh()\" isn't a good name for it: this function _destroys_ the calendar\n * object and creates another one with the sa\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "144",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "143",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/calendar.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1205,9 +1195,9 @@
 							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected 3 times, the first in likely comment: \"// workaround for some bugs in our parseDate code\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "135",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "133",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1215,9 +1205,9 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 2 times, the first in likely comment: \"/// properties to it: unselectable for IE, and the CSS \"-moz-user-select\" for\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "133",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "131",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1225,9 +1215,9 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"/**\n * Create an WCH object.  This function does nothing if the browser is not\n * IE5.5 or IE6.0.  A WCH object is one of the mo\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "134",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "132",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1235,9 +1225,9 @@
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in likely comment: \"/**\n * Given a reference to a select element, this function will select the option\n * having the given value and optionally will\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "137",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "135",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1245,9 +1235,9 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"/**\n*  Add a tooltip to the specified element.\n*\n*  Function that adds a custom tooltip for an element.  The \"target\" is the\n*  \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "136",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "134",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/calendar/scripts/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/calendar\/scripts\/utils.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1255,9 +1245,9 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 7 times, the first in likely comment: \"/// substitute for some events that are missing from DOM since forever (like\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "131",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/commun.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/commun.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "130",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/commun.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/commun.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1266,8 +1256,8 @@
 						},
 						{
 							"id": "158",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1276,8 +1266,8 @@
 						},
 						{
 							"id": "157",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/js/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/js\/prototype_obj.js;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1292,7 +1282,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "147"
+					"sourceid": "145"
 				},
 				{
 					"pluginid": "10049",
@@ -1305,7 +1295,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "72",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui",
 							"method": "GET",
@@ -1322,7 +1312,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "26"
+					"sourceid": "52"
 				},
 				{
 					"pluginid": "10015",
@@ -1335,7 +1325,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://siv.interieur.gouv.fr/",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1355,9 +1345,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=114E38D8EA89A8E8AFD657E02640FD32.RSSESZS39_USG4worker",
+							"id": "95",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat;jsessionid=901BD080A9BBD573A2C441922E6098C3.RSSESZS39_USG1worker",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1365,7 +1355,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "90",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_accueil",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_accueil",
 							"method": "GET",
@@ -1376,12 +1366,12 @@
 						},
 						{
 							"id": "108",
-							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/article_contact",
-							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/article_contact",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/pages/aide/ECR_USG_MEN_CSA_01.html",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/pages\/aide\/ECR_USG_MEN_CSA_01.html",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
-							"evidence": "",
+							"evidence": "max-age=43200, public",
 							"otherinfo": ""
 						}
 					],
@@ -1415,7 +1405,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "30",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/accueil_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/accueil_certificat",
 							"method": "GET",
@@ -1625,7 +1615,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "68",
+							"id": "58",
 							"uri": "https://siv.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1635,7 +1625,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "67",
 							"uri": "https://siv.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1665,7 +1655,77 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "195",
+							"id": "230",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "formatFichier",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nformatFichier=pdf\n\nThe user-controlled value was:\npdf"
+						},
+						{
+							"id": "228",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "Pr\u00E9c\u00E9dent",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [name] attribute\n\nThe user input found was:\nPr\u00E9c\u00E9dent=Pr\u00E9c\u00E9dent\n\nThe user-controlled value was:\npr\u00E9c\u00E9dent"
+						},
+						{
+							"id": "176",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "rechercheDossier.dateCi",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.dateCi=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "180",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "rechercheDossier.datePremImmat",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.datePremImmat=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "182",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "rechercheDossier.nomEtPrenom",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.nomEtPrenom=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "185",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "rechercheDossier.numeroImmatriculation",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.numeroImmatriculation=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "187",
+							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
+							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
+							"method": "POST",
+							"param": "rechercheDossier.raisonSociale",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.raisonSociale=ZAP\n\nThe user-controlled value was:\nzap"
+						},
+						{
+							"id": "212",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Valideretterminer,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
 							"method": "POST",
@@ -1725,7 +1785,7 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nrechercheDossier.raisonSociale=ZAP\n\nThe user-controlled value was:\nzap"
 						},
 						{
-							"id": "194",
+							"id": "211",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Valideretterminer,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
 							"method": "POST",
@@ -1735,14 +1795,14 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nappears to include user input in:\na(n) [input] tag [value] attribute\n\nThe user input found was:\nValideretterminer=Valider et terminer\n\nThe user-controlled value was:\nvalider et terminer"
 						}
 					],
-					"count": "7",
+					"count": "14",
 					"systemic": false,
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
 					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat</p><p></p><p>appears to include user input in:</p><p>a(n) [input] tag [value] attribute</p><p></p><p>The user input found was:</p><p>formatFichier=pdf</p><p></p><p>The user-controlled value was:</p><p>pdf</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "229"
+					"sourceid": "231"
 				},
 				{
 					"pluginid": "10043",
@@ -1755,7 +1815,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "204",
+							"id": "231",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Pr\u00E9c\u00E9dent,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
 							"method": "POST",
@@ -1765,7 +1825,7 @@
 							"otherinfo": "User-controlled javascript event(s) was found. Exploitability will need to be manually determined. The page at the following URL:\n\nhttps://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat\n\nincludes the following Javascript event which may be attacker-controllable:\n\nUser-input was found in the following data of an [onclick] event:\nwindow.open ('/map-usg-ui/pages/aide/ECR_USG_DEM_CSA_01.html','','toolbar=0, location=0, directories=0, status=0, scrollbars=0, resizable=1, copyhistory=0, menuBar=0, width=640, height=480, left=50, top=50'); return false;\n\nThe user input was:\n0"
 						},
 						{
-							"id": "196",
+							"id": "217",
 							"uri": "https://siv.interieur.gouv.fr/map-usg-ui/do/csa_valid_dem_certificat",
 							"nodeName": "https:\/\/siv.interieur.gouv.fr\/map-usg-ui\/do\/csa_valid_dem_certificat ()(Valideretterminer,borne,formatFichier,hact,rechercheDossier.dateCi,rechercheDossier.datePremImmat,rechercheDossier.nomEtPrenom,rechercheDossier.numeroImmatriculation,rechercheDossier.raisonSociale)",
 							"method": "POST",

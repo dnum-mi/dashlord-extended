@@ -9,12 +9,12 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 18:54:35 GMT",
+      "date": "Fri, 08 May 2026 19:51:41 GMT",
       "set-cookie": [
-        "JSESSIONID=FB74C3A4E437323C4AE4FE77A207C39E.RSSESZS40_USG7worker; Path=/map-usg-ui"
+        "JSESSIONID=F3DDEBA68B1581AA9B0A8F2D55BBBCD4.RSSESZS39_USG4worker; Path=/map-usg-ui"
       ],
       "vary": "Accept-Encoding",
-      "content-length": "3024",
+      "content-length": "3026",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close"
     }
