@@ -1,9 +1,38 @@
 {
-  "trackers": [],
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/commons.32b0810ba1fc402d09de.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea/main.2545187657395e77ae28.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/me.9807ef1c2511db1e4e46.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://dcinfos-cache.abtasty.com/v1/ua-parser"
+    },
+    {
+      "type": "unknown",
+      "url": "https://dcinfos-cache.abtasty.com/v1/geoip?weather=false"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/analytics.17f958bce1aaf11084c9.js"
+    }
+  ],
   "cookies": [
     {
       "name": "TS015ce0c6",
-      "value": "012a7f58e05560f82d3b7474cea6b58540cf916323653caab98e2e2d4ccc64bb23072b957e0383d2332eece8e890219fa6baba63683fcece2dbb1294481731be6fe998bf99",
+      "value": "012a7f58e0cba4a37d7c438fba520e7003072aa689f1b2543d9855af7bfe9c393a38fec9ff1e50309c694b2eef24b03b2766d304402be72ddc520201376e000158fc9cec36",
       "domain": ".service-public.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,26 +41,12 @@
       "secure": true,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
-    },
-    {
-      "name": "TS01ad993f",
-      "value": "012a7f58e0864e232ce87ef120c2a850448bcbe20a653caab98e2e2d4ccc64bb23072b957e9eef5170ba6373b6329e5f1fb379f966",
-      "domain": "www.service-public.gouv.fr",
-      "path": "/",
-      "expires": -1,
-      "size": 116,
-      "httpOnly": true,
-      "secure": true,
-      "session": true,
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     },
     {
       "name": "SP_SESSION",
-      "value": "Zjc4ZGMzN2MtNTY0YS00MjE3LWI4Y2YtNjViMTFmNzJlNzM5",
+      "value": "NTYwNTQ3NDgtOWNkZC00ZmIxLWFjMGItZTdkOWQ1OTM0MTVl",
       "domain": ".service-public.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -41,8 +56,22 @@
       "session": true,
       "sameSite": "Lax",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS01ad993f",
+      "value": "012a7f58e05dab1e8ee62e7a158af45c49a35d3c9ef1b2543d9855af7bfe9c393a38fec9ff6a1af38fa9f6117fed5762dcc22f017f",
+      "domain": "www.service-public.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -54,24 +83,25 @@
     "cache-control": "max-age=0, no-cache, no-store, must-revalidate",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-language": "fr",
-    "content-security-policy": "frame-ancestors 'self' https://www.service-public.fr https://entreprendre.service-public.fr",
+    "content-language": "fr-FR",
+    "content-security-policy": "default-src 'self' *.service-public.fr *.gouv.fr; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.abtasty.com https://policevss.minint.chat https://gendarmerie-nationale.minint.chat *.gouv.fr *.service-public.fr; connect-src 'self' *.abtasty.com *.service-public.fr *.gouv.fr *.readspeaker.com; img-src 'self' data: *.service-public.fr *.gouv.fr *.abtasty.com; font-src 'self' data: *.service-public.fr *.gouv.fr *.abtasty.com; style-src 'self' 'unsafe-inline' *.service-public.fr *.gouv.fr *.abtasty.com; object-src 'none'; frame-src *.gouv.fr *.service-public.fr https://gendarmerie-nationale.minint.chat https://policevss.minint.chat https://dggn.my.site.com https://www.youtube.com https://www.dailymotion.com https://vimeo.com https://www.youtube-nocookie.com *.readspeaker.com *.abtasty.com; frame-ancestors 'self' https://www.service-public.gouv.fr https://entreprendre.service-public.gouv.fr",
     "content-type": "text/html;charset=UTF-8",
     "cross-origin-embedder-policy": "unsafe-none",
     "cross-origin-opener-policy": "same-origin-allow-popups",
     "cross-origin-resource-policy": "cross-origin",
-    "date": "Wed, 15 Oct 2025 03:41:01 GMT",
-    "expires": "Wed, 15 Oct 2025 03:41:01 GMT",
+    "date": "Fri, 08 May 2026 20:25:09 GMT",
+    "expires": "Fri, 08 May 2026 20:25:09 GMT",
     "permissions-policy": "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=()",
-    "pragma": "no-cache",
     "referrer-policy": "strict-origin-when-cross-origin",
-    "set-cookie": "SP_SESSION=Zjc4ZGMzN2MtNTY0YS00MjE3LWI4Y2YtNjViMTFmNzJlNzM5; Domain=service-public.gouv.fr; Path=/; Secure; HttpOnly; SameSite=Lax\nTS01ad993f=012a7f58e0864e232ce87ef120c2a850448bcbe20a653caab98e2e2d4ccc64bb23072b957e9eef5170ba6373b6329e5f1fb379f966; Path=/; Secure; HttpOnly;\nTS015ce0c6=012a7f58e05560f82d3b7474cea6b58540cf916323653caab98e2e2d4ccc64bb23072b957e0383d2332eece8e890219fa6baba63683fcece2dbb1294481731be6fe998bf99; path=/; domain=service-public.gouv.fr; HttpOnly; Secure",
+    "set-cookie": "SP_SESSION=NTYwNTQ3NDgtOWNkZC00ZmIxLWFjMGItZTdkOWQ1OTM0MTVl; Domain=service-public.gouv.fr; Path=/; Secure; HttpOnly; SameSite=Lax\nTS01ad993f=012a7f58e05dab1e8ee62e7a158af45c49a35d3c9ef1b2543d9855af7bfe9c393a38fec9ff6a1af38fa9f6117fed5762dcc22f017f; Path=/; Secure; HttpOnly\nTS015ce0c6=012a7f58e0cba4a37d7c438fba520e7003072aa689f1b2543d9855af7bfe9c393a38fec9ff1e50309c694b2eef24b03b2766d304402be72ddc520201376e000158fc9cec36; path=/; domain=service-public.gouv.fr; HttpOnly; Secure",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "transfer-encoding": "chunked",
     "vary": "Accept-Encoding",
+    "x-csrf-token": "c549dfb2-083c-4ac2-bddb-e051a832c714",
     "x-content-type-options": "nosniff",
     "x-frame-options": "SAMEORIGIN",
-    "x-xss-protection": "1; mode=block"
+    "x-sp-correlation-id": "1289079-1778271909.515-57.151.128.99-745-9261249",
+    "x-xss-protection": "0"
   },
   "endpoints": [
     {
@@ -128,6 +158,146 @@
             "zh-CN": "法国"
           }
         }
+      }
+    },
+    {
+      "hostname": "try.abtasty.com",
+      "ip": "108.156.224.120",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "dcinfos-cache.abtasty.com",
+      "ip": "34.8.30.44",
+      "geoip": {
+        "city": {
+          "geoname_id": 4393217,
+          "names": {
+            "de": "Kansas City",
+            "en": "Kansas City",
+            "es": "Kansas City",
+            "fr": "Kansas City",
+            "ja": "カンザスシティ",
+            "pt-BR": "Kansas City",
+            "ru": "Канзас-Сити"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.1027,
+          "longitude": -94.5778,
+          "metro_code": 616,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "64184"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4398678,
+            "iso_code": "MO",
+            "names": {
+              "de": "Missouri",
+              "en": "Missouri",
+              "es": "Missouri",
+              "fr": "Missouri",
+              "ja": "ミズーリ州",
+              "pt-BR": "Missúri",
+              "ru": "Миссури",
+              "zh-CN": "密苏里州"
+            }
+          }
+        ]
       }
     }
   ]
