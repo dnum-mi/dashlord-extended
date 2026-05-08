@@ -1,23 +1,38 @@
 {
-  "trackers": [],
-  "cookies": [
+  "trackers": [
     {
-      "name": "TS015ce0c6",
-      "value": "012a7f58e08b9054a184b1cf0facfa994887ce849418c2ebe66281320e83a2029324d9541805bca59eb74694a8bfa9854da1d3e0cf34121f4468b60472f2c48e7a3e16b6e0",
-      "domain": ".service-public.gouv.fr",
-      "path": "/",
-      "expires": -1,
-      "size": 148,
-      "httpOnly": true,
-      "secure": true,
-      "session": true,
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "type": "unknown",
+      "url": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea.js"
     },
     {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/commons.32b0810ba1fc402d09de.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea/main.2545187657395e77ae28.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/me.9807ef1c2511db1e4e46.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://try.abtasty.com/shared/analytics.17f958bce1aaf11084c9.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://dcinfos-cache.abtasty.com/v1/ua-parser"
+    },
+    {
+      "type": "unknown",
+      "url": "https://dcinfos-cache.abtasty.com/v1/geoip?weather=false"
+    }
+  ],
+  "cookies": [
+    {
       "name": "SP_SESSION",
-      "value": "NGMzYzE2MmMtYzFjMy00ZTlhLWFhNmUtZTBjODdlZTQ3OTQz",
+      "value": "ZDY1ZGFjYWMtZjBiZC00MjBjLWIxMjYtZGQ2YTY3NzFmYzU3",
       "domain": ".service-public.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -27,70 +42,87 @@
       "session": true,
       "sameSite": "Lax",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     },
     {
-      "name": "KC_RESTART",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0MmEzNTg1Yy0xYTZkLTRhNjktYTcwNS1jY2EwNWM4MGI4YzcifQ.eyJjaWQiOiJzcGNsaWVudCIsInB0eSI6Im9wZW5pZC1jb25uZWN0IiwicnVyaSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJhY3QiOiJBVVRIRU5USUNBVEUiLCJub3RlcyI6eyJzY29wZSI6ImFkZHJlc3MgcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJpc3MiOiJodHRwczovL2F1dGguc2VydmljZS1wdWJsaWMuZ291di5mci9yZWFsbXMvc2VydmljZS1wdWJsaWMiLCJyZXNwb25zZV90eXBlIjoiY29kZSIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJzdGF0ZSI6InhDYkktZU9pTmVtSmxGajkzQjJBZFdhcFdkMkhOQUE2ZF9NNE9RYndXdms9Iiwibm9uY2UiOiJHYlBZVFBWd29MQkQ5ZnJOcGJUS3YweDhKSUY5LXB4RXdaXy1WLWwtQ0pNIn19.xihAU-TDk17jklIEU6Fbyu3C1QOzQ1yI7NtTsy0rDPM",
+      "name": "KC_AUTH_SESSION_HASH",
+      "value": "NyvXz5MRAGvTpNbdOIm4jTXRvGq4OIl20tmudeyEJe0",
       "domain": "auth.service-public.gouv.fr",
       "path": "/realms/service-public/",
-      "expires": -1,
-      "size": 761,
-      "httpOnly": true,
+      "expires": 1778265259.221357,
+      "size": 63,
+      "httpOnly": false,
       "secure": true,
-      "session": true,
+      "session": false,
+      "sameSite": "Strict",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
-    },
-    {
-      "name": "AUTH_SESSION_ID_LEGACY",
-      "value": "054529b5-4517-42b4-94e6-915c1b82027e.kc-sp-prod-quarkus-3-1380",
-      "domain": "auth.service-public.gouv.fr",
-      "path": "/realms/service-public/",
-      "expires": -1,
-      "size": 84,
-      "httpOnly": true,
-      "secure": true,
-      "session": true,
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     },
     {
       "name": "AUTH_SESSION_ID",
-      "value": "054529b5-4517-42b4-94e6-915c1b82027e.kc-sp-prod-quarkus-3-1380",
+      "value": "NDIzZGMwNmQtOWM1NS00MTJlLWFmYWUtOTc4ZmMwOWRkNDg1Lm9EcHliVTJFLVpkdEdpTTExckVhV1JaTVFOcU5fbjVaWk93clhOUUZLeGdsaFU0c1dPZHN0c0pxalVzbHZPZ3lCVUpkMWZtcUl6REMxSEdpMEJMU2VR.kc-sp-prod-quarkus-2-15615",
       "domain": "auth.service-public.gouv.fr",
       "path": "/realms/service-public/",
       "expires": -1,
-      "size": 77,
+      "size": 206,
       "httpOnly": true,
       "secure": true,
       "session": true,
       "sameSite": "None",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "KC_RESTART",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Qk4PDC8Pq0oSQDUFcQse9g.E18wN0kBQnyqe7PbuipCk1iIjXTBErMwAnS42YhTgAgwd1TWOXHJxQudMVP0VZKW75WEGp1lTKCt9v6nzvYtggW5pYnzyaeveb8gdbuvAeFPKq3QSC90DE9598spbUXcPy_YdQTAJHv-1k75rirN0yoie6LPodCLXHtjKwJ0M4QVduxAvszl8BdozUnAz9Jo0mmZp2gk2hnejcHOd4r5aQtfYHJt0JCaWxJ5DVXQITsodB3fli86QqS0vn-aAI_CpVGGeFM1GH-blF2lnV388nvt97pBb-_J7LNOR67eKUIfd5StxcvNuUtfuJqrZGYRv9-C0iwTTSn-q7eIx1cOTJtSuj1oUt7eKq1RV0Quhp7VHowoyNXIjYXhKze94SD3PMuhiERxdyqEJaMgvFixUgwEvIuVN7zLu5vY7TEvzO5pKelqj7GQDTCpHfyuUrbbzurrsGGZIlL26p3UcjiQYZdoZoxO2O2Esub4fwtRpBjzN43wpMX97o7MlwgOcIcIt_b-pvYrlPK0pJkOFXqOLyxL1Uya7to9rsRHTfwyj3TZHz_8J1vk1g9o2_KT3hJkkzlyH3jIi_E_Eg-mNdK32tLuYlh1s5DMqG1oV7QquuupnPZfu6aCpqdWoo0daBJCJiYGJtP3tqaCY4eJf2tvWu39ykHph1TDUKY0vuYUwgwV883kztOLyZOTGEu2D0krLAaYk--N1Opm8XfneiabFMX1nWvXLfecUPHjk5s3WDE38XCrji2U0OTHzrXBKIa69Q_HHvAGYpwoh2RruUlpa8acPIcxAtJodtLExghaH20iO5NRa8BxE2Ssok8gGfsy5J6JoKHY9_GyM1y1ToYqN51S19Z5eerNo1dP-rqGLbNc9DPwJyBay3J9dqC6mxjFroYjPp6NqGBL_xxBUaiTMs2dZLQ1w92gZdN9ZnNj3lF9_ZDRxfPO0-p2aTGkNVQxxakyIEn1gUe0kHhqzN1FT1MGbWMDcI9xCuZEwnLqFSlGCTS_LHdlw-2289UFbhC7AVQgaiq1E_ukMXrsZiEkfWed9NS6_TTTFR2lkfj3sbc.iPaSW6PYFW8hZuTNjQwvYw",
+      "domain": "auth.service-public.gouv.fr",
+      "path": "/realms/service-public/",
+      "expires": -1,
+      "size": 1172,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS015ce0c6",
+      "value": "012a7f58e06f245ceb8ff7835f019978feb3c73b91a12c2712b87031e075365057dff72d453d356ff4f29e14291b5d475f4f89e92e9bac4233ab899e326aace4c2cd676d58",
+      "domain": ".service-public.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
-    "accept-ranges": "bytes",
-    "age": "0",
     "cache-control": "no-store, must-revalidate, max-age=0",
-    "content-encoding": "gzip",
+    "content-encoding": "br",
     "content-language": "en",
     "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
     "content-type": "text/html;charset=utf-8",
-    "date": "Wed, 15 Oct 2025 01:36:11 GMT",
+    "date": "Fri, 08 May 2026 18:33:19 GMT",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=054529b5-4517-42b4-94e6-915c1b82027e.kc-sp-prod-quarkus-3-1380; Version=1; Path=/realms/service-public/; SameSite=None; Secure; HttpOnly\nAUTH_SESSION_ID_LEGACY=054529b5-4517-42b4-94e6-915c1b82027e.kc-sp-prod-quarkus-3-1380; Version=1; Path=/realms/service-public/; Secure; HttpOnly\nKC_RESTART=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0MmEzNTg1Yy0xYTZkLTRhNjktYTcwNS1jY2EwNWM4MGI4YzcifQ.eyJjaWQiOiJzcGNsaWVudCIsInB0eSI6Im9wZW5pZC1jb25uZWN0IiwicnVyaSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJhY3QiOiJBVVRIRU5USUNBVEUiLCJub3RlcyI6eyJzY29wZSI6ImFkZHJlc3MgcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJpc3MiOiJodHRwczovL2F1dGguc2VydmljZS1wdWJsaWMuZ291di5mci9yZWFsbXMvc2VydmljZS1wdWJsaWMiLCJyZXNwb25zZV90eXBlIjoiY29kZSIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJzdGF0ZSI6InhDYkktZU9pTmVtSmxGajkzQjJBZFdhcFdkMkhOQUE2ZF9NNE9RYndXdms9Iiwibm9uY2UiOiJHYlBZVFBWd29MQkQ5ZnJOcGJUS3YweDhKSUY5LXB4RXdaXy1WLWwtQ0pNIn19.xihAU-TDk17jklIEU6Fbyu3C1QOzQ1yI7NtTsy0rDPM; Version=1; Path=/realms/service-public/; Secure; HttpOnly",
+    "set-cookie": "AUTH_SESSION_ID=NDIzZGMwNmQtOWM1NS00MTJlLWFmYWUtOTc4ZmMwOWRkNDg1Lm9EcHliVTJFLVpkdEdpTTExckVhV1JaTVFOcU5fbjVaWk93clhOUUZLeGdsaFU0c1dPZHN0c0pxalVzbHZPZ3lCVUpkMWZtcUl6REMxSEdpMEJMU2VR.kc-sp-prod-quarkus-2-15615; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None\nKC_AUTH_SESSION_HASH=NyvXz5MRAGvTpNbdOIm4jTXRvGq4OIl20tmudeyEJe0; Version=1; Path=/realms/service-public/; Max-Age=60; Secure; SameSite=Strict\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Qk4PDC8Pq0oSQDUFcQse9g.E18wN0kBQnyqe7PbuipCk1iIjXTBErMwAnS42YhTgAgwd1TWOXHJxQudMVP0VZKW75WEGp1lTKCt9v6nzvYtggW5pYnzyaeveb8gdbuvAeFPKq3QSC90DE9598spbUXcPy_YdQTAJHv-1k75rirN0yoie6LPodCLXHtjKwJ0M4QVduxAvszl8BdozUnAz9Jo0mmZp2gk2hnejcHOd4r5aQtfYHJt0JCaWxJ5DVXQITsodB3fli86QqS0vn-aAI_CpVGGeFM1GH-blF2lnV388nvt97pBb-_J7LNOR67eKUIfd5StxcvNuUtfuJqrZGYRv9-C0iwTTSn-q7eIx1cOTJtSuj1oUt7eKq1RV0Quhp7VHowoyNXIjYXhKze94SD3PMuhiERxdyqEJaMgvFixUgwEvIuVN7zLu5vY7TEvzO5pKelqj7GQDTCpHfyuUrbbzurrsGGZIlL26p3UcjiQYZdoZoxO2O2Esub4fwtRpBjzN43wpMX97o7MlwgOcIcIt_b-pvYrlPK0pJkOFXqOLyxL1Uya7to9rsRHTfwyj3TZHz_8J1vk1g9o2_KT3hJkkzlyH3jIi_E_Eg-mNdK32tLuYlh1s5DMqG1oV7QquuupnPZfu6aCpqdWoo0daBJCJiYGJtP3tqaCY4eJf2tvWu39ykHph1TDUKY0vuYUwgwV883kztOLyZOTGEu2D0krLAaYk--N1Opm8XfneiabFMX1nWvXLfecUPHjk5s3WDE38XCrji2U0OTHzrXBKIa69Q_HHvAGYpwoh2RruUlpa8acPIcxAtJodtLExghaH20iO5NRa8BxE2Ssok8gGfsy5J6JoKHY9_GyM1y1ToYqN51S19Z5eerNo1dP-rqGLbNc9DPwJyBay3J9dqC6mxjFroYjPp6NqGBL_xxBUaiTMs2dZLQ1w92gZdN9ZnNj3lF9_ZDRxfPO0-p2aTGkNVQxxakyIEn1gUe0kHhqzN1FT1MGbWMDcI9xCuZEwnLqFSlGCTS_LHdlw-2289UFbhC7AVQgaiq1E_ukMXrsZiEkfWed9NS6_TTTFR2lkfj3sbc.iPaSW6PYFW8hZuTNjQwvYw; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "vary": "Accept-Encoding",
+    "x-cacheable": "Not cacheable: uncacheable",
+    "x-cdn-pop": "bhs",
+    "x-cdn-pop-ip": "137.74.122.0/26",
     "x-content-type-options": "nosniff",
+    "x-cp-via": "C2-5850fd27-9a96112c",
     "x-frame-options": "SAMEORIGIN",
     "x-robots-tag": "none",
-    "x-varnish": "389045259",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -148,6 +180,146 @@
             "zh-CN": "法国"
           }
         }
+      }
+    },
+    {
+      "hostname": "try.abtasty.com",
+      "ip": "108.156.224.37",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "dcinfos-cache.abtasty.com",
+      "ip": "34.8.30.44",
+      "geoip": {
+        "city": {
+          "geoname_id": 4393217,
+          "names": {
+            "de": "Kansas City",
+            "en": "Kansas City",
+            "es": "Kansas City",
+            "fr": "Kansas City",
+            "ja": "カンザスシティ",
+            "pt-BR": "Kansas City",
+            "ru": "Канзас-Сити"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.1027,
+          "longitude": -94.5778,
+          "metro_code": 616,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "64184"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4398678,
+            "iso_code": "MO",
+            "names": {
+              "de": "Missouri",
+              "en": "Missouri",
+              "es": "Missouri",
+              "fr": "Missouri",
+              "ja": "ミズーリ州",
+              "pt-BR": "Missúri",
+              "ru": "Миссури",
+              "zh-CN": "密苏里州"
+            }
+          }
+        ]
       }
     }
   ]
