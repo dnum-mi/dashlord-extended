@@ -82,7 +82,7 @@
 "intermediate_cert_badOCSP","www.service-public.fr/160.92.168.33","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","www.service-public.fr/160.92.168.33","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","www.service-public.fr/160.92.168.33","443","INFO","-1 seconds from localtime","",""
-"HTTP_headerTime","www.service-public.fr/160.92.168.33","443","INFO","1778264349","",""
+"HTTP_headerTime","www.service-public.fr/160.92.168.33","443","INFO","1778267750","",""
 "HSTS","www.service-public.fr/160.92.168.33","443","LOW","not offered","",""
 "HPKP","www.service-public.fr/160.92.168.33","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","www.service-public.fr/160.92.168.33","443","INFO","No Server banner line in header, interesting!","",""

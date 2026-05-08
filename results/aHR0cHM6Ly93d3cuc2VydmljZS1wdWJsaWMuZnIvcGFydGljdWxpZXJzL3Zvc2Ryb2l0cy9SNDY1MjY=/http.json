@@ -9,22 +9,22 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 18:18:05 GMT",
+      "date": "Fri, 08 May 2026 19:15:02 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "vary": "Accept-Encoding",
-      "x-csrf-token": "e4871dbf-891d-44fd-9286-8b3cd558ff67",
+      "x-csrf-token": "42fe7f89-6119-41eb-b393-1697af634503",
       "cache-control": "max-age=0, s-maxage=28800, public",
-      "expires": "Fri, 08 May 2026 17:21:36 GMT",
+      "expires": "Fri, 08 May 2026 17:24:57 GMT",
       "x-content-type-options": "nosniff",
       "x-xss-protection": "0",
       "x-frame-options": "SAMEORIGIN",
       "content-language": "fr-FR",
-      "age": "3388",
+      "age": "6604",
       "set-cookie": [
-        "SP_SESSION=NThlZmRiYzAtM2UzOC00MGQxLThlYWMtZjM2MTU4MWJlMjE5; Domain=service-public.gouv.fr; Path=/; Secure; HttpOnly; SameSite=Lax",
-        "TS01ad993f=012a7f58e075bcc9de33c2464066e39ef8b80a60f0b4ced7804773264b3bbef0f7b15eaa712cccfdec7ce9c9c7557c2d8a8781c8ae; Path=/; Secure; HttpOnly",
-        "TS015ce0c6=012a7f58e0cfea53d440543f22a17dce8b4592f5dfb4ced7804773264b3bbef0f7b15eaa71adddf9e3dc5889759349dab27ca596a64484f4db7db19533a0b6984ef62f3b26; path=/; domain=service-public.gouv.fr; HttpOnly; Secure"
+        "SP_SESSION=NGFjMTNkODEtNjM1NS00YTY2LTgxMWEtZmE4NTNiMTZjZDE3; Domain=service-public.gouv.fr; Path=/; Secure; HttpOnly; SameSite=Lax",
+        "TS01ad993f=012a7f58e0bf0952f6ba9853294e7fba402aed3dfd9dcb595c38cf898f9bd6eff145ea3794c6ae0162fc0a6ea211880acb5153f458; Path=/; Secure; HttpOnly",
+        "TS015ce0c6=012a7f58e06cf3d25c7d2bcc7c42d5e1a5fdf22def9dcb595c38cf898f9bd6eff145ea3794e5df7e4312b4020028a50e50d4a4c11ebcfd355e7334ad8fcef011237901b7d9; path=/; domain=service-public.gouv.fr; HttpOnly; Secure"
       ],
       "access-control-allow-origin": "https://lannuaire.service-public.gouv.fr",
       "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization,  x-csrf-token",
@@ -36,7 +36,7 @@
       "cross-origin-opener-policy": "same-origin-allow-popups",
       "cross-origin-resource-policy": "cross-origin",
       "cross-origin-embedder-policy": "unsafe-none",
-      "x-sp-correlation-id": "1520489-1778264285.450-64.236.161.34-377-8991471",
+      "x-sp-correlation-id": "1520489-1778267702.023-172.208.127.197-379-9124034",
       "content-security-policy": "default-src 'self' *.service-public.fr *.gouv.fr; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.abtasty.com https://policevss.minint.chat https://gendarmerie-nationale.minint.chat *.gouv.fr *.service-public.fr; connect-src 'self' *.abtasty.com *.service-public.fr *.gouv.fr *.readspeaker.com; img-src 'self' data: *.service-public.fr *.gouv.fr *.abtasty.com; font-src 'self' data: *.service-public.fr *.gouv.fr *.abtasty.com; style-src 'self' 'unsafe-inline' *.service-public.fr *.gouv.fr *.abtasty.com; object-src 'none'; frame-src *.gouv.fr *.service-public.fr https://gendarmerie-nationale.minint.chat https://policevss.minint.chat https://dggn.my.site.com https://www.youtube.com https://www.dailymotion.com https://vimeo.com https://www.youtube-nocookie.com *.readspeaker.com *.abtasty.com; frame-ancestors 'self' https://www.service-public.gouv.fr https://entreprendre.service-public.gouv.fr",
       "transfer-encoding": "chunked"
     }

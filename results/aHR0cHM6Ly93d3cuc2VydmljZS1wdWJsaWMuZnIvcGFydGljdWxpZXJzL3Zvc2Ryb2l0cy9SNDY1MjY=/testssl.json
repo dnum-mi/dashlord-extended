@@ -591,7 +591,7 @@
               "ip"           : "www.service-public.fr/160.92.168.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778264349"
+              "finding"      : "1778267750"
           }
 ,         {
               "id"           : "HSTS",
@@ -1154,6 +1154,6 @@
               "ip"           : "www.service-public.fr/160.92.168.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "88"
+              "finding"      : "66"
           }
 ]
