@@ -1,5 +1,5 @@
 title: Tableau de bord
-description: Bonnes pratiques techniques
+description: Bonnes pratiques techniques étendues
 entity: Ministère de l'intérieur
 footer: Powered by DTNUM MI
 marianne: true
@@ -7,14 +7,14 @@ matomoId: 6
 matomoUrl: https://matomo.sdid-app.cpin.numerique-interieur.com
 tools:
   404: false
-  screenshot: true
+  screenshot: false
   nmap: false
-  zap: false
-  wappalyzer: false
-  http: false
+  zap: true
+  wappalyzer: true
+  http: true
   testssl: true
   lighthouse: true
-  thirdparties: false
+  thirdparties: true
   nuclei: false
   updownio: true
   dependabot: false

@@ -40,10 +40,9 @@ jobs:
           default_author: "github_actions"
           message: "chore: report update"
 
-      # deploy build to gh-pages
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.9
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
         with:
-          branch: gh-pages
-          folder: build
-
+          name: build-output
+          path: build/
+          retention-days: 2
