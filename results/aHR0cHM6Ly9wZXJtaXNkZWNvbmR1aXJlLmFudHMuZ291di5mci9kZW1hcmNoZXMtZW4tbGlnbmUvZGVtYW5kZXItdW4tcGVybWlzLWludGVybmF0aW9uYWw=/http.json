@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:53:02 GMT",
+      "date": "Fri, 08 May 2026 20:24:06 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=NQ62WLH53Q3OMQXPEC4AWBXFWVQEBVXM4VH5UISZ3GQPFGIXA7I7B3D2X3IQXTPCE23JR6FOLIXPCKRKLOKJFOIZ7DNMDVAH35NUDU5E75QHT5QU4OEA====; Path=/"
+        "bot_mitigation_cookie=LLOU76OZSX2GUNFFHVQYSYCWWTMNVFVHKDVOLJV7HWTVUNH4R2SPA3C2TENXQ5CZFV4KLA7GQJIEGMVM54HSIJOTDHPHKC5VXR2PNRNZPUMXKCIQJ7DQ====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "236",
-      "x-cp-via": "C2-b1cd852e-7a9f7bee",
+      "content-length": "235",
+      "x-cp-via": "C3-c51f7061-9969a0b4",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/demander-un-permis-international",
       "redirects": true,
