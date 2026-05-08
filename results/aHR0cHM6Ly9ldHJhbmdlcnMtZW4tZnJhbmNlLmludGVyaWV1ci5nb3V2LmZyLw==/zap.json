@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 18:08:52",
-	"created": "2026-05-08T18:08:52.396040725Z",
+	"@generated": "Fri, 8 May 2026 19:03:59",
+	"created": "2026-05-08T19:03:59.963773480Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -137,19 +137,9 @@
 							"attack": "",
 							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
 							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
-						},
-						{
-							"id": "47",
-							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
-							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The directive(s): form-action is/are among the directives that do not fallback to default-src.</p>",
@@ -187,19 +177,9 @@
 							"attack": "",
 							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nimg-src"
-						},
-						{
-							"id": "52",
-							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
-							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nimg-src"
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</p><p>img-src</p>",
@@ -229,7 +209,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "11",
+							"id": "12",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -237,19 +217,9 @@
 							"attack": "",
 							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
 							"otherinfo": "style-src includes unsafe-inline."
-						},
-						{
-							"id": "55",
-							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
-							"otherinfo": "style-src includes unsafe-inline."
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
@@ -269,7 +239,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -279,7 +249,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "23",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -289,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "59",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -337,19 +307,9 @@
 							"attack": "",
 							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
 							"otherinfo": "Errors:\nExpecting RFC 7230 token but found \"https://hipe-api-ext.ofii.fr/api/csp-report\"\nWarnings:\nDuplicate host https://hipe-strapi-3.ofii.fr\nDuplicate host https://sso.anef.dgef.interieur.gouv.fr/auth/\nThe report-uri directive has been deprecated in favor of the new report-to directive\n"
-						},
-						{
-							"id": "45",
-							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
-							"otherinfo": "Errors:\nExpecting RFC 7230 token but found \"https://hipe-api-ext.ofii.fr/api/csp-report\"\nWarnings:\nDuplicate host https://hipe-strapi-3.ofii.fr\nDuplicate host https://sso.anef.dgef.interieur.gouv.fr/auth/\nThe report-uri directive has been deprecated in favor of the new report-to directive\n"
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>Errors:</p><p>Expecting RFC 7230 token but found \"https://hipe-api-ext.ofii.fr/api/csp-report\"</p><p>Warnings:</p><p>Duplicate host https://hipe-strapi-3.ofii.fr</p><p>Duplicate host https://sso.anef.dgef.interieur.gouv.fr/auth/</p><p>The report-uri directive has been deprecated in favor of the new report-to directive</p><p></p>",
@@ -369,7 +329,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "11",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -379,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "68",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/apple-touch-icon.png?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/apple-touch-icon.png (v)",
 							"method": "GET",
@@ -389,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "73",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/favicon.svg?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/favicon.svg (v)",
 							"method": "GET",
@@ -409,7 +369,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "54",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -449,7 +409,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "70",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/apple-touch-icon.png?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/apple-touch-icon.png (v)",
 							"method": "GET",
@@ -459,7 +419,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "75",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/favicon.svg?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/favicon.svg (v)",
 							"method": "GET",
@@ -479,7 +439,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "56",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -519,7 +479,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "69",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/apple-touch-icon.png?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/apple-touch-icon.png (v)",
 							"method": "GET",
@@ -529,7 +489,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/favicon.svg?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/favicon.svg (v)",
 							"method": "GET",
@@ -549,7 +509,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "55",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -599,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "57",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -629,7 +589,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "30",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -639,7 +599,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "50",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -649,7 +609,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "66",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -679,7 +639,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "31",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -689,7 +649,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "51",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -699,7 +659,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "67",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -729,7 +689,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "29",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -739,7 +699,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "72",
+							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/apple-touch-icon.png?v=1.14.2",
+							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/apple-touch-icon.png (v)",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "49",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -749,7 +719,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "65",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -759,7 +729,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
@@ -779,7 +749,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "112",
+							"id": "109",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/static/js/main.a8f29d2d.js",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/static\/js\/main.a8f29d2d.js",
 							"method": "GET",
@@ -809,7 +779,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "111",
+							"id": "108",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/dsfr.min.css?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/dsfr.min.css (v)",
 							"method": "GET",
@@ -819,7 +789,7 @@
 							"otherinfo": "\uFFFDo\uFFFD~\uFFFD\uFFFD~/\uFFFD\\x001dzW\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFDey\uFFFDn"
 						},
 						{
-							"id": "109",
+							"id": "106",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/static/css/main.98573455.css",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/static\/css\/main.98573455.css",
 							"method": "GET",
@@ -829,7 +799,7 @@
 							"otherinfo": "\uFFFD\\x001eU\uFFFD}\uFFFD\uFFFD\\x001d\uFFFD\uFFFD9\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDew\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "117",
+							"id": "114",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/static/js/main.a8f29d2d.js",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/static\/js\/main.a8f29d2d.js",
 							"method": "GET",
@@ -859,7 +829,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "103",
+							"id": "96",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/readspeaker-config.js",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/readspeaker-config.js",
 							"method": "GET",
@@ -909,7 +879,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "62",
+							"id": "58",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -939,7 +909,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "28",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -949,7 +919,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "86",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/manifest.webmanifest?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/manifest.webmanifest (v)",
 							"method": "GET",
@@ -959,7 +929,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "102",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/env-config.js",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/env-config.js",
 							"method": "GET",
@@ -969,7 +939,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "48",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -979,7 +949,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "64",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1009,7 +979,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1019,7 +989,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1029,7 +999,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "53",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1059,7 +1029,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "26",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1069,7 +1039,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "46",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1077,9 +1047,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "62",
+							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1099,7 +1079,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "25",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1109,7 +1089,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "45",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1117,9 +1097,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "61",
+							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1149,7 +1139,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "44",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1157,9 +1147,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "60",
+							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1179,7 +1179,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "27",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1189,7 +1189,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "47",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1197,9 +1197,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "63",
+							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1219,7 +1229,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "1",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1229,7 +1239,7 @@
 							"otherinfo": "cookie:TS0147c866"
 						},
 						{
-							"id": "83",
+							"id": "81",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/manifest.webmanifest?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/manifest.webmanifest (v)",
 							"method": "GET",
@@ -1239,7 +1249,7 @@
 							"otherinfo": "cookie:TS0147c866"
 						},
 						{
-							"id": "1",
+							"id": "0",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1249,7 +1259,7 @@
 							"otherinfo": "cookie:TS0147c866"
 						},
 						{
-							"id": "40",
+							"id": "52",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1266,7 +1276,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1279,7 +1289,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "82",
+							"id": "71",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/apple-touch-icon.png?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/apple-touch-icon.png (v)",
 							"method": "GET",
@@ -1289,7 +1299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "92",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/favicon.ico?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/favicon.ico (v)",
 							"method": "GET",
@@ -1299,7 +1309,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "79",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/favicon/favicon.svg?v=1.14.2",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/favicon\/favicon.svg (v)",
 							"method": "GET",
@@ -1309,7 +1319,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
+							"id": "98",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/dsfr/utility/icons/icons.min.css?hash=f0d326ba",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/dsfr\/utility\/icons\/icons.min.css (hash)",
 							"method": "GET",
@@ -1319,7 +1329,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "97",
 							"uri": "https://etrangers-en-france.interieur.gouv.fr/readspeaker-config.js",
 							"nodeName": "https:\/\/etrangers-en-france.interieur.gouv.fr\/readspeaker-config.js",
 							"method": "GET",
@@ -1336,7 +1346,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "22"
+					"sourceid": "19"
 				}
 			]
 		}
