@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "m1nvo0l8fu8giqcil4trbruq64",
+      "value": "dgs0vuu5fa7ga43lbsosj55ak3",
       "domain": "www.charente.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 05:33:33 GMT",
-    "expires": "Wed, 15 Oct 2025 03:33:33 GMT",
-    "last-modified": "Wed, 15 Oct 2025 05:33:33 GMT",
+    "date": "Fri, 08 May 2026 21:21:50 GMT",
+    "expires": "Fri, 08 May 2026 19:21:50 GMT",
+    "last-modified": "Fri, 08 May 2026 21:21:50 GMT",
     "pragma": "no-cache",
     "served-by": "www.charente.gouv.fr",
-    "set-cookie": "eZSESSID=m1nvo0l8fu8giqcil4trbruq64; path=/",
+    "set-cookie": "eZSESSID=dgs0vuu5fa7ga43lbsosj55ak3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
