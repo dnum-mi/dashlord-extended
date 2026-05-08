@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:10:39 GMT",
+      "date": "Fri, 08 May 2026 18:26:32 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=Z6YUQAGQENC5SE6I2RWWFI77HGTFRZQBB5VNS27SMVNEBUVDTHQV3DRUP4U5PZUKZ3UFD62CH5UNVFG5G24IZIUARR46IWLZG6ER5SEJOGVNXVYCBHHA====; Path=/"
+        "bot_mitigation_cookie=YLWABRW3PAMIHDFN662RRK6NTE5LH5CQMLKYG3GJPWLSXZ5XYUQ26XAXAH6DVHSQD7AR2ETRIXHO4LFBXUPO27P7VXZGM5PEGV5IUI44NP66B55QUJVA====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "255",
-      "x-cp-via": "C2-0c45e69d-83eabafb",
+      "content-length": "254",
+      "x-cp-via": "C2-3f1b0492-e873f000",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "passeport.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
       "redirects": true,
