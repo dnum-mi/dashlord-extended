@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 18:34:37",
-	"created": "2026-05-08T18:34:37.392572908Z",
+	"@generated": "Fri, 8 May 2026 19:29:56",
+	"created": "2026-05-08T19:29:56.939858772Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -101,7 +101,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "21",
 							"uri": "https://maprocuration.gouv.fr/",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/",
 							"method": "GET",
@@ -141,7 +141,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "17",
 							"uri": "https://maprocuration.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -151,7 +151,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "8",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -181,7 +181,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "20",
 							"uri": "https://maprocuration.gouv.fr/",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/",
 							"method": "GET",
@@ -221,17 +221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
-							"uri": "https://maprocuration.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "20",
+							"id": "11",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -241,7 +231,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -271,17 +261,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
-							"uri": "https://maprocuration.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "19",
+							"id": "10",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -291,7 +271,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -321,17 +301,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
-							"uri": "https://maprocuration.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "16",
+							"id": "9",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -341,7 +311,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -371,17 +341,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
-							"uri": "https://maprocuration.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "21",
+							"id": "12",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -391,7 +351,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -421,7 +381,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "25",
+							"id": "19",
 							"uri": "https://maprocuration.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -431,7 +391,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "22",
+							"id": "13",
 							"uri": "https://maprocuration.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/maprocuration.gouv.fr\/sitemap.xml",
 							"method": "GET",
