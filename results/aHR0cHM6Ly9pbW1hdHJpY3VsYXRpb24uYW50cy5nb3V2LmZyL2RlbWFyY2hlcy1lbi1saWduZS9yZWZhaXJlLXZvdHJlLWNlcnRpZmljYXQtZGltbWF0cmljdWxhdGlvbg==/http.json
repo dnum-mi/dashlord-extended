@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:40:16 GMT",
+      "date": "Fri, 08 May 2026 20:08:08 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=N3FDC2OMELENWGESRMB562BGHWL4K7L7PVO2CF4KIY5JHXBOKLYDKHADLWJUAGG5UIQJ3MRSFDAR7HF6V3MGRO2SU3CWQF6BVVJKXD5CMD2XCIOFZECA====; Path=/"
+        "bot_mitigation_cookie=WZ7RYUYR3U43PDFRKEWXCC3COCWAO2PD4ZIPYGAG7LB7HIBNYZRGWM2MX3Z3WE6JPNAXLPK2OZ3AZW6NPHG5C3RV2QHTZOR3VRJA2TRAF2C4XSEIB3LQ====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "244",
-      "x-cp-via": "C2-28072e72-5a6bbbce",
+      "content-length": "245",
+      "x-cp-via": "C2-e28935a7-7a08840f",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "immatriculation.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/refaire-votre-certificat-dimmatriculation",
       "redirects": true,
