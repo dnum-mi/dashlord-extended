@@ -13,14 +13,14 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "98eb95de58e63ce1-CDG",
+    "cf-ray": "9f8a8aca1e113cf2-CDG",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 15 Oct 2025 01:36:25 GMT",
+    "date": "Fri, 08 May 2026 18:31:34 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
-    "server-timing": "cfOrigin;dur=0,cfEdge;dur=7",
+    "server-timing": "cfOrigin;dur=0,cfEdge;dur=9",
     "vary": "Accept-Encoding",
     "x-frame-options": "SAMEORIGIN"
   },
@@ -83,7 +83,7 @@
     },
     {
       "hostname": "static.cloudflareinsights.com",
-      "ip": "104.16.79.73",
+      "ip": "104.16.80.73",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -92,7 +92,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
