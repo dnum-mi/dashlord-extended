@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "654dlg9pi2db557446m494vuh1",
+      "value": "ni833h5ahti7m05f4bn8gpms20",
       "domain": "www.haute-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 08:22:12 GMT",
-    "expires": "Wed, 15 Oct 2025 06:22:12 GMT",
-    "last-modified": "Wed, 15 Oct 2025 08:22:12 GMT",
+    "date": "Fri, 08 May 2026 22:48:14 GMT",
+    "expires": "Fri, 08 May 2026 20:48:14 GMT",
+    "last-modified": "Fri, 08 May 2026 22:48:14 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-loire.gouv.fr",
-    "set-cookie": "eZSESSID=654dlg9pi2db557446m494vuh1; path=/",
+    "set-cookie": "eZSESSID=ni833h5ahti7m05f4bn8gpms20; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
