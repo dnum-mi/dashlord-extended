@@ -17,32 +17,8 @@
       "url": "https://genii-api.tolk.ai/v1/projects/5e05e2c5-2a6c-401f-b529-77b6aeeb5435/widget-webchat"
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://genii-script.tolk.ai/main.css"
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://genii-script.tolk.ai/main.css"
-    },
-    {
       "type": "google",
-      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/avatars/6d5449f9-95ed-46c1-bd24-60298cfb94e9.png",
+      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/css/custom.css",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -50,77 +26,74 @@
     },
     {
       "type": "google",
-      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/avatars/6d5449f9-95ed-46c1-bd24-60298cfb94e9.png",
+      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/css/%20//cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.11/dist/fonts/Marianne-Light.woff2",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "type": "google",
+      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/css/%20//cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.11/dist/fonts/Marianne-Regular.woff2",
       "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "type": "google",
+      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/css/%20//cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.11/dist/fonts/Marianne-Medium.woff2",
       "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "type": "google",
+      "url": "https://storage.googleapis.com/genii-public/project-5e05e2c5-2a6c-401f-b529-77b6aeeb5435/css/%20//cdn.jsdelivr.net/npm/@gouvfr/dsfr@1.11/dist/fonts/Marianne-Bold.woff2",
       "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     }
   ],
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "bot_mitigation_cookie",
+      "value": "P6BL7NZCQVLDLBMYA5BNIMWTAK7FMNU45ELBHFOTYVIDUANZS3TRN7L2WM6TWQ7R3AX7XL7R27DDASBHMVH7LG3VVIPIZOTP5XREXBEYH5GT2===",
+      "domain": "permisdeconduire.ants.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 133,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    }
+  ],
   "headers": {
-    "content-encoding": "gzip",
-    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-1519db4a-494b-4cb0-96e3-cf41255257cf' https://captcha.liveidentity.com https://cdn.woopic.com/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self'\nframe-ancestors 'self'",
+    "content-encoding": "br",
+    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-57950923-2d65-470d-9b08-4079ad9928ec' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self'\nframe-ancestors 'self'",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 03:12:28 GMT",
+    "date": "Fri, 08 May 2026 20:09:32 GMT",
+    "etag": "W/\"1176e4-3LJXG6eXcgggnYTfBQQpE00Upz4\"",
     "permissions-policy": "geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()\ncamera=(), geolocation=(), microphone=()",
     "referrer-policy": "strict-origin-when-cross-origin\nstrict-origin-when-cross-origin",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff\nnosniff",
+    "x-cp-via": "C3-592891fc-9969a0b4",
     "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
     "x-xss-protection": "0\n1; mode=block"
   },
   "endpoints": [
     {
       "hostname": "permisdeconduire.ants.gouv.fr",
-      "ip": "66.22.33.163",
+      "ip": "87.98.187.73",
       "geoip": {
-        "city": {
-          "geoname_id": 2925533,
-          "names": {
-            "de": "Frankfurt am Main",
-            "en": "Frankfurt am Main",
-            "es": "Francfort",
-            "fr": "Francfort-sur-le-Main",
-            "ja": "フランクフルト・アム・マイン",
-            "pt-BR": "Frankfurt am Main",
-            "ru": "Франкфурт",
-            "zh-CN": "法兰克福"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -136,64 +109,46 @@
           }
         },
         "country": {
-          "geoname_id": 2921044,
+          "geoname_id": 3017382,
           "is_in_european_union": true,
-          "iso_code": "DE",
+          "iso_code": "FR",
           "names": {
-            "de": "Deutschland",
-            "en": "Germany",
-            "es": "Alemania",
-            "fr": "Allemagne",
-            "ja": "ドイツ連邦共和国",
-            "pt-BR": "Alemanha",
-            "ru": "ФРГ",
-            "zh-CN": "德国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
-          "accuracy_radius": 20,
-          "latitude": 50.1169,
-          "longitude": 8.6837,
-          "time_zone": "Europe/Berlin"
-        },
-        "postal": {
-          "code": "60313"
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 2905330,
-            "iso_code": "HE",
-            "names": {
-              "de": "Hessen",
-              "en": "Hesse",
-              "es": "Hessen",
-              "fr": "Hesse",
-              "ja": "ヘッセン州",
-              "pt-BR": "Hesse",
-              "ru": "Гессен",
-              "zh-CN": "黑森州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "genii-script.tolk.ai",
-      "ip": "172.66.47.39",
+      "ip": "172.66.44.217",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -202,7 +157,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -213,21 +168,8 @@
     },
     {
       "hostname": "genii-api.tolk.ai",
-      "ip": "35.195.172.110",
+      "ip": "142.44.55.113",
       "geoip": {
-        "city": {
-          "geoname_id": 2800866,
-          "names": {
-            "de": "Brüssel",
-            "en": "Brussels",
-            "es": "Bruselas",
-            "fr": "Bruxelles",
-            "ja": "ブリュッセル",
-            "pt-BR": "Bruxelas",
-            "ru": "Брюссель",
-            "zh-CN": "布鲁塞尔"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -243,118 +185,46 @@
           }
         },
         "country": {
-          "geoname_id": 2802361,
+          "geoname_id": 3017382,
           "is_in_european_union": true,
-          "iso_code": "BE",
+          "iso_code": "FR",
           "names": {
-            "de": "Belgien",
-            "en": "Belgium",
-            "es": "Bélgica",
-            "fr": "Belgique",
-            "ja": "ベルギー王国",
-            "pt-BR": "Bélgica",
-            "ru": "Бельгия",
-            "zh-CN": "比利时"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 50.8534,
-          "longitude": 4.347,
-          "time_zone": "Europe/Brussels"
-        },
-        "postal": {
-          "code": "1000"
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 2800867,
-            "iso_code": "BRU",
-            "names": {
-              "de": "Region Brüssel-Hauptstadt",
-              "en": "Brussels Capital",
-              "es": "Bruselas",
-              "fr": "Bruxelles-Capitale",
-              "ja": "ブリュッセル",
-              "pt-BR": "Bruxelas",
-              "ru": "Брюссельский столичный регион",
-              "zh-CN": "布鲁塞尔首都大区"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "fonts.googleapis.com",
-      "ip": "142.250.31.95",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         }
       }
     },
     {
       "hostname": "storage.googleapis.com",
-      "ip": "172.253.62.207",
+      "ip": "108.177.121.207",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +247,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -397,61 +267,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",

@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:46:51 GMT",
+      "date": "Fri, 08 May 2026 20:14:13 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=UJ6FP5TFMPTIHU72TYH7UIWI4PQZWO6XPBQHYQCVFOUFB2FNRK6JMDCAVUO2UTIQGBJ3IHDPKH2QNU6OBSSHXMFYZ4JRDOPFT6LRZGUIZNBDJYJW6L5A====; Path=/"
+        "bot_mitigation_cookie=MAYTRQAQ73DHCC3JKEITNA5SH255FPOXC6S5QUPU3N4NBXVV3RW2S7XTPEKFQNUALUM5UIWYISNU65YP3R4UILM54DWIQJJTK5555ZE5O2EBWJ4QD2LQ====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "232",
-      "x-cp-via": "C3-57213670-d765cb8d",
+      "content-length": "231",
+      "x-cp-via": "C3-8a6fcd50-118bc0c0",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/perte-ou-vol-de-permis",
       "redirects": true,
