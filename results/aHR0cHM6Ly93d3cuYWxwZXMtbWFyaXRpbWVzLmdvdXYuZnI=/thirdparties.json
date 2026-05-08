@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "n0lf5f2c7k32e3511lqrh6pur6",
+      "value": "p0gjrcdrnv2vt6knuuaiv3maa3",
       "domain": "www.alpes-maritimes.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 04:23:37 GMT",
-    "expires": "Wed, 15 Oct 2025 02:23:37 GMT",
-    "last-modified": "Wed, 15 Oct 2025 04:23:37 GMT",
+    "date": "Fri, 08 May 2026 20:47:23 GMT",
+    "expires": "Fri, 08 May 2026 18:47:23 GMT",
+    "last-modified": "Fri, 08 May 2026 20:47:23 GMT",
     "pragma": "no-cache",
     "served-by": "www.alpes-maritimes.gouv.fr",
-    "set-cookie": "eZSESSID=n0lf5f2c7k32e3511lqrh6pur6; path=/",
+    "set-cookie": "eZSESSID=p0gjrcdrnv2vt6knuuaiv3maa3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
