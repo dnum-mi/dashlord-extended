@@ -25,13 +25,12 @@
   "headers": {
     "accept-ranges": "bytes",
     "connection": "Keep-Alive",
-    "content-length": "75436",
+    "content-length": "79226",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 15 Oct 2025 00:40:48 GMT",
-    "etag": "\"126ac-64006af1a9400\"",
+    "date": "Fri, 08 May 2026 18:04:11 GMT",
+    "etag": "\"1357a-65031e623f640\"",
     "keep-alive": "timeout=5, max=100",
-    "last-modified": "Tue, 30 Sep 2025 15:48:32 GMT",
-    "server": "Apache",
+    "last-modified": "Fri, 24 Apr 2026 10:05:05 GMT",
     "x-frame-options": "DENY",
     "x-xss-protection": "1; mode=block"
   },
@@ -40,19 +39,6 @@
       "hostname": "www.antai.gouv.fr",
       "ip": "90.102.74.9",
       "geoip": {
-        "city": {
-          "geoname_id": 2988507,
-          "names": {
-            "de": "Paris",
-            "en": "Paris",
-            "es": "París",
-            "fr": "Paris",
-            "ja": "パリ",
-            "pt-BR": "Paris",
-            "ru": "Париж",
-            "zh-CN": "巴黎"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -83,13 +69,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
+          "accuracy_radius": 200,
           "latitude": 48.8558,
           "longitude": 2.3494,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "75020"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -119,16 +102,6 @@
               "pt-BR": "Ilha de França",
               "ru": "Иль-де-Франс",
               "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2968815,
-            "iso_code": "75",
-            "names": {
-              "de": "Paris",
-              "en": "Paris",
-              "es": "Paris",
-              "fr": "Paris"
             }
           }
         ]
@@ -181,7 +154,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
+          "accuracy_radius": 20,
           "latitude": 50.8534,
           "longitude": 4.347,
           "time_zone": "Europe/Brussels"
@@ -196,7 +169,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -223,7 +196,7 @@
     },
     {
       "hostname": "storage.googleapis.com",
-      "ip": "142.250.189.187",
+      "ip": "142.251.218.123",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -246,7 +219,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
@@ -266,7 +239,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
