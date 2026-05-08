@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "00i1k0mup03f0lrndjub9pf7k1",
+      "value": "avh3nsita816lqvfjgf10aocp3",
       "domain": "www.aisne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -22,13 +22,14 @@
     "cache-control": "must-revalidate, no-cache, private",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
+    "content-length": "15696",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 04:01:36 GMT",
-    "expires": "Wed, 15 Oct 2025 02:01:36 GMT",
-    "last-modified": "Wed, 15 Oct 2025 04:01:36 GMT",
+    "date": "Fri, 08 May 2026 20:36:05 GMT",
+    "expires": "Fri, 08 May 2026 18:36:05 GMT",
+    "last-modified": "Fri, 08 May 2026 20:36:05 GMT",
     "pragma": "no-cache",
     "served-by": "www.aisne.gouv.fr",
-    "set-cookie": "eZSESSID=00i1k0mup03f0lrndjub9pf7k1; path=/",
+    "set-cookie": "eZSESSID=avh3nsita816lqvfjgf10aocp3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
