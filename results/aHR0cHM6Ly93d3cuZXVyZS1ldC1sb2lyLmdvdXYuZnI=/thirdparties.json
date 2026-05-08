@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "9dvs11tl0ne3gddd9a6hc6i8e3",
+      "value": "2crqu88tbvh28743i3kf5b13g5",
       "domain": "www.eure-et-loir.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 06:49:35 GMT",
-    "expires": "Wed, 15 Oct 2025 04:49:35 GMT",
-    "last-modified": "Wed, 15 Oct 2025 06:49:35 GMT",
+    "date": "Fri, 08 May 2026 21:59:25 GMT",
+    "expires": "Fri, 08 May 2026 19:59:25 GMT",
+    "last-modified": "Fri, 08 May 2026 21:59:25 GMT",
     "pragma": "no-cache",
     "served-by": "www.eure-et-loir.gouv.fr",
-    "set-cookie": "eZSESSID=9dvs11tl0ne3gddd9a6hc6i8e3; path=/",
+    "set-cookie": "eZSESSID=2crqu88tbvh28743i3kf5b13g5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
