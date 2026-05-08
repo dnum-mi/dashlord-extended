@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "bqbqcgu2gjm68chu03bitfqlu3",
+      "value": "ib47s32lthjbllt2hd8u0gbg10",
       "domain": "www.doubs.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 06:28:36 GMT",
-    "expires": "Wed, 15 Oct 2025 04:28:36 GMT",
-    "last-modified": "Wed, 15 Oct 2025 06:28:36 GMT",
+    "date": "Fri, 08 May 2026 21:49:41 GMT",
+    "expires": "Fri, 08 May 2026 19:49:41 GMT",
+    "last-modified": "Fri, 08 May 2026 21:49:41 GMT",
     "pragma": "no-cache",
     "served-by": "www.doubs.gouv.fr",
-    "set-cookie": "eZSESSID=bqbqcgu2gjm68chu03bitfqlu3; path=/",
+    "set-cookie": "eZSESSID=ib47s32lthjbllt2hd8u0gbg10; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
