@@ -206,7 +206,7 @@
               "ip"           : "application-form.france-visas.gouv.fr/172.65.182.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -556,7 +556,7 @@
               "ip"           : "application-form.france-visas.gouv.fr/172.65.182.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778264311"
+              "finding"      : "1778267624"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1133,6 +1133,6 @@
               "ip"           : "application-form.france-visas.gouv.fr/172.65.182.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "129"
           }
 ]
