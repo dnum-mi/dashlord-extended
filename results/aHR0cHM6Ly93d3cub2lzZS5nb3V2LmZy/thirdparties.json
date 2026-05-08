@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "14u087ddh14r48mdkvlp2s1vs3",
+      "value": "ni9ef07tiq0kd2reuf2p03sce5",
       "domain": "www.oise.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 10:08:17 GMT",
-    "expires": "Wed, 15 Oct 2025 08:08:17 GMT",
-    "last-modified": "Wed, 15 Oct 2025 10:08:17 GMT",
+    "date": "Fri, 08 May 2026 23:44:31 GMT",
+    "expires": "Fri, 08 May 2026 21:44:31 GMT",
+    "last-modified": "Fri, 08 May 2026 23:44:31 GMT",
     "pragma": "no-cache",
     "served-by": "www.oise.gouv.fr",
-    "set-cookie": "eZSESSID=14u087ddh14r48mdkvlp2s1vs3; path=/",
+    "set-cookie": "eZSESSID=ni9ef07tiq0kd2reuf2p03sce5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
