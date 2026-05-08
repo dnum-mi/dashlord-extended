@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:11:26 GMT",
+      "date": "Fri, 08 May 2026 18:28:05 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=UWCGAW2D6XWJXVZS2CPYJGWQJ7QH47BVSFWUQB6IF465EUTHWPGFD36QSEOCTW6WBZTYTIUW2ZHQMMGAZGZYFEUSRROTMDOLKRYVDOXYQST6ANISXAKQ====; Path=/"
+        "bot_mitigation_cookie=DEYWX6YDCL3I2IEYP6WBKFOVEMMKNOYELCPCHUSQBMQE74AFM5FW7Y7G6WFTERGUBAO257P3QYUZA3ZMBF7TOCUPCEYU2SVKBZKPDGX5VN7HZFV77R2Q====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
       "content-length": "240",
-      "x-cp-via": "C3-f46acecb-124297ac",
+      "x-cp-via": "C3-49429c6b-329ea1b3",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "passeport.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-passeport",
       "redirects": true,
