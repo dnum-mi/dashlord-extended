@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:23:53 GMT",
+      "date": "Fri, 08 May 2026 18:46:28 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=TAZBLZB4PD5IWVAUT32TYFIVBLMIEWCTUBK6TTVYWCRTNW3MK6TIYNBF4JOGZIFXAJJQTDTIMWYTFSITMHG5G64UE7RP7KGMMVII7TOUGSRYMPXY7QRA====; Path=/"
+        "bot_mitigation_cookie=HSMI2JKCORNCKVCJFR3TMRIXNV3N4YADERM3QDS4UP54G7DN4MGPHSG4NGPBATXUMMALKOAIYPCJKDYSYEBRDP6XULI3KG6UA7C4MLFOWDZHBSOIQ66A====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "202",
-      "x-cp-via": "C2-9d167049-22bb601e",
+      "content-length": "200",
+      "x-cp-via": "C3-d4139478-4e09fe65",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "immatriculation.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://immatriculation.ants.gouv.fr/",
       "redirects": true,
