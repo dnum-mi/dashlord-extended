@@ -39,10 +39,13 @@ jobs:
           add: '["report.json"]'
           default_author: "github_actions"
           message: "chore: report update"
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-output
-          path: build/
-          retention-days: 2
+  upload:
+    runs-on: ubuntu-latest
+    name: Upload
+    needs: website
+    steps:
+        - uses: actions/upload-artifact@v4
+          with:
+            name: build-output
+            path: build/
+            retention-days: 2
