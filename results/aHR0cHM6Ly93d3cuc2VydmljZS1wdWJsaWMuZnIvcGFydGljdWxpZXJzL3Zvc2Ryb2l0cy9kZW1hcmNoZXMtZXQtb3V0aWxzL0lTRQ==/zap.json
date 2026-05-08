@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 18:36:54",
-	"created": "2026-05-08T18:36:54.822134138Z",
+	"@generated": "Fri, 8 May 2026 19:31:47",
+	"created": "2026-05-08T19:31:47.336963394Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://www.service-public.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "16"
 		}
 	],
 	"site":[ 
@@ -85,7 +85,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form id=\"kc-form-login\" action=\"https://auth.service-public.gouv.fr/realms/service-public/login-actions/authenticate?session_code=4VURWXoW210TJaMUnHzv_ErkPX23MHNoDhU7FpaIDxA&amp;execution=ef12b63a-2154-4cae-bd25-1ce9489b4fdf&amp;client_id=spclient&amp;tab_id=G9rkHqDZHfA&amp;client_data=eyJydSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJydCI6ImNvZGUiLCJzdCI6IkM0ZUZ5MTRZa1k3WXJhMnNfUDNmWXJUTWw3cUVMeEtRWEd2dXNrUFUxQXc9In0\" method=\"post\">",
+							"evidence": "<form id=\"kc-form-login\" action=\"https://auth.service-public.gouv.fr/realms/service-public/login-actions/authenticate?session_code=kUj9sg3cBfajU2p9RIjUIqOAaPHV73PKeLypr4t5CqA&amp;execution=ef12b63a-2154-4cae-bd25-1ce9489b4fdf&amp;client_id=spclient&amp;tab_id=0Cy8QOcShXk&amp;client_data=eyJydSI6Imh0dHBzOi8vd3d3LnNlcnZpY2UtcHVibGljLmdvdXYuZnIvb3BlbmlkX2Nvbm5lY3RfbG9naW4iLCJydCI6ImNvZGUiLCJzdCI6Ik9FbjB5ZE5ONDBPWFpteHI0cVZxMExLMjk4aFljZ0dKUUxTeEZoMzNMMDA9In0\" method=\"post\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"captcha-validation-token\" \"captchaFormulaireExtInput\" \"password\" \"undefined-show-password\" \"username\" ]."
 						}
 					],
@@ -329,7 +329,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "34",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -429,6 +429,16 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
+							"id": "54",
+							"uri": "https://www.service-public.fr/",
+							"nodeName": "https:\/\/www.service-public.fr\/",
+							"method": "GET",
+							"param": "TS012e9d3d",
+							"attack": "",
+							"evidence": "Set-Cookie: TS012e9d3d",
+							"otherinfo": ""
+						},
+						{
 							"id": "17",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
@@ -447,16 +457,6 @@
 							"attack": "",
 							"evidence": "Set-Cookie: TS01ad993f",
 							"otherinfo": ""
-						},
-						{
-							"id": "63",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "TS012e9d3d",
-							"attack": "",
-							"evidence": "Set-Cookie: TS012e9d3d",
-							"otherinfo": ""
 						}
 					],
 					"count": "3",
@@ -466,7 +466,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "14"
 				},
 				{
 					"pluginid": "10017",
@@ -549,7 +549,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "57",
+							"id": "62",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -559,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "51",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -589,7 +589,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "63",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -599,7 +599,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "52",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -629,7 +629,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "50",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -659,7 +659,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "49",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -689,7 +689,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "79",
+							"id": "55",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -699,7 +699,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "83",
 							"uri": "https://www.service-public.fr/particuliers",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
 							"method": "GET",
@@ -709,7 +709,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "64",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -719,7 +719,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "76",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils",
 							"method": "GET",
@@ -729,7 +729,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "81",
 							"uri": "https://www.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -746,7 +746,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "28"
+					"sourceid": "14"
 				},
 				{
 					"pluginid": "10096",
@@ -765,24 +765,24 @@
 							"method": "GET",
 							"param": "X-SP-CORRELATION-ID",
 							"attack": "",
-							"evidence": "1778265410",
-							"otherinfo": "1778265410, which evaluates to: 2026-05-08 18:36:50."
+							"evidence": "1778268703",
+							"otherinfo": "1778268703, which evaluates to: 2026-05-08 19:31:43."
 						},
 						{
-							"id": "65",
+							"id": "77",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
 							"param": "X-SP-CORRELATION-ID",
 							"attack": "",
-							"evidence": "1778265411",
-							"otherinfo": "1778265411, which evaluates to: 2026-05-08 18:36:51."
+							"evidence": "1778268703",
+							"otherinfo": "1778268703, which evaluates to: 2026-05-08 19:31:43."
 						}
 					],
 					"count": "2",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1778265410, which evaluates to: 2026-05-08 18:36:50.</p>",
+					"otherinfo": "<p>1778268703, which evaluates to: 2026-05-08 19:31:43.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
@@ -799,7 +799,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "79",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -816,7 +816,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "14"
+					"sourceid": "16"
 				},
 				{
 					"pluginid": "10094",
@@ -829,14 +829,14 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "56",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "ZWJhMGE5NTItYzQ2ZC00ZGFhLTg2MWYtNzQ5MDJkMmY5YTA5",
-							"otherinfo": "eba0a952-c46d-4daa-861f-74902d2f9a09"
+							"evidence": "MGEyZmE0M2QtY2U4NC00MmI5LWJhZGEtNjZkZjBiMzk2NDMw",
+							"otherinfo": "0a2fa43d-ce84-42b9-bada-66df0b396430"
 						},
 						{
 							"id": "43",
@@ -845,14 +845,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "MDE1MmIzZGYtYTdiYi00YWFhLTgzNjAtOWJmMWI3ZDM2YzcxLlFERUNZcXBnMkNIMXg3bGNoYTRBNzM1REZNOWxOZVBrRE5OVVIyOEFjMHdUc2hkOHEzR2VXVjlZc2F0cGswRDFlQVRnQzNNTGFlR3VoRGtzOHNFVl93",
-							"otherinfo": "0152b3df-a7bb-4aaa-8360-9bf1b7d36c71.QDECYqpg2CH1x7lcha4A735DFM9lNePkDNNUR28Ac0wTshd8q3GeWV9Ysatpk0D1eATgC3MLaeGuhDks8sEV_w"
+							"evidence": "YjM1M2MwNmQtMmUzNy00MDM0LWI2ZDUtZmM4ZDA4MDgzZjZmLnNXYV9MTDZmak45QTA1eE0xb1UyQ0JUSlZLOXpTclN0SEttVEplNmhVaF84RmkxaW9vUmZxN1ZPY2FpY1dsYVdXRmRLZTd2eFB1MFZfNUhMSDdELVhR",
+							"otherinfo": "b353c06d-2e37-4034-b6d5-fc8d08083f6f.sWa_LL6fjN9A05xM1oU2CBTJVK9zSrStHKmTJe6hUh_8Fi1iooRfq7VOcaicWlaWWFdKe7vxPu0V_5HLH7D-XQ"
 						}
 					],
 					"count": "2",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>eba0a952-c46d-4daa-861f-74902d2f9a09</p>",
+					"otherinfo": "<p>0a2fa43d-ce84-42b9-bada-66df0b396430</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -879,7 +879,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "39",
+							"id": "33",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -909,7 +909,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "53",
+							"id": "48",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -959,7 +959,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "75",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -995,7 +995,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 6928",
+							"evidence": "Age: 10221",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
@@ -1019,7 +1019,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "59",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1029,7 +1029,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "71",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -1039,7 +1039,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "46",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -1047,19 +1047,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "71",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1079,7 +1069,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "58",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1089,7 +1079,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "67",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -1099,7 +1089,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "45",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -1107,19 +1097,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "70",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1139,7 +1119,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "46",
+							"id": "57",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1149,7 +1129,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "65",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -1159,7 +1139,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "44",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -1167,19 +1147,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "68",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1199,7 +1169,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "51",
+							"id": "60",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1209,7 +1179,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "72",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -1219,7 +1189,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "47",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
 							"method": "GET",
@@ -1227,19 +1197,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "74",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1269,6 +1229,16 @@
 							"otherinfo": "cookie:SP_SESSION\ncookie:TS015ce0c6\nheader:X-CSRF-Token\ncookie:TS01ad993f"
 						},
 						{
+							"id": "53",
+							"uri": "https://www.service-public.fr/",
+							"nodeName": "https:\/\/www.service-public.fr\/",
+							"method": "GET",
+							"param": "TS012e9d3d",
+							"attack": "",
+							"evidence": "TS012e9d3d",
+							"otherinfo": "cookie:TS012e9d3d"
+						},
+						{
 							"id": "0",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils/ISE",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils\/ISE",
@@ -1277,29 +1247,9 @@
 							"attack": "",
 							"evidence": "KC_RESTART",
 							"otherinfo": "cookie:KC_RESTART\ncookie:KC_AUTH_SESSION_HASH\ncookie:AUTH_SESSION_ID"
-						},
-						{
-							"id": "61",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "TS012e9d3d",
-							"attack": "",
-							"evidence": "TS012e9d3d",
-							"otherinfo": "cookie:TS012e9d3d"
-						},
-						{
-							"id": "64",
-							"uri": "https://www.service-public.fr/robots.txt",
-							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
-							"method": "GET",
-							"param": "TS012e9d3d",
-							"attack": "",
-							"evidence": "TS012e9d3d",
-							"otherinfo": "cookie:TS012e9d3d"
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:SP_SESSION</p><p>cookie:TS015ce0c6</p><p>header:X-CSRF-Token</p><p>cookie:TS01ad993f</p>",
@@ -1319,7 +1269,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "81",
+							"id": "74",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1329,7 +1279,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "54",
+							"id": "61",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1339,17 +1289,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.service-public.fr/particuliers",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "77",
+							"id": "73",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -1359,7 +1299,17 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "76",
+							"id": "78",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/demarches-et-outils",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/demarches-et-outils",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "80",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -1376,7 +1326,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "28"
+					"sourceid": "14"
 				}
 			]
 		}
