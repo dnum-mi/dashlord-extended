@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "av0ca17fo4i119lehi19i3d2u6",
+      "value": "jtp66l22h82r6l1g0c1bepbdq2",
       "domain": "www.correze.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 05:48:28 GMT",
-    "expires": "Wed, 15 Oct 2025 03:48:28 GMT",
-    "last-modified": "Wed, 15 Oct 2025 05:48:28 GMT",
+    "date": "Fri, 08 May 2026 21:31:07 GMT",
+    "expires": "Fri, 08 May 2026 19:31:07 GMT",
+    "last-modified": "Fri, 08 May 2026 21:31:07 GMT",
     "pragma": "no-cache",
     "served-by": "www.correze.gouv.fr",
-    "set-cookie": "eZSESSID=av0ca17fo4i119lehi19i3d2u6; path=/",
+    "set-cookie": "eZSESSID=jtp66l22h82r6l1g0c1bepbdq2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
