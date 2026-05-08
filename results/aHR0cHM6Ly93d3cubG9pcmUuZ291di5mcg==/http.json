@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 03:24:59 GMT",
+      "date": "Fri, 08 May 2026 22:53:52 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 01:24:59 GMT",
-      "last-modified": "Fri, 13 Mar 2026 03:24:59 GMT",
+      "expires": "Fri, 08 May 2026 20:53:52 GMT",
+      "last-modified": "Fri, 08 May 2026 22:53:52 GMT",
       "served-by": "www.loire.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=s4c19nt646sjkubm5kgr7fh7h2; path=/"
+        "eZSESSID=o1fki5tl2jc4n7n5queu4j1rp2; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"

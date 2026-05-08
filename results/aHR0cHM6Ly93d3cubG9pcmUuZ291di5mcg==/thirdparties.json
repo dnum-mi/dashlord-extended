@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "ftcuta8btbc5a0a9m7fvgi7730",
+      "value": "15sac72eje6i6ur15sr1i7ko86",
       "domain": "www.loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 08:17:54 GMT",
-    "expires": "Wed, 15 Oct 2025 06:17:54 GMT",
-    "last-modified": "Wed, 15 Oct 2025 08:17:54 GMT",
+    "date": "Fri, 08 May 2026 22:47:47 GMT",
+    "expires": "Fri, 08 May 2026 20:47:47 GMT",
+    "last-modified": "Fri, 08 May 2026 22:47:47 GMT",
     "pragma": "no-cache",
     "served-by": "www.loire.gouv.fr",
-    "set-cookie": "eZSESSID=ftcuta8btbc5a0a9m7fvgi7730; path=/",
+    "set-cookie": "eZSESSID=15sac72eje6i6ur15sr1i7ko86; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
