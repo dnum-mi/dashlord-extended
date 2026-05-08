@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "5rfnvi4jmkso6kjd351u1vr9f4",
+      "value": "iebf935q235n6f0okbmj923v55",
       "domain": "www.ardennes.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 04:38:17 GMT",
-    "expires": "Wed, 15 Oct 2025 02:38:18 GMT",
-    "last-modified": "Wed, 15 Oct 2025 04:38:18 GMT",
+    "date": "Fri, 08 May 2026 20:54:27 GMT",
+    "expires": "Fri, 08 May 2026 18:54:27 GMT",
+    "last-modified": "Fri, 08 May 2026 20:54:27 GMT",
     "pragma": "no-cache",
     "served-by": "www.ardennes.gouv.fr",
-    "set-cookie": "eZSESSID=5rfnvi4jmkso6kjd351u1vr9f4; path=/",
+    "set-cookie": "eZSESSID=iebf935q235n6f0okbmj923v55; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
