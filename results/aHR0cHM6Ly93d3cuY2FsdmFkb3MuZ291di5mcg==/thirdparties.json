@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "dlrp7vqpd0q0l9942lga8tc9t1",
+      "value": "kjjqpbahg9i87eve86pp3tuou0",
       "domain": "www.calvados.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 05:15:33 GMT",
-    "expires": "Wed, 15 Oct 2025 03:15:33 GMT",
-    "last-modified": "Wed, 15 Oct 2025 05:15:33 GMT",
+    "date": "Fri, 08 May 2026 21:13:02 GMT",
+    "expires": "Fri, 08 May 2026 19:13:03 GMT",
+    "last-modified": "Fri, 08 May 2026 21:13:03 GMT",
     "pragma": "no-cache",
     "served-by": "www.calvados.gouv.fr",
-    "set-cookie": "eZSESSID=dlrp7vqpd0q0l9942lga8tc9t1; path=/",
+    "set-cookie": "eZSESSID=kjjqpbahg9i87eve86pp3tuou0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
