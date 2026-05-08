@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 03:39:40 GMT",
+      "date": "Fri, 08 May 2026 23:12:32 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 01:39:40 GMT",
-      "last-modified": "Fri, 13 Mar 2026 03:39:40 GMT",
+      "expires": "Fri, 08 May 2026 21:12:32 GMT",
+      "last-modified": "Fri, 08 May 2026 23:12:32 GMT",
       "served-by": "www.maine-et-loire.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=2r7fspdosjcmhsl0k1r9rhoq22; path=/"
+        "eZSESSID=11pb4rhsvahhnjetbjqipbbc36; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
