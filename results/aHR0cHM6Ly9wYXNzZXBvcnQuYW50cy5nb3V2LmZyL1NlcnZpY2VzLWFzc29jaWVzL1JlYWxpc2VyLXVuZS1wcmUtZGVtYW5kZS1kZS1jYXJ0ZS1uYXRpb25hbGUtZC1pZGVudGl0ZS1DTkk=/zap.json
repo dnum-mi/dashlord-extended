@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 18:25:20",
-	"created": "2026-05-08T18:25:20.259027438Z",
+	"@generated": "Fri, 8 May 2026 19:21:55",
+	"created": "2026-05-08T19:21:55.584451350Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -63,7 +63,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "6",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "103",
+							"id": "99",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -83,7 +83,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "7",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -93,7 +93,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "77",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "81",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -133,7 +133,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -143,7 +143,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "97",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -153,7 +153,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -163,7 +163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "73",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "76",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -203,7 +203,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "8",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -213,7 +213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "100",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "9",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "78",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "83",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "101",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -293,7 +293,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "10",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -303,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "79",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "84",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -343,7 +343,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "45",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,7 +353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "26",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -383,7 +383,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "46",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -393,7 +393,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "27",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -423,7 +423,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "44",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -433,7 +433,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "25",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -463,7 +463,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "43",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -473,7 +473,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "111",
+							"id": "107",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -483,7 +483,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "24",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -493,7 +493,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "92",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -503,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
+							"id": "95",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -543,7 +543,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "103",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -563,7 +563,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "85",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -573,7 +573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "88",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -613,7 +613,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "108",
+							"id": "104",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -633,7 +633,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "90",
+							"id": "87",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -643,7 +643,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "96",
+							"id": "91",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -673,34 +673,34 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "37",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_G2BLZLZBKY552MXAO6WZAZ3JHGQYSPMYOKSIQR77GLTWOD5CUSKQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFDKd\\x0012\uFFFD\u774C\\\\x0003\uFFFDY\uFFFD\\x0019\u0711\uFFFDA\uFFFD\uFFFD1\uFFFD\uFFFDH\uFFFD\\x0011\uFC4BMc\uFFFD\uFFFD%\\x0012)"
+							"evidence": "/redirect_TT74RX3JRNM5XEDYXE55MGE5RVX4OKNF5FS2EPTC26ELEU4XXXMA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDW\u0714M3\uFFFD\uFFFD\r\uFFFD\uFFFD\uFFFD\\x0006\\x0013\uFFFDU_\uFFFD\uFFFD4^EKa\\x000fL-\uFFFD\\x0010\uFFFD\\x0014\uFFFDu\uFFFD0"
 						},
 						{
-							"id": "54",
+							"id": "65",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00068A\uFFFD\\x0018\uFFFD;PsYEp8\\x000cr\uFFFDQ\r\uFFFD0\uFFFD\\x0016$U\uFFFD1b\uFFFD\uFFFDb\uFFFDQ\uFFFD\uFFFDI1\r\\x001d"
+							"evidence": "/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDDA\uFFFD\uFFFDQ@I\\x0015N\uFFFD\\x0015 \uFFFD%\r\uFFFDM\\x0014\\x0014\\\uFFFD\uFFFDa~\\x0016;tX\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD@\\x0014\uFFFD1"
 						},
 						{
-							"id": "109",
+							"id": "105",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00068A\uFFFD\\x0018\uFFFD;PsYEp8\\x000cr\uFFFDQ\r\uFFFD0\uFFFD\\x0016$U\uFFFD1b\uFFFD\uFFFDb\uFFFDQ\uFFFD\uFFFDI1\r\\x001d"
+							"evidence": "/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDDA\uFFFD\uFFFDQ@I\\x0015N\uFFFD\\x0015 \uFFFD%\r\uFFFDM\\x0014\\x0014\\\uFFFD\uFFFDa~\\x0016;tX\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD@\\x0014\uFFFD1"
 						},
 						{
 							"id": "18",
@@ -709,44 +709,44 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_G2BLZLZBKY552MXAO6WZAZ3JHGQYSPMYOKSIQR77GLTWOD5CUSKQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFDKd\\x0012\uFFFD\u774C\\\\x0003\uFFFDY\uFFFD\\x0019\u0711\uFFFDA\uFFFD\uFFFD1\uFFFD\uFFFDH\uFFFD\\x0011\uFC4BMc\uFFFD\uFFFD%\\x0012)"
+							"evidence": "/redirect_TT74RX3JRNM5XEDYXE55MGE5RVX4OKNF5FS2EPTC26ELEU4XXXMA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDW\u0714M3\uFFFD\uFFFD\r\uFFFD\uFFFD\uFFFD\\x0006\\x0013\uFFFDU_\uFFFD\uFFFD4^EKa\\x000fL-\uFFFD\\x0010\uFFFD\\x0014\uFFFDu\uFFFD0"
 						},
 						{
-							"id": "60",
+							"id": "56",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00068A\uFFFD\\x0018\uFFFD;PsYEp8\\x000cr\uFFFDQ\r\uFFFD0\uFFFD\\x0016$U\uFFFD1b\uFFFD\uFFFDb\uFFFDQ\uFFFD\uFFFDI1\r\\x001d"
+							"evidence": "/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDDA\uFFFD\uFFFDQ@I\\x0015N\uFFFD\\x0015 \uFFFD%\r\uFFFDM\\x0014\\x0014\\\uFFFD\uFFFDa~\\x0016;tX\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD@\\x0014\uFFFD1"
 						},
 						{
-							"id": "92",
+							"id": "89",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00068A\uFFFD\\x0018\uFFFD;PsYEp8\\x000cr\uFFFDQ\r\uFFFD0\uFFFD\\x0016$U\uFFFD1b\uFFFD\uFFFDb\uFFFDQ\uFFFD\uFFFDI1\r\\x001d"
+							"evidence": "/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDDA\uFFFD\uFFFDQ@I\\x0015N\uFFFD\\x0015 \uFFFD%\r\uFFFDM\\x0014\\x0014\\\uFFFD\uFFFDa~\\x0016;tX\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD@\\x0014\uFFFD1"
 						},
 						{
-							"id": "97",
+							"id": "93",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00068A\uFFFD\\x0018\uFFFD;PsYEp8\\x000cr\uFFFDQ\r\uFFFD0\uFFFD\\x0016$U\uFFFD1b\uFFFD\uFFFDb\uFFFDQ\uFFFD\uFFFDI1\r\\x001d"
+							"evidence": "/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDDA\uFFFD\uFFFDQ@I\\x0015N\uFFFD\\x0015 \uFFFD%\r\uFFFDM\\x0014\\x0014\\\uFFFD\uFFFDa~\\x0016;tX\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD@\\x0014\uFFFD1"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFDKd\\x0012\uFFFD\u774C\\\\x0003\uFFFDY\uFFFD\\x0019\u0711\uFFFDA\uFFFD\uFFFD1\uFFFD\uFFFDH\uFFFD\\x0011\uFC4BMc\uFFFD\uFFFD%\\x0012)</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDW\u0714M3\uFFFD\uFFFD\r\uFFFD\uFFFD\uFFFD\\x0006\\x0013\uFFFDU_\uFFFD\uFFFD4^EKa\\x000fL-\uFFFD\\x0010\uFFFD\\x0014\uFFFDu\uFFFD0</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -763,53 +763,53 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "13",
-							"uri": "https://passeport.ants.gouv.fr/",
-							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_G2BLZLZBKY552MXAO6WZAZ3JHGQYSPMYOKSIQR77GLTWOD5CUSKQ====/';</script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "48",
-							"uri": "https://passeport.ants.gouv.fr/",
-							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ====/';</script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
 							"id": "12",
+							"uri": "https://passeport.ants.gouv.fr/",
+							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>window.location.href='/redirect_TT74RX3JRNM5XEDYXE55MGE5RVX4OKNF5FS2EPTC26ELEU4XXXMA====/';</script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "34",
+							"uri": "https://passeport.ants.gouv.fr/",
+							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>window.location.href='/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ====/';</script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "13",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_G2BLZLZBKY552MXAO6WZAZ3JHGQYSPMYOKSIQR77GLTWOD5CUSKQ====/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI';</script>",
+							"evidence": "<script>window.location.href='/redirect_TT74RX3JRNM5XEDYXE55MGE5RVX4OKNF5FS2EPTC26ELEU4XXXMA====/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "52",
+							"id": "53",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ====/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI';</script>",
+							"evidence": "<script>window.location.href='/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ====/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "87",
+							"id": "82",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_QGOEGXGN47UHNZRXA4DHLVUQ2IMJMWJFWVMWKW7GL6UYXNSTENHQ====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_ZEQYSLUUBJFU6GFSCYJQ3ITRQUXNTNYX4WO3RY3ODUS7KOQBSHMQ====/robots.txt';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -833,7 +833,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "42",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -843,7 +843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
+							"id": "106",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -853,7 +853,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "23",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -863,7 +863,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "90",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -873,7 +873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "94",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -903,7 +903,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "5",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -913,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "98",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -933,7 +933,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "75",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -943,7 +943,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "80",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -973,7 +973,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "40",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -983,7 +983,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "21",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -1013,7 +1013,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "39",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -1023,7 +1023,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "20",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -1053,7 +1053,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "38",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -1063,7 +1063,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "19",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -1093,7 +1093,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "41",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -1103,7 +1103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "22",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes\/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
 							"method": "GET",
@@ -1133,7 +1133,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "0",
+							"id": "28",
 							"uri": "https://passeport.ants.gouv.fr/",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/",
 							"method": "GET",
@@ -1143,7 +1143,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "100",
+							"id": "96",
 							"uri": "https://passeport.ants.gouv.fr/Services-associes",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/Services-associes",
 							"method": "GET",
@@ -1163,7 +1163,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "76",
+							"id": "72",
 							"uri": "https://passeport.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1173,7 +1173,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://passeport.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/passeport.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1190,7 +1190,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "4"
+					"sourceid": "10"
 				}
 			]
 		}
