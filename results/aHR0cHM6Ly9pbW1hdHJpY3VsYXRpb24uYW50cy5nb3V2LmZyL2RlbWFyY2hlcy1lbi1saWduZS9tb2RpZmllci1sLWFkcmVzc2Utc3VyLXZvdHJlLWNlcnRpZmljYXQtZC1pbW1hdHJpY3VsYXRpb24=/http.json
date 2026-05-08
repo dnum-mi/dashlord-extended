@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:27:31 GMT",
+      "date": "Fri, 08 May 2026 19:46:35 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=VDLF6OMHF7D6D3K6KSJ4Q7WASXZTKU62DSQYMP2AFYQNO2NN6GOS3YM2XD4KGWTHCO5EL6NED5LEES2UHCS27B3ZTJX3OI2B4THBFUYVNFTWWUBXE7IA====; Path=/"
+        "bot_mitigation_cookie=VOL7RT6MZXQPBSHSAPUY2YPNWGV5VYXDRN4AQBYDMK5723SFTVSRM2O3GES65WPB2FFTR2ZRSRLGJFE6UVNXUCJ3YAHUOEL7DUBEHHOTH5WLBTJOHSAQ====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "253",
-      "x-cp-via": "C3-1a41e5b1-24f29b4d",
+      "content-length": "255",
+      "x-cp-via": "C2-830d8aac-fa098343",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "immatriculation.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
       "redirects": true,
