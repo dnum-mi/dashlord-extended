@@ -1,8 +1,106 @@
 {
 	"@programName": "ZAP",
-	"@version": "2.16.1",
-	"@generated": "Wed, 15 Oct 2025 01:02:05",
-	"created": "2025-10-15T01:02:05.447624546Z",
+	"@version": "2.17.0",
+	"@generated": "Fri, 8 May 2026 18:17:46",
+	"created": "2026-05-08T18:17:46.403944426Z",
+	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.warn",
+			"description": "ZAP warnings logged - see the zap.log file for details",
+			"statistic": "2"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.code.2xx",
+			"description": "Percentage of responses with status code 2xx",
+			"statistic": "79"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.code.3xx",
+			"description": "Percentage of responses with status code 3xx",
+			"statistic": "16"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.code.4xx",
+			"description": "Percentage of responses with status code 4xx",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.ctype.application/javascript",
+			"description": "Percentage of endpoints with content type application/javascript",
+			"statistic": "33"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.ctype.image/png",
+			"description": "Percentage of endpoints with content type image/png",
+			"statistic": "28"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.ctype.image/x-icon",
+			"description": "Percentage of endpoints with content type image/x-icon",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.ctype.text/css",
+			"description": "Percentage of endpoints with content type text/css",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.ctype.text/html",
+			"description": "Percentage of endpoints with content type text/html",
+			"statistic": "28"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.method.GET",
+			"description": "Percentage of endpoints with method GET",
+			"statistic": "100"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.endpoint.total",
+			"description": "Count of total endpoints",
+			"statistic": "21"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://administration-etrangers-en-france.interieur.gouv.fr",
+			"key": "insight.response.slow",
+			"description": "Percentage of slow responses",
+			"statistic": "37"
+		}
+	],
 	"site":[ 
 		{
 			"@name": "https://administration-etrangers-en-france.interieur.gouv.fr",
@@ -21,8 +119,9 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "6",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -30,8 +129,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "3",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -39,8 +139,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
+							"id": "122",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon.ico",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -49,6 +150,7 @@
 						}
 					],
 					"count": "3",
+					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
@@ -69,60 +171,37 @@
 						{
 							"id": "9",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
-							"param": "incap_ses_1326_3140198",
+							"param": "incap_ses_1700_3140198",
 							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
+							"evidence": "Set-Cookie: incap_ses_1700_3140198",
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "8",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "6",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": ""
-						},
-						{
-							"id": "11",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
 							"otherinfo": ""
 						},
 						{
 							"id": "7",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
+							"param": "incap_ses_1700_3140198",
 							"attack": "",
-							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
+							"evidence": "Set-Cookie: incap_ses_1700_3140198",
 							"otherinfo": ""
 						},
 						{
 							"id": "5",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "2",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -130,17 +209,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "incap_ses_1326_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "67",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"id": "49",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -148,7 +219,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "9",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Ensure that the HttpOnly flag is set for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
@@ -167,80 +239,9 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "22",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "incap_ses_1326_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "85",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "23",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "visid_incap_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: visid_incap_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "20",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"attack": "",
-							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": ""
-						},
-						{
-							"id": "30",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "29",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "visid_incap_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: visid_incap_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "28",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"attack": "",
-							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": ""
-						},
-						{
-							"id": "27",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "25",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "visid_incap_3140198",
 							"attack": "",
@@ -249,7 +250,8 @@
 						},
 						{
 							"id": "21",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -257,17 +259,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"id": "20",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
-							"param": "incap_ses_1326_3140198",
+							"param": "incap_ses_1700_3140198",
 							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
+							"evidence": "Set-Cookie: incap_ses_1700_3140198",
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"id": "19",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "visid_incap_3140198",
 							"attack": "",
@@ -275,8 +279,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"id": "17",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -284,7 +289,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
@@ -303,17 +309,9 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "17",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "incap_ses_1326_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
-							"otherinfo": ""
-						},
-						{
 							"id": "16",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "visid_incap_3140198",
 							"attack": "",
@@ -323,6 +321,7 @@
 						{
 							"id": "14",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -330,44 +329,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "15",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
-							"param": "incap_ses_386_3140198",
+							"param": "incap_ses_1700_3140198",
 							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "22",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "visid_incap_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: visid_incap_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "19",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"attack": "",
-							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": ""
-						},
-						{
-							"id": "18",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "incap_ses_386_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_386_3140198",
+							"evidence": "Set-Cookie: incap_ses_1700_3140198",
 							"otherinfo": ""
 						},
 						{
 							"id": "13",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "visid_incap_3140198",
 							"attack": "",
@@ -375,35 +349,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
-							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"attack": "",
-							"evidence": "Set-Cookie: YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": ""
-						},
-						{
-							"id": "76",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "incap_ses_1326_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: incap_ses_1326_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "73",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
-							"method": "GET",
-							"param": "visid_incap_3140198",
-							"attack": "",
-							"evidence": "Set-Cookie: visid_incap_3140198",
-							"otherinfo": ""
-						},
-						{
-							"id": "72",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"id": "11",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
@@ -411,12 +359,163 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "12",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
+					"sourceid": "4"
+				},
+				{
+					"pluginid": "90004",
+					"alertRef": "90004-2",
+					"alert": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+					"name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
+					"instances":[ 
+						{
+							"id": "43",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "44",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "2",
+					"systemic": false,
+					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
+					"cweid": "693",
+					"wascid": "14",
+					"sourceid": "4"
+				},
+				{
+					"pluginid": "90004",
+					"alertRef": "90004-3",
+					"alert": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+					"name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
+					"instances":[ 
+						{
+							"id": "46",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "45",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "2",
+					"systemic": false,
+					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Opener-Policy header appropriately, and that it sets the Cross-Origin-Opener-Policy header to 'same-origin' for documents.</p><p>'same-origin-allow-popups' is considered as less secured and should be avoided.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Opener-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-opener-policy).</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
+					"cweid": "693",
+					"wascid": "14",
+					"sourceid": "4"
+				},
+				{
+					"pluginid": "90004",
+					"alertRef": "90004-1",
+					"alert": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+					"name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
+					"instances":[ 
+						{
+							"id": "41",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "42",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "111",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-144.png",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "102",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-152.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-152.png",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "95",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/favicon.ico",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/favicon.ico",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "5",
+					"systemic": false,
+					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
+					"otherinfo": "",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
+					"cweid": "693",
+					"wascid": "14",
 					"sourceid": "4"
 				},
 				{
@@ -430,8 +529,9 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "205",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
+							"id": "202",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.3bdf90def76b623ac098.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/main.3bdf90def76b623ac098.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -440,112 +540,13 @@
 						}
 					],
 					"count": "1",
+					"systemic": false,
 					"solution": "<p>See the references for security advice on the use of these functions.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
 					"sourceid": "52"
-				},
-				{
-					"pluginid": "90004",
-					"alertRef": "90004-1",
-					"alert": "Insufficient Site Isolation Against Spectre Vulnerability",
-					"name": "Insufficient Site Isolation Against Spectre Vulnerability",
-					"riskcode": "1",
-					"confidence": "2",
-					"riskdesc": "Low (Medium)",
-					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
-					"instances":[ 
-						{
-							"id": "59",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "58",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "110",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-114.png",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "104",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "87",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/favicon.ico",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "62",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "60",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "63",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "61",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						}
-					],
-					"count": "9",
-					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
-					"otherinfo": "",
-					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
-					"cweid": "693",
-					"wascid": "14",
-					"sourceid": "4"
 				},
 				{
 					"pluginid": "10063",
@@ -558,8 +559,9 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "39",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -567,26 +569,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "144",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=481757219&ns=5",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "142",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=870156224&ns=2",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "57",
+							"id": "40",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -594,8 +579,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
+							"id": "124",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon.ico",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -603,17 +589,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "133",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/ie-browser-guard.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "125",
+							"id": "127",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/initFranceConnect.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/js\/initFranceConnect.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -621,35 +599,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "206",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "141",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/polyfills.5f12162eb7f5a00897e6.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "132",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/runtime.4497baa34696a9c33aba.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "145",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/scripts.80d181a3924f881ffe63.js",
+							"id": "130",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/runtime.9995059d664fa6e5b021.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/runtime.9995059d664fa6e5b021.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -657,7 +609,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -676,62 +629,9 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "137",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=481757219&ns=5",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "135",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=870156224&ns=2",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "96",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-114.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "120",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-120.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "97",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "111",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-152.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"id": "113",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-72.png",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-114.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-114.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -739,8 +639,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/ie-browser-guard.js",
+							"id": "112",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-120.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-120.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -748,8 +649,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "122",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/initFranceConnect.js",
+							"id": "105",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-144.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -757,26 +659,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "98",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-152.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-152.png",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "91",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/favicon.ico",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "134",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/polyfills.5f12162eb7f5a00897e6.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "128",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/runtime.4497baa34696a9c33aba.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/favicon.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -784,13 +679,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "12",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "47"
+					"sourceid": "38"
 				},
 				{
 					"pluginid": "10096",
@@ -803,71 +699,19 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "26",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1806048987",
-							"otherinfo": "1806048987, which evaluates to: 2027-03-26 08:16:27."
+							"evidence": "1618740148",
+							"otherinfo": "1618740148, which evaluates to: 2021-04-18 10:02:28."
 						},
 						{
-							"id": "33",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1928595459",
-							"otherinfo": "1928595459, which evaluates to: 2031-02-11 16:57:39."
-						},
-						{
-							"id": "160",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1467031594",
-							"otherinfo": "1467031594, which evaluates to: 2016-06-27 12:46:34."
-						},
-						{
-							"id": "182",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1479516111",
-							"otherinfo": "1479516111, which evaluates to: 2016-11-19 00:41:51."
-						},
-						{
-							"id": "152",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1495990901",
-							"otherinfo": "1495990901, which evaluates to: 2017-05-28 17:01:41."
-						},
-						{
-							"id": "179",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1497426621",
-							"otherinfo": "1497426621, which evaluates to: 2017-06-14 07:50:21."
-						},
-						{
-							"id": "168",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1501505948",
-							"otherinfo": "1501505948, which evaluates to: 2017-07-31 12:59:08."
-						},
-						{
-							"id": "149",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
+							"id": "145",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.3bdf90def76b623ac098.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/main.3bdf90def76b623ac098.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -875,215 +719,9 @@
 							"otherinfo": "1508970993, which evaluates to: 2017-10-25 22:36:33."
 						},
 						{
-							"id": "186",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1518500249",
-							"otherinfo": "1518500249, which evaluates to: 2018-02-13 05:37:29."
-						},
-						{
-							"id": "157",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1522805485",
-							"otherinfo": "1522805485, which evaluates to: 2018-04-04 01:31:25."
-						},
-						{
-							"id": "161",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1537002063",
-							"otherinfo": "1537002063, which evaluates to: 2018-09-15 09:01:03."
-						},
-						{
-							"id": "173",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1541459225",
-							"otherinfo": "1541459225, which evaluates to: 2018-11-05 23:07:05."
-						},
-						{
-							"id": "156",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1546045734",
-							"otherinfo": "1546045734, which evaluates to: 2018-12-29 01:08:54."
-						},
-						{
-							"id": "154",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1555081692",
-							"otherinfo": "1555081692, which evaluates to: 2019-04-12 15:08:12."
-						},
-						{
-							"id": "165",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1575990012",
-							"otherinfo": "1575990012, which evaluates to: 2019-12-10 15:00:12."
-						},
-						{
-							"id": "172",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1595750129",
-							"otherinfo": "1595750129, which evaluates to: 2020-07-26 07:55:29."
-						},
-						{
-							"id": "169",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1607167915",
-							"otherinfo": "1607167915, which evaluates to: 2020-12-05 11:31:55."
-						},
-						{
-							"id": "174",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1654270250",
-							"otherinfo": "1654270250, which evaluates to: 2022-06-03 15:30:50."
-						},
-						{
-							"id": "177",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1694076839",
-							"otherinfo": "1694076839, which evaluates to: 2023-09-07 08:53:59."
-						},
-						{
-							"id": "158",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1695183700",
-							"otherinfo": "1695183700, which evaluates to: 2023-09-20 04:21:40."
-						},
-						{
-							"id": "175",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1731405415",
-							"otherinfo": "1731405415, which evaluates to: 2024-11-12 09:56:55."
-						},
-						{
-							"id": "185",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1732584193",
-							"otherinfo": "1732584193, which evaluates to: 2024-11-26 01:23:13."
-						},
-						{
-							"id": "181",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1738396948",
-							"otherinfo": "1738396948, which evaluates to: 2025-02-01 08:02:28."
-						},
-						{
-							"id": "163",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1747873779",
-							"otherinfo": "1747873779, which evaluates to: 2025-05-22 00:29:39."
-						},
-						{
-							"id": "176",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1750603025",
-							"otherinfo": "1750603025, which evaluates to: 2025-06-22 14:37:05."
-						},
-						{
-							"id": "171",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1779033703",
-							"otherinfo": "1779033703, which evaluates to: 2026-05-17 16:01:43."
-						},
-						{
-							"id": "184",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1780299464",
-							"otherinfo": "1780299464, which evaluates to: 2026-06-01 07:37:44."
-						},
-						{
-							"id": "170",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1816402316",
-							"otherinfo": "1816402316, which evaluates to: 2027-07-24 04:11:56."
-						},
-						{
-							"id": "153",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1856431235",
-							"otherinfo": "1856431235, which evaluates to: 2028-10-29 11:20:35."
-						},
-						{
-							"id": "188",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1859775393",
-							"otherinfo": "1859775393, which evaluates to: 2028-12-07 04:16:33."
-						},
-						{
-							"id": "178",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1867755857",
-							"otherinfo": "1867755857, which evaluates to: 2029-03-09 13:04:17."
-						},
-						{
-							"id": "148",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
+							"id": "144",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.3bdf90def76b623ac098.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/main.3bdf90def76b623ac098.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1091,17 +729,9 @@
 							"otherinfo": "1899447441, which evaluates to: 2030-03-11 08:17:21."
 						},
 						{
-							"id": "167",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1914138554",
-							"otherinfo": "1914138554, which evaluates to: 2030-08-28 09:09:14."
-						},
-						{
-							"id": "150",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
+							"id": "146",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.3bdf90def76b623ac098.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/main.3bdf90def76b623ac098.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1109,80 +739,9 @@
 							"otherinfo": "1925078388, which evaluates to: 2031-01-01 23:59:48."
 						},
 						{
-							"id": "180",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1944164710",
-							"otherinfo": "1944164710, which evaluates to: 2031-08-10 21:45:10."
-						},
-						{
-							"id": "164",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1955562222",
-							"otherinfo": "1955562222, which evaluates to: 2031-12-20 19:43:42."
-						},
-						{
-							"id": "159",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1986661051",
-							"otherinfo": "1986661051, which evaluates to: 2032-12-14 18:17:31."
-						},
-						{
-							"id": "155",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1996064986",
-							"otherinfo": "1996064986, which evaluates to: 2033-04-02 14:29:46."
-						},
-						{
-							"id": "162",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2003034995",
-							"otherinfo": "2003034995, which evaluates to: 2033-06-22 06:36:35."
-						},
-						{
-							"id": "151",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2007800933",
-							"otherinfo": "2007800933, which evaluates to: 2033-08-16 10:28:53."
-						},
-						{
-							"id": "183",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2011393907",
-							"otherinfo": "2011393907, which evaluates to: 2033-09-27 00:31:47."
-						},
-						{
-							"id": "166",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2024104815",
-							"otherinfo": "2024104815, which evaluates to: 2034-02-21 03:20:15."
-						},
-						{
-							"id": "146",
+							"id": "141",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/styles.75db25ecbd220ff748f8.css",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/styles.75db25ecbd220ff748f8.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1190,9 +749,10 @@
 							"otherinfo": "1607843137, which evaluates to: 2020-12-13 07:05:37."
 						}
 					],
-					"count": "43",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1806048987, which evaluates to: 2027-03-26 08:16:27.</p>",
+					"otherinfo": "<p>1618740148, which evaluates to: 2021-04-18 10:02:28.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
@@ -1209,44 +769,9 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "139",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=481757219&ns=5",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "136",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&cb=870156224&ns=2",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "98",
+							"id": "115",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-114.png",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "121",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-120.png",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "100",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-114.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1255,7 +780,28 @@
 						},
 						{
 							"id": "114",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-120.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-120.png",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "108",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-144.png",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "99",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-152.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-152.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1263,53 +809,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "116",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-72.png",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "129",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/ie-browser-guard.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "124",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/js/initFranceConnect.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "69",
+							"id": "93",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/favicon.ico",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "138",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/polyfills.5f12162eb7f5a00897e6.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "130",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/runtime.4497baa34696a9c33aba.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/favicon.ico",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1317,13 +819,14 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						}
 					],
-					"count": "12",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>",
 					"otherinfo": "<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At \"High\" threshold this scan rule will not alert on client or server error responses.</p>",
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "47"
+					"sourceid": "38"
 				},
 				{
 					"pluginid": "10094",
@@ -1336,53 +839,49 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "27",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "rF3/Nx1ITr2oBOzGxpsGQXfy7mgAAAAAQUIPAAAAAADygRK1fNEGy9kmWOAH0ErB",
-							"otherinfo": "\uFFFD]\uFFFD7\\x001dHN\uFFFD\uFFFD\\x0004\uFFFD\uFFFD\u019B\\x0006Aw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\\x0012\uFFFD|\uFFFD\\x0006\uFFFD\uFFFD&X\uFFFD\\x0007\uFFFDJ\uFFFD"
+							"evidence": "iXkIax5fRkCbMJchNyu4In0o/mkAAAAAQUIPAAAAAADDt5eo66N/DEXD+5lTTu+G",
+							"otherinfo": "\uFFFDy\\x0008k\\x001e_F@\uFFFD0\uFFFD!7+\uFFFD\"}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\u00F7\uFFFD\uFFFD\uFFFD\\x000cE\uFFFD\uFFFD\uFFFDSN\uFFFD"
 						},
 						{
-							"id": "91",
+							"id": "87",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "w0KdNtQrSKWvkd+HpEjK2Hfy7mgAAAAAQUIPAAAAAACcVa4r8c7PSru4K/HSOC+4",
-							"otherinfo": "\uFFFDB\uFFFD6\uFFFD+H\uFFFD\uFFFD\uFFFD\u07C7\uFFFDH\uFFFD\uFFFDw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFDU\uFFFD+\uFFFD\uFFFD\uFFFDJ\uFFFD\uFFFD+\uFFFD\uFFFD8/\uFFFD"
+							"evidence": "oCpACKMERMimzO8nbcNi630o/mkAAAAAQUIPAAAAAAD450wiyPFZBkZQrDVV3s+f",
+							"otherinfo": "\uFFFD*@\\x0008\uFFFD\\x0004D\u0226\uFFFD\uFFFD'm\uFFFDb\uFFFD}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFDL\"\uFFFD\uFFFDY\\x0006FP\uFFFD5U\uFFFD\u03DF"
 						},
 						{
-							"id": "101",
+							"id": "89",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "nB313XNtQmO2lfZkyJuY2Hfy7mgAAAAAQUIPAAAAAAC9df0b6aGf8PUEwEVyCsfL",
-							"otherinfo": "\uFFFD\\x001d\uFFFD\uFFFDsmBc\uFFFD\uFFFD\uFFFDd\u021B\uFFFD\uFFFDw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFDu\uFFFD\\x001b\u985F\uFFFD\uFFFD\\x0004\uFFFDEr\n\uFFFD\uFFFD"
+							"evidence": "YaOS44xkR4KhnPizAuMLan0o/mkAAAAAQUIPAAAAAABgecfKqN6LBzP+yEZWb3lw",
+							"otherinfo": "a\uFFFD\uFFFD\uFFFDdG\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD\\x000bj}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000`y\uFFFD\u02A8\u078B\\x00073\uFFFD\uFFFDFVoyp"
 						},
 						{
-							"id": "106",
+							"id": "28",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GnL/JaKRSD68ZPSkP6DRanfy7mgAAAAAQUIPAAAAAAAtsoEVjGsnXLqKVDl5agHa",
-							"otherinfo": "\\x001ar\uFFFD%\uFFFD\uFFFDH>\uFFFDd\uFFFD\uFFFD?\uFFFD\uFFFDjw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000-\uFFFD\uFFFD\\x0015\uFFFDk'\\\uFFFD\uFFFDT9yj\\x0001\uFFFD"
+							"evidence": "OIiS9T4VRY6GW7/8QheZ/nwo/mkAAAAAQUIPAAAAAADH4meKPjHu5uVjcDUAAnDI",
+							"otherinfo": "8\uFFFD\uFFFD\uFFFD>\\x0015E\uFFFD\uFFFD[\uFFFD\uFFFDB\\x0017\uFFFD\uFFFD|(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFDg\uFFFD>1\uFFFD\uFFFD\uFFFDcp5\\x0000\\x0002p\uFFFD"
 						},
 						{
-							"id": "40",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "T9qaDohBS+iSINYx9pHSmXby7mgAAAAAQUIPAAAAAACYj9M4Vb8LwabMDygLdJk5",
-							"otherinfo": "O\u069A\\x000e\uFFFDAK\uFFFD \uFFFD1\uFFFD\uFFFD\u0499v\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD8U\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\\x000f(\\x000bt\uFFFD9"
-						},
-						{
-							"id": "204",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
+							"id": "201",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.3bdf90def76b623ac098.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/main.3bdf90def76b623ac098.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1390,8 +889,9 @@
 							"otherinfo": "\uFFFDo\uFFFD~\uFFFD\uFFFD~/\uFFFD\\x001dzW\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFDey\uFFFDn"
 						},
 						{
-							"id": "143",
+							"id": "142",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/scripts.80d181a3924f881ffe63.js",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/scripts.80d181a3924f881ffe63.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1399,68 +899,34 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD)\"\uFFFD\uFFFDZq\uFFFD?\\x000c\\x001f\uFFFDj\\x0007\uFFFD\uFFFDm\uFFFD\uFFFD\uFFFD|\uFFFD\u011F\uFFFD~\uFFFD\uFFFD\uFFFDw\uFFFDu\uFFFD"
 						},
 						{
-							"id": "38",
+							"id": "68",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "XpCM5yS7TmS9DNiPib4COnfy7mgAAAAAQUIPAAAAAADzNTu7Ba5/ZIwK1HW7FMNn",
-							"otherinfo": "^\uFFFD\uFFFD\uFFFD$\uFFFDNd\uFFFD\\x000c\u060F\uFFFD\uFFFD\\x0002:w\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD5;\uFFFD\\x0005\uFFFDd\uFFFD\n\uFFFDu\uFFFD\\x0014\uFFFDg"
+							"evidence": "W0yAteNST8qIzBntJwOy3X0o/mkAAAAAQUIPAAAAAACAbS4BaUfi6DXqdlQgxdna",
+							"otherinfo": "[L\uFFFD\uFFFD\uFFFDRO\u0288\uFFFD\\x0019\uFFFD'\\x0003\uFFFD\uFFFD}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFDm.\\x0001iG\uFFFD\uFFFD5\uFFFDvT \uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "90",
+							"id": "67",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "TZxKmFKtR9ebQF7YK4srZHfy7mgAAAAAQUIPAAAAAAA6RtW6lEuUUhqG9bjJK9Gl",
-							"otherinfo": "M\uFFFDJ\uFFFDR\uFFFDG\u05DB@^\uFFFD+\uFFFD+dw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000:F\u057A\uFFFDK\uFFFDR\\x001a\uFFFD\uFFFD\uFFFD\uFFFD+\u0465"
+							"evidence": "hCPCiNOTRrOj40LQO8mVun0o/mkAAAAAQUIPAAAAAAC0gwDHNMpeY7fU4Io/DF1h",
+							"otherinfo": "\uFFFD#\u0088\u04D3F\uFFFD\uFFFD\uFFFDB\uFFFD;\u0255\uFFFD}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\\x0000\uFFFD4\uFFFD^c\uFFFD\uFFFD\uFFFD\uFFFD?\\x000c]a"
 						}
 					],
-					"count": "9",
+					"count": "8",
+					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD]\uFFFD7\\x001dHN\uFFFD\uFFFD\\x0004\uFFFD\uFFFD\u019B\\x0006Aw\uFFFD\uFFFDh\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\\x0012\uFFFD|\uFFFD\\x0006\uFFFD\uFFFD&X\uFFFD\\x0007\uFFFDJ\uFFFD</p>",
+					"otherinfo": "<p>\uFFFDy\\x0008k\\x001e_F@\uFFFD0\uFFFD!7+\uFFFD\"}(\uFFFDi\\x0000\\x0000\\x0000\\x0000AB\\x000f\\x0000\\x0000\\x0000\\x0000\\x0000\u00F7\uFFFD\uFFFD\uFFFD\\x000cE\uFFFD\uFFFD\uFFFDSN\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
 					"sourceid": "4"
-				},
-				{
-					"pluginid": "10027",
-					"alertRef": "10027",
-					"alert": "Information Disclosure - Suspicious Comments",
-					"name": "Information Disclosure - Suspicious Comments",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
-					"instances":[ 
-						{
-							"id": "147",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/main.fea4617c29bfeeff4ae9.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "todo",
-							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in likely comment: \"//9w\":function(e,n,t){!function(e){\"use strict\";e.defineLocale(\"se\",{months:\"o\\u0111\\u0111ajagem\\xe1nnu_guovvam\\xe1nnu_njuk\\u010\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "140",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/scripts.80d181a3924f881ffe63.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "DB",
-							"otherinfo": "The following pattern was used: \\bDB\\b and was detected in likely comment: \"//,$t={},Wt={},Gt=\"*/\".concat(\"*\"),zt=m.createElement(\"a\");function Ut(e){return function(t,n){\"string\"!=typeof t&&(n=t,t=\"*\");v\", see evidence field for the suspicious comment/snippet."
-						}
-					],
-					"count": "2",
-					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bTODO\\b and was detected in likely comment: \"//9w\":function(e,n,t){!function(e){\"use strict\";e.defineLocale(\"se\",{months:\"o\\u0111\\u0111ajagem\\xe1nnu_guovvam\\xe1nnu_njuk\\u010\", see evidence field for the suspicious comment/snippet.</p>",
-					"reference": "",
-					"cweid": "615",
-					"wascid": "13",
-					"sourceid": "52"
 				},
 				{
 					"pluginid": "90033",
@@ -1473,72 +939,60 @@
 					"desc": "<p>Cookies can be scoped by domain or path. This check is only concerned with domain scope.The domain scope applied to a cookie determines which domains can access it. For example, a cookie can be scoped strictly to a subdomain e.g. www.nottrusted.com, or loosely scoped to a parent domain e.g. nottrusted.com. In the latter case, any subdomain of nottrusted.com can access the cookie. Loosely scoped cookies are common in mega-applications like google.com and live.com. Cookies set from a subdomain like app.foo.bar are transmitted only to that domain by the browser. However, cookies scoped to a parent-level domain may be transmitted to the parent, or any subdomain of the parent.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "12",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=rF3/Nx1ITr2oBOzGxpsGQXfy7mgAAAAAQUIPAAAAAADygRK1fNEGy9kmWOAH0ErB\nincap_ses_1326_3140198=G4ijfwn7lE2Xi7CYZOZmEnfy7mgAAAAAwRhBfHX7euvELdbEIiqiPw==\n"
-						},
-						{
-							"id": "75",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=w0KdNtQrSKWvkd+HpEjK2Hfy7mgAAAAAQUIPAAAAAACcVa4r8c7PSru4K/HSOC+4\nincap_ses_386_3140198=GYZ0T1samClEGjKSX1lbBXfy7mgAAAAAAwuAQZmrM4qDzsBm/e83tQ==\n"
-						},
-						{
-							"id": "94",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=nB313XNtQmO2lfZkyJuY2Hfy7mgAAAAAQUIPAAAAAAC9df0b6aGf8PUEwEVyCsfL\nincap_ses_1326_3140198=huH+eqRc6Tn/i7CYZOZmEnfy7mgAAAAAhWphFLUd8uvhEN0aPoY4mw==\n"
+							"evidence": "Domain=.interieur.gouv.fr",
+							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nCookie name: visid_incap_3140198\nCookie name: incap_ses_1700_3140198\n"
 						},
 						{
 							"id": "86",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=GnL/JaKRSD68ZPSkP6DRanfy7mgAAAAAQUIPAAAAAAAtsoEVjGsnXLqKVDl5agHa\nincap_ses_386_3140198=huCpLLlcu2ZGGjKSX1lbBXfy7mgAAAAAuVpjAM4iiGIrl67Qq24Edw==\n"
+							"evidence": "Domain=.interieur.gouv.fr",
+							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nCookie name: visid_incap_3140198\nCookie name: incap_ses_1700_3140198\n"
 						},
 						{
-							"id": "15",
+							"id": "10",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=T9qaDohBS+iSINYx9pHSmXby7mgAAAAAQUIPAAAAAACYj9M4Vb8LwabMDygLdJk5\nincap_ses_386_3140198=Co8LVSlQtiO/GTKSX1lbBXby7mgAAAAALNfUD7ieQAH/Xut0MLbMhg==\n"
+							"evidence": "Domain=.interieur.gouv.fr",
+							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nCookie name: visid_incap_3140198\nCookie name: incap_ses_1700_3140198\n"
 						},
 						{
-							"id": "8",
+							"id": "53",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=XpCM5yS7TmS9DNiPib4COnfy7mgAAAAAQUIPAAAAAADzNTu7Ba5/ZIwK1HW7FMNn\nincap_ses_386_3140198=c2VLLku+FH0mGjKSX1lbBXfy7mgAAAAACLvUpWYIoSH5fMFjeBj5NA==\n"
+							"evidence": "Domain=.interieur.gouv.fr",
+							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nCookie name: visid_incap_3140198\nCookie name: incap_ses_1700_3140198\n"
 						},
 						{
-							"id": "70",
+							"id": "55",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nvisid_incap_3140198=TZxKmFKtR9ebQF7YK4srZHfy7mgAAAAAQUIPAAAAAAA6RtW6lEuUUhqG9bjJK9Gl\nincap_ses_1326_3140198=kn2PQCcG9hj+i7CYZOZmEnfy7mgAAAAAyAe7nptAz5+DcEtMgQe0og==\n"
+							"evidence": "Domain=.interieur.gouv.fr",
+							"otherinfo": "The origin domain used for comparison was:\nadministration-etrangers-en-france.interieur.gouv.fr\nCookie name: visid_incap_3140198\nCookie name: incap_ses_1700_3140198\n"
 						}
 					],
-					"count": "7",
+					"count": "5",
+					"systemic": false,
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was:</p><p>administration-etrangers-en-france.interieur.gouv.fr</p><p>visid_incap_3140198=rF3/Nx1ITr2oBOzGxpsGQXfy7mgAAAAAQUIPAAAAAADygRK1fNEGy9kmWOAH0ErB</p><p>incap_ses_1326_3140198=G4ijfwn7lE2Xi7CYZOZmEnfy7mgAAAAAwRhBfHX7euvELdbEIiqiPw==</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was:</p><p>administration-etrangers-en-france.interieur.gouv.fr</p><p>Cookie name: visid_incap_3140198</p><p>Cookie name: incap_ses_1700_3140198</p><p></p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>https://code.google.com/archive/p/browsersec/wikis/Part2.wiki</p>",
 					"cweid": "565",
 					"wascid": "15",
@@ -1555,8 +1009,9 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "25",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1564,8 +1019,9 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "32",
+							"id": "24",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1573,16 +1029,18 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "126",
+							"id": "123",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon.ico",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=870156224\" async></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=478418247\" async></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
 					"count": "3",
+					"systemic": false,
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</p>",
 					"reference": "",
@@ -1601,8 +1059,9 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "93",
+							"id": "88",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1610,8 +1069,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "36",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1619,8 +1079,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "38",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1628,8 +1089,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "77",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1637,8 +1099,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "78",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1647,12 +1110,13 @@
 						}
 					],
 					"count": "5",
+					"systemic": false,
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "13"
 				},
 				{
 					"pluginid": "10015",
@@ -1665,8 +1129,9 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "0",
+							"id": "4",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1674,8 +1139,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "2",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1684,6 +1150,7 @@
 						}
 					],
 					"count": "2",
+					"systemic": false,
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
@@ -1702,8 +1169,9 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "32",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1711,8 +1179,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "34",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1720,8 +1189,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "74",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1729,7 +1209,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
@@ -1748,8 +1229,9 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "46",
+							"id": "31",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1757,8 +1239,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "33",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1766,8 +1249,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "72",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "71",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1775,7 +1269,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
@@ -1794,8 +1289,9 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "29",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1803,8 +1299,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "30",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1812,8 +1309,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "70",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "69",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1821,7 +1329,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
@@ -1840,8 +1349,9 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "35",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1849,8 +1359,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "37",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1858,8 +1369,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "75",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "76",
+							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1867,7 +1389,8 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
@@ -1886,63 +1409,60 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "1",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:incap_ses_1326_3140198\ncookie:visid_incap_3140198"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_1700_3140198"
 						},
 						{
-							"id": "88",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/",
-							"method": "GET",
-							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"attack": "",
-							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_386_3140198"
-						},
-						{
-							"id": "99",
+							"id": "80",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:incap_ses_1326_3140198\ncookie:visid_incap_3140198"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_1700_3140198"
 						},
 						{
-							"id": "36",
+							"id": "0",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_386_3140198"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_1700_3140198"
 						},
 						{
-							"id": "37",
+							"id": "47",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_386_3140198"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_1700_3140198"
 						},
 						{
-							"id": "89",
+							"id": "48",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:incap_ses_1326_3140198\ncookie:visid_incap_3140198"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:visid_incap_3140198\ncookie:incap_ses_1700_3140198"
 						}
 					],
-					"count": "6",
+					"count": "5",
+					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>cookie:YOMe1h3tgHKNQxhV6V7n5g__</p><p>cookie:incap_ses_1326_3140198</p><p>cookie:visid_incap_3140198</p>",
+					"otherinfo": "<p>cookie:YOMe1h3tgHKNQxhV6V7n5g__</p><p>cookie:visid_incap_3140198</p><p>cookie:incap_ses_1700_3140198</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
@@ -1959,8 +1479,9 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "105",
+							"id": "90",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1968,58 +1489,54 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "108",
+							"id": "116",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-114.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-114.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "max-age=25150",
+							"evidence": "max-age=51725",
 							"otherinfo": ""
 						},
 						{
-							"id": "103",
+							"id": "110",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-144.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-144.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "max-age=23540",
+							"evidence": "max-age=46883",
 							"otherinfo": ""
 						},
 						{
-							"id": "118",
+							"id": "101",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-152.png",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/assets\/img\/favicon\/favicon-152.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "max-age=23975",
+							"evidence": "max-age=51675",
 							"otherinfo": ""
 						},
 						{
-							"id": "119",
-							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/img/favicon/favicon-72.png",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "max-age=23462",
-							"otherinfo": ""
-						},
-						{
-							"id": "79",
+							"id": "94",
 							"uri": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/favicon.ico",
+							"nodeName": "https:\/\/administration-etrangers-en-france.interieur.gouv.fr\/particuliers\/favicon.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "max-age=25860",
+							"evidence": "max-age=51739",
 							"otherinfo": ""
 						}
 					],
-					"count": "6",
+					"count": "5",
+					"systemic": true,
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "31"
+					"sourceid": "12"
 				}
 			]
 		}
