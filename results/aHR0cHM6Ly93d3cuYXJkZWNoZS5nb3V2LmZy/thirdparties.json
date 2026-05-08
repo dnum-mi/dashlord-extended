@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "icplf1qaui9ebhu8fgmsesaje0",
+      "value": "hedo9t26fbo1sp15fo8douvdu2",
       "domain": "www.ardeche.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 04:35:09 GMT",
-    "expires": "Wed, 15 Oct 2025 02:35:09 GMT",
-    "last-modified": "Wed, 15 Oct 2025 04:35:09 GMT",
+    "date": "Fri, 08 May 2026 20:52:26 GMT",
+    "expires": "Fri, 08 May 2026 18:52:26 GMT",
+    "last-modified": "Fri, 08 May 2026 20:52:26 GMT",
     "pragma": "no-cache",
     "served-by": "www.ardeche.gouv.fr",
-    "set-cookie": "eZSESSID=icplf1qaui9ebhu8fgmsesaje0; path=/",
+    "set-cookie": "eZSESSID=hedo9t26fbo1sp15fo8douvdu2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
