@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:39:54 GMT",
+      "date": "Fri, 08 May 2026 20:04:11 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=55AMWX3EVBKGD65EJL4R624NVS7ILFUVAOY3PBTPTCGYBUVRKESK3RM433WOBKRBRUO6DXTBCIM5G3AUPBND6JUDC243D6ZBPHNLSNTG5X4UZRXLDVUQ====; Path=/"
+        "bot_mitigation_cookie=426QCLQG5GGCYP6WJ7RAWDDQGZK6UTH33QXXCVJMFVXDX6FMNNRSPMFQSCYPRDUTHL542NXMVZXEX5ZK2LRKBWULVFZ3W5ZRMXDNJTVIMSC6ZRJMT25Q====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
       "content-length": "230",
-      "x-cp-via": "C2-1ec9a889-c19d8b74",
+      "x-cp-via": "C3-86cf7895-9969a0b4",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/suspension-du-permis",
       "redirects": true,
