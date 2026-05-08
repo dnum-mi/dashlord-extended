@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "19bshbk8dsvdqfagj426vrcsn4",
+      "value": "qhqou2vtmht2g0gl442af1da24",
       "domain": "www.gironde.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 07:20:59 GMT",
-    "expires": "Wed, 15 Oct 2025 05:20:59 GMT",
-    "last-modified": "Wed, 15 Oct 2025 07:20:59 GMT",
+    "date": "Fri, 08 May 2026 22:19:52 GMT",
+    "expires": "Fri, 08 May 2026 20:19:52 GMT",
+    "last-modified": "Fri, 08 May 2026 22:19:52 GMT",
     "pragma": "no-cache",
     "served-by": "www.gironde.gouv.fr",
-    "set-cookie": "eZSESSID=19bshbk8dsvdqfagj426vrcsn4; path=/",
+    "set-cookie": "eZSESSID=qhqou2vtmht2g0gl442af1da24; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
