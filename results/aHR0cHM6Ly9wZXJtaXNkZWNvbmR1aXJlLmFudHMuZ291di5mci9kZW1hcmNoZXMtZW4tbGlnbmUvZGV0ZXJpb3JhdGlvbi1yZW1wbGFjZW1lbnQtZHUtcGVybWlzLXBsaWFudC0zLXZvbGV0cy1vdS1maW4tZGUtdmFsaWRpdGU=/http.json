@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:46:04 GMT",
+      "date": "Fri, 08 May 2026 20:13:44 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=2IKFFB7G7UZZTPXI7GO4ZWA3J6WIQGIOA3LTNPZBW7NLZBUYCTKQEPV3VJTSN46BQNN73M4M3MBG6DELJGOT7PGS3PRRXNOXSXMSDJKUV4NKXHNI2YPA====; Path=/"
+        "bot_mitigation_cookie=IS5D56FOU2Q5LRFVFMKDYUYU2XAVRL2FCOPTYYV7DYH7G6OUKPNG456CHUJ5FG6OVJKAICXOYXFRQF33C2ELABRPNEGTUSTHBSBGYWH6PGDEGMX7DD7A====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "265",
-      "x-cp-via": "C3-f46acecb-1c4a535f",
+      "content-length": "264",
+      "x-cp-via": "C3-6620ee20-118bc0c0",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/deterioration-remplacement-du-permis-pliant-3-volets-ou-fin-de-validite",
       "redirects": true,
