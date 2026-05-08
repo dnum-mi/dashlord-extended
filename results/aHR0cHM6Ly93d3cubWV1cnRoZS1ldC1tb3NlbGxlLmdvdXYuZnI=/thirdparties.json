@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "k6c6303ehveavndf8gbnjdit13",
+      "value": "0u3o98m09b0knislb5th6logr6",
       "domain": "www.meurthe-et-moselle.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 09:32:18 GMT",
-    "expires": "Wed, 15 Oct 2025 07:32:18 GMT",
-    "last-modified": "Wed, 15 Oct 2025 09:32:18 GMT",
+    "date": "Fri, 08 May 2026 23:25:21 GMT",
+    "expires": "Fri, 08 May 2026 21:25:21 GMT",
+    "last-modified": "Fri, 08 May 2026 23:25:21 GMT",
     "pragma": "no-cache",
     "served-by": "www.meurthe-et-moselle.gouv.fr",
-    "set-cookie": "eZSESSID=k6c6303ehveavndf8gbnjdit13; path=/",
+    "set-cookie": "eZSESSID=0u3o98m09b0knislb5th6logr6; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
