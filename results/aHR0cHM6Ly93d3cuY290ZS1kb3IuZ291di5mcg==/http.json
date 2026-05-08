@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 02:41:58 GMT",
+      "date": "Fri, 08 May 2026 21:46:14 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 00:41:59 GMT",
-      "last-modified": "Fri, 13 Mar 2026 02:41:59 GMT",
+      "expires": "Fri, 08 May 2026 19:46:14 GMT",
+      "last-modified": "Fri, 08 May 2026 21:46:14 GMT",
       "served-by": "www.cote-dor.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=696lvs3npgf8bstif7tb2q9fq6; path=/"
+        "eZSESSID=9idsm9tc42ioids69gchph86d3; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"

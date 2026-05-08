@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "0ca89lbv41h21jb0vrpof52uh7",
+      "value": "7b6kv00q52ae2f0uiqad41q254",
       "domain": "www.cote-dor.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 06:06:57 GMT",
-    "expires": "Wed, 15 Oct 2025 04:06:57 GMT",
-    "last-modified": "Wed, 15 Oct 2025 06:06:57 GMT",
+    "date": "Fri, 08 May 2026 21:40:07 GMT",
+    "expires": "Fri, 08 May 2026 19:40:07 GMT",
+    "last-modified": "Fri, 08 May 2026 21:40:07 GMT",
     "pragma": "no-cache",
     "served-by": "www.cote-dor.gouv.fr",
-    "set-cookie": "eZSESSID=0ca89lbv41h21jb0vrpof52uh7; path=/",
+    "set-cookie": "eZSESSID=7b6kv00q52ae2f0uiqad41q254; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
