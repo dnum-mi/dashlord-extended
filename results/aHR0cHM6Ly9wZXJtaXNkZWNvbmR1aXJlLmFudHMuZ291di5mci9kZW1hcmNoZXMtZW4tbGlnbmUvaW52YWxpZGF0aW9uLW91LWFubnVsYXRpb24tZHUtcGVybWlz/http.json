@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:40:15 GMT",
+      "date": "Fri, 08 May 2026 20:04:07 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=C2ZT7Y35ZJXXY5QPAB65DI7QYQLO5UA7ZE6OJGXZWDDV6LJ46STGZGZWKHPXTM6XW6XX3EEX2YYQKN3XJCDHQ6KXC52T54XS24LA3GR6V2MFXBG53CMA====; Path=/"
+        "bot_mitigation_cookie=W5J2MA42YZLUZQYSI6F3KCL6FRE4MAZYVBAHBJSS35FC6XYXPKBDU5RNLNEALVFYBPZBMKE6GDZ4FDVO55PRAOZ7X2A3MVDM4IKO3MPH57G5CYRYLTDQ====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "240",
-      "x-cp-via": "C2-ac9d148b-c19d8b74",
+      "content-length": "238",
+      "x-cp-via": "C2-7d911933-77880a66",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/invalidation-ou-annulation-du-permis",
       "redirects": true,
