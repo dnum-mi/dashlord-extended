@@ -1,26 +1,28 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "D",
+    "grade": "F",
     "error": null,
-    "score": 30,
+    "score": 10,
     "statusCode": 200,
-    "testsFailed": 4,
-    "testsPassed": 6,
+    "testsFailed": 5,
+    "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 18:29:31 GMT",
+      "date": "Fri, 08 May 2026 19:28:42 GMT",
       "content-type": "text/html",
-      "last-modified": "Thu, 26 Feb 2026 14:07:25 GMT",
-      "etag": "W/\"9bd-64bbaa3d66140\"",
+      "set-cookie": [
+        "bot_mitigation_cookie=ZK3HQ6GXGQ6GFRQMFBFTBHQRSC5RKPSRN2I2JF43EJ3UAQNZWWQNYFEWJ6MHJ5DQBBIHRUW23TZXJVQ4LTIJRU7EAJKKYUYLBPNWVU63PCFOZNER4IAQ====; Path=/; SameSite=lax"
+      ],
+      "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "x-cp-via": "C2-84fc7c87-e74580fa",
+      "x-cp-via": "C2-fd99793f-e74580fa",
+      "x-cacheable": "Not cacheable: no cache headers from backend",
       "accept-ranges": "bytes",
       "x-cdn-pop": "bhs",
       "x-cdn-pop-ip": "137.74.122.0/26",
-      "x-cacheable": "Matched cache",
-      "content-length": "1101",
-      "connection": "close"
+      "connection": "close",
+      "transfer-encoding": "chunked"
     }
   },
   "tests": {
@@ -37,10 +39,17 @@
     },
     "cookies": {
       "expectation": "cookies-secure-with-httponly-sessions",
-      "pass": true,
-      "result": "cookies-not-found",
-      "scoreModifier": 0,
-      "data": null,
+      "pass": false,
+      "result": "cookies-without-secure-flag",
+      "scoreModifier": -20,
+      "data": {
+        "bot_mitigation_cookie": {
+          "domain": "www.inscriptionelectorale.service-public.fr",
+          "path": "/",
+          "port": null,
+          "samesite": "lax"
+        }
+      },
       "sameSite": false
     },
     "cross-origin-resource-sharing": {
