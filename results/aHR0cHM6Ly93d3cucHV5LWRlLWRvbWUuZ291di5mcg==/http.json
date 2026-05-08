@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 11 Mar 2026 04:09:05 GMT",
+      "date": "Fri, 08 May 2026 23:58:23 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Wed, 11 Mar 2026 02:09:05 GMT",
-      "last-modified": "Wed, 11 Mar 2026 04:09:05 GMT",
+      "expires": "Fri, 08 May 2026 21:58:23 GMT",
+      "last-modified": "Fri, 08 May 2026 23:58:23 GMT",
       "served-by": "www.puy-de-dome.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=0acpe4dcdtg6gj49bu473c0cu0; path=/"
+        "eZSESSID=ib1ifbagprvgdt0a8boul1nr74; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
