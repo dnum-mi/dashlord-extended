@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "bo64dsrti44fnj77i3rm9lffv6",
+      "value": "0md9qcog9309uqfcltl7ej6nd5",
       "domain": "www.corse-du-sud.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 05:51:13 GMT",
-    "expires": "Wed, 15 Oct 2025 03:51:13 GMT",
-    "last-modified": "Wed, 15 Oct 2025 05:51:13 GMT",
+    "date": "Fri, 08 May 2026 21:31:16 GMT",
+    "expires": "Fri, 08 May 2026 19:31:16 GMT",
+    "last-modified": "Fri, 08 May 2026 21:31:16 GMT",
     "pragma": "no-cache",
     "served-by": "www.corse-du-sud.gouv.fr",
-    "set-cookie": "eZSESSID=bo64dsrti44fnj77i3rm9lffv6; path=/",
+    "set-cookie": "eZSESSID=0md9qcog9309uqfcltl7ej6nd5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
