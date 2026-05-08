@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 11 Mar 2026 03:42:23 GMT",
+      "date": "Fri, 08 May 2026 23:15:45 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Wed, 11 Mar 2026 01:42:23 GMT",
-      "last-modified": "Wed, 11 Mar 2026 03:42:23 GMT",
+      "expires": "Fri, 08 May 2026 21:15:45 GMT",
+      "last-modified": "Fri, 08 May 2026 23:15:45 GMT",
       "served-by": "www.manche.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=olf0amkanbpksdo0ucgsoicbl0; path=/"
+        "eZSESSID=vqbv41s1pbnovmtqra8dnj8fn6; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
