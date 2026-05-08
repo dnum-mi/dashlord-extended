@@ -353,7 +353,7 @@
               "ip"           : "www.interieur.gouv.fr/104.20.35.184",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (20)"
+              "finding"      : "expires < 30 days (19)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.interieur.gouv.fr/104.20.35.184",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778120603"
+              "finding"      : "1778272444"
           }
 ,         {
               "id"           : "HSTS",
@@ -612,7 +612,7 @@
               "ip"           : "www.interieur.gouv.fr/104.20.35.184",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'none'; script-src 'nonce-QZhdetMgGPfUmKuySAYsEJ' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+              "finding"      : "default-src 'none'; script-src 'nonce-cLpe4MGmzygaLH9ZDsr5C9' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -1370,7 +1370,7 @@
               "ip"           : "www.interieur.gouv.fr/172.66.149.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -1517,7 +1517,7 @@
               "ip"           : "www.interieur.gouv.fr/172.66.149.1",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (20)"
+              "finding"      : "expires < 30 days (19)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1720,7 +1720,7 @@
               "ip"           : "www.interieur.gouv.fr/172.66.149.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778120691"
+              "finding"      : "1778272516"
           }
 ,         {
               "id"           : "HSTS",
@@ -1776,7 +1776,7 @@
               "ip"           : "www.interieur.gouv.fr/172.66.149.1",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'none'; script-src 'nonce-NLs6Hum5TXiJ1LfcTZ99FV' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
+              "finding"      : "default-src 'none'; script-src 'nonce-awfrcWVnSLM9iTTfTpIyGG' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -2332,6 +2332,6 @@
               "ip"           : "www.interieur.gouv.fr/172.66.149.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "179"
+              "finding"      : "156"
           }
 ]
