@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 01:51:43 GMT",
+      "date": "Fri, 08 May 2026 20:23:31 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=435NTBFSQC46MWGF446BHZN2XHTNWF7NUDFH7FFDNNUXGLKVQJHOOMVZ2Z27EAIGLQMBM5W7WVNPRKM7OFSYB2O44MHDM3EXU62SEKUVWIEXDF5XPUXA====; Path=/"
+        "bot_mitigation_cookie=KFKYXA3RGKW6QEKM6IXWSSB2LBG7YHLXJSO3FUVDKFHU5DKLDL2VVTMSLHAFAOHQWXJDUGANV6SAA6FNHKR5USASL75DYIRSSC62I64N6U3XJDFFR5XA====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
       "content-length": "234",
-      "x-cp-via": "C3-1a41e5b1-1c4a535f",
+      "x-cp-via": "C2-cf0ee183-50ec90e7",
       "connection": "close"
     }
   },
@@ -42,7 +42,8 @@
         "bot_mitigation_cookie": {
           "domain": "permisdeconduire.ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/inscription-examen-permis",
       "redirects": true,
