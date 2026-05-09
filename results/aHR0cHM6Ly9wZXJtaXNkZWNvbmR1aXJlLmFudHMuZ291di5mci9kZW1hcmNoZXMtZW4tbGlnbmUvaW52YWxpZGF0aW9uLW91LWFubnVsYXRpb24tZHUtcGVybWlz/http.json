@@ -9,15 +9,15 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 20:04:07 GMT",
+      "date": "Sat, 09 May 2026 02:59:47 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=W5J2MA42YZLUZQYSI6F3KCL6FRE4MAZYVBAHBJSS35FC6XYXPKBDU5RNLNEALVFYBPZBMKE6GDZ4FDVO55PRAOZ7X2A3MVDM4IKO3MPH57G5CYRYLTDQ====; Path=/; SameSite=lax"
+        "bot_mitigation_cookie=DPI2S72RDTTK5WSWDYMDVNYNPKQN2SHSHDVT757RGSFF7LVMJ2TCMXGIZWBG3NZKELON253LS5PBCCWRJKGE6RQTHMMN73MFOA3TIGAOB75CFQSAGKLA====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "238",
-      "x-cp-via": "C2-7d911933-77880a66",
+      "content-length": "240",
+      "x-cp-via": "C3-c391e6e2-9969a0b4",
       "connection": "close"
     }
   },
