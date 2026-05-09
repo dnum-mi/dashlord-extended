@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "qdgnb18lsrik1lnloond5i6ul4",
+      "value": "bbubj33nrffg9a8jubtfv00ur0",
       "domain": "www.saint-pierre-et-miquelon.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 14:18:34 GMT",
-    "expires": "Wed, 15 Oct 2025 12:18:34 GMT",
-    "last-modified": "Wed, 15 Oct 2025 14:18:34 GMT",
+    "date": "Sat, 09 May 2026 01:43:23 GMT",
+    "expires": "Fri, 08 May 2026 23:43:24 GMT",
+    "last-modified": "Sat, 09 May 2026 01:43:24 GMT",
     "pragma": "no-cache",
     "served-by": "www.saint-pierre-et-miquelon.gouv.fr",
-    "set-cookie": "eZSESSID=qdgnb18lsrik1lnloond5i6ul4; path=/",
+    "set-cookie": "eZSESSID=bbubj33nrffg9a8jubtfv00ur0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

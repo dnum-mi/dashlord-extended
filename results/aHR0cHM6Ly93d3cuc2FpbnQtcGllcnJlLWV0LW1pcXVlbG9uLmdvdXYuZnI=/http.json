@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 05:34:00 GMT",
+      "date": "Sat, 09 May 2026 01:49:38 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 03:34:01 GMT",
-      "last-modified": "Fri, 13 Mar 2026 05:34:01 GMT",
+      "expires": "Fri, 08 May 2026 23:49:38 GMT",
+      "last-modified": "Sat, 09 May 2026 01:49:38 GMT",
       "served-by": "www.saint-pierre-et-miquelon.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=dmnmta5qukeku9m773e7u43al7; path=/"
+        "eZSESSID=bu5m3h8fanos6afk9r1o590mf7; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
