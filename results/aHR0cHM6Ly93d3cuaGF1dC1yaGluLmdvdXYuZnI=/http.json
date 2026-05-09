@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 04:17:30 GMT",
+      "date": "Sat, 09 May 2026 00:10:10 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 02:17:30 GMT",
-      "last-modified": "Fri, 13 Mar 2026 04:17:30 GMT",
+      "expires": "Fri, 08 May 2026 22:10:10 GMT",
+      "last-modified": "Sat, 09 May 2026 00:10:10 GMT",
       "served-by": "www.haut-rhin.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=88iup29n1cs6pfajsai53kabp7; path=/"
+        "eZSESSID=s8rseo09jo4iialqvefrbgtlh0; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
