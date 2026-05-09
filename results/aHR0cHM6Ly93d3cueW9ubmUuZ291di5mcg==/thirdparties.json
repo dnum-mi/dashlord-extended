@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "1312erdjmh6h3tqgpbk9lav3m2",
+      "value": "ah1v9o1hpl55uk2i9l2cs0qt83",
       "domain": "www.yonne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 13:04:35 GMT",
-    "expires": "Wed, 15 Oct 2025 11:04:35 GMT",
-    "last-modified": "Wed, 15 Oct 2025 13:04:35 GMT",
+    "date": "Sat, 09 May 2026 01:08:23 GMT",
+    "expires": "Fri, 08 May 2026 23:08:23 GMT",
+    "last-modified": "Sat, 09 May 2026 01:08:23 GMT",
     "pragma": "no-cache",
     "served-by": "www.yonne.gouv.fr",
-    "set-cookie": "eZSESSID=1312erdjmh6h3tqgpbk9lav3m2; path=/",
+    "set-cookie": "eZSESSID=ah1v9o1hpl55uk2i9l2cs0qt83; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
