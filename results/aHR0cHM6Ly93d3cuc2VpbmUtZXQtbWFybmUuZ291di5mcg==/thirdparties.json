@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "a2crf8895d3fk4dai66gesrn90",
+      "value": "fsfsqe0dv0ldra4mevmqi7ibi3",
       "domain": "www.seine-et-marne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 11:45:29 GMT",
-    "expires": "Wed, 15 Oct 2025 09:45:29 GMT",
-    "last-modified": "Wed, 15 Oct 2025 11:45:29 GMT",
+    "date": "Sat, 09 May 2026 00:28:32 GMT",
+    "expires": "Fri, 08 May 2026 22:28:33 GMT",
+    "last-modified": "Sat, 09 May 2026 00:28:33 GMT",
     "pragma": "no-cache",
     "served-by": "www.seine-et-marne.gouv.fr",
-    "set-cookie": "eZSESSID=a2crf8895d3fk4dai66gesrn90; path=/",
+    "set-cookie": "eZSESSID=fsfsqe0dv0ldra4mevmqi7ibi3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
