@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 04:52:51 GMT",
+      "date": "Sat, 09 May 2026 00:58:07 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 02:52:51 GMT",
-      "last-modified": "Fri, 13 Mar 2026 04:52:51 GMT",
+      "expires": "Fri, 08 May 2026 22:58:08 GMT",
+      "last-modified": "Sat, 09 May 2026 00:58:08 GMT",
       "served-by": "www.vaucluse.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=9jgc40o8u6o2er069so52he761; path=/"
+        "eZSESSID=n4q0codargnsecd2bs651u1u85; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"

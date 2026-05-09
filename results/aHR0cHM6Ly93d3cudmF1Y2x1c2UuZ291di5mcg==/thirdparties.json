@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "h8kgq3821a60pj60r5dlqt83g5",
+      "value": "lm2ri0l1pa05lgrbhrppke38b6",
       "domain": "www.vaucluse.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 12:28:52 GMT",
-    "expires": "Wed, 15 Oct 2025 10:28:52 GMT",
-    "last-modified": "Wed, 15 Oct 2025 12:28:52 GMT",
+    "date": "Sat, 09 May 2026 00:51:04 GMT",
+    "expires": "Fri, 08 May 2026 22:51:05 GMT",
+    "last-modified": "Sat, 09 May 2026 00:51:05 GMT",
     "pragma": "no-cache",
     "served-by": "www.vaucluse.gouv.fr",
-    "set-cookie": "eZSESSID=h8kgq3821a60pj60r5dlqt83g5; path=/",
+    "set-cookie": "eZSESSID=lm2ri0l1pa05lgrbhrppke38b6; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
