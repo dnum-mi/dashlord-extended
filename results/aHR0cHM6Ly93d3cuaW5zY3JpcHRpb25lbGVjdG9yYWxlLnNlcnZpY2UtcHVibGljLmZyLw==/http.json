@@ -9,14 +9,14 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 19:28:42 GMT",
+      "date": "Sat, 09 May 2026 02:23:54 GMT",
       "content-type": "text/html",
       "set-cookie": [
-        "bot_mitigation_cookie=ZK3HQ6GXGQ6GFRQMFBFTBHQRSC5RKPSRN2I2JF43EJ3UAQNZWWQNYFEWJ6MHJ5DQBBIHRUW23TZXJVQ4LTIJRU7EAJKKYUYLBPNWVU63PCFOZNER4IAQ====; Path=/; SameSite=lax"
+        "bot_mitigation_cookie=KA2ALVBQJYCWA5GEBYAPKUUJQGXBMEF4OQD22VKYPYVAZNM5TTSNRLSLNLZ5H6LKPYAMHIHVYPZWVGIH6S6ICBDI4V36KTNW2GEGMA57345VGUX6AQ5A====; Path=/; SameSite=lax"
       ],
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "x-cp-via": "C2-fd99793f-e74580fa",
+      "x-cp-via": "C2-39ab91db-e74580fa",
       "x-cacheable": "Not cacheable: no cache headers from backend",
       "accept-ranges": "bytes",
       "x-cdn-pop": "bhs",
