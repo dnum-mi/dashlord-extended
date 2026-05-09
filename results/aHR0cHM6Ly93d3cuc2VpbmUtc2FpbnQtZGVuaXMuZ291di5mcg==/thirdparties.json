@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "5us4i6o0fmf7ijrs5g0edhqp60",
+      "value": "4rmkej55nkn765qk6r89897um0",
       "domain": "www.seine-saint-denis.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 13:25:39 GMT",
-    "expires": "Wed, 15 Oct 2025 11:25:39 GMT",
-    "last-modified": "Wed, 15 Oct 2025 13:25:39 GMT",
+    "date": "Sat, 09 May 2026 01:18:41 GMT",
+    "expires": "Fri, 08 May 2026 23:18:41 GMT",
+    "last-modified": "Sat, 09 May 2026 01:18:41 GMT",
     "pragma": "no-cache",
     "served-by": "www.seine-saint-denis.gouv.fr",
-    "set-cookie": "eZSESSID=5us4i6o0fmf7ijrs5g0edhqp60; path=/",
+    "set-cookie": "eZSESSID=4rmkej55nkn765qk6r89897um0; path=/",
     "vary": "Cookie,Accept-Encoding,Authorization",
     "x-cache": "Miss"
   },
