@@ -13,10 +13,10 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "9f8adbb6dfecad9f-AMS",
+    "cf-ray": "9f8d3ce3ad22bf6a-WAW",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Fri, 08 May 2026 19:26:49 GMT",
+    "date": "Sat, 09 May 2026 02:22:41 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
@@ -27,7 +27,7 @@
   "endpoints": [
     {
       "hostname": "maprocuration.gouv.fr",
-      "ip": "5.22.145.230",
+      "ip": "5.22.145.247",
       "geoip": {
         "continent": {
           "code": "EU",
