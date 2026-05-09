@@ -70,19 +70,19 @@
     },
     {
       "type": "unknown",
+      "url": "https://hipe-strapi-3.ofii.fr/graphql"
+    },
+    {
+      "type": "unknown",
+      "url": "https://hipe-strapi-3.ofii.fr/graphql"
+    },
+    {
+      "type": "unknown",
       "url": "https://hipe-strapi-3.ofii.fr/uploads/Thematique_accueil_1_c8383c3ef8.png"
     },
     {
       "type": "unknown",
       "url": "https://hipe-strapi-3.ofii.fr/uploads/image_RF_67653e07b5.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://hipe-strapi-3.ofii.fr/graphql"
-    },
-    {
-      "type": "unknown",
-      "url": "https://hipe-strapi-3.ofii.fr/graphql"
     },
     {
       "type": "unknown",
@@ -96,7 +96,7 @@
   "cookies": [
     {
       "name": "TS0147c866",
-      "value": "01d368dd13670f515d0c625fdbb64890283e38ad483e93dc4aded5846151d011c645118c0bef9e1ee62a61505a35a99717455c18dd",
+      "value": "01d368dd139a60206d2ce221c268e37603cab14bb8e05587e4b4557d8bc18bace33eb88530a4d715818c2515cb27d9d3ecdaf1053a",
       "domain": ".etrangers-en-france.interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -114,15 +114,15 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
     "content-type": "text/html",
-    "date": "Fri, 08 May 2026 19:00:10 GMT",
+    "date": "Sat, 09 May 2026 01:56:43 GMT",
     "etag": "W/\"69e21517-50e\"",
     "last-modified": "Fri, 17 Apr 2026 11:10:15 GMT",
     "permissions-policy": "geolocation=(), microphone=(), camera=()",
     "referrer-policy": "no-referrer-when-downgrade",
-    "set-cookie": "TS0147c866=01d368dd13670f515d0c625fdbb64890283e38ad483e93dc4aded5846151d011c645118c0bef9e1ee62a61505a35a99717455c18dd; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
+    "set-cookie": "TS0147c866=01d368dd139a60206d2ce221c268e37603cab14bb8e05587e4b4557d8bc18bace33eb88530a4d715818c2515cb27d9d3ecdaf1053a; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
     "strict-transport-security": "max-age=16070400; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-cp-via": "C3-f46acecb-241d4487",
+    "x-cp-via": "C2-84fc7c87-73f82d7e",
     "x-frame-options": "SAMEORIGIN",
     "x-xss-protection": "1; mode=block"
   },
@@ -185,19 +185,19 @@
     },
     {
       "hostname": "cdn-eu.readspeaker.com",
-      "ip": "207.211.214.80",
+      "ip": "79.127.178.53",
       "geoip": {
         "city": {
-          "geoname_id": 2800866,
+          "geoname_id": 2988507,
           "names": {
-            "de": "Brüssel",
-            "en": "Brussels",
-            "es": "Bruselas",
-            "fr": "Bruxelles",
-            "ja": "ブリュッセル",
-            "pt-BR": "Bruxelas",
-            "ru": "Брюссель",
-            "zh-CN": "布鲁塞尔"
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
           }
         },
         "continent": {
@@ -215,28 +215,28 @@
           }
         },
         "country": {
-          "geoname_id": 2802361,
+          "geoname_id": 3017382,
           "is_in_european_union": true,
-          "iso_code": "BE",
+          "iso_code": "FR",
           "names": {
-            "de": "Belgien",
-            "en": "Belgium",
-            "es": "Bélgica",
-            "fr": "Belgique",
-            "ja": "ベルギー王国",
-            "pt-BR": "Bélgica",
-            "ru": "Бельгия",
-            "zh-CN": "比利时"
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 50.8534,
-          "longitude": 4.347,
-          "time_zone": "Europe/Brussels"
+          "latitude": 48.8558,
+          "longitude": 2.3494,
+          "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "1000"
+          "code": "75001"
         },
         "registered_country": {
           "geoname_id": 2635167,
@@ -254,17 +254,27 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2800867,
-            "iso_code": "BRU",
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
             "names": {
-              "de": "Region Brüssel-Hauptstadt",
-              "en": "Brussels Capital",
-              "es": "Bruselas",
-              "fr": "Bruxelles-Capitale",
-              "ja": "ブリュッセル",
-              "pt-BR": "Bruxelas",
-              "ru": "Брюссельский столичный регион",
-              "zh-CN": "布鲁塞尔首都大区"
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Département Paris",
+              "en": "Paris Department",
+              "es": "Departamento de París",
+              "fr": "Département de Paris"
             }
           }
         ]
