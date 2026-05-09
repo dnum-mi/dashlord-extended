@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "iukrksunaove5vf91li13lh0j3",
+      "value": "a9ji56crubkir8d6diqrv1ap77",
       "domain": "www.somme.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 12:06:05 GMT",
-    "expires": "Wed, 15 Oct 2025 10:06:05 GMT",
-    "last-modified": "Wed, 15 Oct 2025 12:06:05 GMT",
+    "date": "Sat, 09 May 2026 00:39:47 GMT",
+    "expires": "Fri, 08 May 2026 22:39:47 GMT",
+    "last-modified": "Sat, 09 May 2026 00:39:47 GMT",
     "pragma": "no-cache",
     "served-by": "www.somme.gouv.fr",
-    "set-cookie": "eZSESSID=iukrksunaove5vf91li13lh0j3; path=/",
+    "set-cookie": "eZSESSID=a9ji56crubkir8d6diqrv1ap77; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
