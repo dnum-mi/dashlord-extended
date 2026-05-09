@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "0fkfdtvla4ups45qrp6lgmi3i4",
+      "value": "o0q6quvqg0e4ptdjf8ilge8pm7",
       "domain": "www.haute-savoie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 11:33:17 GMT",
-    "expires": "Wed, 15 Oct 2025 09:33:17 GMT",
-    "last-modified": "Wed, 15 Oct 2025 11:33:17 GMT",
+    "date": "Sat, 09 May 2026 00:22:56 GMT",
+    "expires": "Fri, 08 May 2026 22:22:56 GMT",
+    "last-modified": "Sat, 09 May 2026 00:22:56 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-savoie.gouv.fr",
-    "set-cookie": "eZSESSID=0fkfdtvla4ups45qrp6lgmi3i4; path=/",
+    "set-cookie": "eZSESSID=o0q6quvqg0e4ptdjf8ilge8pm7; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
