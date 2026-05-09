@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "dskhskehpe02ju6alk4tc013e7",
+      "value": "glq4jmljpb4cu4pjqmn7c4t682",
       "domain": "www.vendee.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 12:37:08 GMT",
-    "expires": "Wed, 15 Oct 2025 10:37:08 GMT",
-    "last-modified": "Wed, 15 Oct 2025 12:37:08 GMT",
+    "date": "Sat, 09 May 2026 00:56:51 GMT",
+    "expires": "Fri, 08 May 2026 22:56:51 GMT",
+    "last-modified": "Sat, 09 May 2026 00:56:51 GMT",
     "pragma": "no-cache",
     "served-by": "www.vendee.gouv.fr",
-    "set-cookie": "eZSESSID=dskhskehpe02ju6alk4tc013e7; path=/",
+    "set-cookie": "eZSESSID=glq4jmljpb4cu4pjqmn7c4t682; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
