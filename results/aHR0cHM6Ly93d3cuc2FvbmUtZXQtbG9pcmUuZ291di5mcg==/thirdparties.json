@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "o7v6gf0dg7umn88hj7rvqol4a2",
+      "value": "hctifmpbrqcksn6efvl9q16js1",
       "domain": "www.saone-et-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 11:14:34 GMT",
-    "expires": "Wed, 15 Oct 2025 09:14:34 GMT",
-    "last-modified": "Wed, 15 Oct 2025 11:14:34 GMT",
+    "date": "Sat, 09 May 2026 00:13:54 GMT",
+    "expires": "Fri, 08 May 2026 22:13:55 GMT",
+    "last-modified": "Sat, 09 May 2026 00:13:55 GMT",
     "pragma": "no-cache",
     "served-by": "www.saone-et-loire.gouv.fr",
-    "set-cookie": "eZSESSID=o7v6gf0dg7umn88hj7rvqol4a2; path=/",
+    "set-cookie": "eZSESSID=hctifmpbrqcksn6efvl9q16js1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
