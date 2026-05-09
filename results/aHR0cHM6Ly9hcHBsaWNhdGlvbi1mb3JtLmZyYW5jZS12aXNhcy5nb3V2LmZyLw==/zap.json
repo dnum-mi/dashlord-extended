@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 19:11:27",
-	"created": "2026-05-08T19:11:27.872127390Z",
+	"@generated": "Sat, 9 May 2026 02:07:19",
+	"created": "2026-05-09T02:07:19.954577294Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://application-form.france-visas.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "50"
 		}
 	],
 	"site":[ 
@@ -79,7 +79,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "2",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -89,7 +89,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "45",
+							"id": "61",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -99,7 +99,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "62",
+							"id": "42",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -129,7 +129,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "3",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -139,7 +139,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nstyle-src, img-src, connect-src, frame-src, font-src, media-src, manifest-src"
 						},
 						{
-							"id": "46",
+							"id": "62",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -149,7 +149,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nstyle-src, img-src, connect-src, frame-src, font-src, media-src, manifest-src"
 						},
 						{
-							"id": "63",
+							"id": "44",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -179,7 +179,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "6",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -189,7 +189,7 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						},
 						{
-							"id": "49",
+							"id": "67",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -199,7 +199,7 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						},
 						{
-							"id": "66",
+							"id": "49",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -229,7 +229,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "4",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -239,7 +239,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "47",
+							"id": "63",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -249,7 +249,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "64",
+							"id": "46",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -279,7 +279,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "5",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -289,7 +289,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "48",
+							"id": "65",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -299,7 +299,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "65",
+							"id": "48",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -329,7 +329,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "7",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -339,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "8",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -349,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "9",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -359,7 +359,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "38",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -369,7 +369,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "39",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -399,7 +399,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "15",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -409,7 +409,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "47",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -419,7 +419,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "75",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/oauth2/authorization/keycloak",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/oauth2\/authorization\/keycloak",
 							"method": "GET",
@@ -429,7 +429,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "73",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -439,7 +439,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "59",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -456,7 +456,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -469,7 +469,7 @@
 					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "10",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -479,7 +479,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "11",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -489,7 +489,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "12",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -519,7 +519,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "13",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -529,7 +529,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "14",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -539,7 +539,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "41",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -549,7 +549,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "43",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -559,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "45",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -589,7 +589,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "27",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -619,7 +619,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "28",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -649,7 +649,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "26",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -679,7 +679,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "24",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -689,7 +689,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "79",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -699,7 +699,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "66",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -729,7 +729,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "17",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -759,30 +759,30 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "18",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "MWMwYjc5ZmItYmRjYy00M2FkLTllNzYtYzhiNDYwN2JiMDgzLlMtXzRkWjJqM2lCVm9iREZHNlJNZ1lkMWVzSlp0clBBeXRUM2g3Z2ExTTVuTm9TQ3RmdnhIQ0FINWlBQ19JUi16YnNKdVNpemgzcm5pV2RqaGVkdlpn",
-							"otherinfo": "1c0b79fb-bdcc-43ad-9e76-c8b4607bb083.S-_4dZ2j3iBVobDFG6RMgYd1esJZtrPAytT3h7ga1M5nNoSCtfvxHCAH5iAC_IR-zbsJuSizh3rniWdjhedvZg"
+							"evidence": "YjdiNTIyYTEtMTU4Ni00NmE5LWI5ZmEtMjM3YzVlMmQ2N2M3LnpJTzAwN1pJdjE3eHp6NkM2clpkbm5MN2xWLTJVenZ3S0ZGTmFEcDVUdzlVRVNNamJxNXkzaFVTSXRZYXFlOFRlLWR2ei1kSkx1ZWUyQnNxSjdLLWNR",
+							"otherinfo": "b7b522a1-1586-46a9-b9fa-237c5e2d67c7.zIO007ZIv17xzz6C6rZdnnL7lV-2UzvwKFFNaDp5Tw9UESMjbq5y3hUSItYaqe8Te-dvz-dJLuee2BsqJ7K-cQ"
 						},
 						{
-							"id": "77",
+							"id": "76",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/oauth2/authorization/keycloak",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/oauth2\/authorization\/keycloak",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "curifv2tSf3N7Rvbd0sBLBeF6cKRUNkkDGHLftD9jlQ",
-							"otherinfo": "r\uFFFD\uFFFD~\uFFFD\uFFFDI\uFFFD\uFFFD\uFFFD\\x001b\uFFFDwK\\x0001,\\x0017\uFFFD\uFFFD\u0091P\uFFFD$\\x000ca\uFFFD~\uFFFD\uFFFD\uFFFDT"
+							"evidence": "4jh1VRSXn5G9nTH5GC33HH3Cgwq09CAxzamoyz-xSdA",
+							"otherinfo": "\uFFFD8uU\\x0014\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD1\uFFFD\\x0018-\uFFFD\\x001c}\u0083\n\uFFFD\uFFFD 1\u0369\uFFFD\uFFFD?\uFFFDI\uFFFD"
 						}
 					],
 					"count": "2",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>1c0b79fb-bdcc-43ad-9e76-c8b4607bb083.S-_4dZ2j3iBVobDFG6RMgYd1esJZtrPAytT3h7ga1M5nNoSCtfvxHCAH5iAC_IR-zbsJuSizh3rniWdjhedvZg</p>",
+					"otherinfo": "<p>b7b522a1-1586-46a9-b9fa-237c5e2d67c7.zIO007ZIv17xzz6C6rZdnnL7lV-2UzvwKFFNaDp5Tw9UESMjbq5y3hUSItYaqe8Te-dvz-dJLuee2BsqJ7K-cQ</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -799,13 +799,13 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "16",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>\n\n\nconst kcContext = {\n    \"social\": {\n        \"baseURI\": {\n            \"path\": \"\\/\",\n            \"rawPath\": \"\\/\",\n            \"rawSchemeSpecificPart\": \"\\/?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA\",\n            \"opaque\": false,\n            \"query\": \"client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA\",\n            \"schemeSpecificPart\": \"\\/?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA\",\n            \"port\": -1,\n            \"absolute\": false,\n            \"rawQuery\": \"client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA\",\n        },\n        \"providers\": [\n        ],\n    },\n    \"auth\": {\n        \"showResetCredentials\": false,\n        \"authenticationSelections\": [\n            {\n                \"helpText\": \"auth-username-password-form-mae-help-text\",\n                \"displayName\": \"auth-username-password-form-mae-display-name\",\n                \"iconCssClass\": \"kcAuthenticatorDefaultClass\",\n                \"authExecId\": \"956d55c0-c1b6-461a-9715-f558e48db6f5\",\n                \"authenticationExecution\": {\n                    \"authenticatorFlow\": false,\n                    \"conditional\": false,\n                    \"required\": true,\n                    \"enabled\": true,\n                    \"disabled\": false,\n                    \"id\": \"956d55c0-c1b6-461a-9715-f558e48db6f5\",\n                    \"parentFlow\": \"1a53fbcc-ee90-4dcf-b00d-10eb281eef4b\",\n                    \"authenticator\": \"auth-username-password-form-mae\",\n                    \"alternative\": false,\n                    \"requirement\": {\n                        \"stableIndex\": 0,\n                    },\n                    \"priority\": 20,\n                },\n            },\n        ],\n        \"showUsername\": false,\n        \"showTryAnotherWayLink\": false,\n        /*auth.attemptedUsername excluded*/\n    },\n    \"locale\": {\n        \"rtl\": false,\n        \"current\": \"Fran\u00E7ais\",\n        \"supported\": [\n            {\n                \"languageTag\": \"en\",\n                \"label\": \"Anglais (English)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=en\",\n            },\n            {\n                \"languageTag\": \"ar\",\n                \"label\": \"Arabe (\u0627\u0644\u0639\u0631\u0628\u064A\u0629)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=ar\",\n            },\n            {\n                \"languageTag\": \"zh-CN\",\n                \"label\": \"Chinois (simplifi\u00E9) (\u4E2D\u6587 (\u7B80\u4F53))\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=zh-CN\",\n            },\n            {\n                \"languageTag\": \"es\",\n                \"label\": \"Espagnol (Espa\u00F1ol)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=es\",\n            },\n            {\n                \"languageTag\": \"fr\",\n                \"label\": \"Fran\u00E7ais\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=fr\",\n            },\n            {\n                \"languageTag\": \"ru\",\n                \"label\": \"Russe (\u0440\u0443\u0441\u0441\u043A\u0438\u0439)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=ru\",\n            },\n        ],\n        \"currentLanguageTag\": \"fr\",\n    },\n    \"login\": {\n    },\n    \"pageId\": \"login\",\n    \"url\": {\n        \"oauthAction\": \"\\/realms/usager/login-actions/authenticate\",\n        \"resourcesPath\": \"\\/resources/mygdl/login/DSFR\",\n        \"loginAction\": \"https://connect.france-visas.gouv.fr/realms/usager/login-actions/authenticate?session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"loginUrl\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"resourcesCommonPath\": \"\\/resources/mygdl/common/keycloak\",\n        \"firstBrokerLoginUrl\": \"\\/realms/usager/login-actions/first-broker-login?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"registrationUrl\": \"\\/realms/usager/login-actions/registration?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"logoutConfirmAction\": \"\\/realms/usager/protocol/openid-connect/logout/logout-confirm?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"registrationAction\": \"https://connect.france-visas.gouv.fr/realms/usager/login-actions/authenticate?session_code=Azh7Het8UGaza0iOac1qHIF0IuR5SvCYT03PzYHGvrA&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"loginResetCredentialsUrl\": \"\\/realms/usager/login-actions/reset-credentials?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0\",\n        \"ssoLoginInOtherTabsUrl\": \"\\/realms/usager/login-actions/restart?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&skip_logout=true\",\n        \"resourcesUrl\": \"\\/resources/mygdl?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0/login/DSFR\",\n        \"loginRestartFlowUrl\": \"\\/realms/usager/login-actions/restart?client_id=fv-fo-keycloak-web&tab_id=WOyGGMAlUqQ&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IkxpbEFkUUR4NHZscUFRM2xhVlJvVGZZckNQRXF4ODVoZGdNUmpGd2hoN0k9In0&skip_logout=false\",\n        \"oauth2DeviceVerificationAction\": \"\\/realms/usager/login-actions/authenticate\",\n    },\n    \"authenticationSession\": {\n        \"tabId\": \"WOyGGMAlUqQ\",\n        \"authSessionId\": \"1c0b79fb-bdcc-43ad-9e76-c8b4607bb083\",\n        \"authSessionIdHash\": \"g1s0fCvbZHBtPnbtTIPL+wEjR2z7Yh5GcTWymmvjN5g\",\n    },\n    \"messagesPerField\": {\n        \"get\": function (fieldName) { if(fieldName === 'firstName'){ return ''; } if(fieldName === 'lastName'){ return ''; } if(fieldName === 'email'){ return ''; } if(fieldName === 'username' || fieldName === 'password' ){ return ''; } if(fieldName === 'password-confirm'){ return ''; } if(fieldName === 'global'){ return ''; } if(fieldName === 'totp'){ return ''; } if(fieldName === 'userLabel'){ return ''; } if(fieldName === 'recoveryCodeInput'){ return ''; } if(fieldName === 'termsAccepted'){ return ''; } if(fieldName === 'captchaFormulaireExtInput'){ return ''; } if(fieldName === 'password-new'){ return ''; } },\n        \"existsError\": function (fieldName) { if(fieldName === 'firstName' ){ return false; }if(fieldName === 'lastName' ){ return false; }if(fieldName === 'email' ){ return false; }if(fieldName === 'username' || fieldName === 'password' ){ return false; } if(fieldName === 'password-confirm' ){ return false; }if(fieldName === 'global' ){ return false; }if(fieldName === 'totp' ){ return false; }if(fieldName === 'userLabel' ){ return false; }if(fieldName === 'recoveryCodeInput' ){ return false; }if(fieldName === 'termsAccepted' ){ return false; }if(fieldName === 'captchaFormulaireExtInput' ){ return false; }if(fieldName === 'password-new' ){ return false; }},\n    },\n    \"templateName\": \"login.ftl\",\n    \"client\": {\n        \"clientId\": \"fv-fo-keycloak-web\",\n        \"description\": \"\",\n        \"baseUrl\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/accueil.xhtml\",\n        \"name\": \"fvfokeycloakweb\",\n        \"attributes\": {\n            \"saml.multivalued.roles\": \"false\",\n            \"saml.force.post.binding\": \"false\",\n            \"frontchannel.logout.session.required\": \"true\",\n            \"post.logout.redirect.uris\": \"+\",\n            \"oauth2.device.authorization.grant.enabled\": \"false\",\n            \"backchannel.logout.revoke.offline.tokens\": \"false\",\n            \"use.refresh.tokens\": \"true\",\n            \"saml.server.signature.keyinfo.ext\": \"false\",\n            \"realm_client\": \"false\",\n            \"oidc.ciba.grant.enabled\": \"false\",\n            \"backchannel.logout.session.required\": \"true\",\n            \"backchannel.logout.url\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/logout\",\n            \"client_credentials.use_refresh_token\": \"false\",\n            \"require.pushed.authorization.requests\": \"false\",\n            \"saml.client.signature\": \"false\",\n            \"saml.allow.ecp.flow\": \"false\",\n            \"saml.assertion.signature\": \"false\",\n            \"id.token.as.detached.signature\": \"false\",\n            \"client.secret.creation.time\": \"1675323077\",\n            \"saml.encrypt\": \"false\",\n            \"frontchannel.logout.url\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/perform_logout\",\n            \"saml.server.signature\": \"false\",\n            \"exclude.session.state.from.auth.response\": \"false\",\n            \"tls-client-certificate-bound-access-tokens\": \"false\",\n            \"saml.artifact.binding\": \"false\",\n            \"saml_force_name_id_format\": \"false\",\n            \"acr.loa.map\": \"{}\",\n            \"tls.client.certificate.bound.access.tokens\": \"false\",\n            \"saml.authnstatement\": \"false\",\n            \"display.on.consent.screen\": \"false\",\n            \"token.response.type.bearer.lower-case\": \"false\",\n            \"saml.onetimeuse.condition\": \"false\",\n        },\n    },\n    \"passwordPolicies\": {\n        \"passwordHistory\": 5,\n        \"notEmail\": false,\n        \"lowerCase\": 1,\n        \"length\": 12,\n        \"notUsername\": false,\n        \"upperCase\": 1,\n        \"digits\": 1,\n        \"maxLength\": 250,\n    },\n    \"realm\": {\n        \"displayName\": \"usager\",\n        \"registrationAllowed\": true,\n        \"displayNameHtml\": \"<div class=\\\"kc-logo-text\\\"><span><\\/span><\\/div>\",\n        \"resetPasswordAllowed\": true,\n        \"resetCredentialsActionTokenLifespanMinutes\": 15,\n        \"password\": true,\n        \"actionTokenGeneratedByUserLifespanMinutes\": 15,\n        \"internationalizationEnabled\": true,\n        \"idpVerifyAccountLinkActionTokenLifespanMinutes\": 15,\n        \"verifyEmailActionTokenLifespanMinutes\": 15,\n        \"loginWithEmailAllowed\": true,\n        \"duplicateEmailsAllowed\": false,\n        \"editUsernameAllowed\": false,\n        \"name\": \"usager\",\n        \"rememberMe\": false,\n        \"registrationEmailAsUsername\": true,\n        \"identityFederationEnabled\": false,\n    },\n    \"darkMode\": true,\n    \"scripts\": [\n    ],\n    \"lang\": \"fr\",\n    \"properties\": {\n        \"parent\": \"keycloak\",\n        \"styles\": \"css/login.css\",\n        \"DSFR_THEME_BRAND_TOP\": \"GOUVERNEMENT\",\n        \"DSFR_THEME_ENVIRONMENT_URL\": \"https://france-visas.gouv.fr\",\n        \"REGEX_PASSWORD_INVALID_CHARACTERS\": \"^[%&<>=|\\\"]*$\",\n        \"stylesCommon\": \"vendor/patternfly-v4/patternfly.min.css vendor/patternfly-v3/css/patternfly.min.css vendor/patternfly-v3/css/patternfly-additions.min.css lib/pficon/pficon.css\",\n        \"DSFR_THEME_HOME_URL\": \"\",\n        \"DSFR_THEME_SERVICE_TITLE\": \"France-Visas\",\n        \"DSFR_THEME_ENVIRONMENT_URL_MY_APPLICATIONS\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/accueil.xhtml\",\n        \"KEYCLOAKIFY_SPA_DEV_SERVER_PORT\": \"\",\n        \"DSFR_THEME_ENVIRONMENT_FULL_NAME\": \"\",\n        \"darkMode\": \"true\",\n    },\n};\nkcContext.keycloakifyVersion = \"11.9.2\";\nkcContext.themeVersion = \"100801.7.0\";\nkcContext.themeType = \"login\";\nkcContext.themeName = \"DSFR\";\nkcContext.pageId = \"login.ftl\";\nkcContext.ftlTemplateFileName = \"login.ftl\";\n\n\nkcContext[\"x-keycloakify\"] = {};\n\nkcContext[\"x-keycloakify\"].resourcesPath = \"/resources/mygdl/login/DSFR\";\n\n{\n    var messages = {};\n    kcContext[\"x-keycloakify\"].messages = messages;\n}\n\nif( \n    kcContext.url instanceof Object &&\n    typeof kcContext.url.resourcesPath === \"string\"\n){\n    kcContext.url.resourcesCommonPath = kcContext.url.resourcesPath + \"/resources-common\";\n}\n\nif( kcContext.messagesPerField ){\n    var existsError_singleFieldName = kcContext.messagesPerField.existsError;\n    kcContext.messagesPerField.existsError = function (){\n        for( let i = 0; i < arguments.length; i++ ){\n            if( existsError_singleFieldName(arguments[i]) ){\n                return true;\n            }\n        }\n        return false;\n    };\n    kcContext.messagesPerField.exists = function (fieldName) {\n        return kcContext.messagesPerField.get(fieldName) !== \"\";\n    };\n    kcContext.messagesPerField.printIfExists = function (fieldName, text) {\n        return kcContext.messagesPerField.exists(fieldName) ? text : undefined;\n    };\n    kcContext.messagesPerField.getFirstError = function () {\n        for( let i = 0; i < arguments.length; i++ ){\n            const fieldName = arguments[i];\n            if( kcContext.messagesPerField.existsError(fieldName) ){\n                return kcContext.messagesPerField.get(fieldName);\n            }\n        }\n    };\n}\nattributes_to_attributesByName: {\n    if( !kcContext.profile ){\n        break attributes_to_attributesByName;\n    }\n    if( !kcContext.profile.attributes ){\n        break attributes_to_attributesByName;\n    }\n    var attributes = kcContext.profile.attributes;\n    delete kcContext.profile.attributes;\n    kcContext.profile.attributesByName = {};\n    attributes.forEach(function(attribute){\n        kcContext.profile.attributesByName[attribute.name] = attribute;\n    });\n}\n\nredirect_to_dev_server: {\n\n    switch(kcContext.themeType){\n        case \"login\":\n            break redirect_to_dev_server;\n        case \"account\":\n            if( kcContext.pageId !== \"index.ftl\" ){\n                break redirect_to_dev_server;\n            }\n            break;\n        case \"admin\":\n            break;\n        default: \n            break redirect_to_dev_server;\n    }\n\n    const devSeverPort = kcContext.properties.KEYCLOAKIFY_SPA_DEV_SERVER_PORT;\n\n    if( !devSeverPort ){\n        break redirect_to_dev_server;\n    }\n\n    const redirectUrl = new URL(window.location.href);\n\n    const keycloakServerPort = redirectUrl.port;\n\n    redirectUrl.port = devSeverPort;\n\n    delete kcContext.msgJSON;\n\n    console.log(kcContext);\n\n    redirectUrl.searchParams.set(\"kcContext\", JSON.stringify(kcContext));\n    redirectUrl.searchParams.set(\"keycloakServerPort\", keycloakServerPort);\n\n    window.location.href = redirectUrl.toString();\n\n}\n\n\nwindow.kcContext = kcContext;\n\nfunction decodeHtmlEntities(htmlStr){\n    var element = decodeHtmlEntities.element;\n    if (!element) {\n        element = document.createElement(\"textarea\");\n        decodeHtmlEntities.element = element;\n    }\n    element.innerHTML = htmlStr;\n    return element.value;\n}\n\n\n</script>",
+							"evidence": "<script>\n\n\nconst kcContext = {\n    \"social\": {\n        \"baseURI\": {\n            \"path\": \"\\/\",\n            \"rawPath\": \"\\/\",\n            \"rawSchemeSpecificPart\": \"\\/?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw\",\n            \"opaque\": false,\n            \"query\": \"client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw\",\n            \"schemeSpecificPart\": \"\\/?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw\",\n            \"port\": -1,\n            \"absolute\": false,\n            \"rawQuery\": \"client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw\",\n        },\n        \"providers\": [\n        ],\n    },\n    \"auth\": {\n        \"showResetCredentials\": false,\n        \"authenticationSelections\": [\n            {\n                \"helpText\": \"auth-username-password-form-mae-help-text\",\n                \"displayName\": \"auth-username-password-form-mae-display-name\",\n                \"iconCssClass\": \"kcAuthenticatorDefaultClass\",\n                \"authExecId\": \"956d55c0-c1b6-461a-9715-f558e48db6f5\",\n                \"authenticationExecution\": {\n                    \"authenticatorFlow\": false,\n                    \"conditional\": false,\n                    \"required\": true,\n                    \"enabled\": true,\n                    \"disabled\": false,\n                    \"id\": \"956d55c0-c1b6-461a-9715-f558e48db6f5\",\n                    \"parentFlow\": \"1a53fbcc-ee90-4dcf-b00d-10eb281eef4b\",\n                    \"authenticator\": \"auth-username-password-form-mae\",\n                    \"alternative\": false,\n                    \"requirement\": {\n                        \"stableIndex\": 0,\n                    },\n                    \"priority\": 20,\n                },\n            },\n        ],\n        \"showUsername\": false,\n        \"showTryAnotherWayLink\": false,\n        /*auth.attemptedUsername excluded*/\n    },\n    \"locale\": {\n        \"rtl\": false,\n        \"current\": \"Fran\u00E7ais\",\n        \"supported\": [\n            {\n                \"languageTag\": \"en\",\n                \"label\": \"Anglais (English)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=en\",\n            },\n            {\n                \"languageTag\": \"ar\",\n                \"label\": \"Arabe (\u0627\u0644\u0639\u0631\u0628\u064A\u0629)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=ar\",\n            },\n            {\n                \"languageTag\": \"zh-CN\",\n                \"label\": \"Chinois (simplifi\u00E9) (\u4E2D\u6587 (\u7B80\u4F53))\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=zh-CN\",\n            },\n            {\n                \"languageTag\": \"es\",\n                \"label\": \"Espagnol (Espa\u00F1ol)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=es\",\n            },\n            {\n                \"languageTag\": \"fr\",\n                \"label\": \"Fran\u00E7ais\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=fr\",\n            },\n            {\n                \"languageTag\": \"ru\",\n                \"label\": \"Russe (\u0440\u0443\u0441\u0441\u043A\u0438\u0439)\",\n                \"url\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&kc_locale=ru\",\n            },\n        ],\n        \"currentLanguageTag\": \"fr\",\n    },\n    \"login\": {\n    },\n    \"pageId\": \"login\",\n    \"url\": {\n        \"oauthAction\": \"\\/realms/usager/login-actions/authenticate\",\n        \"resourcesPath\": \"\\/resources/mygdl/login/DSFR\",\n        \"loginAction\": \"https://connect.france-visas.gouv.fr/realms/usager/login-actions/authenticate?session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"loginUrl\": \"\\/realms/usager/login-actions/authenticate?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"resourcesCommonPath\": \"\\/resources/mygdl/common/keycloak\",\n        \"firstBrokerLoginUrl\": \"\\/realms/usager/login-actions/first-broker-login?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"registrationUrl\": \"\\/realms/usager/login-actions/registration?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"logoutConfirmAction\": \"\\/realms/usager/protocol/openid-connect/logout/logout-confirm?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"registrationAction\": \"https://connect.france-visas.gouv.fr/realms/usager/login-actions/authenticate?session_code=miXKIYDbhnEkKJ78_3riTdopv4gl1ZNwf-FzeNv59qw&execution=956d55c0-c1b6-461a-9715-f558e48db6f5&client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"loginResetCredentialsUrl\": \"\\/realms/usager/login-actions/reset-credentials?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0\",\n        \"ssoLoginInOtherTabsUrl\": \"\\/realms/usager/login-actions/restart?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&skip_logout=true\",\n        \"resourcesUrl\": \"\\/resources/mygdl?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0/login/DSFR\",\n        \"loginRestartFlowUrl\": \"\\/realms/usager/login-actions/restart?client_id=fv-fo-keycloak-web&tab_id=bLNa6dRifpE&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6IlJWd1dWSVpXNkZORlZmbkRDRXRmOXAxWHppVjNqMFlqTWMtNXhjMFpMb1k9In0&skip_logout=false\",\n        \"oauth2DeviceVerificationAction\": \"\\/realms/usager/login-actions/authenticate\",\n    },\n    \"authenticationSession\": {\n        \"tabId\": \"bLNa6dRifpE\",\n        \"authSessionId\": \"b7b522a1-1586-46a9-b9fa-237c5e2d67c7\",\n        \"authSessionIdHash\": \"qa9TH9rsJcRxjGPuYzqqnOBa34vqA7ItpFDnS2GaH/o\",\n    },\n    \"messagesPerField\": {\n        \"get\": function (fieldName) { if(fieldName === 'firstName'){ return ''; } if(fieldName === 'lastName'){ return ''; } if(fieldName === 'email'){ return ''; } if(fieldName === 'username' || fieldName === 'password' ){ return ''; } if(fieldName === 'password-confirm'){ return ''; } if(fieldName === 'global'){ return ''; } if(fieldName === 'totp'){ return ''; } if(fieldName === 'userLabel'){ return ''; } if(fieldName === 'recoveryCodeInput'){ return ''; } if(fieldName === 'termsAccepted'){ return ''; } if(fieldName === 'captchaFormulaireExtInput'){ return ''; } if(fieldName === 'password-new'){ return ''; } },\n        \"existsError\": function (fieldName) { if(fieldName === 'firstName' ){ return false; }if(fieldName === 'lastName' ){ return false; }if(fieldName === 'email' ){ return false; }if(fieldName === 'username' || fieldName === 'password' ){ return false; } if(fieldName === 'password-confirm' ){ return false; }if(fieldName === 'global' ){ return false; }if(fieldName === 'totp' ){ return false; }if(fieldName === 'userLabel' ){ return false; }if(fieldName === 'recoveryCodeInput' ){ return false; }if(fieldName === 'termsAccepted' ){ return false; }if(fieldName === 'captchaFormulaireExtInput' ){ return false; }if(fieldName === 'password-new' ){ return false; }},\n    },\n    \"templateName\": \"login.ftl\",\n    \"client\": {\n        \"clientId\": \"fv-fo-keycloak-web\",\n        \"description\": \"\",\n        \"baseUrl\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/accueil.xhtml\",\n        \"name\": \"fvfokeycloakweb\",\n        \"attributes\": {\n            \"saml.multivalued.roles\": \"false\",\n            \"saml.force.post.binding\": \"false\",\n            \"frontchannel.logout.session.required\": \"true\",\n            \"post.logout.redirect.uris\": \"+\",\n            \"oauth2.device.authorization.grant.enabled\": \"false\",\n            \"backchannel.logout.revoke.offline.tokens\": \"false\",\n            \"use.refresh.tokens\": \"true\",\n            \"saml.server.signature.keyinfo.ext\": \"false\",\n            \"realm_client\": \"false\",\n            \"oidc.ciba.grant.enabled\": \"false\",\n            \"backchannel.logout.session.required\": \"true\",\n            \"backchannel.logout.url\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/logout\",\n            \"client_credentials.use_refresh_token\": \"false\",\n            \"require.pushed.authorization.requests\": \"false\",\n            \"saml.client.signature\": \"false\",\n            \"saml.allow.ecp.flow\": \"false\",\n            \"saml.assertion.signature\": \"false\",\n            \"id.token.as.detached.signature\": \"false\",\n            \"client.secret.creation.time\": \"1675323077\",\n            \"saml.encrypt\": \"false\",\n            \"frontchannel.logout.url\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/perform_logout\",\n            \"saml.server.signature\": \"false\",\n            \"exclude.session.state.from.auth.response\": \"false\",\n            \"tls-client-certificate-bound-access-tokens\": \"false\",\n            \"saml.artifact.binding\": \"false\",\n            \"saml_force_name_id_format\": \"false\",\n            \"acr.loa.map\": \"{}\",\n            \"tls.client.certificate.bound.access.tokens\": \"false\",\n            \"saml.authnstatement\": \"false\",\n            \"display.on.consent.screen\": \"false\",\n            \"token.response.type.bearer.lower-case\": \"false\",\n            \"saml.onetimeuse.condition\": \"false\",\n        },\n    },\n    \"passwordPolicies\": {\n        \"passwordHistory\": 5,\n        \"notEmail\": false,\n        \"lowerCase\": 1,\n        \"length\": 12,\n        \"notUsername\": false,\n        \"upperCase\": 1,\n        \"digits\": 1,\n        \"maxLength\": 250,\n    },\n    \"realm\": {\n        \"displayName\": \"usager\",\n        \"registrationAllowed\": true,\n        \"displayNameHtml\": \"<div class=\\\"kc-logo-text\\\"><span><\\/span><\\/div>\",\n        \"resetPasswordAllowed\": true,\n        \"resetCredentialsActionTokenLifespanMinutes\": 15,\n        \"password\": true,\n        \"actionTokenGeneratedByUserLifespanMinutes\": 15,\n        \"internationalizationEnabled\": true,\n        \"idpVerifyAccountLinkActionTokenLifespanMinutes\": 15,\n        \"verifyEmailActionTokenLifespanMinutes\": 15,\n        \"loginWithEmailAllowed\": true,\n        \"duplicateEmailsAllowed\": false,\n        \"editUsernameAllowed\": false,\n        \"name\": \"usager\",\n        \"rememberMe\": false,\n        \"registrationEmailAsUsername\": true,\n        \"identityFederationEnabled\": false,\n    },\n    \"darkMode\": true,\n    \"scripts\": [\n    ],\n    \"lang\": \"fr\",\n    \"properties\": {\n        \"parent\": \"keycloak\",\n        \"styles\": \"css/login.css\",\n        \"DSFR_THEME_BRAND_TOP\": \"GOUVERNEMENT\",\n        \"DSFR_THEME_ENVIRONMENT_URL\": \"https://france-visas.gouv.fr\",\n        \"REGEX_PASSWORD_INVALID_CHARACTERS\": \"^[%&<>=|\\\"]*$\",\n        \"stylesCommon\": \"vendor/patternfly-v4/patternfly.min.css vendor/patternfly-v3/css/patternfly.min.css vendor/patternfly-v3/css/patternfly-additions.min.css lib/pficon/pficon.css\",\n        \"DSFR_THEME_HOME_URL\": \"\",\n        \"DSFR_THEME_SERVICE_TITLE\": \"France-Visas\",\n        \"DSFR_THEME_ENVIRONMENT_URL_MY_APPLICATIONS\": \"https://application-form.france-visas.gouv.fr/fv-fo-dde/accueil.xhtml\",\n        \"KEYCLOAKIFY_SPA_DEV_SERVER_PORT\": \"\",\n        \"DSFR_THEME_ENVIRONMENT_FULL_NAME\": \"\",\n        \"darkMode\": \"true\",\n    },\n};\nkcContext.keycloakifyVersion = \"11.9.2\";\nkcContext.themeVersion = \"100801.7.0\";\nkcContext.themeType = \"login\";\nkcContext.themeName = \"DSFR\";\nkcContext.pageId = \"login.ftl\";\nkcContext.ftlTemplateFileName = \"login.ftl\";\n\n\nkcContext[\"x-keycloakify\"] = {};\n\nkcContext[\"x-keycloakify\"].resourcesPath = \"/resources/mygdl/login/DSFR\";\n\n{\n    var messages = {};\n    kcContext[\"x-keycloakify\"].messages = messages;\n}\n\nif( \n    kcContext.url instanceof Object &&\n    typeof kcContext.url.resourcesPath === \"string\"\n){\n    kcContext.url.resourcesCommonPath = kcContext.url.resourcesPath + \"/resources-common\";\n}\n\nif( kcContext.messagesPerField ){\n    var existsError_singleFieldName = kcContext.messagesPerField.existsError;\n    kcContext.messagesPerField.existsError = function (){\n        for( let i = 0; i < arguments.length; i++ ){\n            if( existsError_singleFieldName(arguments[i]) ){\n                return true;\n            }\n        }\n        return false;\n    };\n    kcContext.messagesPerField.exists = function (fieldName) {\n        return kcContext.messagesPerField.get(fieldName) !== \"\";\n    };\n    kcContext.messagesPerField.printIfExists = function (fieldName, text) {\n        return kcContext.messagesPerField.exists(fieldName) ? text : undefined;\n    };\n    kcContext.messagesPerField.getFirstError = function () {\n        for( let i = 0; i < arguments.length; i++ ){\n            const fieldName = arguments[i];\n            if( kcContext.messagesPerField.existsError(fieldName) ){\n                return kcContext.messagesPerField.get(fieldName);\n            }\n        }\n    };\n}\nattributes_to_attributesByName: {\n    if( !kcContext.profile ){\n        break attributes_to_attributesByName;\n    }\n    if( !kcContext.profile.attributes ){\n        break attributes_to_attributesByName;\n    }\n    var attributes = kcContext.profile.attributes;\n    delete kcContext.profile.attributes;\n    kcContext.profile.attributesByName = {};\n    attributes.forEach(function(attribute){\n        kcContext.profile.attributesByName[attribute.name] = attribute;\n    });\n}\n\nredirect_to_dev_server: {\n\n    switch(kcContext.themeType){\n        case \"login\":\n            break redirect_to_dev_server;\n        case \"account\":\n            if( kcContext.pageId !== \"index.ftl\" ){\n                break redirect_to_dev_server;\n            }\n            break;\n        case \"admin\":\n            break;\n        default: \n            break redirect_to_dev_server;\n    }\n\n    const devSeverPort = kcContext.properties.KEYCLOAKIFY_SPA_DEV_SERVER_PORT;\n\n    if( !devSeverPort ){\n        break redirect_to_dev_server;\n    }\n\n    const redirectUrl = new URL(window.location.href);\n\n    const keycloakServerPort = redirectUrl.port;\n\n    redirectUrl.port = devSeverPort;\n\n    delete kcContext.msgJSON;\n\n    console.log(kcContext);\n\n    redirectUrl.searchParams.set(\"kcContext\", JSON.stringify(kcContext));\n    redirectUrl.searchParams.set(\"keycloakServerPort\", keycloakServerPort);\n\n    window.location.href = redirectUrl.toString();\n\n}\n\n\nwindow.kcContext = kcContext;\n\nfunction decodeHtmlEntities(htmlStr){\n    var element = decodeHtmlEntities.element;\n    if (!element) {\n        element = document.createElement(\"textarea\");\n        decodeHtmlEntities.element = element;\n    }\n    element.innerHTML = htmlStr;\n    return element.value;\n}\n\n\n</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -829,7 +829,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "79",
+							"id": "37",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -839,7 +839,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "23",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -849,7 +849,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "57",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -889,7 +889,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "1",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -919,7 +919,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "21",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -929,7 +929,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "53",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -937,19 +937,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "57",
-							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -969,7 +959,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "20",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -979,7 +969,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "51",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -987,19 +977,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "56",
-							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1019,7 +999,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "19",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -1029,7 +1009,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "50",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -1037,19 +1017,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "55",
-							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1069,7 +1039,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "22",
 							"uri": "https://application-form.france-visas.gouv.fr/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/",
 							"method": "GET",
@@ -1079,7 +1049,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "55",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -1087,19 +1057,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "58",
-							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1126,10 +1086,10 @@
 							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
 							"attack": "",
 							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
-							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:KC_RESTART\ncookie:KC_AUTH_SESSION_HASH\ncookie:AUTH_SESSION_ID"
 						},
 						{
-							"id": "32",
+							"id": "36",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/",
 							"method": "GET",
@@ -1139,7 +1099,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:JSESSIONID"
 						},
 						{
-							"id": "74",
+							"id": "70",
 							"uri": "https://application-form.france-visas.gouv.fr/fv-fo-dde/oauth2/authorization/keycloak",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/fv-fo-dde\/oauth2\/authorization\/keycloak",
 							"method": "GET",
@@ -1149,7 +1109,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "44",
+							"id": "60",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1159,7 +1119,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "61",
+							"id": "40",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1172,11 +1132,11 @@
 					"count": "5",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>cookie:YOMe1h3tgHKNQxhV6V7n5g__</p>",
+					"otherinfo": "<p>cookie:YOMe1h3tgHKNQxhV6V7n5g__</p><p>cookie:KC_RESTART</p><p>cookie:KC_AUTH_SESSION_HASH</p><p>cookie:AUTH_SESSION_ID</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1189,7 +1149,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "59",
+							"id": "77",
 							"uri": "https://application-form.france-visas.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1199,7 +1159,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "72",
+							"id": "64",
 							"uri": "https://application-form.france-visas.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/application-form.france-visas.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1216,7 +1176,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "12"
 				}
 			]
 		}
