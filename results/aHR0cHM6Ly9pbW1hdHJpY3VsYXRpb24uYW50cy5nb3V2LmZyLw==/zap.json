@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 19:41:24",
-	"created": "2026-05-08T19:41:24.393720885Z",
+	"@generated": "Sat, 9 May 2026 02:33:44",
+	"created": "2026-05-09T02:33:44.797622912Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://immatriculation.ants.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "75"
 		}
 	],
 	"site":[ 
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "44",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -123,7 +123,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "41",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -133,7 +133,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "40",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -150,7 +150,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10010",
@@ -163,7 +163,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "47",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "46",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "48",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -273,7 +273,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "71",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -300,7 +300,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90004",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "73",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -373,7 +373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "69",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -383,7 +383,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "72",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -423,7 +423,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "68",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -433,7 +433,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "70",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -450,7 +450,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10035",
@@ -473,7 +473,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "52",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -483,7 +483,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "53",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -513,7 +513,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "16",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -523,7 +523,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "16",
+							"id": "54",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +533,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "57",
+							"id": "55",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -550,7 +550,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -569,48 +569,48 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_LLYVKIY4LKT4ZYN6Q2BPNHSD2D3QWJHHZPQX7L277X5KBXBZATNA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDaR\uFFFDc\uFFFD\uFFFDO\uFFFDX7\uFFFD6\\x0004\uFFFDGH=\uFFFD\uFFFD\\x0005\uFFFD\\x001cvOA~\uFFFD\u06FE\uFFFD\uFFFDW\\x0005\uFFFD\\x00134"
+							"evidence": "/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\\x0008-\uFFFD\\x0000.\uFFFDQ\uFFFDz`\\x0000\uFFFD\uFFFDt\\x0004\\x0008@X\\x0010 \\x000fX\\x0015J\\x000fbAH@8Wf\\x0007\\x001be\uFFFD\\x0000"
 						},
 						{
-							"id": "55",
+							"id": "19",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\$\uFFFDK\uFFFDLD\uFFFD\uFFFD80\uFFFD\\x000b\uFFFD\\x000eH\uFFFDP\uFFFDq\uFFFDY.\\x00029\\x0004\t\uFFFD\\x0002\\x000fXVT\\x001d]\uFFFD\\x001c"
+							"evidence": "/redirect_WGLKBP2EGU2D6MIRN676J2QRH7NAMFX5NEQUGLAJG2U5V7ZEJKEQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD,\uFFFDO\uFFFDA\uFFFD\uFFFD>\uFFFD!\\x0013z\uFFFDvA\\x0011\uFFFD4\\x0003\\x0005_\uFFFDDAA\uFFFD\\x0000\uFFFD\uFFFDS\uFFFD{dBJ\\x0011"
 						},
 						{
-							"id": "20",
+							"id": "56",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\$\uFFFDK\uFFFDLD\uFFFD\uFFFD80\uFFFD\\x000b\uFFFD\\x000eH\uFFFDP\uFFFDq\uFFFDY.\\x00029\\x0004\t\uFFFD\\x0002\\x000fXVT\\x001d]\uFFFD\\x001c"
+							"evidence": "/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\\x0008-\uFFFD\\x0000.\uFFFDQ\uFFFDz`\\x0000\uFFFD\uFFFDt\\x0004\\x0008@X\\x0010 \\x000fX\\x0015J\\x000fbAH@8Wf\\x0007\\x001be\uFFFD\\x0000"
 						},
 						{
-							"id": "58",
+							"id": "57",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\$\uFFFDK\uFFFDLD\uFFFD\uFFFD80\uFFFD\\x000b\uFFFD\\x000eH\uFFFDP\uFFFDq\uFFFDY.\\x00029\\x0004\t\uFFFD\\x0002\\x000fXVT\\x001d]\uFFFD\\x001c"
+							"evidence": "/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\\x0008-\uFFFD\\x0000.\uFFFDQ\uFFFDz`\\x0000\uFFFD\uFFFDt\\x0004\\x0008@X\\x0010 \\x000fX\\x0015J\\x000fbAH@8Wf\\x0007\\x001be\uFFFD\\x0000"
 						}
 					],
 					"count": "4",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDaR\uFFFDc\uFFFD\uFFFDO\uFFFDX7\uFFFD6\\x0004\uFFFDGH=\uFFFD\uFFFD\\x0005\uFFFD\\x001cvOA~\uFFFD\u06FE\uFFFD\uFFFDW\\x0005\uFFFD\\x00134</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\\x0008-\uFFFD\\x0000.\uFFFDQ\uFFFDz`\\x0000\uFFFD\uFFFDt\\x0004\\x0008@X\\x0010 \\x000fX\\x0015J\\x000fbAH@8Wf\\x0007\\x001be\uFFFD\\x0000</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10109",
@@ -629,37 +629,37 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_LLYVKIY4LKT4ZYN6Q2BPNHSD2D3QWJHHZPQX7L277X5KBXBZATNA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "50",
+							"id": "13",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_WGLKBP2EGU2D6MIRN676J2QRH7NAMFX5NEQUGLAJG2U5V7ZEJKEQ====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "13",
+							"id": "51",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA====/robots.txt';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "52",
+							"id": "50",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_O7XCTTS5NMRM7MODCIC7MOSJZQ33GHWS4COQQJ7AIPWFZUHV3ZHA====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_45CC22AC6HUYZ6YACP2HQECEBYECAPWBVKD2JBSEA4V2YHG2W6AA====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -670,7 +670,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -683,7 +683,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "29",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -693,7 +693,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "66",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -703,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "67",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -720,7 +720,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -733,7 +733,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -743,7 +743,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "43",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -753,7 +753,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "42",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -770,7 +770,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -783,7 +783,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "25",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -793,7 +793,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "62",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -803,7 +803,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "63",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -833,7 +833,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "23",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -843,7 +843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "60",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -853,7 +853,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "61",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -883,7 +883,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "20",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -893,7 +893,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "58",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -903,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "59",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -920,7 +920,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -933,7 +933,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "27",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -943,7 +943,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "64",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -953,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "65",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -970,7 +970,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10112",
@@ -993,7 +993,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "1",
+							"id": "39",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1003,7 +1003,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "39",
+							"id": "38",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1020,7 +1020,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				}
 			]
 		}
