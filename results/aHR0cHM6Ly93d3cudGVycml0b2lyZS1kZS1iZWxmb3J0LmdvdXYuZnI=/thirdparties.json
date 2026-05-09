@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "n6b91n3so2g6og391n96efve86",
+      "value": "8p4ckjifd3raf6a2n83ktd50v2",
       "domain": "www.territoire-de-belfort.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 13:06:46 GMT",
-    "expires": "Wed, 15 Oct 2025 11:06:46 GMT",
-    "last-modified": "Wed, 15 Oct 2025 13:06:46 GMT",
+    "date": "Sat, 09 May 2026 01:09:23 GMT",
+    "expires": "Fri, 08 May 2026 23:09:23 GMT",
+    "last-modified": "Sat, 09 May 2026 01:09:23 GMT",
     "pragma": "no-cache",
     "served-by": "www.territoire-de-belfort.gouv.fr",
-    "set-cookie": "eZSESSID=n6b91n3so2g6og391n96efve86; path=/",
+    "set-cookie": "eZSESSID=8p4ckjifd3raf6a2n83ktd50v2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
