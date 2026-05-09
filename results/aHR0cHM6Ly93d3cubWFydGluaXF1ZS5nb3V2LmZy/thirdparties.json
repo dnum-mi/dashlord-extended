@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "np9vekij2keh2t07tmclgoson0",
+      "value": "5t61dctbqh7q81p8tsorukq967",
       "domain": "www.martinique.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -12,8 +12,8 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 15 Oct 2025 13:59:23 GMT",
-    "expires": "Wed, 15 Oct 2025 11:59:23 GMT",
-    "last-modified": "Wed, 15 Oct 2025 13:59:23 GMT",
+    "date": "Sat, 09 May 2026 01:32:37 GMT",
+    "expires": "Fri, 08 May 2026 23:32:37 GMT",
+    "last-modified": "Sat, 09 May 2026 01:32:37 GMT",
     "pragma": "no-cache",
     "served-by": "www.martinique.gouv.fr",
-    "set-cookie": "eZSESSID=np9vekij2keh2t07tmclgoson0; path=/",
+    "set-cookie": "eZSESSID=5t61dctbqh7q81p8tsorukq967; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
