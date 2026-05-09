@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 04:43:25 GMT",
+      "date": "Sat, 09 May 2026 00:44:32 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 13 Mar 2026 02:43:25 GMT",
-      "last-modified": "Fri, 13 Mar 2026 04:43:25 GMT",
+      "expires": "Fri, 08 May 2026 22:44:32 GMT",
+      "last-modified": "Sat, 09 May 2026 00:44:32 GMT",
       "served-by": "www.deux-sevres.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=3mh4i8rtjvorfgrr58gli7cvq4; path=/"
+        "eZSESSID=9a0uamuujsoa17i2mj7akfd144; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
