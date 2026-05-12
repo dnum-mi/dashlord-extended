@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sat, 9 May 2026 02:08:05",
-	"created": "2026-05-09T02:08:05.248098387Z",
+	"@generated": "Tue, 12 May 2026 18:50:59",
+	"created": "2026-05-12T18:50:59.404387218Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -79,7 +79,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "77",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -89,7 +89,7 @@
 							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "17",
+							"id": "2",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -119,7 +119,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "82",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -129,7 +129,7 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						},
 						{
-							"id": "22",
+							"id": "5",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -159,7 +159,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "78",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -169,7 +169,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "18",
+							"id": "3",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -199,7 +199,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "80",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -209,7 +209,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "21",
+							"id": "4",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -239,27 +239,17 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "41",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "22",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/dsfr.min.css\" rel=\"stylesheet\">",
+							"evidence": "<link href=\"https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/css/sp-dsfr.css\" rel=\"stylesheet\">",
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script id=\"abtasty\" data-type=\"text/javascript\" data-name=\"ab-tasty\"\n            src=\"https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea.js\" async></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "40",
+							"id": "20",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -269,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "21",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -279,13 +269,23 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "19",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "<script id=\"abtasty\" data-type=\"text/javascript\" data-name=\"ab-tasty\"\n            src=\"https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea.js\" async></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "23",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script type=\"module\" src=\"https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/dsfr.module.min.js\"></script>",
 							"otherinfo": ""
 						}
 					],
@@ -296,7 +296,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "5"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -309,27 +309,27 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "85",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "TS015ce0c6",
 							"attack": "",
 							"evidence": "Set-Cookie: TS015ce0c6",
+							"otherinfo": ""
+						},
+						{
+							"id": "84",
+							"uri": "https://www.service-public.fr/",
+							"nodeName": "https:\/\/www.service-public.fr\/",
+							"method": "GET",
+							"param": "TS01ad993f",
+							"attack": "",
+							"evidence": "Set-Cookie: TS01ad993f",
 							"otherinfo": ""
 						},
 						{
 							"id": "7",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
-							"method": "GET",
-							"param": "TS01ad993f",
-							"attack": "",
-							"evidence": "Set-Cookie: TS01ad993f",
-							"otherinfo": ""
-						},
-						{
-							"id": "24",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -339,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "6",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -349,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "42",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -379,9 +379,9 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "9",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "8",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea.js",
 							"attack": "",
@@ -389,9 +389,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "11",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/analytics/analytics.module.min.js",
 							"attack": "",
@@ -399,9 +399,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "12",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/analytics/analytics.nomodule.min.js",
 							"attack": "",
@@ -409,9 +409,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "9",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/dsfr.module.min.js",
 							"attack": "",
@@ -419,9 +419,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
-							"uri": "https://www.service-public.fr/",
-							"nodeName": "https:\/\/www.service-public.fr\/",
+							"id": "10",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "https://www.service-public.gouv.fr/resources/v-0b46230583/assets/dsfr-1.14/dist/dsfr.nomodule.min.js",
 							"attack": "",
@@ -436,7 +436,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "5"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -449,7 +449,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "70",
+							"id": "109",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -459,7 +459,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "38",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -489,7 +489,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "71",
+							"id": "110",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -499,7 +499,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "39",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -529,7 +529,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "98",
+							"id": "57",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -539,7 +539,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
+							"id": "56",
 							"uri": "https://www.service-public.fr/particuliers",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
 							"method": "GET",
@@ -549,7 +549,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "70",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
 							"method": "GET",
@@ -559,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "72",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -569,7 +569,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
+							"id": "74",
 							"uri": "https://www.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -586,7 +586,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "26"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "10096",
@@ -599,40 +599,40 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "63",
+							"id": "107",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "X-SP-CORRELATION-ID",
 							"attack": "",
-							"evidence": "1778292480",
-							"otherinfo": "1778292480, which evaluates to: 2026-05-09 02:08:00."
+							"evidence": "1778611856",
+							"otherinfo": "1778611856, which evaluates to: 2026-05-12 18:50:56."
 						},
 						{
-							"id": "62",
+							"id": "31",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "X-SP-CORRELATION-ID",
 							"attack": "",
-							"evidence": "1778292479",
-							"otherinfo": "1778292479, which evaluates to: 2026-05-09 02:07:59."
+							"evidence": "1778611854",
+							"otherinfo": "1778611854, which evaluates to: 2026-05-12 18:50:54."
 						},
 						{
-							"id": "75",
+							"id": "43",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
 							"param": "X-SP-CORRELATION-ID",
 							"attack": "",
-							"evidence": "1778292481",
-							"otherinfo": "1778292481, which evaluates to: 2026-05-09 02:08:01."
+							"evidence": "1778611856",
+							"otherinfo": "1778611856, which evaluates to: 2026-05-12 18:50:56."
 						}
 					],
 					"count": "3",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1778292480, which evaluates to: 2026-05-09 02:08:00.</p>",
+					"otherinfo": "<p>1778611856, which evaluates to: 2026-05-12 18:50:56.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
@@ -649,7 +649,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "76",
+							"id": "44",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -679,27 +679,27 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "64",
+							"id": "108",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "NTdlYjA1MjEtY2EyYy00YzI0LWE4YmEtYjZhZjJjYjYxZDY4",
-							"otherinfo": "57eb0521-ca2c-4c24-a8ba-b6af2cb61d68"
+							"evidence": "ZGMxMmRlMzgtYjBjNi00NjE0LTllMDQtZTgwODBkOGE2ODA2",
+							"otherinfo": "dc12de38-b0c6-4614-9e04-e8080d8a6806"
 						},
 						{
-							"id": "77",
+							"id": "32",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "NzllNzU5N2QtYTk5YS00M2M2LThjNTgtYWFkNjljZTg4Y2Q3",
-							"otherinfo": "79e7597d-a99a-43c6-8c58-aad69ce88cd7"
+							"evidence": "NmQxNWI1ZmQtZTJmYi00YmU4LWI5N2MtMTY4MGI4ZTc1ZGFh",
+							"otherinfo": "6d15b5fd-e2fb-4be8-b97c-1680b8e75daa"
 						},
 						{
-							"id": "103",
+							"id": "76",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -712,7 +712,7 @@
 					"count": "3",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>57eb0521-ca2c-4c24-a8ba-b6af2cb61d68</p>",
+					"otherinfo": "<p>dc12de38-b0c6-4614-9e04-e8080d8a6806</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -729,7 +729,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "105",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -739,7 +739,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "35",
+							"id": "17",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -769,7 +769,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "73",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -779,7 +779,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "1",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -789,7 +789,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "41",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -819,23 +819,23 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "106",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 5201",
+							"evidence": "Age: 11908",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "37",
+							"id": "18",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 4984",
+							"evidence": "Age: 11827",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
@@ -859,7 +859,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "67",
+							"id": "64",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -869,9 +869,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://www.service-public.fr/particuliers/vosdroits",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
+							"id": "55",
+							"uri": "https://www.service-public.fr/compte/",
+							"nodeName": "https:\/\/www.service-public.fr\/compte\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -879,7 +879,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "61",
+							"uri": "https://www.service-public.fr/particuliers",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "35",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -889,7 +899,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "47",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -899,14 +909,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "5"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -919,7 +929,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "63",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -929,9 +939,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.service-public.fr/particuliers/vosdroits",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
+							"id": "54",
+							"uri": "https://www.service-public.fr/compte/",
+							"nodeName": "https:\/\/www.service-public.fr\/compte\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -939,7 +949,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "60",
+							"uri": "https://www.service-public.fr/particuliers",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "34",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -949,7 +969,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "46",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -959,14 +979,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "5"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -979,7 +999,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "65",
+							"id": "58",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -989,9 +1009,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.service-public.fr/particuliers/vosdroits",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
+							"id": "53",
+							"uri": "https://www.service-public.fr/compte/",
+							"nodeName": "https:\/\/www.service-public.fr\/compte\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -999,7 +1019,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "59",
+							"uri": "https://www.service-public.fr/particuliers",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "33",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -1009,7 +1039,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "45",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -1019,14 +1049,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "5"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -1039,7 +1069,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "68",
+							"id": "65",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1049,9 +1079,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
-							"uri": "https://www.service-public.fr/particuliers/vosdroits",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
+							"id": "62",
+							"uri": "https://www.service-public.fr/compte/",
+							"nodeName": "https:\/\/www.service-public.fr\/compte\/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1059,7 +1089,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "66",
+							"uri": "https://www.service-public.fr/particuliers",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "36",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -1069,7 +1109,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "48",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -1079,14 +1119,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "5"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "10112",
@@ -1099,7 +1139,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "0",
+							"id": "52",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
@@ -1109,7 +1149,27 @@
 							"otherinfo": "cookie:SP_SESSION\ncookie:TS015ce0c6\nheader:X-CSRF-Token\ncookie:TS01ad993f"
 						},
 						{
-							"id": "72",
+							"id": "0",
+							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
+							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
+							"method": "GET",
+							"param": "SP_SESSION",
+							"attack": "",
+							"evidence": "SP_SESSION",
+							"otherinfo": "cookie:SP_SESSION\ncookie:TS015ce0c6\nheader:X-CSRF-Token\ncookie:TS01ad993f"
+						},
+						{
+							"id": "40",
+							"uri": "https://www.service-public.fr/robots.txt",
+							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
+							"method": "GET",
+							"param": "TS012e9d3d",
+							"attack": "",
+							"evidence": "TS012e9d3d",
+							"otherinfo": "cookie:TS012e9d3d"
+						},
+						{
+							"id": "50",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -1119,7 +1179,7 @@
 							"otherinfo": "cookie:TS012e9d3d"
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:SP_SESSION</p><p>cookie:TS015ce0c6</p><p>header:X-CSRF-Token</p><p>cookie:TS01ad993f</p>",
@@ -1139,17 +1199,27 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "69",
+							"id": "68",
 							"uri": "https://www.service-public.fr/",
 							"nodeName": "https:\/\/www.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "s-maxage=28800",
-							"otherinfo": ""
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "97",
+							"id": "67",
+							"uri": "https://www.service-public.fr/compte/",
+							"nodeName": "https:\/\/www.service-public.fr\/compte\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "69",
 							"uri": "https://www.service-public.fr/particuliers",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers",
 							"method": "GET",
@@ -1159,17 +1229,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "95",
-							"uri": "https://www.service-public.fr/particuliers/vosdroits",
-							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "82",
+							"id": "37",
 							"uri": "https://www.service-public.fr/particuliers/vosdroits/R46526",
 							"nodeName": "https:\/\/www.service-public.fr\/particuliers\/vosdroits\/R46526",
 							"method": "GET",
@@ -1179,7 +1239,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "49",
 							"uri": "https://www.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -1192,11 +1252,11 @@
 					"count": "5",
 					"systemic": true,
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
-					"otherinfo": "",
+					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "5"
+					"sourceid": "27"
 				}
 			]
 		}
