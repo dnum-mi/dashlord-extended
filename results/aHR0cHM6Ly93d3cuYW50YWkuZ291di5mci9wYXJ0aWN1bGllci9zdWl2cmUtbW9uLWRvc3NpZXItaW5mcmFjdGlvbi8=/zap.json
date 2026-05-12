@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sat, 9 May 2026 02:00:23",
-	"created": "2026-05-09T02:00:23.186761182Z",
+	"@generated": "Tue, 12 May 2026 18:41:25",
+	"created": "2026-05-12T18:41:25.598430586Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -43,6 +43,14 @@
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
 			"statistic": "37"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.antai.gouv.fr",
+			"key": "insight.endpoint.ctype.image/vnd.microsoft.icon",
+			"description": "Percentage of endpoints with content type image/vnd.microsoft.icon",
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -90,7 +98,7 @@
 			"site": "https://www.antai.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "10"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -121,7 +129,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "4",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -131,7 +139,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "44",
 							"uri": "https://www.antai.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -141,7 +149,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "45",
 							"uri": "https://www.antai.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -158,7 +166,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "5"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "10003",
@@ -171,7 +179,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "82",
+							"id": "88",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/js/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/js\/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"method": "GET",
@@ -188,7 +196,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "187"
+					"sourceid": "214"
 				},
 				{
 					"pluginid": "90004",
@@ -201,7 +209,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "34",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -211,7 +219,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "31",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -241,7 +249,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "35",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -251,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "32",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -281,7 +289,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "33",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -291,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "30",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -321,7 +329,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "28",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -331,7 +339,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "29",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -341,7 +349,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "53",
 							"uri": "https://www.antai.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -351,7 +359,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "55",
 							"uri": "https://www.antai.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -361,7 +369,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
+							"id": "93",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/js/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/js\/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"method": "GET",
@@ -391,7 +399,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "8",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -401,7 +409,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "41",
+							"uri": "https://www.antai.gouv.fr/en",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/en",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "0",
 							"uri": "https://www.antai.gouv.fr/particulier",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
 							"method": "GET",
@@ -411,29 +429,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "36",
+							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "12",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "48",
-							"uri": "https://www.antai.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "55",
-							"uri": "https://www.antai.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -448,7 +456,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "5"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "10096",
@@ -461,7 +469,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "94",
+							"id": "98",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/2026-01/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/2026-01\/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"method": "GET",
@@ -471,7 +479,7 @@
 							"otherinfo": "1562856019, which evaluates to: 2019-07-11 14:40:19."
 						},
 						{
-							"id": "90",
+							"id": "94",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/2026-01/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/2026-01\/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"method": "GET",
@@ -501,7 +509,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "11",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -511,7 +519,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "8",
+							"id": "14",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -522,8 +530,8 @@
 						},
 						{
 							"id": "81",
-							"uri": "https://www.antai.gouv.fr/sites/default/files/css/css_nsDJuukCIq7H29XHzvo0tatrdO0-17_ahqJAucL18Ho.css",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/css\/css_nsDJuukCIq7H29XHzvo0tatrdO0-17_ahqJAucL18Ho.css",
+							"uri": "https://www.antai.gouv.fr/sites/default/files/images/flags/en.png",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/images\/flags\/en.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -531,9 +539,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "83",
-							"uri": "https://www.antai.gouv.fr/sites/default/files/css/css_o6jX0o-nbt_slJkLBJLRU4v4YqMSNftGY2CpHrf3oks.css",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/css\/css_o6jX0o-nbt_slJkLBJLRU4v4YqMSNftGY2CpHrf3oks.css",
+							"id": "82",
+							"uri": "https://www.antai.gouv.fr/sites/default/files/images/flags/fr.png",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/images\/flags\/fr.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -558,7 +566,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "5"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "10094",
@@ -571,7 +579,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "16",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -581,7 +589,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFD{\\x0003&\uFFFD\\x0008\uFFFD\uFFFD\\x001foW\\x001f;\uFFFD\uFFFD\u05AD\uFFFD\u04F4\uFFFD^\uFFFDj\\x001a\uFFFD\\x0002\uFFFD\\x000b\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "10",
+							"id": "17",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -601,7 +609,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFDDQ\\x0016ll:G\uFFFD\uFFFD\\x0014`8\uFFFD:\uFFFD%\uFFFD\uFFFD\uFFFD5n\uFFFDI\uFFFD\uFFFD\uFFFDEE\uFFFD\uFFFD\uFFFDH"
 						},
 						{
-							"id": "57",
+							"id": "51",
 							"uri": "https://www.antai.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -611,7 +619,7 @@
 							"otherinfo": "\uFFFD\u022Dz\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD\u07CAW\uFFFD\uFFFD\uFFFD,\uFFFD\uFFFD,\uFFFDDQ\\x0016ll:G\uFFFD\uFFFD\\x0014`8\uFFFD:\uFFFD%\uFFFD\uFFFD\uFFFD5n\uFFFDI\uFFFD\uFFFD\uFFFDEE\uFFFD\uFFFD\uFFFDH"
 						},
 						{
-							"id": "95",
+							"id": "99",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/2026-01/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/2026-01\/Rapport_Antai_2024_AccessibleAAA.pdf",
 							"method": "GET",
@@ -621,7 +629,7 @@
 							"otherinfo": "\uFFFD8\uFFFDy\uFFFDb\uFFFD\uFFFD\uFFFD\\x001f\u00CA\uFFFDek \uFFFDq8\uFFFD\uFFFD"
 						},
 						{
-							"id": "84",
+							"id": "89",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/css/css_o6jX0o-nbt_slJkLBJLRU4v4YqMSNftGY2CpHrf3oks.css",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/css\/css_o6jX0o-nbt_slJkLBJLRU4v4YqMSNftGY2CpHrf3oks.css",
 							"method": "GET",
@@ -651,7 +659,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "97",
+							"id": "91",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/js/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/js\/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"method": "GET",
@@ -661,7 +669,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 4 times, the first in likely comment: \"// TODO: Check whether guarding this code with this `if` is really necessary.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "96",
+							"id": "90",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/js/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/js\/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"method": "GET",
@@ -671,7 +679,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 10 times, the first in likely comment: \"// detach from parent, fire event then clean up data\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "98",
+							"id": "92",
 							"uri": "https://www.antai.gouv.fr/sites/default/files/js/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sites\/default\/files\/js\/js_-385h-vCGaq7gqCt4llgGV-yiRTd5OrtqHEfsgsST2c.js",
 							"method": "GET",
@@ -688,7 +696,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "187"
+					"sourceid": "214"
 				},
 				{
 					"pluginid": "10109",
@@ -701,7 +709,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "7",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -711,7 +719,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "4",
+							"id": "9",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -721,7 +729,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "41",
+							"id": "46",
 							"uri": "https://www.antai.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -731,7 +739,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "54",
+							"id": "48",
 							"uri": "https://www.antai.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -748,7 +756,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "5"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "10015",
@@ -771,7 +779,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "3",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -788,7 +796,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "5"
+					"sourceid": "12"
 				},
 				{
 					"pluginid": "90005",
@@ -801,7 +809,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "21",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -811,9 +819,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
-							"uri": "https://www.antai.gouv.fr/particulier",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
+							"id": "39",
+							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -821,7 +829,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "24",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -851,7 +859,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "20",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -861,9 +869,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
-							"uri": "https://www.antai.gouv.fr/particulier",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
+							"id": "38",
+							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -871,7 +879,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "22",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -901,7 +909,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "19",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -911,9 +919,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
-							"uri": "https://www.antai.gouv.fr/particulier",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
+							"id": "37",
+							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -921,7 +929,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "18",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -951,7 +959,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "23",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -961,9 +969,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
-							"uri": "https://www.antai.gouv.fr/particulier",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
+							"id": "40",
+							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -971,7 +979,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "25",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -1001,7 +1009,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "27",
 							"uri": "https://www.antai.gouv.fr/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/",
 							"method": "GET",
@@ -1011,9 +1019,9 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "37",
-							"uri": "https://www.antai.gouv.fr/particulier",
-							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier",
+							"id": "43",
+							"uri": "https://www.antai.gouv.fr/en",
+							"nodeName": "https:\/\/www.antai.gouv.fr\/en",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1021,7 +1029,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "58",
+							"id": "42",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction",
 							"method": "GET",
@@ -1031,7 +1039,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "22",
+							"id": "26",
 							"uri": "https://www.antai.gouv.fr/particulier/suivre-mon-dossier-infraction/",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/particulier\/suivre-mon-dossier-infraction\/",
 							"method": "GET",
@@ -1041,7 +1049,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "51",
+							"id": "52",
 							"uri": "https://www.antai.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.antai.gouv.fr\/robots.txt",
 							"method": "GET",
