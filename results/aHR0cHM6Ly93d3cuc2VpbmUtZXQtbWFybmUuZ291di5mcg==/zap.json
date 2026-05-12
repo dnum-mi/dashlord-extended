@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sat, 9 May 2026 00:33:40",
-	"created": "2026-05-09T00:33:40.106400546Z",
+	"@generated": "Tue, 12 May 2026 23:05:42",
+	"created": "2026-05-12T23:05:42.304371158Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "1"
+			"statistic": "4"
 		},
 		{
 			"level": "Low",
@@ -23,10 +23,18 @@
 		{
 			"level": "Info",
 			"reason": "Informational",
+			"site": "",
+			"key": "insight.network.failure",
+			"description": "Percentage of network failures",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "88"
+			"statistic": "91"
 		},
 		{
 			"level": "Info",
@@ -34,7 +42,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "7"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -42,7 +50,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "3"
+			"statistic": "2"
 		},
 		{
 			"level": "Info",
@@ -50,7 +58,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.ctype.application/javascript",
 			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "5"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -58,7 +66,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "3"
+			"statistic": "12"
 		},
 		{
 			"level": "Info",
@@ -66,7 +74,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "5"
+			"statistic": "7"
 		},
 		{
 			"level": "Info",
@@ -74,7 +82,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "6"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -90,7 +98,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "76"
+			"statistic": "70"
 		},
 		{
 			"level": "Info",
@@ -106,7 +114,7 @@
 			"site": "https://www.seine-et-marne.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "138"
+			"statistic": "208"
 		},
 		{
 			"level": "Info",
@@ -135,7 +143,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "185",
+							"id": "189",
 							"uri": "https://www.seine-et-marne.gouv.fr/Nous-contacter",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Nous-contacter",
 							"method": "GET",
@@ -143,16 +151,46 @@
 							"attack": "",
 							"evidence": "<form class=\"\" action=\"/contenu/action\" method=\"post\">",
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"259703c537d10febe37e23f066fd8c9d\" \"Adressepostale-service\" \"Codepostal-service\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_12230\" \"ContentObjectID\" \"dob-service\" \"email-service\" \"ezcoa-12242_captcha_service\" \"nom-service\" \"prenom-service\" \"reglement-service\" \"service-0\" \"service-1\" \"service-2\" \"service-3\" \"telephone-service\" \"ViewMode\" \"Ville-service\" \"votresujet-service\" ]."
+						},
+						{
+							"id": "187",
+							"uri": "https://www.seine-et-marne.gouv.fr/contenu/conseiller/69",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/contenu\/conseiller\/69",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
+						},
+						{
+							"id": "191",
+							"uri": "https://www.seine-et-marne.gouv.fr/contenu/conseiller/770",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/contenu\/conseiller\/770",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
+						},
+						{
+							"id": "192",
+							"uri": "https://www.seine-et-marne.gouv.fr/contenu/conseiller/945",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/contenu\/conseiller\/945",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						}
 					],
-					"count": "1",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
 					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"259703c537d10febe37e23f066fd8c9d\" \"Adressepostale-service\" \"Codepostal-service\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_12230\" \"ContentObjectID\" \"dob-service\" \"email-service\" \"ezcoa-12242_captcha_service\" \"nom-service\" \"prenom-service\" \"reglement-service\" \"service-0\" \"service-1\" \"service-2\" \"service-3\" \"telephone-service\" \"ViewMode\" \"Ville-service\" \"votresujet-service\" ].</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1277"
+					"sourceid": "1484"
 				},
 				{
 					"pluginid": "10038",
@@ -185,9 +223,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "77",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -195,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "23",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -205,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "22",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -255,9 +293,19 @@
 							"otherinfo": ""
 						},
 						{
+							"id": "90",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"id": "75",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -265,19 +313,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "76",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "89",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -305,7 +343,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "172",
+							"id": "173",
 							"uri": "https://www.seine-et-marne.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/passeport",
 							"method": "GET",
@@ -315,7 +353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "170",
 							"uri": "https://www.seine-et-marne.gouv.fr/siv",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/siv",
 							"method": "GET",
@@ -332,7 +370,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1024"
+					"sourceid": "1025"
 				},
 				{
 					"pluginid": "10003",
@@ -345,7 +383,17 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "177",
+							"id": "188",
+							"uri": "https://www.seine-et-marne.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726824551.js",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726824551.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
+							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "178",
 							"uri": "https://www.seine-et-marne.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1726824551.js",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1726824551.js",
 							"method": "GET",
@@ -355,14 +403,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1199"
+					"sourceid": "1361"
 				},
 				{
 					"pluginid": "10044",
@@ -375,17 +423,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "173",
-							"uri": "https://www.seine-et-marne.gouv.fr/accessibilite",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 72 [https://www.seine-et-marne.gouv.fr/Accessibilite-partiellement-conforme2].\nPredicted response size: 372.\nResponse Body Length: 532."
-						},
-						{
-							"id": "170",
+							"id": "171",
 							"uri": "https://www.seine-et-marne.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/actualites",
 							"method": "GET",
@@ -395,7 +433,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.seine-et-marne.gouv.fr/Actualites].\nPredicted response size: 345.\nResponse Body Length: 424."
 						},
 						{
-							"id": "169",
+							"id": "168",
 							"uri": "https://www.seine-et-marne.gouv.fr/cni",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/cni",
 							"method": "GET",
@@ -405,17 +443,17 @@
 							"otherinfo": "Location header URI length: 92 [https://www.seine-et-marne.gouv.fr/Demarches/Toutes-les-demarches/Carte-nationale-d-identite].\nPredicted response size: 392.\nResponse Body Length: 612."
 						},
 						{
-							"id": "182",
+							"id": "183",
 							"uri": "https://www.seine-et-marne.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 103 [https://www.seine-et-marne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/131105812?SearchText=ZAP].\nPredicted response size: 403.\nResponse Body Length: 656."
+							"otherinfo": "Location header URI length: 104 [https://www.seine-et-marne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/2022155985?SearchText=ZAP].\nPredicted response size: 404.\nResponse Body Length: 660."
 						},
 						{
-							"id": "166",
+							"id": "167",
 							"uri": "https://www.seine-et-marne.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/demarches",
 							"method": "GET",
@@ -425,24 +463,44 @@
 							"otherinfo": "Location header URI length: 44 [https://www.seine-et-marne.gouv.fr/Demarches].\nPredicted response size: 344.\nResponse Body Length: 420."
 						},
 						{
-							"id": "176",
-							"uri": "https://www.seine-et-marne.gouv.fr/donnees-personnelles-et-cookies",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/donnees-personnelles-et-cookies",
+							"id": "174",
+							"uri": "https://www.seine-et-marne.gouv.fr/index.php/accessibilite",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/index.php\/accessibilite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 69 [https://www.seine-et-marne.gouv.fr/Outils/Information-sur-les-cookies].\nPredicted response size: 369.\nResponse Body Length: 520."
+							"otherinfo": "Location header URI length: 82 [https://www.seine-et-marne.gouv.fr/index.php/Accessibilite-partiellement-conforme2].\nPredicted response size: 382.\nResponse Body Length: 572."
 						},
 						{
-							"id": "174",
-							"uri": "https://www.seine-et-marne.gouv.fr/mentions-legales",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/mentions-legales",
+							"id": "182",
+							"uri": "https://www.seine-et-marne.gouv.fr/index.php/donnees-personnelles-et-cookies",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/index.php\/donnees-personnelles-et-cookies",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 51 [https://www.seine-et-marne.gouv.fr/Mentions-legales].\nPredicted response size: 351.\nResponse Body Length: 448."
+							"otherinfo": "Location header URI length: 79 [https://www.seine-et-marne.gouv.fr/index.php/Outils/Information-sur-les-cookies].\nPredicted response size: 379.\nResponse Body Length: 560."
+						},
+						{
+							"id": "177",
+							"uri": "https://www.seine-et-marne.gouv.fr/index.php/mentions-legales",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/index.php\/mentions-legales",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 61 [https://www.seine-et-marne.gouv.fr/index.php/Mentions-legales].\nPredicted response size: 361.\nResponse Body Length: 488."
+						},
+						{
+							"id": "175",
+							"uri": "https://www.seine-et-marne.gouv.fr/index.php/nous-contacter",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/index.php\/nous-contacter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 59 [https://www.seine-et-marne.gouv.fr/index.php/Nous-contacter].\nPredicted response size: 359.\nResponse Body Length: 480."
 						},
 						{
 							"id": "72",
@@ -455,14 +513,14 @@
 							"otherinfo": "Location header URI length: 49 [https://www.seine-et-marne.gouv.fr/Nous-contacter].\nPredicted response size: 349.\nResponse Body Length: 440."
 						}
 					],
-					"count": "8",
+					"count": "9",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 72 [https://www.seine-et-marne.gouv.fr/Accessibilite-partiellement-conforme2].</p><p>Predicted response size: 372.</p><p>Response Body Length: 532.</p>",
+					"otherinfo": "<p>Location header URI length: 45 [https://www.seine-et-marne.gouv.fr/Actualites].</p><p>Predicted response size: 345.</p><p>Response Body Length: 424.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1183"
+					"sourceid": "1024"
 				},
 				{
 					"pluginid": "10010",
@@ -565,7 +623,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "171",
+							"id": "172",
 							"uri": "https://www.seine-et-marne.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/passeport",
 							"method": "GET",
@@ -575,7 +633,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "169",
 							"uri": "https://www.seine-et-marne.gouv.fr/siv",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/siv",
 							"method": "GET",
@@ -592,7 +650,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1024"
+					"sourceid": "1025"
 				},
 				{
 					"pluginid": "90004",
@@ -625,9 +683,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "87",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -675,9 +733,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "88",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -725,9 +783,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "86",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -755,7 +813,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "180",
+							"id": "181",
 							"uri": "https://www.seine-et-marne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -772,7 +830,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1207"
+					"sourceid": "1206"
 				},
 				{
 					"pluginid": "110009",
@@ -785,7 +843,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "184",
+							"id": "185",
 							"uri": "https://www.seine-et-marne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -795,7 +853,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "181",
+							"id": "184",
 							"uri": "https://www.seine-et-marne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -805,7 +863,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "183",
+							"id": "186",
 							"uri": "https://www.seine-et-marne.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -822,7 +880,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1272"
+					"sourceid": "1301"
 				},
 				{
 					"pluginid": "10063",
@@ -855,9 +913,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "85",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -865,7 +923,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "39",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -875,7 +933,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "37",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -905,7 +963,7 @@
 					"desc": "<p>The page includes mixed content, that is content accessed via HTTP instead of HTTPS.</p>",
 					"instances":[ 
 						{
-							"id": "155",
+							"id": "98",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
@@ -922,7 +980,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html</p>",
 					"cweid": "311",
 					"wascid": "4",
-					"sourceid": "257"
+					"sourceid": "196"
 				},
 				{
 					"pluginid": "10035",
@@ -955,9 +1013,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "80",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -965,7 +1023,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "27",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -975,7 +1033,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "25",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1025,9 +1083,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "84",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "110",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1035,9 +1093,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "106",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
+							"id": "81",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1045,9 +1103,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "95",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "102",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1095,9 +1153,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "85",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "115",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1105,9 +1163,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "107",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
+							"id": "82",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1115,9 +1173,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "96",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "103",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1165,9 +1223,9 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "165",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "166",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat/Appui-territorial",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat\/Appui-territorial",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1175,7 +1233,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u0096)\uFFFD\uFFFD\uFFFD'z\uFFFD\"z\uFFFD\u02FA\uFFFD^\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uF705\uFFFD\uFFFDzg\uFFFD\uFFFD\uFFFD%\uFFFDf\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD~i\u05A9\uFFFD\uFFFDb\uFFFD}"
 						},
 						{
-							"id": "144",
+							"id": "165",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat/Consommation-commerce-alimentation-et-animaux",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat\/Consommation-commerce-alimentation-et-animaux",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Actions-de-l-Etat/Climat-Energies/Lutte-contre-le-changement-climatique-et-adaptation2",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u0096)\uFFFD\uFFFD\uFFFD'z\uFFFD\"z\uFFFD\u02FA\uFFFD^\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uF705\uFFFD\uFFFDzg\uFFFD\uFFFD\uFFFD%\uFFFDf\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD~i\u05A9\uFFFD\uFFFDb\uFFFD}"
+						},
+						{
+							"id": "83",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1185,7 +1253,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?j\uFFFD^\uFFFD\u03DA\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFDm6\uFFFD\u89F5\uFFFD+j\u0628\uFFFD\uFFFD^\uFFFD\u7B6D\uFFFD\uFFFDz\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFD\u6AEE+\u069E\uFFFD>u\uFFFDz)\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD{\uFFFD|\uFFFD\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFDG\uFFFD)\uFFFD\uFFFDl\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07B6\u03F6\uFFFDn\uFFFD\"{^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD>z\uFFFD\u069E\\x0007\uFFFD\uFFFD\uFFFDk\uFFFDj>j\uFFFD\u2F69\uFFFD\uFFFD^\uFFFD'\uFFFD\uFFFD\uF7B7\uFFFD\\x001a\uFFFDw\uFFFD\uFFFD+-\uFFFD\u05E6"
 						},
 						{
-							"id": "86",
+							"id": "148",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1195,7 +1263,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "108",
+							"id": "152",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
 							"method": "GET",
@@ -1205,7 +1273,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0016\uFFFD\uFFFDq\uFFFDzV\uFFFDq\uF79F\u478Aw\uFFFDz\u07CCj\uFFFD\uFFFD\uFFFD_\uFFFDz\uFFFD\uFFFD\uFFFD_\uFFFD\uFFFD[\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "97",
+							"id": "161",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
 							"method": "GET",
@@ -1225,27 +1293,17 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFDz{b\uFFFD\uFFFDz\uFFFD~u\uF7E2\uFFFD\uFFFD\uFFFD\uFFFDzY^\uFFFD\uFFFD(\uFFFD\u07E5z\u03E9z)\u07B3\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFDw\\x001e\uFFFD\u061A\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\u05CD>\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFDW\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD+z\uFFFD>\uFFFD\u7955\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>zw(\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDZ\uFFFD\uFFFD^\uFFFD\uFFFDq\uFFFD\u0749\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "120",
+							"id": "118",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Actualites/Salle-de-presse/Mardi-28-avril-tests-de-la-sirene-d-alerte-a-la-population-de-Melun",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?I\uFFFDe{\uFFFD^\uFFFD\uFFFD\u07B2\u01FF1\uFFFD\u074B\uFFFD\uFFFD\uFFFD\uFFFD_\uFFFDz\uFFFDl\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD~jW\uFFFD\uFFFD\uFFFD\uFFFDV\uFFFD\uFFFD\uFFFDn\uFFFD\uFFFDb\uFFFD\uFFFD{\uFFFD\\x001e\uFFFD\uFFFD"
+							"evidence": "/Actualites/Salle-de-presse/Fete-de-la-Musique-2026-dans-les-jardins-de-la-Prefecture-de-Seine-et-Marne",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?I\uFFFDe{\uFFFD^\uFFFD\uFFFD\u07B2\u01FF\\x0015\uFFFD^\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\u022A\uFFFD\uFFFD\uFFFDn\uFFFDu\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD6\uFFFDv)\uFFFD\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\u06EB{\uFFFD^\uFFFD'\uFFFD\uFFFD\uF7B7\uFFFD\\x001a\uFFFDw"
 						},
 						{
-							"id": "151",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Crues",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Crues",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actualites/vigilance-crues/171717-10-fre-FR/Vigilance-Crues",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD)Z\uFFFD\u01FEr\uFFFD\uFFFD\uFFFD\uFFFD{\u05FD{\uFFFD]>~\uFFFD\uFFFD\\x0015\\x001f\u054A\\x0008\uFFFDjw\\x001e\uFFFD*\uFFFDz"
-						},
-						{
-							"id": "159",
+							"id": "104",
 							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
@@ -1275,7 +1333,7 @@
 					"desc": "<p>The Content-Type header was either missing or empty.</p>",
 					"instances":[ 
 						{
-							"id": "175",
+							"id": "176",
 							"uri": "https://www.seine-et-marne.gouv.fr/extension/ide/design/ide_dsfr_design/images/favicon/manifest.webmanifest",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/extension\/ide\/design\/ide_dsfr_design\/images\/favicon\/manifest.webmanifest",
 							"method": "GET",
@@ -1292,7 +1350,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1196"
+					"sourceid": "1197"
 				},
 				{
 					"pluginid": "10027",
@@ -1305,7 +1363,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "179",
+							"id": "180",
 							"uri": "https://www.seine-et-marne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1315,7 +1373,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "178",
+							"id": "179",
 							"uri": "https://www.seine-et-marne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1332,7 +1390,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1207"
+					"sourceid": "1206"
 				},
 				{
 					"pluginid": "10109",
@@ -1365,9 +1423,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "81",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "107",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1375,9 +1433,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "103",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
+							"id": "78",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1385,9 +1443,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "88",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "99",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1435,9 +1493,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "84",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1445,9 +1503,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "105",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1505,9 +1563,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-2030",
+							"id": "76",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1515,9 +1573,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/France-Relance-en-Seine-et-Marne",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/France-Relance-en-Seine-et-Marne",
+							"id": "92",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1525,9 +1583,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Information-Exercice-Securite-Civile",
-							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Information-Exercice-Securite-Civile",
+							"id": "93",
+							"uri": "https://www.seine-et-marne.gouv.fr/Actualites/Vigilance-Meteo",
+							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/Actualites\/Vigilance-Meteo",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1585,7 +1643,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "23",
+							"id": "26",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1595,7 +1653,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "32",
+							"id": "24",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1635,7 +1693,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "34",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1645,7 +1703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "30",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1685,7 +1743,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "33",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1695,7 +1753,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "29",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1735,7 +1793,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "31",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1745,7 +1803,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "28",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1785,7 +1843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "36",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1795,7 +1853,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "32",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1855,7 +1913,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "38",
 							"uri": "https://www.seine-et-marne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1865,7 +1923,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "38",
+							"id": "35",
 							"uri": "https://www.seine-et-marne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.seine-et-marne.gouv.fr\/sitemap.xml",
 							"method": "GET",
