@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 8 May 2026 20:59:31",
-	"created": "2026-05-08T20:59:31.829610019Z",
+	"@generated": "Tue, 12 May 2026 20:20:35",
+	"created": "2026-05-12T20:20:35.565257973Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "35"
+			"statistic": "129"
 		},
 		{
 			"level": "Low",
@@ -26,7 +26,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "15"
+			"statistic": "45"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "78"
+			"statistic": "77"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.ctype.application/javascript",
 			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "3"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -66,7 +66,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -74,7 +74,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "3"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "4"
+			"statistic": "6"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "83"
+			"statistic": "78"
 		},
 		{
 			"level": "Info",
@@ -114,7 +114,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "185"
+			"statistic": "146"
 		},
 		{
 			"level": "Info",
@@ -122,7 +122,7 @@
 			"site": "https://www.ariege.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "89"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -143,7 +143,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "194",
+							"id": "196",
 							"uri": "https://www.ariege.gouv.fr/Nous-contacter",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Nous-contacter",
 							"method": "GET",
@@ -160,7 +160,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "845"
+					"sourceid": "827"
 				},
 				{
 					"pluginid": "10038",
@@ -173,7 +173,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "9",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "73",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -193,9 +193,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "66",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -203,17 +203,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "0",
-							"uri": "https://www.ariege.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "17",
+							"id": "1",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -223,7 +213,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
@@ -243,7 +233,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "7",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -253,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "64",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -263,7 +253,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "62",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -273,9 +263,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "67",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -283,9 +273,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
+							"id": "63",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -313,7 +303,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "168",
+							"id": "169",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Armes-reglementation-acquisition-et-detention",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Armes-reglementation-acquisition-et-detention",
 							"method": "GET",
@@ -323,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "166",
+							"id": "167",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Certificat-d-immatriculation",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Certificat-d-immatriculation",
 							"method": "GET",
@@ -333,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "170",
+							"id": "175",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Demarches-des-associations",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Demarches-des-associations",
 							"method": "GET",
@@ -343,7 +333,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "172",
+							"id": "173",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Demarches-des-entreprises",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Demarches-des-entreprises",
 							"method": "GET",
@@ -353,7 +343,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
+							"id": "171",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Permis-de-construire",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Permis-de-construire",
 							"method": "GET",
@@ -370,7 +360,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "553"
+					"sourceid": "482"
 				},
 				{
 					"pluginid": "10003",
@@ -383,7 +373,17 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "186",
+							"id": "195",
+							"uri": "https://www.ariege.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726822882.js",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726822882.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
+							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "187",
 							"uri": "https://www.ariege.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1726822882.js",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1726822882.js",
 							"method": "GET",
@@ -393,14 +393,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "768"
+					"sourceid": "821"
 				},
 				{
 					"pluginid": "10044",
@@ -413,7 +413,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "182",
+							"id": "183",
 							"uri": "https://www.ariege.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -423,7 +423,7 @@
 							"otherinfo": "Location header URI length: 46 [https://www.ariege.gouv.fr/Outils/Accesibilite].\nPredicted response size: 346.\nResponse Body Length: 428."
 						},
 						{
-							"id": "180",
+							"id": "181",
 							"uri": "https://www.ariege.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/actualites",
 							"method": "GET",
@@ -433,7 +433,7 @@
 							"otherinfo": "Location header URI length: 125 [https://www.ariege.gouv.fr/Publications/Espace-presse/Communiques-de-presse/Tournee-de-prevention-Bon-ete-bons-reflexes-sante].\nPredicted response size: 425.\nResponse Body Length: 744."
 						},
 						{
-							"id": "179",
+							"id": "178",
 							"uri": "https://www.ariege.gouv.fr/cni",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/cni",
 							"method": "GET",
@@ -443,14 +443,14 @@
 							"otherinfo": "Location header URI length: 96 [https://www.ariege.gouv.fr/Demarches/Carte-d-identite-et-passeport/Demander-une-carte-d-identite].\nPredicted response size: 396.\nResponse Body Length: 628."
 						},
 						{
-							"id": "190",
+							"id": "192",
 							"uri": "https://www.ariege.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 95 [https://www.ariege.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/313259378?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
+							"otherinfo": "Location header URI length: 95 [https://www.ariege.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/601120392?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
 						},
 						{
 							"id": "176",
@@ -463,7 +463,7 @@
 							"otherinfo": "Location header URI length: 36 [https://www.ariege.gouv.fr/Demarches].\nPredicted response size: 336.\nResponse Body Length: 388."
 						},
 						{
-							"id": "185",
+							"id": "186",
 							"uri": "https://www.ariege.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -473,7 +473,7 @@
 							"otherinfo": "Location header URI length: 54 [https://www.ariege.gouv.fr/Outils/Donnees-personnelles].\nPredicted response size: 354.\nResponse Body Length: 460."
 						},
 						{
-							"id": "175",
+							"id": "179",
 							"uri": "https://www.ariege.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/horaires",
 							"method": "GET",
@@ -483,7 +483,7 @@
 							"otherinfo": "Location header URI length: 50 [https://www.ariege.gouv.fr/Horaires-et-Coordonnees].\nPredicted response size: 350.\nResponse Body Length: 444."
 						},
 						{
-							"id": "183",
+							"id": "185",
 							"uri": "https://www.ariege.gouv.fr/mentions-legales",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/mentions-legales",
 							"method": "GET",
@@ -493,7 +493,7 @@
 							"otherinfo": "Location header URI length: 43 [https://www.ariege.gouv.fr/Mentions-legales].\nPredicted response size: 343.\nResponse Body Length: 416."
 						},
 						{
-							"id": "58",
+							"id": "43",
 							"uri": "https://www.ariege.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -503,7 +503,7 @@
 							"otherinfo": "Location header URI length: 41 [https://www.ariege.gouv.fr/Nous-contacter].\nPredicted response size: 341.\nResponse Body Length: 408."
 						},
 						{
-							"id": "181",
+							"id": "180",
 							"uri": "https://www.ariege.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/passeport",
 							"method": "GET",
@@ -513,7 +513,7 @@
 							"otherinfo": "Location header URI length: 88 [https://www.ariege.gouv.fr/Demarches/Carte-d-identite-et-passeport/Demander-un-passeport].\nPredicted response size: 388.\nResponse Body Length: 596."
 						},
 						{
-							"id": "177",
+							"id": "182",
 							"uri": "https://www.ariege.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -523,7 +523,7 @@
 							"otherinfo": "Location header URI length: 55 [https://www.ariege.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 355.\nResponse Body Length: 464."
 						},
 						{
-							"id": "178",
+							"id": "177",
 							"uri": "https://www.ariege.gouv.fr/siv",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/siv",
 							"method": "GET",
@@ -540,7 +540,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "734"
+					"sourceid": "676"
 				},
 				{
 					"pluginid": "10010",
@@ -553,7 +553,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "10",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -583,7 +583,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "12",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -613,7 +613,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "11",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -643,7 +643,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "167",
+							"id": "168",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Armes-reglementation-acquisition-et-detention",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Armes-reglementation-acquisition-et-detention",
 							"method": "GET",
@@ -653,7 +653,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
+							"id": "166",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Certificat-d-immatriculation",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Certificat-d-immatriculation",
 							"method": "GET",
@@ -663,7 +663,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "169",
+							"id": "174",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Demarches-des-associations",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Demarches-des-associations",
 							"method": "GET",
@@ -673,7 +673,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "171",
+							"id": "172",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Demarches-des-entreprises",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Demarches-des-entreprises",
 							"method": "GET",
@@ -683,7 +683,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
+							"id": "170",
 							"uri": "https://www.ariege.gouv.fr/Demarches/Permis-de-construire",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Demarches\/Permis-de-construire",
 							"method": "GET",
@@ -700,7 +700,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "553"
+					"sourceid": "482"
 				},
 				{
 					"pluginid": "90004",
@@ -713,7 +713,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "26",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -723,7 +723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "94",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -733,9 +733,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "82",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -763,7 +763,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "27",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -773,7 +773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "95",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -783,9 +783,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "83",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -813,7 +813,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "25",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -823,7 +823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "93",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -833,9 +833,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "81",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -863,7 +863,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "189",
+							"id": "190",
 							"uri": "https://www.ariege.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -880,7 +880,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "776"
+					"sourceid": "705"
 				},
 				{
 					"pluginid": "110009",
@@ -893,7 +893,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "193",
+							"id": "194",
 							"uri": "https://www.ariege.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -913,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "192",
+							"id": "193",
 							"uri": "https://www.ariege.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -930,7 +930,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "844"
+					"sourceid": "820"
 				},
 				{
 					"pluginid": "10063",
@@ -943,7 +943,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "24",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -953,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "91",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -963,9 +963,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "80",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -973,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "37",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -983,7 +983,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "39",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1013,7 +1013,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "15",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1023,7 +1023,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "86",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1033,9 +1033,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "70",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1043,7 +1043,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "5",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1053,7 +1053,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "4",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1083,7 +1083,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "16",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1093,7 +1093,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "67",
+							"id": "87",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1103,7 +1103,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "95",
+							"id": "71",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -1113,9 +1113,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "81",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "102",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1123,9 +1123,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "105",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
+							"id": "98",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1153,7 +1153,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "17",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1163,7 +1163,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "68",
+							"id": "88",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1173,7 +1173,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "96",
+							"id": "74",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -1183,9 +1183,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "82",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "107",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1193,9 +1193,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "106",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
+							"id": "103",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1223,7 +1223,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "18",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1233,7 +1233,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "69",
+							"id": "89",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1243,27 +1243,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "83",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actions-de-l-Etat/Agriculture/Programme-d-Investissements-d-Avenir-PIA4-2022-2023",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
-						},
-						{
-							"id": "107",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actions-de-l-Etat/Agriculture/Programme-d-Investissements-d-Avenir-PIA4-2022-2023",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
-						},
-						{
-							"id": "163",
+							"id": "130",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Citoyennete-et-elections",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Citoyennete-et-elections",
 							"method": "GET",
@@ -1273,7 +1253,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\u022D\uFFFD'\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD~zW\uFFFD\uFFFD*'\uFFFD\uFFFD\uFFFD\uFFFD}>\u05EF\uFFFD\uFFFD\uFFFDG\uD84B\uDD8C\uFFFD\uFFFDw\uFFFD{\uFFFD\uFFFD\uFFFD^r\u0628\uFFFD"
 						},
 						{
-							"id": "164",
+							"id": "156",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Collectivites-territoriales",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Collectivites-territoriales",
 							"method": "GET",
@@ -1283,7 +1263,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "118",
+							"id": "108",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
 							"method": "GET",
@@ -1293,7 +1273,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "157",
+							"id": "165",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Environnement-biodiversite",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Environnement-biodiversite",
 							"method": "GET",
@@ -1303,7 +1283,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "129",
+							"id": "119",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Securite-et-protection-de-la-population",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Securite-et-protection-de-la-population",
 							"method": "GET",
@@ -1313,7 +1293,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "140",
+							"id": "104",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
@@ -1323,7 +1303,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\u03EE\uFFFD+ji\uFFFD\uFFFD\u07C8\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\u03DD\uFFFD\\x000b\u079E*\uFFFD<\uFFFD8\uFFFDm6\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "150",
+							"id": "141",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Transition-ecologique-et-energetique",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Transition-ecologique-et-energetique",
 							"method": "GET",
@@ -1331,6 +1311,26 @@
 							"attack": "",
 							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/transition-ecologique-et-energetique/13842-15-fre-FR/Transition-ecologique-et-energetique",
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD\u069E\u022D\uFFFD\uFFFD\uFFFDy\uFFFD%\uFFFD\\x0008\uFFFD\uFFFD\uF7B7\uFFFDz\uFFFD\\x001e\uFFFD*\uFFFD{\uFFFDw\uFFFD\u05DF\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFDj{\"\uFFFD*'\uFFFD\uFFFD(\uFFFD\uFFFD\"\uFFFD\uFFFDz\u07DE\uFFFD\uFFFD\uFFFDz\u062A\uFFFD"
+						},
+						{
+							"id": "164",
+							"uri": "https://www.ariege.gouv.fr/Services-de-l-Etat/France-Services-en-Ariege",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Services-de-l-Etat\/France-Services-en-Ariege",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/ide_site/storage/images/services-de-l-etat/france-services-en-ariege/153361-24-fre-FR/France-Services-en-Ariege",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDz\uFFFD\uFFFDq\uFFFD>u\uFFFD\uFFFD\uFFFDZ\uFFFD\uFFFD\uFFFDjw\\x001e\uFFFD\u01EB\uFFFD'\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\\x0007\uFFFD\u05DD\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFDZ\u069D\u01FEI\uFFFD\uFFFD\u01EC\uFFFD\uFFFD\uFFFD\\x0002\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "157",
+							"uri": "https://www.ariege.gouv.fr/Services-de-l-Etat/Prefecture-de-l-Ariege-Sous-prefectures-des-arrondissements-de-Pamiers-et-de-St-Girons",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Services-de-l-Etat\/Prefecture-de-l-Ariege-Sous-prefectures-des-arrondissements-de-Pamiers-et-de-St-Girons",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Services-de-l-Etat/Armee-Combattants-et-victimes-de-guerre/Le-1er-RCP",
+							"otherinfo": "\uFFFD'\uFFFD\uFFFD'\\x001e\uFFFD\uFFFD^\uFFFD_\uFFFD\uFFFD\uFFFD\\x0002\uFFFD\uFFFD{\u0A19\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD^\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFDz\uFFFD\uFFFD\\x0008"
 						}
 					],
 					"count": "11",
@@ -1370,7 +1370,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "765"
+					"sourceid": "685"
 				},
 				{
 					"pluginid": "10027",
@@ -1383,7 +1383,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "188",
+							"id": "189",
 							"uri": "https://www.ariege.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1393,7 +1393,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "187",
+							"id": "188",
 							"uri": "https://www.ariege.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1410,7 +1410,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "776"
+					"sourceid": "705"
 				},
 				{
 					"pluginid": "10109",
@@ -1423,7 +1423,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "13",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1433,7 +1433,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "64",
+							"id": "84",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1443,19 +1443,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "92",
+							"id": "68",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"4cf73c8ca86cbc09bff21225c92327db\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actions-de-l-Etat/Agriculture\">\n                                Agriculture\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "78",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1463,9 +1453,19 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "102",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
+							"id": "99",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"4cf73c8ca86cbc09bff21225c92327db\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actions-de-l-Etat/Agriculture\">\n                                Agriculture\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "92",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1493,7 +1493,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "23",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1503,7 +1503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "90",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1513,7 +1513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "79",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -1523,9 +1523,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "105",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1533,7 +1533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "45",
 							"uri": "https://www.ariege.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1563,7 +1563,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "8",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1573,7 +1573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "72",
 							"uri": "https://www.ariege.gouv.fr/",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
 							"method": "GET",
@@ -1583,7 +1583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "65",
 							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -1593,9 +1593,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"id": "75",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Economie-et-emploi",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Economie-et-emploi",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1603,9 +1603,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
-							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-habitat-urbanisme",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-habitat-urbanisme",
+							"id": "76",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat\/Solidarite-Cohesion-sociale-Egalite-femmes-hommes",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1633,7 +1633,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "14",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1643,9 +1643,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "65",
-							"uri": "https://www.ariege.gouv.fr/",
-							"nodeName": "https:\/\/www.ariege.gouv.fr\/",
+							"id": "69",
+							"uri": "https://www.ariege.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.ariege.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1653,7 +1653,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "59",
+							"id": "44",
 							"uri": "https://www.ariege.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1663,7 +1663,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "1",
+							"id": "3",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1673,7 +1673,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "18",
+							"id": "2",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1703,7 +1703,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "21",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1713,7 +1713,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "32",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1723,7 +1723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "33",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1753,7 +1753,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "20",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1763,7 +1763,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "31",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1773,7 +1773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "30",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1803,7 +1803,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "19",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1813,7 +1813,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "28",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1823,7 +1823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "29",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1853,7 +1853,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "22",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1863,7 +1863,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "35",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1873,7 +1873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "34",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1903,7 +1903,17 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "6",
+							"uri": "https://www.ariege.gouv.fr",
+							"nodeName": "https:\/\/www.ariege.gouv.fr",
+							"method": "GET",
+							"param": "eZSESSID",
+							"attack": "",
+							"evidence": "eZSESSID",
+							"otherinfo": "cookie:eZSESSID"
+						},
+						{
+							"id": "42",
 							"uri": "https://www.ariege.gouv.fr",
 							"nodeName": "https:\/\/www.ariege.gouv.fr",
 							"method": "GET",
@@ -1913,7 +1923,7 @@
 							"otherinfo": "cookie:eZSESSID"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:eZSESSID</p>",
@@ -1933,7 +1943,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "36",
 							"uri": "https://www.ariege.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1943,7 +1953,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "24",
+							"id": "38",
 							"uri": "https://www.ariege.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.ariege.gouv.fr\/sitemap.xml",
 							"method": "GET",

@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "f1bpe5jao097p67rvpmijotdt6",
+      "value": "pput52ej1p9ee1j0ms2m8kv1g1",
       "domain": "www.ariege.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 20:54:36 GMT",
-    "expires": "Fri, 08 May 2026 18:54:36 GMT",
-    "last-modified": "Fri, 08 May 2026 20:54:36 GMT",
+    "date": "Tue, 12 May 2026 20:16:31 GMT",
+    "expires": "Tue, 12 May 2026 18:16:32 GMT",
+    "last-modified": "Tue, 12 May 2026 20:16:32 GMT",
     "pragma": "no-cache",
     "served-by": "www.ariege.gouv.fr",
-    "set-cookie": "eZSESSID=f1bpe5jao097p67rvpmijotdt6; path=/",
+    "set-cookie": "eZSESSID=pput52ej1p9ee1j0ms2m8kv1g1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
