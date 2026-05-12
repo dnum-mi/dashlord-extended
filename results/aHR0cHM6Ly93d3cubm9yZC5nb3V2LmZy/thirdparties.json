@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "ljr8bmfd8kbihnjrvktegbrca7",
+      "value": "2kfgherih3ojdndb92eu6nek70",
       "domain": "www.nord.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 23:36:08 GMT",
-    "expires": "Fri, 08 May 2026 21:36:08 GMT",
-    "last-modified": "Fri, 08 May 2026 23:36:08 GMT",
+    "date": "Tue, 12 May 2026 22:20:02 GMT",
+    "expires": "Tue, 12 May 2026 20:20:02 GMT",
+    "last-modified": "Tue, 12 May 2026 22:20:02 GMT",
     "pragma": "no-cache",
     "served-by": "www.nord.gouv.fr",
-    "set-cookie": "eZSESSID=ljr8bmfd8kbihnjrvktegbrca7; path=/",
+    "set-cookie": "eZSESSID=2kfgherih3ojdndb92eu6nek70; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
