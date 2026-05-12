@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
-        "size": 4010.422,
+        "size": 4011.882,
         "nodes": 498,
         "requests": 61,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.96,
         "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 02:49:19.273793",
+        "date": "2026-05-12 19:26:31.770372",
         "page_type": "website"
     }
 ]
