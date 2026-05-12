@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "74bdsai8u0hnomfsbcm3cl8a67",
+      "value": "5f4s8n0je16b2j6mhrfv4hr0d4",
       "domain": "www.eure.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 21:58:24 GMT",
-    "expires": "Fri, 08 May 2026 19:58:24 GMT",
-    "last-modified": "Fri, 08 May 2026 21:58:24 GMT",
+    "date": "Tue, 12 May 2026 21:08:48 GMT",
+    "expires": "Tue, 12 May 2026 19:08:48 GMT",
+    "last-modified": "Tue, 12 May 2026 21:08:48 GMT",
     "pragma": "no-cache",
     "served-by": "www.eure.gouv.fr",
-    "set-cookie": "eZSESSID=74bdsai8u0hnomfsbcm3cl8a67; path=/",
+    "set-cookie": "eZSESSID=5f4s8n0je16b2j6mhrfv4hr0d4; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
