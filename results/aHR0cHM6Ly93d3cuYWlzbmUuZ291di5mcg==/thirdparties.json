@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "avh3nsita816lqvfjgf10aocp3",
+      "value": "ppua9hptsh1b2qugeppnvrqtu6",
       "domain": "www.aisne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -22,14 +22,13 @@
     "cache-control": "must-revalidate, no-cache, private",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "15696",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 20:36:05 GMT",
-    "expires": "Fri, 08 May 2026 18:36:05 GMT",
-    "last-modified": "Fri, 08 May 2026 20:36:05 GMT",
+    "date": "Tue, 12 May 2026 19:59:26 GMT",
+    "expires": "Tue, 12 May 2026 17:59:26 GMT",
+    "last-modified": "Tue, 12 May 2026 19:59:26 GMT",
     "pragma": "no-cache",
     "served-by": "www.aisne.gouv.fr",
-    "set-cookie": "eZSESSID=avh3nsita816lqvfjgf10aocp3; path=/",
+    "set-cookie": "eZSESSID=ppua9hptsh1b2qugeppnvrqtu6; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
