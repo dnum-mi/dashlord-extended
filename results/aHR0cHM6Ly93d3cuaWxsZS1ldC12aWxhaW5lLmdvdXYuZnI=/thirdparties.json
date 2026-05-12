@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "96doj3cc04cdrqv2iro9vnolm7",
+      "value": "4orohhq2a70oukorbql8msiol4",
       "domain": "www.ille-et-vilaine.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 22:22:31 GMT",
-    "expires": "Fri, 08 May 2026 20:22:31 GMT",
-    "last-modified": "Fri, 08 May 2026 22:22:31 GMT",
+    "date": "Tue, 12 May 2026 21:23:47 GMT",
+    "expires": "Tue, 12 May 2026 19:23:47 GMT",
+    "last-modified": "Tue, 12 May 2026 21:23:47 GMT",
     "pragma": "no-cache",
     "served-by": "www.ille-et-vilaine.gouv.fr",
-    "set-cookie": "eZSESSID=96doj3cc04cdrqv2iro9vnolm7; path=/",
+    "set-cookie": "eZSESSID=4orohhq2a70oukorbql8msiol4; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
