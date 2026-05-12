@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "sedruvg67kuuocb7cr88m6p0u3",
+      "value": "skp8sd6b2ah1ppi3hmh5vuhb51",
       "domain": "www.indre-et-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 22:32:04 GMT",
-    "expires": "Fri, 08 May 2026 20:32:04 GMT",
-    "last-modified": "Fri, 08 May 2026 22:32:04 GMT",
+    "date": "Tue, 12 May 2026 21:27:48 GMT",
+    "expires": "Tue, 12 May 2026 19:27:48 GMT",
+    "last-modified": "Tue, 12 May 2026 21:27:48 GMT",
     "pragma": "no-cache",
     "served-by": "www.indre-et-loire.gouv.fr",
-    "set-cookie": "eZSESSID=sedruvg67kuuocb7cr88m6p0u3; path=/",
+    "set-cookie": "eZSESSID=skp8sd6b2ah1ppi3hmh5vuhb51; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
