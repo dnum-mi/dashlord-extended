@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.corse-du-sud.gouv.fr",
-        "size": 1271.886,
+        "size": 1277.784,
         "nodes": 603,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-08 21:32:24.710967",
+        "date": "2026-05-12 20:45:58.964287",
         "page_type": "website"
     }
 ]
