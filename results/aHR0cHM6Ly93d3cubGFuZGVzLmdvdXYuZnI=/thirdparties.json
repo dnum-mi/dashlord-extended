@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "917svg5ee6eu1mpit4bchp1kg7",
+      "value": "sdicl4jhrp4j07mg3g2cpci7c4",
       "domain": "www.landes.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 22:39:49 GMT",
-    "expires": "Fri, 08 May 2026 20:39:49 GMT",
-    "last-modified": "Fri, 08 May 2026 22:39:49 GMT",
+    "date": "Tue, 12 May 2026 21:34:26 GMT",
+    "expires": "Tue, 12 May 2026 19:34:27 GMT",
+    "last-modified": "Tue, 12 May 2026 21:34:27 GMT",
     "pragma": "no-cache",
     "served-by": "www.landes.gouv.fr",
-    "set-cookie": "eZSESSID=917svg5ee6eu1mpit4bchp1kg7; path=/",
+    "set-cookie": "eZSESSID=sdicl4jhrp4j07mg3g2cpci7c4; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
