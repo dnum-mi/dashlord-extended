@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.securite-routiere.gouv.fr/permis-de-conduire/resultats-du-permis-de-conduire#/step-connexion",
-        "size": 10909.83,
-        "nodes": 1382,
-        "requests": 109,
+        "size": 10916.226,
+        "nodes": 1384,
+        "requests": 112,
         "grade": "F",
         "score": 20.0,
         "ges": 2.6,
         "water": 3.9,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 02:49:01.151853",
+        "date": "2026-05-12 19:22:55.088800",
         "page_type": null
     }
 ]
