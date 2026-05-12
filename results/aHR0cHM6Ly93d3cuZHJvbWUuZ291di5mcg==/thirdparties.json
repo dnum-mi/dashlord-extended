@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "nft98v7mcl0op0co2vtb6a8g65",
+      "value": "n5c48i3oc12k9o9plffhurta46",
       "domain": "www.drome.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 21:49:58 GMT",
-    "expires": "Fri, 08 May 2026 19:49:59 GMT",
-    "last-modified": "Fri, 08 May 2026 21:49:59 GMT",
+    "date": "Tue, 12 May 2026 21:04:14 GMT",
+    "expires": "Tue, 12 May 2026 19:04:14 GMT",
+    "last-modified": "Tue, 12 May 2026 21:04:14 GMT",
     "pragma": "no-cache",
     "served-by": "www.drome.gouv.fr",
-    "set-cookie": "eZSESSID=nft98v7mcl0op0co2vtb6a8g65; path=/",
+    "set-cookie": "eZSESSID=n5c48i3oc12k9o9plffhurta46; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
