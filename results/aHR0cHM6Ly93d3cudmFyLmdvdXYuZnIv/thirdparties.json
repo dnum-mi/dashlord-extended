@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "a0ilcjq3442a5ae1f8jl0a9oa1",
+      "value": "gnjmhf36auipmtq0mul4sqnfq4",
       "domain": "www.var.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sat, 09 May 2026 00:48:06 GMT",
-    "expires": "Fri, 08 May 2026 22:48:06 GMT",
-    "last-modified": "Sat, 09 May 2026 00:48:06 GMT",
+    "date": "Tue, 12 May 2026 23:16:54 GMT",
+    "expires": "Tue, 12 May 2026 21:16:54 GMT",
+    "last-modified": "Tue, 12 May 2026 23:16:54 GMT",
     "pragma": "no-cache",
     "served-by": "www.var.gouv.fr",
-    "set-cookie": "eZSESSID=a0ilcjq3442a5ae1f8jl0a9oa1; path=/",
+    "set-cookie": "eZSESSID=gnjmhf36auipmtq0mul4sqnfq4; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
