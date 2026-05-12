@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "lbjrnsvjrfc7o81akr2f5ce6r6",
+      "value": "k9a0v1ssb364hfsusf06dbp9e0",
       "domain": "www.nievre.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 23:35:51 GMT",
-    "expires": "Fri, 08 May 2026 21:35:52 GMT",
-    "last-modified": "Fri, 08 May 2026 23:35:52 GMT",
+    "date": "Tue, 12 May 2026 22:19:05 GMT",
+    "expires": "Tue, 12 May 2026 20:19:05 GMT",
+    "last-modified": "Tue, 12 May 2026 22:19:05 GMT",
     "pragma": "no-cache",
     "served-by": "www.nievre.gouv.fr",
-    "set-cookie": "eZSESSID=lbjrnsvjrfc7o81akr2f5ce6r6; path=/",
+    "set-cookie": "eZSESSID=k9a0v1ssb364hfsusf06dbp9e0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

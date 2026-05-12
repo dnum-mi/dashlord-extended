@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 23:41:41 GMT",
+      "date": "Tue, 12 May 2026 22:24:21 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 08 May 2026 21:41:42 GMT",
-      "last-modified": "Fri, 08 May 2026 23:41:42 GMT",
+      "expires": "Tue, 12 May 2026 20:24:22 GMT",
+      "last-modified": "Tue, 12 May 2026 22:24:22 GMT",
       "served-by": "www.nievre.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=8ipgtgqkici8blt52ruc0pkor6; path=/"
+        "eZSESSID=lqs7np030u1d9ft8pvlj6iojg3; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
