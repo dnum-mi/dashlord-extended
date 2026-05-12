@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tarn-et-garonne.gouv.fr",
-        "size": 1245.192,
+        "size": 1276.87,
         "nodes": 660,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 00:48:16.335640",
+        "date": "2026-05-12 23:14:15.467381",
         "page_type": "website"
     }
 ]
