@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "qd63acmgp80uq2hu761e8d0mi2",
+      "value": "3v7m92n5acfoujmvpo1j2l05s6",
       "domain": "www.guyane.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -22,14 +22,13 @@
     "cache-control": "must-revalidate, no-cache, private",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "14891",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sat, 09 May 2026 01:34:06 GMT",
-    "expires": "Fri, 08 May 2026 23:34:06 GMT",
-    "last-modified": "Sat, 09 May 2026 01:34:06 GMT",
+    "date": "Tue, 12 May 2026 23:52:43 GMT",
+    "expires": "Tue, 12 May 2026 21:52:43 GMT",
+    "last-modified": "Tue, 12 May 2026 23:52:43 GMT",
     "pragma": "no-cache",
     "served-by": "www.guyane.gouv.fr",
-    "set-cookie": "eZSESSID=qd63acmgp80uq2hu761e8d0mi2; path=/",
+    "set-cookie": "eZSESSID=3v7m92n5acfoujmvpo1j2l05s6; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
