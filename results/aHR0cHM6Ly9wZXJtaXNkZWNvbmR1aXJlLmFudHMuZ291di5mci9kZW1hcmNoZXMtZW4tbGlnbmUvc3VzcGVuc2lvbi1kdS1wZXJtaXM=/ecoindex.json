@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/suspension-du-permis",
-        "size": 4013.838,
+        "size": 4014.525,
         "nodes": 514,
         "requests": 59,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.96,
         "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 02:52:22.720535",
+        "date": "2026-05-12 19:28:41.187932",
         "page_type": "website"
     }
 ]
