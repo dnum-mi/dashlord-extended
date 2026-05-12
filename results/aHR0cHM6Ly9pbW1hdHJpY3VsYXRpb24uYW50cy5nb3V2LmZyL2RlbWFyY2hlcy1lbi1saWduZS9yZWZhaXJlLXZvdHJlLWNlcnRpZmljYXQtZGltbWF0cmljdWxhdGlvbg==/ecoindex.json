@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/refaire-votre-certificat-dimmatriculation",
-        "size": 4407.459,
-        "nodes": 643,
-        "requests": 63,
+        "size": 4433.694,
+        "nodes": 650,
+        "requests": 65,
         "grade": "D",
-        "score": 46.0,
-        "ges": 2.08,
-        "water": 3.12,
+        "score": 45.0,
+        "ges": 2.1,
+        "water": 3.15,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 02:57:54.394629",
+        "date": "2026-05-12 19:34:35.656688",
         "page_type": "website"
     }
 ]
