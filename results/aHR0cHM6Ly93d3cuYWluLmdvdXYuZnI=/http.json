@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 20:39:07 GMT",
+      "date": "Tue, 12 May 2026 20:02:46 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 08 May 2026 18:39:07 GMT",
-      "last-modified": "Fri, 08 May 2026 20:39:07 GMT",
+      "expires": "Tue, 12 May 2026 18:02:46 GMT",
+      "last-modified": "Tue, 12 May 2026 20:02:46 GMT",
       "served-by": "www.ain.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=h3rvufq01qgaed36gll2op4fq3; path=/"
+        "eZSESSID=cvfn028bto4ra82gp7qtj7co56; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
