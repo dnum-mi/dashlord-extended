@@ -9,12 +9,12 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sat, 09 May 2026 02:36:01 GMT",
+      "date": "Tue, 12 May 2026 19:12:19 GMT",
       "set-cookie": [
-        "AUTH_SESSION_ID=NDcyYWIxNWYtYTI1Ny00NzNkLTkzZjYtMDlkNzNiNWUwMzc4LnRwcTJLS0hVbEkzb3UzVHZJdGE2cm1DRVlnVjlweDlKa2g5OGV3d2xKWlJqa29vS096RVlvWC1ybmFEeGlQSFVuT09mbl8wWS1mRTNNbGhnMzlPaHN3.52672416dd33-6065; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=\"yd343AB4clkIRuebejzHOEIhKLS9OAMShXMSi68dr/4\"; Version=1; Path=/realms/siarmes/; Max-Age=60; Secure; SameSite=Strict",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..qaikXUxvjBP9nNO4Wvnuow.A8HlkgwA3yceOprI8tHarr2mEW7-kqv__iAv882P9CaMu9Hmbe-s1UadYE3fgqURLBoB7gz8uRKwj5DzIYZDyiLZKJAEPnthBDN1BaNX-mvycttSE25y04AfdZWkt_zZUhExNLnCkZRL10f_afnbgFfsVcuHX_qeufeesAYlpVnTeyMwLVk1Nm7n3MXCw_e9xglt5JXYlpSWS4PnKr7fS_UeTt8BVieXFH7ypUOZrAi7wfGqhaDZ9Lv00eu2lA2Wgnbehzs9aCz8FiGsyMlfK0C47MQbSGXGdXulbzZHZqoklCI-CwhG0LhzWHlZD5O4zqhs2nchtt-pZS1sQd1AS3RG8W4FDLSE-5GckqmuBzLbonnL_DFCkQPqZrdH2sd6J3lEeX2rQ6mgMcbCdN83fv7f6Jubff6WX2zFhgFkRa6W710BHTe2YzdgscdDxkO8Iv5DUG-EmzbVgxcEUsSQwwu3xV79fGXiWYAGkZeE8XtiRdKSc4OGZwRQuuh7r3L1XEW1EMCnSAr-8XhIvFaJb7D7B3zc87gu-LQMwe2ci4YtIbXrtBXY857SaFHt6xnl3CCW155anSeOv93j9FMgVseGYTSCnPTBbBObfdvfAgdxjFrBtOuOGr8iwv9FTIxSStg7xMsyPM0AcCENj2BY9UhuC7z1FEU637LgTAOMD9kpetOdidQtItdPzpiNJij_0ojxsln3wsALyxALgB1zvHFIhXsXURbX1U9D7OvgdowBTNLbG5Z1dxO2Vtsh8R-0HymdAIknz_aJw_844UDwSNxzbx6a-i3nE0WgDXskHc2T6X4kEWiNj2bioUxWmJs1Gc5pqMeoNGjwqvhfuQgBlU_xkibZUrW5a1wgQQU7t3CZVKy0Q_lOLd5ozC4gkIdMEsHHbttud0qiiKcEsT1wSnZUIJyjsqkyka8YwpFPM5sEsYuoNevrqTdDn6NUW7jdmHNtl8uyCXlxMuDugoC8dxuCiSyMlTPctVFv8vDu9tH8T7j4WpoAe4gzSqYZhJDfEJRAOVpSSZXgDC3_LE92x5QPvYc4jCk53AhuuK1iADg.csn2jkTgXD_ghZNwaY8qXQ; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None",
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1WPTOgwSDwUY; Expires=Sat, 09-May-2026 04:36:01 GMT; Path=/"
+        "AUTH_SESSION_ID=OWZhMGE3NWItNmZlZS00ZGQ2LTk3ZDktZjNmMjBmYmRlYzM4LjV0aDNDbjY5OU5CMXlTTllNTkZsdW53VGtnV21hck5WaHZMSU1JajNZV0xaUldtN0FOT1Z2Ml93dlNheF91SUVjamhKcGk5THpLMWhwcUZnRzluc1Fn.4848623ff248-29559; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=\"dBGUJCRtXn+RQH0uxb8jhz/8GsJ+e1lHg/RW3bqPics\"; Version=1; Path=/realms/siarmes/; Max-Age=60; Secure; SameSite=Strict",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..mzyFrqmc8GsdfmDJWtrvfA.gXZb4k3V2G6kLd90gytNZuuk5lANQ4fLqk7GwteCBsbR8c4GgysWdKjdpke_0PBtiTlHQLXdfGi7T4psu3rKhg5h1c8eXZFf--H8dqieFxRV5LMuzkUAYf9Ccy_ES_-W_rUtozeZ6M7hLtYLYVBwqxHvZwjjoqs3OHihq6g2nkBTyII6UojFgmPXowQbstyaF6ujJ8Rliy6jbk2hubf2R2dS-6CO5MfOV3Dp7nPEfSzeqBQEKxr5TYeEs-c6BNEoJL7PEVUn-_mV_gqK83Ky5TG9yVZw_1qk9WrkE5gJ2JU1ube_4X2Ctds9Lxa1wtspv0Ghmk89hFXqRYkCc50MHxMaDXaHjmXvaGLzzqCfl0820PpzVEmwg3MMW-UeW02AHN7SJ_WAqc8e2Cc2M7pSB5sce-ObD9FswPJST8uogldFaM-xiu4dG4uW20Fz_BiY0Fxdi627WSXmPLgGWr5QgVQt5Wnqg718VKEHlHaaVQXgY-uasiAAFnSspy6JXQfXUe2vMxAnXMgdcxQcKUmol_-tyysFSBYfPCDwr541Z9va71-PFF7kVqqiI7tbZh8pMBlxWKSVVPWXj2Gdaq9q7IRCJtc3Ij9-i46A3hXSdJbYmVi78m6p7m10fLhDD-BVgyiRUK0f1bi8DO-25mvRSuAHpF_WGp1k2QveOuazZPeNwdJBXvm2lX8f-AnScanLL-s3aflnXz25NvML9apEki-u06MGodjbAz9RuuB0pVT7l4ZEJw-P-QxE23d6AcDvz0U35KV8N4JyRZashilpqHNIbhMxwvYZxvYoWzqBei1GDo6ZUHrVnku72_FiBSOYt_HwrUPDJCgK-egsBWcIJa0fJ-foeXel3tiJX1DbheWWE2LYRj90xIB1uYQOGkpqi_SHOPm6mcNCQTAsOqC-tdF8_w7yfXq7iY9PsHyhDh8axGx_w2H-iXLduVVfUljlvfv6liRENo5ah23jS6YEd9bLQ_oHYG6GXxexz_O4F4qmRoBnuGSVZAgEvmc0eR2oWnsr-H_hCf3qXRFQti0ZxJ13LyTJkyckmOh2kPv5IAQ.EX3b-dfpiS1sezyMrT2tnQ; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None",
+        "YOMe1h3tgHKNQxhV6V7n5g__=v1WPTOgwSDwUY; Expires=Tue, 12-May-2026 21:12:19 GMT; Path=/"
       ],
       "cache-control": "no-store, must-revalidate, max-age=0",
       "content-language": "fr",
@@ -30,8 +30,8 @@
       "x-ruxit-js-agent": "true",
       "vary": "Accept-Encoding",
       "expect-ct": "max-age=86400, enforce",
-      "server-timing": "dtTrId;desc=\"49a137834abf7fbcc0bd9ccd9f96164d\", dtSInfo;desc=\"0\", dtRpid;desc=\"905078967\"",
-      "content-length": "2092",
+      "server-timing": "dtTrId;desc=\"de4a00f378f9569f61b2fc6494b9b6a6\", dtSInfo;desc=\"0\", dtRpid;desc=\"-946972825\"",
+      "content-length": "2091",
       "connection": "close"
     }
   },
@@ -82,11 +82,11 @@
         },
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "sia.registres.interieur.gouv.fr",
-          "expires": "2026-05-09T04:36:01.000Z",
+          "expires": "2026-05-12T21:12:19.000Z",
           "path": "/",
           "port": null
         },
-        "mod_auth_openidc_state_SFHt75t8KUEuvFVx5o76_Ry4XLA": {
+        "mod_auth_openidc_state_I6h7SKIbvHj_c69ys62VVkANUbo": {
           "domain": "sia.registres.interieur.gouv.fr",
           "httponly": true,
           "path": "/",
@@ -133,13 +133,13 @@
       "pass": true,
       "result": "redirection-to-https",
       "scoreModifier": 0,
-      "destination": "https://sia.registres.interieur.gouv.fr/realms/siarmes/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=siarmes-oidc-client-app&state=eCCdphDvuxOdBQHCXT4EDvKkpSM&redirect_uri=https%3A%2F%2Fsia.registres.interieur.gouv.fr%2Flivre-de-police%2Fredirect_uri&nonce=CauhpQ82xrLjGnX0vgUdwMFoGfJ3oNt5lmEjB06YyPI",
+      "destination": "https://sia.registres.interieur.gouv.fr/realms/siarmes/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=siarmes-oidc-client-app&state=7GyeuMP5h08u62oqPNS4HZStZXI&redirect_uri=https%3A%2F%2Fsia.registres.interieur.gouv.fr%2Flivre-de-police%2Fredirect_uri&nonce=zj6pjOYMp62rJlDwbMoLNoESw-HQWg5X4esT1oqwHjk",
       "redirects": true,
       "route": [
         "http://sia.registres.interieur.gouv.fr/",
         "https://sia.registres.interieur.gouv.fr/",
         "https://sia.registres.interieur.gouv.fr/livre-de-police",
-        "https://sia.registres.interieur.gouv.fr/realms/siarmes/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=siarmes-oidc-client-app&state=eCCdphDvuxOdBQHCXT4EDvKkpSM&redirect_uri=https%3A%2F%2Fsia.registres.interieur.gouv.fr%2Flivre-de-police%2Fredirect_uri&nonce=CauhpQ82xrLjGnX0vgUdwMFoGfJ3oNt5lmEjB06YyPI"
+        "https://sia.registres.interieur.gouv.fr/realms/siarmes/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=siarmes-oidc-client-app&state=7GyeuMP5h08u62oqPNS4HZStZXI&redirect_uri=https%3A%2F%2Fsia.registres.interieur.gouv.fr%2Flivre-de-police%2Fredirect_uri&nonce=zj6pjOYMp62rJlDwbMoLNoESw-HQWg5X4esT1oqwHjk"
       ],
       "statusCode": 200
     },
