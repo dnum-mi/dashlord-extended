@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.martinique.gouv.fr",
-        "size": 1520.043,
-        "nodes": 673,
-        "requests": 47,
+        "size": 1523.439,
+        "nodes": 680,
+        "requests": 48,
         "grade": "D",
         "score": 54.0,
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 01:33:42.310025",
+        "date": "2026-05-12 23:51:50.189836",
         "page_type": "website"
     }
 ]
