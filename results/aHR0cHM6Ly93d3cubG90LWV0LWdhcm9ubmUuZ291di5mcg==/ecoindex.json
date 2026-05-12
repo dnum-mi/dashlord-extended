@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.lot-et-garonne.gouv.fr",
-        "size": 1331.912,
-        "nodes": 632,
-        "requests": 47,
+        "size": 1274.747,
+        "nodes": 639,
+        "requests": 48,
         "grade": "C",
-        "score": 57.0,
-        "ges": 1.86,
-        "water": 2.79,
+        "score": 56.0,
+        "ges": 1.88,
+        "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-08 23:02:09.489567",
+        "date": "2026-05-12 21:50:51.050108",
         "page_type": "website"
     }
 ]

@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "06hdjk2cb35o7t4hc0a42t0o83",
+      "value": "kdp0matemu9l7cui9jnce3hvl4",
       "domain": "www.lot-et-garonne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 23:00:59 GMT",
-    "expires": "Fri, 08 May 2026 21:00:59 GMT",
-    "last-modified": "Fri, 08 May 2026 23:00:59 GMT",
+    "date": "Tue, 12 May 2026 21:49:52 GMT",
+    "expires": "Tue, 12 May 2026 19:49:53 GMT",
+    "last-modified": "Tue, 12 May 2026 21:49:53 GMT",
     "pragma": "no-cache",
     "served-by": "www.lot-et-garonne.gouv.fr",
-    "set-cookie": "eZSESSID=06hdjk2cb35o7t4hc0a42t0o83; path=/",
+    "set-cookie": "eZSESSID=kdp0matemu9l7cui9jnce3hvl4; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
