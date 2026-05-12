@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "3qj6g4dnmho5spepjj3c34eh21",
+      "value": "ldstmsqffb9ml6o92umuc8a9i2",
       "domain": "www.hautes-alpes.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 20:45:04 GMT",
-    "expires": "Fri, 08 May 2026 18:45:05 GMT",
-    "last-modified": "Fri, 08 May 2026 20:45:05 GMT",
+    "date": "Tue, 12 May 2026 20:06:52 GMT",
+    "expires": "Tue, 12 May 2026 18:06:52 GMT",
+    "last-modified": "Tue, 12 May 2026 20:06:52 GMT",
     "pragma": "no-cache",
     "served-by": "www.hautes-alpes.gouv.fr",
-    "set-cookie": "eZSESSID=3qj6g4dnmho5spepjj3c34eh21; path=/",
+    "set-cookie": "eZSESSID=ldstmsqffb9ml6o92umuc8a9i2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
