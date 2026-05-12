@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.savoie.gouv.fr",
-        "size": 1526.35,
+        "size": 1542.077,
         "nodes": 659,
         "requests": 48,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 00:22:06.029460",
+        "date": "2026-05-12 22:55:01.698066",
         "page_type": "website"
     }
 ]
