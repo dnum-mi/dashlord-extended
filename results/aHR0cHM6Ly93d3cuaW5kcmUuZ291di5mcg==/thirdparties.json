@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "va4burltp3th2tv0ld8csc2uk1",
+      "value": "i53ofukobqrctvfpteti4gf336",
       "domain": "www.indre.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 22:30:54 GMT",
-    "expires": "Fri, 08 May 2026 20:30:54 GMT",
-    "last-modified": "Fri, 08 May 2026 22:30:54 GMT",
+    "date": "Tue, 12 May 2026 21:27:21 GMT",
+    "expires": "Tue, 12 May 2026 19:27:21 GMT",
+    "last-modified": "Tue, 12 May 2026 21:27:21 GMT",
     "pragma": "no-cache",
     "served-by": "www.indre.gouv.fr",
-    "set-cookie": "eZSESSID=va4burltp3th2tv0ld8csc2uk1; path=/",
+    "set-cookie": "eZSESSID=i53ofukobqrctvfpteti4gf336; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
