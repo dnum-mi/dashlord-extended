@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/inscription-examen-permis",
-        "size": 4057.448,
+        "size": 4009.136,
         "nodes": 523,
-        "requests": 61,
+        "requests": 59,
         "grade": "D",
-        "score": 51.0,
-        "ges": 1.98,
-        "water": 2.97,
+        "score": 52.0,
+        "ges": 1.96,
+        "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-08 20:20:02.803431",
+        "date": "2026-05-12 19:44:16.580014",
         "page_type": "website"
     }
 ]
