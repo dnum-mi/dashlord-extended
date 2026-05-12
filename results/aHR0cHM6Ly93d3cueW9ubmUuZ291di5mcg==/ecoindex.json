@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.yonne.gouv.fr",
-        "size": 1196.2,
+        "size": 1209.52,
         "nodes": 592,
         "requests": 45,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.82,
         "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 01:09:30.716375",
+        "date": "2026-05-12 23:31:31.244237",
         "page_type": "website"
     }
 ]
