@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "p7h7rjeqshdtbidv4p7g6m2nq6",
+      "value": "43edo82724o08mjcedvqnmqlb0",
       "domain": "www.bouches-du-rhone.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Fri, 08 May 2026 21:12:13 GMT",
-    "expires": "Fri, 08 May 2026 19:12:13 GMT",
-    "last-modified": "Fri, 08 May 2026 21:12:13 GMT",
+    "date": "Tue, 12 May 2026 20:30:44 GMT",
+    "expires": "Tue, 12 May 2026 18:30:44 GMT",
+    "last-modified": "Tue, 12 May 2026 20:30:44 GMT",
     "pragma": "no-cache",
     "served-by": "www.bouches-du-rhone.gouv.fr",
-    "set-cookie": "eZSESSID=p7h7rjeqshdtbidv4p7g6m2nq6; path=/",
+    "set-cookie": "eZSESSID=43edo82724o08mjcedvqnmqlb0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
