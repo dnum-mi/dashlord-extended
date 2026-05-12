@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.charente.gouv.fr",
-        "size": 3282.189,
-        "nodes": 678,
-        "requests": 48,
+        "size": 3199.611,
+        "nodes": 685,
+        "requests": 49,
         "grade": "D",
         "score": 49.0,
         "ges": 2.02,
         "water": 3.03,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-08 21:23:04.658252",
+        "date": "2026-05-12 20:37:54.709340",
         "page_type": "website"
     }
 ]
