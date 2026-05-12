@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://etrangers-en-france.interieur.gouv.fr/",
-        "size": 3959.025,
-        "nodes": 545,
-        "requests": 62,
+        "size": 4085.039,
+        "nodes": 548,
+        "requests": 65,
         "grade": "D",
-        "score": 50.0,
-        "ges": 2.0,
-        "water": 3.0,
+        "score": 49.0,
+        "ges": 2.02,
+        "water": 3.03,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 01:57:48.172509",
+        "date": "2026-05-12 18:40:41.550722",
         "page_type": null
     }
 ]
