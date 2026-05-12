@@ -1,15 +1,15 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "C",
+    "grade": "D",
     "error": null,
-    "score": 50,
+    "score": 30,
     "statusCode": 403,
-    "testsFailed": 3,
-    "testsPassed": 7,
+    "testsFailed": 4,
+    "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 08 May 2026 20:33:29 GMT",
+      "date": "Tue, 12 May 2026 19:56:11 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
@@ -18,9 +18,9 @@
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "vary": "Accept-Encoding",
-      "server-timing": "cfOrigin;dur=0,cfEdge;dur=10",
+      "server-timing": "cfOrigin;dur=0,cfEdge;dur=8",
       "server": "cloudflare",
-      "cf-ray": "9f8b3d5cbbc2c88f-ORD",
+      "cf-ray": "9fabfc3bcd8a208c-SJC",
       "alt-svc": "h3=\":443\"; ma=86400"
     }
   },
@@ -53,15 +53,12 @@
     },
     "redirection": {
       "expectation": "redirection-to-https",
-      "pass": true,
-      "result": "redirection-to-https",
-      "scoreModifier": 0,
+      "pass": false,
+      "result": "redirection-invalid-cert",
+      "scoreModifier": -20,
       "destination": "https://www.interieur.gouv.fr/",
       "redirects": true,
-      "route": [
-        "http://www.interieur.gouv.fr/",
-        "https://www.interieur.gouv.fr/"
-      ],
+      "route": [],
       "statusCode": 403
     },
     "referrer-policy": {
@@ -76,7 +73,7 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": false,
-      "result": "hsts-not-implemented",
+      "result": "hsts-invalid-cert",
       "scoreModifier": -20,
       "data": null,
       "includeSubDomains": false,
