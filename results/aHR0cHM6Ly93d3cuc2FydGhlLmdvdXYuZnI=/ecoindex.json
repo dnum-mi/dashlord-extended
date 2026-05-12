@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.sarthe.gouv.fr",
-        "size": 1114.127,
+        "size": 1102.778,
         "nodes": 678,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 00:20:48.120109",
+        "date": "2026-05-12 22:54:06.100038",
         "page_type": "website"
     }
 ]
