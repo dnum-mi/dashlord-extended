@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "tis7opmrgnpr16h2fifffetk85",
+      "value": "jhep011fn0h384bccmjh1m1ha0",
       "domain": "www.loiret.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:47:28 GMT",
-    "expires": "Tue, 12 May 2026 19:47:28 GMT",
-    "last-modified": "Tue, 12 May 2026 21:47:28 GMT",
+    "date": "Wed, 13 May 2026 05:10:47 GMT",
+    "expires": "Wed, 13 May 2026 03:10:47 GMT",
+    "last-modified": "Wed, 13 May 2026 05:10:47 GMT",
     "pragma": "no-cache",
     "served-by": "www.loiret.gouv.fr",
-    "set-cookie": "eZSESSID=tis7opmrgnpr16h2fifffetk85; path=/",
+    "set-cookie": "eZSESSID=jhep011fn0h384bccmjh1m1ha0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

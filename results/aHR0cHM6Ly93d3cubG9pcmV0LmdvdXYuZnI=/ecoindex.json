@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.loiret.gouv.fr",
-        "size": 1121.727,
+        "size": 1151.519,
         "nodes": 615,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 21:48:52.333234",
+        "date": "2026-05-13 05:11:41.921086",
         "page_type": "website"
     }
 ]
