@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "hbpsns19675rt20adjj5tgj5g4",
+      "value": "jadfaqg80kqptmn3ar01imfla7",
       "domain": "www.lozere.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:56:01 GMT",
-    "expires": "Tue, 12 May 2026 19:56:01 GMT",
-    "last-modified": "Tue, 12 May 2026 21:56:01 GMT",
+    "date": "Wed, 13 May 2026 05:17:18 GMT",
+    "expires": "Wed, 13 May 2026 03:17:18 GMT",
+    "last-modified": "Wed, 13 May 2026 05:17:18 GMT",
     "pragma": "no-cache",
     "served-by": "www.lozere.gouv.fr",
-    "set-cookie": "eZSESSID=hbpsns19675rt20adjj5tgj5g4; path=/",
+    "set-cookie": "eZSESSID=jadfaqg80kqptmn3ar01imfla7; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
