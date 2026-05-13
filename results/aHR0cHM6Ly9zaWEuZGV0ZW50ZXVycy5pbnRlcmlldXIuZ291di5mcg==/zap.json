@@ -1,9 +1,17 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 19:07:44",
-	"created": "2026-05-12T19:07:44.593217456Z",
+	"@generated": "Wed, 13 May 2026 01:40:53",
+	"created": "2026-05-13T01:40:53.322562555Z",
 	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "1"
+		},
 		{
 			"level": "Low",
 			"reason": "Warning",
@@ -153,7 +161,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "22",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -163,7 +171,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "90",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/mai-detenteurs/api/",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/mai-detenteurs\/api\/",
 							"method": "GET",
@@ -173,7 +181,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "107",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -183,7 +191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "36",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -233,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "24",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -243,7 +251,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "23",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -253,7 +261,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "40",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -303,7 +311,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "32",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -313,7 +321,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "29",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -323,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "47",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -373,7 +381,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "27",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -383,7 +391,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "25",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -393,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "44",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -423,7 +431,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "122",
+							"id": "115",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -433,7 +441,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "83",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -450,7 +458,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "34"
+					"sourceid": "36"
 				},
 				{
 					"pluginid": "90004",
@@ -463,7 +471,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "123",
+							"id": "116",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -473,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "84",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -490,7 +498,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "34"
+					"sourceid": "36"
 				},
 				{
 					"pluginid": "90004",
@@ -503,7 +511,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "68",
+							"id": "78",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/apple-touch-icon.png",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/apple-touch-icon.png",
 							"method": "GET",
@@ -513,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "82",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -523,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "88",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.svg",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.svg",
 							"method": "GET",
@@ -533,7 +541,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "51",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -543,7 +551,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "81",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -573,7 +581,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "15",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -583,7 +591,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "60",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -593,7 +601,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "112",
+							"id": "96",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/mai-detenteurs/api/",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/mai-detenteurs\/api\/",
 							"method": "GET",
@@ -603,9 +611,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr/ruxitagentjs_ICA7NVfqrux_10333260303165926.js",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/ruxitagentjs_ICA7NVfqrux_10333260303165926.js",
+							"id": "113",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -613,7 +621,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "76",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -653,7 +661,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "68",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/apple-touch-icon.png",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/apple-touch-icon.png",
 							"method": "GET",
@@ -663,7 +671,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "41",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -673,7 +681,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "34",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -683,7 +691,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "62",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -713,37 +721,47 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "10",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
+							"id": "101",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/",
 							"method": "GET",
 							"param": "Server-Timing",
 							"attack": "",
-							"evidence": "1926120726",
-							"otherinfo": "1926120726, which evaluates to: 2031-01-14 01:32:06."
+							"evidence": "1743919332",
+							"otherinfo": "1743919332, which evaluates to: 2025-04-06 06:02:12."
 						},
 						{
-							"id": "35",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
+							"id": "75",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.ico",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
 							"param": "Server-Timing",
 							"attack": "",
-							"evidence": "2042259183",
-							"otherinfo": "2042259183, which evaluates to: 2034-09-19 06:13:03."
+							"evidence": "1520543443",
+							"otherinfo": "1520543443, which evaluates to: 2018-03-08 21:10:43."
 						},
 						{
-							"id": "55",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
+							"id": "86",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.svg",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.svg",
 							"method": "GET",
 							"param": "Server-Timing",
 							"attack": "",
-							"evidence": "1847539934",
-							"otherinfo": "1847539934, which evaluates to: 2028-07-18 13:32:14."
+							"evidence": "1953489159",
+							"otherinfo": "1953489159, which evaluates to: 2031-11-26 19:52:39."
 						},
 						{
-							"id": "64",
+							"id": "110",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1603079437",
+							"otherinfo": "1603079437, which evaluates to: 2020-10-19 03:50:37."
+						},
+						{
+							"id": "66",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -751,26 +769,16 @@
 							"attack": "",
 							"evidence": "1997824558",
 							"otherinfo": "1997824558, which evaluates to: 2033-04-22 23:15:58."
-						},
-						{
-							"id": "61",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "Server-Timing",
-							"attack": "",
-							"evidence": "1677514956",
-							"otherinfo": "1677514956, which evaluates to: 2023-02-27 16:22:36."
 						}
 					],
 					"count": "5",
 					"systemic": true,
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1926120726, which evaluates to: 2031-01-14 01:32:06.</p>",
+					"otherinfo": "<p>1743919332, which evaluates to: 2025-04-06 06:02:12.</p>",
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "33"
 				},
 				{
 					"pluginid": "10094",
@@ -783,7 +791,17 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "119",
+							"id": "46",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "v_4_srv_12_sn_06C65DABB192111FFAF16BDE9E341370_perc_100000_ol_0_mul_1_app-3A1af3b12b92a303fe_1",
+							"otherinfo": "\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFDo\uFFFD\uFFFD:\\x000b\uFFFDC\\x0000\\x0010u\uFFFDmu\uFFFDQ@\\x0017^\uFFFD\\x000cOD\u07CDw\uFFFDO\uFFFDz\uFFFD?\uFFFDM4\uFFFDO\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0567\uFFFDo]\uFFFD\uFFFDf\uFFFD\uFFFDw\uFFFD\uFFFD"
+						},
+						{
+							"id": "111",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -793,7 +811,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\u05A0z{c\uFFFD\uFFFD\\x0002\\x0003\uFFFDU~\uFFFD\uFFFD\uFFFD\uFFFDt\uFFFD}\uFFFD\uFFFDM\uFFFD\uFFFD^\uFFFD\uFFFDn"
 						},
 						{
-							"id": "69",
+							"id": "70",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -803,7 +821,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\u05A0z{c\uFFFD\uFFFD\\x0002\\x0003\uFFFDU~\uFFFD\uFFFD\uFFFD\uFFFDt\uFFFD}\uFFFD\uFFFDM\uFFFD\uFFFD^\uFFFD\uFFFDn"
 						},
 						{
-							"id": "125",
+							"id": "119",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/static/css/main.f7a09a0b.css",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/static\/css\/main.f7a09a0b.css",
 							"method": "GET",
@@ -813,7 +831,7 @@
 							"otherinfo": "\uFFFDo\uFFFD~\uFFFD\uFFFD~/\uFFFD\\x001dzW\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFDey\uFFFDn"
 						},
 						{
-							"id": "128",
+							"id": "125",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/static/js/main.c4404bf7.js",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/static\/js\/main.c4404bf7.js",
 							"method": "GET",
@@ -823,14 +841,14 @@
 							"otherinfo": "\uFFFD_\u0722jm{\uFFFD+y\uFFFD\uFFFDz\u05A9{\uFFFD\uFFFDbu\uFFFDb\uFFFDt\uFFFD\uFFFD\uFFFD"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\u05A0z{c\uFFFD\uFFFD\\x0002\\x0003\uFFFDU~\uFFFD\uFFFD\uFFFD\uFFFDt\uFFFD}\uFFFD\uFFFDM\uFFFD\uFFFD^\uFFFD\uFFFDn</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFDo\uFFFD\uFFFD:\\x000b\uFFFDC\\x0000\\x0010u\uFFFDmu\uFFFDQ@\\x0017^\uFFFD\\x000cOD\u07CDw\uFFFDO\uFFFDz\uFFFD?\uFFFDM4\uFFFDO\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0567\uFFFDo]\uFFFD\uFFFDf\uFFFD\uFFFDw\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "34"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90033",
@@ -873,23 +891,23 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "116",
+							"id": "108",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\" data-dtconfig=\"rid=RID_-1603079437|rpid=791890853|domain=interieur.gouv.fr|reportUrl=/rb_ccdccb15-e00a-499f-9fda-f7f6a0a8cc59|app=1af3b12b92a303fe|cuc=s5l1un83|owasp=1|mel=100000|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1776374729977|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\" data-dtconfig=\"rid=RID_-1603079437|rpid=794651599|domain=interieur.gouv.fr|reportUrl=/rb_ccdccb15-e00a-499f-9fda-f7f6a0a8cc59|app=1af3b12b92a303fe|cuc=s5l1un83|owasp=1|mel=100000|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1776374729977|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "54",
+							"id": "56",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\" data-dtconfig=\"rid=RID_-1997824558|rpid=1677514956|domain=interieur.gouv.fr|reportUrl=/rb_ccdccb15-e00a-499f-9fda-f7f6a0a8cc59|app=1af3b12b92a303fe|cuc=s5l1un83|owasp=1|mel=100000|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1776374729977|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\" data-dtconfig=\"rid=RID_-1997824558|rpid=1211536182|domain=interieur.gouv.fr|reportUrl=/rb_ccdccb15-e00a-499f-9fda-f7f6a0a8cc59|app=1af3b12b92a303fe|cuc=s5l1un83|owasp=1|mel=100000|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1776374729977|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10333260303165926.js\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -900,7 +918,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "34"
+					"sourceid": "36"
 				},
 				{
 					"pluginid": "10049",
@@ -913,7 +931,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "53",
+							"id": "58",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -923,7 +941,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "14",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -933,7 +951,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
+							"id": "102",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/",
 							"method": "GET",
@@ -943,7 +961,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "59",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -953,13 +971,13 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
-							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs/redirect_uri?logout=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2F",
-							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs\/redirect_uri (logout)",
+							"id": "95",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/mai-detenteurs/api/",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/mai-detenteurs\/api\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "302",
+							"evidence": "401",
 							"otherinfo": ""
 						}
 					],
@@ -983,7 +1001,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "114",
+							"id": "106",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -993,7 +1011,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "19",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1020,7 +1038,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "34"
+					"sourceid": "36"
 				},
 				{
 					"pluginid": "90005",
@@ -1033,7 +1051,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "12",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -1043,7 +1061,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "52",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "42",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1053,7 +1081,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1073,7 +1101,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "11",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -1083,7 +1111,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "50",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "39",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1093,7 +1131,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1113,7 +1151,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "10",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -1123,7 +1161,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "48",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "37",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1133,7 +1181,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1153,7 +1201,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "13",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr",
 							"method": "GET",
@@ -1163,7 +1211,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "53",
+							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
+							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "43",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1173,7 +1231,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1203,7 +1261,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__\ncookie:dtCookie"
 						},
 						{
-							"id": "95",
+							"id": "97",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/",
 							"method": "GET",
@@ -1213,7 +1271,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "18",
+							"id": "17",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs",
 							"method": "GET",
@@ -1223,7 +1281,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "96",
+							"id": "103",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs/redirect_uri?logout=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2F",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/espace-detenteurs\/redirect_uri (logout)",
 							"method": "GET",
@@ -1233,7 +1291,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "94",
+							"id": "89",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/mai-detenteurs/api/",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/mai-detenteurs\/api\/",
 							"method": "GET",
@@ -1243,7 +1301,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "113",
+							"id": "105",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1253,7 +1311,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "19",
+							"id": "18",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1263,7 +1321,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "28",
+							"id": "26",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1293,7 +1351,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "71",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/apple-touch-icon.png",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/apple-touch-icon.png",
 							"method": "GET",
@@ -1303,7 +1361,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "82",
+							"id": "79",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1313,7 +1371,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "85",
+							"id": "87",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/favicon.svg",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/favicon.svg",
 							"method": "GET",
@@ -1323,7 +1381,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "52",
+							"id": "45",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1333,7 +1391,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "70",
+							"id": "74",
 							"uri": "https://sia.detenteurs.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/sia.detenteurs.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
