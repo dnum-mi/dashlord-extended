@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "bqk01obavbv5i32bth27mjhn02",
+      "value": "gthj6a3gkgeuk1gk31vkb5qh55",
       "domain": "www.lot.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:48:41 GMT",
-    "expires": "Tue, 12 May 2026 19:48:41 GMT",
-    "last-modified": "Tue, 12 May 2026 21:48:41 GMT",
+    "date": "Wed, 13 May 2026 05:11:23 GMT",
+    "expires": "Wed, 13 May 2026 03:11:23 GMT",
+    "last-modified": "Wed, 13 May 2026 05:11:23 GMT",
     "pragma": "no-cache",
     "served-by": "www.lot.gouv.fr",
-    "set-cookie": "eZSESSID=bqk01obavbv5i32bth27mjhn02; path=/",
+    "set-cookie": "eZSESSID=gthj6a3gkgeuk1gk31vkb5qh55; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
