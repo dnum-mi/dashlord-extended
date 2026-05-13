@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "gobrbfjmcqonemnbvic4meq0b5",
+      "value": "stgeepc16sglanajaviajv3c41",
       "domain": "www.charente-maritime.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:38:36 GMT",
-    "expires": "Tue, 12 May 2026 18:38:36 GMT",
-    "last-modified": "Tue, 12 May 2026 20:38:36 GMT",
+    "date": "Wed, 13 May 2026 03:59:59 GMT",
+    "expires": "Wed, 13 May 2026 01:59:59 GMT",
+    "last-modified": "Wed, 13 May 2026 03:59:59 GMT",
     "pragma": "no-cache",
     "served-by": "www.charente-maritime.gouv.fr",
-    "set-cookie": "eZSESSID=gobrbfjmcqonemnbvic4meq0b5; path=/",
+    "set-cookie": "eZSESSID=stgeepc16sglanajaviajv3c41; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
