@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "83ia304ap4j2hlr575h693pch6",
+      "value": "4dv7e5nhrtm6t3b3g17klri147",
       "domain": "www.bas-rhin.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:42:20 GMT",
-    "expires": "Tue, 12 May 2026 20:42:20 GMT",
-    "last-modified": "Tue, 12 May 2026 22:42:20 GMT",
+    "date": "Wed, 13 May 2026 06:03:11 GMT",
+    "expires": "Wed, 13 May 2026 04:03:11 GMT",
+    "last-modified": "Wed, 13 May 2026 06:03:11 GMT",
     "pragma": "no-cache",
     "served-by": "www.bas-rhin.gouv.fr",
-    "set-cookie": "eZSESSID=83ia304ap4j2hlr575h693pch6; path=/",
+    "set-cookie": "eZSESSID=4dv7e5nhrtm6t3b3g17klri147; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
