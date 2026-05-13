@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "7j5ceicelakhavsa9etrc24tg2",
+      "value": "s9h8hh2djmspuak234r5chpnl7",
       "domain": "www.essonne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -22,14 +22,13 @@
     "cache-control": "must-revalidate, no-cache, private",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
-    "content-length": "15221",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 23:36:41 GMT",
-    "expires": "Tue, 12 May 2026 21:36:41 GMT",
-    "last-modified": "Tue, 12 May 2026 23:36:41 GMT",
+    "date": "Wed, 13 May 2026 06:59:38 GMT",
+    "expires": "Wed, 13 May 2026 04:59:38 GMT",
+    "last-modified": "Wed, 13 May 2026 06:59:38 GMT",
     "pragma": "no-cache",
     "served-by": "www.essonne.gouv.fr",
-    "set-cookie": "eZSESSID=7j5ceicelakhavsa9etrc24tg2; path=/",
+    "set-cookie": "eZSESSID=s9h8hh2djmspuak234r5chpnl7; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
