@@ -213,7 +213,7 @@
               "ip"           : "basegun.interieur.gouv.fr/77.158.220.109",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -556,7 +556,7 @@
               "ip"           : "basegun.interieur.gouv.fr/77.158.220.109",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778637068"
+              "finding"      : "1778663640"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1133,6 +1133,6 @@
               "ip"           : "basegun.interieur.gouv.fr/77.158.220.109",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "60"
           }
 ]
