@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "fbih4da85imfan9cppcp5mc8a2",
+      "value": "hpgvrv8886l3g2i3fhliqt10h5",
       "domain": "www.haute-marne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:03:51 GMT",
-    "expires": "Tue, 12 May 2026 20:03:51 GMT",
-    "last-modified": "Tue, 12 May 2026 22:03:51 GMT",
+    "date": "Wed, 13 May 2026 05:25:47 GMT",
+    "expires": "Wed, 13 May 2026 03:25:48 GMT",
+    "last-modified": "Wed, 13 May 2026 05:25:48 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-marne.gouv.fr",
-    "set-cookie": "eZSESSID=fbih4da85imfan9cppcp5mc8a2; path=/",
+    "set-cookie": "eZSESSID=hpgvrv8886l3g2i3fhliqt10h5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
