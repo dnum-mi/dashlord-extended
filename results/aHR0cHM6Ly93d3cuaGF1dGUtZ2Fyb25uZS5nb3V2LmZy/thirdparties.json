@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "nfmiao0cmbvopkoi1s3htspel4",
+      "value": "6td5do7fk15f8f4emmciqhh4l2",
       "domain": "www.haute-garonne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:16:08 GMT",
-    "expires": "Tue, 12 May 2026 19:16:09 GMT",
-    "last-modified": "Tue, 12 May 2026 21:16:09 GMT",
+    "date": "Wed, 13 May 2026 04:35:58 GMT",
+    "expires": "Wed, 13 May 2026 02:35:58 GMT",
+    "last-modified": "Wed, 13 May 2026 04:35:58 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-garonne.gouv.fr",
-    "set-cookie": "eZSESSID=nfmiao0cmbvopkoi1s3htspel4; path=/",
+    "set-cookie": "eZSESSID=6td5do7fk15f8f4emmciqhh4l2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
