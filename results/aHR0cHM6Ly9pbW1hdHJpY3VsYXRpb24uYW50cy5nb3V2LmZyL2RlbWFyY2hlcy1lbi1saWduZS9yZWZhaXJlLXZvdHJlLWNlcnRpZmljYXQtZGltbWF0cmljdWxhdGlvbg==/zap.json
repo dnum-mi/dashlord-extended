@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 19:36:46",
-	"created": "2026-05-12T19:36:46.784816195Z",
+	"@generated": "Wed, 13 May 2026 03:02:46",
+	"created": "2026-05-13T03:02:46.332173616Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -63,7 +63,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "26",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "45",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -93,7 +93,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "108",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "47",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -120,7 +120,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10020",
@@ -133,7 +133,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "20",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -143,7 +143,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "38",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -163,7 +163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "100",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "37",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -203,7 +203,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "27",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -213,7 +213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "49",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "109",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "48",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -260,7 +260,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10011",
@@ -273,7 +273,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "29",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "53",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -303,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
+							"id": "113",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "50",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -343,7 +343,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "77",
+							"id": "73",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,7 +353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "95",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -371,16 +371,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "97",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Cross-Origin-Embedder-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90004",
@@ -393,7 +403,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -403,7 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "96",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -421,16 +431,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "104",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Cross-Origin-Opener-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Opener-Policy header appropriately, and that it sets the Cross-Origin-Opener-Policy header to 'same-origin' for documents.</p><p>'same-origin-allow-popups' is considered as less secured and should be avoided.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Opener-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-opener-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90004",
@@ -443,7 +463,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "67",
+							"id": "66",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -453,7 +473,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "93",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -471,9 +491,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "94",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Cross-Origin-Resource-Policy",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
@@ -493,7 +523,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "65",
+							"id": "62",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -503,7 +533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "92",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -523,7 +553,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "120",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +563,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "91",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -573,7 +603,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "61",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -593,7 +623,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "116",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -603,7 +633,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "58",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -633,7 +663,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "40",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -643,7 +673,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "64",
+							"id": "65",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -663,7 +693,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "102",
+							"id": "117",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -673,7 +703,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "80",
+							"id": "63",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -703,24 +733,24 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "51",
+							"id": "54",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011"
+							"evidence": "/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4"
 						},
 						{
-							"id": "43",
+							"id": "44",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_NXAVRNRZGZDF6FRLSUWVHKFFSIN4LOTLY4OKPI7EXHJVDLAB6FXA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDW\\x0001TME\uFFFD\uFFFD\\x000c^\uFFFDD\uFFFD\uFFFDYQ\uFFFD\\x0014T\uFFFD7\uFFFD\uFFFDL\uFFFD88\uFFFD\uFFFD\uFFFDE\uFFFD%P\uFFFD\\x0000\\x001e\uFFFD\\"
+							"evidence": "/redirect_WZHIQZ2SNZROWVXD4VOPXV35PGUDX35BOHGVGG63L3IHGRQOM44A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\\x0019\uFFFD#YD\uFFFD\\>\\x00158\uFFFD\uFFFD\u07D3\uFFFDP5\uFFFD\uFFFD\\x0013\uFFFD\\x0019Q\uFFFD\uFFFDr\uFFFD q\uFFFD@\uFFFD8\uFFFD"
 						},
 						{
 							"id": "69",
@@ -729,18 +759,18 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011"
+							"evidence": "/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4"
 						},
 						{
-							"id": "103",
+							"id": "111",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/refaire-votre-certificat-dimmatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/refaire-votre-certificat-dimmatriculation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011"
+							"evidence": "/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4"
 						},
 						{
 							"id": "9",
@@ -749,34 +779,34 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_NXAVRNRZGZDF6FRLSUWVHKFFSIN4LOTLY4OKPI7EXHJVDLAB6FXA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDW\\x0001TME\uFFFD\uFFFD\\x000c^\uFFFDD\uFFFD\uFFFDYQ\uFFFD\\x0014T\uFFFD7\uFFFD\uFFFDL\uFFFD88\uFFFD\uFFFD\uFFFDE\uFFFD%P\uFFFD\\x0000\\x001e\uFFFD\\"
+							"evidence": "/redirect_WZHIQZ2SNZROWVXD4VOPXV35PGUDX35BOHGVGG63L3IHGRQOM44A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\\x0019\uFFFD#YD\uFFFD\\>\\x00158\uFFFD\uFFFD\u07D3\uFFFDP5\uFFFD\uFFFD\\x0013\uFFFD\\x0019Q\uFFFD\uFFFDr\uFFFD q\uFFFD@\uFFFD8\uFFFD"
 						},
 						{
-							"id": "104",
+							"id": "118",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011"
+							"evidence": "/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4"
 						},
 						{
-							"id": "81",
+							"id": "68",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011"
+							"evidence": "/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFDS\\x0001X\uFFFDA\\x0004p\uFFFD\uFFFD\\x0014\\x0015C\uFFFD\\x0008\uFFFDa\uFFFD\\x0004\\x0001Y\\x0017\uFFFD\\x0010\uFFFD}\uFFFD\\x00113\uFFFD\\x0000\\x0004\r\t$\\x0011\\x0011</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\\x0017cB s\uFFFD\uFFFD.B?\uFFFD\uFFFDT\uFFFD\uFFFD$\uFFFD\uFFFD%T\uFFFD\\x0013\uFFFD\\x0010Cq\uFFFD\\x0005fy\uFFFD\\x0015\uFFFDD\uFFFDy4</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -793,33 +823,33 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "39",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "34",
+							"id": "32",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_NXAVRNRZGZDF6FRLSUWVHKFFSIN4LOTLY4OKPI7EXHJVDLAB6FXA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_WZHIQZ2SNZROWVXD4VOPXV35PGUDX35BOHGVGG63L3IHGRQOM44A====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "53",
+							"id": "59",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ====/demarches-en-ligne';</script>",
+							"evidence": "<script>window.location.href='/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA====/demarches-en-ligne';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
@@ -829,17 +859,17 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_NXAVRNRZGZDF6FRLSUWVHKFFSIN4LOTLY4OKPI7EXHJVDLAB6FXA====/demarches-en-ligne/refaire-votre-certificat-dimmatriculation';</script>",
+							"evidence": "<script>window.location.href='/redirect_WZHIQZ2SNZROWVXD4VOPXV35PGUDX35BOHGVGG63L3IHGRQOM44A====/demarches-en-ligne/refaire-votre-certificat-dimmatriculation';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "66",
+							"id": "57",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_AM7FMBWIRBBHD56RQVQ4MI2GH7BAFZF7IQ332QETOAAAQNCSQREQ====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_RIF2NCIHOO6S5CP4XPVPPIJLTWJVSRE5EQQ3GYBWZ54RXPRKJ5NA====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -863,7 +893,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "63",
+							"id": "60",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -873,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "90",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -893,7 +923,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "119",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -933,7 +963,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "23",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -943,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "43",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -963,7 +993,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "107",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -973,7 +1003,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "42",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1003,9 +1033,19 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "55",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "82",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1021,9 +1061,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "77",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1043,9 +1093,19 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "51",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "80",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1061,9 +1121,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "72",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1083,9 +1153,19 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "45",
+							"id": "46",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "75",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1101,9 +1181,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "71",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1123,9 +1213,19 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "56",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "86",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1141,16 +1241,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "81",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10112",
@@ -1163,7 +1273,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1173,7 +1283,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "27",
+							"id": "21",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1193,7 +1303,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "85",
+							"id": "99",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1203,7 +1313,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "19",
+							"id": "22",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1213,7 +1323,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "38",
+							"id": "33",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
