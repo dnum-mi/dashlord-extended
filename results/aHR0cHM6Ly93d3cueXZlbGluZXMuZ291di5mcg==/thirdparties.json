@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "5u7moh6bdhdmf63asjhusu0md5",
+      "value": "m3a8krfbk9dmss01qam5muaq77",
       "domain": "www.yvelines.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 23:02:10 GMT",
-    "expires": "Tue, 12 May 2026 21:02:10 GMT",
-    "last-modified": "Tue, 12 May 2026 23:02:10 GMT",
+    "date": "Wed, 13 May 2026 06:25:51 GMT",
+    "expires": "Wed, 13 May 2026 04:25:51 GMT",
+    "last-modified": "Wed, 13 May 2026 06:25:51 GMT",
     "pragma": "no-cache",
     "served-by": "www.yvelines.gouv.fr",
-    "set-cookie": "eZSESSID=5u7moh6bdhdmf63asjhusu0md5; path=/",
+    "set-cookie": "eZSESSID=m3a8krfbk9dmss01qam5muaq77; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
