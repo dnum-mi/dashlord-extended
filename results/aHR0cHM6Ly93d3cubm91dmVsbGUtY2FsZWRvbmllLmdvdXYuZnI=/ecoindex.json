@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.nouvelle-caledonie.gouv.fr",
-        "size": 1115.184,
-        "nodes": 673,
+        "size": 1118.739,
+        "nodes": 689,
         "requests": 43,
         "grade": "C",
         "score": 57.0,
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-09 01:43:40.333665",
+        "date": "2026-05-13 00:01:44.808140",
         "page_type": "website"
     }
 ]
