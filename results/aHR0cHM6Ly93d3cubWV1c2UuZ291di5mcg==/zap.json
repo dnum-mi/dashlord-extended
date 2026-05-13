@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 22:15:08",
-	"created": "2026-05-12T22:15:08.603698174Z",
+	"@generated": "Wed, 13 May 2026 05:37:41",
+	"created": "2026-05-13T05:37:41.302146950Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "3"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "4"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "4"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "5"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -66,7 +66,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "5"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "78"
+			"statistic": "79"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.meuse.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "171"
+			"statistic": "182"
 		},
 		{
 			"level": "Info",
@@ -164,7 +164,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "871"
+					"sourceid": "782"
 				},
 				{
 					"pluginid": "10038",
@@ -187,9 +187,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "49",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -197,9 +197,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "78",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -208,8 +208,8 @@
 						},
 						{
 							"id": "1",
-							"uri": "https://www.meuse.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
+							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -247,9 +247,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "42",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -257,7 +257,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "99",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -267,9 +267,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-carte",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-carte",
+							"id": "75",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -277,7 +277,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "76",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -307,7 +307,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "173",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-associations",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-associations",
 							"method": "GET",
@@ -317,7 +317,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "169",
+							"id": "168",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-particuliers",
 							"method": "GET",
@@ -327,7 +327,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "172",
+							"id": "174",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-professionnels",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-professionnels",
 							"method": "GET",
@@ -354,7 +354,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "583"
+					"sourceid": "573"
 				},
 				{
 					"pluginid": "10003",
@@ -367,7 +367,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "196",
+							"id": "193",
 							"uri": "https://www.meuse.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726824110.js",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726824110.js",
 							"method": "GET",
@@ -394,7 +394,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "877"
+					"sourceid": "773"
 				},
 				{
 					"pluginid": "10044",
@@ -407,7 +407,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "187",
+							"id": "184",
 							"uri": "https://www.meuse.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -427,7 +427,7 @@
 							"otherinfo": "Location header URI length: 36 [https://www.meuse.gouv.fr/Actualites].\nPredicted response size: 336.\nResponse Body Length: 388."
 						},
 						{
-							"id": "179",
+							"id": "176",
 							"uri": "https://www.meuse.gouv.fr/cni",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/cni",
 							"method": "GET",
@@ -437,7 +437,7 @@
 							"otherinfo": "Location header URI length: 122 [https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers/Autres-demarches/Carte-nationale-d-identite].\nPredicted response size: 422.\nResponse Body Length: 732."
 						},
 						{
-							"id": "178",
+							"id": "177",
 							"uri": "https://www.meuse.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/demarches",
 							"method": "GET",
@@ -447,7 +447,7 @@
 							"otherinfo": "Location header URI length: 35 [https://www.meuse.gouv.fr/Demarches].\nPredicted response size: 335.\nResponse Body Length: 384."
 						},
 						{
-							"id": "184",
+							"id": "187",
 							"uri": "https://www.meuse.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -457,7 +457,7 @@
 							"otherinfo": "Location header URI length: 53 [https://www.meuse.gouv.fr/Outils/Donnees-personnelles].\nPredicted response size: 353.\nResponse Body Length: 456."
 						},
 						{
-							"id": "181",
+							"id": "178",
 							"uri": "https://www.meuse.gouv.fr/etrangers",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/etrangers",
 							"method": "GET",
@@ -467,7 +467,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.meuse.gouv.fr/Demarches/Etrangers].\nPredicted response size: 345.\nResponse Body Length: 424."
 						},
 						{
-							"id": "173",
+							"id": "169",
 							"uri": "https://www.meuse.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/horaires",
 							"method": "GET",
@@ -487,7 +487,7 @@
 							"otherinfo": "Location header URI length: 42 [https://www.meuse.gouv.fr/Mentions-legales].\nPredicted response size: 342.\nResponse Body Length: 412."
 						},
 						{
-							"id": "43",
+							"id": "72",
 							"uri": "https://www.meuse.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -497,7 +497,7 @@
 							"otherinfo": "Location header URI length: 40 [https://www.meuse.gouv.fr/Nous-contacter].\nPredicted response size: 340.\nResponse Body Length: 404."
 						},
 						{
-							"id": "182",
+							"id": "181",
 							"uri": "https://www.meuse.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/passeport",
 							"method": "GET",
@@ -507,7 +507,7 @@
 							"otherinfo": "Location header URI length: 105 [https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers/Autres-demarches/Passeport].\nPredicted response size: 405.\nResponse Body Length: 664."
 						},
 						{
-							"id": "176",
+							"id": "179",
 							"uri": "https://www.meuse.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -517,7 +517,7 @@
 							"otherinfo": "Location header URI length: 114 [https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers/Autres-demarches/Permis-de-conduire].\nPredicted response size: 414.\nResponse Body Length: 700."
 						},
 						{
-							"id": "177",
+							"id": "183",
 							"uri": "https://www.meuse.gouv.fr/siv",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/siv",
 							"method": "GET",
@@ -534,7 +534,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "757"
+					"sourceid": "689"
 				},
 				{
 					"pluginid": "10010",
@@ -637,7 +637,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "168",
+							"id": "170",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-associations",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-associations",
 							"method": "GET",
@@ -657,7 +657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "171",
+							"id": "172",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Toutes-les-demarches-pour-les-professionnels",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-professionnels",
 							"method": "GET",
@@ -667,7 +667,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
+							"id": "171",
 							"uri": "https://www.meuse.gouv.fr/Demarches/Videoprotection",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Demarches\/Videoprotection",
 							"method": "GET",
@@ -684,7 +684,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "583"
+					"sourceid": "573"
 				},
 				{
 					"pluginid": "90004",
@@ -707,9 +707,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "70",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -717,9 +717,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "93",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -757,9 +757,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "71",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -767,9 +767,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "94",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -807,9 +807,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "69",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -817,9 +817,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "92",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -847,7 +847,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "191",
+							"id": "192",
 							"uri": "https://www.meuse.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -864,7 +864,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "772"
+					"sourceid": "717"
 				},
 				{
 					"pluginid": "110009",
@@ -877,7 +877,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "195",
+							"id": "196",
 							"uri": "https://www.meuse.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -887,7 +887,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "193",
+							"id": "195",
 							"uri": "https://www.meuse.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -907,7 +907,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "192",
+							"id": "189",
 							"uri": "https://www.meuse.gouv.fr/rss/feed/my_feed",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/rss\/feed\/my_feed",
 							"method": "GET",
@@ -917,7 +917,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "183",
+							"id": "182",
 							"uri": "https://www.meuse.gouv.fr/tags/view/Accueil+et+dossier/Grands+dossiers/Services+publics+%2B",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/tags\/view\/Accueil et dossier\/Grands dossiers\/Services publics +",
 							"method": "GET",
@@ -934,7 +934,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "847"
+					"sourceid": "781"
 				},
 				{
 					"pluginid": "10063",
@@ -957,9 +957,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "68",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -967,9 +967,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "91",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1027,9 +1027,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "63",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1037,9 +1037,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "83",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1047,7 +1047,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1057,7 +1057,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1097,7 +1097,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "114",
+							"id": "64",
 							"uri": "https://www.meuse.gouv.fr/",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
@@ -1107,17 +1107,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "82",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734987600",
-							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
-						},
-						{
-							"id": "105",
+							"id": "111",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1127,7 +1117,17 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "71",
+							"id": "84",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734987600",
+							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
+						},
+						{
+							"id": "90",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1167,7 +1167,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "122",
+							"id": "65",
 							"uri": "https://www.meuse.gouv.fr/",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
@@ -1177,17 +1177,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "83",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "106",
+							"id": "113",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1197,7 +1187,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "72",
+							"id": "86",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "95",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1237,7 +1237,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD{\uFFFD~i\uFFFDnjX\uFFFD{\uFFFD\uFFFDzwZ\uFFFDg\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDm9\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\\x0002\\x0007\uFFFDu\uFFFD\uFFFDy\u061A\uFFFD*\uFFFD{\uFFFD\uFFFD{ij\\x0007\uFFFDr\u06EC\uFFFD\uFFFD\uFFFDr*Z\uFFFD\uFFFD"
 						},
 						{
-							"id": "123",
+							"id": "66",
 							"uri": "https://www.meuse.gouv.fr/",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
@@ -1247,7 +1247,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFD\uFFFD\uFFFD{\uFFFD~i\uFFFDnjX\uFFFD{\uFFFD\uFFFDzwZ\uFFFDg\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDm9\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\\x0002\\x0007\uFFFDu\uFFFD\uFFFDy\u061A\uFFFD*\uFFFD{\uFFFD\uFFFD{ij\\x0007\uFFFDr\u06EC\uFFFD\uFFFD\uFFFDr*Z\uFFFD\uFFFD"
 						},
 						{
-							"id": "84",
+							"id": "164",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
 							"method": "GET",
@@ -1257,7 +1257,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD\u0796\uFFFDizg\uFFFD\uFFFD\uFFFD\uEB69\n\uFFFD\uFFFD^\uFFFD\u05EC\uFFFD\uFFFDk\uFFFD\uFFFDn\uFFFD\uFFFD>u\uFFFD>{\\x001ae\uFFFD+Z\uFFFD*'\uFFFD\u682E'(\uFFFD\uFFFD6"
 						},
 						{
-							"id": "107",
+							"id": "115",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1267,7 +1267,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD\u0796\uFFFDizg\uFFFD\uFFFD\uFFFD\uEB69\n\uFFFD\uFFFD^\uFFFD\u05EC\uFFFD\uFFFDk\uFFFD\uFFFDn\uFFFD\uFFFD>u\uFFFD>{\\x001ae\uFFFD+Z\uFFFD*'\uFFFD\u682E'(\uFFFD\uFFFD6"
 						},
 						{
-							"id": "131",
+							"id": "165",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-carte",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-carte",
 							"method": "GET",
@@ -1277,7 +1277,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD\u0796\uFFFDizg\uFFFD\uFFFD\uFFFD\uEB69\n\uFFFD\uFFFD^\uFFFD\u05EC\uFFFD\uFFFDk\uFFFD\uFFFDn\uFFFD\uFFFD>u\uFFFD>{\\x001ae\uFFFD+Z\uFFFD*'\uFFFD\u682E'(\uFFFD\uFFFD6"
 						},
 						{
-							"id": "127",
+							"id": "138",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Animaux",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Animaux",
 							"method": "GET",
@@ -1287,27 +1287,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?jx\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD_>~\uFFFD\uFFFD\\x0015\\x001f\uFFFD\uFFFD)\uFFFD\uFFFD"
 						},
 						{
-							"id": "163",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/CIGEO",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/CIGEO",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/politiques-publiques/cigeo/110898-1-fre-FR/CIGEO",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?r(\\x001e\uFFFD\uFFFDu\uFFFD\uFFFD|\uFFFD_\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFD\\x0018C"
-						},
-						{
-							"id": "164",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Collectivites-locales",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural/Controle-des-structures-des-exploitations-agricoles2",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD\u0796\uFFFDizg\uFFFD\uFFFD\uFFFD\uEB69\n\uFFFD\uFFFD^\uFFFD\u05EC\uFFFD\uFFFDk\uFFFD\uFFFDn\uFFFD\uFFFD>u\uFFFD>{\\x001ae\uFFFD+Z\uFFFD*'\uFFFD\u682E'(\uFFFD\uFFFD6"
-						},
-						{
-							"id": "162",
+							"id": "155",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Droits-des-femmes-et-egalite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Droits-des-femmes-et-egalite",
 							"method": "GET",
@@ -1317,9 +1297,19 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?v\uFFFD\"\uFFFD\u03DDz\u03DFzi\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD+^\uFFFD\uFFFD6\uFFFD\uFFFD~~\uFFFD\uFFFD\\x0015\\x001f\u00EE\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u079Ag\uFFFD\uFFFD\uFFFD~z\\x0006\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "165",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Entreprises-economie-emploi",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Entreprises-economie-emploi",
+							"id": "162",
+							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Elections",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Elections",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/elections/11258-44-fre-FR/Elections",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD^r\u0628\uFFFD\uFFFD\uFFFD\uFFFDn|\uFFFD\uFFFD>~\uFFFD\uFFFD\\x0015\\x001f\u0115\uFFFD-\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "163",
+							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Environnement",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Environnement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1327,7 +1317,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD\u0796\uFFFDizg\uFFFD\uFFFD\uFFFD\uEB69\n\uFFFD\uFFFD^\uFFFD\u05EC\uFFFD\uFFFDk\uFFFD\uFFFDn\uFFFD\uFFFD>u\uFFFD>{\\x001ae\uFFFD+Z\uFFFD*'\uFFFD\u682E'(\uFFFD\uFFFD6"
 						},
 						{
-							"id": "73",
+							"id": "150",
+							"uri": "https://www.meuse.gouv.fr/Actualites/Informations-nationales",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Informations-nationales",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Actualites/Informations-nationales/Covid-19",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\"w\uFFFDf\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDv\uFFFD\uFFFD\uFFFD\u0695\uFFFD?\n\uFFFD\uFFFDw\uFFFD}"
+						},
+						{
+							"id": "96",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1374,7 +1374,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "752"
+					"sourceid": "700"
 				},
 				{
 					"pluginid": "10027",
@@ -1387,7 +1387,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "190",
+							"id": "191",
 							"uri": "https://www.meuse.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1397,7 +1397,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "189",
+							"id": "190",
 							"uri": "https://www.meuse.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1414,7 +1414,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "772"
+					"sourceid": "717"
 				},
 				{
 					"pluginid": "10109",
@@ -1437,7 +1437,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "110",
+							"id": "57",
 							"uri": "https://www.meuse.gouv.fr/",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
@@ -1447,17 +1447,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "79",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"a572580f222eea49604d86b2fef4c8bf\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Salon-presse\">\n                                Salon presse\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "98",
+							"id": "107",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1467,7 +1457,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "68",
+							"id": "81",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"a572580f222eea49604d86b2fef4c8bf\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Salon-presse\">\n                                Salon presse\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "85",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1507,9 +1507,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "67",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1517,9 +1517,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
+							"id": "89",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1527,7 +1527,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "97",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1537,7 +1537,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "74",
 							"uri": "https://www.meuse.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1577,9 +1577,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
+							"id": "48",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1587,7 +1587,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
+							"id": "103",
 							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1597,9 +1597,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
-							"uri": "https://www.meuse.gouv.fr/Actions-de-l-Etat/Animaux",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actions-de-l-Etat\/Animaux",
+							"id": "77",
+							"uri": "https://www.meuse.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1607,7 +1607,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "79",
 							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
 							"method": "GET",
@@ -1647,9 +1647,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "69",
-							"uri": "https://www.meuse.gouv.fr/Actualites/Toute-l-actualite",
-							"nodeName": "https:\/\/www.meuse.gouv.fr\/Actualites\/Toute-l-actualite",
+							"id": "62",
+							"uri": "https://www.meuse.gouv.fr/",
+							"nodeName": "https:\/\/www.meuse.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1657,7 +1657,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "44",
+							"id": "73",
 							"uri": "https://www.meuse.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1717,7 +1717,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "33",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1727,7 +1727,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "31",
 							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1767,7 +1767,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "32",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1777,7 +1777,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "30",
 							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1817,7 +1817,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "29",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1867,7 +1867,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "34",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1877,7 +1877,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "35",
 							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1915,19 +1915,9 @@
 							"attack": "",
 							"evidence": "eZSESSID",
 							"otherinfo": "cookie:eZSESSID"
-						},
-						{
-							"id": "42",
-							"uri": "https://www.meuse.gouv.fr",
-							"nodeName": "https:\/\/www.meuse.gouv.fr",
-							"method": "GET",
-							"param": "eZSESSID",
-							"attack": "",
-							"evidence": "eZSESSID",
-							"otherinfo": "cookie:eZSESSID"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:eZSESSID</p>",
@@ -1947,7 +1937,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "36",
 							"uri": "https://www.meuse.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1957,7 +1947,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "36",
+							"id": "37",
 							"uri": "https://www.meuse.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.meuse.gouv.fr\/sitemap.xml",
 							"method": "GET",

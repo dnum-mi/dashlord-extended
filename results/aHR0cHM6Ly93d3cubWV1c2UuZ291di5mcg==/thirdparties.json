@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "dgq5oqig3lrtrqbn42tfdaa6t1",
+      "value": "nu0b7km51putfuhsq1c0533it5",
       "domain": "www.meuse.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:11:07 GMT",
-    "expires": "Tue, 12 May 2026 20:11:07 GMT",
-    "last-modified": "Tue, 12 May 2026 22:11:07 GMT",
+    "date": "Wed, 13 May 2026 05:33:30 GMT",
+    "expires": "Wed, 13 May 2026 03:33:31 GMT",
+    "last-modified": "Wed, 13 May 2026 05:33:31 GMT",
     "pragma": "no-cache",
     "served-by": "www.meuse.gouv.fr",
-    "set-cookie": "eZSESSID=dgq5oqig3lrtrqbn42tfdaa6t1; path=/",
+    "set-cookie": "eZSESSID=nu0b7km51putfuhsq1c0533it5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss",
     "x-status": "yes"
