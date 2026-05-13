@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.meurthe-et-moselle.gouv.fr",
-        "size": 2526.159,
+        "size": 2526.112,
         "nodes": 658,
         "requests": 46,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.96,
         "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 22:10:01.156759",
+        "date": "2026-05-13 05:30:50.474298",
         "page_type": "website"
     }
 ]
