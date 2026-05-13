@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "2ch96qfj1clvmam78sjaiig5u5",
+      "value": "do5g7o5ssufk431n2pfd274l32",
       "domain": "www.cotes-darmor.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:53:20 GMT",
-    "expires": "Tue, 12 May 2026 18:53:20 GMT",
-    "last-modified": "Tue, 12 May 2026 20:53:20 GMT",
+    "date": "Wed, 13 May 2026 04:15:51 GMT",
+    "expires": "Wed, 13 May 2026 02:15:51 GMT",
+    "last-modified": "Wed, 13 May 2026 04:15:51 GMT",
     "pragma": "no-cache",
     "served-by": "www.cotes-darmor.gouv.fr",
-    "set-cookie": "eZSESSID=2ch96qfj1clvmam78sjaiig5u5; path=/",
+    "set-cookie": "eZSESSID=do5g7o5ssufk431n2pfd274l32; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
