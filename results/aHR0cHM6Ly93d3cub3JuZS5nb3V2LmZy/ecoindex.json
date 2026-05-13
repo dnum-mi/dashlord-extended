@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.orne.gouv.fr",
-        "size": 1514.95,
+        "size": 1485.014,
         "nodes": 646,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 22:29:27.938495",
+        "date": "2026-05-13 05:49:23.756130",
         "page_type": "website"
     }
 ]
