@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 22:23:24",
-	"created": "2026-05-12T22:23:24.701786403Z",
+	"@generated": "Wed, 13 May 2026 05:45:59",
+	"created": "2026-05-13T05:45:59.812571406Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -18,7 +18,7 @@
 			"site": "https://www.nievre.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "87"
+			"statistic": "86"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "https://www.nievre.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "9"
+			"statistic": "10"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.nievre.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "2"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 			"site": "https://www.nievre.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "78"
+			"statistic": "80"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.nievre.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "171"
+			"statistic": "165"
 		},
 		{
 			"level": "Info",
@@ -127,7 +127,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "172",
+							"id": "168",
 							"uri": "https://www.nievre.gouv.fr/Nous-contacter",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Nous-contacter",
 							"method": "GET",
@@ -137,9 +137,9 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_5286\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-5298_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ]."
 						},
 						{
-							"id": "169",
-							"uri": "https://www.nievre.gouv.fr/contenu/conseiller/14576",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/conseiller\/14576",
+							"id": "174",
+							"uri": "https://www.nievre.gouv.fr/contenu/conseiller/1043",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/conseiller\/1043",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -147,9 +147,19 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						},
 						{
-							"id": "171",
-							"uri": "https://www.nievre.gouv.fr/contenu/conseiller/955",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/conseiller\/955",
+							"id": "173",
+							"uri": "https://www.nievre.gouv.fr/contenu/conseiller/14575",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/conseiller\/14575",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
+						},
+						{
+							"id": "170",
+							"uri": "https://www.nievre.gouv.fr/contenu/conseiller/14576",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/conseiller\/14576",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -157,14 +167,14 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
 					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_5286\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-5298_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ].</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1204"
+					"sourceid": "1113"
 				},
 				{
 					"pluginid": "10038",
@@ -187,9 +197,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "74",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -197,7 +207,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "61",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -207,7 +217,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "21",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -217,7 +227,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "22",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -257,9 +267,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "95",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Feux-de-Foret",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Feux-de-Foret",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "72",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -268,16 +288,6 @@
 						},
 						{
 							"id": "85",
-							"uri": "https://www.nievre.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "95",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
@@ -287,7 +297,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "59",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -317,7 +327,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "156",
+							"id": "155",
 							"uri": "https://www.nievre.gouv.fr/cni",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/cni",
 							"method": "GET",
@@ -344,7 +354,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "878"
+					"sourceid": "921"
 				},
 				{
 					"pluginid": "10003",
@@ -357,7 +367,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "167",
+							"id": "166",
 							"uri": "https://www.nievre.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726815538.js",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726815538.js",
 							"method": "GET",
@@ -384,7 +394,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1099"
+					"sourceid": "1102"
 				},
 				{
 					"pluginid": "10044",
@@ -397,7 +407,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "154",
+							"id": "156",
 							"uri": "https://www.nievre.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/actualites",
 							"method": "GET",
@@ -407,14 +417,14 @@
 							"otherinfo": "Location header URI length: 37 [https://www.nievre.gouv.fr/Actualites].\nPredicted response size: 337.\nResponse Body Length: 392."
 						},
 						{
-							"id": "168",
+							"id": "172",
 							"uri": "https://www.nievre.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 96 [https://www.nievre.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/2136577473?SearchText=ZAP].\nPredicted response size: 396.\nResponse Body Length: 628."
+							"otherinfo": "Location header URI length: 95 [https://www.nievre.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/264009132?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
 						},
 						{
 							"id": "153",
@@ -437,7 +447,7 @@
 							"otherinfo": "Location header URI length: 43 [https://www.nievre.gouv.fr/Mentions-legales].\nPredicted response size: 343.\nResponse Body Length: 416."
 						},
 						{
-							"id": "82",
+							"id": "56",
 							"uri": "https://www.nievre.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -454,7 +464,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "863"
+					"sourceid": "934"
 				},
 				{
 					"pluginid": "10010",
@@ -557,7 +567,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "155",
+							"id": "154",
 							"uri": "https://www.nievre.gouv.fr/cni",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/cni",
 							"method": "GET",
@@ -584,7 +594,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "878"
+					"sourceid": "921"
 				},
 				{
 					"pluginid": "90004",
@@ -607,9 +617,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "83",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -617,7 +627,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "70",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -657,9 +667,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "84",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -667,7 +677,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "71",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -707,9 +717,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "82",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -717,7 +727,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "69",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -764,7 +774,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1031"
+					"sourceid": "1050"
 				},
 				{
 					"pluginid": "110009",
@@ -777,7 +787,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "167",
 							"uri": "https://www.nievre.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -787,7 +797,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "166",
+							"id": "171",
 							"uri": "https://www.nievre.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -814,7 +824,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1138"
+					"sourceid": "1103"
 				},
 				{
 					"pluginid": "10063",
@@ -837,9 +847,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "81",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -847,7 +857,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "68",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -857,7 +867,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "37",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -907,9 +917,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "77",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -917,7 +927,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "64",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -937,7 +947,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -977,9 +987,19 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "75",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "107",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Feux-de-Foret",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Feux-de-Foret",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "78",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -988,16 +1008,6 @@
 						},
 						{
 							"id": "91",
-							"uri": "https://www.nievre.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "104",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
@@ -1007,7 +1017,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "67",
+							"id": "65",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -1047,7 +1057,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "76",
+							"id": "139",
 							"uri": "https://www.nievre.gouv.fr/",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
 							"method": "GET",
@@ -1057,19 +1067,9 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "141",
-							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Agriculture",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/agriculture/8186-22-fre-FR/Agriculture",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD+\uFFFD\u02E5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD|\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\\x0002\n\uFFFDr\uFFFDm\uFFFD\uFFFD"
-						},
-						{
-							"id": "151",
-							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Alimentation.-commerce-et-consommation",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Alimentation.-commerce-et-consommation",
+							"id": "152",
+							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Amenagement.-Planification.-Mobilite",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Amenagement.-Planification.-Mobilite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1077,7 +1077,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD\uFFFD*&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD-z\uFFFD\uFFFD{\uFFFD\\x001e\uFFFD\uFFFD\uFFFD{\u7722z&\uFFFD\uF682\uFFFD\uFFFD\uFFFDW\uFFFDu\uFFFDk\uFFFD\uFFFDO\uFFFD^\uFFFDV\uFFFD6'\uFFFD\uFFFD"
 						},
 						{
-							"id": "135",
+							"id": "129",
 							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Batiment-et-Construction",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Batiment-et-Construction",
 							"method": "GET",
@@ -1087,17 +1087,27 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD\uFFFD*&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD-z\uFFFD\uFFFD{\uFFFD\\x001e\uFFFD\uFFFD\uFFFD{\u7722z&\uFFFD\uF682\uFFFD\uFFFD\uFFFDW\uFFFDu\uFFFDk\uFFFD\uFFFDO\uFFFD^\uFFFDV\uFFFD6'\uFFFD\uFFFD"
 						},
 						{
-							"id": "112",
-							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Rendre-accessible-son-territoire",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Rendre-accessible-son-territoire",
+							"id": "151",
+							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/Education-et-culture",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/Education-et-culture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/rendre-accessible-son-territoire/8993-4-fre-FR/Rendre-accessible-son-territoire",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD\uFFFDv\uFFFD\uFFFDi\uFFFD\\x001e\uFFFD\u021B\uFFFD\uFB22\uFFFDz\uFFFD\u2D88\uFFFD{\uFFFD=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDTE\uFFFD\u076D\uFFFDq\u01EC\uFFFD&\uFFFD{\uFFFD(\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFD"
+							"evidence": "/Actions-de-l-Etat/Agriculture/1-Comment-contacter-le-service-economie-agricole-de-la-DDT-de-la-Nievre",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD\uFFFD*&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD-z\uFFFD\uFFFD{\uFFFD\\x001e\uFFFD\uFFFD\uFFFD{\u7722z&\uFFFD\uF682\uFFFD\uFFFD\uFFFDW\uFFFDu\uFFFDk\uFFFD\uFFFDO\uFFFD^\uFFFDV\uFFFD6'\uFFFD\uFFFD"
 						},
 						{
-							"id": "92",
+							"id": "149",
+							"uri": "https://www.nievre.gouv.fr/Actions-de-l-Etat/France-Services",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actions-de-l-Etat\/France-Services",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Actions-de-l-Etat/Agriculture/1-Comment-contacter-le-service-economie-agricole-de-la-DDT-de-la-Nievre",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD\uFFFD*&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD-z\uFFFD\uFFFD{\uFFFD\\x001e\uFFFD\uFFFD\uFFFD{\u7722z&\uFFFD\uF682\uFFFD\uFFFD\uFFFDW\uFFFDu\uFFFDk\uFFFD\uFFFDO\uFFFD^\uFFFDV\uFFFD6'\uFFFD\uFFFD"
+						},
+						{
+							"id": "150",
 							"uri": "https://www.nievre.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1107,17 +1117,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0012\uFFFDb\uFFFD\uFFFDb\uFFFD\uFFFDj\uFFFD~u\uFFFDj\uFFFDbr*Z\uFFFD*'\uFFFD^\uFFFD"
 						},
 						{
-							"id": "152",
+							"id": "133",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Barrage-des-Settons",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Barrage-des-Settons",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actualites/barrage-des-settons/8196-11-fre-FR/Barrage-des-Settons",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\u06AE\uFFFD\uFFFD{\uFFFD^\uFFFD\uFFFD\\x001e\uFFFD\uFFFD'\uFFFD\uFFFD5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD\\x0016\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\u05EC\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD"
+							"evidence": "php/Actions-de-l-Etat/France-Relance-France-2030",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDb\uFFFD{>u\uFFFD\uFFFDKZ\uFFFD\uFFFDkjw\\x001e\uFFFD\\x0017\uFFFDjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "131",
+							"id": "79",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
@@ -1127,7 +1137,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?-\uFFFD>zW\uFFFD\uFFFD*'\uFFFD\uFFFDZ\uFFFD\u03E5k\uFFFDbz\uFFFD\uFFFD\uFFFDI^r\u0628\uFFFD\u03DDz\uFFFD\uFFFD\uFFFD\u979E\u05A5z\u03F6\uFFFDm"
 						},
 						{
-							"id": "105",
+							"id": "92",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
@@ -1137,7 +1147,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?I\uFFFDe{\uFFFD^\uFFFD\uFFFD\u07B2\u01FF\\x0002y\uFFFD{\uFFFD\uFFFD"
 						},
 						{
-							"id": "69",
+							"id": "66",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -1184,7 +1194,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1006"
+					"sourceid": "1013"
 				},
 				{
 					"pluginid": "10027",
@@ -1224,7 +1234,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1031"
+					"sourceid": "1050"
 				},
 				{
 					"pluginid": "10109",
@@ -1247,9 +1257,19 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "64",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "101",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Feux-de-Foret",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Feux-de-Foret",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"e70ea68520926ae96c77197d6b176a37\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Secheresse\">\n                                S\u00E9cheresse\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "75",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1258,16 +1278,6 @@
 						},
 						{
 							"id": "88",
-							"uri": "https://www.nievre.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"e70ea68520926ae96c77197d6b176a37\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Secheresse\">\n                                S\u00E9cheresse\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "101",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
@@ -1317,9 +1327,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "80",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1328,8 +1338,8 @@
 						},
 						{
 							"id": "93",
-							"uri": "https://www.nievre.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1337,7 +1347,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "67",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -1347,7 +1357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "58",
 							"uri": "https://www.nievre.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1387,9 +1397,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "97",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Feux-de-Foret",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Feux-de-Foret",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Les-elections-dans-la-Nievre",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Les-elections-dans-la-Nievre",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1398,16 +1418,6 @@
 						},
 						{
 							"id": "86",
-							"uri": "https://www.nievre.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "97",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
@@ -1417,7 +1427,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "60",
 							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
@@ -1457,9 +1467,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "66",
-							"uri": "https://www.nievre.gouv.fr/",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/",
+							"id": "63",
+							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1467,9 +1477,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "63",
-							"uri": "https://www.nievre.gouv.fr/Actualites/Secheresse",
-							"nodeName": "https:\/\/www.nievre.gouv.fr\/Actualites\/Secheresse",
+							"id": "57",
+							"uri": "https://www.nievre.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.nievre.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1527,7 +1537,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "31",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1537,7 +1547,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "32",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1577,7 +1587,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "28",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1587,7 +1597,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "30",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1627,7 +1637,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1637,7 +1647,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1677,7 +1687,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "34",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1687,7 +1697,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "33",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1747,7 +1757,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "36",
 							"uri": "https://www.nievre.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1757,7 +1767,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "37",
+							"id": "35",
 							"uri": "https://www.nievre.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.nievre.gouv.fr\/sitemap.xml",
 							"method": "GET",
