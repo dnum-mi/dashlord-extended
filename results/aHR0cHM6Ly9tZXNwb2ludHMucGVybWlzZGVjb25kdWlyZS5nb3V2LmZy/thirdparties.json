@@ -3,30 +3,30 @@
   "cookies": [
     {
       "name": "__cf_bm",
-      "value": "Etq99.C2Q3_C1tJeOkWkzvO3TrygaE0hScMWZ4v2G70-1760549688.9794536-1.0.1.1-_NG0ZdfCiPv3gOUKeLpVzTtxDPrF3X_78KIdpf0H36Z9xf7flTvmNF6C8P6N30JEcgmraBNvKydOJc7GiLpTQQXeAn6jISLiPDzXVUktKiVapMZtJVnDoeMZyTF0hqhJ",
-      "domain": "mespoints.permisdeconduire.gouv.fr",
+      "value": "bjtEMCejPV0.b5E2Yv6aXvDLIgFvgYzo0GBNmtWzeUc-1778635821.0123122-1.0.1.1-Yw7bTOiBz6bWbwvBDS5YIhD0rKrZAtNdl9d20B_vI3B_m9I2L8tW828mg14tmffrAIcnMquXAzjmVStPe5Qsi7g7sHxyhWApMFYHVo_yACy86ocE6ohzJfTgtGYTsw59",
+      "domain": ".mespoints.permisdeconduire.gouv.fr",
       "path": "/",
-      "expires": 1760551488.98315,
+      "expires": 1778637621.02606,
       "size": 206,
       "httpOnly": true,
       "secure": true,
       "session": false,
+      "sameSite": "None",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "98f111c4187e2ade-IAD",
+    "cf-ray": "9fade5b95fae4403-DFW",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 15 Oct 2025 17:34:48 GMT",
+    "date": "Wed, 13 May 2026 01:30:21 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
-    "set-cookie": "__cf_bm=Etq99.C2Q3_C1tJeOkWkzvO3TrygaE0hScMWZ4v2G70-1760549688.9794536-1.0.1.1-_NG0ZdfCiPv3gOUKeLpVzTtxDPrF3X_78KIdpf0H36Z9xf7flTvmNF6C8P6N30JEcgmraBNvKydOJc7GiLpTQQXeAn6jISLiPDzXVUktKiVapMZtJVnDoeMZyTF0hqhJ; HttpOnly; Secure; Path=/; Expires=Wed, 15 Oct 2025 18:04:48 GMT",
-    "vary": "accept-encoding",
+    "set-cookie": "__cf_bm=bjtEMCejPV0.b5E2Yv6aXvDLIgFvgYzo0GBNmtWzeUc-1778635821.0123122-1.0.1.1-Yw7bTOiBz6bWbwvBDS5YIhD0rKrZAtNdl9d20B_vI3B_m9I2L8tW828mg14tmffrAIcnMquXAzjmVStPe5Qsi7g7sHxyhWApMFYHVo_yACy86ocE6ohzJfTgtGYTsw59; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 02:00:21 GMT",
     "x-frame-options": "SAMEORIGIN"
   },
   "endpoints": [
@@ -41,7 +41,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
