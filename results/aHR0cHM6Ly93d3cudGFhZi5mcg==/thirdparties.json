@@ -61,14 +61,6 @@
       "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/drapeau-taaf.svg"
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "unknown",
       "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-crozet.png"
     },
@@ -78,7 +70,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -87,6 +79,14 @@
     {
       "type": "unknown",
       "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-saintpaul.png"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "google maps",
@@ -99,6 +99,14 @@
     {
       "type": "unknown",
       "url": "https://taaf.fr//content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-table.css"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
@@ -139,14 +147,6 @@
     {
       "type": "unknown",
       "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/logo_taaf_2020.png"
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
     },
     {
       "type": "unknown",
@@ -198,39 +198,39 @@
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/693496550_1858133031813664_9065054116461794604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=557tVIOIZ3YQ7kNvwGpbcX3&_nc_oc=Adrof_YhTWv-7_KQ_hioesn8WWHRWdqhSlthbWiERtXbLFWHz_kshK-_VhcQ8Jk0gCRqPqGUw5INCDnDx7lVzus0&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=GJECS80kcia66vRXOzfwLQ&_nc_tpa=Q5bMBQHeUe943TxKxK7e1KcUKXKF6YM-zasYegs_LBcp4JUXFc-Z9aDlNQp8oR13yUY3h-BZ9ymmjZB6bA&oh=00_Af6J07EUo5wod-WysPCPvQRyRTTdk6pgMMA3nCdEoE2AZw&oe=6A09A19A"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/693496550_1858133031813664_9065054116461794604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=557tVIOIZ3YQ7kNvwGpbcX3&_nc_oc=Adrof_YhTWv-7_KQ_hioesn8WWHRWdqhSlthbWiERtXbLFWHz_kshK-_VhcQ8Jk0gCRqPqGUw5INCDnDx7lVzus0&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQFXVBOq3irzvj4iWOq506hC-2DpvgEzOkJ8Q91ndizKsB-4xfA97UqyG8WXLbfQtz7l_rjcQPnvdw&oh=00_Af7qq6Ojf2qvkAiX5MNLfu_FPGuHbqSG8_g8VYkDWYoH3g&oe=6A0A121A"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697097810_1402756141895620_1526361353998930970_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FAw6JckzXyoQ7kNvwGWNg5a&_nc_oc=Ado9c4Qa3dt2lkpAo_-lscQRb3yKfjVvlxIv-tBIqBEgaPzPdaEfnhGxt3epnF2b2xnUv6VTtvYo4KR-aD9eKu8x&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=GJECS80kcia66vRXOzfwLQ&_nc_tpa=Q5bMBQHJ9mjCBFinGpexknlszyXxbViJpeAhYnyuhVwsRABHNKF8WWkUyPrr37pUz7PT0o10LJDCzq2X2g&oh=00_Af4vcHSzTEqVvQ6qENh-u0VvZiKuzV72wZgvQe6f_3YXVQ&oe=6A098356"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697097810_1402756141895620_1526361353998930970_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FAw6JckzXyoQ7kNvwGWNg5a&_nc_oc=Ado9c4Qa3dt2lkpAo_-lscQRb3yKfjVvlxIv-tBIqBEgaPzPdaEfnhGxt3epnF2b2xnUv6VTtvYo4KR-aD9eKu8x&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQHT7MelqKv1BlynLAysHiKY6ECC8AxLOVx7x7vya6-23eAlCpZBMCIOGoZPVJRCiz3KGZOsgIUBTQ&oh=00_Af6KHAAn7LrwyUBuhQe80rUKVrsU-q_TiOuhIqk5BWcLDg&oe=6A09F3D6"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/691038286_1397742655730302_567081706673155602_n.jpg?stp=cp1_dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=amIXXzOd9TcQ7kNvwFLeTIs&_nc_oc=AdpHfsloetZ8033c2Mdm9vUhsIQidhiKLv628cSJOfMz2iwQtWJyt5STCwILBtxrBSzHD-Y-ceVRlnaOnYIuehzh&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=GJECS80kcia66vRXOzfwLQ&_nc_tpa=Q5bMBQE95NIx0ZPjanf4PlQNniBYTGn5cmiCSK0NnK7vTAUWjxRkywLIY-9QHKnhINxN3f9v7O8smFhtNA&oh=00_Af6ERssGD2iUKriUVaOeAtZkLwitS3-lVNvV-OrvvedxZg&oe=6A098796"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/691038286_1397742655730302_567081706673155602_n.jpg?stp=cp1_dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=amIXXzOd9TcQ7kNvwFLeTIs&_nc_oc=AdpHfsloetZ8033c2Mdm9vUhsIQidhiKLv628cSJOfMz2iwQtWJyt5STCwILBtxrBSzHD-Y-ceVRlnaOnYIuehzh&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQEiYriX7Suac2wrdSv6NAGXt4b1ssIU-IvMm7bEs4v6rJbQs-wOJ3mmzEufx-GDqTaojMo4PO6R_w&oh=00_Af4Ycs36iGNim38y_aNaBcUpOACl-H-8am2IH6pL41_GXw&oe=6A09F816"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/694759173_1492981672370876_525268259489852761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=v3F9jz4ba_gQ7kNvwG5bSnF&_nc_oc=Adr6pgYdnkiKGON0T5oxVZ9rSHy168XIQk-tsRyrJA4S-3yrvXQnuG7FpHLzVq9VRtfEJAlZR9LowgOkR00aaJPH&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=yJR_LNgsKBo6bMrQL_4eCA&_nc_tpa=Q5bMBQHJ_16ZvgRiEMzJwGvogNBm3hW0CMpYJIy-R32ELTTF0EwQfbjMKcwC5C74KF_awf2nfBFOrZICuA&oh=00_Af5m78lu8R6KUvhIGnozW83_CC8Z8b0PUjRf_T37onjuOA&oe=6A0989A6"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/694759173_1492981672370876_525268259489852761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=v3F9jz4ba_gQ7kNvwG5bSnF&_nc_oc=Adr6pgYdnkiKGON0T5oxVZ9rSHy168XIQk-tsRyrJA4S-3yrvXQnuG7FpHLzVq9VRtfEJAlZR9LowgOkR00aaJPH&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQHWDKMMmdXdmnwKMq6-AHSgBTVFhL3WUhKxdZVWrxBEbMwWfYDPhvMjVMdF2EZnOj_aKJBvmcq2NA&oh=00_Af7Wf8zF8KZCVpymCzh_EdJ0_2DcPUic33WUf_di5_Mz1w&oe=6A09FA26"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/679685320_2363919950775343_8284983141966391957_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=z3ountlArMgQ7kNvwFK8w-Y&_nc_oc=AdqshYxW9Yoxjuj9ojze4kshU1KAF9hZTscc743mNu2HmiCPobS9zJR-uGaA7aLP0CEkoCXa0PfHL2pGvQ6zS3Sz&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=yJR_LNgsKBo6bMrQL_4eCA&_nc_tpa=Q5bMBQHyF0tp6dnayh9lpqqYOjpBtdFYBkaJtu4Jt2qwFTTKs9Xz65Tn91Fk2lL4-OgZxhbDo3jrEN8iJQ&oh=00_Af4Z9_vu_Evs7xrCznEKIv05JeAZ3mzE9f7vSDyPJLCygg&oe=6A0984AA"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/679685320_2363919950775343_8284983141966391957_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lakbb_UJ2RMQ7kNvwFcF5Gg&_nc_oc=AdomqAiqcErD2WCV6GrAhBphOvVa7z0Ou5djEVPmYBjyzK95QYCB1al0zJhgUOYijchssUifFHFyoBSTG-cVj2i_&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQH7zn_WC0-W0L61ZBowzBFPPbwvMF64aw34zTFEiPOt9TJ4jmXSwe677H5w3DvmM1OX2DLYp_RUVA&oh=00_Af5gjimMV2P2jmsJl3r9i7Gpnk_SLtK-acgqkg11B7pHWw&oe=6A09F52A"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/691631179_1398712362299998_1788308358714756861_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LIpbFHAaaXMQ7kNvwH30DgT&_nc_oc=AdqLpdd3ClK7xoV4fh0T3LmG565M-oetig4xC33a06-bMSD_H9OMWFOcNWsvp4_2S_q1EJmUeBJA-g9OIGGlDVFJ&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=yJR_LNgsKBo6bMrQL_4eCA&_nc_tpa=Q5bMBQHQEvnFsIMLGayra-U0jdLsY08EQAQsMDbgVbErBuegEZWvOwZvcQ1ZXNWy3khgx3oFTGiVzcXxEA&oh=00_Af4N9SuxuygyJRCIBrqwDqMM9ACYGhmUL4LUS7PEBCLUfQ&oe=6A096D4F"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/691631179_1398712362299998_1788308358714756861_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LIpbFHAaaXMQ7kNvwH30DgT&_nc_oc=AdqLpdd3ClK7xoV4fh0T3LmG565M-oetig4xC33a06-bMSD_H9OMWFOcNWsvp4_2S_q1EJmUeBJA-g9OIGGlDVFJ&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQF7PTlgIMlxEVe4N4zm9LVUIpWzpD4do1wSDFf3oku1DWj4mSycNgU9LfHujUyymHPhYrNNfwvaVg&oh=00_Af7Fwccy4dePKOCtu8p38R2HW7a9qTUrfPDj5PLF6K_-Zg&oe=6A09DDCF"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/679851219_2146420289233031_7087265084911905041_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=B8sGP_UT5KYQ7kNvwFlA3HW&_nc_oc=AdqlqrYtLC-LX7b8_GiAIfqucqu_4f4AecCvT6JutPMvtcW8nLTxot5-n18z2N0Oar0oKykRTkI9b8MNQmtAO5N4&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=UuSnoWsvsn181QSpztz5WQ&_nc_tpa=Q5bMBQGR_incdsQgfB4igowIMq9nVBbu3lXxdeF7Us16vx3kbXFfJjG-I49jqPxRvXTdcy6G9ABD9nEiKg&oh=00_Af5QwRFP68ZhV2zKBo-hE4skhVfOATZh54MmphhJ3pGyFw&oe=6A099919"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/679851219_2146420289233031_7087265084911905041_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=B8sGP_UT5KYQ7kNvwFlA3HW&_nc_oc=AdqlqrYtLC-LX7b8_GiAIfqucqu_4f4AecCvT6JutPMvtcW8nLTxot5-n18z2N0Oar0oKykRTkI9b8MNQmtAO5N4&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQEvsMJehVrCHEv2FfWW_ISuXBm3tIOa4_PqI6_lA0i07ookgaBkZ7-7VBqcYThCW1DGrVSwAK_waQ&oh=00_Af7a8kYRFwdfPEOkJ6UVNfhSjr9o_rTSnW8-p9qdIDnpvg&oe=6A0A0999"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/690106156_1397945179043383_7930388099875273218_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SBC0CZHo5RIQ7kNvwHKlkM8&_nc_oc=AdphGM23DTUgvBiPK22bkXB7kBZGy4lvVptvoUX2sJ87dXgaq1R9pEZWDHKoJR0P0h5vxU94i4YB25nhCvunH4OR&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=UuSnoWsvsn181QSpztz5WQ&_nc_tpa=Q5bMBQE_ylmjYYA5LW6xJ4CJ5lBdD4EjFGVlpw3h32mcvH4FRjyegjqN37CKjTPgTs09Chb-wUlTTQ1NJA&oh=00_Af5ZG3w7-LG9KGcj6DniUGnLOI5Lbk7k-yr9MLqJgtJ-9A&oe=6A097299"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/690106156_1397945179043383_7930388099875273218_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SBC0CZHo5RIQ7kNvwHKlkM8&_nc_oc=AdphGM23DTUgvBiPK22bkXB7kBZGy4lvVptvoUX2sJ87dXgaq1R9pEZWDHKoJR0P0h5vxU94i4YB25nhCvunH4OR&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQFJaRg_2tM4KsaxBsHFDN98JE_nGnxFCkas3cRfdtCpvcLw1BB9VweVWzMY3AY536hKLw6EPaZwtQ&oh=00_Af6SioBSnvBtavojbxHyhut9C5gZVItA6_TPw6IRkld-bg&oe=6A09E319"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/689471969_1397742312397003_6422966146011999526_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VIrDYdUtsS0Q7kNvwHwosOS&_nc_oc=AdrbfVX7icw9hQNn0pk5924tXHHOHgN9DjaHifEQEC0HRgxsgEh1nIKZ0YPZejJpSSRfrD0xUdlTrlhlr4XXymuu&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=UuSnoWsvsn181QSpztz5WQ&_nc_tpa=Q5bMBQFSG5PU2nUHXnEVDAiP9xD0hqLScJJWR9abAGcfqv1ihQzeIqY07dtTHi_cpBZoE8tsrmpwCEGGDw&oh=00_Af6LLxfzFC_-oUbqGYap1aqPXKdX6pAOVUdSWn1PfQ-G4g&oe=6A099C17"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/689471969_1397742312397003_6422966146011999526_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VIrDYdUtsS0Q7kNvwHwosOS&_nc_oc=AdrbfVX7icw9hQNn0pk5924tXHHOHgN9DjaHifEQEC0HRgxsgEh1nIKZ0YPZejJpSSRfrD0xUdlTrlhlr4XXymuu&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQGmOt21xdsCaIeZjwcbkK-T9yaYuuQast9Iunoi-9T8YOTBzmiz7AZWtTWwT64eAPuVQAQel-OCcg&oh=00_Af7UkA6505SSHXkifi_bwIUoGkGuxMKPsD1LzLaFvDHqoA&oe=6A0A0C97"
     },
     {
       "type": "unknown",
@@ -265,20 +265,20 @@
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/icomoon.ttf?bdb9e34b4c42f9e26dcf9c7db70c7753"
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
       "type": "unknown",
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-RegularBook.woff2?5bd8aa147f6e8c0f76d9cf0b4dc4405e"
     },
     {
       "type": "unknown",
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-MediumBook.woff2?0e5c0f03246d8bb843145cdfb11b4232"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
@@ -347,25 +347,11 @@
   ],
   "cookies": [
     {
-      "name": "cookielawinfo-checkbox-others",
-      "value": "no",
-      "domain": ".taaf.fr",
-      "path": "/",
-      "expires": 1810166876,
-      "size": 31,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
       "name": "cookielawinfo-checkbox-functional",
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810166876,
+      "expires": 1810193557,
       "size": 35,
       "httpOnly": false,
       "secure": false,
@@ -379,7 +365,7 @@
       "value": "fr",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810166875,
+      "expires": 1810193557,
       "size": 14,
       "httpOnly": false,
       "secure": true,
@@ -394,7 +380,7 @@
       "value": "yes",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810166876,
+      "expires": 1810193557,
       "size": 35,
       "httpOnly": false,
       "secure": false,
@@ -408,8 +394,22 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810166876,
+      "expires": 1810193557,
       "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "cookielawinfo-checkbox-others",
+      "value": "no",
+      "domain": ".taaf.fr",
+      "path": "/",
+      "expires": 1810193557,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -422,7 +422,7 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810166876,
+      "expires": 1810193557,
       "size": 34,
       "httpOnly": false,
       "secure": false,
@@ -435,7 +435,7 @@
   "headers": {
     "content-encoding": "br",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 13 May 2026 00:07:54 GMT",
+    "date": "Wed, 13 May 2026 07:32:35 GMT",
     "link": "<https://taaf.fr/wp-json/>; rel=\"https://api.w.org/\", <https://taaf.fr/wp-json/wp/v2/pages/68>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://taaf.fr/>; rel=shortlink",
     "server": "Apache",
     "vary": "Accept-Encoding",
@@ -556,7 +556,7 @@
     },
     {
       "hostname": "maps.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -610,7 +610,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.16.95",
+      "ip": "142.251.167.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -664,7 +664,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "192.178.155.94",
+      "ip": "142.251.111.94",
       "geoip": {
         "continent": {
           "code": "NA",
