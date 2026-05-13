@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.aube.gouv.fr",
-        "size": 1113.539,
+        "size": 1116.05,
         "nodes": 683,
-        "requests": 43,
+        "requests": 44,
         "grade": "C",
         "score": 57.0,
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 20:23:55.229799",
+        "date": "2026-05-13 03:46:44.228790",
         "page_type": "website"
     }
 ]

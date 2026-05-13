@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "536ss3t5j3993skl2noad51q04",
+      "value": "igvq2h36m22q48q7chj8i69gn1",
       "domain": "www.aube.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:22:59 GMT",
-    "expires": "Tue, 12 May 2026 18:22:59 GMT",
-    "last-modified": "Tue, 12 May 2026 20:22:59 GMT",
+    "date": "Wed, 13 May 2026 03:45:43 GMT",
+    "expires": "Wed, 13 May 2026 01:45:43 GMT",
+    "last-modified": "Wed, 13 May 2026 03:45:43 GMT",
     "pragma": "no-cache",
     "served-by": "www.aube.gouv.fr",
-    "set-cookie": "eZSESSID=536ss3t5j3993skl2noad51q04; path=/",
+    "set-cookie": "eZSESSID=igvq2h36m22q48q7chj8i69gn1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
