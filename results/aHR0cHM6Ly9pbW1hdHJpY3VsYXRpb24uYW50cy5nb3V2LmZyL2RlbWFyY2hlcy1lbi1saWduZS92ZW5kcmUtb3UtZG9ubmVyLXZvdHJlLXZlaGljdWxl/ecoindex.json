@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+        "size": 4474.371,
+        "nodes": 741,
+        "requests": 65,
+        "grade": "D",
+        "score": 42.0,
+        "ges": 2.16,
+        "water": 3.24,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-05-13 02:42:32.526978",
+        "page_type": "website"
+    }
+]
