@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "9ind8luodghbv2fliarts7vju6",
+      "value": "060s82tijsvpdkajqfnu7co3a0",
       "domain": "www.dordogne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:00:22 GMT",
-    "expires": "Tue, 12 May 2026 19:00:22 GMT",
-    "last-modified": "Tue, 12 May 2026 21:00:22 GMT",
+    "date": "Wed, 13 May 2026 04:22:00 GMT",
+    "expires": "Wed, 13 May 2026 02:22:00 GMT",
+    "last-modified": "Wed, 13 May 2026 04:22:00 GMT",
     "pragma": "no-cache",
     "served-by": "www.dordogne.gouv.fr",
-    "set-cookie": "eZSESSID=9ind8luodghbv2fliarts7vju6; path=/",
+    "set-cookie": "eZSESSID=060s82tijsvpdkajqfnu7co3a0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

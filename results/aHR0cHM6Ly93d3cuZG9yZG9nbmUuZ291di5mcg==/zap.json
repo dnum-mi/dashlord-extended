@@ -1,32 +1,16 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 21:04:45",
-	"created": "2026-05-12T21:04:45.100380115Z",
+	"@generated": "Wed, 13 May 2026 04:26:06",
+	"created": "2026-05-13T04:26:06.665116979Z",
 	"insights":[
-		{
-			"level": "Low",
-			"reason": "Warning",
-			"site": "",
-			"key": "insight.log.error",
-			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "21"
-		},
 		{
 			"level": "Low",
 			"reason": "Warning",
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "6"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "",
-			"key": "insight.network.failure",
-			"description": "Percentage of network failures",
-			"statistic": "8"
+			"statistic": "7"
 		},
 		{
 			"level": "Info",
@@ -34,7 +18,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "89"
+			"statistic": "87"
 		},
 		{
 			"level": "Info",
@@ -42,7 +26,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "8"
+			"statistic": "9"
 		},
 		{
 			"level": "Info",
@@ -58,7 +42,15 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.ctype.application/javascript",
 			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "3"
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.dordogne.gouv.fr",
+			"key": "insight.endpoint.ctype.application/pdf",
+			"description": "Percentage of endpoints with content type application/pdf",
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -66,7 +58,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "10"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -74,7 +66,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "5"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -82,7 +74,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "3"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -98,7 +90,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "73"
+			"statistic": "79"
 		},
 		{
 			"level": "Info",
@@ -114,7 +106,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "228"
+			"statistic": "193"
 		},
 		{
 			"level": "Info",
@@ -122,7 +114,7 @@
 			"site": "https://www.dordogne.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "91"
+			"statistic": "93"
 		}
 	],
 	"site":[ 
@@ -143,7 +135,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "189",
+							"id": "190",
 							"uri": "https://www.dordogne.gouv.fr/Nous-contacter",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Nous-contacter",
 							"method": "GET",
@@ -153,9 +145,9 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_13151\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-13163_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ]."
 						},
 						{
-							"id": "192",
-							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/42459",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/42459",
+							"id": "193",
+							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/42416",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/42416",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -163,7 +155,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						},
 						{
-							"id": "194",
+							"id": "197",
 							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/42752",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/42752",
 							"method": "GET",
@@ -173,9 +165,9 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						},
 						{
-							"id": "196",
-							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/42839",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/42839",
+							"id": "192",
+							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/45798",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/45798",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -183,9 +175,9 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
 						},
 						{
-							"id": "195",
-							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/69",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/69",
+							"id": "194",
+							"uri": "https://www.dordogne.gouv.fr/contenu/conseiller/47682",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/conseiller\/47682",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -200,7 +192,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1196"
+					"sourceid": "1195"
 				},
 				{
 					"pluginid": "10038",
@@ -233,9 +225,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "65",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -293,7 +285,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "63",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -303,9 +295,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
-							"uri": "https://www.dordogne.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
+							"id": "62",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -313,9 +305,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "90",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -323,9 +315,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "101",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -353,7 +345,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "169",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-associations",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-associations",
 							"method": "GET",
@@ -363,7 +355,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "171",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-particuliers",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-particuliers",
 							"method": "GET",
@@ -373,7 +365,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "166",
+							"id": "167",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-professionnels",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-professionnels",
 							"method": "GET",
@@ -390,7 +382,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "887"
+					"sourceid": "756"
 				},
 				{
 					"pluginid": "10003",
@@ -403,7 +395,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "187",
+							"id": "189",
 							"uri": "https://www.dordogne.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1727091382.js",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1727091382.js",
 							"method": "GET",
@@ -413,7 +405,7 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "182",
+							"id": "183",
 							"uri": "https://www.dordogne.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727091382.js",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727091382.js",
 							"method": "GET",
@@ -430,7 +422,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1192"
+					"sourceid": "1194"
 				},
 				{
 					"pluginid": "10044",
@@ -443,7 +435,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "181",
+							"id": "179",
 							"uri": "https://www.dordogne.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -453,7 +445,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.dordogne.gouv.fr/Mentions-legales].\nPredicted response size: 345.\nResponse Body Length: 425."
 						},
 						{
-							"id": "174",
+							"id": "175",
 							"uri": "https://www.dordogne.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/actualites",
 							"method": "GET",
@@ -463,7 +455,7 @@
 							"otherinfo": "Location header URI length: 39 [https://www.dordogne.gouv.fr/Actualites].\nPredicted response size: 339.\nResponse Body Length: 401."
 						},
 						{
-							"id": "173",
+							"id": "176",
 							"uri": "https://www.dordogne.gouv.fr/cni",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/cni",
 							"method": "GET",
@@ -473,17 +465,17 @@
 							"otherinfo": "Location header URI length: 65 [https://www.dordogne.gouv.fr/Demarches/Carte-nationale-d-identite].\nPredicted response size: 365.\nResponse Body Length: 505."
 						},
 						{
-							"id": "191",
+							"id": "187",
 							"uri": "https://www.dordogne.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 98 [https://www.dordogne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1113180605?SearchText=ZAP].\nPredicted response size: 398.\nResponse Body Length: 636."
+							"otherinfo": "Location header URI length: 98 [https://www.dordogne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1284974966?SearchText=ZAP].\nPredicted response size: 398.\nResponse Body Length: 636."
 						},
 						{
-							"id": "172",
+							"id": "178",
 							"uri": "https://www.dordogne.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/demarches",
 							"method": "GET",
@@ -493,7 +485,7 @@
 							"otherinfo": "Location header URI length: 38 [https://www.dordogne.gouv.fr/Demarches].\nPredicted response size: 338.\nResponse Body Length: 397."
 						},
 						{
-							"id": "179",
+							"id": "181",
 							"uri": "https://www.dordogne.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -503,7 +495,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.dordogne.gouv.fr/Mentions-legales].\nPredicted response size: 345.\nResponse Body Length: 425."
 						},
 						{
-							"id": "175",
+							"id": "172",
 							"uri": "https://www.dordogne.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/horaires",
 							"method": "GET",
@@ -513,7 +505,7 @@
 							"otherinfo": "Location header URI length: 59 [https://www.dordogne.gouv.fr/Outils/Horaires-et-coordonnees].\nPredicted response size: 359.\nResponse Body Length: 481."
 						},
 						{
-							"id": "178",
+							"id": "182",
 							"uri": "https://www.dordogne.gouv.fr/mentions-legales",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/mentions-legales",
 							"method": "GET",
@@ -523,7 +515,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.dordogne.gouv.fr/Mentions-legales].\nPredicted response size: 345.\nResponse Body Length: 425."
 						},
 						{
-							"id": "58",
+							"id": "43",
 							"uri": "https://www.dordogne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -533,7 +525,7 @@
 							"otherinfo": "Location header URI length: 43 [https://www.dordogne.gouv.fr/Nous-contacter].\nPredicted response size: 343.\nResponse Body Length: 417."
 						},
 						{
-							"id": "177",
+							"id": "174",
 							"uri": "https://www.dordogne.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/passeport",
 							"method": "GET",
@@ -543,7 +535,7 @@
 							"otherinfo": "Location header URI length: 48 [https://www.dordogne.gouv.fr/Demarches/Passeport].\nPredicted response size: 348.\nResponse Body Length: 437."
 						},
 						{
-							"id": "176",
+							"id": "173",
 							"uri": "https://www.dordogne.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -553,7 +545,7 @@
 							"otherinfo": "Location header URI length: 57 [https://www.dordogne.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 357.\nResponse Body Length: 473."
 						},
 						{
-							"id": "171",
+							"id": "177",
 							"uri": "https://www.dordogne.gouv.fr/siv",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/siv",
 							"method": "GET",
@@ -570,7 +562,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1105"
+					"sourceid": "1082"
 				},
 				{
 					"pluginid": "10010",
@@ -673,7 +665,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "169",
+							"id": "168",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-associations",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-associations",
 							"method": "GET",
@@ -683,7 +675,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "170",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-particuliers",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-particuliers",
 							"method": "GET",
@@ -693,7 +685,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
+							"id": "166",
 							"uri": "https://www.dordogne.gouv.fr/Demarches/Demarches-professionnels",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Demarches\/Demarches-professionnels",
 							"method": "GET",
@@ -710,7 +702,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "887"
+					"sourceid": "756"
 				},
 				{
 					"pluginid": "90004",
@@ -733,7 +725,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "88",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -743,9 +735,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "77",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -783,7 +775,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "89",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -793,9 +785,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "78",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -833,7 +825,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "87",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -843,9 +835,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "76",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -873,7 +865,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "185",
+							"id": "186",
 							"uri": "https://www.dordogne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -890,7 +882,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1118"
+					"sourceid": "1120"
 				},
 				{
 					"pluginid": "110009",
@@ -903,7 +895,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "188",
+							"id": "195",
 							"uri": "https://www.dordogne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -913,7 +905,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "186",
+							"id": "188",
 							"uri": "https://www.dordogne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -923,7 +915,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "193",
+							"id": "196",
 							"uri": "https://www.dordogne.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -940,7 +932,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1191"
+					"sourceid": "1236"
 				},
 				{
 					"pluginid": "10063",
@@ -963,7 +955,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "86",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -973,9 +965,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "75",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -983,7 +975,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "39",
 							"uri": "https://www.dordogne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -993,7 +985,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "38",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1033,7 +1025,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "81",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1043,9 +1035,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "70",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1053,7 +1045,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://www.dordogne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1063,7 +1055,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1103,7 +1095,7 @@
 							"otherinfo": "1677058080, which evaluates to: 2023-02-22 09:28:00."
 						},
 						{
-							"id": "81",
+							"id": "82",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1113,9 +1105,9 @@
 							"otherinfo": "1677058080, which evaluates to: 2023-02-22 09:28:00."
 						},
 						{
-							"id": "106",
-							"uri": "https://www.dordogne.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
+							"id": "71",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1123,9 +1115,9 @@
 							"otherinfo": "1677058080, which evaluates to: 2023-02-22 09:28:00."
 						},
 						{
-							"id": "70",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "96",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1133,9 +1125,9 @@
 							"otherinfo": "1677058080, which evaluates to: 2023-02-22 09:28:00."
 						},
 						{
-							"id": "95",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "107",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1173,7 +1165,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "82",
+							"id": "83",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1183,9 +1175,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "107",
-							"uri": "https://www.dordogne.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
+							"id": "72",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1193,9 +1185,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "71",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "97",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1203,9 +1195,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "96",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "108",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1243,7 +1235,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
 						},
 						{
-							"id": "83",
+							"id": "84",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1253,17 +1245,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
 						},
 						{
-							"id": "158",
-							"uri": "https://www.dordogne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actions-de-l-Etat",
+							"id": "159",
+							"uri": "https://www.dordogne.gouv.fr/Actions-de-l-Etat/Agriculture-forets-et-preservation-des-espaces-naturels-agricoles-et-forestiers",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actions-de-l-Etat\/Agriculture-forets-et-preservation-des-espaces-naturels-agricoles-et-forestiers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
+							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/agriculture-forets-et-preservation-des-espaces-naturels-agricoles-et-forestiers/1710-6-fre-FR/Agriculture-forets-et-preservation-des-espaces-naturels-agricoles-et-forestiers",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD+\uFFFD\u02E5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+z\uFFFD>z\u07E9\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD>z\uFFFDZq\uFFFD>\uFFFD\uFFFDn\uFFFD\uFFFDl\uFFFD\uFFFD+\uFFFD\uFFFD%z\u03DE\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uF7E2\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07B1\uFFFD\uFFFDj\u0628\uFFFD\uFFFD^\uFFFD\u7B25\uFFFD\\x001e\uFFFD\uFFFD\u06B6\uFFFD\u0796\u03DA\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD~~\uFFFD\u07B2\u061E\uFFFD"
 						},
 						{
-							"id": "108",
+							"id": "142",
 							"uri": "https://www.dordogne.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1273,27 +1265,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
 						},
 						{
-							"id": "141",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/Appels-a-Projets",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Appels-a-Projets",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actualites/appels-a-projets/348887-2-fre-FR/Appels-a-Projets",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u07B6\uFFFD\uFFFD\uFFFD\uFFFD<\uFFFD\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFD#z\uFFFD"
-						},
-						{
-							"id": "72",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actualites/fr-alert/349475-6-fre-FR/FR-Alert",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDG\uFFFD%z\uFFFD"
-						},
-						{
-							"id": "164",
+							"id": "73",
 							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1303,7 +1275,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "119",
+							"id": "131",
 							"uri": "https://www.dordogne.gouv.fr/Actualites/Gestion-de-l-espace-forestier",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Gestion-de-l-espace-forestier",
 							"method": "GET",
@@ -1313,7 +1285,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
 						},
 						{
-							"id": "97",
+							"id": "120",
 							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
 							"method": "GET",
@@ -1323,7 +1295,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFDm6\uFFFD\uFFFDZ\uFFFD\u01A0{\uFFFD^\uFFFDV\uFFFD~V\uFFFD\uFFFD\uFA17)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDv\uFFFD\u0762\t\uFFFD\uFFFD~u\uFFFDN\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD\uFFFD\uFFFD\uFFFDM\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDjb\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFDh\uFFFDw"
 						},
 						{
-							"id": "130",
+							"id": "98",
 							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
@@ -1333,7 +1305,27 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?$\uFFFD\uFFFDn>=\uFFFD,j\\x0007\uFFFDu\uFFFDk\uFFFDeji\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uF79F\uFFFD\uFFFD\uFFFD \uFFFD"
 						},
 						{
-							"id": "151",
+							"id": "152",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Mission-Liberation-80eme-anniversaire-de-la-Libeation-de-la-France-et-de-la-Victoire",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Mission-Liberation-80eme-anniversaire-de-la-Libeation-de-la-France-et-de-la-Victoire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/ide_site/storage/images/actualites/mission-liberation-80eme-anniversaire-de-la-libeation-de-la-france-et-de-la-victoire/348254-1-fre-FR/Mission-Liberation-80eme-anniversaire-de-la-Libeation-de-la-France-et-de-la-Victoire",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u0228\uFFFD\uFFFDbm\uFFFD\u06B6*'\uFFFD\uFFFD\\x001e\uFFFD\uF69Ex\uFFFDz\uFFFD\\x001a\uFFFD\uFFFD\uFFFDu\uFFFDk\uFFFDbm\u6B4A\uFFFD\uFFFDu\uFFFDk\uFFFD\uFFFDjw\\x001e\uFFFD\uFFFD~u\uFFFDk\uFFFD\uFFFDr\uFFFD\"\uFFFD\uFFFD\uFFFD\uFFFD\u0379\uFFFD\uFFFD~~\uFFFD\uFFFD\\x0015\\x001f\u030A\uFFFD\"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj\u0628\uFFFD\uFFFD4zg\uFFFDjy\uFFFD\uFFFD\uFFFDj*\uFFFD\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD*'\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD"
+						},
+						{
+							"id": "165",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Sobriete-energetique",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Sobriete-energetique",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/ide_site/storage/images/actualites/sobriete-energetique/273976-2-fre-FR/Sobriete-energetique",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD(n\uFFFD\uFFFD\uFFFD\uF79D\uFFFD\uFFFDz\u062A\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\u04A1\uFFFD\uFFFDz\u05FEzw\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
+						},
+						{
+							"id": "109",
 							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
@@ -1380,7 +1372,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1104"
+					"sourceid": "1096"
 				},
 				{
 					"pluginid": "10027",
@@ -1393,7 +1385,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "184",
+							"id": "185",
 							"uri": "https://www.dordogne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1403,7 +1395,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "183",
+							"id": "184",
 							"uri": "https://www.dordogne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1420,7 +1412,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1118"
+					"sourceid": "1120"
 				},
 				{
 					"pluginid": "10109",
@@ -1443,7 +1435,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "78",
+							"id": "79",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1453,9 +1445,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "103",
-							"uri": "https://www.dordogne.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
+							"id": "68",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1463,9 +1455,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "65",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "93",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1473,9 +1465,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "92",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "104",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1513,7 +1505,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "85",
 							"uri": "https://www.dordogne.gouv.fr/",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/",
 							"method": "GET",
@@ -1523,9 +1515,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "74",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1533,9 +1525,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "99",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1543,7 +1535,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "45",
 							"uri": "https://www.dordogne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1593,9 +1585,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
-							"uri": "https://www.dordogne.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites",
+							"id": "64",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1603,9 +1595,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "91",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Loto-du-patrimoine-en-Nouvelle-Aquitaine",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1613,9 +1605,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/JO-2024-Passage-de-la-Flamme-Olympique-en-Dordogne",
+							"id": "102",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/Vos-demarches",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/Vos-demarches",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1653,9 +1645,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "68",
-							"uri": "https://www.dordogne.gouv.fr/Actualites/FR-Alert",
-							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/FR-Alert",
+							"id": "69",
+							"uri": "https://www.dordogne.gouv.fr/Actualites/France-2030",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1663,7 +1655,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "59",
+							"id": "44",
 							"uri": "https://www.dordogne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1723,7 +1715,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "33",
 							"uri": "https://www.dordogne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1733,7 +1725,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "32",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1783,7 +1775,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "31",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1823,7 +1815,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "28",
 							"uri": "https://www.dordogne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1833,7 +1825,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1921,9 +1913,19 @@
 							"attack": "",
 							"evidence": "eZSESSID",
 							"otherinfo": "cookie:eZSESSID"
+						},
+						{
+							"id": "42",
+							"uri": "https://www.dordogne.gouv.fr",
+							"nodeName": "https:\/\/www.dordogne.gouv.fr",
+							"method": "GET",
+							"param": "eZSESSID",
+							"attack": "",
+							"evidence": "eZSESSID",
+							"otherinfo": "cookie:eZSESSID"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:eZSESSID</p>",
@@ -1943,7 +1945,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "37",
 							"uri": "https://www.dordogne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1953,7 +1955,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "37",
+							"id": "36",
 							"uri": "https://www.dordogne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.dordogne.gouv.fr\/sitemap.xml",
 							"method": "GET",
