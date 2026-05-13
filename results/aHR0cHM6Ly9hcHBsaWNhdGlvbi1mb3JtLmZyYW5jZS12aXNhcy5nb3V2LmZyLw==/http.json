@@ -9,13 +9,13 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 12 May 2026 18:48:15 GMT",
+      "date": "Wed, 13 May 2026 02:16:51 GMT",
       "set-cookie": [
-        "AUTH_SESSION_ID=MzdjNzA4MTQtY2E1Yi00YTNhLTg2NWItODI3YWJjNjFhYTI2LnlYb3dIMVNRanlUSEJhNEFJN3puV1duN1RmMnpBR1dZQ1Q0RUFOeEI2cElGYXdvZnpULTdkNWlMRlFsdmpYOWpSVmZFZXNQSnN3UG4tQ3hYelVQRE1n.fv-kckusa-22-58300; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=\"zIR2s3Jp/VDD03HY1ByjYmeLsCXATJ4W0HXeiRV8ols\"; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..df2KZjZ1_36uF9W41FD19A.9D2vMH4ScH_9sk5ElLCZ7v0sIarI3GZp9UucJ4Ta1CwK7fYoSpI1V9EyXVdh0iqWsQLQbeJ5-b0uioqu6QogW5pZJJ1d64SiLHcfjqs6D-1NpcDaiDPMlx7a2Ydw3fbJuSUx2Ix5Twaal9_Yj9J9DekrJKkcTKuIqy8_t_tc119YTp3nU1qfJfdWqlB1uv7VbLUI3yZK8MMwVkRkuPTRsxRPgExAjGi2bImwaxB3Eqh1BUNuV1ioHG_dELprntSKcAgSNQXhzkXIE_sOEO4ky-8Xiu07If-xHBfaIOnNBseNH8S5bQ54HKtdXWv7Md8GJI21bLaPvO81Tqy0DvD1G73e59sak0rMdvZpx6lKtNZ_lQfTvvF_fGVPtYOqPmh9Ygjh-UK4nNP1nFBUj-e9KpTw5iBlkKtmT-eoaR0NpuuKwCN_UpEIfzKgkZjiOPWTKgZDCEI3BuUGQeTxo1BhxZxQQKncWq3oGdlLjRsevZkjpIJ1yuuB2W1nOhXMbqbzaZii-H6qnY0gdWdPSyp_20Vc9WZ8BY6KBGbb0yIm1XTRg0gpPL1Zs7OX8zZVXD8Eu-eK8xynt0z7SFt34yFhLku4U5PAqD0Y1gcsSAgEIriD8tLb9_ic5a8Sqfprgq5hCs15kWMUzQg38eh7k52kVqmDIgeSoFdEFXmB_9OHE9dzP8tuChD24rRr2un96cTGpfGSzoS96HUeSOnj5Zw7-35OZJzVchtxOo_6mmyJM3zKjmMnVPSAnuU2dJONrxEicGMHDWjUNPNGHmlQVSkm73sgZ_BlcFFD2Sx3oz_5jNhky_iMvqZFk4B9mhZYe0K386_wpgbBPt4bDkrUmbDkeVV50c2R_yVocX9CXmdys85b4jtf6gj4ygNxQ7qsoAtyPnXGfSFLadn7F7bSd1d5iqYcGLKVpBYIfOzJPOKAc-bb6p-zSGUY06Zex-N4hv5H4fpKvOdDvVXvgIJjiQuKaivwU36sk1N46SAwGwoNLJUZu-Pk03Krwr9bX3iORsLlsfqevZeT8CVE7XQyU6ty7nd7IkYUbVUQEcsr5GxtTKEgr_gpzUwmLgEXqcQERlPXN2oz11cfAlrocJsxdhMhsCiC23_IA3SBqjpGb6tNFks.l-5NeSUEA2185kIQAQcLkQ; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "AUTH_SESSION_ID=NGZkOTJiZmMtMjViZi00ZDllLWI4NTYtM2FkZjFkNWUyMzYwLk0xOVFmVTZ5VndWMFRTblpUMjhWTmVPRUwzajRDTHdjdE1NeG40LXlIZ3FyY3Q2N0Y4bVFkRnJoclljT2JyQ2F0dTgwZ1B5VHZRZTlZcVgyWWNvLURR.fv-kckusa-21-52785; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=\"E5EC5ALWJwjruVvUzuCL/a0PQYPaSA3OVFzwfWBPZlc\"; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..KcJv9-73HlKIdeGLFvKFeA.9xafMMxd6HVIVAdXawuMK__HlB83pZQp-7daDBnY5H-t-AegLhD9jpbJHU8w48Kiop9ybmjGDZ_vArXVNU_N2h4Fi4ikye-isiJDcQE0AX4h_2pqMudhPyrighYDgThczD6eBwPM-vATfGZXW-k1YXjzUV7QojrOXgJ3uyaJ6vORDoGKqJwmaFCM_2fr6WWvJzuxFjSt5EXN3Jwrg5Ifwd9VVng079OgmDtDVuOYJjR9x-uNx3BvGcndnOfRqhXMYvX7adEjSvbjzOSefCJyCIpts6JXy8YHGJZBS-CS8e96v4U5QRE2a6-hv8nr6v0RRaH5-7dWi8LsAaAf9sW8raqkbypwim8mVE5B-MWzajMjxonHkrNMFM9jkW26Dc835X6jdC5713vWfeBm79kolrHycVy7a8Apm3vJa5Po8SwTCMXFoQQTGu7AooHV3y8ZFk6-8I7Apzl2Q2aQG2HXS-9G-26Ws78mNlmXK69w7VoXG7p-bQchbL01-eOXpmEcjRw5KueZKwHCQZICdONl_IYesxcRL_PnYGo6YTKKIe8aRN2mRchhSatxtNl8TIW6G-MONVxCUDz3XiYVfzJbPzon2akmhFcpHtzRGATwVwQ6BU02K2fG1_PYGHiBuokHofAr5CMXpkzCd7yKlQ95b0Llcr-dWyCzvTeSrHBHAVvoaD_j0UZwEk8R6fkw93wA2fx1JcIRFZqJTKnt4iModCzaQBORGRFyhbdYV8RS42j5ub4fR8guTGdPRsvFyFEunH3ROGd2IXVHDIfIE2Xu0DeoRuwd3OvLkfoirBxmvda8JAUElysuw5mbcr1uvXWgAFTiiB4aoHWD1W1Bl9XUAHev_SK4cTdkNj_k6S_2vD03p4mtGjgAQ00iWGYL70tF2ShqlGx8zF2gONYuSCztBTDswdRrIeE_aIDKvMD7iDnvYTbZUykm9WaR6CkbjMZD3N4SSjXUks6VkY4eyzRJ3_ohKnbc02eKln6w0lCf_p-ggnnG35LScDUDw-nG7BdRQhNTQXRlUh_9IUcbhuMcgpuW8PsjGGOd1Hy5My4Irx3ZauuOF8yAOTd-ejesPqiq8NDVlOLeh1-nXC9E7xwgsrG0p6ckI1W2g69ACcRD2a8.F5lb2XFc96SHzRW5PsglEw; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
         "ROUTEKCKUSAID=.2; path=/; Secure",
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1HHPOgwSDpJ9; Expires=Tue, 12-May-2026 20:48:15 GMT; Path=/"
+        "YOMe1h3tgHKNQxhV6V7n5g__=v1HHPOgwSDpJ9; Expires=Wed, 13-May-2026 04:16:51 GMT; Path=/"
       ],
       "cache-control": "no-store, must-revalidate, max-age=0",
       "content-language": "fr",
@@ -80,7 +80,7 @@
       "data": {
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "connect.france-visas.gouv.fr",
-          "expires": "2026-05-12T20:48:15.000Z",
+          "expires": "2026-05-13T04:16:51.000Z",
           "path": "/",
           "port": null
         },

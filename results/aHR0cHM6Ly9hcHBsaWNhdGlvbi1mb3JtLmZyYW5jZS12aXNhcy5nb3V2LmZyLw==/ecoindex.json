@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://application-form.france-visas.gouv.fr/",
-        "size": 792.384,
+        "size": 792.93,
         "nodes": 241,
         "requests": 37,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.46,
         "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 18:45:19.711130",
+        "date": "2026-05-13 02:14:10.056401",
         "page_type": null
     }
 ]
