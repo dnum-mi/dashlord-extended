@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 23:51:58",
-	"created": "2026-05-12T23:51:58.942705739Z",
+	"@generated": "Wed, 13 May 2026 07:15:24",
+	"created": "2026-05-13T07:15:24.431073358Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -101,7 +101,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "17",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -378,7 +378,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10096",
@@ -581,7 +581,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "2",
+							"id": "0",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -611,7 +611,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "31",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -621,7 +621,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "11",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -629,16 +629,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "10",
+							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -651,7 +661,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "30",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -661,7 +671,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "8",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -669,16 +679,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "9",
+							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -691,7 +711,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "29",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -709,16 +729,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "6",
+							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -731,7 +761,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "32",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -741,7 +771,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "12",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -749,16 +779,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "13",
+							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10112",
@@ -771,7 +811,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "16",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -801,7 +841,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "38",
 							"uri": "https://www.guadeloupe.pref.gouv.fr",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr",
 							"method": "GET",
@@ -811,7 +851,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "15",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -821,7 +861,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "14",
 							"uri": "https://www.guadeloupe.pref.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.guadeloupe.pref.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -838,7 +878,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				}
 			]
 		}
