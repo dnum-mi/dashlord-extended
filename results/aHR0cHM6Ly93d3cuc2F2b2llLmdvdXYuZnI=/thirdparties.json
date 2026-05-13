@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "icofmri18ba768et7b3djac4h5",
+      "value": "422grso9okn19d2k7uldffqm27",
       "domain": "www.savoie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:54:04 GMT",
-    "expires": "Tue, 12 May 2026 20:54:05 GMT",
-    "last-modified": "Tue, 12 May 2026 22:54:05 GMT",
+    "date": "Wed, 13 May 2026 06:17:04 GMT",
+    "expires": "Wed, 13 May 2026 04:17:05 GMT",
+    "last-modified": "Wed, 13 May 2026 06:17:05 GMT",
     "pragma": "no-cache",
     "served-by": "www.savoie.gouv.fr",
-    "set-cookie": "eZSESSID=icofmri18ba768et7b3djac4h5; path=/",
+    "set-cookie": "eZSESSID=422grso9okn19d2k7uldffqm27; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
