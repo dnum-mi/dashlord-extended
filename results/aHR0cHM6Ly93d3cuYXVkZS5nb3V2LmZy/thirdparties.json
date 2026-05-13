@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "kmcvbfqqr1d04e9qqmgv49mhn1",
+      "value": "g8sk32k7p2guls1dle5ua84ac0",
       "domain": "www.aude.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:23:25 GMT",
-    "expires": "Tue, 12 May 2026 18:23:25 GMT",
-    "last-modified": "Tue, 12 May 2026 20:23:25 GMT",
+    "date": "Wed, 13 May 2026 03:46:02 GMT",
+    "expires": "Wed, 13 May 2026 01:46:03 GMT",
+    "last-modified": "Wed, 13 May 2026 03:46:03 GMT",
     "pragma": "no-cache",
     "served-by": "www.aude.gouv.fr",
-    "set-cookie": "eZSESSID=kmcvbfqqr1d04e9qqmgv49mhn1; path=/",
+    "set-cookie": "eZSESSID=g8sk32k7p2guls1dle5ua84ac0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
