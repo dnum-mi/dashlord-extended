@@ -1,23 +1,23 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "C-",
+    "grade": "F",
     "error": null,
-    "score": 45,
+    "score": 10,
     "statusCode": 200,
-    "testsFailed": 4,
-    "testsPassed": 6,
+    "testsFailed": 5,
+    "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 06:57:39 GMT",
+      "date": "Wed, 13 May 2026 01:27:38 GMT",
       "set-cookie": [
-        "bot_mitigation_cookie=ERKOFQZIRJFCTWSRM73XSRL4RFR7EY5Z4QDY4IWWSROZLYGWPF35NPRTR3HHHNWYLEYN7RFFNEAFXIQEMW2B5RFIMKWERP4KZOFXAW43LWIKVZJKI4VA====; Path=/"
+        "bot_mitigation_cookie=ZTRNM5W4JK5MRQ5EFEJFSN3ZMNOCUQXR7PJTWYZRU6DFBDTKXPX3OCX7WYQKBRXYYNFKDGMNMWRXSVXCLMOXFG2ST5GBWGYV6KMNBYMWV42P6EN65PSA====; Path=/; SameSite=lax"
       ],
       "content-type": "text/html",
       "cache-control": "no-store",
       "vary": "Accept-Encoding",
-      "content-length": "200",
-      "x-cp-via": "C2-e28935a7-d6003b03",
+      "content-length": "201",
+      "x-cp-via": "C3-8a6fcd50-3153361a",
       "connection": "close"
     }
   },
@@ -36,13 +36,14 @@
     "cookies": {
       "expectation": "cookies-secure-with-httponly-sessions",
       "pass": false,
-      "result": "cookies-without-secure-flag-but-protected-by-hsts",
-      "scoreModifier": -5,
+      "result": "cookies-without-secure-flag",
+      "scoreModifier": -20,
       "data": {
         "bot_mitigation_cookie": {
           "domain": "ants.gouv.fr",
           "path": "/",
-          "port": null
+          "port": null,
+          "samesite": "lax"
         }
       },
       "sameSite": false
@@ -57,7 +58,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
       "destination": "https://ants.gouv.fr/",
       "redirects": true,
@@ -78,14 +79,14 @@
     },
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
-      "pass": true,
-      "result": "hsts-preloaded",
-      "scoreModifier": 5,
+      "pass": false,
+      "result": "hsts-not-implemented",
+      "scoreModifier": -20,
       "data": null,
-      "includeSubDomains": true,
+      "includeSubDomains": false,
       "maxAge": null,
       "preload": false,
-      "preloaded": true
+      "preloaded": false
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
