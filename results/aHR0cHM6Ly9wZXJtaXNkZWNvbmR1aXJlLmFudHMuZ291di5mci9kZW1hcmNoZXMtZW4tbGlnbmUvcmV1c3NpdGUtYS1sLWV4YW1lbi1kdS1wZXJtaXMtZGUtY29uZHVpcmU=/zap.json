@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 19:28:24",
-	"created": "2026-05-12T19:28:24.392698540Z",
+	"@generated": "Wed, 13 May 2026 02:55:12",
+	"created": "2026-05-13T02:55:12.610747354Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -63,7 +63,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "28",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "98",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -83,7 +83,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "3",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -93,7 +93,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "94",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "35",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -120,7 +120,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10020",
@@ -133,7 +133,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "20",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -143,7 +143,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "92",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -153,7 +153,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "1",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -163,7 +163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "87",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "25",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -203,7 +203,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "29",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -213,7 +213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "100",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "4",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "95",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "37",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -260,7 +260,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10011",
@@ -273,7 +273,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "30",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "102",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -293,7 +293,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "5",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -303,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "97",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "40",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -330,7 +330,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -343,7 +343,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "70",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,7 +353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "17",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -363,17 +363,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "97",
+							"id": "83",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -383,7 +373,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
 					"otherinfo": "",
@@ -403,7 +393,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "71",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -413,7 +403,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "18",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -423,17 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "98",
+							"id": "86",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -443,7 +423,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Opener-Policy header appropriately, and that it sets the Cross-Origin-Opener-Policy header to 'same-origin' for documents.</p><p>'same-origin-allow-popups' is considered as less secured and should be avoided.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Opener-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-opener-policy).</p>",
 					"otherinfo": "",
@@ -463,7 +443,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "68",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -473,7 +453,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "16",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -483,17 +463,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "91",
+							"id": "82",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -503,7 +473,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
@@ -523,7 +493,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "66",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -533,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "112",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -543,7 +513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "15",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -553,7 +523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "108",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -563,7 +533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "79",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -593,7 +563,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "39",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -603,7 +573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "106",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -613,7 +583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "7",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -623,7 +593,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "101",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -633,7 +603,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "51",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -663,7 +633,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "41",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -673,7 +643,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "90",
+							"id": "109",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -683,7 +653,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "16",
+							"id": "8",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -693,7 +663,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "76",
+							"id": "103",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -703,7 +673,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "77",
+							"id": "55",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -733,84 +703,84 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "43",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM"
+							"evidence": "/redirect_6WBVLDRXMNWQPDSCVKQHKXRPNKTX7JXH3U35SEZ2BVCENGDGG5DA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0005R\uFFFDEs\rY\\x0003\uFFFDH%J@r\uFFFDD\uFFFDJM~\uFFFD\\}\uFFFD\u07D4\uFFFDg`U\\x0008CF\\x000ca\uFFFD\\x000c"
 						},
 						{
-							"id": "19",
+							"id": "49",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AIBIJIITF6FRNRHRBNZ2GNWHJWI7A6XCUINZBKTAVZJPI5ESYGLQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\\x0004\uFFFDH!1z\\x0015\\x0013Q\\x001d\\x0010Mga\uFFFDXrV#\uFFFD:\\%\\x00085\uFFFDJL\\x0005Y$\uFFFD9\\x0011&\\x0006-"
+							"evidence": "/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\\x0010\uFFFD\\x0007\\x0018\"\uFFFD\uFFFDb\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\\x0001<e\n\u0752\uFFFD@\\x0006VGq\\x0006\uFFFDcKd\uFFFD\\x0006\uFFFD"
 						},
 						{
-							"id": "96",
+							"id": "110",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM"
+							"evidence": "/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\\x0010\uFFFD\\x0007\\x0018\"\uFFFD\uFFFDb\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\\x0001<e\n\u0752\uFFFD@\\x0006VGq\\x0006\uFFFDcKd\uFFFD\\x0006\uFFFD"
 						},
 						{
-							"id": "108",
+							"id": "9",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM"
+							"evidence": "/redirect_6WBVLDRXMNWQPDSCVKQHKXRPNKTX7JXH3U35SEZ2BVCENGDGG5DA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0005R\uFFFDEs\rY\\x0003\uFFFDH%J@r\uFFFDD\uFFFDJM~\uFFFD\\}\uFFFD\u07D4\uFFFDg`U\\x0008CF\\x000ca\uFFFD\\x000c"
 						},
 						{
-							"id": "18",
+							"id": "88",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_AIBIJIITF6FRNRHRBNZ2GNWHJWI7A6XCUINZBKTAVZJPI5ESYGLQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\\x0004\uFFFDH!1z\\x0015\\x0013Q\\x001d\\x0010Mga\uFFFDXrV#\uFFFD:\\%\\x00085\uFFFDJL\\x0005Y$\uFFFD9\\x0011&\\x0006-"
+							"evidence": "/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\\x0010\uFFFD\\x0007\\x0018\"\uFFFD\uFFFDb\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\\x0001<e\n\u0752\uFFFD@\\x0006VGq\\x0006\uFFFDcKd\uFFFD\\x0006\uFFFD"
 						},
 						{
-							"id": "79",
+							"id": "104",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM"
+							"evidence": "/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\\x0010\uFFFD\\x0007\\x0018\"\uFFFD\uFFFDb\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\\x0001<e\n\u0752\uFFFD@\\x0006VGq\\x0006\uFFFDcKd\uFFFD\\x0006\uFFFD"
 						},
 						{
-							"id": "80",
+							"id": "56",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM"
+							"evidence": "/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\\x0010\uFFFD\\x0007\\x0018\"\uFFFD\uFFFDb\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\\x0001<e\n\u0752\uFFFD@\\x0006VGq\\x0006\uFFFDcKd\uFFFD\\x0006\uFFFD"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFDS\uFFFDe\uFFFDKS\uFFFD\uFFFD-p\uFFFD\uFFFD\"\uFFFDHE\\x0014(%{$\"\\x0000O`\uFFFDd\uFFFD\uFFFDM</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0005R\uFFFDEs\rY\\x0003\uFFFDH%J@r\uFFFDD\uFFFDJM~\uFFFD\\}\uFFFD\u07D4\uFFFDg`U\\x0008CF\\x000ca\uFFFD\\x000c</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10109",
@@ -823,53 +793,53 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "38",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_6WBVLDRXMNWQPDSCVKQHKXRPNKTX7JXH3U35SEZ2BVCENGDGG5DA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "13",
+							"id": "36",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_AIBIJIITF6FRNRHRBNZ2GNWHJWI7A6XCUINZBKTAVZJPI5ESYGLQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "12",
+							"id": "6",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_AIBIJIITF6FRNRHRBNZ2GNWHJWI7A6XCUINZBKTAVZJPI5ESYGLQ====/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire';</script>",
+							"evidence": "<script>window.location.href='/redirect_6WBVLDRXMNWQPDSCVKQHKXRPNKTX7JXH3U35SEZ2BVCENGDGG5DA====/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "66",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
+							"id": "72",
+							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q====/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "71",
+							"id": "47",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_7BSJ2C2RPN4FPYZYFLU6HMLXDO2SK6SEUUKCV7JCIAT2DAZM72TQ====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_XV2V6CEKEHGCLP5WK4QYWM2MIBPGUK3ZK4QAZWR3EG7GNLZLAG5Q====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -880,7 +850,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10049",
@@ -893,7 +863,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "65",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -903,7 +873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
+							"id": "111",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -913,7 +883,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "14",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -923,7 +893,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "107",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -933,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "76",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -963,7 +933,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "27",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -973,7 +943,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "96",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -983,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "2",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -993,7 +963,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "93",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1003,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "33",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1020,7 +990,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1033,7 +1003,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "59",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1043,7 +1013,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "12",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -1051,9 +1021,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "69",
+							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1073,7 +1053,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "50",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1083,7 +1063,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "11",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -1091,9 +1071,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "67",
+							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1113,7 +1103,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "45",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1123,7 +1113,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "10",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -1131,9 +1121,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "60",
+							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1153,7 +1153,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "62",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1163,7 +1163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "13",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -1171,9 +1171,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1193,7 +1203,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "0",
+							"id": "19",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1203,7 +1213,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "46",
+							"id": "91",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1213,7 +1223,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "1",
+							"id": "0",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/reussite-a-l-examen-du-permis-de-conduire",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/reussite-a-l-examen-du-permis-de-conduire",
 							"method": "GET",
@@ -1223,7 +1233,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "41",
+							"id": "84",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1233,7 +1243,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "44",
+							"id": "21",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1241,9 +1251,19 @@
 							"attack": "",
 							"evidence": "bot_mitigation_cookie",
 							"otherinfo": "cookie:bot_mitigation_cookie"
+						},
+						{
+							"id": "46",
+							"uri": "https://permisdeconduire.ants.gouv.fr/",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "bot_mitigation_cookie",
+							"attack": "",
+							"evidence": "bot_mitigation_cookie",
+							"otherinfo": "cookie:bot_mitigation_cookie"
 						}
 					],
-					"count": "5",
+					"count": "6",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:bot_mitigation_cookie</p>",
