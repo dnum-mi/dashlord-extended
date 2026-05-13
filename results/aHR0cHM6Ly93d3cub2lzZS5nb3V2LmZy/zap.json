@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 22:28:52",
-	"created": "2026-05-12T22:28:52.623979199Z",
+	"@generated": "Wed, 13 May 2026 05:50:42",
+	"created": "2026-05-13T05:50:42.354726973Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "9"
+			"statistic": "8"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.oise.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://www.oise.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.oise.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "201"
+			"statistic": "197"
 		},
 		{
 			"level": "Info",
@@ -106,7 +106,7 @@
 			"site": "https://www.oise.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "88"
 		}
 	],
 	"site":[ 
@@ -116,6 +116,36 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
+				{
+					"pluginid": "10202",
+					"alertRef": "10202",
+					"alert": "Absence of Anti-CSRF Tokens",
+					"name": "Absence of Anti-CSRF Tokens",
+					"riskcode": "2",
+					"confidence": "1",
+					"riskdesc": "Medium (Low)",
+					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
+					"instances":[ 
+						{
+							"id": "193",
+							"uri": "https://www.oise.gouv.fr/Nous-contacter",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Nous-contacter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form class=\"\" action=\"/contenu/action\" method=\"post\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"-0\" \"-1\" \"-2\" \"-3\" \"4e8d7f9ca19d3f1851b1ff927474dcd1\" \"Adressepostale-\" \"Codepostal-\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_4843\" \"ContentObjectID\" \"dob-\" \"email-\" \"ezcoa-4855_captcha_\" \"nom-\" \"prenom-\" \"reglement-\" \"telephone-\" \"ViewMode\" \"Ville-\" \"votresujet-\" ]."
+						}
+					],
+					"count": "1",
+					"systemic": false,
+					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
+					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"-0\" \"-1\" \"-2\" \"-3\" \"4e8d7f9ca19d3f1851b1ff927474dcd1\" \"Adressepostale-\" \"Codepostal-\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_4843\" \"ContentObjectID\" \"dob-\" \"email-\" \"ezcoa-4855_captcha_\" \"nom-\" \"prenom-\" \"reglement-\" \"telephone-\" \"ViewMode\" \"Ville-\" \"votresujet-\" ].</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "1373"
+				},
 				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
@@ -137,7 +167,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "78",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -147,9 +177,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "63",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -165,9 +195,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "1",
+							"uri": "https://www.oise.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
@@ -197,7 +237,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "76",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -207,7 +247,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "75",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -217,7 +257,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "61",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
@@ -227,9 +267,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "101",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -287,7 +327,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
+							"id": "172",
 							"uri": "https://www.oise.gouv.fr/Vous-etes/Particulier2",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Vous-etes\/Particulier2",
 							"method": "GET",
@@ -297,7 +337,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "175",
+							"id": "177",
 							"uri": "https://www.oise.gouv.fr/Vous-etes/Professionnel2",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Vous-etes\/Professionnel2",
 							"method": "GET",
@@ -314,7 +354,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "689"
+					"sourceid": "659"
 				},
 				{
 					"pluginid": "10003",
@@ -327,7 +367,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "189",
+							"id": "185",
 							"uri": "https://www.oise.gouv.fr/var/pref60_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727080321.js",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/var\/pref60_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727080321.js",
 							"method": "GET",
@@ -344,7 +384,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1286"
+					"sourceid": "1250"
 				},
 				{
 					"pluginid": "10044",
@@ -357,7 +397,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "183",
+							"id": "189",
 							"uri": "https://www.oise.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -377,7 +417,7 @@
 							"otherinfo": "Location header URI length: 52 [https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite].\nPredicted response size: 352.\nResponse Body Length: 453."
 						},
 						{
-							"id": "180",
+							"id": "179",
 							"uri": "https://www.oise.gouv.fr/cni",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/cni",
 							"method": "GET",
@@ -387,17 +427,17 @@
 							"otherinfo": "Location header URI length: 68 [https://www.oise.gouv.fr/Demarches/Carte-d-identite/Carte-d-identite].\nPredicted response size: 368.\nResponse Body Length: 517."
 						},
 						{
-							"id": "193",
+							"id": "191",
 							"uri": "https://www.oise.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 94 [https://www.oise.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1651110586?SearchText=ZAP].\nPredicted response size: 394.\nResponse Body Length: 620."
+							"otherinfo": "Location header URI length: 93 [https://www.oise.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/518994800?SearchText=ZAP].\nPredicted response size: 393.\nResponse Body Length: 616."
 						},
 						{
-							"id": "176",
+							"id": "180",
 							"uri": "https://www.oise.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/demarches",
 							"method": "GET",
@@ -407,7 +447,7 @@
 							"otherinfo": "Location header URI length: 34 [https://www.oise.gouv.fr/Demarches].\nPredicted response size: 334.\nResponse Body Length: 381."
 						},
 						{
-							"id": "187",
+							"id": "183",
 							"uri": "https://www.oise.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -417,7 +457,7 @@
 							"otherinfo": "Location header URI length: 130 [https://www.oise.gouv.fr/Demarches/Reglement-general-sur-la-protection-des-donnees-RGPD/Donnees-personnelles-formulaire-de-contact].\nPredicted response size: 430.\nResponse Body Length: 765."
 						},
 						{
-							"id": "171",
+							"id": "173",
 							"uri": "https://www.oise.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/horaires",
 							"method": "GET",
@@ -437,7 +477,7 @@
 							"otherinfo": "Location header URI length: 41 [https://www.oise.gouv.fr/Mentions-legales].\nPredicted response size: 341.\nResponse Body Length: 409."
 						},
 						{
-							"id": "98",
+							"id": "58",
 							"uri": "https://www.oise.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -447,7 +487,7 @@
 							"otherinfo": "Location header URI length: 39 [https://www.oise.gouv.fr/Nous-contacter].\nPredicted response size: 339.\nResponse Body Length: 401."
 						},
 						{
-							"id": "181",
+							"id": "174",
 							"uri": "https://www.oise.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/passeport",
 							"method": "GET",
@@ -457,7 +497,7 @@
 							"otherinfo": "Location header URI length: 45 [https://www.oise.gouv.fr/Demarches/Passeports].\nPredicted response size: 345.\nResponse Body Length: 425."
 						},
 						{
-							"id": "179",
+							"id": "181",
 							"uri": "https://www.oise.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -467,7 +507,7 @@
 							"otherinfo": "Location header URI length: 53 [https://www.oise.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 353.\nResponse Body Length: 457."
 						},
 						{
-							"id": "177",
+							"id": "175",
 							"uri": "https://www.oise.gouv.fr/siv",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/siv",
 							"method": "GET",
@@ -484,7 +524,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1239"
+					"sourceid": "1317"
 				},
 				{
 					"pluginid": "10010",
@@ -617,7 +657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "172",
+							"id": "171",
 							"uri": "https://www.oise.gouv.fr/Vous-etes/Particulier2",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Vous-etes\/Particulier2",
 							"method": "GET",
@@ -627,7 +667,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
+							"id": "176",
 							"uri": "https://www.oise.gouv.fr/Vous-etes/Professionnel2",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Vous-etes\/Professionnel2",
 							"method": "GET",
@@ -644,7 +684,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "689"
+					"sourceid": "659"
 				},
 				{
 					"pluginid": "90004",
@@ -667,7 +707,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "91",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -677,9 +717,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "73",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -717,7 +757,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "92",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -727,9 +767,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "74",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -767,7 +807,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "90",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -777,9 +817,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "72",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -824,7 +864,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1267"
+					"sourceid": "1238"
 				},
 				{
 					"pluginid": "110009",
@@ -847,7 +887,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "192",
+							"id": "194",
 							"uri": "https://www.oise.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -857,7 +897,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "191",
+							"id": "192",
 							"uri": "https://www.oise.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -897,7 +937,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "89",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -907,9 +947,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "71",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -967,7 +1007,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "83",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -977,9 +1017,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "66",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1037,7 +1077,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "64",
+							"id": "84",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1047,7 +1087,17 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "109",
+							"id": "113",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734987600",
+							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
+						},
+						{
+							"id": "95",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -1057,19 +1107,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "92",
+							"id": "67",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734987600",
-							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
-						},
-						{
-							"id": "81",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1107,7 +1147,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "65",
+							"id": "85",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1117,7 +1157,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "110",
+							"id": "117",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "96",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -1127,19 +1177,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "93",
+							"id": "68",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "82",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1177,7 +1217,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "66",
+							"id": "87",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1187,7 +1227,17 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "111",
+							"id": "118",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "php/Actions-de-l-Etat/Elections3",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDb\uFFFD{>u\uFFFD\uFFFDKZ\uFFFD\uFFFD%y\uFFFDb\uFFFD{7"
+						},
+						{
+							"id": "97",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -1198,16 +1248,6 @@
 						},
 						{
 							"id": "130",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Agriculture",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Agriculture",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/pref60_site/storage/images/actions-de-l-etat/agriculture/1710-16-fre-FR/Agriculture",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uCD8A\u0681\uFFFD\u2668\\x001e\uFFFD\uFFFD\uFFFD\uFFFD*'\uFFFD\uFFFD^\uFFFD_\uFFFD\uFFFD\uFFFDj\n\uFFFDr\uFFFDm\uFFFD\uFFFD\uFFFD\u05FDt\uFFFD^\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD"
-						},
-						{
-							"id": "164",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Amenagement-durable-du-territoire",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Amenagement-durable-du-territoire",
 							"method": "GET",
@@ -1217,7 +1257,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00A2i\uFFFD\uFFFD\uFFFD\u06B6*'\uFFFD\uFFFD4{\u69DE+\u07AE\u01A2\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "94",
+							"id": "69",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
@@ -1227,7 +1267,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00A2i\uFFFD\uFFFD\uFFFD\u06B6*'\uFFFD\uFFFD4{\u69DE+\u07AE\u01A2\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "84",
+							"id": "158",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
 							"method": "GET",
@@ -1237,7 +1277,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00A2i\uFFFD\uFFFD\uFFFD\u06B6*'\uFFFD\uFFFD4{\u69DE+\u07AE\u01A2\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "151",
+							"id": "126",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
 							"method": "GET",
@@ -1247,7 +1287,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00A2i\uFFFD\uFFFD\uFFFD\u06B6*'\uFFFD\uFFFD4{\u69DE+\u07AE\u01A2\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "147",
+							"id": "153",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Elections3",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Elections3",
 							"method": "GET",
@@ -1257,17 +1297,7 @@
 							"otherinfo": "~\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~\\x0012\u05AD\uFFFDI^r\u0628\uFFFD\uFFFD"
 						},
 						{
-							"id": "158",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Habitat-Logement-Politique-de-la-ville-Renouvellement-urbain",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Habitat-Logement-Politique-de-la-ville-Renouvellement-urbain",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/pref60_site/storage/images/politiques-publiques/habitat-logement-politique-de-la-ville-renouvellement-urbain/48481-10-fre-FR/Habitat-Logement-Politique-de-la-ville-Renouvellement-urbain",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uCD8A\u0681\uFFFD\u2668\\x001e\uFFFD\uFFFDh\uFFFD+b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFDz\uFFFD\uFFFDi\uFFFD\uFFFDj\u07E5\uFFFD\\x0007\uFFFDz{~\uFFFD\uFFFDb\uFFFD*\uFFFD{\uFFFD^\uFFFDV\uFFFD\uFFFD)e{\uFFFD\u079E\uFFFD\uFFFDzY^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj)\uFFFD\uFFFD\uFFFD<\uFFFD\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFDT\\x001d\uFFFD\u2D6B~.\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD%\uFFFD\u062A\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDzz.\uFFFD\uFFFDezg\uFFFD\uFFFD\uFFFDm\uFFFD\uFFFD"
-						},
-						{
-							"id": "119",
+							"id": "149",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Securites",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Securites",
 							"method": "GET",
@@ -1275,6 +1305,16 @@
 							"attack": "",
 							"evidence": "/Actions-de-l-Etat/Commemorations/80e-anniversaire-de-la-Liberation",
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00A2i\uFFFD\uFFFD\uFFFD\u06B6*'\uFFFD\uFFFD4{\u69DE+\u07AE\u01A2\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "164",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Transports-deplacements-et-education-routiere",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Transports-deplacements-et-education-routiere",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/pref60_site/storage/images/actions-de-l-etat/transports-deplacements-et-education-routiere/77392-16-fre-FR/Transports-deplacements-et-education-routiere",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uCD8A\u0681\uFFFD\u2668\\x001e\uFFFD\uFFFD\uFFFD\uFFFD*'\uFFFD\uFFFD^\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+\uFFFD\u03DDz\uFFFDZq\u979E\uFFFD>z\u07DEv\uFFFD\\x001a\uFFFD*'\uFFFD\uFFFD.\uFFFD'\uFFFD{\uFFFD\uFFFD\uFFFD\u077E\u05EF\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFDj{)\uFFFD\uFFFDl\uFFFD\u05E9\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnq\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFDbz\uFFFD"
 						}
 					],
 					"count": "11",
@@ -1314,7 +1354,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1260"
+					"sourceid": "1231"
 				},
 				{
 					"pluginid": "10027",
@@ -1327,7 +1367,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "186",
+							"id": "187",
 							"uri": "https://www.oise.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1337,7 +1377,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "185",
+							"id": "186",
 							"uri": "https://www.oise.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1354,7 +1394,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1267"
+					"sourceid": "1238"
 				},
 				{
 					"pluginid": "10109",
@@ -1377,7 +1417,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "61",
+							"id": "81",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1387,7 +1427,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "106",
+							"id": "109",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"da83b8f90785ab7fb14d559662331916\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actions-de-l-Etat/Actualite\">\n                                Actualit\u00E9\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "86",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -1397,19 +1447,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "83",
+							"id": "64",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"da83b8f90785ab7fb14d559662331916\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actions-de-l-Etat/Actualite\">\n                                Actualit\u00E9\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "78",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1447,7 +1487,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "88",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1457,7 +1497,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "98",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "70",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
@@ -1467,17 +1517,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "100",
+							"id": "60",
 							"uri": "https://www.oise.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1517,7 +1557,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "77",
 							"uri": "https://www.oise.gouv.fr/",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/",
 							"method": "GET",
@@ -1527,7 +1567,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "79",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Actualite",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Actualite",
 							"method": "GET",
@@ -1537,7 +1577,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "62",
 							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
 							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
@@ -1547,9 +1587,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "103",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Delegation-departementale-aux-droits-des-femmes-et-a-l-egalite",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1587,9 +1627,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "62",
-							"uri": "https://www.oise.gouv.fr/",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/",
+							"id": "65",
+							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Commemorations",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Commemorations",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1597,9 +1637,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "79",
-							"uri": "https://www.oise.gouv.fr/Actions-de-l-Etat/Cultes",
-							"nodeName": "https:\/\/www.oise.gouv.fr\/Actions-de-l-Etat\/Cultes",
+							"id": "59",
+							"uri": "https://www.oise.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.oise.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1904,7 +1944,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				}
 			]
 		}

@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.oise.gouv.fr",
-        "size": 1293.492,
+        "size": 1293.479,
         "nodes": 666,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 22:25:32.628720",
+        "date": "2026-05-13 05:47:32.665329",
         "page_type": "website"
     }
 ]
