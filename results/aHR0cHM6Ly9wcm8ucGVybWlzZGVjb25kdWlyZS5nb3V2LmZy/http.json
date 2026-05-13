@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 07:08:15 GMT",
+      "date": "Wed, 13 May 2026 01:34:48 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
@@ -18,10 +18,10 @@
       "referrer-policy": "same-origin",
       "x-frame-options": "SAMEORIGIN",
       "set-cookie": [
-        "__cf_bm=FKgiqd1H98N28dvGRegX2_LXRmpC46gueq5uZBj9EvM-1773385695.0316098-1.0.1.1-HsXpGAREsovmLfAl4eWNLBOix1R5Yb7nnnjSLG9UhZlP5dslBO7Qez9SsU0xZdal1TYUsUzrLiCTOUJF6xG6VdPdwklJRJO.EApYooEzntXyMe5cMI7LILOOFsa66lMr; HttpOnly; Secure; Path=/; Domain=permisdeconduire.gouv.fr; Expires=Fri, 13 Mar 2026 07:38:15 GMT"
+        "__cf_bm=7zJtsqyItXCgRKC0Kgyrvbg5PkxMIsF99FtnqJV4ja8-1778636088.7111108-1.0.1.1-dKgY7OrUmXENJ70C9jCaSLKq1lqjs0QLG_8Vnehkeoml3zRo4oAL6sM_UI6DoQcwp3wa07Nu7nkuLVh9ZJEbLPTWkOIM_YrOOkdo1nYeYuRuPSzkAyWerqkUY_8uZxbu; HttpOnly; SameSite=None; Secure; Path=/; Domain=permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 02:04:48 GMT"
       ],
       "server": "cloudflare",
-      "cf-ray": "9db934d1f846c99d-IAD"
+      "cf-ray": "9fadec426b53e257-ORD"
     }
   },
   "tests": {
@@ -39,19 +39,20 @@
     "cookies": {
       "expectation": "cookies-secure-with-httponly-sessions",
       "pass": true,
-      "result": "cookies-secure-with-httponly-sessions",
-      "scoreModifier": 0,
+      "result": "cookies-secure-with-httponly-sessions-and-samesite",
+      "scoreModifier": 5,
       "data": {
         "__cf_bm": {
           "domain": "permisdeconduire.gouv.fr",
-          "expires": "2026-03-13T07:38:15.000Z",
+          "expires": "2026-05-13T02:04:48.000Z",
           "httponly": true,
           "path": "/",
           "port": null,
+          "samesite": "none",
           "secure": true
         }
       },
-      "sameSite": false
+      "sameSite": true
     },
     "cross-origin-resource-sharing": {
       "expectation": "cross-origin-resource-sharing-not-implemented",

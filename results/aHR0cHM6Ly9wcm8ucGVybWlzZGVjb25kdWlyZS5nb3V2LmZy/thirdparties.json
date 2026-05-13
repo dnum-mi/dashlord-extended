@@ -3,36 +3,36 @@
   "cookies": [
     {
       "name": "__cf_bm",
-      "value": "NHxPFSS2oIQvSum6VAzpdh3EkRsQdZgPzfpadCGm5zM-1760550330.888501-1.0.1.1-Cm6U6Sd1dF9scth2MLDVcm4RjtoNllY9H8Qf0vzLxa4x2ZazWtgMcExT2JQqPEr4Aft_H6z.pZWaHXEflWYtK7_Bo2fJoZiZGHakSQzoec5D54bOROkN69LQLESsNI_t",
-      "domain": "pro.permisdeconduire.gouv.fr",
+      "value": ".wGbyaTIg2d023wOZFdphz6dkf_cqr58R7.f_8HC6nA-1778635916.5834942-1.0.1.1-R.23EulX9WCaYXWvaOs3H52q0OGxHdsszhe.K3xuIVmdSZVSqcfiVDh5zktJl_x2Fbsg87O3Fp1kDbSbSTLP3Wf0keQHjM5nwR7UGUBSffhC9SvHwGz558E1qMQKTTS6",
+      "domain": ".permisdeconduire.gouv.fr",
       "path": "/",
-      "expires": 1760552130.89559,
-      "size": 205,
+      "expires": 1778637716.593691,
+      "size": 206,
       "httpOnly": true,
       "secure": true,
       "session": false,
+      "sameSite": "None",
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "98f1216f9db32b92-LAX",
+    "cf-ray": "9fade80e296369de-DFW",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 15 Oct 2025 17:45:30 GMT",
+    "date": "Wed, 13 May 2026 01:31:56 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
-    "set-cookie": "__cf_bm=gZKdDQLVJVFrKKgYcNWEovr3df7ujdrIzOpeSapYnv8-1760550330.8152013-1.0.1.1-0HycbWeeIGElU84u9rNgWUOd4PuxkxCBySubp2tWPJ2IcJEl7fTJW6B4vzgUp9CxHb2MD.Qy8ZYLVB.83TQURKpwFJ_zTewhWhIK5Le6hLysy47jxCK4pU2Ht7YvFsM_; HttpOnly; Secure; Path=/; Expires=Wed, 15 Oct 2025 18:15:30 GMT",
-    "vary": "accept-encoding",
+    "set-cookie": "__cf_bm=T07W4QW26xz.tt5N33883Wg3FSeFWPcMsfyaQKCssKo-1778635916.5037944-1.0.1.1-0roh42JQl6BzLMGrps6EWB.cvf7X_DeFrMcjibfGSHf0L5U7W9WdjBBoW1WlAfCZMWipeUXRjPl7It6Rp0wCxlV3wiDReyfa8ebNxATiFfz6ZlcdyEXOwEiQ05D_FDtm; HttpOnly; SameSite=None; Secure; Path=/; Domain=permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 02:01:56 GMT",
     "x-frame-options": "SAMEORIGIN"
   },
   "endpoints": [
     {
       "hostname": "pro.permisdeconduire.gouv.fr",
-      "ip": "104.18.6.65",
+      "ip": "104.18.7.65",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -41,7 +41,7 @@
             "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
-            "fr": "États Unis",
+            "fr": "États-Unis",
             "ja": "アメリカ",
             "pt-BR": "EUA",
             "ru": "США",
