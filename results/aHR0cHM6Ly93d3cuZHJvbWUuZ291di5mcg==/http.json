@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 12 May 2026 21:09:40 GMT",
+      "date": "Wed, 13 May 2026 04:28:19 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Tue, 12 May 2026 19:09:40 GMT",
-      "last-modified": "Tue, 12 May 2026 21:09:40 GMT",
+      "expires": "Wed, 13 May 2026 02:28:19 GMT",
+      "last-modified": "Wed, 13 May 2026 04:28:19 GMT",
       "served-by": "www.drome.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=s6c80s1d7bmqs11jgptrd9e2r4; path=/"
+        "eZSESSID=648udn183ssqdtfld3c2hkj0t6; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
