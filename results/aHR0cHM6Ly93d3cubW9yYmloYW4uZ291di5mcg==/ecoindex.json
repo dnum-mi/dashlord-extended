@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.morbihan.gouv.fr",
-        "size": 1330.315,
+        "size": 1330.409,
         "nodes": 755,
         "requests": 48,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.96,
         "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 22:12:45.741753",
+        "date": "2026-05-13 05:38:35.187333",
         "page_type": "website"
     }
 ]
