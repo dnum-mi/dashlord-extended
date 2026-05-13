@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.haute-loire.gouv.fr",
-        "size": 1275.692,
+        "size": 1275.69,
         "nodes": 647,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 21:42:21.557633",
+        "date": "2026-05-13 05:04:16.239772",
         "page_type": "website"
     }
 ]
