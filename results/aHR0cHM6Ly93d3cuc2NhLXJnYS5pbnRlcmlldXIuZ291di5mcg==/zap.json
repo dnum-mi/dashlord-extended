@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 01:40:29",
-	"created": "2026-05-13T01:40:29.343843802Z",
+	"@generated": "Wed, 13 May 2026 09:05:03",
+	"created": "2026-05-13T09:05:03.270062047Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -106,7 +106,7 @@
 			"site": "https://www.sca-rga.interieur.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "76"
 		}
 	],
 	"site":[ 
@@ -127,7 +127,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "2",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -137,7 +137,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "12",
+							"id": "42",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -145,9 +145,19 @@
 							"attack": "",
 							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "39",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
+							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</p>",
@@ -167,7 +177,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "3",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -177,7 +187,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, font-src, media-src, worker-src"
 						},
 						{
-							"id": "13",
+							"id": "45",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -185,16 +195,26 @@
 							"attack": "",
 							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, font-src, media-src, worker-src"
+						},
+						{
+							"id": "44",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, font-src, media-src, worker-src"
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:</p><p>script-src, style-src, img-src, connect-src, font-src, media-src, worker-src</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -207,7 +227,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "4",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -217,7 +237,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "16",
+							"id": "51",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -225,9 +245,19 @@
 							"attack": "",
 							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
 							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "47",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
+							"otherinfo": "script-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-inline.</p>",
@@ -247,7 +277,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "5",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -257,7 +287,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "19",
+							"id": "56",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -265,16 +295,26 @@
 							"attack": "",
 							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
 							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "50",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
+							"otherinfo": "style-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -287,7 +327,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "1",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -297,7 +337,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "28",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -307,7 +347,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "31",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -337,7 +377,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "6",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -347,7 +387,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "54",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/config.js",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/config.js",
 							"method": "GET",
@@ -357,7 +397,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "22",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -367,7 +407,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "57",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -377,7 +417,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "52",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -394,7 +434,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10011",
@@ -407,7 +447,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "8",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -417,7 +457,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "60",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/config.js",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/config.js",
 							"method": "GET",
@@ -427,7 +467,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "26",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -437,7 +477,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "64",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -447,7 +487,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "58",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -464,7 +504,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -477,7 +517,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "7",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -487,7 +527,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "59",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/config.js",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/config.js",
 							"method": "GET",
@@ -497,7 +537,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "25",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -507,7 +547,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "62",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -517,7 +557,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "55",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -547,7 +587,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "93",
+							"id": "20",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -557,7 +597,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "93",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -567,7 +607,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "94",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -584,7 +624,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -597,7 +637,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "94",
+							"id": "21",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -607,7 +647,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "96",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -617,7 +657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "97",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -634,7 +674,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -647,7 +687,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "90",
+							"id": "19",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -667,7 +707,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "92",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -677,7 +717,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "91",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -694,7 +734,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -707,7 +747,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "83",
+							"id": "18",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -737,7 +777,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "90",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -747,7 +787,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "88",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -764,7 +804,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -847,7 +887,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "40",
+							"id": "12",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -858,8 +898,8 @@
 						},
 						{
 							"id": "100",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/apple-touch-icon-DrfPSIlu.png",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/apple-touch-icon-DrfPSIlu.png",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/favicon-BMkCb9zi.ico",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/favicon-BMkCb9zi.ico",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -867,7 +907,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "9",
+							"id": "29",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -877,7 +917,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "41",
+							"id": "80",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -887,7 +927,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "57",
+							"id": "72",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -957,7 +997,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "9",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -967,7 +1007,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"<!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See h\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "34",
+							"id": "10",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -987,7 +1027,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 3 times, the first in likely comment: \"/**\n * @license\n * Joseph Myers does not specify a particular license for his work.\n *\n * Author: Joseph Myers\n * Accessed from:\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "31",
+							"id": "66",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -997,7 +1037,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"<!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See h\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "35",
+							"id": "69",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1007,7 +1047,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"<!--\n      Notice the use of %PUBLIC_URL% in the tags above.\n      It will be replaced with the URL of the `public` folder durin\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "54",
+							"id": "65",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1017,7 +1057,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"<!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See h\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "55",
+							"id": "67",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1034,7 +1074,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -1047,7 +1087,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "11",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1057,7 +1097,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "38",
+							"id": "74",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1067,7 +1107,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "56",
+							"id": "70",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1097,7 +1137,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "81",
+							"id": "17",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1107,9 +1147,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/apple-touch-icon-DrfPSIlu.png",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/apple-touch-icon-DrfPSIlu.png",
+							"id": "104",
+							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/favicon-BMkCb9zi.ico",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/favicon-BMkCb9zi.ico",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1117,7 +1157,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "43",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1137,7 +1177,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "84",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1154,7 +1194,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -1167,7 +1207,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "109",
+							"id": "107",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/manifest-Ysg1ohlc.webmanifest",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/manifest-Ysg1ohlc.webmanifest",
 							"method": "GET",
@@ -1177,7 +1217,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "118",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/manifest.json",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/manifest.json",
 							"method": "GET",
@@ -1194,7 +1234,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "24"
+					"sourceid": "23"
 				},
 				{
 					"pluginid": "90005",
@@ -1207,7 +1247,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "74",
+							"id": "15",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1217,7 +1257,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "36",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1227,17 +1267,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "60",
+							"id": "79",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1247,7 +1277,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1267,7 +1297,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "73",
+							"id": "14",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1277,7 +1307,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "35",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1287,17 +1317,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "59",
+							"id": "78",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1307,7 +1327,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1327,7 +1347,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "72",
+							"id": "13",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1337,7 +1357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "32",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1347,17 +1367,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "58",
+							"id": "76",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1367,7 +1377,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1387,7 +1397,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "75",
+							"id": "16",
 							"uri": "https://www.sca-rga.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
 							"method": "GET",
@@ -1397,7 +1407,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "40",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/favicon.ico",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/favicon.ico",
 							"method": "GET",
@@ -1408,16 +1418,6 @@
 						},
 						{
 							"id": "82",
-							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "61",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1427,7 +1427,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1447,7 +1447,17 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "104",
+							"id": "0",
+							"uri": "https://www.sca-rga.interieur.gouv.fr",
+							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr",
+							"method": "GET",
+							"param": "YOMe1h3tgHKNQxhV6V7n5g__",
+							"attack": "",
+							"evidence": "YOMe1h3tgHKNQxhV6V7n5g__",
+							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
+						},
+						{
+							"id": "105",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/assets/manifest-Ysg1ohlc.webmanifest",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/assets\/manifest-Ysg1ohlc.webmanifest",
 							"method": "GET",
@@ -1457,7 +1467,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "102",
+							"id": "115",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/manifest.json",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/manifest.json",
 							"method": "GET",
@@ -1467,7 +1477,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "2",
+							"id": "27",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1477,7 +1487,7 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						},
 						{
-							"id": "49",
+							"id": "30",
 							"uri": "https://www.sca-rga.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.sca-rga.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1487,14 +1497,14 @@
 							"otherinfo": "cookie:YOMe1h3tgHKNQxhV6V7n5g__"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:YOMe1h3tgHKNQxhV6V7n5g__</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "24"
+					"sourceid": "1"
 				}
 			]
 		}
