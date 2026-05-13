@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "9b808tih51j0l8lciimvbecs25",
+      "value": "gubpg5vbpf6rtjtgs720veq4c1",
       "domain": "www.haut-rhin.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -22,13 +22,14 @@
     "cache-control": "must-revalidate, no-cache, private",
     "content-encoding": "gzip",
     "content-language": "fr-FR",
+    "content-length": "15919",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:42:32 GMT",
-    "expires": "Tue, 12 May 2026 20:42:32 GMT",
-    "last-modified": "Tue, 12 May 2026 22:42:32 GMT",
+    "date": "Wed, 13 May 2026 06:03:46 GMT",
+    "expires": "Wed, 13 May 2026 04:03:46 GMT",
+    "last-modified": "Wed, 13 May 2026 06:03:46 GMT",
     "pragma": "no-cache",
     "served-by": "www.haut-rhin.gouv.fr",
-    "set-cookie": "eZSESSID=9b808tih51j0l8lciimvbecs25; path=/",
+    "set-cookie": "eZSESSID=gubpg5vbpf6rtjtgs720veq4c1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
