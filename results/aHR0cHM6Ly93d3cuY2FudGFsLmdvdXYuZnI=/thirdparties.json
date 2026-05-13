@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "urc4p7h4c1phc2519rlodva6d5",
+      "value": "mo294ug4ikkt377jks1qnfnfu0",
       "domain": "www.cantal.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:31:55 GMT",
-    "expires": "Tue, 12 May 2026 18:31:55 GMT",
-    "last-modified": "Tue, 12 May 2026 20:31:55 GMT",
+    "date": "Wed, 13 May 2026 03:55:23 GMT",
+    "expires": "Wed, 13 May 2026 01:55:23 GMT",
+    "last-modified": "Wed, 13 May 2026 03:55:23 GMT",
     "pragma": "no-cache",
     "served-by": "www.cantal.gouv.fr",
-    "set-cookie": "eZSESSID=urc4p7h4c1phc2519rlodva6d5; path=/",
+    "set-cookie": "eZSESSID=mo294ug4ikkt377jks1qnfnfu0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
