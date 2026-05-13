@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "q1ukd3ijoi3vaot02eq82vs536",
+      "value": "kq417nom60l9rd0kekcle8q9u7",
       "domain": "www.seine-maritime.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:59:07 GMT",
-    "expires": "Tue, 12 May 2026 20:59:07 GMT",
-    "last-modified": "Tue, 12 May 2026 22:59:07 GMT",
+    "date": "Wed, 13 May 2026 06:22:55 GMT",
+    "expires": "Wed, 13 May 2026 04:22:55 GMT",
+    "last-modified": "Wed, 13 May 2026 06:22:55 GMT",
     "pragma": "no-cache",
     "served-by": "www.seine-maritime.gouv.fr",
-    "set-cookie": "eZSESSID=q1ukd3ijoi3vaot02eq82vs536; path=/",
+    "set-cookie": "eZSESSID=kq417nom60l9rd0kekcle8q9u7; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
