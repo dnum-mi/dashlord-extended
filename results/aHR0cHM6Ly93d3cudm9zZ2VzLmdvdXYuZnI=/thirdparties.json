@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "g515a8bbumls40el4eonm81i45",
+      "value": "unodim36pab2ir4q4h5r28ec23",
       "domain": "www.vosges.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 23:28:47 GMT",
-    "expires": "Tue, 12 May 2026 21:28:48 GMT",
-    "last-modified": "Tue, 12 May 2026 23:28:48 GMT",
+    "date": "Wed, 13 May 2026 06:54:14 GMT",
+    "expires": "Wed, 13 May 2026 04:54:14 GMT",
+    "last-modified": "Wed, 13 May 2026 06:54:14 GMT",
     "pragma": "no-cache",
     "served-by": "www.vosges.gouv.fr",
-    "set-cookie": "eZSESSID=g515a8bbumls40el4eonm81i45; path=/",
+    "set-cookie": "eZSESSID=unodim36pab2ir4q4h5r28ec23; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
