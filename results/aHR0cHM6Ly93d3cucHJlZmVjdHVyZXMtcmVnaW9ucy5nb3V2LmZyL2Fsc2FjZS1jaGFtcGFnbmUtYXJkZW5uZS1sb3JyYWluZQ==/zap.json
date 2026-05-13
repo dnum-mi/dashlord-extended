@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 01:08:51",
-	"created": "2026-05-13T01:08:51.524261330Z",
+	"@generated": "Wed, 13 May 2026 07:40:04",
+	"created": "2026-05-13T07:40:04.636039185Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -97,7 +97,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "38",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -107,7 +107,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "16",
 							"uri": "https://www.prefectures-regions.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -147,7 +147,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "45",
 							"uri": "https://www.prefectures-regions.gouv.fr/cdn-cgi/styles/cf.errors.ie.css",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/cdn-cgi\/styles\/cf.errors.ie.css",
 							"method": "GET",
@@ -174,7 +174,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "14"
+					"sourceid": "17"
 				},
 				{
 					"pluginid": "10063",
@@ -187,7 +187,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "36",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -197,7 +197,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "35",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -207,7 +207,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "31",
 							"uri": "https://www.prefectures-regions.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -224,7 +224,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10035",
@@ -237,7 +237,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "8",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -247,7 +247,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "7",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -277,7 +277,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "22",
 							"uri": "https://www.prefectures-regions.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -294,7 +294,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "9"
+					"sourceid": "3"
 				},
 				{
 					"pluginid": "10021",
@@ -324,7 +324,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10049",
@@ -337,7 +337,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "32",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -347,7 +347,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "34",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -357,7 +357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "30",
 							"uri": "https://www.prefectures-regions.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -373,36 +373,6 @@
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
-					"wascid": "13",
-					"sourceid": "3"
-				},
-				{
-					"pluginid": "10015",
-					"alertRef": "10015",
-					"alert": "Re-examine Cache-control Directives",
-					"name": "Re-examine Cache-control Directives",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
-					"instances":[ 
-						{
-							"id": "0",
-							"uri": "https://www.prefectures-regions.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
-					"otherinfo": "",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
-					"cweid": "525",
 					"wascid": "13",
 					"sourceid": "8"
 				},
@@ -434,7 +404,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
 					"cweid": "525",
 					"wascid": "-1",
-					"sourceid": "8"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -447,7 +417,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "23",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -457,7 +427,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "27",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -484,7 +454,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -497,7 +467,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "18",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -507,7 +477,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "21",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -534,7 +504,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "9"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -547,7 +517,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "17",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -557,7 +527,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "19",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -584,7 +554,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "3"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -597,7 +567,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "25",
 							"uri": "https://www.prefectures-regions.gouv.fr/",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/",
 							"method": "GET",
@@ -607,7 +577,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "29",
 							"uri": "https://www.prefectures-regions.gouv.fr/alsace-champagne-ardenne-lorraine",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/alsace-champagne-ardenne-lorraine",
 							"method": "GET",
@@ -634,7 +604,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "9"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10049",
@@ -657,7 +627,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "44",
 							"uri": "https://www.prefectures-regions.gouv.fr/cdn-cgi/styles/cf.errors.ie.css",
 							"nodeName": "https:\/\/www.prefectures-regions.gouv.fr\/cdn-cgi\/styles\/cf.errors.ie.css",
 							"method": "GET",
@@ -684,7 +654,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "14"
+					"sourceid": "17"
 				}
 			]
 		}
