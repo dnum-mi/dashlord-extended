@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "4bppme45qpbmf8a2oi3hnn3if5",
+      "value": "bvsjelcoetegcf0hei3kbt54h3",
       "domain": "www.marne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:03:18 GMT",
-    "expires": "Tue, 12 May 2026 20:03:18 GMT",
-    "last-modified": "Tue, 12 May 2026 22:03:18 GMT",
+    "date": "Wed, 13 May 2026 05:24:15 GMT",
+    "expires": "Wed, 13 May 2026 03:24:15 GMT",
+    "last-modified": "Wed, 13 May 2026 05:24:15 GMT",
     "pragma": "no-cache",
     "served-by": "www.marne.gouv.fr",
-    "set-cookie": "eZSESSID=4bppme45qpbmf8a2oi3hnn3if5; path=/",
+    "set-cookie": "eZSESSID=bvsjelcoetegcf0hei3kbt54h3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
