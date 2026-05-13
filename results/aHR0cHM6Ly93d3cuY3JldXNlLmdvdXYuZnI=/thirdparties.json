@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "1frdv223h70k57veb6vut09pi7",
+      "value": "va0u1oe22c8th81ltof09hn494",
       "domain": "www.creuse.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:56:29 GMT",
-    "expires": "Tue, 12 May 2026 18:56:30 GMT",
-    "last-modified": "Tue, 12 May 2026 20:56:30 GMT",
+    "date": "Wed, 13 May 2026 04:16:12 GMT",
+    "expires": "Wed, 13 May 2026 02:16:12 GMT",
+    "last-modified": "Wed, 13 May 2026 04:16:12 GMT",
     "pragma": "no-cache",
     "served-by": "www.creuse.gouv.fr",
-    "set-cookie": "eZSESSID=1frdv223h70k57veb6vut09pi7; path=/",
+    "set-cookie": "eZSESSID=va0u1oe22c8th81ltof09hn494; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
