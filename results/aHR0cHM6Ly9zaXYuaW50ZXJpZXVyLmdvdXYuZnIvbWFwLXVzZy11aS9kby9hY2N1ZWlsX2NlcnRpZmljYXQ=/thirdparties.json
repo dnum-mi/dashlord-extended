@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "JSESSIONID",
-      "value": "CAB566D82C3669F6E025F48F6220472F.RSSESZS39_USG1worker",
+      "value": "EBCD64FD6B77F83B9C7C21EECA4A13B2.RSSESZS39_USG1worker",
       "domain": "siv.interieur.gouv.fr",
       "path": "/map-usg-ui",
       "expires": -1,
@@ -21,9 +21,9 @@
     "content-encoding": "gzip",
     "content-length": "3025",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Tue, 12 May 2026 19:19:23 GMT",
+    "date": "Wed, 13 May 2026 02:50:14 GMT",
     "keep-alive": "timeout=5, max=300",
-    "set-cookie": "JSESSIONID=CAB566D82C3669F6E025F48F6220472F.RSSESZS39_USG1worker; Path=/map-usg-ui",
+    "set-cookie": "JSESSIONID=EBCD64FD6B77F83B9C7C21EECA4A13B2.RSSESZS39_USG1worker; Path=/map-usg-ui",
     "vary": "Accept-Encoding"
   },
   "endpoints": [

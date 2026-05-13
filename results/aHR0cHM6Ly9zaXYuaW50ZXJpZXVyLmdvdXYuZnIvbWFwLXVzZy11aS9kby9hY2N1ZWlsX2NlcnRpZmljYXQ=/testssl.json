@@ -374,7 +374,7 @@
               "ip"           : "siv.interieur.gouv.fr/143.196.253.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "61 >= 60 days"
+              "finding"      : "60 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -577,7 +577,7 @@
               "ip"           : "siv.interieur.gouv.fr/143.196.253.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778613807"
+              "finding"      : "1778640861"
           }
 ,         {
               "id"           : "HSTS",
@@ -1156,6 +1156,6 @@
               "ip"           : "siv.interieur.gouv.fr/143.196.253.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "92"
           }
 ]
