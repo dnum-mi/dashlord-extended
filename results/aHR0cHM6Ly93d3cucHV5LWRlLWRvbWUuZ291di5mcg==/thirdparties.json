@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "hq8d8ctautk2ffimjq71p33sk7",
+      "value": "et7bvtsirdm514mtbltn5frp20",
       "domain": "www.puy-de-dome.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:32:56 GMT",
-    "expires": "Tue, 12 May 2026 20:32:56 GMT",
-    "last-modified": "Tue, 12 May 2026 22:32:56 GMT",
+    "date": "Wed, 13 May 2026 05:53:49 GMT",
+    "expires": "Wed, 13 May 2026 03:53:50 GMT",
+    "last-modified": "Wed, 13 May 2026 05:53:50 GMT",
     "pragma": "no-cache",
     "served-by": "www.puy-de-dome.gouv.fr",
-    "set-cookie": "eZSESSID=hq8d8ctautk2ffimjq71p33sk7; path=/",
+    "set-cookie": "eZSESSID=et7bvtsirdm514mtbltn5frp20; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
