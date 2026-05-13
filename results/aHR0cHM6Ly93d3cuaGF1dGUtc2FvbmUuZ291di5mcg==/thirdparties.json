@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "unctkv05v3fl7o8ltf3euibp36",
+      "value": "qrf82tvd9e3fsjoa53en6ugnb3",
       "domain": "www.haute-saone.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:48:11 GMT",
-    "expires": "Tue, 12 May 2026 20:48:11 GMT",
-    "last-modified": "Tue, 12 May 2026 22:48:11 GMT",
+    "date": "Wed, 13 May 2026 06:11:47 GMT",
+    "expires": "Wed, 13 May 2026 04:11:47 GMT",
+    "last-modified": "Wed, 13 May 2026 06:11:47 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-saone.gouv.fr",
-    "set-cookie": "eZSESSID=unctkv05v3fl7o8ltf3euibp36; path=/",
+    "set-cookie": "eZSESSID=qrf82tvd9e3fsjoa53en6ugnb3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
