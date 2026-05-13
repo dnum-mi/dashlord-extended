@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "gd7eclda34iakfds3urub10ql7",
+      "value": "qopns06itv544l9tf587allpi1",
       "domain": "www.gard.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:15:22 GMT",
-    "expires": "Tue, 12 May 2026 19:15:22 GMT",
-    "last-modified": "Tue, 12 May 2026 21:15:22 GMT",
+    "date": "Wed, 13 May 2026 04:35:05 GMT",
+    "expires": "Wed, 13 May 2026 02:35:05 GMT",
+    "last-modified": "Wed, 13 May 2026 04:35:05 GMT",
     "pragma": "no-cache",
     "served-by": "www.gard.gouv.fr",
-    "set-cookie": "eZSESSID=gd7eclda34iakfds3urub10ql7; path=/",
+    "set-cookie": "eZSESSID=qopns06itv544l9tf587allpi1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
