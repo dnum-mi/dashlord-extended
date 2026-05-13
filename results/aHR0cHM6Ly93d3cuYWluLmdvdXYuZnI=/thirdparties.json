@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "54f2aqrfhnchk57r6dsib4nmt5",
+      "value": "fckte9issguopkf4ithtmvum14",
       "domain": "www.ain.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 19:57:38 GMT",
-    "expires": "Tue, 12 May 2026 17:57:39 GMT",
-    "last-modified": "Tue, 12 May 2026 19:57:39 GMT",
+    "date": "Wed, 13 May 2026 03:21:28 GMT",
+    "expires": "Wed, 13 May 2026 01:21:28 GMT",
+    "last-modified": "Wed, 13 May 2026 03:21:28 GMT",
     "pragma": "no-cache",
     "served-by": "www.ain.gouv.fr",
-    "set-cookie": "eZSESSID=54f2aqrfhnchk57r6dsib4nmt5; path=/",
+    "set-cookie": "eZSESSID=fckte9issguopkf4ithtmvum14; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
