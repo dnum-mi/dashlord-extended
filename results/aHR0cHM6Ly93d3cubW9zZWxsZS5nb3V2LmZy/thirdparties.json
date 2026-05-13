@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "3nnj8c03l1i3pvu7f8cv4cbm77",
+      "value": "2oa56bujavev0rqrotbicv77f0",
       "domain": "www.moselle.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 22:17:14 GMT",
-    "expires": "Tue, 12 May 2026 20:17:14 GMT",
-    "last-modified": "Tue, 12 May 2026 22:17:14 GMT",
+    "date": "Wed, 13 May 2026 05:38:13 GMT",
+    "expires": "Wed, 13 May 2026 03:38:13 GMT",
+    "last-modified": "Wed, 13 May 2026 05:38:13 GMT",
     "pragma": "no-cache",
     "served-by": "www.moselle.gouv.fr",
-    "set-cookie": "eZSESSID=3nnj8c03l1i3pvu7f8cv4cbm77; path=/",
+    "set-cookie": "eZSESSID=2oa56bujavev0rqrotbicv77f0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.moselle.gouv.fr",
-        "size": 1544.322,
+        "size": 1544.329,
         "nodes": 664,
         "requests": 47,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-12 22:18:09.307483",
+        "date": "2026-05-13 05:39:15.521818",
         "page_type": "website"
     }
 ]
