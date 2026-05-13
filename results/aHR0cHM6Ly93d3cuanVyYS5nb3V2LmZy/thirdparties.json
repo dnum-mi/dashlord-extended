@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "id632opelo3g5trkrbphlcg555",
+      "value": "oea11utk1ra1au4e24hp1782c6",
       "domain": "www.jura.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 21:33:17 GMT",
-    "expires": "Tue, 12 May 2026 19:33:17 GMT",
-    "last-modified": "Tue, 12 May 2026 21:33:17 GMT",
+    "date": "Wed, 13 May 2026 04:54:43 GMT",
+    "expires": "Wed, 13 May 2026 02:54:43 GMT",
+    "last-modified": "Wed, 13 May 2026 04:54:43 GMT",
     "pragma": "no-cache",
     "served-by": "www.jura.gouv.fr",
-    "set-cookie": "eZSESSID=id632opelo3g5trkrbphlcg555; path=/",
+    "set-cookie": "eZSESSID=oea11utk1ra1au4e24hp1782c6; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
