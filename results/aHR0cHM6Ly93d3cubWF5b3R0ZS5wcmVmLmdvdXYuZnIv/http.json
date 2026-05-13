@@ -9,11 +9,11 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 00:05:49 GMT",
+      "date": "Wed, 13 May 2026 07:33:44 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Tue, 12 May 2026 22:05:49 GMT",
-      "last-modified": "Wed, 13 May 2026 00:05:49 GMT",
+      "expires": "Wed, 13 May 2026 05:33:44 GMT",
+      "last-modified": "Wed, 13 May 2026 07:33:44 GMT",
       "served-by": "www.mayotte.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=ar9jcrmcn5mvh4v991p3u5vt71; path=/"
+        "eZSESSID=ta68aopnmeakrt5llhku5sgms4; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
