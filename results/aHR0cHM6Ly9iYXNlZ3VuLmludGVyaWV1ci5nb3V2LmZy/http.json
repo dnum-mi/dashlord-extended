@@ -9,15 +9,15 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 13 Mar 2026 07:18:41 GMT",
+      "date": "Wed, 13 May 2026 01:50:27 GMT",
       "set-cookie": [
-        "1116f341004f1470f29d41fb0b3b7715=e5d9b7cce2c3a976a644b4f5b1d72c33; path=/; HttpOnly",
-        "bZA_=v1AfHOgw__875; Expires=Fri, 13-Mar-2026 09:18:41 GMT; Path=/"
+        "1116f341004f1470f29d41fb0b3b7715=f25fae3ed3d67c12fa1f5b5c4b7c7592; path=/; HttpOnly",
+        "bZA_=v1AfHOgw__875; Expires=Wed, 13-May-2026 03:50:27 GMT; Path=/"
       ],
       "content-type": "text/html",
       "content-length": "1165",
-      "last-modified": "Fri, 05 Sep 2025 14:52:40 GMT",
-      "etag": "\"68baf938-48d\"",
+      "last-modified": "Thu, 23 Apr 2026 14:37:09 GMT",
+      "etag": "\"69ea2e95-48d\"",
       "accept-ranges": "bytes",
       "cache-control": "private",
       "strict-transport-security": "max-age=31536000",
@@ -50,7 +50,7 @@
         },
         "bZA_": {
           "domain": "basegun.interieur.gouv.fr",
-          "expires": "2026-03-13T09:18:41.000Z",
+          "expires": "2026-05-13T03:50:27.000Z",
           "path": "/",
           "port": null
         }

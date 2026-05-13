@@ -2,22 +2,8 @@
   "trackers": [],
   "cookies": [
     {
-      "name": "bZA_",
-      "value": "v1AfHOgw__875",
-      "domain": "basegun.interieur.gouv.fr",
-      "path": "/",
-      "expires": 1760559529.744183,
-      "size": 17,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
-    },
-    {
-      "name": "d7f32cfdb0f8e4d0ad8d884e41774982",
-      "value": "2c83d34a5814fce186ef0b7de43815d3",
+      "name": "1116f341004f1470f29d41fb0b3b7715",
+      "value": "f25fae3ed3d67c12fa1f5b5c4b7c7592",
       "domain": "basegun.interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -26,8 +12,22 @@
       "secure": false,
       "session": true,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "bZA_",
+      "value": "v1AfHOgw__875",
+      "domain": "basegun.interieur.gouv.fr",
+      "path": "/",
+      "expires": 1778644031.013065,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -35,10 +35,10 @@
     "cache-control": "private",
     "content-length": "1165",
     "content-type": "text/html",
-    "date": "Wed, 15 Oct 2025 18:18:49 GMT",
-    "etag": "\"68baf938-48d\"",
-    "last-modified": "Fri, 05 Sep 2025 14:52:40 GMT",
-    "set-cookie": "d7f32cfdb0f8e4d0ad8d884e41774982=2c83d34a5814fce186ef0b7de43815d3; path=/; HttpOnly\nbZA_=v1AfHOgw__875; Expires=Wed, 15-Oct-2025 20:18:49 GMT; Path=/",
+    "date": "Wed, 13 May 2026 01:47:10 GMT",
+    "etag": "\"69ea2e95-48d\"",
+    "last-modified": "Thu, 23 Apr 2026 14:37:09 GMT",
+    "set-cookie": "1116f341004f1470f29d41fb0b3b7715=f25fae3ed3d67c12fa1f5b5c4b7c7592; path=/; HttpOnly\nbZA_=v1AfHOgw__875; Expires=Wed, 13-May-2026 03:47:10 GMT; Path=/",
     "strict-transport-security": "max-age=31536000"
   },
   "endpoints": [
@@ -76,7 +76,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 500,
           "latitude": 48.8582,
           "longitude": 2.3387,
           "time_zone": "Europe/Paris"
