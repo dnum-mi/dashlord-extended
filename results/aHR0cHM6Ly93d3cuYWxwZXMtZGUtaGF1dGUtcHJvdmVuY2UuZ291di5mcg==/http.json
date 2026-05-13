@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 12 May 2026 20:11:32 GMT",
+      "date": "Wed, 13 May 2026 03:32:12 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Tue, 12 May 2026 18:11:32 GMT",
-      "last-modified": "Tue, 12 May 2026 20:11:32 GMT",
+      "expires": "Wed, 13 May 2026 01:32:12 GMT",
+      "last-modified": "Wed, 13 May 2026 03:32:12 GMT",
       "served-by": "www.alpes-de-haute-provence.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=glumncekipors9rt182fhmvc94; path=/"
+        "eZSESSID=hfqfl19dppoi21qphc75188dj3; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"

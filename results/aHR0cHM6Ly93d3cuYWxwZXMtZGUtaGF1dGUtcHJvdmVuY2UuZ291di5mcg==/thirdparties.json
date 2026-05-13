@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "qcek843fnu5nkf4ad9cfpvda85",
+      "value": "tnu36fag4ijru9ledc2iclbl07",
       "domain": "www.alpes-de-haute-provence.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 12 May 2026 20:06:14 GMT",
-    "expires": "Tue, 12 May 2026 18:06:15 GMT",
-    "last-modified": "Tue, 12 May 2026 20:06:15 GMT",
+    "date": "Wed, 13 May 2026 03:28:30 GMT",
+    "expires": "Wed, 13 May 2026 01:28:30 GMT",
+    "last-modified": "Wed, 13 May 2026 03:28:30 GMT",
     "pragma": "no-cache",
     "served-by": "www.alpes-de-haute-provence.gouv.fr",
-    "set-cookie": "eZSESSID=qcek843fnu5nkf4ad9cfpvda85; path=/",
+    "set-cookie": "eZSESSID=tnu36fag4ijru9ledc2iclbl07; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
