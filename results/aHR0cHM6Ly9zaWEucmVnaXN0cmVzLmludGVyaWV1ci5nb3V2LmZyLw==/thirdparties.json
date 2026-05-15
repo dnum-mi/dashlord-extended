@@ -1,5 +1,230 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "dtSa",
+      "value": "-",
+      "domain": ".interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "dtCookie",
+      "value": "v_4_srv_8_sn_1CBDEB92353B9B05306257685FD2AED6_perc_100000_ol_0_mul_1_app-3A2a2d0d101610a228_1",
+      "domain": ".interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 101,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "KC_RESTART",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..tK4MH_Hbj97hZ1HL7kgIIA.OBc64YR3FarZIVFKp7ftvTagXP93rkyCJ6HNWBaASH-r8t0XUQ-fpssZ9AEN6tn1t_TOKJaJklRQkgX8r2VSjEyuBOuO2l0kOQ8Z87izkKIszrl4-BD65rMJz9Z2k5KP-CfUxcgfz5W2hgdpVCGo7R7mjMP6lzFj31U-SQkN9qEWISo_hwSCgoQGHNspDfZEz0kN2iEL93T55VBFlxerowDsR_wH8k4xCTDss29N39H3uoGMzZKnRXl7G3eWu52NII3Qyf5MPd1wzEimtf623upxalomCoaH8fhhbEwbV3JMlEzyPetW5umMFBukCYeobilCd59pgXJT0zMZbvjJDVbeQMsgPJz4yFmW62dvOkJPnt6tIhf7kKND75ftp9rAm1HBwySXWh9he5WWjt7XCNqgQbIC6vqsrEfXeTPoucihVBpVUHbBajWyDnEPlFv42jmmt0hEH3oXnMGLA9Bk07ZsX_e1_CJjkO4nk28ik8x4myMy6ygfEV6Nnr-7YuPVELHq3pBHqhIAQr1qJM_J4hpdOltRfaMbcPF0NlpkgsGFkS9zxNs8J5WkcrmiHv4EYx2cKJLOMnctLdMWdrpXjeGfL_BlTeh1LAhofmTQMwiZy_ImFnr45Qmf_FWuId0xQxrAPePnLpBliWwcvzk8sKhlrimGKTCM1kP5jF0v0zl_aJkbpUWGABfXBaV_rzRxTTkkKAODzJQ-HDxwt9-b1M6ADFAgXoMPWOd4kNa9BvRoarTBLf46djR9wGPiSOXNo_VOZ0qFvxPavpUHfymMWDrM2vJRMxtBbEh4ZOGFGTYlnW-fJqCoKoHN6sc3AwYhDHBXml82_ABEkQ2MfJQKNrOpL__4f-BtaOmEEluuk7YWTXF0nl4XqGLiuXukihbkSY4zO0njYTbELfSwKv9f4yB80DPl929Tuaj9bJcAFaIimrQDXo8aHmNZbssB-kNKQJ0xPp9S2M-VUs9rRpzhU-j_sofU2HhlNwHPhSd2nham4JogbjfJMth3qBqaZYpC0smp-Fc6_GEo1s6ypSSrPV6Bra1hV5CrJz7d4fGxS0E.Jd9rM6eZ4nyxj3O5C09yVw",
+      "domain": "sia.registres.interieur.gouv.fr",
+      "path": "/realms/siarmes/",
+      "expires": -1,
+      "size": 1172,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "OGM0ZTFhOWUtMDdlOS00ZjkxLTlkNTQtMTU2ODlhOTdmMTI3LkswSVZoZXRfU3h3eXVnOFlWR1ZoelRsd1dMWUpzZC1DRmF2VkpQX0x6QWxiZEZNdXpnQmNZYUlmVFA4Yld4M2QtazduUWlxMnh5N3ZXdjVwcVh6bVR3.a8c2d6427a28-34882",
+      "domain": "sia.registres.interieur.gouv.fr",
+      "path": "/realms/siarmes/",
+      "expires": -1,
+      "size": 198,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "KC_AUTH_SESSION_HASH",
+      "value": "0TXGbdxd40PeSk75AUJEpw4EZ9ruUzvNhu5Ub2Z5wwE",
+      "domain": "sia.registres.interieur.gouv.fr",
+      "path": "/realms/siarmes/",
+      "expires": 1778812569.800977,
+      "size": 63,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Strict",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "YOMe1h3tgHKNQxhV6V7n5g__",
+      "value": "v1evTOgwSDfn9",
+      "domain": "sia.registres.interieur.gouv.fr",
+      "path": "/",
+      "expires": 1778819710.459826,
+      "size": 37,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "mod_auth_openidc_state_boUiA30x6nRprgOUYVvlNPz_ZCY",
+      "value": "EcgMXYpBr5-Bfwf4.VH53o6JSUlWetm3Yn1m5p5WPlijEACfvA0rXIvq5Oms8VvHoQq_eQ2_wX-JEvETzG8hcEe3p5nsuFKMPd9ZgnAntkU3oj3DmZJD0jvpNO98bbvsIfbgl8yrBlOhcIe3XIb9nMkO2WjfC3WZ15_EGXJJIwyyMiaAC48x_l5xWdbLnCulhl0VIOhQlYec6uV8ywnQ51TiHBeazoX9Xt663wmOM9n_lyBNRKN13TK3WT4FL1dliRiJqV9Mb6mkSwTWTF0vf4u_L6Oc6rUjO6y0FGgjEZVXxVezQk_vPP0_NsO85YPWWWlckPpWbFNM4MpZJUeXUj8aWISP6X1z0b59Ktgr1BgumKYb0HU6tP0gTmfUvIcbxAx_tfkTNJ2GyIZF72bmcwaqIDXTm7n2JvKjaqvekvTur_UzXp9l8NqgCWla79OW5-xEKBpDp0wENsIs5SpZhL6I-3RpAElP8lT4HBpa9AXgY.Gd0H29e0z40_AlseiHjXmA",
+      "domain": "sia.registres.interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 566,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "rxVisitor",
+      "value": "1778812510109SAKOGR6B257LCTDNKHAA00H3TVRQ2VD3",
+      "domain": ".interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 54,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "dtPC",
+      "value": "8$412510107_444h2vGAJKLGOFRAKBEIAIAPKRCMWAPOSUIAOQ-0e0",
+      "domain": ".interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "rxvt",
+      "value": "1778814310465|1778812510111",
+      "domain": ".interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    }
+  ],
+  "headers": {
+    "cache-control": "no-store, must-revalidate, max-age=0",
+    "connection": "Keep-Alive",
+    "content-encoding": "gzip",
+    "content-language": "fr",
+    "content-length": "2091",
+    "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Fri, 15 May 2026 02:35:09 GMT",
+    "expect-ct": "max-age=86400, enforce",
+    "keep-alive": "timeout=5, max=298",
+    "referrer-policy": "no-referrer",
+    "server-timing": "dtTrId;desc=\"9ea19b7625bf3e3d6006373b55ef58b4\", dtSInfo;desc=\"0\"\ndtRpid;desc=\"1353856789\"",
+    "set-cookie": "AUTH_SESSION_ID=OGM0ZTFhOWUtMDdlOS00ZjkxLTlkNTQtMTU2ODlhOTdmMTI3LkswSVZoZXRfU3h3eXVnOFlWR1ZoelRsd1dMWUpzZC1DRmF2VkpQX0x6QWxiZEZNdXpnQmNZYUlmVFA4Yld4M2QtazduUWlxMnh5N3ZXdjVwcVh6bVR3.a8c2d6427a28-34882; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None\nKC_AUTH_SESSION_HASH=0TXGbdxd40PeSk75AUJEpw4EZ9ruUzvNhu5Ub2Z5wwE; Version=1; Path=/realms/siarmes/; Max-Age=60; Secure; SameSite=Strict\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..tK4MH_Hbj97hZ1HL7kgIIA.OBc64YR3FarZIVFKp7ftvTagXP93rkyCJ6HNWBaASH-r8t0XUQ-fpssZ9AEN6tn1t_TOKJaJklRQkgX8r2VSjEyuBOuO2l0kOQ8Z87izkKIszrl4-BD65rMJz9Z2k5KP-CfUxcgfz5W2hgdpVCGo7R7mjMP6lzFj31U-SQkN9qEWISo_hwSCgoQGHNspDfZEz0kN2iEL93T55VBFlxerowDsR_wH8k4xCTDss29N39H3uoGMzZKnRXl7G3eWu52NII3Qyf5MPd1wzEimtf623upxalomCoaH8fhhbEwbV3JMlEzyPetW5umMFBukCYeobilCd59pgXJT0zMZbvjJDVbeQMsgPJz4yFmW62dvOkJPnt6tIhf7kKND75ftp9rAm1HBwySXWh9he5WWjt7XCNqgQbIC6vqsrEfXeTPoucihVBpVUHbBajWyDnEPlFv42jmmt0hEH3oXnMGLA9Bk07ZsX_e1_CJjkO4nk28ik8x4myMy6ygfEV6Nnr-7YuPVELHq3pBHqhIAQr1qJM_J4hpdOltRfaMbcPF0NlpkgsGFkS9zxNs8J5WkcrmiHv4EYx2cKJLOMnctLdMWdrpXjeGfL_BlTeh1LAhofmTQMwiZy_ImFnr45Qmf_FWuId0xQxrAPePnLpBliWwcvzk8sKhlrimGKTCM1kP5jF0v0zl_aJkbpUWGABfXBaV_rzRxTTkkKAODzJQ-HDxwt9-b1M6ADFAgXoMPWOd4kNa9BvRoarTBLf46djR9wGPiSOXNo_VOZ0qFvxPavpUHfymMWDrM2vJRMxtBbEh4ZOGFGTYlnW-fJqCoKoHN6sc3AwYhDHBXml82_ABEkQ2MfJQKNrOpL__4f-BtaOmEEluuk7YWTXF0nl4XqGLiuXukihbkSY4zO0njYTbELfSwKv9f4yB80DPl929Tuaj9bJcAFaIimrQDXo8aHmNZbssB-kNKQJ0xPp9S2M-VUs9rRpzhU-j_sofU2HhlNwHPhSd2nham4JogbjfJMth3qBqaZYpC0smp-Fc6_GEo1s6ypSSrPV6Bra1hV5CrJz7d4fGxS0E.Jd9rM6eZ4nyxj3O5C09yVw; Version=1; Path=/realms/siarmes/; Secure; HttpOnly; SameSite=None\nYOMe1h3tgHKNQxhV6V7n5g__=v1evTOgwSDfn9; Expires=Fri, 15-May-2026 04:35:09 GMT; Path=/",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "sameorigin",
+    "x-oneagent-js-injection": "true",
+    "x-robots-tag": "none",
+    "x-xss-protection": "1; mode=block",
+    "x-ruxit-js-agent": "true"
+  },
+  "endpoints": [
+    {
+      "hostname": "sia.registres.interieur.gouv.fr",
+      "ip": "143.196.253.156",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
 }
