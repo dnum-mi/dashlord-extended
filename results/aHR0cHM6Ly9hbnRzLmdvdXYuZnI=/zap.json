@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 08:51:43",
-	"created": "2026-05-13T08:51:43.256446672Z",
+	"@generated": "Fri, 15 May 2026 09:05:16",
+	"created": "2026-05-15T09:05:16.013291372Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://ants.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "75"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "13",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -83,7 +83,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "14",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -123,7 +123,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "5",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -133,7 +133,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -163,7 +163,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "15",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "17",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "18",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -213,7 +213,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "19",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "20",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "22",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -263,7 +263,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "59",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -273,7 +273,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "63",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "70",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -313,7 +313,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "60",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "65",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -333,7 +333,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "71",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -363,7 +363,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "56",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -373,7 +373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "62",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -383,7 +383,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "69",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -413,7 +413,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "54",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -423,7 +423,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "58",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -433,7 +433,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "68",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -500,7 +500,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10021",
@@ -513,7 +513,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "32",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -523,7 +523,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "32",
+							"id": "34",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +533,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "33",
+							"id": "35",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -550,7 +550,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -569,8 +569,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_BMB22QOSIEKERD74VP6IWJ3M3XIUJOYZ55QFZ3T23LPKDUSPR4GQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDL\\x0007m\uFFFD9\"\\x0004(DC\uFFFDO\u8149\uFFFD\uFFFD\uFFFD!BNa\uFFFDy@VwOm\uFFFD<\uFFFD\uFFFDH\uFFFDx\\x0019"
+							"evidence": "/redirect_6HR3BHVAUY5N2I7BYQZXFNDKQGEIIJ5VMUEJCRYOCWGGHBXCHHYA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDGpGT\\x0005\\x0018\uFFFD\u0748\uFFFD\\x0016\\x0010eqM\\x000c\uFFFD\\x0006\\x0010\uFFFD\t\uFFFDS\\x0014\\x0010\uFFFD\uFFFD`\uFFFD\uFFFD\\x0018a\uFFFD\\!\uFFFD`"
 						},
 						{
 							"id": "37",
@@ -579,34 +579,34 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\\\uFFFDJ\\x0014\uFFFDI\\x0014\u0086eN\uFFFD\u74D6\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x0003%@U3\uFFFD\uFFFDd\\x0001N@\uFFFD\\x0017T\\x001660"
+							"evidence": "/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD6!\uFFFDMY\\x0013{H`\uFFFD\\x001d\uFFFD\uFFFD]>\uFFFD\\x00012\uFFFD \uFFFDO\\x0004\uFFFD\uFFFD]2\uFFFD9R\\x0000]5\uFFFDd\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "66",
+							"id": "36",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\\\uFFFDJ\\x0014\uFFFDI\\x0014\u0086eN\uFFFD\u74D6\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x0003%@U3\uFFFD\uFFFDd\\x0001N@\uFFFD\\x0017T\\x001660"
+							"evidence": "/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD6!\uFFFDMY\\x0013{H`\uFFFD\\x001d\uFFFD\uFFFD]>\uFFFD\\x00012\uFFFD \uFFFDO\\x0004\uFFFD\uFFFD]2\uFFFD9R\\x0000]5\uFFFDd\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "36",
+							"id": "66",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\\\uFFFDJ\\x0014\uFFFDI\\x0014\u0086eN\uFFFD\u74D6\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x0003%@U3\uFFFD\uFFFDd\\x0001N@\uFFFD\\x0017T\\x001660"
+							"evidence": "/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD6!\uFFFDMY\\x0013{H`\uFFFD\\x001d\uFFFD\uFFFD]>\uFFFD\\x00012\uFFFD \uFFFDO\\x0004\uFFFD\uFFFD]2\uFFFD9R\\x0000]5\uFFFDd\uFFFD\uFFFD\uFFFD"
 						}
 					],
 					"count": "4",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDL\\x0007m\uFFFD9\"\\x0004(DC\uFFFDO\u8149\uFFFD\uFFFD\uFFFD!BNa\uFFFDy@VwOm\uFFFD<\uFFFD\uFFFDH\uFFFDx\\x0019</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDGpGT\\x0005\\x0018\uFFFD\u0748\uFFFD\\x0016\\x0010eqM\\x000c\uFFFD\\x0006\\x0010\uFFFD\t\uFFFDS\\x0014\\x0010\uFFFD\uFFFD`\uFFFD\uFFFD\\x0018a\uFFFD\\!\uFFFD`</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -629,27 +629,27 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_BMB22QOSIEKERD74VP6IWJ3M3XIUJOYZ55QFZ3T23LPKDUSPR4GQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_6HR3BHVAUY5N2I7BYQZXFNDKQGEIIJ5VMUEJCRYOCWGGHBXCHHYA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A====/robots.txt';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
@@ -659,7 +659,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_M6XMJKFIRJFMKGZU6S55OWAIWO2NMDJUBVM6DBZAFOQMAXVBY2MA====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_U2IYZNWRN7SGCJHZ35XT6IATLDIIJPBMHKXTKUOVIAXTWNZKCW5A====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -683,7 +683,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "51",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -693,7 +693,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "55",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -703,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "67",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -720,7 +720,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -733,7 +733,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "8",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -743,7 +743,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "10",
 							"uri": "https://ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -753,7 +753,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -793,9 +793,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
-							"uri": "https://ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
+							"id": "47",
+							"uri": "https://ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -823,7 +823,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "44",
 							"uri": "https://ants.gouv.fr",
 							"nodeName": "https:\/\/ants.gouv.fr",
 							"method": "GET",
@@ -833,9 +833,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
-							"uri": "https://ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
+							"id": "43",
+							"uri": "https://ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -850,7 +850,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -873,9 +873,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
-							"uri": "https://ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
+							"id": "40",
+							"uri": "https://ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -890,7 +890,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -913,9 +913,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
-							"uri": "https://ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/ants.gouv.fr\/sitemap.xml",
+							"id": "52",
+							"uri": "https://ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -930,7 +930,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10112",
@@ -943,9 +943,9 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "2",
-							"uri": "https://ants.gouv.fr",
-							"nodeName": "https:\/\/ants.gouv.fr",
+							"id": "3",
+							"uri": "https://ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "bot_mitigation_cookie",
 							"attack": "",
@@ -960,7 +960,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "8"
 				}
 			]
 		}
