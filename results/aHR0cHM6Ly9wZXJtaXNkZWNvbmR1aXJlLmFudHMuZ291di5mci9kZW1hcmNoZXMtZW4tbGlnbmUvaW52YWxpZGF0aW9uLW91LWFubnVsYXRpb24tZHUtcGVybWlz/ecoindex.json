@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/invalidation-ou-annulation-du-permis",
-        "size": 4013.003,
+        "size": 4069.604,
         "nodes": 506,
         "requests": 59,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.96,
         "water": 2.94,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 02:59:38.477522",
+        "date": "2026-05-15 02:57:00.456471",
         "page_type": "website"
     }
 ]
