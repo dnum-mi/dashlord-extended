@@ -9,11 +9,11 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 07:39:40 GMT",
+      "date": "Fri, 15 May 2026 07:47:38 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Wed, 13 May 2026 05:39:40 GMT",
-      "last-modified": "Wed, 13 May 2026 07:39:40 GMT",
+      "expires": "Fri, 15 May 2026 05:47:38 GMT",
+      "last-modified": "Fri, 15 May 2026 07:47:38 GMT",
       "served-by": "www.saint-barth-saint-martin.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=nc40ct4okcf8ocr433f3cemde2; path=/"
+        "eZSESSID=22deifsr2spgaa2maq7lgc4157; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
