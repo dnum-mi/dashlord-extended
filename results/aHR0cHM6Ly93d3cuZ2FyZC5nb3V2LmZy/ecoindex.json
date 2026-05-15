@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.gard.gouv.fr",
-        "size": 1646.61,
+        "size": 1638.791,
         "nodes": 649,
         "requests": 46,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 04:35:59.197159",
+        "date": "2026-05-15 04:43:00.993675",
         "page_type": "website"
     }
 ]
