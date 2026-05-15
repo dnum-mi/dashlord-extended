@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 03:24:20 GMT",
+      "date": "Fri, 15 May 2026 03:27:05 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
@@ -18,9 +18,9 @@
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "vary": "Accept-Encoding",
-      "server-timing": "cfOrigin;dur=0,cfEdge;dur=18",
+      "server-timing": "cfOrigin;dur=0,cfEdge;dur=11",
       "server": "cloudflare",
-      "cf-ray": "9fae8cb528f82432-IAD",
+      "cf-ray": "9fbf0b797af107c6-LAX",
       "alt-svc": "h3=\":443\"; ma=86400"
     }
   },
@@ -54,12 +54,15 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-not-needed-no-http",
+      "result": "redirection-to-https",
       "scoreModifier": 0,
-      "destination": "http://www.interieur.gouv.fr/",
+      "destination": "https://www.interieur.gouv.fr/",
       "redirects": true,
-      "route": [],
-      "statusCode": null
+      "route": [
+        "http://www.interieur.gouv.fr/",
+        "https://www.interieur.gouv.fr/"
+      ],
+      "statusCode": 403
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
@@ -73,7 +76,7 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": false,
-      "result": "hsts-invalid-cert",
+      "result": "hsts-not-implemented",
       "scoreModifier": -20,
       "data": null,
       "includeSubDomains": false,
