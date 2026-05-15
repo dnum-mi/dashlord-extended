@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "kq417nom60l9rd0kekcle8q9u7",
+      "value": "cefg5n46ec7kndbcdeajd1p0u1",
       "domain": "www.seine-maritime.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 13 May 2026 06:22:55 GMT",
-    "expires": "Wed, 13 May 2026 04:22:55 GMT",
-    "last-modified": "Wed, 13 May 2026 06:22:55 GMT",
+    "date": "Fri, 15 May 2026 06:30:53 GMT",
+    "expires": "Fri, 15 May 2026 04:30:53 GMT",
+    "last-modified": "Fri, 15 May 2026 06:30:53 GMT",
     "pragma": "no-cache",
     "served-by": "www.seine-maritime.gouv.fr",
-    "set-cookie": "eZSESSID=kq417nom60l9rd0kekcle8q9u7; path=/",
+    "set-cookie": "eZSESSID=cefg5n46ec7kndbcdeajd1p0u1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
@@ -68,8 +68,8 @@
         },
         "location": {
           "accuracy_radius": 200,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
@@ -86,23 +86,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          }
-        ]
+        }
       }
     }
   ]
