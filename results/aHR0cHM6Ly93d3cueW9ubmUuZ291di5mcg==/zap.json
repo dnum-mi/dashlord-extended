@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 06:59:42",
-	"created": "2026-05-13T06:59:42.249568602Z",
+	"@generated": "Fri, 15 May 2026 07:07:49",
+	"created": "2026-05-15T07:07:49.442684523Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "250"
+			"statistic": "330"
 		},
 		{
 			"level": "Low",
@@ -18,7 +18,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "11"
+			"statistic": "10"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "64"
+			"statistic": "73"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "84"
+			"statistic": "81"
 		},
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "12"
+			"statistic": "14"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "3"
+			"statistic": "4"
 		},
 		{
 			"level": "Info",
@@ -58,7 +58,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.endpoint.ctype.application/javascript",
 			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "5"
+			"statistic": "6"
 		},
 		{
 			"level": "Info",
@@ -74,7 +74,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "5"
+			"statistic": "6"
 		},
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "6"
+			"statistic": "8"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "77"
+			"statistic": "73"
 		},
 		{
 			"level": "Info",
@@ -114,7 +114,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "131"
+			"statistic": "110"
 		},
 		{
 			"level": "Info",
@@ -122,7 +122,7 @@
 			"site": "https://www.yonne.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "87"
+			"statistic": "85"
 		}
 	],
 	"site":[ 
@@ -143,7 +143,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "197",
+							"id": "195",
 							"uri": "https://www.yonne.gouv.fr/lettreinformation/abonnement",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/lettreinformation\/abonnement",
 							"method": "GET",
@@ -160,7 +160,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "702"
+					"sourceid": "724"
 				},
 				{
 					"pluginid": "10038",
@@ -173,7 +173,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "15",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "57",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -193,9 +193,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "52",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -204,8 +204,8 @@
 						},
 						{
 							"id": "1",
-							"uri": "https://www.yonne.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
+							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -220,7 +220,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -233,7 +233,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "10",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -243,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "50",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -253,7 +253,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "97",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"method": "GET",
@@ -263,9 +263,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "37",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -273,9 +273,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
+							"id": "86",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -290,7 +290,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -303,7 +303,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "171",
+							"id": "166",
 							"uri": "https://www.yonne.gouv.fr/Demarches/Carte-d-identite",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Carte-d-identite",
 							"method": "GET",
@@ -313,9 +313,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "179",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Certificat-de-non-gage",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Certificat-de-non-gage",
+							"id": "172",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Cartes-grises-pour-les-particuliers2",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Cartes-grises-pour-les-particuliers2",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,9 +323,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Titres-de-sejour-etrangers",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Titres-de-sejour-etrangers",
+							"id": "174",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Permis-de-construire",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Permis-de-construire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -333,19 +333,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "177",
+							"id": "170",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Professions-reglementees",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Professions-reglementees",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "168",
 							"uri": "https://www.yonne.gouv.fr/Demarches/Toutes-les-demarches-pour-les-associations",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-associations",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "175",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-particuliers",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -360,7 +360,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "480"
+					"sourceid": "503"
 				},
 				{
 					"pluginid": "10003",
@@ -373,7 +373,17 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "201",
+							"id": "203",
+							"uri": "https://www.yonne.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1727075744.js",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1727075744.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
+							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "197",
 							"uri": "https://www.yonne.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727075744.js",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727075744.js",
 							"method": "GET",
@@ -383,14 +393,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "737"
+					"sourceid": "808"
 				},
 				{
 					"pluginid": "10044",
@@ -403,7 +413,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "200",
+							"id": "193",
 							"uri": "https://www.yonne.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -413,7 +423,7 @@
 							"otherinfo": "Location header URI length: 82 [https://www.yonne.gouv.fr/Liens-colonne-3-pied-de-page/DECLARATION-D-ACCESSIBILITE].\nPredicted response size: 382.\nResponse Body Length: 572."
 						},
 						{
-							"id": "196",
+							"id": "189",
 							"uri": "https://www.yonne.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/actualites",
 							"method": "GET",
@@ -423,7 +433,7 @@
 							"otherinfo": "Location header URI length: 36 [https://www.yonne.gouv.fr/Actualites].\nPredicted response size: 336.\nResponse Body Length: 388."
 						},
 						{
-							"id": "192",
+							"id": "190",
 							"uri": "https://www.yonne.gouv.fr/cni",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/cni",
 							"method": "GET",
@@ -433,17 +443,17 @@
 							"otherinfo": "Location header URI length: 52 [https://www.yonne.gouv.fr/Demarches/Carte-d-identite].\nPredicted response size: 352.\nResponse Body Length: 452."
 						},
 						{
-							"id": "209",
+							"id": "204",
 							"uri": "https://www.yonne.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 95 [https://www.yonne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1655424594?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
+							"otherinfo": "Location header URI length: 94 [https://www.yonne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/894245214?SearchText=ZAP].\nPredicted response size: 394.\nResponse Body Length: 620."
 						},
 						{
-							"id": "187",
+							"id": "178",
 							"uri": "https://www.yonne.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/demarches",
 							"method": "GET",
@@ -453,7 +463,7 @@
 							"otherinfo": "Location header URI length: 35 [https://www.yonne.gouv.fr/Demarches].\nPredicted response size: 335.\nResponse Body Length: 384."
 						},
 						{
-							"id": "202",
+							"id": "192",
 							"uri": "https://www.yonne.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -463,7 +473,7 @@
 							"otherinfo": "Location header URI length: 76 [https://www.yonne.gouv.fr/Outils/Mentions-de-donnees-personnelles-generiques].\nPredicted response size: 376.\nResponse Body Length: 548."
 						},
 						{
-							"id": "184",
+							"id": "179",
 							"uri": "https://www.yonne.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/horaires",
 							"method": "GET",
@@ -473,7 +483,7 @@
 							"otherinfo": "Location header URI length: 56 [https://www.yonne.gouv.fr/Outils/Horaires-et-coordonnees].\nPredicted response size: 356.\nResponse Body Length: 468."
 						},
 						{
-							"id": "198",
+							"id": "196",
 							"uri": "https://www.yonne.gouv.fr/mentions-legales",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/mentions-legales",
 							"method": "GET",
@@ -483,7 +493,7 @@
 							"otherinfo": "Location header URI length: 42 [https://www.yonne.gouv.fr/Mentions-legales].\nPredicted response size: 342.\nResponse Body Length: 412."
 						},
 						{
-							"id": "90",
+							"id": "38",
 							"uri": "https://www.yonne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -493,7 +503,7 @@
 							"otherinfo": "Location header URI length: 40 [https://www.yonne.gouv.fr/Nous-contacter].\nPredicted response size: 340.\nResponse Body Length: 404."
 						},
 						{
-							"id": "194",
+							"id": "185",
 							"uri": "https://www.yonne.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/passeport",
 							"method": "GET",
@@ -503,7 +513,7 @@
 							"otherinfo": "Location header URI length: 46 [https://www.yonne.gouv.fr/Demarches/Passeports].\nPredicted response size: 346.\nResponse Body Length: 428."
 						},
 						{
-							"id": "193",
+							"id": "191",
 							"uri": "https://www.yonne.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -513,7 +523,7 @@
 							"otherinfo": "Location header URI length: 55 [https://www.yonne.gouv.fr/Demarches/Permis-de-conduire2].\nPredicted response size: 355.\nResponse Body Length: 464."
 						},
 						{
-							"id": "191",
+							"id": "188",
 							"uri": "https://www.yonne.gouv.fr/siv",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/siv",
 							"method": "GET",
@@ -530,7 +540,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "735"
+					"sourceid": "719"
 				},
 				{
 					"pluginid": "10010",
@@ -543,7 +553,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "16",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -560,7 +570,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10011",
@@ -573,7 +583,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "18",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -590,7 +600,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -603,7 +613,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "17",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -620,7 +630,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10017",
@@ -633,7 +643,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "165",
 							"uri": "https://www.yonne.gouv.fr/Demarches/Carte-d-identite",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Carte-d-identite",
 							"method": "GET",
@@ -643,9 +653,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "178",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Certificat-de-non-gage",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Certificat-de-non-gage",
+							"id": "171",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Cartes-grises-pour-les-particuliers2",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Cartes-grises-pour-les-particuliers2",
 							"method": "GET",
 							"param": "https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget",
 							"attack": "",
@@ -653,9 +663,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "172",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Titres-de-sejour-etrangers",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Titres-de-sejour-etrangers",
+							"id": "173",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Permis-de-construire",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Permis-de-construire",
 							"method": "GET",
 							"param": "https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget",
 							"attack": "",
@@ -663,19 +673,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "176",
+							"id": "169",
+							"uri": "https://www.yonne.gouv.fr/Demarches/Professions-reglementees",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Professions-reglementees",
+							"method": "GET",
+							"param": "https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget",
+							"attack": "",
+							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "167",
 							"uri": "https://www.yonne.gouv.fr/Demarches/Toutes-les-demarches-pour-les-associations",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-associations",
-							"method": "GET",
-							"param": "https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget",
-							"attack": "",
-							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "174",
-							"uri": "https://www.yonne.gouv.fr/Demarches/Toutes-les-demarches-pour-les-particuliers",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Demarches\/Toutes-les-demarches-pour-les-particuliers",
 							"method": "GET",
 							"param": "https://snow.artifica.fr/api/js/guide?key=rguahzjm3iv0cfdswplntoyq8ke5x412&callback=initWidget",
 							"attack": "",
@@ -690,7 +700,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "480"
+					"sourceid": "503"
 				},
 				{
 					"pluginid": "90004",
@@ -703,7 +713,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "27",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -713,7 +723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "83",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -723,9 +733,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "78",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -753,7 +763,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "28",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -763,7 +773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "84",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -773,9 +783,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "80",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -790,7 +800,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -803,7 +813,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "26",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -823,9 +833,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "76",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -840,7 +850,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10110",
@@ -853,7 +863,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "205",
+							"id": "200",
 							"uri": "https://www.yonne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -870,7 +880,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "746"
+					"sourceid": "747"
 				},
 				{
 					"pluginid": "110009",
@@ -883,7 +893,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "207",
+							"id": "202",
 							"uri": "https://www.yonne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -893,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "206",
+							"id": "205",
 							"uri": "https://www.yonne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -903,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "208",
+							"id": "201",
 							"uri": "https://www.yonne.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -920,7 +930,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "804"
+					"sourceid": "806"
 				},
 				{
 					"pluginid": "10063",
@@ -933,7 +943,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "25",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -943,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "81",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -953,9 +963,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "75",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -963,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "30",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -973,7 +983,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "7",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -990,7 +1000,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -1003,7 +1013,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "21",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1013,7 +1023,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "72",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1023,9 +1033,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "67",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1060,7 +1070,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -1073,7 +1083,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "22",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1083,7 +1093,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "75",
+							"id": "73",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1103,9 +1113,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "72",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "68",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1113,9 +1123,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "113",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
+							"id": "92",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1130,7 +1140,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10021",
@@ -1143,7 +1153,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "23",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1153,7 +1163,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "76",
+							"id": "77",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1163,7 +1173,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "106",
+							"id": "104",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"method": "GET",
@@ -1173,9 +1183,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "79",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "70",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1183,9 +1193,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "114",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
+							"id": "93",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1200,7 +1210,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -1213,7 +1223,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "85",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1223,7 +1233,7 @@
 							"otherinfo": "\uFFFD7\uFFFDj\uFFFD!z\uFFFD\uFFFDj\uFFFD^\uFFFD\uFFFD+\uFFFD\u01EC\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD\uFFFDZ\uFFFD\u061C\uFFFDX\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "77",
+							"id": "144",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1233,17 +1243,17 @@
 							"otherinfo": "\uFFFD7\uFFFDj\uFFFD!z\uFFFD\uFFFDj\uFFFD^\uFFFD\uFFFD+\uFFFD\u01EC\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD\uFFFDZ\uFFFD\u061C\uFFFDX\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "134",
+							"id": "161",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Demarches/Cartes-grises-pour-les-particuliers2",
-							"otherinfo": "\uFFFD7\uFFFDj\uFFFD!z\uFFFD\uFFFDj\uFFFD^\uFFFD\uFFFD+\uFFFD\u01EC\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD\uFFFDZ\uFFFD\u061C\uFFFDX\uFFFD\uFFFD\uFFFD"
+							"evidence": "php/Demarches/Cartes-grises-pour-les-particuliers2",
+							"otherinfo": "\uFFFD\\x001a\r\u96AD\uFFFD^\uFFFD\uFFFD\u05EC\uFFFD\n\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'.\uFFFD'\uFFFD\uFFFD"
 						},
 						{
-							"id": "107",
+							"id": "118",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"method": "GET",
@@ -1253,7 +1263,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?i\uFFFD\\x001e\uFFFD\u021B\uFFFDX\uFFFD{\uFFFDzv\uFFFDzg\uFFFD\uFFFD\uFFFDn\uFFFD\u05EB\uFFFD+h\uFFFD\uFFFD\uFFFDz\u07DC\uFFFD{-\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\u05FDu\uFFFD]\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDq\u01EC\uFFFD&\uFFFD+^\uFFFD\t\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\u06FE\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD\uF7B7\u0A1E\uFFFDk\uFFFD\uFFFDb\uFFFD"
 						},
 						{
-							"id": "123",
+							"id": "96",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
@@ -1263,7 +1273,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?j\n\uFFFDr\uFFFDm\uFFFD\uFFFD\uFFFD\u05FD\uFFFD\uFFFD\uFFFD}\uFFFD\uFFFD\uFFFD\uFFFDT\\x0002\n\uFFFDr\uFFFDm\uFFFD\uFFFD"
 						},
 						{
-							"id": "150",
+							"id": "151",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Citoyennete-et-Elections",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Citoyennete-et-Elections",
 							"method": "GET",
@@ -1273,7 +1283,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?r+h\uFFFD\uFFFD\uFFFDz\u05FEz\u07DE\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDy\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\n+h\uFFFD\uFFFD\uFFFDz\u05FEz\u07C4\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "81",
+							"id": "107",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
@@ -1283,44 +1293,44 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?r\uFFFDey\uFFFDb\uFFFD+^\uFFFD\uFFFDhq\uFFFD^\uFFFD\uFFFD\uFFFD)\uFFFDz\uFFFD(\uFFFDk\uFFFDjX\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD*%\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFDz\u03E5\uFFFD\u01A5z\u03DE\uFFFD\u89F5\uFFFD\u0722i\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "158",
+							"id": "162",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Culture-Tourisme-et-Patrimoine",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Culture-Tourisme-et-Patrimoine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/politiques-publiques/culture-tourisme-et-patrimoine/5459-6-fre-FR/Culture-Tourisme-et-Patrimoine",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?r\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u025E\uFFFD\uFFFD~\uFFFD\uFFFDk\uFFFDj\"\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD+\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:.\uFFFD+&{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFDw"
+							"evidence": "php/var/ide_site/storage/images/politiques-publiques/culture-tourisme-et-patrimoine/5459-6-fre-FR/Culture-Tourisme-et-Patrimoine",
+							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\u05FF\uFFFD+^\uFFFD\uFFFDh\uFFFD\uFFFD\\x001e\uFFFD)\uFFFD\uFFFD\uFFFD?\uFFFD\uFFFDb\uFFFD*\uFFFDz\u03E9\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\u02E5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD+&{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFDw\uFFFD\uFFFD}\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDG\uFFFD\u06EB{\uFFFD\u8EB8\uFFFD\uFFFD\uF7B7\uFFFD\u06B6\uFFFD\uFFFD\uFFFD)\uFFFD"
 						},
 						{
-							"id": "115",
+							"id": "163",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "php/var/ide_site/storage/images/actions-de-l-etat/environnement/1715-9-fre-FR/Environnement",
-							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\u05FF\uFFFD+^\uFFFD\uFFFDh\uFFFD\uFFFD\\x001e\uFFFD)\uFFFD\uFFFD\uFFFD?i\uFFFDb\uFFFD{>u\uFFFD\uFFFD\uFFFDZ\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFDw\uFFFDz{\u05FDy\uFFFD\u07DF\uFFFD\uFFFDG\uFFFD'\uFFFD*\uFFFDw\uFFFDz{"
+							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/environnement/1715-9-fre-FR/Environnement",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD\uF2BA'\uFFFD\u979E\uFFFD\uFFFD\uFFFD^~\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFDI\uF2BA'\uFFFD\u979E"
 						},
 						{
-							"id": "169",
+							"id": "164",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Jeunesse-sports-et-vie-associative",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Jeunesse-sports-et-vie-associative",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Demarches/Cartes-grises-pour-les-particuliers2",
-							"otherinfo": "\uFFFD7\uFFFDj\uFFFD!z\uFFFD\uFFFDj\uFFFD^\uFFFD\uFFFD+\uFFFD\u01EC\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD\uFFFDZ\uFFFD\u061C\uFFFDX\uFFFD\uFFFD\uFFFD"
+							"evidence": "php/var/ide_site/storage/images/politiques-publiques/jeunesse-sports-et-vie-associative/1716-10-fre-FR/Jeunesse-sports-et-vie-associative1",
+							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\u05FF\uFFFD+^\uFFFD\uFFFDh\uFFFD\uFFFD\\x001e\uFFFD)\uFFFD\uFFFD\uFFFD?\uFFFD\uFFFDb\uFFFD*\uFFFDz\u03E9\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD7\uFFFD\uFFFD\uFFFD,{\uFFFD)\uFFFD\uFFFDl\uFFFD\uFFFD~\uFFFD'\uFFFDj\uFFFD(r&\uFFFD\uFFFD\uFFFD\uFFFD\u05FDz\uFFFD]>~\uFFFD\uFFFD\\x0015\\x001f\uFFFDz\uFFFD\u07B2\u01FE\uFFFD\uFFFD+\uFFFD\u03DE\uFFFD\uFFFD\uFFFD{\u6B32\uFFFD\"j\u062F{"
 						},
 						{
-							"id": "163",
+							"id": "131",
 							"uri": "https://www.yonne.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Demarches/Cartes-grises-pour-les-particuliers2",
-							"otherinfo": "\uFFFD7\uFFFDj\uFFFD!z\uFFFD\uFFFDj\uFFFD^\uFFFD\uFFFD+\uFFFD\u01EC\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD\uFFFDZ\uFFFD\u061C\uFFFDX\uFFFD\uFFFD\uFFFD"
+							"evidence": "php/Demarches/Cartes-grises-pour-les-particuliers2",
+							"otherinfo": "\uFFFD\\x001a\r\u96AD\uFFFD^\uFFFD\uFFFD\u05EC\uFFFD\n\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD'.\uFFFD'\uFFFD\uFFFD"
 						}
 					],
 					"count": "11",
@@ -1330,7 +1340,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10019",
@@ -1343,7 +1353,7 @@
 					"desc": "<p>The Content-Type header was either missing or empty.</p>",
 					"instances":[ 
 						{
-							"id": "199",
+							"id": "194",
 							"uri": "https://www.yonne.gouv.fr/extension/ide/design/ide_dsfr_design/images/favicon/manifest.webmanifest",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/extension\/ide\/design\/ide_dsfr_design\/images\/favicon\/manifest.webmanifest",
 							"method": "GET",
@@ -1373,7 +1383,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "204",
+							"id": "199",
 							"uri": "https://www.yonne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1383,7 +1393,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "203",
+							"id": "198",
 							"uri": "https://www.yonne.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1400,7 +1410,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "746"
+					"sourceid": "747"
 				},
 				{
 					"pluginid": "10109",
@@ -1413,7 +1423,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1423,7 +1433,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "71",
+							"id": "69",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1443,9 +1453,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "68",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "65",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1453,13 +1463,13 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "110",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
+							"id": "89",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"9d074d5c91b70f2f42b098b9b67a9e0a\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction\">\n                                Accessibilit\u00E9, Am\u00E9nagement du territoire et Construction\n                            </a>",
+							"evidence": "<a id=\"9d074d5c91b70f2f42b098b9b67a9e0a\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction\">\n                                Accessibilit\u00E9, Am\u00E9nagement du territoire et Construction\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						}
 					],
@@ -1470,7 +1480,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1483,7 +1493,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "40",
+							"id": "24",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1493,7 +1503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "79",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1503,9 +1513,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Accessibilite-Amenagement-du-territoire-et-Construction",
+							"id": "74",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1513,7 +1523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "94",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
@@ -1523,7 +1533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "40",
 							"uri": "https://www.yonne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1553,7 +1563,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "14",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1563,7 +1573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "54",
 							"uri": "https://www.yonne.gouv.fr/",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
 							"method": "GET",
@@ -1573,7 +1583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "98",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Accessibilite-Amenagement-du-territoire-et-Construction",
 							"method": "GET",
@@ -1583,9 +1593,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "51",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1593,9 +1603,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Environnement",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Environnement",
+							"id": "87",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1610,7 +1620,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10050",
@@ -1623,7 +1633,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "20",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1633,9 +1643,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "73",
-							"uri": "https://www.yonne.gouv.fr/",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/",
+							"id": "66",
+							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1643,9 +1653,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "69",
-							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/Collectivites-locales-et-intercommunalites",
-							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/Collectivites-locales-et-intercommunalites",
+							"id": "39",
+							"uri": "https://www.yonne.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1653,7 +1663,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1663,7 +1673,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1680,7 +1690,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
 					"cweid": "525",
 					"wascid": "-1",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1693,9 +1703,9 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "34",
-							"uri": "https://www.yonne.gouv.fr",
-							"nodeName": "https:\/\/www.yonne.gouv.fr",
+							"id": "43",
+							"uri": "https://www.yonne.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1703,7 +1713,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "33",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1713,7 +1723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "12",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1730,7 +1740,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "117"
 				},
 				{
 					"pluginid": "90005",
@@ -1743,9 +1753,9 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "32",
-							"uri": "https://www.yonne.gouv.fr",
-							"nodeName": "https:\/\/www.yonne.gouv.fr",
+							"id": "42",
+							"uri": "https://www.yonne.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1753,7 +1763,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "32",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1763,7 +1773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "11",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1780,7 +1790,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "117"
 				},
 				{
 					"pluginid": "90005",
@@ -1793,9 +1803,9 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "31",
-							"uri": "https://www.yonne.gouv.fr",
-							"nodeName": "https:\/\/www.yonne.gouv.fr",
+							"id": "41",
+							"uri": "https://www.yonne.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1803,7 +1813,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "31",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1813,7 +1823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "9",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1830,7 +1840,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "117"
 				},
 				{
 					"pluginid": "90005",
@@ -1843,9 +1853,9 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "39",
-							"uri": "https://www.yonne.gouv.fr",
-							"nodeName": "https:\/\/www.yonne.gouv.fr",
+							"id": "44",
+							"uri": "https://www.yonne.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.yonne.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1853,7 +1863,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "34",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1863,7 +1873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "13",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1880,7 +1890,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "117"
 				},
 				{
 					"pluginid": "10112",
@@ -1893,7 +1903,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "8",
 							"uri": "https://www.yonne.gouv.fr",
 							"nodeName": "https:\/\/www.yonne.gouv.fr",
 							"method": "GET",
@@ -1910,7 +1920,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1923,7 +1933,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "59",
+							"id": "29",
 							"uri": "https://www.yonne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1933,7 +1943,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "58",
+							"id": "6",
 							"uri": "https://www.yonne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1963,7 +1973,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
 					"instances":[ 
 						{
-							"id": "138",
+							"id": "133",
 							"uri": "https://www.yonne.gouv.fr/Actions-de-l-Etat/France-Services",
 							"nodeName": "https:\/\/www.yonne.gouv.fr\/Actions-de-l-Etat\/France-Services",
 							"method": "GET",
@@ -1980,7 +1990,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "285"
+					"sourceid": "303"
 				}
 			]
 		}
