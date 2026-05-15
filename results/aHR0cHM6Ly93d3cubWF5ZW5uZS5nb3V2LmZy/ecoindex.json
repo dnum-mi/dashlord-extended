@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.mayenne.gouv.fr",
-        "size": 1082.199,
-        "nodes": 645,
+        "size": 1080.802,
+        "nodes": 642,
         "requests": 45,
         "grade": "C",
         "score": 58.0,
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 05:30:52.572174",
+        "date": "2026-05-15 05:40:04.352228",
         "page_type": "website"
     }
 ]
