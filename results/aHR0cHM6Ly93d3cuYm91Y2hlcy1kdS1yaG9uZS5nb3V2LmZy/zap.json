@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 12 May 2026 20:34:43",
-	"created": "2026-05-12T20:34:43.338183984Z",
+	"@generated": "Fri, 15 May 2026 04:00:23",
+	"created": "2026-05-15T04:00:23.618622923Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "157"
+			"statistic": "246"
 		},
 		{
 			"level": "Low",
@@ -18,7 +18,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "7"
+			"statistic": "8"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "50"
+			"statistic": "60"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "83"
+			"statistic": "84"
 		},
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "13"
+			"statistic": "12"
 		},
 		{
 			"level": "Info",
@@ -66,7 +66,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "2"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -74,7 +74,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "4"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.endpoint.ctype.image/svg+xml",
 			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "6"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -98,7 +98,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "79"
+			"statistic": "80"
 		},
 		{
 			"level": "Info",
@@ -114,7 +114,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "147"
+			"statistic": "151"
 		},
 		{
 			"level": "Info",
@@ -122,7 +122,7 @@
 			"site": "https://www.bouches-du-rhone.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "89"
 		}
 	],
 	"site":[ 
@@ -143,7 +143,7 @@
 					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
 					"instances":[ 
 						{
-							"id": "199",
+							"id": "197",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Nous-contacter",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Nous-contacter",
 							"method": "GET",
@@ -160,7 +160,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1231"
+					"sourceid": "1218"
 				},
 				{
 					"pluginid": "10038",
@@ -173,7 +173,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "17",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -183,9 +183,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "62",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -193,9 +193,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "64",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -211,26 +211,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "1",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -253,9 +243,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "86",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -263,9 +253,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "55",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -273,7 +263,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "60",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -283,9 +273,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
+							"id": "88",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -300,7 +290,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90003",
@@ -313,7 +303,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "166",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Appel-a-la-generosite-publique-et-quetes-sur-la-voie-publique",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Appel-a-la-generosite-publique-et-quetes-sur-la-voie-publique",
 							"method": "GET",
@@ -323,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
+							"id": "168",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Carte-Grise",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Carte-Grise",
 							"method": "GET",
@@ -343,7 +333,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "176",
+							"id": "170",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Non-gage",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Non-gage",
 							"method": "GET",
@@ -353,9 +343,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "178",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Passeports",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Passeports",
+							"id": "174",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Permis-de-conduire",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Permis-de-conduire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -370,7 +360,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "904"
+					"sourceid": "920"
 				},
 				{
 					"pluginid": "10003",
@@ -383,7 +373,17 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "193",
+							"id": "190",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726839155.js",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726839155.js",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
+							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
+						},
+						{
+							"id": "191",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1726839155.js",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1726839155.js",
 							"method": "GET",
@@ -393,14 +393,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "1",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1164"
+					"sourceid": "1169"
 				},
 				{
 					"pluginid": "10044",
@@ -413,7 +413,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "185",
+							"id": "182",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/actualites",
 							"method": "GET",
@@ -423,7 +423,7 @@
 							"otherinfo": "Location header URI length: 47 [https://www.bouches-du-rhone.gouv.fr/Actualites].\nPredicted response size: 347.\nResponse Body Length: 432."
 						},
 						{
-							"id": "183",
+							"id": "180",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/cni",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/cni",
 							"method": "GET",
@@ -433,7 +433,17 @@
 							"otherinfo": "Location header URI length: 63 [https://www.bouches-du-rhone.gouv.fr/Demarches/Carte-d-identite].\nPredicted response size: 363.\nResponse Body Length: 496."
 						},
 						{
-							"id": "182",
+							"id": "192",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/contenu/action?SearchText=ZAP",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/contenu\/action (SearchText)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 106 [https://www.bouches-du-rhone.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/2052994928?SearchText=ZAP].\nPredicted response size: 406.\nResponse Body Length: 668."
+						},
+						{
+							"id": "179",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/demarches",
 							"method": "GET",
@@ -443,7 +453,17 @@
 							"otherinfo": "Location header URI length: 46 [https://www.bouches-du-rhone.gouv.fr/Demarches].\nPredicted response size: 346.\nResponse Body Length: 428."
 						},
 						{
-							"id": "181",
+							"id": "184",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/donnees-personnelles-et-cookies",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/donnees-personnelles-et-cookies",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 116 [https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Demarche-qualite/Politique-en-matiere-de-donnees-personnelles].\nPredicted response size: 416.\nResponse Body Length: 708."
+						},
+						{
+							"id": "177",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/horaires",
 							"method": "GET",
@@ -453,37 +473,7 @@
 							"otherinfo": "Location header URI length: 111 [https://www.bouches-du-rhone.gouv.fr/Demarches/Les-horaires-et-les-coordonnees-des-services-recevant-le-public2].\nPredicted response size: 411.\nResponse Body Length: 688."
 						},
 						{
-							"id": "192",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/index.php/accessibilite",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/index.php\/accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 67 [https://www.bouches-du-rhone.gouv.fr/index.php/Outils/Accessibilite].\nPredicted response size: 367.\nResponse Body Length: 512."
-						},
-						{
-							"id": "191",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/index.php/donnees-personnelles-et-cookies",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/index.php\/donnees-personnelles-et-cookies",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 126 [https://www.bouches-du-rhone.gouv.fr/index.php/Actions-de-l-Etat/Demarche-qualite/Politique-en-matiere-de-donnees-personnelles].\nPredicted response size: 426.\nResponse Body Length: 748."
-						},
-						{
-							"id": "190",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/index.php/mentions-legales",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/index.php\/mentions-legales",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 63 [https://www.bouches-du-rhone.gouv.fr/index.php/Mentions-legales].\nPredicted response size: 363.\nResponse Body Length: 496."
-						},
-						{
-							"id": "188",
+							"id": "194",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/index.php/nous-contacter",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/index.php\/nous-contacter",
 							"method": "GET",
@@ -493,7 +483,17 @@
 							"otherinfo": "Location header URI length: 61 [https://www.bouches-du-rhone.gouv.fr/index.php/Nous-contacter].\nPredicted response size: 361.\nResponse Body Length: 488."
 						},
 						{
-							"id": "62",
+							"id": "186",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/mentions-legales",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/mentions-legales",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 53 [https://www.bouches-du-rhone.gouv.fr/Mentions-legales].\nPredicted response size: 353.\nResponse Body Length: 456."
+						},
+						{
+							"id": "52",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -503,7 +503,7 @@
 							"otherinfo": "Location header URI length: 51 [https://www.bouches-du-rhone.gouv.fr/Nous-contacter].\nPredicted response size: 351.\nResponse Body Length: 448."
 						},
 						{
-							"id": "186",
+							"id": "183",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/passeport",
 							"method": "GET",
@@ -513,7 +513,7 @@
 							"otherinfo": "Location header URI length: 57 [https://www.bouches-du-rhone.gouv.fr/Demarches/Passeports].\nPredicted response size: 357.\nResponse Body Length: 472."
 						},
 						{
-							"id": "184",
+							"id": "181",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -523,7 +523,7 @@
 							"otherinfo": "Location header URI length: 65 [https://www.bouches-du-rhone.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 365.\nResponse Body Length: 504."
 						},
 						{
-							"id": "187",
+							"id": "178",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/siv",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/siv",
 							"method": "GET",
@@ -540,7 +540,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1023"
+					"sourceid": "1022"
 				},
 				{
 					"pluginid": "10010",
@@ -553,7 +553,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "18",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -570,7 +570,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10011",
@@ -583,7 +583,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "20",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -600,7 +600,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -613,7 +613,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "19",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -630,7 +630,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10017",
@@ -643,7 +643,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "169",
+							"id": "165",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Appel-a-la-generosite-publique-et-quetes-sur-la-voie-publique",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Appel-a-la-generosite-publique-et-quetes-sur-la-voie-publique",
 							"method": "GET",
@@ -653,7 +653,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
+							"id": "167",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Carte-Grise",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Carte-Grise",
 							"method": "GET",
@@ -673,7 +673,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "175",
+							"id": "169",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Non-gage",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Non-gage",
 							"method": "GET",
@@ -683,9 +683,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "177",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Passeports",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Passeports",
+							"id": "173",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Demarches/Permis-de-conduire",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Demarches\/Permis-de-conduire",
 							"method": "GET",
 							"param": "https://snow.artifica.fr/api/js/guide?key=0xnsi2j3zpmc51owdlt4erag97vb8kuh&callback=initWidget",
 							"attack": "",
@@ -700,7 +700,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "904"
+					"sourceid": "920"
 				},
 				{
 					"pluginid": "90004",
@@ -713,7 +713,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "42",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -723,9 +723,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "77",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -733,9 +733,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "83",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -763,7 +763,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "43",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -773,9 +773,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "78",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -783,9 +783,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "84",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -813,7 +813,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "40",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -823,9 +823,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "76",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -833,9 +833,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "82",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -850,7 +850,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10110",
@@ -863,7 +863,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "196",
+							"id": "189",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -880,7 +880,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1175"
+					"sourceid": "1151"
 				},
 				{
 					"pluginid": "110009",
@@ -893,7 +893,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "198",
+							"id": "195",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -903,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "201",
+							"id": "193",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -913,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "197",
+							"id": "196",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -930,7 +930,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1239"
+					"sourceid": "1209"
 				},
 				{
 					"pluginid": "10063",
@@ -943,7 +943,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "38",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -953,9 +953,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "75",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -963,9 +963,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "81",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -973,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "47",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -983,7 +983,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "11",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1000,7 +1000,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -1013,7 +1013,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "29",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1023,9 +1023,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "67",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1033,9 +1033,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "71",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1043,7 +1043,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "4",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1053,7 +1053,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1083,7 +1083,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "32",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1093,9 +1093,19 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "81",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "96",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734987600",
+							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
+						},
+						{
+							"id": "68",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1104,16 +1114,6 @@
 						},
 						{
 							"id": "74",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734987600",
-							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
-						},
-						{
-							"id": "102",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1123,9 +1123,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "110",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
+							"id": "100",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1153,7 +1153,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "34",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1163,9 +1163,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "86",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "101",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1173,9 +1173,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "76",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "72",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1183,7 +1183,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "103",
+							"id": "79",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1193,9 +1193,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "111",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
+							"id": "104",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1210,7 +1210,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -1223,7 +1223,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "108",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1233,27 +1233,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
 						},
 						{
-							"id": "87",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actions-de-l-Etat/Jeux-Olympiques-2024",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
-						},
-						{
-							"id": "130",
+							"id": "107",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Actions-de-l-Etat/Jeux-Olympiques-2024",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
+							"evidence": "php/Actions-de-l-Etat/Jeux-Olympiques-2024",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDb\uFFFD{>u\uFFFD\uFFFDKZ\uFFFD\uFFFD^\uFFFD\\x001f\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "150",
+							"id": "164",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Agriculture-foret-et-developpement-rural",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Agriculture-foret-et-developpement-rural",
 							"method": "GET",
@@ -1263,7 +1253,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD?j\n\uFFFDr\uFFFDm\uFFFD\uFFFD\uFFFD~\uFFFD\u07B7\uFFFD\uFFFD\u05EFzZ)\uFFFD\u979E\u07EB\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFDT\\x0002\n\uFFFDr\uFFFDm\uFFFD\uFFFD\uFFFD~\uFFFD\u07B7\uFFFD\uFFFD\u05EFzZ)\uFFFD\u979E\u07EB\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "145",
+							"id": "157",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1273,7 +1263,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
 						},
 						{
-							"id": "155",
+							"id": "162",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Animaux",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Animaux",
 							"method": "GET",
@@ -1283,17 +1273,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
 						},
 						{
-							"id": "168",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Demarche-qualite",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Demarche-qualite",
+							"id": "163",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Culture-patrimoine-et-memoire",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Culture-patrimoine-et-memoire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/demarche-qualite/228321-28-fre-FR/Demarche-qualite",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\u05E6j\uFFFD!{\uFFFDjX\uFFFD{\uFFFD\uFFFD\uFFFD}\uFFFD\uFFFDo>~\uFFFD\uFFFD\\x0015\\x001f\uFFFDzf\uFFFDr\\x0017\uFFFD\uFFFD\u694A\uFFFD"
+							"evidence": "php/Actions-de-l-Etat/Jeux-Olympiques-2024",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDb\uFFFD{>u\uFFFD\uFFFDKZ\uFFFD\uFFFD^\uFFFD\\x001f\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "79",
+							"id": "149",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1303,7 +1293,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
 						},
 						{
-							"id": "104",
+							"id": "85",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "php/Actions-de-l-Etat/Jeux-Olympiques-2024",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDb\uFFFD{>u\uFFFD\uFFFDKZ\uFFFD\uFFFD^\uFFFD\\x001f\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "87",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1313,7 +1313,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFDz\uFFFD~:\\\uFFFD\uFFFD*\uFFFDz\u03F6\uFFFDn"
 						},
 						{
-							"id": "162",
+							"id": "122",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
@@ -1323,7 +1323,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\u03EBz:\"\uFFFD\uFFFD\uFFFD\uFFFDm9\uFFFDo\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD\uFFFD.\uFFFD\uFFFD\u078E\uFFFD\uFFFDv\uFFFD"
 						},
 						{
-							"id": "112",
+							"id": "155",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
 							"method": "GET",
@@ -1340,7 +1340,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10019",
@@ -1353,7 +1353,7 @@
 					"desc": "<p>The Content-Type header was either missing or empty.</p>",
 					"instances":[ 
 						{
-							"id": "189",
+							"id": "185",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/extension/ide/design/ide_dsfr_design/images/favicon/manifest.webmanifest",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/extension\/ide\/design\/ide_dsfr_design\/images\/favicon\/manifest.webmanifest",
 							"method": "GET",
@@ -1370,7 +1370,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1153"
+					"sourceid": "1107"
 				},
 				{
 					"pluginid": "10027",
@@ -1383,7 +1383,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "195",
+							"id": "188",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1393,7 +1393,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "194",
+							"id": "187",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1410,7 +1410,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1175"
+					"sourceid": "1151"
 				},
 				{
 					"pluginid": "10109",
@@ -1423,7 +1423,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "26",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1433,27 +1433,27 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "75",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "93",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"827e53ac898dcc0f467a1a77cc6c8781\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Reseaux-sociaux\">\n                                R\u00E9seaux sociaux\n                            </a>",
+							"evidence": "<a id=\"827e53ac898dcc0f467a1a77cc6c8781\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Reseaux-sociaux\">\n                                R\u00E9seaux sociaux\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "71",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "65",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"827e53ac898dcc0f467a1a77cc6c8781\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Reseaux-sociaux\">\n                                R\u00E9seaux sociaux\n                            </a>",
+							"evidence": "<a id=\"827e53ac898dcc0f467a1a77cc6c8781\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Reseaux-sociaux\">\n                                R\u00E9seaux sociaux\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "99",
+							"id": "69",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1463,9 +1463,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "107",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
+							"id": "97",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1480,7 +1480,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1503,9 +1503,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "102",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1514,16 +1524,6 @@
 						},
 						{
 							"id": "80",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "105",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1533,7 +1533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "54",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1550,7 +1550,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10015",
@@ -1563,7 +1563,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "16",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1573,9 +1573,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/",
+							"id": "89",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1583,9 +1583,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "61",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1593,7 +1593,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
+							"id": "63",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Etang-de-Berre",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Etang-de-Berre",
 							"method": "GET",
@@ -1603,9 +1603,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Reseaux-sociaux",
+							"id": "91",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Nous-rejoindre",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Nous-rejoindre",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1620,7 +1620,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "8"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10050",
@@ -1633,7 +1633,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "28",
 							"uri": "https://www.bouches-du-rhone.gouv.fr",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
 							"method": "GET",
@@ -1643,9 +1643,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "72",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites",
+							"id": "66",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1653,7 +1653,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "63",
+							"id": "53",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1663,7 +1663,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1673,7 +1673,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1703,9 +1703,9 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "33",
-							"uri": "https://www.bouches-du-rhone.gouv.fr",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
+							"id": "58",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1713,7 +1713,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "50",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1723,7 +1723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "14",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1740,7 +1740,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "146"
 				},
 				{
 					"pluginid": "90005",
@@ -1753,9 +1753,9 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "32",
-							"uri": "https://www.bouches-du-rhone.gouv.fr",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
+							"id": "57",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1763,7 +1763,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "49",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1773,7 +1773,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "13",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1790,7 +1790,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "146"
 				},
 				{
 					"pluginid": "90005",
@@ -1803,9 +1803,9 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "31",
-							"uri": "https://www.bouches-du-rhone.gouv.fr",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
+							"id": "56",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1813,7 +1813,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "48",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1823,7 +1823,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "12",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1840,7 +1840,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "146"
 				},
 				{
 					"pluginid": "90005",
@@ -1853,9 +1853,9 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "34",
-							"uri": "https://www.bouches-du-rhone.gouv.fr",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr",
+							"id": "59",
+							"uri": "https://www.bouches-du-rhone.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1863,7 +1863,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "51",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1873,7 +1873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "15",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1890,7 +1890,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "8"
+					"sourceid": "146"
 				},
 				{
 					"pluginid": "10112",
@@ -1920,7 +1920,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10049",
@@ -1933,7 +1933,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "57",
+							"id": "46",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1943,7 +1943,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "59",
+							"id": "10",
 							"uri": "https://www.bouches-du-rhone.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1961,36 +1961,6 @@
 					"cweid": "524",
 					"wascid": "13",
 					"sourceid": "6"
-				},
-				{
-					"pluginid": "10049",
-					"alertRef": "10049-2",
-					"alert": "Storable but Non-Cacheable Content",
-					"name": "Storable but Non-Cacheable Content",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
-					"instances":[ 
-						{
-							"id": "118",
-							"uri": "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Barometre-de-l-action-publique",
-							"nodeName": "https:\/\/www.bouches-du-rhone.gouv.fr\/Actions-de-l-Etat\/Barometre-de-l-action-publique",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-cache",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "",
-					"otherinfo": "",
-					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
-					"cweid": "524",
-					"wascid": "13",
-					"sourceid": "310"
 				}
 			]
 		}
