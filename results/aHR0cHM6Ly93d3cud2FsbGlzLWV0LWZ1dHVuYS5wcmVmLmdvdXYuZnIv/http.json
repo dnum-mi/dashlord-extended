@@ -9,11 +9,11 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 07:34:40 GMT",
+      "date": "Fri, 15 May 2026 07:43:39 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Wed, 13 May 2026 05:34:40 GMT",
-      "last-modified": "Wed, 13 May 2026 07:34:40 GMT",
+      "expires": "Fri, 15 May 2026 05:43:39 GMT",
+      "last-modified": "Fri, 15 May 2026 07:43:39 GMT",
       "served-by": "www.wallis-et-futuna.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=t74aqp8qq52oqq9ii74e67b957; path=/"
+        "eZSESSID=hbnq12k71s8e4b1ituba3dtjj2; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
