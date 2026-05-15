@@ -18,7 +18,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/25f11721/www-player.css",
+      "url": "https://www.youtube.com/s/player/2d01abf7/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -26,7 +26,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.lcAAmVduL18.L.W.O/am=AAAAIA/d=0/br=1/rs=AGKMywHzkkiwo2j_AGUeVfAPVE5w1Ud9hA",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.8ikaTWpVQko.L.W.O/am=AAAAIA/d=0/br=1/rs=AGKMywGKmrf6XZECmX-b2JVYRcEeQdc8tA",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -34,7 +34,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.RAmyDW1AI5A.es5.O/am=AAAAIA/d=1/br=1/rs=AGKMywHLntMBfOVD3MbJf6o1ZO-v9q0TRA/m=root,base",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VhYkjxoFYUI.es5.O/am=AAAAIA/d=1/br=1/rs=AGKMywG1e7F8kf3w2ZFXqrjRuxcinQAlHw/m=root,base",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -42,7 +42,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/25f11721/player_embed.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/2d01abf7/player_embed.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -82,7 +82,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.RAmyDW1AI5A.es5.O/am=AAAAIA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHLntMBfOVD3MbJf6o1ZO-v9q0TRA/m=r78Drb",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VhYkjxoFYUI.es5.O/am=AAAAIA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywG1e7F8kf3w2ZFXqrjRuxcinQAlHw/m=r78Drb",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -122,7 +122,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/25f11721/www-player.css",
+      "url": "https://www.youtube.com/s/player/2d01abf7/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -130,7 +130,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.lcAAmVduL18.L.W.O/am=AAAAIA/d=0/br=1/rs=AGKMywHzkkiwo2j_AGUeVfAPVE5w1Ud9hA",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.8ikaTWpVQko.L.W.O/am=AAAAIA/d=0/br=1/rs=AGKMywGKmrf6XZECmX-b2JVYRcEeQdc8tA",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -138,7 +138,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.RAmyDW1AI5A.es5.O/am=AAAAIA/d=1/br=1/rs=AGKMywHLntMBfOVD3MbJf6o1ZO-v9q0TRA/m=root,base",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VhYkjxoFYUI.es5.O/am=AAAAIA/d=1/br=1/rs=AGKMywG1e7F8kf3w2ZFXqrjRuxcinQAlHw/m=root,base",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -146,7 +146,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/25f11721/player_embed.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/2d01abf7/player_embed.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -178,7 +178,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.RAmyDW1AI5A.es5.O/am=AAAAIA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywHLntMBfOVD3MbJf6o1ZO-v9q0TRA/m=r78Drb",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VhYkjxoFYUI.es5.O/am=AAAAIA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywG1e7F8kf3w2ZFXqrjRuxcinQAlHw/m=r78Drb",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -202,7 +202,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/GKHPdbjXdAzLptBtk5NastbDkUFAkaEKXg3Jazyf5I0.js",
+      "url": "https://www.google.com/js/th/Y4YgxTiD7Brd6pG1qUwIoSgxjXqIz4KhI1DAqyCZUwA.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -210,7 +210,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?OSke4w",
+      "url": "https://www.youtube.com/generate_204?RIrYTg",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -244,7 +244,7 @@
   "cookies": [
     {
       "name": "bot_mitigation_cookie",
-      "value": "E6YD7CI7QHCRHQ4N3POWGDD6ERAEOOG4AXFUTWDG374B5R4LXZ5RJJ4PW4KJLSERL2F2DUZZF6FM4YXXR3J7KN2KT6MP74DYULV34HQQAX47E===",
+      "value": "UUDPXANYQJ43RTF7JZBCNNY2HVK7JT43JW63MIVF2V27YUBXKISDZJSCBK4N7ZK3L367DUIKSUBJ77RN2AYTES2ZLSBJBCKODKTZ75KXO425O===",
       "domain": "passeport.ants.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -260,16 +260,16 @@
   ],
   "headers": {
     "content-encoding": "br",
-    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-469e25c1-9ff7-487a-9dea-c7b9f37fff58' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self'\nframe-ancestors 'self'",
+    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-30e3a8b4-2066-4084-b5bb-0a4ae719d99a' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self'\nframe-ancestors 'self'",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 13 May 2026 02:21:43 GMT",
-    "etag": "W/\"115bbb-j/1852Cs+/Jy7trND4em3rdTdfM\"",
+    "date": "Fri, 15 May 2026 02:21:55 GMT",
+    "etag": "W/\"116243-VsIErWFnRwjkctcufctRS6w9Rxk\"",
     "permissions-policy": "geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()\ncamera=(), geolocation=(), microphone=()",
     "referrer-policy": "strict-origin-when-cross-origin\nstrict-origin-when-cross-origin",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff\nnosniff",
-    "x-cp-via": "C2-2332e808-43517ba9",
+    "x-cp-via": "C3-ebcd4992-329ea1b3",
     "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
     "x-xss-protection": "0\n1; mode=block"
   },
@@ -332,7 +332,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.253.122.93",
+      "ip": "142.251.41.78",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -386,7 +386,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "142.250.189.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -440,7 +440,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.253.122.155",
+      "ip": "142.251.214.194",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -494,7 +494,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "192.178.155.149",
+      "ip": "142.251.214.70",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -548,7 +548,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.253.115.119",
+      "ip": "142.251.210.118",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -602,7 +602,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.156.119",
+      "ip": "142.251.151.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -656,7 +656,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.251.111.95",
+      "ip": "142.251.41.138",
       "geoip": {
         "continent": {
           "code": "NA",
