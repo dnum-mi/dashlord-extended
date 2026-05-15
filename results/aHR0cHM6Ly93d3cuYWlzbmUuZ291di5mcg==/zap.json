@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 03:29:04",
-	"created": "2026-05-13T03:29:04.730358107Z",
+	"@generated": "Fri, 15 May 2026 03:32:11",
+	"created": "2026-05-15T03:32:11.922632875Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "22"
+			"statistic": "145"
 		},
 		{
 			"level": "Low",
@@ -18,7 +18,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "3"
+			"statistic": "2"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "10"
+			"statistic": "49"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "84"
+			"statistic": "82"
 		},
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "12"
+			"statistic": "14"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -58,15 +58,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.endpoint.ctype.application/javascript",
 			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "4"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.aisne.gouv.fr",
-			"key": "insight.endpoint.ctype.application/pdf",
-			"description": "Percentage of endpoints with content type application/pdf",
-			"statistic": "1"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -74,7 +66,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/jpeg",
 			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "2"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -82,7 +74,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.endpoint.ctype.image/png",
 			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "6"
+			"statistic": "5"
 		},
 		{
 			"level": "Info",
@@ -106,7 +98,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "76"
+			"statistic": "78"
 		},
 		{
 			"level": "Info",
@@ -122,7 +114,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "175"
+			"statistic": "139"
 		},
 		{
 			"level": "Info",
@@ -130,7 +122,7 @@
 			"site": "https://www.aisne.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "100"
+			"statistic": "88"
 		}
 	],
 	"site":[ 
@@ -140,56 +132,6 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
-				{
-					"pluginid": "10202",
-					"alertRef": "10202",
-					"alert": "Absence of Anti-CSRF Tokens",
-					"name": "Absence of Anti-CSRF Tokens",
-					"riskcode": "2",
-					"confidence": "1",
-					"riskdesc": "Medium (Low)",
-					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
-					"instances":[ 
-						{
-							"id": "187",
-							"uri": "https://www.aisne.gouv.fr/Nous-contacter",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Nous-contacter",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/action\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_40517\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-40529_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ]."
-						},
-						{
-							"id": "192",
-							"uri": "https://www.aisne.gouv.fr/contenu/conseiller/32448",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/contenu\/conseiller\/32448",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
-						},
-						{
-							"id": "191",
-							"uri": "https://www.aisne.gouv.fr/contenu/conseiller/36010",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/contenu\/conseiller\/36010",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
-						}
-					],
-					"count": "3",
-					"systemic": false,
-					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
-					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_40517\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-40529_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ].</p>",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
-					"cweid": "352",
-					"wascid": "9",
-					"sourceid": "1126"
-				},
 				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
@@ -201,7 +143,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "17",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -211,19 +153,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"id": "63",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -231,9 +163,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "0",
-							"uri": "https://www.aisne.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
+							"id": "78",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "1",
+							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -248,7 +190,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10020",
@@ -271,19 +213,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"id": "61",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -291,7 +223,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
+							"id": "75",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "76",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -301,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "100",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -318,7 +260,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90003",
@@ -331,7 +273,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "169",
 							"uri": "https://www.aisne.gouv.fr/Demarches/Autres-demarches",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Demarches\/Autres-demarches",
 							"method": "GET",
@@ -341,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "166",
+							"id": "167",
 							"uri": "https://www.aisne.gouv.fr/Demarches/Passeports-et-visa",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Demarches\/Passeports-et-visa",
 							"method": "GET",
@@ -358,7 +300,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "894"
+					"sourceid": "841"
 				},
 				{
 					"pluginid": "10003",
@@ -371,16 +313,6 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "184",
-							"uri": "https://www.aisne.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1727086478.js",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1727086478.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
-							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
-						},
-						{
 							"id": "180",
 							"uri": "https://www.aisne.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727086478.js",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727086478.js",
@@ -391,14 +323,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1117"
+					"sourceid": "1054"
 				},
 				{
 					"pluginid": "10044",
@@ -411,7 +343,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "179",
+							"id": "184",
 							"uri": "https://www.aisne.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -421,7 +353,7 @@
 							"otherinfo": "Location header URI length: 47 [https://www.aisne.gouv.fr/Outils/Accessibilite2].\nPredicted response size: 347.\nResponse Body Length: 433."
 						},
 						{
-							"id": "175",
+							"id": "176",
 							"uri": "https://www.aisne.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/actualites",
 							"method": "GET",
@@ -431,7 +363,7 @@
 							"otherinfo": "Location header URI length: 36 [https://www.aisne.gouv.fr/Actualites].\nPredicted response size: 336.\nResponse Body Length: 389."
 						},
 						{
-							"id": "173",
+							"id": "174",
 							"uri": "https://www.aisne.gouv.fr/cni",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/cni",
 							"method": "GET",
@@ -441,17 +373,7 @@
 							"otherinfo": "Location header URI length: 52 [https://www.aisne.gouv.fr/Demarches/Carte-d-identite].\nPredicted response size: 352.\nResponse Body Length: 453."
 						},
 						{
-							"id": "189",
-							"uri": "https://www.aisne.gouv.fr/contenu/action?SearchText=ZAP",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/contenu\/action (SearchText)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 95 [https://www.aisne.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1088718604?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
-						},
-						{
-							"id": "167",
+							"id": "170",
 							"uri": "https://www.aisne.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/demarches",
 							"method": "GET",
@@ -461,7 +383,7 @@
 							"otherinfo": "Location header URI length: 35 [https://www.aisne.gouv.fr/Demarches].\nPredicted response size: 335.\nResponse Body Length: 385."
 						},
 						{
-							"id": "177",
+							"id": "179",
 							"uri": "https://www.aisne.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -471,7 +393,7 @@
 							"otherinfo": "Location header URI length: 53 [https://www.aisne.gouv.fr/Outils/Donnees-personnelles].\nPredicted response size: 353.\nResponse Body Length: 457."
 						},
 						{
-							"id": "168",
+							"id": "171",
 							"uri": "https://www.aisne.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/horaires",
 							"method": "GET",
@@ -481,7 +403,7 @@
 							"otherinfo": "Location header URI length: 158 [https://www.aisne.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/La-prefecture/Prefecture-Informations-generales2/Prefecture-Informations-generales].\nPredicted response size: 458.\nResponse Body Length: 877."
 						},
 						{
-							"id": "176",
+							"id": "177",
 							"uri": "https://www.aisne.gouv.fr/mentions-legales",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/mentions-legales",
 							"method": "GET",
@@ -491,7 +413,7 @@
 							"otherinfo": "Location header URI length: 42 [https://www.aisne.gouv.fr/Mentions-legales].\nPredicted response size: 342.\nResponse Body Length: 413."
 						},
 						{
-							"id": "42",
+							"id": "58",
 							"uri": "https://www.aisne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -501,7 +423,7 @@
 							"otherinfo": "Location header URI length: 40 [https://www.aisne.gouv.fr/Nous-contacter].\nPredicted response size: 340.\nResponse Body Length: 405."
 						},
 						{
-							"id": "174",
+							"id": "175",
 							"uri": "https://www.aisne.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/passeport",
 							"method": "GET",
@@ -511,7 +433,7 @@
 							"otherinfo": "Location header URI length: 54 [https://www.aisne.gouv.fr/Demarches/Passeports-et-visa].\nPredicted response size: 354.\nResponse Body Length: 461."
 						},
 						{
-							"id": "171",
+							"id": "173",
 							"uri": "https://www.aisne.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -531,14 +453,14 @@
 							"otherinfo": "Location header URI length: 97 [https://www.aisne.gouv.fr/Demarches/Certificat-d-immatriculation-des-vehicules-CIV-ex-carte-grise].\nPredicted response size: 397.\nResponse Body Length: 633."
 						}
 					],
-					"count": "12",
+					"count": "11",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
 					"otherinfo": "<p>Location header URI length: 47 [https://www.aisne.gouv.fr/Outils/Accessibilite2].</p><p>Predicted response size: 347.</p><p>Response Body Length: 433.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1030"
+					"sourceid": "1061"
 				},
 				{
 					"pluginid": "10010",
@@ -551,7 +473,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "18",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -568,7 +490,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10011",
@@ -581,7 +503,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "20",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -598,7 +520,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10054",
@@ -611,7 +533,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "19",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -628,7 +550,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10017",
@@ -641,7 +563,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "169",
+							"id": "168",
 							"uri": "https://www.aisne.gouv.fr/Demarches/Autres-demarches",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Demarches\/Autres-demarches",
 							"method": "GET",
@@ -651,7 +573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "165",
+							"id": "166",
 							"uri": "https://www.aisne.gouv.fr/Demarches/Passeports-et-visa",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Demarches\/Passeports-et-visa",
 							"method": "GET",
@@ -668,7 +590,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "894"
+					"sourceid": "841"
 				},
 				{
 					"pluginid": "90004",
@@ -681,7 +603,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "43",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -691,9 +613,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
+							"id": "73",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -701,9 +623,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"id": "95",
+							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -731,7 +653,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "44",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -741,9 +663,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
+							"id": "74",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -751,9 +673,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"id": "96",
+							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -781,7 +703,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "42",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -791,9 +713,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "96",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
+							"id": "72",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -801,9 +723,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"id": "94",
+							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -848,7 +770,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1048"
+					"sourceid": "1042"
 				},
 				{
 					"pluginid": "110009",
@@ -861,7 +783,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "186",
+							"id": "187",
 							"uri": "https://www.aisne.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -881,7 +803,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "190",
+							"id": "186",
 							"uri": "https://www.aisne.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -898,7 +820,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1125"
+					"sourceid": "1119"
 				},
 				{
 					"pluginid": "10063",
@@ -911,7 +833,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "41",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -921,19 +843,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "95",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"id": "71",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -941,7 +853,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "93",
+							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "15",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -951,7 +873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "57",
 							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -981,7 +903,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "29",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -991,9 +913,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
+							"id": "66",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1001,9 +923,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"id": "84",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1051,7 +973,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "30",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1061,19 +983,9 @@
 							"otherinfo": "1734973200, which evaluates to: 2024-12-23 17:00:00."
 						},
 						{
-							"id": "85",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734973200",
-							"otherinfo": "1734973200, which evaluates to: 2024-12-23 17:00:00."
-						},
-						{
 							"id": "67",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1081,7 +993,17 @@
 							"otherinfo": "1734973200, which evaluates to: 2024-12-23 17:00:00."
 						},
 						{
-							"id": "106",
+							"id": "86",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734973200",
+							"otherinfo": "1734973200, which evaluates to: 2024-12-23 17:00:00."
+						},
+						{
+							"id": "88",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -1091,7 +1013,7 @@
 							"otherinfo": "1734973200, which evaluates to: 2024-12-23 17:00:00."
 						},
 						{
-							"id": "88",
+							"id": "109",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1121,7 +1043,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "34",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1131,19 +1053,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "89",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
 							"id": "68",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1151,7 +1063,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "107",
+							"id": "92",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "89",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -1161,7 +1083,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "92",
+							"id": "111",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1191,7 +1113,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "35",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1201,7 +1123,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "162",
+							"id": "69",
 							"uri": "https://www.aisne.gouv.fr/",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
@@ -1211,7 +1133,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "90",
+							"id": "122",
 							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
@@ -1221,7 +1143,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "151",
+							"id": "130",
 							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Agriculture",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat\/Agriculture",
 							"method": "GET",
@@ -1231,9 +1153,19 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "164",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire",
+							"id": "153",
+							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Barometre-de-l-action-publique-ce-qui-change-pour-moi-dans-l-Aisne",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat\/Barometre-de-l-action-publique-ce-qui-change-pour-moi-dans-l-Aisne",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/barometre-de-l-action-publique-ce-qui-change-pour-moi-dans-l-aisne/327096-1-fre-FR/Barometre-de-l-action-publique-ce-qui-change-pour-moi-dans-l-Aisne",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD\uFFFD\uFFFDg\uFFFD\uFFFD\uFFFD{\uFFFD~i\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFDq\uFABA/\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDh\uFFFD\uFFFD\uFFFD\uFFFD/\uFFFDj{>\uFFFD\u68B2w\uFFFD\uFFFDn\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\\x0005\uFFFD\uFFFD\uFFFDk{\uFFFD^\uFFFD_\uFFFDr\u0628\uFFFD\uFFFDnnX\uFFFD\uFFFD\uFFFD{\uAB8B\uFFFD!jx\\x001e\uFFFD\uFFFD.\uFFFD\u9A0B\uFFFDZ\uFFFD\u03E5\uFFFD\\x0008\uFFFD\uFFFD"
+						},
+						{
+							"id": "158",
+							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Consultations-et-Enquetes-publiques",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat\/Consultations-et-Enquetes-publiques",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1241,17 +1173,27 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "144",
-							"uri": "https://www.aisne.gouv.fr/Actualites/2021-2027-Le-premier-contrat-de-plan-Etat-Region-a-l-echelle-de-la-region-Hauts-de-France",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/2021-2027-Le-premier-contrat-de-plan-Etat-Region-a-l-echelle-de-la-region-Hauts-de-France",
+							"id": "160",
+							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat\/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/Actualites/2021-2027-Le-premier-contrat-de-plan-Etat-Region-a-l-echelle-de-la-region-Hauts-de-France",
-							"otherinfo": "~\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD_\uFFFD\uFFFDn\uFFFD-\uFA6D\uFFFDz\uFFFD\uFFFD\uFFFD{kj\u07DD{\uFFFDej\uFFFD\uFFFD\uFFFD~E\uFFFD\"\uFFFD\uFFFD\uFFFD_\uFFFDr\\x0017\uFFFD\uFFFD\uFFFD{\uFFFDZ\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDZ\u069D\uFFFD"
+							"evidence": "/Actions-de-l-Etat/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes2",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\u00EE\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u079Ag\uFFFD\uFFFD\uFFFD~z\\x0006\uFFFD\uFFFD\u05FEz{k{\uFFFD^\uFFFD\uFFFD\u079Ag\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFDz\uFFFD\u00EE\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u079Ag\uFFFD\uFFFD\uFFFD~z\\x0006\uFFFD\uFFFD\u05FEz{k{\uFFFD^\uFFFD\uFFFD\u079Ag\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFDz\uFFFD"
 						},
 						{
-							"id": "122",
+							"id": "97",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "php/Actualites/2021-2027-Le-premier-contrat-de-plan-Etat-Region-a-l-echelle-de-la-region-Hauts-de-France",
+							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDnjX\uFFFDz\uFFFD\uFFFD\uFFFDm~\uFFFDM\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD~u\uFA55\uFFFD\uFFFD\\x0012\u05AD\uFFFD\\x0017\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD~y\uFFFD^\uFFFDW\uFFFDu\uFFFDk\uFFFD\u0782*'\uFFFDv\uFFFD\uFFFD\u03DD{\uFFFDkjw\\x001e"
+						},
+						{
+							"id": "145",
 							"uri": "https://www.aisne.gouv.fr/Actualites/80-ans-de-la-Liberation-de-l-Aisne",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/80-ans-de-la-Liberation-de-l-Aisne",
 							"method": "GET",
@@ -1261,17 +1203,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD4\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj\u0628\uFFFD\uFFFD^\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}u\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD\uFFFD>j{>u\uFFFDk\uFFFD\uFFFDm\uFFFD\u06B6*'\uFFFD\u05FE\uFFFD\uFFFD\"\uFFFDw"
 						},
 						{
-							"id": "69",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actualites/80-ans-de-la-Liberation-de-l-Aisne",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
-						},
-						{
-							"id": "108",
+							"id": "90",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -1281,7 +1213,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						},
 						{
-							"id": "93",
+							"id": "112",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1289,16 +1221,6 @@
 							"attack": "",
 							"evidence": "fr/var/ide_site/storage/images/actualites/france-2030/233803-15-fre-FR/France-2030",
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFDjw\\x001e\uFFFDm7\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7\uFFFD^~~\uFFFD\uFFFD\\x0015\\x001f\u016D\uFFFD\uFFFD{\uFFFD\uFFFD"
-						},
-						{
-							"id": "130",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Lutte-contre-l-illettrisme-et-l-illectronisme",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Lutte-contre-l-illettrisme-et-l-illectronisme",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actualites/80-ans-de-la-Liberation-de-l-Aisne",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\uFFFDO\uFFFD\uFFFD\u03DD{\uFFFDZ\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0008\uFFFD\uFFFD"
 						}
 					],
 					"count": "11",
@@ -1338,7 +1260,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1029"
+					"sourceid": "1024"
 				},
 				{
 					"pluginid": "10027",
@@ -1378,7 +1300,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1048"
+					"sourceid": "1042"
 				},
 				{
 					"pluginid": "10109",
@@ -1391,7 +1313,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "26",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1401,19 +1323,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "81",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"d6cae386f1286ca73e0e27edbcfa14d6\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/France-2030\">\n                                France 2030\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
 							"id": "64",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1421,7 +1333,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "103",
+							"id": "81",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"d6cae386f1286ca73e0e27edbcfa14d6\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/France-2030\">\n                                France 2030\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "82",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -1431,7 +1353,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "82",
+							"id": "105",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1461,7 +1383,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "40",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1471,19 +1393,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
 							"id": "70",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1491,9 +1403,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
+							"id": "98",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1501,7 +1413,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "91",
+							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "60",
 							"uri": "https://www.aisne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1531,7 +1453,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "16",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1541,19 +1463,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.aisne.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actions-de-l-Etat",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
 							"id": "62",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1561,7 +1473,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "77",
+							"uri": "https://www.aisne.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "79",
 							"uri": "https://www.aisne.gouv.fr/Actualites/Etrangers-en-France",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Etrangers-en-France",
 							"method": "GET",
@@ -1571,7 +1493,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "103",
 							"uri": "https://www.aisne.gouv.fr/Actualites/France-2030",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/France-2030",
 							"method": "GET",
@@ -1588,7 +1510,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10050",
@@ -1601,7 +1523,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "28",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1612,8 +1534,8 @@
 						},
 						{
 							"id": "65",
-							"uri": "https://www.aisne.gouv.fr/Actualites/Choisir-le-service-public",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/Actualites\/Choisir-le-service-public",
+							"uri": "https://www.aisne.gouv.fr/",
+							"nodeName": "https:\/\/www.aisne.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1621,7 +1543,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "43",
+							"id": "59",
 							"uri": "https://www.aisne.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1671,7 +1593,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "38",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1681,7 +1603,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "12",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1689,19 +1611,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "32",
-							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1721,7 +1633,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "37",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1731,7 +1643,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "11",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1739,19 +1651,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "31",
-							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1771,7 +1673,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "36",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1781,7 +1683,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "10",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1789,19 +1691,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "29",
-							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1821,7 +1713,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "39",
 							"uri": "https://www.aisne.gouv.fr",
 							"nodeName": "https:\/\/www.aisne.gouv.fr",
 							"method": "GET",
@@ -1831,7 +1723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "13",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1839,19 +1731,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "35",
-							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
@@ -1888,7 +1770,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10049",
@@ -1901,7 +1783,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "14",
 							"uri": "https://www.aisne.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1911,7 +1793,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "36",
+							"id": "56",
 							"uri": "https://www.aisne.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.aisne.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1928,7 +1810,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				}
 			]
 		}
