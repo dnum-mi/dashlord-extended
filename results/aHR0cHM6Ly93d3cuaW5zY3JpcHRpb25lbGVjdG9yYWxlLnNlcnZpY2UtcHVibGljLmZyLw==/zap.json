@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 02:29:06",
-	"created": "2026-05-13T02:29:06.603241597Z",
+	"@generated": "Fri, 15 May 2026 02:29:37",
+	"created": "2026-05-15T02:29:37.709739255Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -63,7 +63,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "11",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -83,7 +83,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "16",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -100,7 +100,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -123,7 +123,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "7",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -150,7 +150,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10010",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "17",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "21",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -200,7 +200,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10011",
@@ -213,7 +213,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "19",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "20",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "25",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -250,7 +250,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -263,7 +263,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "43",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -273,7 +273,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "61",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "42",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -300,7 +300,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90004",
@@ -313,7 +313,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "45",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "63",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -333,7 +333,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "44",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -350,7 +350,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90004",
@@ -363,7 +363,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "53",
+							"id": "41",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -373,7 +373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "59",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -383,7 +383,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "40",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -400,7 +400,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10063",
@@ -413,7 +413,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "51",
+							"id": "39",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -423,7 +423,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "57",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -433,7 +433,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "38",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -450,7 +450,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10035",
@@ -463,7 +463,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -473,7 +473,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "28",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -483,7 +483,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "31",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -500,7 +500,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10021",
@@ -523,7 +523,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "34",
+							"id": "33",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +533,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "33",
+							"id": "35",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -550,7 +550,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -563,54 +563,54 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "66",
+							"id": "68",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDE$\uFFFD\uFFFDX\uFFFD\uFFFD\\x001d\uFFFDA\\x000c\uFFFDz$=\uFFFDX#F\\x0014\uFFFD\uFFFD\uFFFDr\uFFFDP\uFFFD\uFFFD\u064D\uFFFDPt\uFFFD5t\uFFFD4"
+							"evidence": "/redirect_LUO5YI2BGBABXXI7DNHJXSMPHXTJQH3IT5JBBMZWV2Q2DTHA663Q==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD;\uFFFD\\x0008\uFFFD\\x0011\uFFFD\\x0000\\x0015\uFFFD#\uFFFD\uFFFD\\x001c\uFFFD\uFFFD0\uFFFD\uFFFDL\uFFFD\\x0007\u0704\uFFFD$\\x0010LeevC`\uFFFD\\x001c\\x000e\uFFFD\uFFFD"
 						},
 						{
-							"id": "36",
+							"id": "47",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_RBYF5Q6WH7SMGE56QDP45J6XXSEULNXXTQYHPNY3Y4A7W2XYJKAQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDA`^P\uFFFDa\uFFFDH\uFFFD\uFFFD\uFFFD\\x0003?\uFFFDI\uFFFDu\uFFFD\\x0011B\uFFFD]t\uFFFD`s\uFFFDcv8\\x0003\uFFFD\uFFFD]\uFFFDJ\\x0001"
+							"evidence": "/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPe\uFFFDL\uFFFD;H1TGp\t(C\uFFFD8\\x0005B\u0714FDq\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD(\uFFFD\uFFFD\\x0001"
 						},
 						{
-							"id": "37",
+							"id": "65",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDE$\uFFFD\uFFFDX\uFFFD\uFFFD\\x001d\uFFFDA\\x000c\uFFFDz$=\uFFFDX#F\\x0014\uFFFD\uFFFD\uFFFDr\uFFFDP\uFFFD\uFFFD\u064D\uFFFDPt\uFFFD5t\uFFFD4"
+							"evidence": "/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPe\uFFFDL\uFFFD;H1TGp\t(C\uFFFD8\\x0005B\u0714FDq\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD(\uFFFD\uFFFD\\x0001"
 						},
 						{
-							"id": "38",
+							"id": "46",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDE$\uFFFD\uFFFDX\uFFFD\uFFFD\\x001d\uFFFDA\\x000c\uFFFDz$=\uFFFDX#F\\x0014\uFFFD\uFFFD\uFFFDr\uFFFDP\uFFFD\uFFFD\u064D\uFFFDPt\uFFFD5t\uFFFD4"
+							"evidence": "/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPe\uFFFDL\uFFFD;H1TGp\t(C\uFFFD8\\x0005B\u0714FDq\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFDT\uFFFD\uFFFD\uFFFD(\uFFFD\uFFFD\\x0001"
 						}
 					],
 					"count": "4",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDE$\uFFFD\uFFFDX\uFFFD\uFFFD\\x001d\uFFFDA\\x000c\uFFFDz$=\uFFFDX#F\\x0014\uFFFD\uFFFD\uFFFDr\uFFFDP\uFFFD\uFFFD\u064D\uFFFDPt\uFFFD5t\uFFFD4</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD;\uFFFD\\x0008\uFFFD\\x0011\uFFFD\\x0000\\x0015\uFFFD#\uFFFD\uFFFD\\x001c\uFFFD\uFFFD0\uFFFD\uFFFDL\uFFFD\\x0007\u0704\uFFFD$\\x0010LeevC`\uFFFD\\x001c\\x000e\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -629,37 +629,37 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_LUO5YI2BGBABXXI7DNHJXSMPHXTJQH3IT5JBBMZWV2Q2DTHA663Q====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_RBYF5Q6WH7SMGE56QDP45J6XXSEULNXXTQYHPNY3Y4A7W2XYJKAQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "26",
+							"id": "23",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ====/robots.txt';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "23",
+							"id": "27",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_JFJO7UWLOZHY5BDK56JD3RWCNGFPD443LPUJX32Y2OUHS6NXT6NA====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_PMUGWPTI47SDFUR3AJKEPAOAVC3JRGRHHOSKWZ2NBU6MH3KL7WAQ====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -670,7 +670,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -683,7 +683,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "37",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -703,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "36",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -720,7 +720,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10015",
@@ -733,7 +733,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "8",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -743,7 +743,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "9",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -753,7 +753,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "12",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -770,7 +770,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -783,7 +783,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "46",
+							"id": "54",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -793,7 +793,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "71",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -803,7 +803,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "52",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -820,7 +820,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -833,7 +833,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "50",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -843,7 +843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "69",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -853,7 +853,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "51",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -870,7 +870,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -883,7 +883,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "48",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -893,7 +893,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "66",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -903,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "49",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -920,7 +920,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -933,7 +933,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "55",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -943,7 +943,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "73",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/robots.txt",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/robots.txt",
 							"method": "GET",
@@ -953,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "53",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/sitemap.xml",
 							"method": "GET",
@@ -970,7 +970,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10112",
@@ -983,7 +983,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "0",
 							"uri": "https://www.inscriptionelectorale.service-public.fr/",
 							"nodeName": "https:\/\/www.inscriptionelectorale.service-public.fr\/",
 							"method": "GET",
@@ -1000,7 +1000,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "7"
+					"sourceid": "1"
 				}
 			]
 		}

@@ -2,7 +2,7 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://www.authentification.service-public.fr/auth/realms/service-public/protocol/openid-connect/auth?client_id=dile&scope=openid&response_type=code&code_challenge=liJebF-u7qDRrvhNtvDbFSuf8aokmT6LK_fsfbqJVF8&code_challenge_method=S256&response_mode=fragment&redirect_uri=https%3A%2F%2Fwww.inscriptionelectorale.service-public.fr%2Flogin&nonce=test&state=Lw%3D%3D"
+      "url": "https://www.authentification.service-public.fr/auth/realms/service-public/protocol/openid-connect/auth?client_id=dile&scope=openid&response_type=code&code_challenge=eCSfVbztmQyPG2zzN5am7FsdiQlqTz2yYVnC_bnvwYM&code_challenge_method=S256&response_mode=fragment&redirect_uri=https%3A%2F%2Fwww.inscriptionelectorale.service-public.fr%2Flogin&nonce=test&state=Lw%3D%3D"
     },
     {
       "type": "unknown",
@@ -50,6 +50,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://www.authentification.service-public.fr/auth/resources/0132ba46/login/dile/js/jquery.min.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://www.authentification.service-public.fr/auth/resources/0132ba46/login/dile/dsfr/fonts/Marianne-Regular.woff2"
     },
     {
@@ -63,10 +67,6 @@
     {
       "type": "unknown",
       "url": "https://www.authentification.service-public.fr/auth/resources/0132ba46/login/dile/fonts/remix/fonts/remix.ttf?471x8c"
-    },
-    {
-      "type": "unknown",
-      "url": "https://www.authentification.service-public.fr/auth/resources/0132ba46/login/dile/js/jquery.min.js"
     },
     {
       "type": "unknown",
@@ -84,7 +84,7 @@
   "cookies": [
     {
       "name": "KC_RESTART",
-      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..6SSFtFZoo8GFGo7jNMNPxQ.AN2JVcpNU37QVBM3r-_mkhPXSy5L43wZ752UlxtUkvEYwV70_G2G1TCVVTq57MRdIYDASZ6bQlVF9S-dMA6u4kACknxSQgnb_N1b2BIOO3aAWiaC0uA36exPDLsOyHqKzUD3EaRocf0Nd_S4wXMMDrY2UnRDdC76iOo0cBZ6SWOxAuLBqVkdmHwmf1F0-uYwWb-ZuTxhXD05fmgSnW9Zx47K3IKFSh7Ig0setj91L4fE7rk4gYP6HuvoOLeBQWXwthxHTYMLl2Xuyhihdw6YAv0mqf4bBHsPUfBuVt-WSpIusvT14LEAPIRniN7SKy1lsp2f4P0CuftitTDAjg-1FUAB2g52-AC8u_ChCcq9QT4mKmgReM-8PyOs8GvAv9I0d_u3IKqfl03Pwz7VOfNfmMJFumdv2OuPCly1Bcx74hMEo7cmP7seQDBv_UDCJxoW9ZPTXBFBeO18FL4-pB_l6DlZgb6KJjHew9vS-Uo3UVEKaiequtJf17eBD1Hi6DdS-Nzdaiuc75FhkvD1GZsodqcz2wl-Khldyr4TBgI-9EFDwUhks9gCcaNdFH4S3lkPoZELAM66-SGHzHZlJV90Gqil_nc-tmPTC-ShsU5wEoAz1d0smQ85BeWZKYLKrJy7G8lqwumdvwe88gDF7MFVBwMVvbnyDiYZPv4qOGn_2YStGotC-L5dQgYd27SqM0jdWMVY5sMtkrKI3vC0NLhILc5VmcUxXVQEyHsLN8_daZ4VZV4EE_Pp08N4Z1i82t8Qk8BXu0CFZRKqx3LBHr8uZoOw3Odt6-YLQnCbE5JxXZf0vmrKV0vKXH4e_vCCtnGLtiWagzJRoCTgjiZ5HRRGjoGCpupKmoc_OL0oyzeS11YLXLWqvgUAdDTRHMciFNaBpYuNr8ORWQTpHa3141vpckPLh-OyQOZg2rnyYzDFY_YK0I2fHBk0sDrNBArQNzHU6LtfkPSjN8maguf3JKhngdAQdgxWVK_TQXFlb5vBAK96knY5Y1vgNrOckn_9OrBmA8QqmiBEEPFNhpQeqNA4ukXQveNzNP7FOq0q7NJSJ_0RXFQly_xGbTYeCYphLXTk9ElIjgA4GJuTknFNU4y_Ne-Gdh-1YjSEcuYWn43qs_E.6kbjnpOEtW7VXQKc-G3zLA",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..zXAwxZO9vrliXZrsk7Wz8w.drFCLtQRbeUBFN3tJo_y1cBxOSmqlohOQLSXyPQqpYnInAToajmVmxIUVPL8JUwOy0gsgmL8Tjx9_hPZV94nx1AHirqoAs72EF9-iy0IgFNd0DBYDGhG3H4uOivtEbPvMuhMHU-x67PpcPQWTrKpdoC5XLRSIWiTAxh1hMwjxd8zRz8Lp6SWzSVwsziO1lIjkrsEFKVZ_jY0ag-Zf5a_M8yd5qfxgtX-Z7CQY76_V4iH6y4L86eQLWCJ4_Po1wVk8xXdxuFP0vn9Zh3NV2rTJfkrsZ2gjygPK_Gi-T8p-hZMg0dpRMHQw_D8EijY652iXE46Vyo0RPJ8aIR7aD8I1kYDuJJvwo-_EoW0LEWpusYT-c9ToReuY3nsNA2n3amfM3Jr-gIwRvWoUEvJveE8UZesaahbSAW74FyQlRw9hRRXFS2npNviNiQB1T0DxQK7llxCeGE2GWedoKL6T1HXLN1TG970vwyN3v9oXq27wKj5W8yGHZ2YRvrVMDVswvG_gm9xMIXLcFTqmLVm4HhXCAWgS18oWhPc407E4Sj44gnO9jzx5f67nqDHjU8-Iyt0hWL1tLd_K8EOC6ypteXJ33-j2hHs3wgXNqmqxB1cuiLdsr697eUiinUqud_r9A4uJB--wj48ixDCpa5FaCcCRAJUkU0apT-8NzMLhwfP98kr2zD2EKeSvDg6ud-r59NIAtACro_hx79oMlKKKLhQKTJp94xcO055MvTxiWFofYTLpcCesB9BcpaqEbSkQhZensc9Iu4zB1WGxJ7MC0elkwhGJcOQ4VzRmH4dAskyUacnWkT-DqKPFpErMa5oJE2eX7ytUkoucvmRvW1YsM_Y17ZN8Rv-JQsaXqVPwhBGHeWJt_le-quajtKms3KmkGjG5u5o0T78S-jIv8SqVfHIpyGqvPbw5Gx_k3m5UWnGk4dsX-ZaWs3tUrMFfYZtBXJHUi2fujiq41tMGaMFHtSBW6BRxe8S_vjq9BoUV_1TjwJ8urPm73P2s1FcsQHDod37h8jr_ef_RgwEyzHGybH39quYpOfXVnBxptzFc7MyZ142QckJURj5fSFGmP5CBjG5rnQC7mdEK3B1d0JcWFborZuFobeS2qzh87DcwFe8cvU.mHQ3DuEvtD982oVJKWEm1Q",
       "domain": "www.authentification.service-public.fr",
       "path": "/auth/realms/service-public/",
       "expires": -1,
@@ -99,7 +99,7 @@
     },
     {
       "name": "AUTH_SESSION_ID",
-      "value": "MjcyYjc0MTItMTQyYS00NjM3LThlN2UtNTEyZjkwZjI1YzQ5LjJCMjlsNHNxazJyMkNiR0UyZlRQbS1jT1RVYXlZLWtxVGJqa1BPbGRva1FCd2o3WHM4YVpFYkk4OE9Nb010VUt6WTNUOFdncGotd2FNUWZkNGlmeW9n.kc-dile-prod-quarkus-2-15430",
+      "value": "OTFjNzhmNjYtZjdjNS00ZWEyLWFhOGQtYjhlNzk4MDY5OTBiLm9XY0FreF84LUFSM2ZObmRTVjZRMVB1MmJNVFRnU3UzQko4czVLeXAtUnVSUUJ4bFRsaTRIS3dnaDMyVExTRnpiOWY0ejRJYUd1T2EyU0lfYnQ3ZS1R.kc-dile-prod-quarkus-3-31563",
       "domain": "www.authentification.service-public.fr",
       "path": "/auth/realms/service-public/",
       "expires": -1,
@@ -114,10 +114,10 @@
     },
     {
       "name": "KC_AUTH_SESSION_HASH",
-      "value": "\"JkhTX0YBv8A78tGBGDl/ICVGGfQHEM/hbdOZQcHTyHE\"",
+      "value": "\"KxkRFqvLMUETcvT0wjhUb5MsHREvI2dFsqO/IneMbr8\"",
       "domain": "www.authentification.service-public.fr",
       "path": "/auth/realms/service-public/",
-      "expires": 1778639256.038661,
+      "expires": 1778812078.750503,
       "size": 65,
       "httpOnly": false,
       "secure": true,
@@ -135,16 +135,16 @@
     "content-language": "fr",
     "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
     "content-type": "text/html;charset=utf-8",
-    "date": "Wed, 13 May 2026 02:26:36 GMT",
+    "date": "Fri, 15 May 2026 02:26:58 GMT",
     "referrer-policy": "no-referrer",
-    "set-cookie": "AUTH_SESSION_ID=MjcyYjc0MTItMTQyYS00NjM3LThlN2UtNTEyZjkwZjI1YzQ5LjJCMjlsNHNxazJyMkNiR0UyZlRQbS1jT1RVYXlZLWtxVGJqa1BPbGRva1FCd2o3WHM4YVpFYkk4OE9Nb010VUt6WTNUOFdncGotd2FNUWZkNGlmeW9n.kc-dile-prod-quarkus-2-15430; Version=1; Path=/auth/realms/service-public/; Secure; HttpOnly; SameSite=None\nKC_AUTH_SESSION_HASH=\"JkhTX0YBv8A78tGBGDl/ICVGGfQHEM/hbdOZQcHTyHE\"; Version=1; Path=/auth/realms/service-public/; Max-Age=60; Secure; SameSite=Strict\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..6SSFtFZoo8GFGo7jNMNPxQ.AN2JVcpNU37QVBM3r-_mkhPXSy5L43wZ752UlxtUkvEYwV70_G2G1TCVVTq57MRdIYDASZ6bQlVF9S-dMA6u4kACknxSQgnb_N1b2BIOO3aAWiaC0uA36exPDLsOyHqKzUD3EaRocf0Nd_S4wXMMDrY2UnRDdC76iOo0cBZ6SWOxAuLBqVkdmHwmf1F0-uYwWb-ZuTxhXD05fmgSnW9Zx47K3IKFSh7Ig0setj91L4fE7rk4gYP6HuvoOLeBQWXwthxHTYMLl2Xuyhihdw6YAv0mqf4bBHsPUfBuVt-WSpIusvT14LEAPIRniN7SKy1lsp2f4P0CuftitTDAjg-1FUAB2g52-AC8u_ChCcq9QT4mKmgReM-8PyOs8GvAv9I0d_u3IKqfl03Pwz7VOfNfmMJFumdv2OuPCly1Bcx74hMEo7cmP7seQDBv_UDCJxoW9ZPTXBFBeO18FL4-pB_l6DlZgb6KJjHew9vS-Uo3UVEKaiequtJf17eBD1Hi6DdS-Nzdaiuc75FhkvD1GZsodqcz2wl-Khldyr4TBgI-9EFDwUhks9gCcaNdFH4S3lkPoZELAM66-SGHzHZlJV90Gqil_nc-tmPTC-ShsU5wEoAz1d0smQ85BeWZKYLKrJy7G8lqwumdvwe88gDF7MFVBwMVvbnyDiYZPv4qOGn_2YStGotC-L5dQgYd27SqM0jdWMVY5sMtkrKI3vC0NLhILc5VmcUxXVQEyHsLN8_daZ4VZV4EE_Pp08N4Z1i82t8Qk8BXu0CFZRKqx3LBHr8uZoOw3Odt6-YLQnCbE5JxXZf0vmrKV0vKXH4e_vCCtnGLtiWagzJRoCTgjiZ5HRRGjoGCpupKmoc_OL0oyzeS11YLXLWqvgUAdDTRHMciFNaBpYuNr8ORWQTpHa3141vpckPLh-OyQOZg2rnyYzDFY_YK0I2fHBk0sDrNBArQNzHU6LtfkPSjN8maguf3JKhngdAQdgxWVK_TQXFlb5vBAK96knY5Y1vgNrOckn_9OrBmA8QqmiBEEPFNhpQeqNA4ukXQveNzNP7FOq0q7NJSJ_0RXFQly_xGbTYeCYphLXTk9ElIjgA4GJuTknFNU4y_Ne-Gdh-1YjSEcuYWn43qs_E.6kbjnpOEtW7VXQKc-G3zLA; Version=1; Path=/auth/realms/service-public/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "AUTH_SESSION_ID=OTFjNzhmNjYtZjdjNS00ZWEyLWFhOGQtYjhlNzk4MDY5OTBiLm9XY0FreF84LUFSM2ZObmRTVjZRMVB1MmJNVFRnU3UzQko4czVLeXAtUnVSUUJ4bFRsaTRIS3dnaDMyVExTRnpiOWY0ejRJYUd1T2EyU0lfYnQ3ZS1R.kc-dile-prod-quarkus-3-31563; Version=1; Path=/auth/realms/service-public/; Secure; HttpOnly; SameSite=None\nKC_AUTH_SESSION_HASH=\"KxkRFqvLMUETcvT0wjhUb5MsHREvI2dFsqO/IneMbr8\"; Version=1; Path=/auth/realms/service-public/; Max-Age=60; Secure; SameSite=Strict\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..zXAwxZO9vrliXZrsk7Wz8w.drFCLtQRbeUBFN3tJo_y1cBxOSmqlohOQLSXyPQqpYnInAToajmVmxIUVPL8JUwOy0gsgmL8Tjx9_hPZV94nx1AHirqoAs72EF9-iy0IgFNd0DBYDGhG3H4uOivtEbPvMuhMHU-x67PpcPQWTrKpdoC5XLRSIWiTAxh1hMwjxd8zRz8Lp6SWzSVwsziO1lIjkrsEFKVZ_jY0ag-Zf5a_M8yd5qfxgtX-Z7CQY76_V4iH6y4L86eQLWCJ4_Po1wVk8xXdxuFP0vn9Zh3NV2rTJfkrsZ2gjygPK_Gi-T8p-hZMg0dpRMHQw_D8EijY652iXE46Vyo0RPJ8aIR7aD8I1kYDuJJvwo-_EoW0LEWpusYT-c9ToReuY3nsNA2n3amfM3Jr-gIwRvWoUEvJveE8UZesaahbSAW74FyQlRw9hRRXFS2npNviNiQB1T0DxQK7llxCeGE2GWedoKL6T1HXLN1TG970vwyN3v9oXq27wKj5W8yGHZ2YRvrVMDVswvG_gm9xMIXLcFTqmLVm4HhXCAWgS18oWhPc407E4Sj44gnO9jzx5f67nqDHjU8-Iyt0hWL1tLd_K8EOC6ypteXJ33-j2hHs3wgXNqmqxB1cuiLdsr697eUiinUqud_r9A4uJB--wj48ixDCpa5FaCcCRAJUkU0apT-8NzMLhwfP98kr2zD2EKeSvDg6ud-r59NIAtACro_hx79oMlKKKLhQKTJp94xcO055MvTxiWFofYTLpcCesB9BcpaqEbSkQhZensc9Iu4zB1WGxJ7MC0elkwhGJcOQ4VzRmH4dAskyUacnWkT-DqKPFpErMa5oJE2eX7ytUkoucvmRvW1YsM_Y17ZN8Rv-JQsaXqVPwhBGHeWJt_le-quajtKms3KmkGjG5u5o0T78S-jIv8SqVfHIpyGqvPbw5Gx_k3m5UWnGk4dsX-ZaWs3tUrMFfYZtBXJHUi2fujiq41tMGaMFHtSBW6BRxe8S_vjq9BoUV_1TjwJ8urPm73P2s1FcsQHDod37h8jr_ef_RgwEyzHGybH39quYpOfXVnBxptzFc7MyZ142QckJURj5fSFGmP5CBjG5rnQC7mdEK3B1d0JcWFborZuFobeS2qzh87DcwFe8cvU.mHQ3DuEvtD982oVJKWEm1Q; Version=1; Path=/auth/realms/service-public/; Secure; HttpOnly; SameSite=None",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "vary": "Accept-Encoding",
     "x-cacheable": "Cacheable",
     "x-cdn-pop": "bhs",
     "x-cdn-pop-ip": "137.74.122.0/26",
     "x-content-type-options": "nosniff",
-    "x-cp-via": "C2-c4212e52-3bebcf82",
+    "x-cp-via": "C2-fd99793f-cdb17e03",
     "x-frame-options": "SAMEORIGIN",
     "x-robots-tag": "none",
     "x-xss-protection": "1; mode=block"
