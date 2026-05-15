@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.vienne.gouv.fr",
-        "size": 1154.047,
+        "size": 1154.058,
         "nodes": 634,
         "requests": 48,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 06:48:18.118540",
+        "date": "2026-05-15 06:58:02.293709",
         "page_type": "website"
     }
 ]
