@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.gers.gouv.fr",
-        "size": 1137.312,
-        "nodes": 712,
-        "requests": 48,
+        "size": 1123.817,
+        "nodes": 713,
+        "requests": 47,
         "grade": "D",
         "score": 55.0,
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 04:38:31.685809",
+        "date": "2026-05-15 04:49:21.133911",
         "page_type": "website"
     }
 ]
