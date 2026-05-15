@@ -95,12 +95,12 @@
   ],
   "cookies": [
     {
-      "name": "dtPCg8krhaks",
-      "value": "1$238017222_738h3vUPMCLWFUFAPUDOUQSBKPKHTCMICMFUAA-0e0",
+      "name": "rxvtg8krhaks",
+      "value": "1778812646547|1778810844861",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
-      "size": 66,
+      "size": 39,
       "httpOnly": false,
       "secure": false,
       "session": true,
@@ -110,7 +110,7 @@
     },
     {
       "name": "TS0147c866",
-      "value": "01d368dd133b3fef4367f9a647f09f131c7c867a3f2b906b65b0d465cc17755f6dab5579617ab37a7f33e78ae8062a601c65f476160ef2dc5cac2ea6e5ec052c12a6d1907d",
+      "value": "01d368dd13c42f2892df15ef501e0c844e11b2cbb60756f0ab26382c233fb48348f298ab9041a78270e05bbe20cd5bad5fbd7eaae2db53de68e2478c2e008f7f613c3c4f54",
       "domain": ".etrangers-en-france.interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -124,7 +124,7 @@
     },
     {
       "name": "dtCookieg8krhaks",
-      "value": "v_4_srv_1_sn_D448A8D2BBD54AF078775EB576B087DB_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0",
+      "value": "v_4_srv_1_sn_C1C9A5CF14288AD598BABB44ACD428F7_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -138,7 +138,7 @@
     },
     {
       "name": "rxVisitorg8krhaks",
-      "value": "1778638017224M79DKNGOV67EBD8QR6GN0CH3PEQ616KR",
+      "value": "1778810844859FT73GN4A73M0AVTU2VEN58AGR2HNADIV",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -151,12 +151,12 @@
       "sameParty": false
     },
     {
-      "name": "rxvtg8krhaks",
-      "value": "1778639818379|1778638017226",
+      "name": "dtPCg8krhaks",
+      "value": "1$410844857_970h3vKCUVMAHTHMPRPFJMHVAECHJWFKBMRNQV-0e0",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
-      "size": 39,
+      "size": 66,
       "httpOnly": false,
       "secure": false,
       "session": true,
@@ -184,16 +184,16 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
     "content-type": "text/html",
-    "date": "Wed, 13 May 2026 02:06:56 GMT",
+    "date": "Fri, 15 May 2026 02:07:23 GMT",
     "etag": "W/\"6a019d3f-50e:dtagent10335260306043831g75/\"",
     "last-modified": "Mon, 11 May 2026 09:11:26 GMT",
     "permissions-policy": "geolocation=(), microphone=(), camera=()",
     "referrer-policy": "no-referrer-when-downgrade",
-    "server-timing": "dtTrId;desc=\"93e98b1af18d7b5f5a86f4272d6537cb\", dtSInfo;desc=\"0\"\ndtRpid;desc=\"-1586249770\"",
-    "set-cookie": "dtCookieg8krhaks=v_4_srv_1_sn_D448A8D2BBD54AF078775EB576B087DB_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0; Path=/; Domain=.interieur.gouv.fr\nTS0147c866=01d368dd133b3fef4367f9a647f09f131c7c867a3f2b906b65b0d465cc17755f6dab5579617ab37a7f33e78ae8062a601c65f476160ef2dc5cac2ea6e5ec052c12a6d1907d; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
+    "server-timing": "dtTrId;desc=\"5879a1dcfe2bdf2ae1b2e3102e3dddb2\", dtSInfo;desc=\"0\"\ndtRpid;desc=\"1203683077\"",
+    "set-cookie": "dtCookieg8krhaks=v_4_srv_1_sn_C1C9A5CF14288AD598BABB44ACD428F7_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0; Path=/; Domain=.interieur.gouv.fr\nTS0147c866=01d368dd13c42f2892df15ef501e0c844e11b2cbb60756f0ab26382c233fb48348f298ab9041a78270e05bbe20cd5bad5fbd7eaae2db53de68e2478c2e008f7f613c3c4f54; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
     "strict-transport-security": "max-age=16070400; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-cp-via": "C2-d3a36f2a-db62b820",
+    "x-cp-via": "C3-fc243004-74cb46ec",
     "x-frame-options": "SAMEORIGIN",
     "x-oneagent-js-injection": "true",
     "x-ruxit-js-agent": "true",
@@ -258,19 +258,19 @@
     },
     {
       "hostname": "cdn-eu.readspeaker.com",
-      "ip": "79.127.178.57",
+      "ip": "195.181.172.3",
       "geoip": {
         "city": {
-          "geoname_id": 2988507,
+          "geoname_id": 2759794,
           "names": {
-            "de": "Paris",
-            "en": "Paris",
-            "es": "París",
-            "fr": "Paris",
-            "ja": "パリ",
-            "pt-BR": "Paris",
-            "ru": "Париж",
-            "zh-CN": "巴黎"
+            "de": "Amsterdam",
+            "en": "Amsterdam",
+            "es": "Ámsterdam",
+            "fr": "Amsterdam",
+            "ja": "Amusuterudamu",
+            "pt-BR": "Amesterdã",
+            "ru": "Амстердам",
+            "zh-CN": "阿姆斯特丹"
           }
         },
         "continent": {
@@ -288,28 +288,28 @@
           }
         },
         "country": {
-          "geoname_id": 3017382,
+          "geoname_id": 2750405,
           "is_in_european_union": true,
-          "iso_code": "FR",
+          "iso_code": "NL",
           "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
+            "de": "Niederlande",
+            "en": "The Netherlands",
+            "es": "Holanda",
+            "fr": "Pays-Bas",
+            "ja": "オランダ王国",
+            "pt-BR": "Holanda",
+            "ru": "Нидерланды",
+            "zh-CN": "荷兰"
           }
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
-          "time_zone": "Europe/Paris"
+          "latitude": 52.3716,
+          "longitude": 4.8883,
+          "time_zone": "Europe/Amsterdam"
         },
         "postal": {
-          "code": "75001"
+          "code": "1012"
         },
         "registered_country": {
           "geoname_id": 2635167,
@@ -327,27 +327,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
+            "geoname_id": 2749879,
+            "iso_code": "NH",
             "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2968815,
-            "iso_code": "75",
-            "names": {
-              "de": "Département Paris",
-              "en": "Paris Department",
-              "es": "Departamento de París",
-              "fr": "Département de Paris"
+              "de": "Nordholland",
+              "en": "North Holland",
+              "es": "Holanda Septentrional",
+              "fr": "Hollande-Septentrionale",
+              "ja": "北ホラント州",
+              "pt-BR": "Holanda do Norte",
+              "ru": "Северная Голландия",
+              "zh-CN": "北荷兰省"
             }
           }
         ]
