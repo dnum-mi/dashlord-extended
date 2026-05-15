@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tarn.gouv.fr",
-        "size": 1047.716,
+        "size": 1047.736,
         "nodes": 583,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.8,
         "water": 2.7,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 06:34:44.390626",
+        "date": "2026-05-15 06:44:45.584829",
         "page_type": "website"
     }
 ]
