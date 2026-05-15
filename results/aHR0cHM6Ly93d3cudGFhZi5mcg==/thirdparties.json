@@ -77,10 +77,6 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-saintpaul.png"
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
       "details": {
@@ -98,7 +94,15 @@
     },
     {
       "type": "unknown",
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-saintpaul.png"
+    },
+    {
+      "type": "unknown",
       "url": "https://taaf.fr//content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-table.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://taaf.fr//content/plugins/social-wall/js/social-wall.min.js"
     },
     {
       "type": "google fonts",
@@ -107,10 +111,6 @@
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/plugins/social-wall/js/social-wall.min.js"
     },
     {
       "type": "unknown",
@@ -198,39 +198,39 @@
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/693496550_1858133031813664_9065054116461794604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=557tVIOIZ3YQ7kNvwGpbcX3&_nc_oc=Adrof_YhTWv-7_KQ_hioesn8WWHRWdqhSlthbWiERtXbLFWHz_kshK-_VhcQ8Jk0gCRqPqGUw5INCDnDx7lVzus0&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQFXVBOq3irzvj4iWOq506hC-2DpvgEzOkJ8Q91ndizKsB-4xfA97UqyG8WXLbfQtz7l_rjcQPnvdw&oh=00_Af7qq6Ojf2qvkAiX5MNLfu_FPGuHbqSG8_g8VYkDWYoH3g&oe=6A0A121A"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/680430643_1508805294242211_1020810564961915546_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=GpY7-rzryCAQ7kNvwFNRLTs&_nc_oc=Adq5h-U2h8aofaOPRoGeYCOHdLmNvAfZJtARzqBlAuV8x3is_9EUWj0STL9xhcYZicaOOLCQOZN5Ceu5l0U74WSN&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQHVFxe12cR7UXJXbDS_6MB4Bhp_H-45p7Pz7ogv7qlieNvmcTMUlt2GJSP2wvO2bfm5FpSe6C0xzw&oh=00_Af4Xy65Z3Wt-0-031qDY-6D5qaNcsG8c7-zTFbeqDoq4WQ&oe=6A0CA24C"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697097810_1402756141895620_1526361353998930970_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FAw6JckzXyoQ7kNvwGWNg5a&_nc_oc=Ado9c4Qa3dt2lkpAo_-lscQRb3yKfjVvlxIv-tBIqBEgaPzPdaEfnhGxt3epnF2b2xnUv6VTtvYo4KR-aD9eKu8x&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQHT7MelqKv1BlynLAysHiKY6ECC8AxLOVx7x7vya6-23eAlCpZBMCIOGoZPVJRCiz3KGZOsgIUBTQ&oh=00_Af6KHAAn7LrwyUBuhQe80rUKVrsU-q_TiOuhIqk5BWcLDg&oe=6A09F3D6"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697244973_1402771688560732_5306716928451914302_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MdviuFKzlWkQ7kNvwEL7Zg2&_nc_oc=AdrhLYP20RR3pJn44DiHQEir7M0B5yM2h8qtnfouIyNVzozLuYvGXD5As2qCEYJOxS9khVxNcSq4gr7Mm73nqHbi&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQEPvCEdg_iLJ9dGIeDwRSRpZGu6KpvgAOMuFhHt5Ovkz1YVSm0smpRFX9ZQBwcs-WjQAPzy4BIiQw&oh=00_Af7Z9tQAQV8XLU_DhJ2aXnQMGEkiw24oIzBN35SmEDnIcQ&oe=6A0CA61E"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/691038286_1397742655730302_567081706673155602_n.jpg?stp=cp1_dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=amIXXzOd9TcQ7kNvwFLeTIs&_nc_oc=AdpHfsloetZ8033c2Mdm9vUhsIQidhiKLv628cSJOfMz2iwQtWJyt5STCwILBtxrBSzHD-Y-ceVRlnaOnYIuehzh&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=CR6DhXOKrdRey3NXYbVR9Q&_nc_tpa=Q5bMBQEiYriX7Suac2wrdSv6NAGXt4b1ssIU-IvMm7bEs4v6rJbQs-wOJ3mmzEufx-GDqTaojMo4PO6R_w&oh=00_Af4Ycs36iGNim38y_aNaBcUpOACl-H-8am2IH6pL41_GXw&oe=6A09F816"
+      "url": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/697065585_1402762771894957_4452219672850353322_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zUaKnnKzd20Q7kNvwEeLlMK&_nc_oc=AdrGiuTz1w0yJV45wPsIIrGs88nDqaaQNbmzTHqtfswgkv1uJ38sL2MQX44K1kvAFb1MojX9yxfiyvQ2yrBLy328&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQGrdn1AQEy5_LqccuZQW8IjSeXvJbk3Q70djnirRehpqKX1n8kgRldbPo6MuX_1F7tGRoZ1XgLx9w&oh=00_Af4r7DKno4bsKU01am9SeKjXRxfyPDGZzSoG17fTTaydHQ&oe=6A0C93AD"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/694759173_1492981672370876_525268259489852761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=v3F9jz4ba_gQ7kNvwG5bSnF&_nc_oc=Adr6pgYdnkiKGON0T5oxVZ9rSHy168XIQk-tsRyrJA4S-3yrvXQnuG7FpHLzVq9VRtfEJAlZR9LowgOkR00aaJPH&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQHWDKMMmdXdmnwKMq6-AHSgBTVFhL3WUhKxdZVWrxBEbMwWfYDPhvMjVMdF2EZnOj_aKJBvmcq2NA&oh=00_Af7Wf8zF8KZCVpymCzh_EdJ0_2DcPUic33WUf_di5_Mz1w&oe=6A09FA26"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/693496550_1858133031813664_9065054116461794604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LjYKMG8PfdQQ7kNvwGG8VLC&_nc_oc=Adp7rNh2BOZKFTyN8yW-fCcY1mMePTn0NmTJ3CVyOxB5zNgIjSD7IjlK_BlRRD-V_3BRG46STZp8KIn2hRuL9oVC&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQHGHSiKECeR8Dtn9Elde6omInLFXGrUlt9Hhpfzp6RcWhjCUNEh7cq6FY_OmkD3DJSCsBKCQtLyRQ&oh=00_Af7WMPMaCNJCP6Sm8-2RNNHh8vJLtVB2cc5ehpJ6b5afWw&oe=6A0CB51A"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/679685320_2363919950775343_8284983141966391957_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lakbb_UJ2RMQ7kNvwFcF5Gg&_nc_oc=AdomqAiqcErD2WCV6GrAhBphOvVa7z0Ou5djEVPmYBjyzK95QYCB1al0zJhgUOYijchssUifFHFyoBSTG-cVj2i_&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQH7zn_WC0-W0L61ZBowzBFPPbwvMF64aw34zTFEiPOt9TJ4jmXSwe677H5w3DvmM1OX2DLYp_RUVA&oh=00_Af5gjimMV2P2jmsJl3r9i7Gpnk_SLtK-acgqkg11B7pHWw&oe=6A09F52A"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697097810_1402756141895620_1526361353998930970_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FAw6JckzXyoQ7kNvwGWNg5a&_nc_oc=Ado9c4Qa3dt2lkpAo_-lscQRb3yKfjVvlxIv-tBIqBEgaPzPdaEfnhGxt3epnF2b2xnUv6VTtvYo4KR-aD9eKu8x&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQFhTW6Xe7htGiwzn45lsTxuYvDFMXubZhLvLRY7u21Qur1AYTPpkVWhoO1wIsNVSZJ5ngI5f-wByw&oh=00_Af7c4Et4G5n8ATBpptfgeRdZJQ2JPtFdb9Jb6uVRCtNJDA&oe=6A0C96D6"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/691631179_1398712362299998_1788308358714756861_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LIpbFHAaaXMQ7kNvwH30DgT&_nc_oc=AdqLpdd3ClK7xoV4fh0T3LmG565M-oetig4xC33a06-bMSD_H9OMWFOcNWsvp4_2S_q1EJmUeBJA-g9OIGGlDVFJ&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=tEvjaa3OX6_ZW0y4swX5Pg&_nc_tpa=Q5bMBQF7PTlgIMlxEVe4N4zm9LVUIpWzpD4do1wSDFf3oku1DWj4mSycNgU9LfHujUyymHPhYrNNfwvaVg&oh=00_Af7Fwccy4dePKOCtu8p38R2HW7a9qTUrfPDj5PLF6K_-Zg&oe=6A09DDCF"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/691038286_1397742655730302_567081706673155602_n.jpg?stp=cp1_dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uCf0Re9aiiMQ7kNvwGCYx40&_nc_oc=AdrTVx2I6TcnQtpmHTfoq10kSAfas9mJ5c8F9VPiS2mT_887OU7UcdiTGacnlT4FuKkl_DwlB87ApYiuyDMLj_NQ&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQGh4bZbeH0E0emFxu29tzL69lOZg3fKV4SZkMovUfnoIMnGdOjIXawyAIeLiRlGh_pHG96tiNdHHg&oh=00_Af7DPXtGVP7a_yw0egrMDwIW_-oQxZfHQPLclyB1nnAomQ&oe=6A0C9B16"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/679851219_2146420289233031_7087265084911905041_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=B8sGP_UT5KYQ7kNvwFlA3HW&_nc_oc=AdqlqrYtLC-LX7b8_GiAIfqucqu_4f4AecCvT6JutPMvtcW8nLTxot5-n18z2N0Oar0oKykRTkI9b8MNQmtAO5N4&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQEvsMJehVrCHEv2FfWW_ISuXBm3tIOa4_PqI6_lA0i07ookgaBkZ7-7VBqcYThCW1DGrVSwAK_waQ&oh=00_Af7a8kYRFwdfPEOkJ6UVNfhSjr9o_rTSnW8-p9qdIDnpvg&oe=6A0A0999"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/694759173_1492981672370876_525268259489852761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qWfj46Zj2FAQ7kNvwGb-n4V&_nc_oc=Adp6HwpUkaDa_aELKUAgKcgFn0cGgrC9rsjUYSGWRAsNCMRRbjaJlYCvYKuHv5gFd7DNDc6pvViFfspumhIIsrzL&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGxAx_wk6DxrmxcdLvPOQLAu0S7z42c4PJ3yg69VcoKQpDh1VXqcyIRPMuPtiv_3oweypGCmZw8cA&oh=00_Af6c_37VROdb-CWF2zYOnWSNQmMqEwTtkUdbu_rNsNnAkQ&oe=6A0C9D26"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/690106156_1397945179043383_7930388099875273218_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SBC0CZHo5RIQ7kNvwHKlkM8&_nc_oc=AdphGM23DTUgvBiPK22bkXB7kBZGy4lvVptvoUX2sJ87dXgaq1R9pEZWDHKoJR0P0h5vxU94i4YB25nhCvunH4OR&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQFJaRg_2tM4KsaxBsHFDN98JE_nGnxFCkas3cRfdtCpvcLw1BB9VweVWzMY3AY536hKLw6EPaZwtQ&oh=00_Af6SioBSnvBtavojbxHyhut9C5gZVItA6_TPw6IRkld-bg&oe=6A09E319"
+      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/679685320_2363919950775343_8284983141966391957_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lakbb_UJ2RMQ7kNvwFcF5Gg&_nc_oc=AdomqAiqcErD2WCV6GrAhBphOvVa7z0Ou5djEVPmYBjyzK95QYCB1al0zJhgUOYijchssUifFHFyoBSTG-cVj2i_&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGiO9Dg_lAJZ0w46O-Z7M2lIPovu5a-DZJKGX4Mikl40N3vtkDp7OoY2ap4ngmoFC5DE2TFhjMEyA&oh=00_Af73h4K5MKE4FVo3MvRTm1NSDg4_gjPunWREag1XPGerTQ&oe=6A0C982A"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/689471969_1397742312397003_6422966146011999526_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VIrDYdUtsS0Q7kNvwHwosOS&_nc_oc=AdrbfVX7icw9hQNn0pk5924tXHHOHgN9DjaHifEQEC0HRgxsgEh1nIKZ0YPZejJpSSRfrD0xUdlTrlhlr4XXymuu&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=-ULli_KqWemR6gF--9oGVQ&_nc_tpa=Q5bMBQGmOt21xdsCaIeZjwcbkK-T9yaYuuQast9Iunoi-9T8YOTBzmiz7AZWtTWwT64eAPuVQAQel-OCcg&oh=00_Af7UkA6505SSHXkifi_bwIUoGkGuxMKPsD1LzLaFvDHqoA&oe=6A0A0C97"
+      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/691631179_1398712362299998_1788308358714756861_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LIpbFHAaaXMQ7kNvwH30DgT&_nc_oc=AdqLpdd3ClK7xoV4fh0T3LmG565M-oetig4xC33a06-bMSD_H9OMWFOcNWsvp4_2S_q1EJmUeBJA-g9OIGGlDVFJ&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGmGiBW0aub-S23SAObs5tzEzCP7E_ksiSlIGvyADTjkzP55QHordXQQDxInybTzvOiVzuHxOSe0Q&oh=00_Af67PQE7JrJ7VBZOzuO_ra2_xfsQvPb9iwHVnvCOJpZqgw&oe=6A0C80CF"
     },
     {
       "type": "unknown",
@@ -273,16 +273,16 @@
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-MediumBook.woff2?0e5c0f03246d8bb843145cdfb11b4232"
     },
     {
+      "type": "unknown",
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-BoldBook.woff2?6d8c767c584336c2ba95b6e0997c6483"
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-BoldBook.woff2?6d8c767c584336c2ba95b6e0997c6483"
     },
     {
       "type": "unknown",
@@ -330,7 +330,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/12d/common.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/common.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -338,7 +338,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/12d/util.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/util.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -347,11 +347,25 @@
   ],
   "cookies": [
     {
+      "name": "cookielawinfo-checkbox-analytics",
+      "value": "no",
+      "domain": ".taaf.fr",
+      "path": "/",
+      "expires": 1810367022,
+      "size": 34,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "cookielawinfo-checkbox-functional",
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810193557,
+      "expires": 1810367022,
       "size": 35,
       "httpOnly": false,
       "secure": false,
@@ -365,7 +379,7 @@
       "value": "fr",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810193557,
+      "expires": 1810367020,
       "size": 14,
       "httpOnly": false,
       "secure": true,
@@ -380,22 +394,8 @@
       "value": "yes",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810193557,
+      "expires": 1810367022,
       "size": 35,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
-      "name": "cookielawinfo-checkbox-advertisement",
-      "value": "no",
-      "domain": ".taaf.fr",
-      "path": "/",
-      "expires": 1810193557,
-      "size": 38,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -408,7 +408,7 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810193557,
+      "expires": 1810367022,
       "size": 31,
       "httpOnly": false,
       "secure": false,
@@ -418,12 +418,12 @@
       "sameParty": false
     },
     {
-      "name": "cookielawinfo-checkbox-analytics",
+      "name": "cookielawinfo-checkbox-advertisement",
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810193557,
-      "size": 34,
+      "expires": 1810367022,
+      "size": 38,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -435,7 +435,7 @@
   "headers": {
     "content-encoding": "br",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 13 May 2026 07:32:35 GMT",
+    "date": "Fri, 15 May 2026 07:43:39 GMT",
     "link": "<https://taaf.fr/wp-json/>; rel=\"https://api.w.org/\", <https://taaf.fr/wp-json/wp/v2/pages/68>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://taaf.fr/>; rel=shortlink",
     "server": "Apache",
     "vary": "Accept-Encoding",
@@ -556,7 +556,7 @@
     },
     {
       "hostname": "maps.googleapis.com",
-      "ip": "142.250.31.95",
+      "ip": "142.251.218.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -610,7 +610,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.167.95",
+      "ip": "142.251.218.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -664,7 +664,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.111.94",
+      "ip": "142.251.219.3",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -717,8 +717,105 @@
       }
     },
     {
-      "hostname": "scontent-cdg6-1.xx.fbcdn.net",
-      "ip": "57.144.254.128",
+      "hostname": "scontent-cdg4-2.xx.fbcdn.net",
+      "ip": "157.240.202.1",
+      "geoip": {
+        "city": {
+          "geoname_id": 2980916,
+          "names": {
+            "de": "Saint-Denis",
+            "en": "Saint-Denis",
+            "es": "Saint-Denis",
+            "fr": "Saint-Denis",
+            "ja": "サン＝ドニ",
+            "pt-BR": "Saint-Denis",
+            "ru": "Сен-Дени"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 48.9335,
+          "longitude": 2.3661,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2975246,
+            "iso_code": "93",
+            "names": {
+              "de": "Seine-Saint-Denis",
+              "en": "Seine-Saint-Denis",
+              "es": "Sena Saint Denis",
+              "fr": "Seine-Saint-Denis",
+              "ja": "セーヌ＝サン＝ドニ県",
+              "pt-BR": "Seine-Saint-Denis",
+              "ru": "Сен-Сен-Дени",
+              "zh-CN": "塞纳-圣但尼省"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "scontent-cdg4-1.xx.fbcdn.net",
+      "ip": "185.60.219.2",
       "geoip": {
         "city": {
           "geoname_id": 2980916,
@@ -815,8 +912,8 @@
       }
     },
     {
-      "hostname": "scontent-cdg4-2.xx.fbcdn.net",
-      "ip": "157.240.202.1",
+      "hostname": "scontent-cdg6-1.xx.fbcdn.net",
+      "ip": "57.144.254.128",
       "geoip": {
         "city": {
           "geoname_id": 2980916,
@@ -866,17 +963,18 @@
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États-Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
