@@ -21,14 +21,14 @@
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
   on runnervmeorf1:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="font-weight:bold;">Testing all IP addresses (port 443): </span>141.101.90.105 141.101.90.107 141.101.90.104 141.101.90.106
+<span style="font-weight:bold;">Testing all IP addresses (port 443): </span>141.101.90.104 141.101.90.107 141.101.90.106 141.101.90.105
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2026-05-15 07:51:35        --&gt;&gt; 141.101.90.105:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-05-15 08:48:43        --&gt;&gt; 141.101.90.104:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   141.101.90.104 141.101.90.106 141.101.90.107
-                         2a06:98c1:3200::90:83 2a06:98c1:3200::90:81
-                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:80 
- rDNS (141.101.90.105):  --
+ Further IP addresses:   141.101.90.107 141.101.90.106 141.101.90.105
+                         2a06:98c1:3200::90:81 2a06:98c1:3200::90:80
+                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:83 
+ rDNS (141.101.90.104):  --
  Service detected:       HTTP
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
@@ -155,7 +155,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;none&apos;;
-                                script-src &apos;nonce-yxkp4PA4qZ9g8MgSDH4U4X&apos;
+                                script-src &apos;nonce-MyeI47vdKXLsgId1ptiI7v&apos;
                                 &apos;unsafe-eval&apos;
                                 https://challenges.cloudflare.com;
                                 script-src-attr &apos;none&apos;; style-src
@@ -260,14 +260,14 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to B. Issues with chain of trust
                                 (chain incomplete)
 
-<span style="color:white;background-color:black;"> Done 2026-05-15 07:53:25 [ 112s] --&gt;&gt; 141.101.90.105:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-05-15 08:50:37 [ 116s] --&gt;&gt; 141.101.90.104:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2026-05-15 07:53:25        --&gt;&gt; 141.101.90.107:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-05-15 08:50:37        --&gt;&gt; 141.101.90.107:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   141.101.90.104 141.101.90.105 141.101.90.106
-                         2a06:98c1:3200::90:83 2a06:98c1:3200::90:81
-                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:80 
+ Further IP addresses:   141.101.90.106 141.101.90.104 141.101.90.105
+                         2a06:98c1:3200::90:81 2a06:98c1:3200::90:80
+                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:83 
  rDNS (141.101.90.107):  --
  Service detected:       HTTP
 
@@ -395,7 +395,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;none&apos;;
-                                script-src &apos;nonce-T7bRsxzgkuT9pvmUQOugSG&apos;
+                                script-src &apos;nonce-ob5ZfuEqVTqZzhbsI6FDtM&apos;
                                 &apos;unsafe-eval&apos;
                                 https://challenges.cloudflare.com;
                                 script-src-attr &apos;none&apos;; style-src
@@ -426,7 +426,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> Heartbleed</span> (CVE-2014-0160)                <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, no heartbeat extension
 <span style="font-weight:bold;"> CCS</span> (CVE-2014-0224)                       <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
-<span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
+<span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, reply empty
 <span style="font-weight:bold;"> ROBOT                                     </span><span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> Secure Renegotiation (RFC 5746)           </span><span style="color:#008817;font-weight:bold;">supported (OK)</span>
 <span style="font-weight:bold;"> Secure Client-Initiated Renegotiation     </span><span style="color:#008817;">not vulnerable (OK)</span>
@@ -500,15 +500,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to B. Issues with chain of trust
                                 (chain incomplete)
 
-<span style="color:white;background-color:black;"> Done 2026-05-15 07:55:14 [ 221s] --&gt;&gt; 141.101.90.107:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-05-15 08:52:41 [ 240s] --&gt;&gt; 141.101.90.107:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2026-05-15 07:55:14        --&gt;&gt; 141.101.90.104:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-05-15 08:52:41        --&gt;&gt; 141.101.90.106:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   141.101.90.105 141.101.90.106 141.101.90.107
-                         2a06:98c1:3200::90:83 2a06:98c1:3200::90:81
-                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:80 
- rDNS (141.101.90.104):  --
+ Further IP addresses:   141.101.90.107 141.101.90.104 141.101.90.105
+                         2a06:98c1:3200::90:81 2a06:98c1:3200::90:80
+                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:83 
+ rDNS (141.101.90.106):  --
  Service detected:       HTTP
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
@@ -635,7 +635,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;none&apos;;
-                                script-src &apos;nonce-heci98TDKX2Wu5Hn2fPBew&apos;
+                                script-src &apos;nonce-NTYgfB4dGec1x325v68FUY&apos;
                                 &apos;unsafe-eval&apos;
                                 https://challenges.cloudflare.com;
                                 script-src-attr &apos;none&apos;; style-src
@@ -740,15 +740,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to B. Issues with chain of trust
                                 (chain incomplete)
 
-<span style="color:white;background-color:black;"> Done 2026-05-15 07:57:02 [ 329s] --&gt;&gt; 141.101.90.104:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-05-15 08:54:34 [ 353s] --&gt;&gt; 141.101.90.106:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2026-05-15 07:57:02        --&gt;&gt; 141.101.90.106:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-05-15 08:54:34        --&gt;&gt; 141.101.90.105:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
- Further IP addresses:   141.101.90.104 141.101.90.105 141.101.90.107
-                         2a06:98c1:3200::90:83 2a06:98c1:3200::90:81
-                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:80 
- rDNS (141.101.90.106):  --
+ Further IP addresses:   141.101.90.107 141.101.90.106 141.101.90.104
+                         2a06:98c1:3200::90:81 2a06:98c1:3200::90:80
+                         2a06:98c1:3200::90:82 2a06:98c1:3200::90:83 
+ rDNS (141.101.90.105):  --
  Service detected:       HTTP
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing protocols </span><u>via sockets except NPN+ALPN </u>
@@ -875,7 +875,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
                               <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
                               <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;none&apos;;
-                                script-src &apos;nonce-A7ZCXqpnJ1GKfclmBo9gUI&apos;
+                                script-src &apos;nonce-d768MGzn7eAJ4eUC7IYSsL&apos;
                                 &apos;unsafe-eval&apos;
                                 https://challenges.cloudflare.com;
                                 script-src-attr &apos;none&apos;; style-src
@@ -980,10 +980,10 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to B. Issues with chain of trust
                                 (chain incomplete)
 
-<span style="color:white;background-color:black;"> Done 2026-05-15 07:58:50 [ 437s] --&gt;&gt; 141.101.90.106:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-05-15 08:56:34 [ 473s] --&gt;&gt; 141.101.90.105:443 (www.prefectures-regions.gouv.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>141.101.90.105 141.101.90.107 141.101.90.104 141.101.90.106
+<span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>141.101.90.104 141.101.90.107 141.101.90.106 141.101.90.105
 
 </pre>
 </body>
