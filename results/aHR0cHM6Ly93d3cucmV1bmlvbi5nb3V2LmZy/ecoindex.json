@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.reunion.gouv.fr",
-        "size": 1298.104,
+        "size": 1216.145,
         "nodes": 672,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 07:20:09.419641",
+        "date": "2026-05-15 07:30:53.799226",
         "page_type": "website"
     }
 ]
