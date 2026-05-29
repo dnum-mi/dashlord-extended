@@ -31,7 +31,7 @@ jobs:
       - id: dashlord-report
         uses: SocialGouv/dashlord-actions/report@v1
         with:
-          base-path: /dashlord
+          base-path: /
 
       - name: Create website ZIP artifact
         run: |
