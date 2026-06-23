@@ -28,7 +28,8 @@ on:
       - "dashlord.yaml"
       - "dashlord.yml"
       - "urls.txt"
-  schedule:
+  
+  # schedule:
     # - cron: "0 0 */2 * *" # see https://crontab.guru
 
 # allow only one concurrent scan action
