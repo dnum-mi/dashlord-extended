@@ -22,7 +22,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/style.css?id=6e7de78e36e0a3bd7471&ver=54b9143d2a6b71384f9ed02e34c57f97"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/style.css?id=e2f4fa137fbe9f50c525&ver=25376ffa654e0dad3fa99d11173ee5f3"
     },
     {
       "type": "unknown",
@@ -46,7 +46,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=54b9143d2a6b71384f9ed02e34c57f97",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=25376ffa654e0dad3fa99d11173ee5f3",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -61,20 +61,20 @@
       "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/drapeau-taaf.svg"
     },
     {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-crozet.png"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-kergelen.png"
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-crozet.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/images/district-footer-kergelen.png"
     },
     {
       "type": "google fonts",
@@ -105,16 +105,16 @@
       "url": "https://taaf.fr//content/plugins/social-wall/js/social-wall.min.js"
     },
     {
+      "type": "unknown",
+      "url": "https://taaf.fr/cms/wp-includes/js/imagesloaded.min.js"
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/cms/wp-includes/js/imagesloaded.min.js"
     },
     {
       "type": "unknown",
@@ -130,15 +130,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/manifest.js?id=4f8aef86d6672773bb56&ver=54b9143d2a6b71384f9ed02e34c57f97"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/manifest.js?id=89712bc6d8c588400cae&ver=25376ffa654e0dad3fa99d11173ee5f3"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/vendor.js?id=08514379014ee5313dcb&ver=54b9143d2a6b71384f9ed02e34c57f97"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/vendor.js?id=558b753b938cd1651e99&ver=25376ffa654e0dad3fa99d11173ee5f3"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/app.js?id=2189cffeed5e9b3fc1ab&ver=54b9143d2a6b71384f9ed02e34c57f97"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/app.js?id=893ca067491be0ca5054&ver=25376ffa654e0dad3fa99d11173ee5f3"
     },
     {
       "type": "unknown",
@@ -198,39 +198,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/680430643_1508805294242211_1020810564961915546_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=GpY7-rzryCAQ7kNvwFNRLTs&_nc_oc=Adq5h-U2h8aofaOPRoGeYCOHdLmNvAfZJtARzqBlAuV8x3is_9EUWj0STL9xhcYZicaOOLCQOZN5Ceu5l0U74WSN&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQHVFxe12cR7UXJXbDS_6MB4Bhp_H-45p7Pz7ogv7qlieNvmcTMUlt2GJSP2wvO2bfm5FpSe6C0xzw&oh=00_Af4Xy65Z3Wt-0-031qDY-6D5qaNcsG8c7-zTFbeqDoq4WQ&oe=6A0CA24C"
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/icomoon.ttf?bdb9e34b4c42f9e26dcf9c7db70c7753"
     },
     {
       "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697244973_1402771688560732_5306716928451914302_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MdviuFKzlWkQ7kNvwEL7Zg2&_nc_oc=AdrhLYP20RR3pJn44DiHQEir7M0B5yM2h8qtnfouIyNVzozLuYvGXD5As2qCEYJOxS9khVxNcSq4gr7Mm73nqHbi&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQEPvCEdg_iLJ9dGIeDwRSRpZGu6KpvgAOMuFhHt5Ovkz1YVSm0smpRFX9ZQBwcs-WjQAPzy4BIiQw&oh=00_Af7Z9tQAQV8XLU_DhJ2aXnQMGEkiw24oIzBN35SmEDnIcQ&oe=6A0CA61E"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/697065585_1402762771894957_4452219672850353322_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zUaKnnKzd20Q7kNvwEeLlMK&_nc_oc=AdrGiuTz1w0yJV45wPsIIrGs88nDqaaQNbmzTHqtfswgkv1uJ38sL2MQX44K1kvAFb1MojX9yxfiyvQ2yrBLy328&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&edm=AKIiGfEEAAAA&_nc_gid=SuPwG-KuRzem8pxgeXOaHg&_nc_tpa=Q5bMBQGrdn1AQEy5_LqccuZQW8IjSeXvJbk3Q70djnirRehpqKX1n8kgRldbPo6MuX_1F7tGRoZ1XgLx9w&oh=00_Af4r7DKno4bsKU01am9SeKjXRxfyPDGZzSoG17fTTaydHQ&oe=6A0C93AD"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t15.5256-10/693496550_1858133031813664_9065054116461794604_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LjYKMG8PfdQQ7kNvwGG8VLC&_nc_oc=Adp7rNh2BOZKFTyN8yW-fCcY1mMePTn0NmTJ3CVyOxB5zNgIjSD7IjlK_BlRRD-V_3BRG46STZp8KIn2hRuL9oVC&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQHGHSiKECeR8Dtn9Elde6omInLFXGrUlt9Hhpfzp6RcWhjCUNEh7cq6FY_OmkD3DJSCsBKCQtLyRQ&oh=00_Af7WMPMaCNJCP6Sm8-2RNNHh8vJLtVB2cc5ehpJ6b5afWw&oe=6A0CB51A"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/697097810_1402756141895620_1526361353998930970_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FAw6JckzXyoQ7kNvwGWNg5a&_nc_oc=Ado9c4Qa3dt2lkpAo_-lscQRb3yKfjVvlxIv-tBIqBEgaPzPdaEfnhGxt3epnF2b2xnUv6VTtvYo4KR-aD9eKu8x&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQFhTW6Xe7htGiwzn45lsTxuYvDFMXubZhLvLRY7u21Qur1AYTPpkVWhoO1wIsNVSZJ5ngI5f-wByw&oh=00_Af7c4Et4G5n8ATBpptfgeRdZJQ2JPtFdb9Jb6uVRCtNJDA&oe=6A0C96D6"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/691038286_1397742655730302_567081706673155602_n.jpg?stp=cp1_dst-jpg_p720x720_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uCf0Re9aiiMQ7kNvwGCYx40&_nc_oc=AdrTVx2I6TcnQtpmHTfoq10kSAfas9mJ5c8F9VPiS2mT_887OU7UcdiTGacnlT4FuKkl_DwlB87ApYiuyDMLj_NQ&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=qUgGSBz2agLrxhMLnx69Rg&_nc_tpa=Q5bMBQGh4bZbeH0E0emFxu29tzL69lOZg3fKV4SZkMovUfnoIMnGdOjIXawyAIeLiRlGh_pHG96tiNdHHg&oh=00_Af7DPXtGVP7a_yw0egrMDwIW_-oQxZfHQPLclyB1nnAomQ&oe=6A0C9B16"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/694759173_1492981672370876_525268259489852761_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qWfj46Zj2FAQ7kNvwGb-n4V&_nc_oc=Adp6HwpUkaDa_aELKUAgKcgFn0cGgrC9rsjUYSGWRAsNCMRRbjaJlYCvYKuHv5gFd7DNDc6pvViFfspumhIIsrzL&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGxAx_wk6DxrmxcdLvPOQLAu0S7z42c4PJ3yg69VcoKQpDh1VXqcyIRPMuPtiv_3oweypGCmZw8cA&oh=00_Af6c_37VROdb-CWF2zYOnWSNQmMqEwTtkUdbu_rNsNnAkQ&oe=6A0C9D26"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg4-2.xx.fbcdn.net/v/t15.5256-10/679685320_2363919950775343_8284983141966391957_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lakbb_UJ2RMQ7kNvwFcF5Gg&_nc_oc=AdomqAiqcErD2WCV6GrAhBphOvVa7z0Ou5djEVPmYBjyzK95QYCB1al0zJhgUOYijchssUifFHFyoBSTG-cVj2i_&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGiO9Dg_lAJZ0w46O-Z7M2lIPovu5a-DZJKGX4Mikl40N3vtkDp7OoY2ap4ngmoFC5DE2TFhjMEyA&oh=00_Af73h4K5MKE4FVo3MvRTm1NSDg4_gjPunWREag1XPGerTQ&oe=6A0C982A"
-    },
-    {
-      "type": "unknown",
-      "url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/691631179_1398712362299998_1788308358714756861_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LIpbFHAaaXMQ7kNvwH30DgT&_nc_oc=AdqLpdd3ClK7xoV4fh0T3LmG565M-oetig4xC33a06-bMSD_H9OMWFOcNWsvp4_2S_q1EJmUeBJA-g9OIGGlDVFJ&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&edm=AKIiGfEEAAAA&_nc_gid=gc7iI_KBMt4luiFJqApzCQ&_nc_tpa=Q5bMBQGmGiBW0aub-S23SAObs5tzEzCP7E_ksiSlIGvyADTjkzP55QHordXQQDxInybTzvOiVzuHxOSe0Q&oh=00_Af67PQE7JrJ7VBZOzuO_ra2_xfsQvPb9iwHVnvCOJpZqgw&oe=6A0C80CF"
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/HankenGrotesk-VariableFont_wght.ttf?59ba6184e2b8bdef405f6dcdbec7c5b8"
     },
     {
       "type": "unknown",
@@ -238,67 +210,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-RegularBook.woff2?5bd8aa147f6e8c0f76d9cf0b4dc4405e"
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/HankenGrotesk-VariableFont_wght.ttf?59ba6184e2b8bdef405f6dcdbec7c5b8"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-MediumBook.woff2?0e5c0f03246d8bb843145cdfb11b4232"
+      "url": "https://taaf.fr//content/uploads/2026/06/AMS-2022-Quentin-dorchymont-212-185x120.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-BoldBook.woff2?6d8c767c584336c2ba95b6e0997c6483"
+      "url": "https://taaf.fr//content/uploads/2026/06/658142601_1372391398253284_6991942395387254779_n-185x120.png"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-LightBook.woff2?e51dd683cc6392cea4c5be72ef155a92"
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/icomoon.ttf?bdb9e34b4c42f9e26dcf9c7db70c7753"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-RegularBook.woff2?5bd8aa147f6e8c0f76d9cf0b4dc4405e"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-MediumBook.woff2?0e5c0f03246d8bb843145cdfb11b4232"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-BoldBook.woff2?6d8c767c584336c2ba95b6e0997c6483"
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/NEXT-LightBook.woff2?e51dd683cc6392cea4c5be72ef155a92"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/uploads/2026/04/visuel-poster-185x120.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/uploads/2026/05/1777386786881-185x120.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/uploads/2026/05/Conference-ministerielle-de-lOCTA-a-Aruba-2-site-credit-Roney-Lopez-185x120.png"
+      "url": "https://taaf.fr//content/uploads/2026/06/ST-PIERRE-SIEGE-TAAF-2-185x120.jpg"
     },
     {
       "type": "unknown",
@@ -330,7 +254,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/common.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/5e/common.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -338,7 +262,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/util.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/5e/util.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -351,7 +275,7 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810367022,
+      "expires": 1813787333,
       "size": 34,
       "httpOnly": false,
       "secure": false,
@@ -361,11 +285,11 @@
       "sameParty": false
     },
     {
-      "name": "cookielawinfo-checkbox-functional",
-      "value": "no",
+      "name": "cookielawinfo-checkbox-necessary",
+      "value": "yes",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810367022,
+      "expires": 1813787333,
       "size": 35,
       "httpOnly": false,
       "secure": false,
@@ -379,7 +303,7 @@
       "value": "fr",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810367020,
+      "expires": 1813787332,
       "size": 14,
       "httpOnly": false,
       "secure": true,
@@ -390,26 +314,12 @@
       "sameParty": false
     },
     {
-      "name": "cookielawinfo-checkbox-necessary",
-      "value": "yes",
-      "domain": ".taaf.fr",
-      "path": "/",
-      "expires": 1810367022,
-      "size": 35,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
-      "name": "cookielawinfo-checkbox-others",
+      "name": "cookielawinfo-checkbox-functional",
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810367022,
-      "size": 31,
+      "expires": 1813787333,
+      "size": 35,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -422,8 +332,22 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1810367022,
+      "expires": 1813787333,
       "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "cookielawinfo-checkbox-others",
+      "value": "no",
+      "domain": ".taaf.fr",
+      "path": "/",
+      "expires": 1813787333,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -435,7 +359,7 @@
   "headers": {
     "content-encoding": "br",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Fri, 15 May 2026 07:43:39 GMT",
+    "date": "Tue, 23 Jun 2026 21:48:50 GMT",
     "link": "<https://taaf.fr/wp-json/>; rel=\"https://api.w.org/\", <https://taaf.fr/wp-json/wp/v2/pages/68>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://taaf.fr/>; rel=shortlink",
     "server": "Apache",
     "vary": "Accept-Encoding",
@@ -556,7 +480,7 @@
     },
     {
       "hostname": "maps.googleapis.com",
-      "ip": "142.251.218.74",
+      "ip": "216.239.38.223",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -610,7 +534,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.218.170",
+      "ip": "142.251.215.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -664,7 +588,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.219.3",
+      "ip": "142.251.218.163",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -714,299 +638,6 @@
             "zh-CN": "美国"
           }
         }
-      }
-    },
-    {
-      "hostname": "scontent-cdg4-2.xx.fbcdn.net",
-      "ip": "157.240.202.1",
-      "geoip": {
-        "city": {
-          "geoname_id": 2980916,
-          "names": {
-            "de": "Saint-Denis",
-            "en": "Saint-Denis",
-            "es": "Saint-Denis",
-            "fr": "Saint-Denis",
-            "ja": "サン＝ドニ",
-            "pt-BR": "Saint-Denis",
-            "ru": "Сен-Дени"
-          }
-        },
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 48.9335,
-          "longitude": 2.3661,
-          "time_zone": "Europe/Paris"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États-Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2975246,
-            "iso_code": "93",
-            "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "scontent-cdg4-1.xx.fbcdn.net",
-      "ip": "185.60.219.2",
-      "geoip": {
-        "city": {
-          "geoname_id": 2980916,
-          "names": {
-            "de": "Saint-Denis",
-            "en": "Saint-Denis",
-            "es": "Saint-Denis",
-            "fr": "Saint-Denis",
-            "ja": "サン＝ドニ",
-            "pt-BR": "Saint-Denis",
-            "ru": "Сен-Дени"
-          }
-        },
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 48.9335,
-          "longitude": 2.3661,
-          "time_zone": "Europe/Paris"
-        },
-        "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
-          "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2975246,
-            "iso_code": "93",
-            "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "scontent-cdg6-1.xx.fbcdn.net",
-      "ip": "57.144.254.128",
-      "geoip": {
-        "city": {
-          "geoname_id": 2980916,
-          "names": {
-            "de": "Saint-Denis",
-            "en": "Saint-Denis",
-            "es": "Saint-Denis",
-            "fr": "Saint-Denis",
-            "ja": "サン＝ドニ",
-            "pt-BR": "Saint-Denis",
-            "ru": "Сен-Дени"
-          }
-        },
-        "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
-          "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
-          }
-        },
-        "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
-          "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 48.9335,
-          "longitude": 2.3661,
-          "time_zone": "Europe/Paris"
-        },
-        "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
-          "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          },
-          {
-            "geoname_id": 2975246,
-            "iso_code": "93",
-            "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
-            }
-          }
-        ]
       }
     }
   ]

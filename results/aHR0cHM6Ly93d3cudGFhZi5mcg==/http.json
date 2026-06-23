@@ -10,7 +10,7 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "connection": "close",
-      "date": "Fri, 15 May 2026 07:47:58 GMT",
+      "date": "Tue, 23 Jun 2026 21:52:51 GMT",
       "server": "Apache",
       "link": "<https://taaf.fr/wp-json/>; rel=\"https://api.w.org/\", <https://taaf.fr/wp-json/wp/v2/pages/68>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://taaf.fr/>; rel=shortlink",
       "vary": "Accept-Encoding",
@@ -86,7 +86,7 @@
       "result": "sri-not-implemented-but-external-scripts-loaded-securely",
       "scoreModifier": -5,
       "data": {
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=54b9143d2a6b71384f9ed02e34c57f97": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=25376ffa654e0dad3fa99d11173ee5f3": {
           "crossorigin": null,
           "integrity": null
         }
