@@ -9,25 +9,24 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 15 May 2026 02:19:49 GMT",
+      "date": "Tue, 23 Jun 2026 16:32:07 GMT",
       "set-cookie": [
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1KdHOgwSDk4d; Expires=Fri, 15-May-2026 04:19:49 GMT; Path=/",
-        "visid_incap_3140198=h33n2SJyRGqzEdYcGMVn3cWCBmoAAAAAQUIPAAAAAAAOHUmxyVMIWue02ZmgJPyB; expires=Fri, 14 May 2027 11:54:57 GMT; HttpOnly; path=/; Domain=.interieur.gouv.fr",
-        "incap_ses_1541_3140198=MAMWIG4SMzfTR2QwZrtiFcWCBmoAAAAA6Yo0F8CWTpS6g2Lpmc42NQ==; path=/; Domain=.interieur.gouv.fr"
+        "bZA_=v1XFDOgw__nol; Expires=Tue, 23-Jun-2026 18:32:07 GMT; Path=/",
+        "visid_incap_3140198=asAwzCWnQYK7dz0+ESgi6wa1OmoAAAAAQUIPAAAAAABhxnZIpqmkeb80KACrgdPS; expires=Wed, 23 Jun 2027 07:28:52 GMT; HttpOnly; path=/; Domain=.interieur.gouv.fr",
+        "incap_ses_1415_3140198=VKl3YUjNDzKe930gmBejEwa1OmoAAAAAARmsduHOPo9+t5fQqtIcwQ==; path=/; Domain=.interieur.gouv.fr"
       ],
       "content-type": "text/html",
-      "last-modified": "Thu, 23 Apr 2026 16:32:19 GMT",
-      "etag": "W/\"69ea4993-b6e\"",
+      "last-modified": "Wed, 10 Jun 2026 10:25:04 GMT",
+      "etag": "W/\"6a293b80-b6e\"",
       "x-frame-options": "DENY",
       "x-xss-protection": "1; mode=block",
       "x-content-type-options": "nosniff",
-      "x-request-id": "62fa88f6449358962fc43ad3b9d11918",
+      "x-request-id": "ff34ac193d419cd37f55b76959e775a1",
       "cache-control": "no-store",
       "strict-transport-security": "max-age=31536000",
       "connection": "close",
       "transfer-encoding": "chunked",
-      "x-cdn": "Imperva",
-      "x-iinfo": "14-36516616-36516618 NNNN CT(93 89 0) RT(1778811589115 12) q(0 0 1 -1) r(2 2) U12"
+      "x-iinfo": "10-9529089-9529091 NNNN CT(117 133 0) RT(1782232327460 13) q(0 0 2 0) r(4 4) U12"
     }
   },
   "tests": {
@@ -48,20 +47,20 @@
       "result": "cookies-without-secure-flag-but-protected-by-hsts",
       "scoreModifier": -5,
       "data": {
-        "YOMe1h3tgHKNQxhV6V7n5g__": {
+        "bZA_": {
           "domain": "administration-etrangers-en-france.interieur.gouv.fr",
-          "expires": "2026-05-15T04:19:49.000Z",
+          "expires": "2026-06-23T18:32:07.000Z",
           "path": "/",
           "port": null
         },
         "visid_incap_3140198": {
           "domain": "interieur.gouv.fr",
-          "expires": "2027-05-14T11:54:57.000Z",
+          "expires": "2027-06-23T07:28:52.000Z",
           "httponly": true,
           "path": "/",
           "port": null
         },
-        "incap_ses_1541_3140198": {
+        "incap_ses_1415_3140198": {
           "domain": "interieur.gouv.fr",
           "path": "/",
           "port": null

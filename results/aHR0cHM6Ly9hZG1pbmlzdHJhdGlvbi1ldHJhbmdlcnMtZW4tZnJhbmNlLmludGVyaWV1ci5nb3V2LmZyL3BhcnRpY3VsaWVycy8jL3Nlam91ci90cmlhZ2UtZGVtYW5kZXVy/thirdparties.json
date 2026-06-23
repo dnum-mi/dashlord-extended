@@ -1,12 +1,45 @@
 {
-  "trackers": [],
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat-ext.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-api.tolk.ai/v1/projects/e2d861f0-62c6-46eb-9d9c-1846f56a5246/widget-webchat"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat-ext.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-script.tolk.ai/lightchat.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://genii-api.tolk.ai/v1/projects/e2d861f0-62c6-46eb-9d9c-1846f56a5246/widget-webchat"
+    }
+  ],
   "cookies": [
     {
       "name": "visid_incap_3140198",
-      "value": "V5pabgQBQFujX7SxmZqvfbWBBmoAAAAAQUIPAAAAAACiWZUzbJmgkM244FBFvW8C",
+      "value": "8TOIXJcoSwKKVeAdzBOd3ayzOmoAAAAAQUIPAAAAAAA1i8Ggvn9CCDP1VzKgqk9O",
       "domain": ".interieur.gouv.fr",
       "path": "/",
-      "expires": 1810297888.590855,
+      "expires": 1813735731.149886,
       "size": 83,
       "httpOnly": true,
       "secure": false,
@@ -16,12 +49,12 @@
       "sameParty": false
     },
     {
-      "name": "YOMe1h3tgHKNQxhV6V7n5g__",
-      "value": "v1lNDOgwSDWgv",
+      "name": "bZA_",
+      "value": "v1XFDOgw__nol",
       "domain": "administration-etrangers-en-france.interieur.gouv.fr",
       "path": "/",
-      "expires": 1778818518.590682,
-      "size": 37,
+      "expires": 1782239181.149748,
+      "size": 17,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -30,8 +63,8 @@
       "sameParty": false
     },
     {
-      "name": "incap_ses_1541_3140198",
-      "value": "WLV1XlVUzzY0o2MwZrtiFbaBBmoAAAAAcekmwPp4qKPPR3pplbwxeQ==",
+      "name": "incap_ses_1415_3140198",
+      "value": "kdvgDOrR2Q6gjXwgmBejE62zOmoAAAAASoV51aaPG41PYiKzVXmf1w==",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -45,10 +78,10 @@
     },
     {
       "name": "___utmvc",
-      "value": "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",
+      "value": "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",
       "domain": "administration-etrangers-en-france.interieur.gouv.fr",
       "path": "/",
-      "expires": 1778811339,
+      "expires": 1782232002,
       "size": 2940,
       "httpOnly": false,
       "secure": false,
@@ -62,16 +95,15 @@
     "cache-control": "no-store",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Fri, 15 May 2026 02:15:18 GMT",
-    "etag": "W/\"69ea4993-b6e\"",
-    "last-modified": "Thu, 23 Apr 2026 16:32:19 GMT",
-    "set-cookie": "YOMe1h3tgHKNQxhV6V7n5g__=v1lNDOgwSDWgv; Expires=Fri, 15-May-2026 04:15:18 GMT; Path=/\nvisid_incap_3140198=V5pabgQBQFujX7SxmZqvfbWBBmoAAAAAQUIPAAAAAACiWZUzbJmgkM244FBFvW8C; expires=Fri, 14 May 2027 12:31:28 GMT; HttpOnly; path=/; Domain=.interieur.gouv.fr\nincap_ses_1541_3140198=WLV1XlVUzzY0o2MwZrtiFbaBBmoAAAAAcekmwPp4qKPPR3pplbwxeQ==; path=/; Domain=.interieur.gouv.fr",
+    "date": "Tue, 23 Jun 2026 16:26:22 GMT",
+    "etag": "W/\"6a293b80-b6e\"",
+    "last-modified": "Wed, 10 Jun 2026 10:25:04 GMT",
+    "set-cookie": "bZA_=v1XFDOgw__nol; Expires=Tue, 23-Jun-2026 18:26:21 GMT; Path=/\nvisid_incap_3140198=8TOIXJcoSwKKVeAdzBOd3ayzOmoAAAAAQUIPAAAAAAA1i8Ggvn9CCDP1VzKgqk9O; expires=Wed, 23 Jun 2027 07:28:51 GMT; HttpOnly; path=/; Domain=.interieur.gouv.fr\nincap_ses_1415_3140198=kdvgDOrR2Q6gjXwgmBejE62zOmoAAAAASoV51aaPG41PYiKzVXmf1w==; path=/; Domain=.interieur.gouv.fr",
     "strict-transport-security": "max-age=31536000",
-    "x-cdn": "Imperva",
     "x-content-type-options": "nosniff",
     "x-frame-options": "DENY",
-    "x-iinfo": "4-8749482-8749503 NNNN CT(84 99 0) RT(1778811318075 13) q(0 2 4 222) r(5 5) U12",
-    "x-request-id": "3be655c9bde3e4ddbdbc911b1159c9a7",
+    "x-iinfo": "7-13685935-13685937 NNNN CT(118 133 0) RT(1782231981756 12) q(0 0 2 0) r(4 4) U12",
+    "x-request-id": "67b61e610ec74837b339847729a7e650",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -125,6 +157,82 @@
             "pt-BR": "EUA",
             "ru": "США",
             "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "genii-script.tolk.ai",
+      "ip": "172.66.44.217",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "genii-api.tolk.ai",
+      "ip": "142.44.55.113",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
           }
         }
       }
