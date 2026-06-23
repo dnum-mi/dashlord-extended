@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 08:59:13 GMT",
+      "date": "Tue, 23 Jun 2026 23:14:08 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
@@ -18,10 +18,10 @@
       "referrer-policy": "same-origin",
       "x-frame-options": "SAMEORIGIN",
       "set-cookie": [
-        "__cf_bm=vHJW4MzElc60s4sEo7jGuVMvVEn6p3P69ZIccv9.j1s-1778662753.9907286-1.0.1.1-GAUUUJeUT3oyiQ9fk4b5N.ZfDpBmDdhweT1CZHHnNJiHKut9lJpVT4UlTXrcuT8PBgvrFnflNUo7J45q6almz2EA8VWhtQ6kVW8RwcP22xfFbXao2NhLk0VGEyio_W3G; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 09:29:13 GMT"
+        "__cf_bm=sk2pPfekxaJUUge9znB.IZO5yarnQttwHXTggvHWtH0-1782256448.6726341-1.0.1.1-m4duismqj.RRWfwUMQWy3XrFJqgUNexbNG4Q3gPEAe7xabnLkLECuCV30VOuIj.kY06ukDAa9Xmu5t.RWoc8EWLw9E5VN8mKQTsp7BFTwbh9F8SM9pF0_pA_rYQdZGu9; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Tue, 23 Jun 2026 23:44:08 GMT"
       ],
       "server": "cloudflare",
-      "cf-ray": "9fb0774468226129-ORD"
+      "cf-ray": "a1072ff43d69e5eb-IAD"
     }
   },
   "tests": {
@@ -44,7 +44,7 @@
       "data": {
         "__cf_bm": {
           "domain": "mespoints.permisdeconduire.gouv.fr",
-          "expires": "2026-05-13T09:29:13.000Z",
+          "expires": "2026-06-23T23:44:08.000Z",
           "httponly": true,
           "path": "/",
           "port": null,

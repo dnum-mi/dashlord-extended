@@ -353,7 +353,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/172.67.193.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "87 >= 30 days"
+              "finding"      : "46 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
@@ -605,7 +605,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/172.67.193.178",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "87 >= 30 days"
+              "finding"      : "46 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
@@ -766,7 +766,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/172.67.193.178",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778662774"
+              "finding"      : "1782256469"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -774,7 +774,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: __cf_bm=7iVlbc16rkf0bsZvNAXodfQYkYCWR0EYbxFUSHNcI4E-1778662773.849074-1.0.1.1-mnAezSwolTEqnwdCYi2j4ZizPchsFXBGMBo8mpVVVFiSgmr_EVCgm_YhDmzuJ9fShr9yd_D4.UDikFtO.Si5NAhxkDuCZYkEdv2ESt3OBNntO_O3BVvpALn7NFy5dTzq; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 09:29:34 GMT (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "set-cookie: __cf_bm=E3izLCK6thAFBvE.miwZA.T6gd2aFeV4CUarcX8_VD8-1782256469.8223333-1.0.1.1-a28GCYlNzlgGSkTJPY4ycp6e5BlD1vHIxyZsS1FGChioO8n0BaTCzZ13kCoCfS4wtLwLbjF64qDB91amSvbiJoU9.8siev91GZzv6UVE22T2I_pc5thEjI_ZU1RIEIFf; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Tue, 23 Jun 2026 23:44:29 GMT (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -782,7 +782,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: _cfuvid=MI2rr_oi_Ay7xiN3RKXBa91vtBQjuPJA8hv9N_wDfpE-1778662773.849074-1.0.1.1-2H.5tIdCrr_0Ww7oRXBSSewxbAVjKH8SL3pRKDsqgOY; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr"
+              "finding"      : "set-cookie: _cfuvid=dyr2SsgGflbzT0DKNlOmXzgnmNSTWMxIiWU47Fzy1bw-1782256469.8223333-1.0.1.1-FCFGL2am_oJH.G6L0TOvUfFxiG.e9QG0YGBvAJIvMd0; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1722,7 +1722,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/104.21.12.57",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "87 >= 30 days"
+              "finding"      : "46 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
@@ -1974,7 +1974,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/104.21.12.57",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "87 >= 30 days"
+              "finding"      : "46 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
@@ -2135,7 +2135,7 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/104.21.12.57",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1778662826"
+              "finding"      : "1782256524"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -2143,7 +2143,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: __cf_bm=vsTRIe0QuZs5B1UwsjU30SolpTTHGbKyR720Izx6JNE-1778662826.0441132-1.0.1.1-RzHyQ8mT3YaAVv3h8Y6X8_pPx9Ie1v1D8a1mh7Y5EsfkFynjr.kS3NYrtXpOTw3hcrOIXC_5wIJIuDjotGpVzvMm5jxrXRjZ3xKWYQ8K8W0Zqd.R3rBWEQnnIiJEHyth; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Wed, 13 May 2026 09:30:26 GMT (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "set-cookie: __cf_bm=gH_nuU6hQ9ZZ5VCxQq4REuNaGlaQjGCD.EPyrgLb09w-1782256524.4815886-1.0.1.1-YNIg.COV9x6kCPMdA7EBmy3syCDUAp1TuH8Umii2_PNQ1kVsHI4sNGmE5ysecO4iu0.nO8bkow5zjmu22g_M9Q9IwrkKPQ8QnVDYIr7AtrM8M1sTiwcS5VcUsPITEQsV; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr; Expires=Tue, 23 Jun 2026 23:45:24 GMT (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -2151,7 +2151,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "set-cookie: _cfuvid=jjtXj8KBD6yOjdoKzeHi.sgKu78hZh8LhM0uKara4_w-1778662826.0441132-1.0.1.1-QnqheqTH_U1Vpra6LvUrH9q1f5VUhAZljx6ozhcx.Ww; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr"
+              "finding"      : "set-cookie: _cfuvid=uAtChtg4VJBcJSdvhq17Gfn4GAs0FQmiEu0oJo7dDQM-1782256524.4815886-1.0.1.1-cTkyF9d4HJu4SH2vyXacH0Cce4ikJJFgkCOQfO5GPu4; HttpOnly; SameSite=None; Secure; Path=/; Domain=mespoints.permisdeconduire.gouv.fr"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2742,6 +2742,6 @@
               "ip"           : "mespoints.permisdeconduire.gouv.fr/104.21.12.57",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "106"
+              "finding"      : "111"
           }
 ]
