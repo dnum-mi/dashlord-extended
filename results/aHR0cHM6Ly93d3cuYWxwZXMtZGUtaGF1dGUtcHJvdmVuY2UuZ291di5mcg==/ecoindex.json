@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.alpes-de-haute-provence.gouv.fr",
-        "size": 1649.258,
+        "size": 1615.463,
         "nodes": 654,
         "requests": 46,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 03:34:08.388540",
+        "date": "2026-06-23 17:46:45.142864",
         "page_type": "website"
     }
 ]
