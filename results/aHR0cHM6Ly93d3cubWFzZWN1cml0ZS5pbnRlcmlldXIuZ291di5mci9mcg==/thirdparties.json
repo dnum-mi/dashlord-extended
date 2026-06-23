@@ -1,23 +1,98 @@
 {
-  "trackers": [],
-  "cookies": [
+  "trackers": [
     {
-      "name": "TS01731832",
-      "value": "0161bc9718ae4bed988d01970eda928a7074fb2057eeae51a573cda049e73e5f4c56d598bc92291039d566f790465bf9c28037cfe5f2edd92f91a1e2c7b4031805003d77a9",
-      "domain": ".www.masecurite.interieur.gouv.fr",
-      "path": "/",
-      "expires": -1,
-      "size": 148,
-      "httpOnly": false,
-      "secure": false,
-      "session": true,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
+      "type": "unknown",
+      "url": "https://cdn.tagcommander.com/6351/tc_moncommissariat_20.js"
     },
     {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/agent/widgetClient.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/?Channel_Id=357&langKey=fr&cLName=GOOGLE&cFName=Robot&email=test@gmail.com&scope=moncommissariat.fr&customParams=%7B%22code%20postal%22:%22%22,%22Code%20Postal%22:%22%22%7D&deviceWith=800"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Mandali|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/styles.23a69e036a682798846c.bundle.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/inline.60b6a93274eca84287d5.bundle.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/polyfills.ea921736cb8ccb536ab9.bundle.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/scripts.64595f6c33bde0048d92.bundle.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/vendor.2ab7873617ac0d310680.bundle.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/main.6d243e6011892181f15b.bundle.js"
+    },
+    {
+      "type": "cloudflare",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447",
+      "details": {
+        "id": "cloudflare",
+        "message": "Host files locally"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/assets/i18n/fr.json?v=3.0.30.1"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/api/monitor/connect"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/cdn-cgi/rum?"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/api/WidgetChat/357"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/api/WidgetChat/checkIfIpBanned/357"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/api/channels/357/status"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/widget/api/WidgetChat/357"
+    }
+  ],
+  "cookies": [
+    {
       "name": "SESSION-RP",
-      "value": "26698762.20480.0000",
+      "value": "43475978.20480.0000",
       "domain": "www.masecurite.interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -28,36 +103,42 @@
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
+    },
+    {
+      "name": "TS01731832",
+      "value": "0161bc9718412db19ab276c33a83886b5c62b15dac62d11955d26bc216dfa8003432955201b5a3bc4e354bcf32bb87fd88f365ccf137b62b06288c2e498e93bae464fae726",
+      "domain": ".www.masecurite.interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
-    "age": "0",
+    "age": "3423",
+    "cache-control": "max-age=360, public, s-maxage=3600",
     "connection": "keep-alive",
-    "content-length": "1017",
+    "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Wed, 13 May 2026 09:09:33 GMT",
-    "set-cookie": "SESSION-RP=26698762.20480.0000; path=/; Httponly; Secure\nTS01731832=0161bc9718ae4bed988d01970eda928a7074fb2057eeae51a573cda049e73e5f4c56d598bc92291039d566f790465bf9c28037cfe5f2edd92f91a1e2c7b4031805003d77a9; Path=/; Domain=.www.masecurite.interieur.gouv.fr",
+    "date": "Tue, 23 Jun 2026 23:24:13 GMT",
+    "set-cookie": "SESSION-RP=43475978.20480.0000; path=/; Httponly; Secure\nTS01731832=0161bc9718412db19ab276c33a83886b5c62b15dac62d11955d26bc216dfa8003432955201b5a3bc4e354bcf32bb87fd88f365ccf137b62b06288c2e498e93bae464fae726; Path=/; Domain=.www.masecurite.interieur.gouv.fr",
     "strict-transport-security": "max-age=63072000\nmax-age=63072000",
-    "x-varnish": "33804"
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding\nAccept-Encoding",
+    "x-cache": "HIT",
+    "x-cache-debug": "1",
+    "x-varnish": "1310583 1146512"
   },
   "endpoints": [
     {
       "hostname": "www.masecurite.interieur.gouv.fr",
       "ip": "46.22.207.60",
       "geoip": {
-        "city": {
-          "geoname_id": 2988507,
-          "names": {
-            "de": "Paris",
-            "en": "Paris",
-            "es": "París",
-            "fr": "Paris",
-            "ja": "パリ",
-            "pt-BR": "Paris",
-            "ru": "Париж",
-            "zh-CN": "巴黎"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -93,9 +174,6 @@
           "longitude": 2.3494,
           "time_zone": "Europe/Paris"
         },
-        "postal": {
-          "code": "75008"
-        },
         "registered_country": {
           "geoname_id": 3017382,
           "is_in_european_union": true,
@@ -125,18 +203,189 @@
               "ru": "Иль-де-Франс",
               "zh-CN": "法兰西岛"
             }
-          },
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "cdn.tagcommander.com",
+      "ip": "151.101.74.132",
+      "geoip": {
+        "city": {
+          "geoname_id": 5368361,
+          "names": {
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "90060"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
           {
-            "geoname_id": 2968815,
-            "iso_code": "75",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "de": "Département Paris",
-              "en": "Paris Department",
-              "es": "Departamento de París",
-              "fr": "Département de Paris"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "policevss.minint.chat",
+      "ip": "104.21.80.83",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "fonts.googleapis.com",
+      "ip": "142.251.210.138",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "static.cloudflareinsights.com",
+      "ip": "104.16.79.73",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     }
   ]
