@@ -1,5 +1,157 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "SP_SESSION",
+      "value": "ODk0MWY4NDctY2I5OS00OWIwLTgwMTItNmU2MzgzOWI4OGQw",
+      "domain": ".service-public.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 58,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "KC_RESTART",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..fN2AU8_JDFsG3e2ldWckdw.te-HKR7PPMo2RgQW1IKK0rvBzaDLO7aANITQ9YLIvpIVIKqSWkM9e2XsHopkf958QurnlCexgnJB4atlxzB3ryUe6328nDUcVuUU14ZirQQNzghabWthhbuPtX2QFVZBFZMS57UlnAdeLATritdH0Bx9q8CKUp12BUzcjgLyuAP7yDXoBa_AAbD5Vm48Hb0BB6uQzIgFVlc12mj3TqpzB7YXEPEKfBVLwSMO9XuFmSZ-WIvHmxYOrUTejNiB2DUxgEZ1tb5uw63DZq2htD72nUawyTD5mYPXV5TAYmXgC-Boe_jTT5yqPt0XN1BZPOFVpqyLsYkuA_3AnVFjiyYLd4mM3odEhqryyJqC2Wapixq1yjAmeWyOhlPwgnOHnzawYoh_v4hJcYzLIGnHiguUyeA8V-bZJoRjhzl-L06d3gBzYpfYar-yp5p5zgRpttZsLTKJPANS9uIhqZfWCxbYj33kH0pybBwGjBS7eOGEUSrWgwyYDrEmKxlNGJ_Crpsbvhu9rzZ20LM2YQSynMhnZYa8BLx3ISOG438Ljj9RAug28-BGU7nqAL1OzFzfaJ4rab3dNjOuXJvoJ7hn6FgBRe6ljdndETl4UqeJ7TUSrP0hKw2RY0j10MH_Znbc05saB5x08F8pA0YfXWe5XCtmkunkTf-o1aURPF2ozBoNS-VuzU-ibcH5yjryQgs7BxXNV9Qq4uI2n3G--Pk3ypm-glvdWKn6JlGmL-Zjeqne7p5jgdjmPLhAMu-jN7U6O6jXylQkk7LVRqk5C_45bOvreXnsF8chquMoPHOnLgkdmoNEjN_tlJOF8wphdA5FUTeirEgaaauztsY9r22GMu4JrGlHJRrokw5y38J1ya9j7U4SovbRivAuHTdTg95xeGiFSsutoanzpBza-pMFL8jgjEE7_m6zshMpMWQ7fMxHBZBBhtMwguAHnmvGu3int0WgNJN6eSb8yYKupBgxClyfWWHf7A_APLqjwNphy7Swbdj-CZL4noq-oAo-WDIkMKqY1_OGMosNB9WBEM0yUQIOGw1mKQnpkSHmm0nBzxTPxQI.op0DQdYvBz59fU-RvT-80g",
+      "domain": "auth.service-public.gouv.fr",
+      "path": "/realms/service-public/",
+      "expires": -1,
+      "size": 1172,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "NWM5Nzk2ZDktZjIxMS00YjY2LWFiMTQtZWNmYThlMWMxMGI4LmlXaGxUc25UbDRzalNoa2wzZUFuUWt5Q1pLZ2JoaS16WXQ1NjJVajd3VjZsYXhiQllkcm9yQWsxMXFRR0hLQkpObXM2YnExZ1JiNklWTkoxVWZmRDJn.kc-sp-prod-quarkus-3-47867",
+      "domain": "auth.service-public.gouv.fr",
+      "path": "/realms/service-public/",
+      "expires": -1,
+      "size": 206,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "KC_AUTH_SESSION_HASH",
+      "value": "\"Zd6o7tHq4Ew6+fcvYYFE1t0B9x/cQecnjPq+QYJ1Z2A\"",
+      "domain": "auth.service-public.gouv.fr",
+      "path": "/realms/service-public/",
+      "expires": 1782233244.710727,
+      "size": 65,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Strict",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS015ce0c6",
+      "value": "012a7f58e0602a98c17565da9508fe520634ad32c2605f4b738be20a4fd564cb786084f9c436ee10b5bf8e6fd3038eb5d6ed3c4532855268150d51064342d916ce893da8b3",
+      "domain": ".service-public.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    }
+  ],
+  "headers": {
+    "cache-control": "no-store, must-revalidate, max-age=0",
+    "content-encoding": "br",
+    "content-language": "en",
+    "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
+    "content-type": "text/html;charset=utf-8",
+    "date": "Tue, 23 Jun 2026 16:46:24 GMT",
+    "referrer-policy": "no-referrer",
+    "set-cookie": "AUTH_SESSION_ID=NWM5Nzk2ZDktZjIxMS00YjY2LWFiMTQtZWNmYThlMWMxMGI4LmlXaGxUc25UbDRzalNoa2wzZUFuUWt5Q1pLZ2JoaS16WXQ1NjJVajd3VjZsYXhiQllkcm9yQWsxMXFRR0hLQkpObXM2YnExZ1JiNklWTkoxVWZmRDJn.kc-sp-prod-quarkus-3-47867; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None\nKC_AUTH_SESSION_HASH=\"Zd6o7tHq4Ew6+fcvYYFE1t0B9x/cQecnjPq+QYJ1Z2A\"; Version=1; Path=/realms/service-public/; Max-Age=60; Secure; SameSite=Strict\nKC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..fN2AU8_JDFsG3e2ldWckdw.te-HKR7PPMo2RgQW1IKK0rvBzaDLO7aANITQ9YLIvpIVIKqSWkM9e2XsHopkf958QurnlCexgnJB4atlxzB3ryUe6328nDUcVuUU14ZirQQNzghabWthhbuPtX2QFVZBFZMS57UlnAdeLATritdH0Bx9q8CKUp12BUzcjgLyuAP7yDXoBa_AAbD5Vm48Hb0BB6uQzIgFVlc12mj3TqpzB7YXEPEKfBVLwSMO9XuFmSZ-WIvHmxYOrUTejNiB2DUxgEZ1tb5uw63DZq2htD72nUawyTD5mYPXV5TAYmXgC-Boe_jTT5yqPt0XN1BZPOFVpqyLsYkuA_3AnVFjiyYLd4mM3odEhqryyJqC2Wapixq1yjAmeWyOhlPwgnOHnzawYoh_v4hJcYzLIGnHiguUyeA8V-bZJoRjhzl-L06d3gBzYpfYar-yp5p5zgRpttZsLTKJPANS9uIhqZfWCxbYj33kH0pybBwGjBS7eOGEUSrWgwyYDrEmKxlNGJ_Crpsbvhu9rzZ20LM2YQSynMhnZYa8BLx3ISOG438Ljj9RAug28-BGU7nqAL1OzFzfaJ4rab3dNjOuXJvoJ7hn6FgBRe6ljdndETl4UqeJ7TUSrP0hKw2RY0j10MH_Znbc05saB5x08F8pA0YfXWe5XCtmkunkTf-o1aURPF2ozBoNS-VuzU-ibcH5yjryQgs7BxXNV9Qq4uI2n3G--Pk3ypm-glvdWKn6JlGmL-Zjeqne7p5jgdjmPLhAMu-jN7U6O6jXylQkk7LVRqk5C_45bOvreXnsF8chquMoPHOnLgkdmoNEjN_tlJOF8wphdA5FUTeirEgaaauztsY9r22GMu4JrGlHJRrokw5y38J1ya9j7U4SovbRivAuHTdTg95xeGiFSsutoanzpBza-pMFL8jgjEE7_m6zshMpMWQ7fMxHBZBBhtMwguAHnmvGu3int0WgNJN6eSb8yYKupBgxClyfWWHf7A_APLqjwNphy7Swbdj-CZL4noq-oAo-WDIkMKqY1_OGMosNB9WBEM0yUQIOGw1mKQnpkSHmm0nBzxTPxQI.op0DQdYvBz59fU-RvT-80g; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "x-cacheable": "Not cacheable: uncacheable",
+    "x-cdn-pop": "bhs",
+    "x-cdn-pop-ip": "137.74.122.0/26",
+    "x-content-type-options": "nosniff",
+    "x-cp-via": "C3-83882883-ccb26030",
+    "x-frame-options": "SAMEORIGIN",
+    "x-robots-tag": "none",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.service-public.fr",
+      "ip": "160.92.168.33",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
 }
