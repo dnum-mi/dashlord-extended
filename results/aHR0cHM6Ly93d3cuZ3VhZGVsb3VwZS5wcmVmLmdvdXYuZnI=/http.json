@@ -9,11 +9,11 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 15 May 2026 07:27:25 GMT",
+      "date": "Tue, 23 Jun 2026 21:30:11 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Fri, 15 May 2026 05:27:25 GMT",
-      "last-modified": "Fri, 15 May 2026 07:27:25 GMT",
+      "expires": "Tue, 23 Jun 2026 19:30:11 GMT",
+      "last-modified": "Tue, 23 Jun 2026 21:30:11 GMT",
       "served-by": "www.guadeloupe.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=314ejr72hij91oommd6flatrp6; path=/"
+        "eZSESSID=74n6sr2fkugtapl2bn6tnqtre6; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
