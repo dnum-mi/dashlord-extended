@@ -1,50 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 15 May 2026 02:43:02",
-	"created": "2026-05-15T02:43:02.166946914Z",
-	"insights":[
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.code.2xx",
-			"description": "Percentage of responses with status code 2xx",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.ctype.text/html",
-			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.method.GET",
-			"description": "Percentage of endpoints with method GET",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.total",
-			"description": "Count of total endpoints",
-			"statistic": "5"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.response.slow",
-			"description": "Percentage of slow responses",
-			"statistic": "71"
-		}
-	],
+	"@generated": "Tue, 23 Jun 2026 16:56:07",
+	"created": "2026-06-23T16:56:07.859282071Z",
 	"site":[ 
 		{
 			"@name": "https://immatriculation.ants.gouv.fr",
@@ -73,7 +31,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "90",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -83,7 +41,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "16",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -93,7 +51,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "83",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +61,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "21",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -143,7 +101,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "84",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -153,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "5",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -163,7 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "76",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +131,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "9",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -190,7 +148,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10010",
@@ -203,7 +161,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "14",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -213,7 +171,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "93",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -223,7 +181,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "19",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -233,7 +191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "85",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "23",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -273,7 +231,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "18",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -283,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
+							"id": "96",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -293,7 +251,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -303,7 +261,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "86",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +271,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "27",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -343,7 +301,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "62",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,9 +311,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "77",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -363,9 +321,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "70",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -380,7 +338,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -393,7 +351,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "63",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -403,9 +361,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "78",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -413,9 +371,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "72",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -430,7 +388,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -443,7 +401,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "54",
+							"id": "60",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -453,9 +411,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "75",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -463,9 +421,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "65",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -480,7 +438,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10063",
@@ -493,7 +451,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "58",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -503,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "112",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -513,7 +471,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "73",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -523,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "108",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +491,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "101",
+							"id": "59",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -550,7 +508,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10035",
@@ -563,7 +521,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "30",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -573,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "103",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -583,7 +541,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "31",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -593,7 +551,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "95",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -603,7 +561,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "32",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -633,7 +591,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "33",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -643,7 +601,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "35",
+							"id": "106",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -653,7 +611,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "32",
+							"id": "36",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -663,7 +621,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "91",
+							"id": "98",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -673,7 +631,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "85",
+							"id": "35",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -709,38 +667,38 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_34ZMNZ4W7OBMKNAH5B54DT5Y623QOBD75OAXOQSBHUYEZKVJ4FSA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFDY\uFFFDn\uFFFD\\x0004\u008D\\x0000~A\uFFFD\uFFFD\u53B6\uFFFD\\x0003\uFFFD\\x000f\uFFFDN\\x0001s\uFFFDH\\x0011\uFFFD`FJT\uFFFD\\x0005H"
+							"evidence": "/redirect_RT2GRX236WRW7HQEGI2VLZU2QMFTDV4U7OG7B4SM4FV2UO2XFFQQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDS\uFFFDdW\uFFFD~\uFFFDEn\uFFFD@A\uFFFD\uFFFDR\uFFFDSd\\x000c\\x00150\uFFFD\uFFFDN\uFFFD\\x001b\uFFFDxH\uFFFD\\x0005We\\x000e\uFFFDqEA"
 						},
 						{
-							"id": "93",
+							"id": "42",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0012\\x0001#\uFFFD,\\x0015\r\\x001f\uFFFD\\x0005\\x0018\\x0005YAuE(\uFFFDd\uFFFD\\x0010\\x000c\uFFFDD\\x001dR\uFFFD9\\x0016\\x000e(\uFFFDH\\x001f\uFFFD\\x0004I"
+							"evidence": "/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0011 `S\uFFFD\uFFFDD]\uFFFD(t\\x000b\\x0000\uFFFD\uFFFD\uFFFD!\\x000c\uFFFDa\uFFFD(m\uFFFD\uFFFD\\x000e\\x0014\\x0014\uFFFDF$\uFFFD\\x0010\\x0015\uFFFD\uFFFD\\x0004"
 						},
 						{
-							"id": "38",
+							"id": "110",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0012\\x0001#\uFFFD,\\x0015\r\\x001f\uFFFD\\x0005\\x0018\\x0005YAuE(\uFFFDd\uFFFD\\x0010\\x000c\uFFFDD\\x001dR\uFFFD9\\x0016\\x000e(\uFFFDH\\x001f\uFFFD\\x0004I"
+							"evidence": "/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0011 `S\uFFFD\uFFFDD]\uFFFD(t\\x000b\\x0000\uFFFD\uFFFD\uFFFD!\\x000c\uFFFDa\uFFFD(m\uFFFD\uFFFD\\x000e\\x0014\\x0014\uFFFDF$\uFFFD\\x0010\\x0015\uFFFD\uFFFD\\x0004"
 						},
 						{
-							"id": "36",
+							"id": "40",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_34ZMNZ4W7OBMKNAH5B54DT5Y623QOBD75OAXOQSBHUYEZKVJ4FSA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFDY\uFFFDn\uFFFD\\x0004\u008D\\x0000~A\uFFFD\uFFFD\u53B6\uFFFD\\x0003\uFFFD\\x000f\uFFFDN\\x0001s\uFFFDH\\x0011\uFFFD`FJT\uFFFD\\x0005H"
+							"evidence": "/redirect_RT2GRX236WRW7HQEGI2VLZU2QMFTDV4U7OG7B4SM4FV2UO2XFFQQ==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDS\uFFFDdW\uFFFD~\uFFFDEn\uFFFD@A\uFFFD\uFFFDR\uFFFDSd\\x000c\\x00150\uFFFD\uFFFDN\uFFFD\\x001b\uFFFDxH\uFFFD\\x0005We\\x000e\uFFFDqEA"
 						},
 						{
 							"id": "105",
@@ -749,34 +707,34 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0012\\x0001#\uFFFD,\\x0015\r\\x001f\uFFFD\\x0005\\x0018\\x0005YAuE(\uFFFDd\uFFFD\\x0010\\x000c\uFFFDD\\x001dR\uFFFD9\\x0016\\x000e(\uFFFDH\\x001f\uFFFD\\x0004I"
+							"evidence": "/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0011 `S\uFFFD\uFFFDD]\uFFFD(t\\x000b\\x0000\uFFFD\uFFFD\uFFFD!\\x000c\uFFFDa\uFFFD(m\uFFFD\uFFFD\\x000e\\x0014\\x0014\uFFFDF$\uFFFD\\x0010\\x0015\uFFFD\uFFFD\\x0004"
 						},
 						{
-							"id": "102",
+							"id": "101",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0012\\x0001#\uFFFD,\\x0015\r\\x001f\uFFFD\\x0005\\x0018\\x0005YAuE(\uFFFDd\uFFFD\\x0010\\x000c\uFFFDD\\x001dR\uFFFD9\\x0016\\x000e(\uFFFDH\\x001f\uFFFD\\x0004I"
+							"evidence": "/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0011 `S\uFFFD\uFFFDD]\uFFFD(t\\x000b\\x0000\uFFFD\uFFFD\uFFFD!\\x000c\uFFFDa\uFFFD(m\uFFFD\uFFFD\\x000e\\x0014\\x0014\uFFFDF$\uFFFD\\x0010\\x0015\uFFFD\uFFFD\\x0004"
 						},
 						{
-							"id": "99",
+							"id": "38",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0012\\x0001#\uFFFD,\\x0015\r\\x001f\uFFFD\\x0005\\x0018\\x0005YAuE(\uFFFDd\uFFFD\\x0010\\x000c\uFFFDD\\x001dR\uFFFD9\\x0016\\x000e(\uFFFDH\\x001f\uFFFD\\x0004I"
+							"evidence": "/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0011 `S\uFFFD\uFFFDD]\uFFFD(t\\x000b\\x0000\uFFFD\uFFFD\uFFFD!\\x000c\uFFFDa\uFFFD(m\uFFFD\uFFFD\\x000e\\x0014\\x0014\uFFFDF$\uFFFD\\x0010\\x0015\uFFFD\uFFFD\\x0004"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFDY\uFFFDn\uFFFD\\x0004\u008D\\x0000~A\uFFFD\uFFFD\u53B6\uFFFD\\x0003\uFFFD\\x000f\uFFFDN\\x0001s\uFFFDH\\x0011\uFFFD`FJT\uFFFD\\x0005H</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDS\uFFFDdW\uFFFD~\uFFFDEn\uFFFD@A\uFFFD\uFFFDR\uFFFDSd\\x000c\\x00150\uFFFD\uFFFDN\uFFFD\\x001b\uFFFDxH\uFFFD\\x0005We\\x000e\uFFFDqEA</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -793,53 +751,53 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "24",
-							"uri": "https://immatriculation.ants.gouv.fr/",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_34ZMNZ4W7OBMKNAH5B54DT5Y623QOBD75OAXOQSBHUYEZKVJ4FSA====/';</script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
 							"id": "26",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_RT2GRX236WRW7HQEGI2VLZU2QMFTDV4U7OG7B4SM4FV2UO2XFFQQ====/';</script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "24",
+							"uri": "https://immatriculation.ants.gouv.fr/",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>window.location.href='/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
 							"id": "25",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ====/demarches-en-ligne';</script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "27",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_34ZMNZ4W7OBMKNAH5B54DT5Y623QOBD75OAXOQSBHUYEZKVJ4FSA====/demarches-en-ligne/vendre-ou-donner-votre-vehicule';</script>",
+							"evidence": "<script>window.location.href='/redirect_RT2GRX236WRW7HQEGI2VLZU2QMFTDV4U7OG7B4SM4FV2UO2XFFQQ====/demarches-en-ligne/vendre-ou-donner-votre-vehicule';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "82",
+							"id": "92",
+							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>window.location.href='/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA====/robots.txt';</script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "29",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_USASPJLBUNH74FGAVZQXVFKOK4ZPQQDIZEHVKIORYOKLFIH6AESQ====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_URIGBT77LCRF3RKHQLAK2P6SEM3GH2KG264A4UFPJGJMUQFY3CBA====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -863,7 +821,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "47",
+							"id": "54",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -873,7 +831,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "111",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -883,7 +841,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "71",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -893,7 +851,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "103",
+							"id": "104",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -903,7 +861,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
+							"id": "55",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -920,7 +878,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10015",
@@ -933,7 +891,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "8",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -943,7 +901,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "88",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -953,7 +911,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "13",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -963,7 +921,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "79",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -973,7 +931,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "15",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1003,7 +961,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "48",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1013,9 +971,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "57",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1023,9 +981,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "51",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1040,7 +998,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1053,7 +1011,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "46",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1063,9 +1021,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "49",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1073,9 +1031,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "45",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1090,7 +1048,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1103,7 +1061,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "44",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1113,9 +1071,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "43",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1123,9 +1081,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "41",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1140,7 +1098,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1153,7 +1111,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "45",
+							"id": "50",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1163,9 +1121,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"id": "61",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1173,9 +1131,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
-							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
+							"id": "53",
+							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1190,7 +1148,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10112",
@@ -1203,7 +1161,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "0",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1213,7 +1171,17 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "66",
+							"id": "82",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
+							"method": "GET",
+							"param": "bot_mitigation_cookie",
+							"attack": "",
+							"evidence": "bot_mitigation_cookie",
+							"otherinfo": "cookie:bot_mitigation_cookie"
+						},
+						{
+							"id": "80",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/vendre-ou-donner-votre-vehicule",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/vendre-ou-donner-votre-vehicule",
 							"method": "GET",
@@ -1223,7 +1191,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "70",
+							"id": "74",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1233,9 +1201,9 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "67",
-							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"id": "7",
+							"uri": "https://immatriculation.ants.gouv.fr/",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "bot_mitigation_cookie",
 							"attack": "",
@@ -1243,7 +1211,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:bot_mitigation_cookie</p>",
