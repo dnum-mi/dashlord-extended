@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.doubs.gouv.fr",
-        "size": 1210.545,
+        "size": 1185.453,
         "nodes": 655,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 04:28:54.898687",
+        "date": "2026-06-23 18:41:57.774311",
         "page_type": "website"
     }
 ]
