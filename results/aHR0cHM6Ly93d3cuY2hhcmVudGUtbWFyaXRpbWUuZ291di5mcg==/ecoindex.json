@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.charente-maritime.gouv.fr",
-        "size": 1731.184,
+        "size": 1644.527,
         "nodes": 773,
         "requests": 48,
         "grade": "D",
-        "score": 50.0,
-        "ges": 2.0,
-        "water": 3.0,
+        "score": 51.0,
+        "ges": 1.98,
+        "water": 2.97,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 04:08:25.135774",
+        "date": "2026-06-23 18:21:54.404245",
         "page_type": "website"
     }
 ]
