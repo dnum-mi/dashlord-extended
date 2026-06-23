@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.maine-et-loire.gouv.fr",
-        "size": 1433.275,
-        "nodes": 686,
-        "requests": 48,
+        "size": 1456.403,
+        "nodes": 697,
+        "requests": 49,
         "grade": "D",
-        "score": 54.0,
-        "ges": 1.92,
-        "water": 2.88,
+        "score": 53.0,
+        "ges": 1.94,
+        "water": 2.91,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 05:18:53.409604",
+        "date": "2026-06-23 19:38:44.792737",
         "page_type": "website"
     }
 ]
