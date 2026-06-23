@@ -1,5 +1,4 @@
 name: DashLord scans
-
 on:
   workflow_dispatch:
     inputs:
@@ -20,7 +19,6 @@ on:
           - sonarcloud
           - trivy
           - zap
-          - ecoindex
           - dsfr
   push:
     branches:
