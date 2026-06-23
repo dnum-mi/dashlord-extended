@@ -1,28 +1,12 @@
 {
   "trackers": [],
-  "cookies": [
-    {
-      "name": "tarteaucitron",
-      "value": "!eulerian=wait",
-      "domain": "plainte-en-ligne.masecurite.interieur.gouv.fr",
-      "path": "/",
-      "expires": 1810347642,
-      "size": 27,
-      "httpOnly": false,
-      "secure": true,
-      "session": false,
-      "sameSite": "Lax",
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    }
-  ],
+  "cookies": [],
   "headers": {
     "cache-control": "max-age=0, must-revalidate, private",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Fri, 15 May 2026 02:21:48 GMT",
-    "expires": "Fri, 15 May 2026 02:21:48 GMT",
+    "date": "Tue, 23 Jun 2026 16:32:14 GMT",
+    "expires": "Tue, 23 Jun 2026 16:32:14 GMT",
     "vary": "Accept-Encoding"
   },
   "endpoints": [
