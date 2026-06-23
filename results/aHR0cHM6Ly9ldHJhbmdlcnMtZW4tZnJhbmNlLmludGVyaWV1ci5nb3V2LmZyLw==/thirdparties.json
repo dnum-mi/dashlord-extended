@@ -78,11 +78,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://hipe-strapi-3.ofii.fr/uploads/Julion_matanda2_20f7fff966.png"
+      "url": "https://hipe-strapi-3.ofii.fr/uploads/Fire_Shot_Capture_055_Altho_Brets_Visite_du_site_Le_Pouzin_You_Tube_www_youtube_com_53605e07bb.png"
     },
     {
       "type": "unknown",
-      "url": "https://hipe-strapi-3.ofii.fr/uploads/Accessibilite_sur_le_Portail_des_etrangers_en_France_30fdccbf42.png"
+      "url": "https://hipe-strapi-3.ofii.fr/uploads/matelas_coussins_ensachage_750x500_1_bf3477dedb.jpg"
     },
     {
       "type": "unknown",
@@ -96,7 +96,7 @@
   "cookies": [
     {
       "name": "rxvtg8krhaks",
-      "value": "1778812646547|1778810844861",
+      "value": "1782233357768|1782231555994",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -110,7 +110,7 @@
     },
     {
       "name": "TS0147c866",
-      "value": "01d368dd13c42f2892df15ef501e0c844e11b2cbb60756f0ab26382c233fb48348f298ab9041a78270e05bbe20cd5bad5fbd7eaae2db53de68e2478c2e008f7f613c3c4f54",
+      "value": "01d368dd13e07d19c5f8aa92f128bfc3c16bdab456d83725e51d75605d934bdbd9fec68ac1e3ce97f5678512077485e3fb33b1ec56b34d27b57b2309c69b31818094f67c32",
       "domain": ".etrangers-en-france.interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -124,7 +124,7 @@
     },
     {
       "name": "dtCookieg8krhaks",
-      "value": "v_4_srv_1_sn_C1C9A5CF14288AD598BABB44ACD428F7_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0",
+      "value": "v_4_srv_1_sn_6F10B871B81EFF82D8D85AB678693A5F_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -138,7 +138,7 @@
     },
     {
       "name": "rxVisitorg8krhaks",
-      "value": "1778810844859FT73GN4A73M0AVTU2VEN58AGR2HNADIV",
+      "value": "17822315559920E92DPISNBCV0N1FSA3GCQRQNT4AQKRH",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -152,11 +152,11 @@
     },
     {
       "name": "dtPCg8krhaks",
-      "value": "1$410844857_970h3vKCUVMAHTHMPRPFJMHVAECHJWFKBMRNQV-0e0",
+      "value": "1$231555990_62h3vRVLPKUHAASMBOFLFTKEEUMCTSMAJAQCL-0e0",
       "domain": ".interieur.gouv.fr",
       "path": "/",
       "expires": -1,
-      "size": 66,
+      "size": 65,
       "httpOnly": false,
       "secure": false,
       "session": true,
@@ -184,16 +184,16 @@
     "content-encoding": "gzip",
     "content-security-policy": "default-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://data.geopf.fr/geocodage https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cdn.polyfill.io https://numerique.gouv.fr https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://translate.google.com https://translate.googleapis.com https://app-eu.readspeaker.com/cgi-bin/rsent; script-src 'self' https://cdn.polyfill.io https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent https://api-adresse.data.gouv.fr; script-src-elem 'self' https://cdn.polyfill.io https://static.zdassets.com https://fonts.googleapis.com https://cdnjs.cloudflare.com https://*.readspeaker.com https://hipe-matomo.ofii.fr https://app-eu.readspeaker.com/cgi-bin/rsent; connect-src 'self' https://hipe-strapi.ofii.fr https://hipe-strapi-3.ofii.fr https://hipe-api-ext.ofii.fr https://hipe-matomo.ofii.fr https://sso.anef.dgef.interieur.gouv.fr/auth/ https://cms-search.ofii.fr/multi-search https://r7-cms-search.ofii.fr/multi-search https://pp-cms-search.ofii.fr/multi-search https://*.readspeaker.com https://hipe-strapi-3.ofii.fr https://api-adresse.data.gouv.fr https://data.geopf.fr/ https://qualification.sso.anef.dgef.interieur.gouv.fr/auth/ https://preprod.sso.anef.dgef.interieur.gouv.fr/auth/ https://sso.anef.dgef.interieur.gouv.fr/auth/ https://translate.googleapis.com; img-src 'self' data: https: https://hipe-strapi-3.ofii.fr https://jedonnemonavis.numerique.gouv.fr; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://github.com; frame-ancestors 'self'; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://*.youtube-nocookie.com https://*.youtu.be https://sso.anef.dgef.interieur.gouv.fr/auth/; upgrade-insecure-requests; report-to https://hipe-api-ext.ofii.fr/api/csp-report; report-uri https://hipe-api-ext.ofii.fr/api/csp-report;",
     "content-type": "text/html",
-    "date": "Fri, 15 May 2026 02:07:23 GMT",
-    "etag": "W/\"6a019d3f-50e:dtagent10335260306043831g75/\"",
-    "last-modified": "Mon, 11 May 2026 09:11:26 GMT",
+    "date": "Tue, 23 Jun 2026 16:19:15 GMT",
+    "etag": "W/\"6a2ac10b-50e:dtagent10339260603164134g3tn\"",
+    "last-modified": "Thu, 11 Jun 2026 14:07:06 GMT",
     "permissions-policy": "geolocation=(), microphone=(), camera=()",
     "referrer-policy": "no-referrer-when-downgrade",
-    "server-timing": "dtTrId;desc=\"5879a1dcfe2bdf2ae1b2e3102e3dddb2\", dtSInfo;desc=\"0\"\ndtRpid;desc=\"1203683077\"",
-    "set-cookie": "dtCookieg8krhaks=v_4_srv_1_sn_C1C9A5CF14288AD598BABB44ACD428F7_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0; Path=/; Domain=.interieur.gouv.fr\nTS0147c866=01d368dd13c42f2892df15ef501e0c844e11b2cbb60756f0ab26382c233fb48348f298ab9041a78270e05bbe20cd5bad5fbd7eaae2db53de68e2478c2e008f7f613c3c4f54; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
+    "server-timing": "dtSInfo;desc=\"0\", dtRpid;desc=\"-1573367318\"",
+    "set-cookie": "dtCookieg8krhaks=v_4_srv_1_sn_6F10B871B81EFF82D8D85AB678693A5F_perc_100000_ol_0_mul_1_app-3Add832f739a7cb232_1_rcs-3Acss_0; Path=/; Domain=.interieur.gouv.fr\nTS0147c866=01d368dd13e07d19c5f8aa92f128bfc3c16bdab456d83725e51d75605d934bdbd9fec68ac1e3ce97f5678512077485e3fb33b1ec56b34d27b57b2309c69b31818094f67c32; Path=/; Domain=.etrangers-en-france.interieur.gouv.fr",
     "strict-transport-security": "max-age=16070400; includeSubDomains",
     "x-content-type-options": "nosniff",
-    "x-cp-via": "C3-fc243004-74cb46ec",
+    "x-cp-via": "C3-83882883-ad8e7b1b",
     "x-frame-options": "SAMEORIGIN",
     "x-oneagent-js-injection": "true",
     "x-ruxit-js-agent": "true",
