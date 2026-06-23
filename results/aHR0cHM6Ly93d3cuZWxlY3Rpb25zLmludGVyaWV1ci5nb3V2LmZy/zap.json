@@ -1,82 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Wed, 13 May 2026 08:52:35",
-	"created": "2026-05-13T08:52:35.136209511Z",
-	"insights":[
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.code.2xx",
-			"description": "Percentage of responses with status code 2xx",
-			"statistic": "16"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.code.4xx",
-			"description": "Percentage of responses with status code 4xx",
-			"statistic": "83"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.ctype.application/javascript",
-			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "10"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.ctype.text/css",
-			"description": "Percentage of endpoints with content type text/css",
-			"statistic": "5"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.ctype.text/html",
-			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "82"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.ctype.text/plain",
-			"description": "Percentage of endpoints with content type text/plain",
-			"statistic": "3"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.method.GET",
-			"description": "Percentage of endpoints with method GET",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.endpoint.total",
-			"description": "Count of total endpoints",
-			"statistic": "110"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.elections.interieur.gouv.fr",
-			"key": "insight.response.slow",
-			"description": "Percentage of slow responses",
-			"statistic": "96"
-		}
-	],
+	"@generated": "Tue, 23 Jun 2026 23:08:00",
+	"created": "2026-06-23T23:08:00.661087678Z",
 	"site":[ 
 		{
 			"@name": "https://www.elections.interieur.gouv.fr",
@@ -84,36 +10,6 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
-				{
-					"pluginid": "10003",
-					"alertRef": "10003",
-					"alert": "Vulnerable JS Library",
-					"name": "Vulnerable JS Library",
-					"riskcode": "3",
-					"confidence": "2",
-					"riskdesc": "High (Medium)",
-					"desc": "<p>The identified library appears to be vulnerable.</p>",
-					"instances":[ 
-						{
-							"id": "137",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_WNzSbJMU9Bg9bZA27mbzitVpMsVxAf2nB0z--UnM6Rc.js?delta=1&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_WNzSbJMU9Bg9bZA27mbzitVpMsVxAf2nB0z--UnM6Rc.js (delta,include,language,scope,theme)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "//     Underscore.js 1.13.7",
-							"otherinfo": "The identified library underscore.js, version 1.13.7 is vulnerable.\nCVE-2026-27601\nhttps://underscorejs.org/#isEqual\nhttps://github.com/jashkenas/underscore/security/advisories/GHSA-qpx9-hpmf-5gmw\nhttps://github.com/jashkenas/underscore/commit/a6e23ae9647461ec33ad9f92a2ecfc220eea0a84\nhttps://github.com/jashkenas/underscore/issues/3011\nhttps://github.com/jashkenas/underscore/commit/411e222eb0ca5d570cc4f6315c02c05b830ed2b4\nhttps://underscorejs.org/#1.13.8\nhttps://underscorejs.org/#flatten\n"
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
-					"otherinfo": "<p>The identified library underscore.js, version 1.13.7 is vulnerable.</p><p>CVE-2026-27601</p><p>https://underscorejs.org/#isEqual</p><p>https://github.com/jashkenas/underscore/security/advisories/GHSA-qpx9-hpmf-5gmw</p><p>https://github.com/jashkenas/underscore/commit/a6e23ae9647461ec33ad9f92a2ecfc220eea0a84</p><p>https://github.com/jashkenas/underscore/issues/3011</p><p>https://github.com/jashkenas/underscore/commit/411e222eb0ca5d570cc4f6315c02c05b830ed2b4</p><p>https://underscorejs.org/#1.13.8</p><p>https://underscorejs.org/#flatten</p><p></p>",
-					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
-					"cweid": "1395",
-					"wascid": "-1",
-					"sourceid": "283"
-				},
 				{
 					"pluginid": "10055",
 					"alertRef": "10055-13",
@@ -125,16 +21,6 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "39",
-							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "frame-ancestors 'self';",
-							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
-						},
-						{
 							"id": "40",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.gif",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.gif",
@@ -145,7 +31,17 @@
 							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "38",
+							"id": "41",
+							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
+							"method": "GET",
+							"param": "content-security-policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The directive(s): form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "39",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js",
 							"method": "GET",
@@ -162,7 +58,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "80"
+					"sourceid": "78"
 				},
 				{
 					"pluginid": "10055",
@@ -175,17 +71,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "43",
-							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "frame-ancestors 'self';",
-							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
-						},
-						{
-							"id": "42",
+							"id": "44",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.gif",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.gif",
 							"method": "GET",
@@ -195,7 +81,17 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
 						},
 						{
-							"id": "41",
+							"id": "42",
+							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
+							"method": "GET",
+							"param": "content-security-policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
+						},
+						{
+							"id": "45",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js",
 							"method": "GET",
@@ -212,7 +108,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "80"
+					"sourceid": "78"
 				},
 				{
 					"pluginid": "10055",
@@ -225,17 +121,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "45",
-							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "frame-ancestors 'self';",
-							"otherinfo": "script-src includes unsafe-inline."
-						},
-						{
-							"id": "44",
+							"id": "48",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.gif",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.gif",
 							"method": "GET",
@@ -245,7 +131,17 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "48",
+							"id": "47",
+							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
+							"method": "GET",
+							"param": "content-security-policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "46",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js",
 							"method": "GET",
@@ -262,7 +158,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "80"
+					"sourceid": "78"
 				},
 				{
 					"pluginid": "10055",
@@ -275,17 +171,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "47",
-							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
-							"method": "GET",
-							"param": "content-security-policy",
-							"attack": "",
-							"evidence": "frame-ancestors 'self';",
-							"otherinfo": "style-src includes unsafe-inline."
-						},
-						{
-							"id": "46",
+							"id": "49",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.gif",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.gif",
 							"method": "GET",
@@ -295,7 +181,17 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "54",
+							"id": "53",
+							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
+							"method": "GET",
+							"param": "content-security-policy",
+							"attack": "",
+							"evidence": "frame-ancestors 'self';",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "51",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js",
 							"method": "GET",
@@ -312,7 +208,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "80"
+					"sourceid": "78"
 				},
 				{
 					"pluginid": "10038",
@@ -325,7 +221,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "2",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -335,7 +231,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css$",
 							"method": "GET",
@@ -345,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "38",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js$",
 							"method": "GET",
@@ -353,16 +249,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "5",
+							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "74"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90004",
@@ -375,7 +281,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "109",
+							"id": "95",
 							"uri": "https://www.elections.interieur.gouv.fr/cdn-cgi/styles/cf.errors.css",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/cdn-cgi\/styles\/cf.errors.css",
 							"method": "GET",
@@ -385,7 +291,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
+							"id": "99",
 							"uri": "https://www.elections.interieur.gouv.fr/cdn-cgi/styles/cf.errors.ie.css",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/cdn-cgi\/styles\/cf.errors.ie.css",
 							"method": "GET",
@@ -395,7 +301,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "15",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -405,8 +311,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css?delta=2&include=eJxVyUEKgDAMAMEPteZJJWmjVtIGkhz09x4ExdMOLB54FlFsbICfl9hNidgSC9foOh1e5U2UUNKT0nw16FVnDlUhtN8Y2lA4-eXBAwidbyyOLLk&language=fr&theme=elections",
+							"id": "117",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css?delta=2&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css (delta,include,language,theme)",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -415,7 +321,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "113",
+							"id": "115",
 							"uri": "https://www.elections.interieur.gouv.fr/themes/custom/dsfr/src/images/logo/favicon.png",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/themes\/custom\/dsfr\/src\/images\/logo\/favicon.png",
 							"method": "GET",
@@ -432,7 +338,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "204"
+					"sourceid": "86"
 				},
 				{
 					"pluginid": "10110",
@@ -446,8 +352,8 @@
 					"instances":[ 
 						{
 							"id": "147",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js (delta,include,language,scope,theme)",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js (delta,include,language,scope,theme)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -462,7 +368,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "286"
+					"sourceid": "274"
 				},
 				{
 					"pluginid": "110009",
@@ -475,7 +381,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "96",
+							"id": "108",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.svg",
 							"method": "GET",
@@ -485,7 +391,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
+							"id": "112",
 							"uri": "https://www.elections.interieur.gouv.fr/profiles/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/profiles\/*.svg",
 							"method": "GET",
@@ -502,7 +408,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "87"
+					"sourceid": "93"
 				},
 				{
 					"pluginid": "10063",
@@ -515,7 +421,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "32",
+							"id": "34",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -525,17 +431,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "36",
+							"id": "37",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css$",
 							"method": "GET",
@@ -545,7 +441,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "79",
+							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "60",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js$",
 							"method": "GET",
@@ -555,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "33",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -585,7 +491,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "7",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -595,7 +501,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css$",
 							"method": "GET",
@@ -605,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "43",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js$",
 							"method": "GET",
@@ -615,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "87",
 							"uri": "https://www.elections.interieur.gouv.fr/profiles/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/profiles\/*.css$",
 							"method": "GET",
@@ -625,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "9",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -642,7 +548,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10035",
@@ -685,7 +591,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -695,9 +601,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "116",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_ClJvsMP6OTDkJvoDgsUO9qNPSBiaZQbektFEn5tup9w.css?delta=0&include=eJxVyUEKgDAMAMEPteZJJWmjVtIGkhz09x4ExdMOLB54FlFsbICfl9hNidgSC9foOh1e5U2UUNKT0nw16FVnDlUhtN8Y2lA4-eXBAwidbyyOLLk&language=fr&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_ClJvsMP6OTDkJvoDgsUO9qNPSBiaZQbektFEn5tup9w.css (delta,include,language,theme)",
+							"id": "118",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_3UsdfcaIyJU0QRctN1LYd32v9amS9ZGcli5EBmbBnsM.css?delta=0&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_3UsdfcaIyJU0QRctN1LYd32v9amS9ZGcli5EBmbBnsM.css (delta,include,language,theme)",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -705,8 +611,18 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "114",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css?delta=2&include=eJxVyUEKgDAMAMEPteZJJWmjVtIGkhz09x4ExdMOLB54FlFsbICfl9hNidgSC9foOh1e5U2UUNKT0nw16FVnDlUhtN8Y2lA4-eXBAwidbyyOLLk&language=fr&theme=elections",
+							"id": "120",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_5l2De2zePIuAKZL1DX34BhtNqrdUf9uqxKlw-Z6XxV8.css?delta=3&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_5l2De2zePIuAKZL1DX34BhtNqrdUf9uqxKlw-Z6XxV8.css (delta,include,language,theme)",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "116",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css?delta=2&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_YLoBQrz4apNopyXJTHN_j3fC2sU6DKrTu1yb3s3fnc0.css (delta,include,language,theme)",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -715,17 +631,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "121",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_PfLKTBc_D0JD3Jh5apEbrvdAbGDMQ9QhNp0oXtX0kiM.js?delta=0&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=header&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_PfLKTBc_D0JD3Jh5apEbrvdAbGDMQ9QhNp0oXtX0kiM.js (delta,include,language,scope,theme)",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "112",
+							"id": "114",
 							"uri": "https://www.elections.interieur.gouv.fr/themes/custom/dsfr/src/images/logo/favicon.png",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/themes\/custom\/dsfr\/src\/images\/logo\/favicon.png",
 							"method": "GET",
@@ -755,29 +661,29 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "95",
+							"id": "107",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/sites/elections/files/css/css_ClJvsMP6OTDkJvoDgsUO9qNPSBiaZQbektFEn5tup9w",
-							"otherinfo": "\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\u0094\uFFFD\uFFFD0\uFFFD\uFFFDL9\t\uFFFD\uFFFD\uFFFDC\uFFFD\uFFFD\uFFFD\uFFFD\\x0006&\uFFFDA\uFFFD\uFFFD\uFFFDQ'\uFFFD\u06E9\uFFFD"
+							"evidence": "/sites/elections/files/css/css_3UsdfcaIyJU0QRctN1LYd32v9amS9ZGcli5EBmbBnsM",
+							"otherinfo": "\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\uFFFDR\uFFFD_q\uFFFD2%M\\x0010E\uFFFDM\u0536\\x001d\uFFFDk\uFFFDjd\uFFFDdg%\uFFFD\uFFFD\\x0001\uFFFD\uFFFDg\uFFFD"
 						},
 						{
-							"id": "107",
+							"id": "111",
 							"uri": "https://www.elections.interieur.gouv.fr/profiles/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/profiles\/*.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/sites/elections/files/css/css_ClJvsMP6OTDkJvoDgsUO9qNPSBiaZQbektFEn5tup9w",
-							"otherinfo": "\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\u0094\uFFFD\uFFFD0\uFFFD\uFFFDL9\t\uFFFD\uFFFD\uFFFDC\uFFFD\uFFFD\uFFFD\uFFFD\\x0006&\uFFFDA\uFFFD\uFFFD\uFFFDQ'\uFFFD\u06E9\uFFFD"
+							"evidence": "/sites/elections/files/css/css_3UsdfcaIyJU0QRctN1LYd32v9amS9ZGcli5EBmbBnsM",
+							"otherinfo": "\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\uFFFDR\uFFFD_q\uFFFD2%M\\x0010E\uFFFDM\u0536\\x001d\uFFFDk\uFFFDjd\uFFFDdg%\uFFFD\uFFFD\\x0001\uFFFD\uFFFDg\uFFFD"
 						},
 						{
-							"id": "125",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_jnthc1aHK2OVwraw2glm1EXPE2ckPmvbk1kHmmhxckM.css?delta=3&include=eJxVyUEKgDAMAMEPteZJJWmjVtIGkhz09x4ExdMOLB54FlFsbICfl9hNidgSC9foOh1e5U2UUNKT0nw16FVnDlUhtN8Y2lA4-eXBAwidbyyOLLk&language=fr&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_jnthc1aHK2OVwraw2glm1EXPE2ckPmvbk1kHmmhxckM.css (delta,include,language,theme)",
+							"id": "121",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_5l2De2zePIuAKZL1DX34BhtNqrdUf9uqxKlw-Z6XxV8.css?delta=3&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_5l2De2zePIuAKZL1DX34BhtNqrdUf9uqxKlw-Z6XxV8.css (delta,include,language,theme)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -786,7 +692,7 @@
 						},
 						{
 							"id": "144",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_u4kgGOQIO7uVCGeGF9zqEHkxl8s2beFkNqNjNU_oKSo.css?delta=1&include=eJxVyUEKgDAMAMEPteZJJWmjVtIGkhz09x4ExdMOLB54FlFsbICfl9hNidgSC9foOh1e5U2UUNKT0nw16FVnDlUhtN8Y2lA4-eXBAwidbyyOLLk&language=fr&theme=elections",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/css/css_u4kgGOQIO7uVCGeGF9zqEHkxl8s2beFkNqNjNU_oKSo.css?delta=1&include=eJxViTkOgDAMBD-UkCdFa2IuOViyXcDvEVAgmp3RLDYcVRSNreDzIRZTIrbUfLJyT55FCZJe1Kevo-45VIVgv6Nrg3Dy04N7IThfacgoiw&language=fr&theme=elections",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/css\/css_u4kgGOQIO7uVCGeGF9zqEHkxl8s2beFkNqNjNU_oKSo.css (delta,include,language,theme)",
 							"method": "GET",
 							"param": "",
@@ -796,8 +702,8 @@
 						},
 						{
 							"id": "146",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js (delta,include,language,scope,theme)",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js (delta,include,language,scope,theme)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -808,11 +714,11 @@
 					"count": "5",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\u0094\uFFFD\uFFFD0\uFFFD\uFFFDL9\t\uFFFD\uFFFD\uFFFDC\uFFFD\uFFFD\uFFFD\uFFFD\\x0006&\uFFFDA\uFFFD\uFFFD\uFFFDQ'\uFFFD\u06E9\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\u022Dz\uFFFD\u0795\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\u0732\uFFFD\u0732\uFFFD\uFFFDR\uFFFD_q\uFFFD2%M\\x0010E\uFFFDM\u0536\\x001d\uFFFDk\uFFFDjd\uFFFDdg%\uFFFD\uFFFD\\x0001\uFFFD\uFFFDg\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "87"
+					"sourceid": "93"
 				},
 				{
 					"pluginid": "10027",
@@ -825,9 +731,9 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "119",
-							"uri": "https://www.elections.interieur.gouv.fr/modules/custom/global_analytics/js/analyticsConfig.js?te7h91",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/modules\/custom\/global_analytics\/js\/analyticsConfig.js (te7h91)",
+							"id": "123",
+							"uri": "https://www.elections.interieur.gouv.fr/modules/custom/global_analytics/js/analyticsConfig.js?th2tlz",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/modules\/custom\/global_analytics\/js\/analyticsConfig.js (th2tlz)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -835,29 +741,39 @@
 							"otherinfo": "The following pattern was used: \\bDEBUG\\b and was detected in likely comment: \"// Mode debug\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "134",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_Lx1t87sf-TQdYjxuRykStYFfyclY6P6XPylFy_HNabY.js?delta=9&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_Lx1t87sf-TQdYjxuRykStYFfyclY6P6XPylFy_HNabY.js (delta,include,language,scope,theme)",
+							"id": "145",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_2hd1GgK2FI27Si7nQ_Eiih-rFZEaH1rZvwy0N1cE78w.js (delta,include,language,scope,theme)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "118",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_PfLKTBc_D0JD3Jh5apEbrvdAbGDMQ9QhNp0oXtX0kiM.js?delta=0&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=header&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_PfLKTBc_D0JD3Jh5apEbrvdAbGDMQ9QhNp0oXtX0kiM.js (delta,include,language,scope,theme)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 2 times, the first in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"id": "143",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_WNzSbJMU9Bg9bZA27mbzitVpMsVxAf2nB0z--UnM6Rc.js?delta=1&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_WNzSbJMU9Bg9bZA27mbzitVpMsVxAf2nB0z--UnM6Rc.js (delta,include,language,scope,theme)",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_4Zdtdrgvecz38U6l-wy_kexDqNw9hWzMChiIAcPK5JU.js?delta=9&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_4Zdtdrgvecz38U6l-wy_kexDqNw9hWzMChiIAcPK5JU.js (delta,include,language,scope,theme)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
+							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "136",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_9GX3OnCXxkumJykrBq9K7MwxWzWhOJ-KDCH4mEBI40Y.js?delta=0&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=header&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_9GX3OnCXxkumJykrBq9K7MwxWzWhOJ-KDCH4mEBI40Y.js (delta,include,language,scope,theme)",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
+							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
+						},
+						{
+							"id": "127",
+							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_fcwqFgwh-KAkCSFqagca_7z9GdujoKl-Lu2v-bwn9xQ.js?delta=1&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_fcwqFgwh-KAkCSFqagca_7z9GdujoKl-Lu2v-bwn9xQ.js (delta,include,language,scope,theme)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -865,7 +781,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 2 times, the first in likely comment: \"/* @license GPL-2.0-or-later https://git.drupalcode.org/project/once/-/raw/v1.0.1/LICENSE.md */\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "128",
+							"id": "133",
 							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_s_1JRP-iwBpIXB_rR92uq9XxEQpqCQaQlzuqXC8SCfA.js?delta=7&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_s_1JRP-iwBpIXB_rR92uq9XxEQpqCQaQlzuqXC8SCfA.js (delta,include,language,scope,theme)",
 							"method": "GET",
@@ -873,16 +789,6 @@
 							"attack": "",
 							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "145",
-							"uri": "https://www.elections.interieur.gouv.fr/sites/elections/files/js/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js?delta=3&include=eJyNjVEOwkAIRC_Udo-0YVm2paFLAmj09tZqNfHLD5hheARY4ZZFoZIl-PopFtNSyIbqzVIT8GXk3vQ1G-FCttd45UpjZYciOzyLFpAMHeQejJ5-g7x6RhUhjH_h3ng-2eP5phWEzmhjx4RCYDlUpezq5M7ahwBcPR394y0ILshh2qdm03PzukpvfQASzmrp&language=fr&scope=footer&theme=elections",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sites\/elections\/files\/js\/js_yp1xjMrWbty_tRu_5XmdrNTGAfZzeefxl-BXV-BI0Ag.js (delta,include,language,scope,theme)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "@license GPL-2.0-or-later https://www.drupal.",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 2 times, the first in likely comment: \"/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "6",
@@ -892,7 +798,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "267"
+					"sourceid": "270"
 				},
 				{
 					"pluginid": "10109",
@@ -905,7 +811,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "94",
+							"id": "105",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.svg",
 							"method": "GET",
@@ -915,7 +821,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "106",
+							"id": "110",
 							"uri": "https://www.elections.interieur.gouv.fr/profiles/*.svg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/profiles\/*.svg",
 							"method": "GET",
@@ -932,7 +838,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "87"
+					"sourceid": "93"
 				},
 				{
 					"pluginid": "10049",
@@ -945,7 +851,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "31",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -955,7 +861,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "36",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css$",
 							"method": "GET",
@@ -965,7 +871,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "55",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.js$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.js$",
 							"method": "GET",
@@ -975,7 +881,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "90",
 							"uri": "https://www.elections.interieur.gouv.fr/profiles/*.css$",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/profiles\/*.css$",
 							"method": "GET",
@@ -985,7 +891,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "32",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -996,7 +902,7 @@
 						}
 					],
 					"count": "5",
-					"systemic": false,
+					"systemic": true,
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
@@ -1015,53 +921,53 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "140",
+							"id": "139",
 							"uri": "https://www.elections.interieur.gouv.fr/core/assets/vendor/jquery/jquery.min.js?v=4.0.0-rc.1",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/assets\/vendor\/jquery\/jquery.min.js (v)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 241",
+							"evidence": "Age: 160",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "138",
+							"id": "129",
 							"uri": "https://www.elections.interieur.gouv.fr/libraries/dsfr/dist/analytics/analytics.module.min.js?v=1.14.4",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/libraries\/dsfr\/dist\/analytics\/analytics.module.min.js (v)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 514",
+							"evidence": "Age: 240",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "131",
-							"uri": "https://www.elections.interieur.gouv.fr/modules/custom/global_analytics/js/analyticsCollect.js?te7h91",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/modules\/custom\/global_analytics\/js\/analyticsCollect.js (te7h91)",
+							"id": "124",
+							"uri": "https://www.elections.interieur.gouv.fr/modules/custom/global_analytics/js/analyticsConfig.js?th2tlz",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/modules\/custom\/global_analytics\/js\/analyticsConfig.js (th2tlz)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 336",
+							"evidence": "Age: 321",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "120",
-							"uri": "https://www.elections.interieur.gouv.fr/modules/custom/global_analytics/js/analyticsConfig.js?te7h91",
-							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/modules\/custom\/global_analytics\/js\/analyticsConfig.js (te7h91)",
+							"id": "3",
+							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 135",
+							"evidence": "Age: 85",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "111",
+							"id": "113",
 							"uri": "https://www.elections.interieur.gouv.fr/themes/custom/dsfr/src/images/logo/favicon.png",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/themes\/custom\/dsfr\/src\/images\/logo\/favicon.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 135",
+							"evidence": "Age: 31",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
@@ -1072,7 +978,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
 					"cweid": "525",
 					"wascid": "-1",
-					"sourceid": "257"
+					"sourceid": "264"
 				},
 				{
 					"pluginid": "90005",
@@ -1085,7 +991,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "21",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -1095,7 +1001,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "12",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1105,7 +1011,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "24",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1122,7 +1028,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1135,7 +1041,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "18",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -1145,7 +1051,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "11",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1155,7 +1061,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "22",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1172,7 +1078,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "74"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1185,7 +1091,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "16",
 							"uri": "https://www.elections.interieur.gouv.fr",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr",
 							"method": "GET",
@@ -1195,7 +1101,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "10",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1205,7 +1111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "19",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1222,7 +1128,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "74"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -1245,7 +1151,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "13",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1255,7 +1161,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "28",
 							"uri": "https://www.elections.interieur.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1272,7 +1178,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "74"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -1285,7 +1191,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "77",
+							"id": "84",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.css",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.css",
 							"method": "GET",
@@ -1295,7 +1201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "80",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.gif",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.gif",
 							"method": "GET",
@@ -1305,7 +1211,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "82",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpeg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpeg",
 							"method": "GET",
@@ -1315,7 +1221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "78",
 							"uri": "https://www.elections.interieur.gouv.fr/core/*.jpg",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/core\/*.jpg",
 							"method": "GET",
@@ -1325,7 +1231,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "14",
 							"uri": "https://www.elections.interieur.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.elections.interieur.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1342,7 +1248,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "80"
+					"sourceid": "84"
 				}
 			]
 		}

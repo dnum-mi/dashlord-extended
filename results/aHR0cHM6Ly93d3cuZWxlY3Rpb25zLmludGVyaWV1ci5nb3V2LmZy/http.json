@@ -1,15 +1,15 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "D",
+    "grade": "C",
     "error": null,
-    "score": 30,
+    "score": 50,
     "statusCode": 403,
-    "testsFailed": 4,
-    "testsPassed": 6,
+    "testsFailed": 3,
+    "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 08:53:22 GMT",
+      "date": "Tue, 23 Jun 2026 23:08:51 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
@@ -19,7 +19,7 @@
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
       "vary": "Accept-Encoding",
       "server": "cloudflare",
-      "cf-ray": "9fb06eaff93699b6-CDG",
+      "cf-ray": "a10728376c2f99c0-CDG",
       "alt-svc": "h3=\":443\"; ma=86400"
     }
   },
@@ -52,12 +52,15 @@
     },
     "redirection": {
       "expectation": "redirection-to-https",
-      "pass": false,
-      "result": "redirection-invalid-cert",
-      "scoreModifier": -20,
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
       "destination": "https://www.elections.interieur.gouv.fr/",
       "redirects": true,
-      "route": [],
+      "route": [
+        "http://www.elections.interieur.gouv.fr/",
+        "https://www.elections.interieur.gouv.fr/"
+      ],
       "statusCode": 403
     },
     "referrer-policy": {
@@ -72,7 +75,7 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": false,
-      "result": "hsts-invalid-cert",
+      "result": "hsts-not-implemented",
       "scoreModifier": -20,
       "data": null,
       "includeSubDomains": false,
