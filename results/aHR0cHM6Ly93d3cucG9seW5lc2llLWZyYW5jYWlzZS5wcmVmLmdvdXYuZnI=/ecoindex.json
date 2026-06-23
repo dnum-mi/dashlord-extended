@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.polynesie-francaise.pref.gouv.fr",
-        "size": 1274.004,
+        "size": 1197.297,
         "nodes": 606,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 07:38:56.664798",
+        "date": "2026-06-23 21:43:04.060762",
         "page_type": "website"
     }
 ]
