@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.haute-savoie.gouv.fr",
-        "size": 1079.07,
+        "size": 1496.332,
         "nodes": 636,
         "requests": 48,
         "grade": "C",
-        "score": 58.0,
-        "ges": 1.84,
-        "water": 2.76,
+        "score": 56.0,
+        "ges": 1.88,
+        "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 06:30:58.618788",
+        "date": "2026-06-23 20:41:12.215502",
         "page_type": "website"
     }
 ]
