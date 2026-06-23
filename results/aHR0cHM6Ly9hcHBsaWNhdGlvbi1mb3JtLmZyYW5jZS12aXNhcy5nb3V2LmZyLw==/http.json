@@ -9,13 +9,14 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Fri, 15 May 2026 02:18:11 GMT",
+      "date": "Tue, 23 Jun 2026 16:29:32 GMT",
       "set-cookie": [
-        "AUTH_SESSION_ID=ZDhkZGNmNzYtOTg5My00YWViLWFhYzUtYTUyNmFjZDA4NTEwLkVnd2ktelNOV2hVVHFYTkpoSHRONF9aMzZqM0U4M3pPdkY5eDNSQTE2ajFBallxdXU0Y3R6SWpWWXV3ZldsSkNreTlPUHJZNDlKOFNuTXE4MzRKMUNR.fv-kckusa-22-58300; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=XBMRHg60qOvaBRnTvPNoe97YuY7iGuUYlFPtJcvgFEo; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..NPQ_FrARF5x4ka3Fcss1FQ.C5VoLnil3Uso2jNmPZTRq_hej36BiI3yPjFAltA-6EKF7c_dUcmqKdXOm6CRyKpKo2I47804cF4v0s_aWlmzm1X_aZzvnTfeiAawNqwa0vu2Ztn58MUNI0gkbHuZA_kFDmN5nXYrw4Cykgt-BpTKR7-VDwynp6HAJa6_vj7Ypc2z4OqWgOr8gbyuFKRoNfL2hOtE2MeyABA7PWqaxvTH14JDSvx5eHqGFZKDQ7AQ8HLLjRQ9WnDBvJHwV-ngGOmUcUQXReFsrrve5y381WggLtgVPcM539ey2W0Si86nrkuyPin3Tpby5RiCHroyUYdkcmxrMliYoP7A3BE21ppa__sh3RIis4l-bR-10Ep7HVRnYQEncahqBr-7ZDJr6kgTsq5kulRJmiWL7v9TsCKh8M9LKK2XmoaReWMPj1U1OsXJR85-MMXuAsoF0fJIzLmMOVx7HTqW9pCnsIClgYliMdqfT2yE1JuRyYGTbvyBkHz9QnJWuVtEGtjWa2fxxm4CqGY98mzhnYhYtJc9jZ8VljT57-V2wxSLPJHnin_ZisHU7C2Zwno1lgioRZ6ZTzekq1ryhHOAy1xNlgdLycD3nsL6x_1eTDq8lrf41Ch-CH0l4O5V4QIxGthMLPULTrLdWSs29pspywxKUNyZk-qwSOdGbHfOwx1KmCd0hswEoQeOAB2O6XVMvbPRSeCPsXQQBibm0hv3XhUU2rj3oPSFoFzEo3pN8TyFPXDgS-yGnYBA4FnP-803aO_trujyD6rs7RIBukmHE0kxd80bZzt5UKLqETYI2qvEuQHfIpcZWlPBamwOURn9a99ENJ5dTmjoCN3GBezFzEJKytksqmC6-8WJBerObrZ1Nx2kmP6f9WlZcT2eMZfgLaGMaP1mpD7i5lSjcRlmimqclhZ1QLGhp8YaGPTxduI2HOlsqdQ6xZRACngQIlIisEc-ioE0uGYvoqwxpM0cen4b8INRxWkTJvDsfGTrwUYpNeBGF0zWXN3ohU4FYWjkqoH5ElMd6NAPYQ7yGe9F0wBm9QwZWq68EcfKGc1_PXzhd0oHiZmdqdkYzUYUoXUm8JPRCS5G-6--ZzagseqICkhOanZWk5etwP-ar7Lbg0GBqXh6bxczsSE.lW7tl_oYvCQINhbFadZWjA; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "AUTH_SESSION_ID=N2IwX0xjSkFKcTVYSzZCRFZ6WlpmemxnLlpZTXNiZ29CRHgtcVBXR1dJZmFiV05nVHBUdWtCdFZCc2R1aHZtenF5ZEtkZVFZMFR3UmhrOHdobWp1Ml9mcHdCRG5yTFlQckl0ZE9xVmI0OGtlbHJ3.fv-kckusa-21-62384; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=\"ppS+nVwi31PvWUJrbgbqFQkQpH/tnswhsCs74XLmlE8\"; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..SEMksFp9OnMyeMPsAlWozw.0-juxHksRPLdOMWPUcl3cc6NtSDMkiYfw_Jco2ruBQPagp6vxTitsPSQSw0UWMnARWOCEl5fn16P_rREqZgpvvBA051qZJwfi8T1TFspVahwg-niYweabe4cYVTR5PhMTrFVqUqUWfSA-SIsv7roehUIfi2he2Euh-UVuZk6wARD-2yn4tOmTr5p-Gh5_lydfOHKwgdhY6UOOiQX-x0Y_WAN8rZ-bWEHORfTM7ybjri3qcA4exqQdu6Z9tRzTkOzRRI5YSLumNO5oDz3I7mlN15qfq-RrC8j-GOwb_ffKLMG3tpLaGisuNHayAzTwH52RqCz0y2-sI0P_kjC8nES62F_upSx0UakpjVQrHOxcehP9bhceSwyAfEaENwKFLV3M8kVLPTc46K5aKnF0xWWIEoS-FKNqbPfvIwNGHfm-hON7-2tKvl4AEkmabhO5T_21dUyyjRsgeThuf9miok18o1uYCxVpKRvtWQfTr2SeZBKKoHNIb5xJCgTIwKg6DAYzwFpNG2_WQPr3sSLYJ5z7sbL3zBj8rNnl4BSWnZnGyHb7pPoFk7Y4G148NHO98_qy0q6GmnYXDxB-i8JGvK4mzzXGInwmvNdNmTapspEdZy0wljzYL4V8t56UXJ37Jvp9mSFnqa5CU6sg4BIoZpNwla8nh2N1rdUVP4a7TcbJQ_F17YsSoGnFw794r5JwkqgGML0GqazhSkW4CcLO196gzFtctJuLZL2TkTsYPxVYdby8Y2_PVHlfX9DUlJ6ExsKMfn8ZocCHDW-RffFnOy4opeedxe1I-rntC_OLMOd1KCxYPRdkzzxpAbFYiG916B9q_df_NviogvwxmxdFBvvuYRKFuu3nmSPUBlTsUu3j3-bZ0x8vbpHhylh6OrvpkaORtuuavFziAoLspQLlM35Nt6yalOoZEiwSP8yNaRA4Z4uePS6atPXUrmKtC8ifF-X72jPlRvHqd6Sjj4pRlDYJnSmm73XLysjGeA4Mb2QN8mjgBEeHz_vImbq6_vvXQFhKfcy_4MvM-8oMP0Fgd_Cb4VVJxbC95lNDesogrSkwKg1A_9ZwJ7EbU2iv22EuhlOysTCooTNhlvvmF-jFhRw7Q2dWlPMTUtzDv7borDbRrg.GTO-xwOlLUNFNXoPdih8fQ; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
         "ROUTEKCKUSAID=.1; path=/; Secure",
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1HHPOgwSDpJ9; Expires=Fri, 15-May-2026 04:18:11 GMT; Path=/"
+        "dtCookiezgire8gj=v_4_srv_12_sn_76DDCC75BF01922AD18E43F4C786B922_perc_100000_ol_0_mul_1_app-3Ae0ff0cf2a415b978_1_app-3A5084385baa28882c_1; Path=/; Domain=.france-visas.gouv.fr; Secure",
+        "YOMe1h3tgHKNQxhV6V7n5g__=v1HHPOgwSDpJ9; Expires=Tue, 23-Jun-2026 18:29:32 GMT; Path=/"
       ],
       "cache-control": "no-store, must-revalidate, max-age=0",
       "content-language": "fr",
@@ -24,6 +25,7 @@
       "x-content-type-options": "nosniff",
       "x-frame-options": "sameorigin",
       "x-robots-tag": "none",
+      "server-timing": "dtTrId;desc=\"44937dc39a43dafda0a1d6a796802b63\", dtSInfo;desc=\"0\", dtRpid;desc=\"-1996926903\"",
       "vary": "Accept-Encoding,User-Agent",
       "x-ua-compatible": "IE=Edge",
       "via": "Frontal-vers-usagers",
@@ -78,9 +80,15 @@
       "result": "cookies-session-without-httponly-flag",
       "scoreModifier": -30,
       "data": {
+        "dtCookiezgire8gj": {
+          "domain": "france-visas.gouv.fr",
+          "path": "/",
+          "port": null,
+          "secure": true
+        },
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "connect.france-visas.gouv.fr",
-          "expires": "2026-05-15T04:18:11.000Z",
+          "expires": "2026-06-23T18:29:32.000Z",
           "path": "/",
           "port": null
         },
