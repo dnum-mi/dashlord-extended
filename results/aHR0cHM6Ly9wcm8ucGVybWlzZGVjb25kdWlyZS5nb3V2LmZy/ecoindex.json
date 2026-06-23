@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://pro.permisdeconduire.gouv.fr",
-        "size": 55.89,
+        "size": 55.507,
         "nodes": 65,
         "requests": 7,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.16,
         "water": 1.74,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-13 08:57:10.910850",
+        "date": "2026-06-23 23:12:05.922132",
         "page_type": null
     }
 ]
