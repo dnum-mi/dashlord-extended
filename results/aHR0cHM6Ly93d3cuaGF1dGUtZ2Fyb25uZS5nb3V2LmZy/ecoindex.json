@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.haute-garonne.gouv.fr",
-        "size": 1149.772,
+        "size": 1153.334,
         "nodes": 644,
         "requests": 47,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 04:44:38.527304",
+        "date": "2026-06-23 18:55:45.392194",
         "page_type": "website"
     }
 ]
