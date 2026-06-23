@@ -9,27 +9,19 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 09:18:44 GMT",
-      "content-type": "text/html",
-      "transfer-encoding": "chunked",
-      "connection": "close",
-      "server": "cloudflare",
-      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-      "last-modified": "Sun, 03 May 2026 04:14:17 GMT",
-      "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=4,cfOrigin;dur=121",
-      "x-content-type-options": "nosniff",
-      "x-xss-protection": "1; mode=block",
       "content-security-policy": "default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' static.cloudflareinsights.com ajax.cloudflare.com www.googletagmanager.com fundingchoicesmessages.google.com www.google.com www.google.ca analytics.google.com www.google-analytics.com pagead2.googlesyndication.com partner.googleadservices.com tpc.googlesyndication.com www.googletagservices.com adservice.google.com adservice.google.fr;style-src https: 'self' 'unsafe-inline';font-src 'self' data:;img-src 'self' matchid.io a.basemaps.cartocdn.com b.basemaps.cartocdn.com c.basemaps.cartocdn.com upload.wikimedia.org pagead2.googlesyndication.com www.google-analytics.com stats.g.doubleclick.net www.google.fr;connect-src 'self' www.data.gouv.fr cloudflareinsights.com www.google-analytics.com analytics.google.com csi.gstatic.com region1.analytics.google.com stats.g.doubleclick.net pagead2.googlesyndication.com; frame-src 'self' matchid.io www.google.com google.com googleads.g.doubleclick.net tpc.googlesyndication.com",
-      "referrer-policy": "same-origin",
+      "content-type": "text/html",
+      "date": "Tue, 23 Jun 2026 23:34:50 GMT",
+      "etag": "W/\"6a35f2dd-1053\"",
       "feature-policy": "geolocation 'none';midi 'none';sync-xhr 'none';microphone 'none';camera 'none';magnetometer 'none';gyroscope 'self';accelerometer 'self';fullscreen 'self';payment 'none';",
-      "x-frame-options": "*.matchid.io",
-      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=K2LCPBlvuINGWP31kGtoXiJjel9iiT4YnKlicT3cQdkB%2FghD4DPRr0xEU2jHUUWlxUYfWrUEaHcY5f052GxvaZoZsFTDNXiKecTDH7IMf3syBRwRnvEJ776qR1FB12Vn4j9P\"}]}",
-      "cf-cache-status": "DYNAMIC",
-      "vary": "accept-encoding",
-      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
-      "speculation-rules": "\"/cdn-cgi/speculation\"",
-      "cf-ray": "9fb093d8dd8ba86e-DFW",
-      "alt-svc": "h3=\":443\"; ma=86400"
+      "last-modified": "Sat, 20 Jun 2026 01:54:37 GMT",
+      "referrer-policy": "same-origin",
+      "server": "nginx",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1; mode=block",
+      "connection": "close",
+      "transfer-encoding": "chunked"
     }
   },
   "tests": {
@@ -137,15 +129,12 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-to-https",
+      "result": "redirection-not-needed-no-http",
       "scoreModifier": 0,
-      "destination": "https://deces.matchid.io/",
+      "destination": "http://deces.matchid.io/",
       "redirects": true,
-      "route": [
-        "http://deces.matchid.io/",
-        "https://deces.matchid.io/"
-      ],
-      "statusCode": 200
+      "route": [],
+      "statusCode": null
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
@@ -158,26 +147,21 @@
     },
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
-      "pass": true,
-      "result": "hsts-implemented-max-age-at-least-six-months",
-      "scoreModifier": 0,
-      "data": "max-age=15552000; includeSubDomains; preload",
-      "includeSubDomains": true,
-      "maxAge": 15552000,
-      "preload": true,
+      "pass": false,
+      "result": "hsts-not-implemented",
+      "scoreModifier": -20,
+      "data": null,
+      "includeSubDomains": false,
+      "maxAge": null,
+      "preload": false,
       "preloaded": false
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
       "pass": true,
-      "result": "sri-implemented-and-external-scripts-loaded-securely",
-      "scoreModifier": 5,
-      "data": {
-        "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516": {
-          "crossorigin": "anonymous",
-          "integrity": "sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=="
-        }
-      }
+      "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+      "scoreModifier": 0,
+      "data": {}
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",
@@ -188,10 +172,10 @@
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
-      "pass": false,
-      "result": "x-frame-options-header-invalid",
-      "scoreModifier": -20,
-      "data": "*.matchid.io"
+      "pass": true,
+      "result": "x-frame-options-sameorigin-or-deny",
+      "scoreModifier": 0,
+      "data": "SAMEORIGIN"
     },
     "cross-origin-resource-policy": {
       "expectation": "corp-implemented-with-same-site",
