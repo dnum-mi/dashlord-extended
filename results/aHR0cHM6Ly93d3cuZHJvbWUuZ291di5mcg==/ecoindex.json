@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.drome.gouv.fr",
-        "size": 2891.641,
-        "nodes": 615,
-        "requests": 41,
-        "grade": "D",
-        "score": 54.0,
-        "ges": 1.92,
-        "water": 2.88,
+        "size": 1057.665,
+        "nodes": 622,
+        "requests": 43,
+        "grade": "C",
+        "score": 59.0,
+        "ges": 1.82,
+        "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 04:34:06.426397",
+        "date": "2026-06-23 18:44:15.116322",
         "page_type": "website"
     }
 ]
