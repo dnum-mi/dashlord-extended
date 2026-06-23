@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bas-rhin.gouv.fr",
-        "size": 1690.984,
-        "nodes": 650,
+        "size": 1716.905,
+        "nodes": 653,
         "requests": 47,
         "grade": "D",
         "score": 54.0,
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 06:14:17.144881",
+        "date": "2026-06-23 20:22:34.187137",
         "page_type": "website"
     }
 ]
