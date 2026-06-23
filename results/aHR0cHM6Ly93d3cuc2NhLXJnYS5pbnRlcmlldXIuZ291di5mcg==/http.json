@@ -9,12 +9,12 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Wed, 13 May 2026 09:05:52 GMT",
+      "date": "Tue, 23 Jun 2026 23:20:35 GMT",
       "set-cookie": [
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1T-rOgwSDTVR; Expires=Wed, 13-May-2026 11:05:52 GMT; Path=/"
+        "YOMe1h3tgHKNQxhV6V7n5g__=v1YPbOgwSDvbm; Expires=Wed, 24-Jun-2026 01:20:35 GMT; Path=/"
       ],
-      "last-modified": "Fri, 21 Nov 2025 15:59:05 GMT",
-      "etag": "\"828-6441ce494e440-gzip\"",
+      "last-modified": "Thu, 21 May 2026 09:40:09 GMT",
+      "etag": "\"828-65250b2b2750b-gzip\"",
       "accept-ranges": "bytes",
       "vary": "Accept-Encoding",
       "content-security-policy": "default-src 'none'; connect-src http: https: ws:; font-src 'self' http: https: ws: data:; img-src 'self' http: https: ws: data:; media-src 'self' https: http: ws:; script-src 'self' http: https: ws: 'unsafe-inline'; style-src 'self' 'unsafe-inline' http: https: ws:;",
@@ -23,7 +23,7 @@
       "cache-control": "no-cache, no-store, must-revalidate, private, no-cache, no-store, max-age=0",
       "pragma": "no-cache",
       "expires": "0",
-      "content-length": "1031",
+      "content-length": "1032",
       "content-type": "text/html",
       "strict-transport-security": "max-age=2678400",
       "connection": "close"
@@ -104,7 +104,7 @@
       "data": {
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "www.sca-rga.interieur.gouv.fr",
-          "expires": "2026-05-13T11:05:52.000Z",
+          "expires": "2026-06-24T01:20:35.000Z",
           "path": "/",
           "port": null
         }
