@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.indre.gouv.fr",
-        "size": 1218.983,
+        "size": 1178.225,
         "nodes": 649,
         "requests": 44,
         "grade": "C",
-        "score": 57.0,
-        "ges": 1.86,
-        "water": 2.79,
+        "score": 58.0,
+        "ges": 1.84,
+        "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-05-15 04:57:43.146572",
+        "date": "2026-06-23 19:10:12.562248",
         "page_type": "website"
     }
 ]
