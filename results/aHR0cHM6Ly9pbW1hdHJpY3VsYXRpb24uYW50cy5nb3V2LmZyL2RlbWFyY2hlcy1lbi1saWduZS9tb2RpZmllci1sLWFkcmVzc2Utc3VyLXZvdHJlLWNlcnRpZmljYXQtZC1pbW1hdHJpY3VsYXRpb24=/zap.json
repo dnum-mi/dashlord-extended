@@ -1,50 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Fri, 15 May 2026 02:43:56",
-	"created": "2026-05-15T02:43:56.072530708Z",
-	"insights":[
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.code.2xx",
-			"description": "Percentage of responses with status code 2xx",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.ctype.text/html",
-			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.method.GET",
-			"description": "Percentage of endpoints with method GET",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.endpoint.total",
-			"description": "Count of total endpoints",
-			"statistic": "5"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://immatriculation.ants.gouv.fr",
-			"key": "insight.response.slow",
-			"description": "Percentage of slow responses",
-			"statistic": "71"
-		}
-	],
+	"@generated": "Tue, 23 Jun 2026 17:00:12",
+	"created": "2026-06-23T17:00:12.915667362Z",
 	"site":[ 
 		{
 			"@name": "https://immatriculation.ants.gouv.fr",
@@ -63,7 +21,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "9",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -73,7 +31,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "16",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -83,7 +41,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "17",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -93,7 +51,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "71",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +61,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "77",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -133,7 +91,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "5",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -153,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -163,7 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "66",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +131,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "69",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -213,7 +171,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "18",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -223,7 +181,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "19",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -233,7 +191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "72",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +201,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "80",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -260,7 +218,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10011",
@@ -273,7 +231,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "21",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -283,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -293,7 +251,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "23",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -303,7 +261,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
+							"id": "73",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +271,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "81",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -330,7 +288,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p>",
 					"cweid": "614",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -343,7 +301,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "64",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,7 +311,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "61",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -363,7 +321,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "55",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -380,7 +338,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90004",
@@ -393,7 +351,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "40",
+							"id": "67",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -403,7 +361,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "62",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -413,7 +371,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "56",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -430,7 +388,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90004",
@@ -443,7 +401,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "63",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -453,7 +411,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "58",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -463,7 +421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "52",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -480,7 +438,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10063",
@@ -493,7 +451,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "60",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -503,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "57",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -513,7 +471,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "48",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -523,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "101",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -533,7 +491,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
+							"id": "104",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -550,7 +508,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10035",
@@ -563,7 +521,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "31",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -573,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "28",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -593,7 +551,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "97",
+							"id": "79",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -603,7 +561,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "87",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -653,7 +611,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "32",
+							"id": "34",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -663,7 +621,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "102",
+							"id": "82",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -673,7 +631,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "54",
+							"id": "89",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -690,7 +648,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10094",
@@ -703,80 +661,80 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "41",
+							"id": "93",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001"
+							"evidence": "/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018"
 						},
 						{
-							"id": "68",
+							"id": "39",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_TRIIHFIAF5NW4VDO6IBGO7CFIX6TZ34RDHMIVIP45KZ5RDWWVXNQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD \\x0001y5n\\x0015\\x000c\uFFFD\\x0004c\uFFFD\\x0008R\\x0017\uFFFD6w\uFFFD\\x0010\uFFFD0\uFFFDH?\uFFFDJg\uFFFDCYeW5"
+							"evidence": "/redirect_W44J3HC2EPGSQH2NV2V7K3SHDTLNVOD4IV6DQQY4357SRVQEDI5A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000ba\\x000f\\x0019$\\x0007\uFFFD\uFFFDvW\uFFFD\uFFFDHp\uFFFD,\uFFFDN\\x000f\uFFFD\\x0015\uFFFD4\\x0010c\uFFFD\uFFFD\uFFFD$U@@\uFFFD\uFFFD"
 						},
 						{
-							"id": "69",
+							"id": "36",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001"
+							"evidence": "/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018"
 						},
 						{
-							"id": "103",
+							"id": "105",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001"
+							"evidence": "/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018"
 						},
 						{
-							"id": "79",
+							"id": "37",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_TRIIHFIAF5NW4VDO6IBGO7CFIX6TZ34RDHMIVIP45KZ5RDWWVXNQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD \\x0001y5n\\x0015\\x000c\uFFFD\\x0004c\uFFFD\\x0008R\\x0017\uFFFD6w\uFFFD\\x0010\uFFFD0\uFFFDH?\uFFFDJg\uFFFDCYeW5"
+							"evidence": "/redirect_W44J3HC2EPGSQH2NV2V7K3SHDTLNVOD4IV6DQQY4357SRVQEDI5A==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000ba\\x000f\\x0019$\\x0007\uFFFD\uFFFDvW\uFFFD\uFFFDHp\uFFFD,\uFFFDN\\x000f\uFFFD\\x0015\uFFFD4\\x0010c\uFFFD\uFFFD\uFFFD$U@@\uFFFD\uFFFD"
 						},
 						{
-							"id": "107",
+							"id": "99",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001"
+							"evidence": "/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018"
 						},
 						{
-							"id": "104",
+							"id": "102",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001"
+							"evidence": "/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7-\uFFFD\\x000c!\uFFFD\uFFFD,n\\x0003\r\uFFFD\uFFFD%U\uFFFD\uFFFDu\uFFFD\\x0008p@9S\uFFFD,\\x0010\uFFFD\uFFFD\uFFFD\\x0018\uFFFD\uFFFD,ez\\x0001</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD0\uFFFD\uFFFD\\x0019FGa\uFFFDM,\uFFFD\uFFFD1\\x0014{QQ\uFFFDD\\x0012\uFFFD\\x0004\uFFFDL#\uFFFDU\uFFFD\uFFFD\\x0001.\\x0018<\\x0015\\x0012\\x0018</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -793,13 +751,13 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "24",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
@@ -809,37 +767,37 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_TRIIHFIAF5NW4VDO6IBGO7CFIX6TZ34RDHMIVIP45KZ5RDWWVXNQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_W44J3HC2EPGSQH2NV2V7K3SHDTLNVOD4IV6DQQY4357SRVQEDI5A====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "27",
+							"id": "25",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ====/demarches-en-ligne';</script>",
+							"evidence": "<script>window.location.href='/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA====/demarches-en-ligne';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "24",
+							"id": "27",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_TRIIHFIAF5NW4VDO6IBGO7CFIX6TZ34RDHMIVIP45KZ5RDWWVXNQ====/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation';</script>",
+							"evidence": "<script>window.location.href='/redirect_W44J3HC2EPGSQH2NV2V7K3SHDTLNVOD4IV6DQQY4357SRVQEDI5A====/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "52",
-							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
+							"id": "75",
+							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_E3LYMMIYGVLG4DDYKLJVWC23WACHBAOVP4LBDN7OO7GJCLLGV6AQ====/sitemap.xml';</script>",
+							"evidence": "<script>window.location.href='/redirect_LXMJDEGUZHYZVNLMPCMRR7UVGERBLGBO25TCO4VZDOAS4YPBUSGA====/robots.txt';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -863,7 +821,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "59",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -873,7 +831,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "54",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -883,7 +841,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "47",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -893,7 +851,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "100",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -903,7 +861,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "103",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -920,7 +878,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10015",
@@ -933,7 +891,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "8",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -953,7 +911,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "13",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -963,7 +921,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "70",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -973,7 +931,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "76",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1003,7 +961,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "50",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1013,7 +971,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "49",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1021,16 +979,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "42",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90005",
@@ -1043,7 +1011,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "45",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1053,7 +1021,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "46",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1061,16 +1029,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "41",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90005",
@@ -1083,7 +1061,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "43",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1093,7 +1071,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "40",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1101,16 +1079,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "38",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "90005",
@@ -1123,7 +1111,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "45",
+							"id": "53",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1133,7 +1121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "51",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1141,16 +1129,26 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "44",
+							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "10"
+					"sourceid": "4"
 				},
 				{
 					"pluginid": "10112",
@@ -1163,7 +1161,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "0",
 							"uri": "https://immatriculation.ants.gouv.fr/",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/",
 							"method": "GET",
@@ -1173,7 +1171,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "0",
+							"id": "1",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1183,7 +1181,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "83",
+							"id": "74",
 							"uri": "https://immatriculation.ants.gouv.fr/demarches-en-ligne/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/demarches-en-ligne\/modifier-l-adresse-sur-votre-certificat-d-immatriculation",
 							"method": "GET",
@@ -1193,7 +1191,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "81",
+							"id": "65",
 							"uri": "https://immatriculation.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1203,7 +1201,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "46",
+							"id": "68",
 							"uri": "https://immatriculation.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/immatriculation.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
