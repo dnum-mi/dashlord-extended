@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "f10v0mhmf6frdouc7va7ldpn06",
+      "value": "21atda982i04kp0hceeannnjh2",
       "domain": "www.reunion.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 21:33:44 GMT",
-    "expires": "Tue, 23 Jun 2026 19:33:44 GMT",
-    "last-modified": "Tue, 23 Jun 2026 21:33:44 GMT",
+    "date": "Thu, 16 Jul 2026 12:28:02 GMT",
+    "expires": "Thu, 16 Jul 2026 10:28:03 GMT",
+    "last-modified": "Thu, 16 Jul 2026 12:28:03 GMT",
     "pragma": "no-cache",
     "served-by": "www.reunion.gouv.fr",
-    "set-cookie": "eZSESSID=f10v0mhmf6frdouc7va7ldpn06; path=/",
+    "set-cookie": "eZSESSID=21atda982i04kp0hceeannnjh2; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
