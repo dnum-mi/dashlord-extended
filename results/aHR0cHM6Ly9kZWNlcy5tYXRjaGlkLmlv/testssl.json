@@ -150,7 +150,7 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "server"
+              "finding"      : "server -- TLS 1.3 client determined"
           }
 ,         {
               "id"           : "FS",
@@ -353,7 +353,7 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "75 >= 30 days"
+              "finding"      : "52 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1782257756"
+              "finding"      : "1784211639"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "102"
           }
 ]
