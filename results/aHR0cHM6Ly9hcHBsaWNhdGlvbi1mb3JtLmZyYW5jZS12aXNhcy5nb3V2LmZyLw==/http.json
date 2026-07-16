@@ -9,23 +9,25 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 23 Jun 2026 16:29:32 GMT",
+      "date": "Thu, 16 Jul 2026 07:50:39 GMT",
       "set-cookie": [
-        "AUTH_SESSION_ID=N2IwX0xjSkFKcTVYSzZCRFZ6WlpmemxnLlpZTXNiZ29CRHgtcVBXR1dJZmFiV05nVHBUdWtCdFZCc2R1aHZtenF5ZEtkZVFZMFR3UmhrOHdobWp1Ml9mcHdCRG5yTFlQckl0ZE9xVmI0OGtlbHJ3.fv-kckusa-21-62384; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=\"ppS+nVwi31PvWUJrbgbqFQkQpH/tnswhsCs74XLmlE8\"; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..SEMksFp9OnMyeMPsAlWozw.0-juxHksRPLdOMWPUcl3cc6NtSDMkiYfw_Jco2ruBQPagp6vxTitsPSQSw0UWMnARWOCEl5fn16P_rREqZgpvvBA051qZJwfi8T1TFspVahwg-niYweabe4cYVTR5PhMTrFVqUqUWfSA-SIsv7roehUIfi2he2Euh-UVuZk6wARD-2yn4tOmTr5p-Gh5_lydfOHKwgdhY6UOOiQX-x0Y_WAN8rZ-bWEHORfTM7ybjri3qcA4exqQdu6Z9tRzTkOzRRI5YSLumNO5oDz3I7mlN15qfq-RrC8j-GOwb_ffKLMG3tpLaGisuNHayAzTwH52RqCz0y2-sI0P_kjC8nES62F_upSx0UakpjVQrHOxcehP9bhceSwyAfEaENwKFLV3M8kVLPTc46K5aKnF0xWWIEoS-FKNqbPfvIwNGHfm-hON7-2tKvl4AEkmabhO5T_21dUyyjRsgeThuf9miok18o1uYCxVpKRvtWQfTr2SeZBKKoHNIb5xJCgTIwKg6DAYzwFpNG2_WQPr3sSLYJ5z7sbL3zBj8rNnl4BSWnZnGyHb7pPoFk7Y4G148NHO98_qy0q6GmnYXDxB-i8JGvK4mzzXGInwmvNdNmTapspEdZy0wljzYL4V8t56UXJ37Jvp9mSFnqa5CU6sg4BIoZpNwla8nh2N1rdUVP4a7TcbJQ_F17YsSoGnFw794r5JwkqgGML0GqazhSkW4CcLO196gzFtctJuLZL2TkTsYPxVYdby8Y2_PVHlfX9DUlJ6ExsKMfn8ZocCHDW-RffFnOy4opeedxe1I-rntC_OLMOd1KCxYPRdkzzxpAbFYiG916B9q_df_NviogvwxmxdFBvvuYRKFuu3nmSPUBlTsUu3j3-bZ0x8vbpHhylh6OrvpkaORtuuavFziAoLspQLlM35Nt6yalOoZEiwSP8yNaRA4Z4uePS6atPXUrmKtC8ifF-X72jPlRvHqd6Sjj4pRlDYJnSmm73XLysjGeA4Mb2QN8mjgBEeHz_vImbq6_vvXQFhKfcy_4MvM-8oMP0Fgd_Cb4VVJxbC95lNDesogrSkwKg1A_9ZwJ7EbU2iv22EuhlOysTCooTNhlvvmF-jFhRw7Q2dWlPMTUtzDv7borDbRrg.GTO-xwOlLUNFNXoPdih8fQ; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "AUTH_SESSION_ID=MmpQZ21TWVJkMlZLRF9rTXB2ODkzVDlhLjVBZFd2b2JXaHREY2I2RXZIQ1R0Qlp0OF9ZMTF1QmxDSGFKRFY4cTNIWTJnUEtkVVZsMVc5YS1oQnNSYUE3Vi1yRWVTbU1vTWdBVFpUNUNOejJFdzJn.fv-kckusa-21-35200; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=\"PmewUkVHPbuFS4Bg/cx2r6EgGQWH0iC6C7DzzDGH170\"; Version=1; Path=/realms/usager/; Max-Age=60; Secure; SameSite=None",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..BjJ427pKR5TE7xarSXVpYA.pwJBr2vBm8Ezr4Tmeg-gv7yNpYwp2xq6pgVsPamcX6SxJfoMfYZmogCDrXk_7EKDBiS05RpBID2-tv8yvUF7SVj4V2vvoERPFOp-0a1VwyoFj2XNvk1Bv2lFUFP2T-Ix5lS1w9A8Ha-aq-vvr-vDmeC0QHE1SIkM51rkP4ivzw3BHcG6bMjS93Q26nd-WREXfg7jee6ypfHzjGw64q1LWkjOQTtIZzOKliJBWNPuXfWJ3_xllg8ldEFy2rkfpizy8TCPi19dLtBJXEs-8S-ViUU1W1k2RNuZ81W3E0aFxfS_-i8HNNHz8DNxQCNhCsj9b7HrJIrxLoF9dDM_JaYgtma-447OrI3lUYfhbU3yBOEa43BtbUNZSNywyxILgAOtxcLcg5pY9GZR3xrTa9E-inMHu9t_amPKalCqyFHfSwublBFrjJEdy0MBWmPIBNMvjDk6HkZ_9-ytfhSDUTxNIJIwGoBQfhH8cHqLOyHTrWDDX_h_eCwbAh1w5rFQx5EYH-_TDdH9eCqSV37euTAa_slAYzR7L_zSJJ_udPYjkbux4Qimg-0J0_L09f_GVzJ2umrh0IQAF08-CDR4hmnKjMjQiFzNPAjhjLxOB5hmAgMUkvTxs_y452wg0S_tt46KmFfXiJKECUKwavdMyox8g8Za1GGw5A21CGh05aHvDIThSa70uE8QVoKCDlNmmAArnOhU4v6O-uSD1RQwwTk3OqN8YlLrFXF8I088-yblFMCai0Jt07yybSptj0e6hLkZ9YwBaDlL8Baw_-E8EgSTR4YX4Lcr9_TosxTOGxS8ttc41hVeF_nXsRC5-Kz71n-gbaPxTj8PqGTsmz2xF1JHfcD_vOvlr421A9xOY1OUZ03ZDpfD3Mj_sB-7d6SO2O3wifJs6YA_RsgPt07MFJzqul-dPN9HNG4kP5ZpoDdnbUEFNX-hEnMEa_ZXgLSVXtNBdTg9Kjt2yojTBgk0sGZoC_ZngID99fXCsTArV0lwp2t1MpNtZPT5eXuy8AtyoNARMzzDTigC83woTOOA7KNGvwZbrIX6T0WUlZZzo1nD6qqwK-sO-r7wCw0xrfYXkkEpSjr7qNOaHL5tg04CxTI9KFGZw_YBzYO3JdVK4i5v80k.K-KwzqM3QMBImVRrn-xHyw; Version=1; Path=/realms/usager/; Secure; HttpOnly; SameSite=None",
         "ROUTEKCKUSAID=.1; path=/; Secure",
-        "dtCookiezgire8gj=v_4_srv_12_sn_76DDCC75BF01922AD18E43F4C786B922_perc_100000_ol_0_mul_1_app-3Ae0ff0cf2a415b978_1_app-3A5084385baa28882c_1; Path=/; Domain=.france-visas.gouv.fr; Secure",
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1HHPOgwSDpJ9; Expires=Tue, 23-Jun-2026 18:29:32 GMT; Path=/"
+        "dtCookiezgire8gj=v_4_srv_12_sn_13D2633BB3371277F6B2CAA0C8273B48_perc_100000_ol_0_mul_1_app-3Ae0ff0cf2a415b978_1_app-3A5084385baa28882c_1; Path=/; Domain=.france-visas.gouv.fr; Secure",
+        "YOMe1h3tgHKNQxhV6V7n5g__=v14fLOgwSDDHS; Expires=Thu, 16-Jul-2026 09:50:39 GMT; Path=/"
       ],
       "cache-control": "no-store, must-revalidate, max-age=0",
       "content-language": "fr",
-      "content-security-policy": "script-src 'unsafe-inline' 'unsafe-eval' *.france-visas.interieur.rie.gouv.fr *.france-visas.gouv.fr france-visas.gouv.fr static.cloudflareinsights.com; object-src 'none'; worker-src 'self' blob:",
+      "content-security-policy": "script-src 'unsafe-inline' 'unsafe-eval' *.france-visas.interieur.rie.gouv.fr *.france-visas.gouv.fr france-visas.gouv.fr static.cloudflareinsights.com jedonnemonavis.numerique.gouv.fr api-adresse.data.gouv.fr data.geopf.fr  ;  object-src 'none';  worker-src 'self' blob:",
       "content-type": "text/html;charset=utf-8",
       "x-content-type-options": "nosniff",
       "x-frame-options": "sameorigin",
       "x-robots-tag": "none",
-      "server-timing": "dtTrId;desc=\"44937dc39a43dafda0a1d6a796802b63\", dtSInfo;desc=\"0\", dtRpid;desc=\"-1996926903\"",
+      "server-timing": "dtTrId;desc=\"d595e860ff39b8af1b64b217937b09eb\", dtSInfo;desc=\"0\", dtRpid;desc=\"331683164\"",
+      "x-oneagent-js-injection": "true",
+      "x-ruxit-js-agent": "true",
       "vary": "Accept-Encoding,User-Agent",
       "x-ua-compatible": "IE=Edge",
       "via": "Frontal-vers-usagers",
@@ -46,7 +48,10 @@
           "'unsafe-inline'",
           "*.france-visas.gouv.fr",
           "*.france-visas.interieur.rie.gouv.fr",
+          "api-adresse.data.gouv.fr",
+          "data.geopf.fr",
           "france-visas.gouv.fr",
+          "jedonnemonavis.numerique.gouv.fr",
           "static.cloudflareinsights.com"
         ],
         "object-src": [
@@ -88,7 +93,7 @@
         },
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "connect.france-visas.gouv.fr",
-          "expires": "2026-06-23T18:29:32.000Z",
+          "expires": "2026-07-16T09:50:39.000Z",
           "path": "/",
           "port": null
         },
