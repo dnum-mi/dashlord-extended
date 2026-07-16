@@ -2,24 +2,24 @@
   "trackers": [],
   "cookies": [],
   "headers": {
-    "cf-ray": "a10702a74d220202-WAW",
+    "cf-ray": "a1c15c2e2ef7999f-CDG",
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
     "connection": "keep-alive",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Tue, 23 Jun 2026 22:43:13 GMT",
+    "date": "Thu, 16 Jul 2026 13:30:11 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
     "transfer-encoding": "chunked",
-    "vary": "Accept-Encoding",
+    "vary": "accept-encoding",
     "x-frame-options": "SAMEORIGIN",
     "alt-svc": "h3=\":443\"; ma=86400"
   },
   "endpoints": [
     {
       "hostname": "www.prefectures-regions.gouv.fr",
-      "ip": "141.101.90.104",
+      "ip": "141.101.90.106",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
