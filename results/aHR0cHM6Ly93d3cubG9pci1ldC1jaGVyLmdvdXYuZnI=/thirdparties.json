@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "qki8plje8brp1kpbdplo3suge4",
+      "value": "mheidm20v5ahndv0vt6k0itgc3",
       "domain": "www.loir-et-cher.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 19:19:50 GMT",
-    "expires": "Tue, 23 Jun 2026 17:19:50 GMT",
-    "last-modified": "Tue, 23 Jun 2026 19:19:50 GMT",
+    "date": "Thu, 16 Jul 2026 10:15:26 GMT",
+    "expires": "Thu, 16 Jul 2026 08:15:26 GMT",
+    "last-modified": "Thu, 16 Jul 2026 10:15:26 GMT",
     "pragma": "no-cache",
     "served-by": "www.loir-et-cher.gouv.fr",
-    "set-cookie": "eZSESSID=qki8plje8brp1kpbdplo3suge4; path=/",
+    "set-cookie": "eZSESSID=mheidm20v5ahndv0vt6k0itgc3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

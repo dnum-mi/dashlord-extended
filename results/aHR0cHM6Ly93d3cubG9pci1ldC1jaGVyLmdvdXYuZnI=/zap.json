@@ -1,8 +1,114 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 23 Jun 2026 19:23:56",
-	"created": "2026-06-23T19:23:56.686852178Z",
+	"@generated": "Thu, 16 Jul 2026 10:19:36",
+	"created": "2026-07-16T10:19:36.530069037Z",
+	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.warn",
+			"description": "ZAP warnings logged - see the zap.log file for details",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.code.2xx",
+			"description": "Percentage of responses with status code 2xx",
+			"statistic": "85"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.code.3xx",
+			"description": "Percentage of responses with status code 3xx",
+			"statistic": "10"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.code.4xx",
+			"description": "Percentage of responses with status code 4xx",
+			"statistic": "3"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.application/javascript",
+			"description": "Percentage of endpoints with content type application/javascript",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.image/jpeg",
+			"description": "Percentage of endpoints with content type image/jpeg",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.image/png",
+			"description": "Percentage of endpoints with content type image/png",
+			"statistic": "3"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.image/svg+xml",
+			"description": "Percentage of endpoints with content type image/svg+xml",
+			"statistic": "6"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.text/css",
+			"description": "Percentage of endpoints with content type text/css",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.ctype.text/html",
+			"description": "Percentage of endpoints with content type text/html",
+			"statistic": "81"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.method.GET",
+			"description": "Percentage of endpoints with method GET",
+			"statistic": "100"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.endpoint.total",
+			"description": "Count of total endpoints",
+			"statistic": "149"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.loir-et-cher.gouv.fr",
+			"key": "insight.response.slow",
+			"description": "Percentage of slow responses",
+			"statistic": "100"
+		}
+	],
 	"site":[ 
 		{
 			"@name": "https://www.loir-et-cher.gouv.fr",
@@ -38,7 +144,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1162"
+					"sourceid": "1025"
 				},
 				{
 					"pluginid": "10038",
@@ -51,7 +157,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "13",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -61,7 +167,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "66",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "80",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -71,17 +187,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "22",
+							"id": "34",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -91,7 +197,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "35",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -121,7 +227,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "11",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -131,7 +237,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "64",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -141,7 +247,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "90",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "78",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -151,19 +267,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "86",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "93",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -191,7 +297,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "172",
+							"id": "168",
 							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Associations-Fonds-de-dotation-Fondations-d-entreprise-FRUP-Appel-a-la-generosite-publique",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Associations-Fonds-de-dotation-Fondations-d-entreprise-FRUP-Appel-a-la-generosite-publique",
 							"method": "GET",
@@ -201,7 +307,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "171",
+							"id": "170",
 							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Carte-nationale-d-identite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Carte-nationale-d-identite",
 							"method": "GET",
@@ -211,9 +317,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "174",
-							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Chasse",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Chasse",
+							"id": "173",
+							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Cartes-grises",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Cartes-grises",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -221,7 +327,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "168",
+							"id": "174",
 							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Passeports",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Passeports",
 							"method": "GET",
@@ -245,10 +351,10 @@
 					"systemic": true,
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
-					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "766"
+					"sourceid": "683"
 				},
 				{
 					"pluginid": "10003",
@@ -261,17 +367,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "210",
-							"uri": "https://www.loir-et-cher.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1726560559.js",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1726560559.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
-							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
-						},
-						{
-							"id": "200",
+							"id": "198",
 							"uri": "https://www.loir-et-cher.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1726560559.js",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1726560559.js",
 							"method": "GET",
@@ -281,14 +377,14 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
 					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1167"
+					"sourceid": "931"
 				},
 				{
 					"pluginid": "10044",
@@ -301,7 +397,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "195",
+							"id": "202",
 							"uri": "https://www.loir-et-cher.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -311,7 +407,7 @@
 							"otherinfo": "Location header URI length: 77 [https://www.loir-et-cher.gouv.fr/Actualite/Outils/Declaration-d-accessibilite].\nPredicted response size: 377.\nResponse Body Length: 552."
 						},
 						{
-							"id": "188",
+							"id": "193",
 							"uri": "https://www.loir-et-cher.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/actualites",
 							"method": "GET",
@@ -321,7 +417,7 @@
 							"otherinfo": "Location header URI length: 42 [https://www.loir-et-cher.gouv.fr/Actualite].\nPredicted response size: 342.\nResponse Body Length: 412."
 						},
 						{
-							"id": "189",
+							"id": "195",
 							"uri": "https://www.loir-et-cher.gouv.fr/cni",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/cni",
 							"method": "GET",
@@ -331,14 +427,14 @@
 							"otherinfo": "Location header URI length: 69 [https://www.loir-et-cher.gouv.fr/Demarches/Carte-nationale-d-identite].\nPredicted response size: 369.\nResponse Body Length: 520."
 						},
 						{
-							"id": "207",
+							"id": "204",
 							"uri": "https://www.loir-et-cher.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 101 [https://www.loir-et-cher.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/212077298?SearchText=ZAP].\nPredicted response size: 401.\nResponse Body Length: 648."
+							"otherinfo": "Location header URI length: 102 [https://www.loir-et-cher.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1290285348?SearchText=ZAP].\nPredicted response size: 402.\nResponse Body Length: 652."
 						},
 						{
 							"id": "186",
@@ -351,7 +447,7 @@
 							"otherinfo": "Location header URI length: 42 [https://www.loir-et-cher.gouv.fr/Demarches].\nPredicted response size: 342.\nResponse Body Length: 412."
 						},
 						{
-							"id": "198",
+							"id": "203",
 							"uri": "https://www.loir-et-cher.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -361,7 +457,7 @@
 							"otherinfo": "Location header URI length: 82 [https://www.loir-et-cher.gouv.fr/Actualite/Outils/Gestion-des-donnees-personnelles].\nPredicted response size: 382.\nResponse Body Length: 572."
 						},
 						{
-							"id": "185",
+							"id": "181",
 							"uri": "https://www.loir-et-cher.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/horaires",
 							"method": "GET",
@@ -381,7 +477,7 @@
 							"otherinfo": "Location header URI length: 98 [https://www.loir-et-cher.gouv.fr/Actualite/Outils/Mentions-legales-et-politique-de-confidentialite].\nPredicted response size: 398.\nResponse Body Length: 636."
 						},
 						{
-							"id": "142",
+							"id": "107",
 							"uri": "https://www.loir-et-cher.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -391,7 +487,7 @@
 							"otherinfo": "Location header URI length: 47 [https://www.loir-et-cher.gouv.fr/Nous-contacter].\nPredicted response size: 347.\nResponse Body Length: 432."
 						},
 						{
-							"id": "199",
+							"id": "194",
 							"uri": "https://www.loir-et-cher.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/passeport",
 							"method": "GET",
@@ -401,7 +497,7 @@
 							"otherinfo": "Location header URI length: 53 [https://www.loir-et-cher.gouv.fr/Demarches/Passeports].\nPredicted response size: 353.\nResponse Body Length: 456."
 						},
 						{
-							"id": "190",
+							"id": "192",
 							"uri": "https://www.loir-et-cher.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -428,7 +524,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1017"
+					"sourceid": "941"
 				},
 				{
 					"pluginid": "10010",
@@ -441,7 +537,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "14",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -471,7 +567,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "16",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -501,7 +597,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "15",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -531,7 +627,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "170",
+							"id": "167",
 							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Associations-Fonds-de-dotation-Fondations-d-entreprise-FRUP-Appel-a-la-generosite-publique",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Associations-Fonds-de-dotation-Fondations-d-entreprise-FRUP-Appel-a-la-generosite-publique",
 							"method": "GET",
@@ -551,9 +647,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "173",
-							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Chasse",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Chasse",
+							"id": "171",
+							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Cartes-grises",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Cartes-grises",
 							"method": "GET",
 							"param": "https://snow.artifica.fr/api/js/guide?key=cdio2tbqmvukp4exshzln6ywg9farj&callback=initWidget",
 							"attack": "",
@@ -561,7 +657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "167",
+							"id": "172",
 							"uri": "https://www.loir-et-cher.gouv.fr/Demarches/Passeports",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Demarches\/Passeports",
 							"method": "GET",
@@ -588,7 +684,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "766"
+					"sourceid": "683"
 				},
 				{
 					"pluginid": "90004",
@@ -601,7 +697,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "9",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -611,9 +707,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
+							"id": "62",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -621,9 +717,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
+							"id": "76",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -651,7 +747,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "10",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -661,9 +757,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
+							"id": "63",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -671,9 +767,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
+							"id": "77",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -701,7 +797,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "8",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -711,9 +807,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
+							"id": "61",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -721,9 +817,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
+							"id": "75",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -751,7 +847,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "203",
+							"id": "199",
 							"uri": "https://www.loir-et-cher.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -768,7 +864,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "1038"
+					"sourceid": "933"
 				},
 				{
 					"pluginid": "110009",
@@ -791,7 +887,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "204",
+							"id": "207",
 							"uri": "https://www.loir-et-cher.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -828,7 +924,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1083"
+					"sourceid": "996"
 				},
 				{
 					"pluginid": "10063",
@@ -841,7 +937,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "7",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -851,7 +947,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "60",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "74",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -861,17 +967,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "36",
+							"id": "31",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -881,7 +977,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "33",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -911,7 +1007,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "19",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -921,7 +1017,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "69",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "83",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -931,17 +1037,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "25",
+							"id": "38",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -951,7 +1047,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "39",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -981,7 +1077,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "20",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -991,7 +1087,7 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "99",
+							"id": "70",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -1001,7 +1097,17 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "64",
+							"id": "97",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734987600",
+							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
+						},
+						{
+							"id": "84",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1011,19 +1117,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "78",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734987600",
-							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
-						},
-						{
-							"id": "95",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "104",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1051,7 +1147,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "21",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1061,7 +1157,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "104",
+							"id": "71",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -1071,7 +1167,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "65",
+							"id": "98",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "85",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1081,19 +1187,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "79",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "100",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "105",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1121,27 +1217,37 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "1",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Publications/Communiques-de-presse/Annee-2026/Projet-de-site-hospitalier-unique-de-Vendome-nouvelle-etape-pour-securiser-et-relancer-le-projet",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'\\x001a\uFFFD*'\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u07B2\u01FF\\x0002y\uFFFD{\uFFFD\u06EF\u03EE\uFFFD\u07B7\uFFFD^\uFFFD\u022D{\uFFFDh\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD\uB9CA\uFFFD\uFFFD\uFFFD\u05FEU\uFFFD\u0762g\uFFFD\uFFFD\uFFFD\uFFFDzY^\uFFFD\uFFFDZ\uFFFD\uFA62\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD+\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjw\\x001e\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/actualite/iro-2-niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels/321447-16-fre-FR/IRO-2-Niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels_frontpageactusprincipales",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD\u2B8F\uFFFD\uFFFDx\uFFFDy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u05CE;\uFFFD^\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDD\uFFFD\uFFFD\u062Fy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{ij\\x0007\uFFFDr\u06EC\uFFFD\uFFFD\uFFFDr*Z\uFFFD\uFFFD"
 						},
 						{
-							"id": "105",
+							"id": "58",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/Publications/Communiques-de-presse/Annee-2026/Projet-de-site-hospitalier-unique-de-Vendome-nouvelle-etape-pour-securiser-et-relancer-le-projet",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'\\x001a\uFFFD*'\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u07B2\u01FF\\x0002y\uFFFD{\uFFFD\u06EF\u03EE\uFFFD\u07B7\uFFFD^\uFFFD\u022D{\uFFFDh\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD\uB9CA\uFFFD\uFFFD\uFFFD\u05FEU\uFFFD\u0762g\uFFFD\uFFFD\uFFFD\uFFFDzY^\uFFFD\uFFFDZ\uFFFD\uFA62\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD+\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjw\\x001e\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/actualite/iro-2-niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels/321447-16-fre-FR/IRO-2-Niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels_frontpageactusprincipales",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD\u2B8F\uFFFD\uFFFDx\uFFFDy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u05CE;\uFFFD^\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDD\uFFFD\uFFFD\u062Fy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{ij\\x0007\uFFFDr\u06EC\uFFFD\uFFFD\uFFFDr*Z\uFFFD\uFFFD"
 						},
 						{
-							"id": "126",
+							"id": "125",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Agriculture",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Agriculture",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Actions-de-l-Etat/Agriculture/Newsletter-Agri-DDT41",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
+						},
+						{
+							"id": "127",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Alimentation-consommation-et-commerce",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Alimentation-consommation-et-commerce",
 							"method": "GET",
@@ -1151,7 +1257,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
 						},
 						{
-							"id": "155",
+							"id": "122",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-construction-logement",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-construction-logement",
 							"method": "GET",
@@ -1161,7 +1267,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
 						},
 						{
-							"id": "157",
+							"id": "111",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Citoyennete-Elections",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Citoyennete-Elections",
 							"method": "GET",
@@ -1171,7 +1277,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
 						},
 						{
-							"id": "139",
+							"id": "129",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Culture",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Culture",
 							"method": "GET",
@@ -1181,9 +1287,9 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
 						},
 						{
-							"id": "163",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Developpement-durable-et-cadre-de-vie",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Developpement-durable-et-cadre-de-vie",
+							"id": "158",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Domaine-public-fluvial",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Domaine-public-fluvial",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1191,27 +1297,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[n\uFFFD\uFFFD\uFFFD{\\x000b%z\uFFFD^\uFFFD\uFFFD \uFFFD/\uFFFD\r>5"
 						},
 						{
-							"id": "164",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat\/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actions-de-l-etat/droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes/3313-15-fre-FR/Droits-des-femmes-et-egalite-entre-les-femmes-et-les-hommes",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u0628\uFFFD\u03DD{\uFFFD~z\u05AD\uFFFD\uFFFD\uFFFD\uFFFD>u\uFFFD>}\uFFFDz\u03DE\uFFFD\uFFFDjX\uFFFD{\u79F6\uFFFD\uFFFD\uFFFD\uFFFD>}\uFFFDz\u03DE\uFFFD\uFFFD^\uFFFD\uFFFDh\uFFFDg\uFFFD\uFFFD}\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFDT\\x000e\uFFFD\"\uFFFD\u03DDz\u03DFzi\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFDz\u03DFzi\uFFFD\uFFFD\uFFFD\uFFFDW\uFFFD\uFFFD\\x001a&\uFFFD\uFFFD"
-						},
-						{
-							"id": "66",
+							"id": "72",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/var/ide_site/storage/images/actualite/chambord-live-conditions-de-circulation/323778-1-fre-FR/CHAMBORD-LIVE-CONDITIONS-DE-CIRCULATION_listitem",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD\u0705\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFD+\uFFFD\uFFFD\uFFFD'v+b\uFFFD{>u\uF70A\uFFFD.\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD~~\uFFFD\uFFFD\\x0015\\x001f\uFFFD\\x001c\\x0003\\x00019\\x0010\uFFFD,\uFFFDD\uFFFD#\uFFFD\\x000c\uFFFD\uFFFD8\u053E\\x000cO\uFFFD!\\x0010\uFFFD,\\x0004\uFFFD8\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/actualite/iro-2-niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels/321447-16-fre-FR/IRO-2-Niveau-d-indice-de-risque-de-feux-de-foret-et-d-espaces-naturels_listitem",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD\u2B8F\uFFFD\uFFFDx\uFFFDy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u05CE;\uFFFD^\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDD\uFFFD\uFFFD\u062Fy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\u062Dz"
 						},
 						{
-							"id": "80",
+							"id": "157",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
 							"method": "GET",
@@ -1221,7 +1317,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05FF\\x0016\uFFFD\uFFFDq\uFFFD\uFFFD}"
 						},
 						{
-							"id": "101",
+							"id": "164",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
 							"method": "GET",
@@ -1234,7 +1330,7 @@
 					"count": "11",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD'\\x001a\uFFFD*'\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\u07B2\u01FF\\x0002y\uFFFD{\uFFFD\u06EF\u03EE\uFFFD\u07B7\uFFFD^\uFFFD\u022D{\uFFFDh\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD\uB9CA\uFFFD\uFFFD\uFFFD\u05FEU\uFFFD\u0762g\uFFFD\uFFFD\uFFFD\uFFFDzY^\uFFFD\uFFFDZ\uFFFD\uFA62\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD+\\x001e\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjw\\x001e\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD\u2B8F\uFFFD\uFFFDx\uFFFDy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u05CE;\uFFFD^\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\uFFFDD\uFFFD\uFFFD\u062Fy\uFFFD\uFFFDw\uFFFDv'\\x001e\uFFFD\u05FE\uFFFD+*\uFFFD\uFFFD{\uFFFD\u07BB\\x001f\uFFFD{\uFFFD\uFFFD\uFFFD~z\u07DD\uFFFD\uFFFD)i\u01EC\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{ij\\x0007\uFFFDr\u06EC\uFFFD\uFFFD\uFFFDr*Z\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -1268,7 +1364,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "1026"
+					"sourceid": "924"
 				},
 				{
 					"pluginid": "10027",
@@ -1281,7 +1377,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "202",
+							"id": "201",
 							"uri": "https://www.loir-et-cher.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1291,7 +1387,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "201",
+							"id": "200",
 							"uri": "https://www.loir-et-cher.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1308,7 +1404,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1038"
+					"sourceid": "933"
 				},
 				{
 					"pluginid": "10109",
@@ -1318,10 +1414,10 @@
 					"riskcode": "0",
 					"confidence": "2",
 					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
+					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "17",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1331,7 +1427,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "96",
+							"id": "67",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -1341,7 +1437,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "61",
+							"id": "94",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"80e39e5ba166242b6338a5e798a063c3\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualite/Actualites-locales\">\n                                Actualit\u00E9s locales\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "81",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1351,19 +1457,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "75",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"80e39e5ba166242b6338a5e798a063c3\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualite/Actualites-locales\">\n                                Actualit\u00E9s locales\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "92",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "101",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1391,7 +1487,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "6",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1401,7 +1497,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "59",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -1411,7 +1507,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "86",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1421,19 +1527,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "102",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "88",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1461,7 +1557,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "12",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1471,7 +1567,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "65",
 							"uri": "https://www.loir-et-cher.gouv.fr/",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
 							"method": "GET",
@@ -1481,7 +1577,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "91",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "79",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1491,19 +1597,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "88",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Reseaux-sociaux",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Reseaux-sociaux",
+							"id": "99",
+							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Outils",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Outils",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1531,7 +1627,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "18",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1541,7 +1637,17 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "62",
+							"id": "68",
+							"uri": "https://www.loir-et-cher.gouv.fr/",
+							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "82",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite",
 							"method": "GET",
@@ -1551,17 +1657,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "76",
-							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/France-2030",
-							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/France-2030",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 0",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "24",
+							"id": "37",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1571,7 +1667,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "27",
+							"id": "36",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1601,7 +1697,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "4",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1611,7 +1707,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "26",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1621,7 +1717,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "28",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1651,7 +1747,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "3",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1661,7 +1757,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "25",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1671,7 +1767,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "24",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1701,7 +1797,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "2",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1711,7 +1807,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "23",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1721,7 +1817,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "22",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1751,7 +1847,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "5",
 							"uri": "https://www.loir-et-cher.gouv.fr",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr",
 							"method": "GET",
@@ -1761,7 +1857,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "27",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1771,7 +1867,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "29",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1831,7 +1927,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "34",
+							"id": "30",
 							"uri": "https://www.loir-et-cher.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1841,7 +1937,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "38",
+							"id": "32",
 							"uri": "https://www.loir-et-cher.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1858,7 +1954,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -1871,7 +1967,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
 					"instances":[ 
 						{
-							"id": "130",
+							"id": "109",
 							"uri": "https://www.loir-et-cher.gouv.fr/Actualite/Actualites-locales",
 							"nodeName": "https:\/\/www.loir-et-cher.gouv.fr\/Actualite\/Actualites-locales",
 							"method": "GET",
@@ -1888,7 +1984,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "311"
+					"sourceid": "178"
 				}
 			]
 		}
