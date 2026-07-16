@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://ants.gouv.fr",
-        "size": 6002.962,
+        "size": 6179.893,
         "nodes": 35,
         "requests": 35,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.48,
         "water": 2.22,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 23:04:33.193840",
+        "date": "2026-07-16 13:49:18.254342",
         "page_type": "website"
     }
 ]
