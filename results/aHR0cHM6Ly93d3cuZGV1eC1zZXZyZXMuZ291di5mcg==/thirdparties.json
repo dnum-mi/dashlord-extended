@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "quimikfh4ued7phjg1k3212s37",
+      "value": "luo77skv04pla8tma6haeprrc5",
       "domain": "www.deux-sevres.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:48:07 GMT",
-    "expires": "Tue, 23 Jun 2026 18:48:07 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:48:07 GMT",
+    "date": "Thu, 16 Jul 2026 11:45:25 GMT",
+    "expires": "Thu, 16 Jul 2026 09:45:25 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:45:25 GMT",
     "pragma": "no-cache",
     "served-by": "www.deux-sevres.gouv.fr",
-    "set-cookie": "eZSESSID=quimikfh4ued7phjg1k3212s37; path=/",
+    "set-cookie": "eZSESSID=luo77skv04pla8tma6haeprrc5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
