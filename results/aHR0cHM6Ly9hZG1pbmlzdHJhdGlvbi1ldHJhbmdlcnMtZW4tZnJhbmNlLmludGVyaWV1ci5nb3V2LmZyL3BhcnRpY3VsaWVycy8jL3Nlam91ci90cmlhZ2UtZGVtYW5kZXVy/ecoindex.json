@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/triage-demandeur",
-        "size": 4228.508,
+        "size": 4265.689,
         "nodes": 427,
         "requests": 54,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.86,
         "water": 2.79,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 16:27:22.007356",
+        "date": "2026-07-16 07:48:03.069747",
         "page_type": null
     }
 ]
