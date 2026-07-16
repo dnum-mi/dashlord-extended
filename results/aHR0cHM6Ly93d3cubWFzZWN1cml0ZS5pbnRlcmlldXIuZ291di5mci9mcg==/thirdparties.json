@@ -30,11 +30,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://policevss.minint.chat/widget/styles.23a69e036a682798846c.bundle.css"
+      "url": "https://policevss.minint.chat/widget/styles.ddb1f4e2f892fb2f5985.bundle.css"
     },
     {
       "type": "unknown",
-      "url": "https://policevss.minint.chat/widget/inline.60b6a93274eca84287d5.bundle.js"
+      "url": "https://policevss.minint.chat/widget/inline.fb571b662336cf2b5185.bundle.js"
     },
     {
       "type": "unknown",
@@ -50,11 +50,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://policevss.minint.chat/widget/main.6d243e6011892181f15b.bundle.js"
+      "url": "https://policevss.minint.chat/widget/main.f0f1f975f292c315290e.bundle.js"
     },
     {
       "type": "cloudflare",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://policevss.minint.chat/widget/assets/i18n/fr.json?v=3.0.30.1"
+      "url": "https://policevss.minint.chat/widget/assets/i18n/fr.json?v=3.0.30.2"
     },
     {
       "type": "unknown",
@@ -70,7 +70,19 @@
     },
     {
       "type": "unknown",
+      "url": "https://policevss.minint.chat/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://policevss.minint.chat/cdn-cgi/rum?"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/cdn-cgi/challenge-platform/h/b/scripts/jsd/3104729c556c/main.js?"
+    },
+    {
+      "type": "unknown",
+      "url": "https://policevss.minint.chat/cdn-cgi/challenge-platform/h/b/jsd/oneshot/3104729c556c/0.8711122227926834:1784206820:7p9QGDCW09KM75D16s-Bscdsg1a4IVK98adPcjy3L38/a1c19723cdf3ccf8"
     },
     {
       "type": "unknown",
@@ -91,6 +103,20 @@
   ],
   "cookies": [
     {
+      "name": "TS01731832",
+      "value": "0161bc97186458f19890f7d10dfebb5115ff99a62f33e9809aa39149e00acb718b202e82f3c5f69d9b0ae8833c81d25fea9a556decd7b9c45a540bbc95c180cd44cf5811fc",
+      "domain": ".www.masecurite.interieur.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "SESSION-RP",
       "value": "43475978.20480.0000",
       "domain": "www.masecurite.interieur.gouv.fr",
@@ -103,42 +129,41 @@
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
-    },
-    {
-      "name": "TS01731832",
-      "value": "0161bc9718412db19ab276c33a83886b5c62b15dac62d11955d26bc216dfa8003432955201b5a3bc4e354bcf32bb87fd88f365ccf137b62b06288c2e498e93bae464fae726",
-      "domain": ".www.masecurite.interieur.gouv.fr",
-      "path": "/",
-      "expires": -1,
-      "size": 148,
-      "httpOnly": false,
-      "secure": false,
-      "session": true,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
     }
   ],
   "headers": {
-    "age": "3423",
+    "age": "410",
     "cache-control": "max-age=360, public, s-maxage=3600",
     "connection": "keep-alive",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Tue, 23 Jun 2026 23:24:13 GMT",
-    "set-cookie": "SESSION-RP=43475978.20480.0000; path=/; Httponly; Secure\nTS01731832=0161bc9718412db19ab276c33a83886b5c62b15dac62d11955d26bc216dfa8003432955201b5a3bc4e354bcf32bb87fd88f365ccf137b62b06288c2e498e93bae464fae726; Path=/; Domain=.www.masecurite.interieur.gouv.fr",
+    "date": "Thu, 16 Jul 2026 14:10:25 GMT",
+    "set-cookie": "SESSION-RP=43475978.20480.0000; path=/; Httponly; Secure\nTS01731832=0161bc97186458f19890f7d10dfebb5115ff99a62f33e9809aa39149e00acb718b202e82f3c5f69d9b0ae8833c81d25fea9a556decd7b9c45a540bbc95c180cd44cf5811fc; Path=/; Domain=.www.masecurite.interieur.gouv.fr",
     "strict-transport-security": "max-age=63072000\nmax-age=63072000",
     "transfer-encoding": "chunked",
     "vary": "Accept-Encoding\nAccept-Encoding",
     "x-cache": "HIT",
     "x-cache-debug": "1",
-    "x-varnish": "1310583 1146512"
+    "x-varnish": "3915240 4195481"
   },
   "endpoints": [
     {
       "hostname": "www.masecurite.interieur.gouv.fr",
       "ip": "46.22.207.60",
       "geoip": {
+        "city": {
+          "geoname_id": 2988507,
+          "names": {
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -169,10 +194,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 10,
           "latitude": 48.8558,
           "longitude": 2.3494,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "75008"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -203,25 +231,34 @@
               "ru": "Иль-де-Франс",
               "zh-CN": "法兰西岛"
             }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Département Paris",
+              "en": "Paris Department",
+              "es": "Departamento de París",
+              "fr": "Département de Paris"
+            }
           }
         ]
       }
     },
     {
       "hostname": "cdn.tagcommander.com",
-      "ip": "151.101.74.132",
+      "ip": "151.101.202.132",
       "geoip": {
         "city": {
-          "geoname_id": 5368361,
+          "geoname_id": 5380748,
           "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
+            "de": "Palo Alto",
+            "en": "Palo Alto",
+            "es": "Palo Alto",
+            "fr": "Palo Alto",
+            "ja": "パロアルト",
+            "pt-BR": "Palo Alto",
+            "ru": "Пало Альто"
           }
         },
         "continent": {
@@ -254,13 +291,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "metro_code": 803,
+          "latitude": 37.4433,
+          "longitude": -122.141,
+          "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "90060"
+          "code": "94302"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -316,7 +353,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.210.138",
+      "ip": "142.251.214.42",
       "geoip": {
         "continent": {
           "code": "NA",

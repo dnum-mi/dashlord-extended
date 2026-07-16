@@ -9,19 +9,19 @@
     "testsPassed": 4,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 23 Jun 2026 23:29:15 GMT",
+      "date": "Thu, 16 Jul 2026 14:15:30 GMT",
       "content-type": "text/html; charset=UTF-8",
       "connection": "close",
       "vary": "Accept-Encoding, Accept-Encoding",
       "cache-control": "max-age=360, public, s-maxage=3600",
       "x-cache-debug": "1",
       "strict-transport-security": "max-age=63072000, max-age=63072000",
-      "x-varnish": "154452 1273083",
-      "age": "122",
+      "x-varnish": "2630022 2249202",
+      "age": "784",
       "x-cache": "HIT",
       "set-cookie": [
         "SESSION-RP=26698762.20480.0000; path=/; Httponly; Secure",
-        "TS01731832=0161bc9718e60272e1d15a4f05c1428c5332c6d27eec6b275e25b352c0a4bd311b0f0fbf7bd4aeae4bdd51b2430a3669f48a21fbb62140b6551fca3279191130bd6e98555f; Path=/; Domain=.www.masecurite.interieur.gouv.fr"
+        "TS01731832=0161bc9718e8e7c2914823021a249110977f5d8b6a4a66214cd73caef0e1b50796e1cc8ad167d2556cb87372d30cb060122fa59d19dd48bc91d963b1eda0ee0a5ab2d42685; Path=/; Domain=.www.masecurite.interieur.gouv.fr"
       ],
       "transfer-encoding": "chunked"
     }
