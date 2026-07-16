@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "q6pa441mlv6u8gmm0csj868rg3",
+      "value": "tc1gcqoh91be8mq69pkcraouo3",
       "domain": "www.rhone.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:24:55 GMT",
-    "expires": "Tue, 23 Jun 2026 18:24:55 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:24:55 GMT",
+    "date": "Thu, 16 Jul 2026 11:26:32 GMT",
+    "expires": "Thu, 16 Jul 2026 09:26:32 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:26:32 GMT",
     "pragma": "no-cache",
     "served-by": "www.rhone.gouv.fr",
-    "set-cookie": "eZSESSID=q6pa441mlv6u8gmm0csj868rg3; path=/",
+    "set-cookie": "eZSESSID=tc1gcqoh91be8mq69pkcraouo3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
