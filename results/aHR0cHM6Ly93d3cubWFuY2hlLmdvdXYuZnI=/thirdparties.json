@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "lf5s008631vjchk2gbeau9o390",
+      "value": "ahhs6j5d1r4tqgeft2b4rmo817",
       "domain": "www.manche.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 19:41:53 GMT",
-    "expires": "Tue, 23 Jun 2026 17:41:53 GMT",
-    "last-modified": "Tue, 23 Jun 2026 19:41:53 GMT",
+    "date": "Thu, 16 Jul 2026 10:39:13 GMT",
+    "expires": "Thu, 16 Jul 2026 08:39:13 GMT",
+    "last-modified": "Thu, 16 Jul 2026 10:39:13 GMT",
     "pragma": "no-cache",
     "served-by": "www.manche.gouv.fr",
-    "set-cookie": "eZSESSID=lf5s008631vjchk2gbeau9o390; path=/",
+    "set-cookie": "eZSESSID=ahhs6j5d1r4tqgeft2b4rmo817; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
