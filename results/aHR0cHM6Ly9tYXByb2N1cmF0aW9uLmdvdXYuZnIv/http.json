@@ -9,18 +9,17 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 23 Jun 2026 16:46:57 GMT",
+      "date": "Thu, 16 Jul 2026 08:05:52 GMT",
       "content-type": "text/html; charset=UTF-8",
       "transfer-encoding": "chunked",
       "connection": "close",
-      "x-frame-options": "SAMEORIGIN",
-      "referrer-policy": "same-origin",
       "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
       "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
-      "vary": "Accept-Encoding",
-      "server-timing": "cfOrigin;dur=0,cfEdge;dur=10",
+      "referrer-policy": "same-origin",
+      "server-timing": "cfEdge;dur=3,cfOrigin;dur=0",
+      "x-frame-options": "SAMEORIGIN",
       "server": "cloudflare",
-      "cf-ray": "a104f8c9acfff14c-CDG",
+      "cf-ray": "a1bf811def513cec-CDG",
       "alt-svc": "h3=\":443\"; ma=86400"
     }
   },
@@ -91,9 +90,9 @@
       "result": "sri-implemented-and-external-scripts-loaded-securely",
       "scoreModifier": 5,
       "data": {
-        "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015": {
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496": {
           "crossorigin": "anonymous",
-          "integrity": "sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+          "integrity": "sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ=="
         }
       }
     },

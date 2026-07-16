@@ -2,7 +2,7 @@
   "trackers": [
     {
       "type": "cloudflare",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -13,15 +13,14 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "a104f4703ef003c3-CDG",
+    "cf-ray": "a1bf7c4a0992229e-CDG",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Tue, 23 Jun 2026 16:43:59 GMT",
+    "date": "Thu, 16 Jul 2026 08:02:35 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
-    "server-timing": "cfOrigin;dur=0,cfEdge;dur=12",
-    "vary": "Accept-Encoding",
+    "server-timing": "cfEdge;dur=5,cfOrigin;dur=0",
     "x-frame-options": "SAMEORIGIN"
   },
   "endpoints": [
