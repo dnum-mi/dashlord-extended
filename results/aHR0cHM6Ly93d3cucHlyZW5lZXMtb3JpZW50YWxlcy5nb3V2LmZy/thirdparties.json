@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "g6o73dln8133gde1vlf34nu914",
+      "value": "b2q1llrg39933cf7hjuh7uhhm5",
       "domain": "www.pyrenees-orientales.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:17:51 GMT",
-    "expires": "Tue, 23 Jun 2026 18:17:51 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:17:51 GMT",
+    "date": "Thu, 16 Jul 2026 11:18:58 GMT",
+    "expires": "Thu, 16 Jul 2026 09:18:58 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:18:58 GMT",
     "pragma": "no-cache",
     "served-by": "www.pyrenees-orientales.gouv.fr",
-    "set-cookie": "eZSESSID=g6o73dln8133gde1vlf34nu914; path=/",
+    "set-cookie": "eZSESSID=b2q1llrg39933cf7hjuh7uhhm5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
