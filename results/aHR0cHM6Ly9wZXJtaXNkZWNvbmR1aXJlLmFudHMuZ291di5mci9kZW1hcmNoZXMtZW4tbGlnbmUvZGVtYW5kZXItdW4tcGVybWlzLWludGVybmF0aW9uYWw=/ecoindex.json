@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/demander-un-permis-international",
-        "size": 3972.26,
+        "size": 4034.588,
         "nodes": 42,
-        "requests": 56,
+        "requests": 54,
         "grade": "B",
-        "score": 72.0,
-        "ges": 1.56,
-        "water": 2.34,
+        "score": 73.0,
+        "ges": 1.54,
+        "water": 2.31,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 17:25:57.714229",
+        "date": "2026-07-16 08:47:44.964513",
         "page_type": "website"
     }
 ]
