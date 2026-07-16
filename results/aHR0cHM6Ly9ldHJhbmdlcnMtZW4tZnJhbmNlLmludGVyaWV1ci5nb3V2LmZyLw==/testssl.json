@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "etrangers-en-france.interieur.gouv.fr/87.98.187.73",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "42 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (19)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "etrangers-en-france.interieur.gouv.fr/87.98.187.73",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-08-05 07:12"
           }
 ,         {
@@ -507,7 +507,7 @@
               "ip"           : "etrangers-en-france.interieur.gouv.fr/87.98.187.73",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1782231848"
+              "finding"      : "1784187854"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1126,6 +1126,6 @@
               "ip"           : "etrangers-en-france.interieur.gouv.fr/87.98.187.73",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91"
+              "finding"      : "89"
           }
 ]
