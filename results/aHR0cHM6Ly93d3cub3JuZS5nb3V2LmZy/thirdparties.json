@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "neg5savlhdemcrdg7g0c3phbt0",
+      "value": "11sg3r0hjcjjg1560rl8t1pmd5",
       "domain": "www.orne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:08:37 GMT",
-    "expires": "Tue, 23 Jun 2026 18:08:37 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:08:37 GMT",
+    "date": "Thu, 16 Jul 2026 11:06:58 GMT",
+    "expires": "Thu, 16 Jul 2026 09:06:58 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:06:58 GMT",
     "pragma": "no-cache",
     "served-by": "www.orne.gouv.fr",
-    "set-cookie": "eZSESSID=neg5savlhdemcrdg7g0c3phbt0; path=/",
+    "set-cookie": "eZSESSID=11sg3r0hjcjjg1560rl8t1pmd5; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
