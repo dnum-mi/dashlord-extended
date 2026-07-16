@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "jsvfqb6l162pdm4d255ia7r2c7",
+      "value": "p2d5nfn3p2vrhm0dtkk09msle1",
       "domain": "www.loire-atlantique.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 19:27:55 GMT",
-    "expires": "Tue, 23 Jun 2026 17:27:55 GMT",
-    "last-modified": "Tue, 23 Jun 2026 19:27:55 GMT",
+    "date": "Thu, 16 Jul 2026 10:24:13 GMT",
+    "expires": "Thu, 16 Jul 2026 08:24:13 GMT",
+    "last-modified": "Thu, 16 Jul 2026 10:24:13 GMT",
     "pragma": "no-cache",
     "served-by": "www.loire-atlantique.gouv.fr",
-    "set-cookie": "eZSESSID=jsvfqb6l162pdm4d255ia7r2c7; path=/",
+    "set-cookie": "eZSESSID=p2d5nfn3p2vrhm0dtkk09msle1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
