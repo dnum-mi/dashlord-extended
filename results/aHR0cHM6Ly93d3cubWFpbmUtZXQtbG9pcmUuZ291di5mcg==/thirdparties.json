@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "7uej9aleomcmmgo61ss3olokc5",
+      "value": "li2qdfn644sic72biidd8gh710",
       "domain": "www.maine-et-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 19:37:45 GMT",
-    "expires": "Tue, 23 Jun 2026 17:37:46 GMT",
-    "last-modified": "Tue, 23 Jun 2026 19:37:46 GMT",
+    "date": "Thu, 16 Jul 2026 10:38:06 GMT",
+    "expires": "Thu, 16 Jul 2026 08:38:06 GMT",
+    "last-modified": "Thu, 16 Jul 2026 10:38:06 GMT",
     "pragma": "no-cache",
     "served-by": "www.maine-et-loire.gouv.fr",
-    "set-cookie": "eZSESSID=7uej9aleomcmmgo61ss3olokc5; path=/",
+    "set-cookie": "eZSESSID=li2qdfn644sic72biidd8gh710; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
