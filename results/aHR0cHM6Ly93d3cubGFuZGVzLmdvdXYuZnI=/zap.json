@@ -1,8 +1,106 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Tue, 23 Jun 2026 19:20:05",
-	"created": "2026-06-23T19:20:05.957694493Z",
+	"@generated": "Thu, 16 Jul 2026 10:17:59",
+	"created": "2026-07-16T10:17:59.154001343Z",
+	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.warn",
+			"description": "ZAP warnings logged - see the zap.log file for details",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.code.2xx",
+			"description": "Percentage of responses with status code 2xx",
+			"statistic": "86"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.code.3xx",
+			"description": "Percentage of responses with status code 3xx",
+			"statistic": "10"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.code.4xx",
+			"description": "Percentage of responses with status code 4xx",
+			"statistic": "2"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.ctype.application/javascript",
+			"description": "Percentage of endpoints with content type application/javascript",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.ctype.image/png",
+			"description": "Percentage of endpoints with content type image/png",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.ctype.image/svg+xml",
+			"description": "Percentage of endpoints with content type image/svg+xml",
+			"statistic": "4"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.ctype.text/css",
+			"description": "Percentage of endpoints with content type text/css",
+			"statistic": "1"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.ctype.text/html",
+			"description": "Percentage of endpoints with content type text/html",
+			"statistic": "83"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.method.GET",
+			"description": "Percentage of endpoints with method GET",
+			"statistic": "100"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.endpoint.total",
+			"description": "Count of total endpoints",
+			"statistic": "184"
+		},
+		{
+			"level": "Info",
+			"reason": "Informational",
+			"site": "https://www.landes.gouv.fr",
+			"key": "insight.response.slow",
+			"description": "Percentage of slow responses",
+			"statistic": "90"
+		}
+	],
 	"site":[ 
 		{
 			"@name": "https://www.landes.gouv.fr",
@@ -10,46 +108,6 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
-				{
-					"pluginid": "10202",
-					"alertRef": "10202",
-					"alert": "Absence of Anti-CSRF Tokens",
-					"name": "Absence of Anti-CSRF Tokens",
-					"riskcode": "2",
-					"confidence": "1",
-					"riskdesc": "Medium (Low)",
-					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
-					"instances":[ 
-						{
-							"id": "183",
-							"uri": "https://www.landes.gouv.fr/Nous-contacter",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Nous-contacter",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/action\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_5286\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-5298_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ]."
-						},
-						{
-							"id": "189",
-							"uri": "https://www.landes.gouv.fr/contenu/conseiller/1029",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/contenu\/conseiller\/1029",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/conseiller\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"captcha\" \"name\" \"NodeID\" \"receiversemail\" \"SendButton\" \"youremail\" ]."
-						}
-					],
-					"count": "2",
-					"systemic": false,
-					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
-					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_5286\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-5298_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ].</p>",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
-					"cweid": "352",
-					"wascid": "9",
-					"sourceid": "1029"
-				},
 				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
@@ -61,7 +119,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "13",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -71,9 +129,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "77",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -81,9 +139,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "88",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -91,7 +149,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "35",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -101,7 +159,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "34",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -131,7 +189,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "11",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -141,9 +199,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "111",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -151,7 +209,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "75",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "89",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
@@ -161,19 +229,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "102",
-							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
+							"id": "82",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -201,7 +259,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "188",
+							"id": "179",
 							"uri": "https://www.landes.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1727095789.js",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1727095789.js",
 							"method": "GET",
@@ -211,7 +269,7 @@
 							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "176",
+							"id": "174",
 							"uri": "https://www.landes.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727095789.js",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727095789.js",
 							"method": "GET",
@@ -228,7 +286,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "1085"
+					"sourceid": "1017"
 				},
 				{
 					"pluginid": "10044",
@@ -241,7 +299,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "174",
+							"id": "172",
 							"uri": "https://www.landes.gouv.fr/accessibilite",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/accessibilite",
 							"method": "GET",
@@ -251,7 +309,7 @@
 							"otherinfo": "Location header URI length: 67 [https://www.landes.gouv.fr/Pied-de-page/Declaration-d-accessibilite].\nPredicted response size: 367.\nResponse Body Length: 512."
 						},
 						{
-							"id": "180",
+							"id": "171",
 							"uri": "https://www.landes.gouv.fr/actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/actualites",
 							"method": "GET",
@@ -261,7 +319,7 @@
 							"otherinfo": "Location header URI length: 37 [https://www.landes.gouv.fr/Actualites].\nPredicted response size: 337.\nResponse Body Length: 392."
 						},
 						{
-							"id": "171",
+							"id": "170",
 							"uri": "https://www.landes.gouv.fr/cni",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/cni",
 							"method": "GET",
@@ -271,17 +329,17 @@
 							"otherinfo": "Location header URI length: 63 [https://www.landes.gouv.fr/Demarches/Carte-Nationale-d-Identite].\nPredicted response size: 363.\nResponse Body Length: 496."
 						},
 						{
-							"id": "186",
+							"id": "182",
 							"uri": "https://www.landes.gouv.fr/contenu/action?SearchText=ZAP",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/contenu\/action (SearchText)",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "Location header URI length: 96 [https://www.landes.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/1957633686?SearchText=ZAP].\nPredicted response size: 396.\nResponse Body Length: 628."
+							"otherinfo": "Location header URI length: 95 [https://www.landes.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/638024807?SearchText=ZAP].\nPredicted response size: 395.\nResponse Body Length: 624."
 						},
 						{
-							"id": "168",
+							"id": "165",
 							"uri": "https://www.landes.gouv.fr/demarches",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/demarches",
 							"method": "GET",
@@ -291,7 +349,7 @@
 							"otherinfo": "Location header URI length: 36 [https://www.landes.gouv.fr/Demarches].\nPredicted response size: 336.\nResponse Body Length: 388."
 						},
 						{
-							"id": "181",
+							"id": "178",
 							"uri": "https://www.landes.gouv.fr/donnees-personnelles-et-cookies",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/donnees-personnelles-et-cookies",
 							"method": "GET",
@@ -301,7 +359,7 @@
 							"otherinfo": "Location header URI length: 88 [https://www.landes.gouv.fr/Pied-de-page/Politique-de-protection-des-donnees-personnelles].\nPredicted response size: 388.\nResponse Body Length: 596."
 						},
 						{
-							"id": "167",
+							"id": "169",
 							"uri": "https://www.landes.gouv.fr/horaires",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/horaires",
 							"method": "GET",
@@ -311,7 +369,17 @@
 							"otherinfo": "Location header URI length: 104 [https://www.landes.gouv.fr/Services-de-l-Etat/Coordonnees-et-horaires-d-ouverture-des-services-de-l-Etat].\nPredicted response size: 404.\nResponse Body Length: 660."
 						},
 						{
-							"id": "175",
+							"id": "180",
+							"uri": "https://www.landes.gouv.fr/index.php/nous-contacter",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/index.php\/nous-contacter",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 51 [https://www.landes.gouv.fr/index.php/Nous-contacter].\nPredicted response size: 351.\nResponse Body Length: 448."
+						},
+						{
+							"id": "183",
 							"uri": "https://www.landes.gouv.fr/mentions-legales",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/mentions-legales",
 							"method": "GET",
@@ -321,7 +389,7 @@
 							"otherinfo": "Location header URI length: 43 [https://www.landes.gouv.fr/Mentions-legales].\nPredicted response size: 343.\nResponse Body Length: 416."
 						},
 						{
-							"id": "58",
+							"id": "85",
 							"uri": "https://www.landes.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -331,7 +399,7 @@
 							"otherinfo": "Location header URI length: 41 [https://www.landes.gouv.fr/Nous-contacter].\nPredicted response size: 341.\nResponse Body Length: 408."
 						},
 						{
-							"id": "172",
+							"id": "166",
 							"uri": "https://www.landes.gouv.fr/passeport",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/passeport",
 							"method": "GET",
@@ -341,7 +409,7 @@
 							"otherinfo": "Location header URI length: 46 [https://www.landes.gouv.fr/Demarches/Passeport].\nPredicted response size: 346.\nResponse Body Length: 428."
 						},
 						{
-							"id": "169",
+							"id": "167",
 							"uri": "https://www.landes.gouv.fr/permis-conduire",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/permis-conduire",
 							"method": "GET",
@@ -351,7 +419,7 @@
 							"otherinfo": "Location header URI length: 77 [https://www.landes.gouv.fr/Demarches/Permis-de-conduire-et-education-routiere].\nPredicted response size: 377.\nResponse Body Length: 552."
 						},
 						{
-							"id": "170",
+							"id": "168",
 							"uri": "https://www.landes.gouv.fr/siv",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/siv",
 							"method": "GET",
@@ -361,14 +429,14 @@
 							"otherinfo": "Location header URI length: 65 [https://www.landes.gouv.fr/Demarches/Certificat-d-immatriculation].\nPredicted response size: 365.\nResponse Body Length: 504."
 						}
 					],
-					"count": "12",
+					"count": "13",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
 					"otherinfo": "<p>Location header URI length: 67 [https://www.landes.gouv.fr/Pied-de-page/Declaration-d-accessibilite].</p><p>Predicted response size: 367.</p><p>Response Body Length: 512.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "948"
+					"sourceid": "917"
 				},
 				{
 					"pluginid": "10010",
@@ -381,7 +449,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "14",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -411,7 +479,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "16",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -441,7 +509,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "15",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -471,7 +539,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "9",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -481,9 +549,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "62",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -491,9 +559,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "68",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -521,7 +589,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "10",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -531,9 +599,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "63",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -541,9 +609,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "69",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -571,7 +639,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "8",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -581,9 +649,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "61",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -591,9 +659,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "67",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -621,7 +689,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "179",
+							"id": "175",
 							"uri": "https://www.landes.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -638,7 +706,7 @@
 					"reference": "<p>https://v17.angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "958"
+					"sourceid": "964"
 				},
 				{
 					"pluginid": "110009",
@@ -651,7 +719,7 @@
 					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
 					"instances":[ 
 						{
-							"id": "185",
+							"id": "184",
 							"uri": "https://www.landes.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/  url_gouvernement   data[i].media.url  ",
 							"method": "GET",
@@ -661,7 +729,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "187",
+							"id": "181",
 							"uri": "https://www.landes.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
 							"method": "GET",
@@ -671,7 +739,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "182",
+							"id": "185",
 							"uri": "https://www.landes.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/'   url_toutes_actualites   '",
 							"method": "GET",
@@ -688,7 +756,7 @@
 					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
 					"cweid": "209",
 					"wascid": "13",
-					"sourceid": "1049"
+					"sourceid": "1030"
 				},
 				{
 					"pluginid": "10063",
@@ -701,7 +769,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "7",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -711,9 +779,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "60",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -721,9 +789,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "66",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -731,7 +799,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "33",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -741,7 +809,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "32",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -771,7 +839,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "19",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -781,9 +849,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "80",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -791,9 +859,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "94",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -801,7 +869,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "38",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -811,7 +879,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "39",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -841,7 +909,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "20",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -851,9 +919,9 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "84",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "117",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -861,7 +929,17 @@
 							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
 						},
 						{
-							"id": "73",
+							"id": "81",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1734987600",
+							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
+						},
+						{
+							"id": "100",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
@@ -872,18 +950,8 @@
 						},
 						{
 							"id": "95",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1734987600",
-							"otherinfo": "1734987600, which evaluates to: 2024-12-23 21:00:00."
-						},
-						{
-							"id": "108",
-							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -911,7 +979,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "21",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -921,9 +989,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "86",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "118",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -931,7 +999,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "74",
+							"id": "83",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "101",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
@@ -942,18 +1020,8 @@
 						},
 						{
 							"id": "96",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "109",
-							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -981,7 +1049,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "1",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -991,7 +1059,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "164",
+							"id": "58",
 							"uri": "https://www.landes.gouv.fr/",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
@@ -1001,7 +1069,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "87",
+							"id": "107",
 							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
 							"method": "GET",
@@ -1011,7 +1079,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u01EC\uFFFDI\uFFFD\uFFFDV\uFFFD\uFFFD\u07E2\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFDk\uFFFDkjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "148",
+							"id": "102",
 							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Amenagement-du-territoire-Urbanisme-Construction",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Amenagement-du-territoire-Urbanisme-Construction",
 							"method": "GET",
@@ -1021,9 +1089,9 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u01EC\uFFFDI\uFFFD\uFFFDV\uFFFD\uFFFD\u07E2\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFDk\uFFFDkjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "166",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Economie.-emploi.-entreprises",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Economie.-emploi.-entreprises",
+							"id": "153",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Collectivites-territoriales",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Collectivites-territoriales",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1031,9 +1099,9 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u01EC\uFFFDI\uFFFD\uFFFDV\uFFFD\uFFFD\u07E2\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFDk\uFFFDkjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "165",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Elections-et-citoyennete",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Elections-et-citoyennete",
+							"id": "154",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Developpement-Durable",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Developpement-Durable",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1041,7 +1109,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u01EC\uFFFDI\uFFFD\uFFFDV\uFFFD\uFFFD\u07E2\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFDk\uFFFDkjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "149",
+							"id": "130",
 							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Transition-energetique-et-ecologique",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Transition-energetique-et-ecologique",
 							"method": "GET",
@@ -1051,27 +1119,27 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\u01EC\uFFFDI\uFFFD\uFFFDV\uFFFD\uFFFD\u07E2\uFFFD\uFFFD\uFFFD\uFFFD+,zg\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD\uFFFDk\uFFFDkjw\\x001e\uFFFDZ\u069D\u01FE\uFFFDM\uFFFD"
 						},
 						{
-							"id": "75",
+							"id": "72",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/var/ide_site/storage/images/actualites/actualites/fortes-chaleurs-courrier-du-prefet-aux-maires-du-deprtement/330885-1-fre-FR/Fortes-chaleurs-courrier-du-prefet-aux-maires-du-deprtement_listitem",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?i\uFFFDnjX\uFFFDz\uFFFD\u07E2\uFFFD^\uFFFD\uFFFD!jW\uFFFD\uFFFD\u03DC\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDv\uFA6D\uFFFD\u07B7\uFFFD\uFFFD\u968A\uFFFD\uFFFD\uFFFD\u06FEu\uFFFDk\uFFFD\u979E\uFFFD\uFFFD\uFFFDO<\uFFFD\uFFFD~~\uFFFD\uFFFD\\x0015\\x001f\u0162\uFFFD^\uFFFD\uFFFD!jW\uFFFD\uFFFD\u03DC\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDv\uFA6D\uFFFD\u07B7\uFFFD\uFFFD\u968A\uFFFD\uFFFD\uFFFD\u06FEu\uFFFDk\uFFFD\u979E\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/actualites/actualites/lutte-contre-les-mutilations-sexuelles-lancement-de-la-nouvelle-campagne-de-sensibilisation/332976-1-fre-FR/Lutte-contre-les-mutilations-sexuelles-lancement-de-la-nouvelle-campagne-de-sensibilisation_listitem",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?i\uFFFDnjX\uFFFDz\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFDb\uFFFD\uFFFDb\uFFFD{>\uFFFD\uFFFDnzY^\uFFFD\uFFFDZ\uFFFD\u01E6z{~u\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjjZ\uFFFDw\uFFFDu\uFFFDz{\"n)b\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDo{\uFFFD\uFFFD~~\uFFFD\uFFFD\\x0015\\x001f\u02FA\uFFFD^\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFDb\uFFFD\uFFFDb\uFFFD{>\uFFFD\uFFFDnzY^\uFFFD\uFFFDZ\uFFFD\u01E6z{~u\uFFFDk\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjjZ\uFFFDw\uFFFDu\uFFFDz{\"n)b\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "97",
+							"id": "119",
 							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/var/ide_site/storage/images/actualites/appels-a-projets/lancement-de-l-appel-a-projets-national-2026/324074-1-fre-FR/Lancement-de-l-appel-a-projets-national-2026_listitem",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?j\uFFFD^\uFFFD\u03DA\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFDV\uFFFDq\u979E\u07DD{\uFFFD~j\uFFFD^\uFFFD\u6FA6\uFFFD#z\uFFFD>\uFFFD\uFFFDb\uFFFDv\uFFFD\uFFFDm6\uFFFD\uFFFD\uFFFD\uFFFDN\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFDG\uFFFD\u069D\u01E6z{~u\uFFFD\uFFFD\uFFFDiz_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFDv\uFFFD\uFFFD\uFFFD\u0697\uFFFD\u06EF\uFFFD\uFFFDb\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/actualites/appels-a-projets/appel-a-projets-2026-lutte-contre-la-precarite-menstruelle-dreets-nouvelle-aquitaine/333428-1-fre-FR/Appel-a-Projets-2026-Lutte-contre-la-precarite-menstruelle-DREETS-Nouvelle-Aquitaine_listitem",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?j\uFFFD^\uFFFD\u03DA\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFD\uFFFDiz_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDl\uFFFDm6\uFFFD\uFFFDn\uFFFD\u05FEr\uFFFD\uFFFD\uFFFDk\uFFFDky\u01AB\uFFFD\u05FE\uFFFD\uFFFD\uCDBB\uFFFD\uFFFDW\uFFFDv\uFFFD\uFFFD\uFFFD\u03E7\uFFFD\uFFFD\u0796W\uFFFDj\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFD\u07CD\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFDG\uFFFD)\uFFFD\uFFFD~k\uFFFD\uFFFD7\uFFFD\uFFFD\uFFFD\u06EF\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001a\uFFFD+^\uFFFDg\uFFFD\uFFFD\uFFFD\uFFFDzY^\uFFFD4D\\x00114\uFFFD6\uFFFD\uFFFDzY^\uFFFD\n\uFFFD\uFFFD\u05A2\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "110",
+							"id": "105",
 							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
 							"method": "GET",
@@ -1081,14 +1149,14 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?E\uFFFD+\uFFFD\u05E6z{-\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFD\u01EC\uFFFD*'\uFFFD\u05E9j\uFFFD^\uFFFD\uFFFD\uFFFDjW\uFFFD\uFFFDM\uFFFD\uFFFD\u06FE\uFFFD\uFFFD+\uFFFD\u05E6z{~u\uFA62X\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDc\uFFFD)\uFFFD\uFFFD\uFFFD\uFFFDm6\uFFFD\uFFFD4"
 						},
 						{
-							"id": "121",
+							"id": "64",
 							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "fr/var/ide_site/storage/images/actualites/salle-de-presse/7950-5-fre-FR/Salle-de-presse",
-							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\\x001a\uFFFDW\uFFFDu\uFA6D\uFFFD,{\uFFFD\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDTI\uFFFDe{\uFFFD^\uFFFD\uFFFD\u07B2\uFFFD"
+							"evidence": "php/var/ide_site/storage/images/actualites/salle-de-presse/7950-5-fre-FR/Salle-de-presse",
+							"otherinfo": "\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\u05FF\uFFFD+^\uFFFD\uFFFDh\uFFFD\uFFFD\\x001e\uFFFD)\uFFFD\uFFFD\uFFFD?i\uFFFDnjX\uFFFDz\uFFFD\uFFFDjY^\uFFFD\u05FE\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD>\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD&\uFFFD\uFFFD\uFFFD{\uFFFDkz\uFFFD\\x001e"
 						}
 					],
 					"count": "11",
@@ -1128,7 +1196,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "942"
+					"sourceid": "928"
 				},
 				{
 					"pluginid": "10027",
@@ -1141,7 +1209,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "178",
+							"id": "177",
 							"uri": "https://www.landes.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1151,7 +1219,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "177",
+							"id": "176",
 							"uri": "https://www.landes.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
 							"method": "GET",
@@ -1168,7 +1236,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "958"
+					"sourceid": "964"
 				},
 				{
 					"pluginid": "10109",
@@ -1178,10 +1246,10 @@
 					"riskcode": "0",
 					"confidence": "2",
 					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
+					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "17",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1191,9 +1259,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "76",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "114",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1201,33 +1269,33 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "68",
+							"id": "78",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "97",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
+							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "85",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
+							"id": "92",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "105",
-							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
+							"evidence": "<a id=\"5a2bde500bb0829de0fc82dbe040159e\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Actualites\">\n                                Actualit\u00E9s\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						}
 					],
@@ -1251,7 +1319,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "6",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1261,9 +1329,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "59",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1271,7 +1339,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "70",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
@@ -1281,19 +1359,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "60",
-							"uri": "https://www.landes.gouv.fr/nous-contacter",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/nous-contacter",
+							"id": "65",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1321,7 +1389,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "12",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1331,9 +1399,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Agriculture-et-Foret",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Agriculture-et-Foret",
+							"id": "112",
+							"uri": "https://www.landes.gouv.fr/",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1341,7 +1409,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "76",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "90",
 							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
 							"method": "GET",
@@ -1351,19 +1429,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
-							"uri": "https://www.landes.gouv.fr/Actualites/Appels-a-projets",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Appels-a-projets",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "103",
-							"uri": "https://www.landes.gouv.fr/Actualites/Recrutement",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Recrutement",
+							"id": "87",
+							"uri": "https://www.landes.gouv.fr/Actualites/Salle-de-presse",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Salle-de-presse",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1391,7 +1459,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "18",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1401,9 +1469,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "70",
-							"uri": "https://www.landes.gouv.fr/Actualites/Actualites",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actualites\/Actualites",
+							"id": "79",
+							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1411,7 +1479,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "59",
+							"id": "86",
 							"uri": "https://www.landes.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1421,7 +1489,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "25",
+							"id": "37",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1431,7 +1499,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "24",
+							"id": "36",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1461,7 +1529,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "4",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1471,7 +1539,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "28",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1481,7 +1549,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "26",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1511,7 +1579,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "3",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1521,7 +1589,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "25",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1531,7 +1599,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "24",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1561,7 +1629,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "2",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1571,7 +1639,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "22",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1581,7 +1649,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "23",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1611,7 +1679,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "5",
 							"uri": "https://www.landes.gouv.fr",
 							"nodeName": "https:\/\/www.landes.gouv.fr",
 							"method": "GET",
@@ -1621,7 +1689,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "29",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1631,7 +1699,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "27",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1691,7 +1759,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "30",
 							"uri": "https://www.landes.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1701,7 +1769,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "37",
+							"id": "31",
 							"uri": "https://www.landes.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.landes.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1718,37 +1786,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
-				},
-				{
-					"pluginid": "10049",
-					"alertRef": "10049-2",
-					"alert": "Storable but Non-Cacheable Content",
-					"name": "Storable but Non-Cacheable Content",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The response contents are storable by caching components such as proxy servers, but will not be retrieved directly from the cache, without validating the request upstream, in response to similar requests from other users.</p>",
-					"instances":[ 
-						{
-							"id": "101",
-							"uri": "https://www.landes.gouv.fr/Actions-de-l-Etat/Culture-et-Patrimoine",
-							"nodeName": "https:\/\/www.landes.gouv.fr\/Actions-de-l-Etat\/Culture-et-Patrimoine",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-cache",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "",
-					"otherinfo": "",
-					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
-					"cweid": "524",
-					"wascid": "13",
-					"sourceid": "298"
+					"sourceid": "6"
 				}
 			]
 		}
