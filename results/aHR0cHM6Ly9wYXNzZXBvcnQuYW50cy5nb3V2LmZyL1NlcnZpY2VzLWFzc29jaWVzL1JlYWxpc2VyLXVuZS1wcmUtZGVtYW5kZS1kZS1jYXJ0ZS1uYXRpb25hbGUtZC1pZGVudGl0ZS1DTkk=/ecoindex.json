@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-carte-nationale-d-identite-CNI",
-        "size": 3382.998,
+        "size": 3478.909,
         "nodes": 34,
         "requests": 38,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.46,
         "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 16:36:53.830068",
+        "date": "2026-07-16 07:56:21.435115",
         "page_type": "website"
     }
 ]
