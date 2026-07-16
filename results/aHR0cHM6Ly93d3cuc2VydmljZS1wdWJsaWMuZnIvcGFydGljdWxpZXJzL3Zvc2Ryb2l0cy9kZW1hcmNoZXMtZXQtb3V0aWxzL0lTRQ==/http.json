@@ -9,24 +9,23 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 23 Jun 2026 16:50:13 GMT",
+      "date": "Thu, 16 Jul 2026 08:09:09 GMT",
       "content-type": "text/html;charset=utf-8",
       "set-cookie": [
-        "AUTH_SESSION_ID=NzBlZDYwNGUtOWIzOS00ZGUwLWE3NWYtNjIzZGQ0YWVhM2YyLjV6VVZMZmJmblRBWkcweUlHMHJ0UVdoZ1JrQUFNMkRTQWZubUNDc3kwZXI4c3p4bFRzZXRwb2FZTlpITEtSNVpIVTNacEpLX0tRbjh3OUhQbWRiN3lR.kc-sp-prod-quarkus-3-47867; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=\"ApimDs0brvBP3/8ftkbj66W8J681NPDBpfBc34DrISU\"; Version=1; Path=/realms/service-public/; Max-Age=60; Secure; SameSite=Strict",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..BxfNkOyuGGMh26HEW7WD0Q.YGOQcj6Jo7ljqnKoXGfkiPuJOkTjA-b2nsOpMYkmhan_0inzEnKYh_hWZES9_KZ4WGEStwuch4Sxy3A3GA6tcgNVbCeCThEecYnwxSsAU-VL_5Bgx_q93Z-5yQ5tMqvDkidc1C4S539A88K8cRBm2RmtXsUP9wSRVLAqyBG1tYl_aoPgrqZJ87eTGhkbeG0yv4grYasZ1i65EB3sonNaBwyvnw02qKzumbj4VateaIRcdgcb9eh6Ff79FWuwYFUcMqcVCkwRmzCCr4n8K_2ffso4IybZcmcafoOseDKx6kCfV1vR3YghWUkFYxfurjwyHzUk5HSlDJz5OPiDzCfwRp22dw_YDB62GFu9lWyMe6E11uw1GJJm6LhHze1QLGo2OgHxT7E43NSOWxDnIj5lDFpC31zuMUV-bL6K1BtRFY0rxzbmORnn-Q8-XeOtMlIFB8Kv92-7m2FB945hQbl7CuRenNl2frP8M13ru2m5IahFTfssTa6KbfXtm3gNFEmADCiaHptV9ATd1vAWn40R8Pgls92F9Xv9Tc3kz1gkw0gb7OV9pUfGrebRk1boLxwmEfPl9q-06wik6gTRo6LbpdK10hOjTjN8ocecRQAClMFTfitUkJKAqigZ2D5htmqaaiFqecSwWA1L6t3oyzIWf47c_JzllltBAInqCAL6nqnjPO35yHvJ6noMOffhCAC_tcEN9GTPeZkGsCm-8s9Lr7UoeXtKppQqLkpJa50psH1HoPWuwDDQnAlc2WhURx5sG936YiNDAF23P7doomh-y-szXZuTJ8TU8i4YUOe2RmEvYBhcE2B8UZztu1uaNaxJiAAIVxgyZJXnU8DSkITyujGWHOo98XMaVCFmqCLl5aY24CPZVNcd5ZhVLJEEuxu1j6wdxhL4vVaqaQ3QdqrUpJ4rTpk2TiY-Ze17nqWhEzafncTS5LwSG9CSR3hx-Hs8swP7X_uMOn8L-XMxCXVgywQAHa-15yngK_V42VSFNK2QE1CzfQTJr2BLS_jRKkaP85BWxptrZo3RIXW0IB0TdIukiSMmK24QtZ9o6ivOHTw.7cYOvZK71foUTqphRYwsWg; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None"
+        "AUTH_SESSION_ID=Qm1RZUtXVUd1TkttM000VEQ5SzZsQjVELi1UTTVkR0FGYXJoLVpNZlNkbnM4OEJOZUpFaG43Sk5MWV9CUFo1XzkzRTRVOVB0ak5EbVg5NXFNR0F0dVhqMFd1Q2pEUEYwMWpZYW9pMlpwTElKU21B.kc-sp-prod-quarkus-3-52504; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=a14J9qUxAKh8thfAe+WNWDzy3JvvGVFZuuAGe106Lsg; Version=1; Path=/realms/service-public/; Max-Age=60; Secure; SameSite=None",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Tw2nLce4vAKKHXxRYfMyYw.zNunmc3cI4M9eNolTJEem-ssW9A4alaIJtUaIIBWEfBgNUAeLEpDvqS-Edh8ldYylCR2r5e8dlAJ4OEp2KxQgfNCcUuT5KMyYKCA6mKlY8IDsGrotkM9fhlVd9NIcwr48hVmN0vdpD_acXiqhWY0O1YRNHPs8fNnWUpLsbpK-SBSxJLGdksD3Y-fRKXUGKneRmtW7rGLUBs30g4NJaYsx9xcl263tk45xfgfYSEI6-EOcG4lQc0cuiykSbdv5mpkNBqarDxB8Mgn2rr0xZyRY94dJsU7VkufSEs6MZZNR4H8hv-TD9dbFhp0ymmQ350dvroPbFRpc5nYT8DxDqfgI5I2z_sXyvAZH6QX0a8Q3PzSVQK4Dk-ZJKhYTtmMT8OaRY2tCVha7o9t4M_A7OmOAzYo73lambJKihUMQBOaacAOnG5BudZyQXBMTfAANzB3FONsMJchswCvMr8Esq0Cyd4cu33oQx1-IrAsjCfk-kKNyyrDlysoZ1Cv1amQ6380YKr-zzJgRdf6vNWzBUtZ7xjNzIlnmutMqwQG5aYuHdGOaRLhVYcgEnuh0KPkx5MCQGxxj5ENhgTboaYHWZ8ZE_zmd4dWosT2q_FVbMgG13O8rNCCfLdUDYpDPpsNOpMGxZn7kJcrSdA4hwM13FKdti56H-zhUo4d8WriKYacca0YOdneodu1M0mqkd7DHb-AYOmvE2_XNAcRvq9HHoz55srWstptSPhrQal4PSGrRPZTdWtI_R_KbRtUoOnZ5hQmijNzAfKpgaL-ncRQEjyX_5Ft7_pBVN6Z4dI5zAAP_mY_1_4DvdOknkklX7_m6YqUI2HeX1PNh-CeOu0DzkmJT_pZD4IGSymMQjpuWiD2_2W6QC9Ds9uWTOuS6s1oBUX90M7ddFrlnTm3BNW0OCQcaFcQfEHe3cxW_NNZJU8c_eWdSw-ebP2Kkd3uTHV8G83XPRU8onDDM4bvgHEHZmz7fkCD24k4wfd4PIYe9WEvXJRdeRnhFRO7S0n1SBLgSytf6xhUvTmJCJDoBUPKRMlghdp4NOeRXg8_OmBjAFT1-bY.Yi5kkhDRhLX5ZXzWX7Oa9Q; Version=1; Path=/realms/service-public/; Secure; HttpOnly; SameSite=None"
       ],
       "cache-control": "no-store, must-revalidate, max-age=0",
       "content-language": "fr",
-      "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
+      "content-security-policy": "frame-src 'self'; frame-ancestors 'self' https://demarches.service-public.gouv.fr; object-src 'none';",
       "referrer-policy": "no-referrer",
       "strict-transport-security": "max-age=31536000; includeSubDomains",
       "x-content-type-options": "nosniff",
       "x-frame-options": "SAMEORIGIN",
       "x-robots-tag": "none",
-      "x-xss-protection": "1; mode=block",
       "vary": "Accept-Encoding",
-      "x-cp-via": "C3-0b3d2e63-ccb26030",
+      "x-cp-via": "C3-d88718da-4941c343",
       "x-cacheable": "Not cacheable: uncacheable",
       "x-cdn-pop": "bhs",
       "x-cdn-pop-ip": "137.74.122.0/26",
@@ -45,7 +44,8 @@
           "'self'"
         ],
         "frame-ancestors": [
-          "'self'"
+          "'self'",
+          "https://demarches.service-public.gouv.fr"
         ],
         "object-src": [
           "'none'"
@@ -116,7 +116,7 @@
           "max-age": 60,
           "path": "/realms/service-public/",
           "port": null,
-          "samesite": "strict",
+          "samesite": "none",
           "secure": true
         },
         "KC_RESTART": {
