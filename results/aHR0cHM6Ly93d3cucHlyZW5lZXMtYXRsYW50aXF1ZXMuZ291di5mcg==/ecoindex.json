@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.pyrenees-atlantiques.gouv.fr",
-        "size": 1205.562,
+        "size": 1163.861,
         "nodes": 692,
         "requests": 47,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.9,
         "water": 2.85,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 20:15:11.421480",
+        "date": "2026-07-16 11:16:49.825591",
         "page_type": "website"
     }
 ]

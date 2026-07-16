@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "4gijrqkm1ehbgcdcg2nsb22gu7",
+      "value": "5hlqr3lt4arem8i2ndunkfrug0",
       "domain": "www.pyrenees-atlantiques.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:14:13 GMT",
-    "expires": "Tue, 23 Jun 2026 18:14:13 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:14:13 GMT",
+    "date": "Thu, 16 Jul 2026 11:15:49 GMT",
+    "expires": "Thu, 16 Jul 2026 09:15:49 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:15:49 GMT",
     "pragma": "no-cache",
     "served-by": "www.pyrenees-atlantiques.gouv.fr",
-    "set-cookie": "eZSESSID=4gijrqkm1ehbgcdcg2nsb22gu7; path=/",
+    "set-cookie": "eZSESSID=5hlqr3lt4arem8i2ndunkfrug0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
