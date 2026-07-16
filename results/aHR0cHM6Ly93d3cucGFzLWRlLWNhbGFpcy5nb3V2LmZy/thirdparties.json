@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "aavan0hf794alui4keubaele71",
+      "value": "bt1a4ug7bj8p9kah3arrang230",
       "domain": "www.pas-de-calais.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:09:01 GMT",
-    "expires": "Tue, 23 Jun 2026 18:09:01 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:09:01 GMT",
+    "date": "Thu, 16 Jul 2026 11:09:21 GMT",
+    "expires": "Thu, 16 Jul 2026 09:09:21 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:09:21 GMT",
     "pragma": "no-cache",
     "served-by": "www.pas-de-calais.gouv.fr",
-    "set-cookie": "eZSESSID=aavan0hf794alui4keubaele71; path=/",
+    "set-cookie": "eZSESSID=bt1a4ug7bj8p9kah3arrang230; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },

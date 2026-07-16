@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.pas-de-calais.gouv.fr",
+        "size": 1445.328,
+        "nodes": 681,
+        "requests": 52,
+        "grade": "D",
+        "score": 53.0,
+        "ges": 1.94,
+        "water": 2.91,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-07-16 11:10:23.788180",
+        "page_type": "website"
+    }
+]
