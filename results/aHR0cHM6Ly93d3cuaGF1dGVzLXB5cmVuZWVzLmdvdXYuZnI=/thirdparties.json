@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "s7dhn3g8bhsm118jmsagi06p94",
+      "value": "t0cqfagrik3criltm56g8c8q71",
       "domain": "www.hautes-pyrenees.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 20:16:54 GMT",
-    "expires": "Tue, 23 Jun 2026 18:16:54 GMT",
-    "last-modified": "Tue, 23 Jun 2026 20:16:54 GMT",
+    "date": "Thu, 16 Jul 2026 11:16:14 GMT",
+    "expires": "Thu, 16 Jul 2026 09:16:14 GMT",
+    "last-modified": "Thu, 16 Jul 2026 11:16:14 GMT",
     "pragma": "no-cache",
     "served-by": "www.hautes-pyrenees.gouv.fr",
-    "set-cookie": "eZSESSID=s7dhn3g8bhsm118jmsagi06p94; path=/",
+    "set-cookie": "eZSESSID=t0cqfagrik3criltm56g8c8q71; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
