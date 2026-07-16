@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "uljifat0sbdcg66l1qsp8r9hv6",
+      "value": "rtu6m7nifv3n8u0t4spt0r3vl0",
       "domain": "www.mayenne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 19:48:06 GMT",
-    "expires": "Tue, 23 Jun 2026 17:48:06 GMT",
-    "last-modified": "Tue, 23 Jun 2026 19:48:06 GMT",
+    "date": "Thu, 16 Jul 2026 10:45:49 GMT",
+    "expires": "Thu, 16 Jul 2026 08:45:49 GMT",
+    "last-modified": "Thu, 16 Jul 2026 10:45:49 GMT",
     "pragma": "no-cache",
     "served-by": "www.mayenne.gouv.fr",
-    "set-cookie": "eZSESSID=uljifat0sbdcg66l1qsp8r9hv6; path=/",
+    "set-cookie": "eZSESSID=rtu6m7nifv3n8u0t4spt0r3vl0; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
