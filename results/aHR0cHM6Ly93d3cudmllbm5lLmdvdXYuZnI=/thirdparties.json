@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "gcud4gsn4eh669oo444hiifjg3",
+      "value": "hpbd4o50i8ropda2q5k383puk3",
       "domain": "www.vienne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 21:03:17 GMT",
-    "expires": "Tue, 23 Jun 2026 19:03:18 GMT",
-    "last-modified": "Tue, 23 Jun 2026 21:03:18 GMT",
+    "date": "Thu, 16 Jul 2026 12:00:49 GMT",
+    "expires": "Thu, 16 Jul 2026 10:00:49 GMT",
+    "last-modified": "Thu, 16 Jul 2026 12:00:49 GMT",
     "pragma": "no-cache",
     "served-by": "www.vienne.gouv.fr",
-    "set-cookie": "eZSESSID=gcud4gsn4eh669oo444hiifjg3; path=/",
+    "set-cookie": "eZSESSID=hpbd4o50i8ropda2q5k383puk3; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
