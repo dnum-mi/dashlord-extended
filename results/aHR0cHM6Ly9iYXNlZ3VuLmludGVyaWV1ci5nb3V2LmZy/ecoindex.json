@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://basegun.interieur.gouv.fr",
-        "size": 4173.778,
+        "size": 4173.747,
         "nodes": 89,
         "requests": 14,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.46,
         "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 23:26:21.741525",
+        "date": "2026-07-16 14:12:43.381284",
         "page_type": null
     }
 ]
