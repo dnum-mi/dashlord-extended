@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.taaf.fr",
-        "size": 11799.949,
-        "nodes": 1150,
-        "requests": 66,
+        "size": 12945.068,
+        "nodes": 1149,
+        "requests": 57,
         "grade": "E",
-        "score": 31.0,
-        "ges": 2.38,
-        "water": 3.57,
+        "score": 34.0,
+        "ges": 2.32,
+        "water": 3.48,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 21:49:55.735310",
+        "date": "2026-07-16 12:42:22.586309",
         "page_type": "website"
     }
 ]

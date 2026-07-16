@@ -10,9 +10,8 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "connection": "close",
-      "date": "Tue, 23 Jun 2026 21:52:51 GMT",
+      "date": "Thu, 16 Jul 2026 12:44:55 GMT",
       "server": "Apache",
-      "link": "<https://taaf.fr/wp-json/>; rel=\"https://api.w.org/\", <https://taaf.fr/wp-json/wp/v2/pages/68>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://taaf.fr/>; rel=shortlink",
       "vary": "Accept-Encoding",
       "content-type": "text/html; charset=UTF-8",
       "via": "1.1 alproxy",
