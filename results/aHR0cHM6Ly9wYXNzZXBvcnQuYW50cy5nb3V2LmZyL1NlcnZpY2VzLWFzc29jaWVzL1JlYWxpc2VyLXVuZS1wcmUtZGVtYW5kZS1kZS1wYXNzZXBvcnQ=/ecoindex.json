@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://passeport.ants.gouv.fr/Services-associes/Realiser-une-pre-demande-de-passeport",
-        "size": 3386.766,
+        "size": 3482.724,
         "nodes": 34,
         "requests": 37,
         "grade": "B",
-        "score": 78.0,
-        "ges": 1.44,
-        "water": 2.16,
+        "score": 77.0,
+        "ges": 1.46,
+        "water": 2.19,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-23 16:39:22.201618",
+        "date": "2026-07-16 07:57:18.941906",
         "page_type": "website"
     }
 ]
