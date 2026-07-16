@@ -352,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "41 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (18)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -366,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-08-04 05:55"
           }
 ,         {
@@ -507,21 +507,21 @@
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1782254406"
+              "finding"      : "1784208639"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "91 seconds"
+              "finding"      : "64 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -1077,6 +1077,6 @@
               "ip"           : "www.pays-de-la-loire.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "69"
+              "finding"      : "103"
           }
 ]
