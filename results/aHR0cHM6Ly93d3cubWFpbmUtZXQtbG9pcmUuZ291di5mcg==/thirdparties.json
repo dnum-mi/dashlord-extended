@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "li2qdfn644sic72biidd8gh710",
+      "value": "hff0i5g9t8aag9edhprru4a6s1",
       "domain": "www.maine-et-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 16 Jul 2026 10:38:06 GMT",
-    "expires": "Thu, 16 Jul 2026 08:38:06 GMT",
-    "last-modified": "Thu, 16 Jul 2026 10:38:06 GMT",
+    "date": "Tue, 25 Aug 2026 16:31:21 GMT",
+    "expires": "Tue, 25 Aug 2026 14:31:21 GMT",
+    "last-modified": "Tue, 25 Aug 2026 16:31:21 GMT",
     "pragma": "no-cache",
     "served-by": "www.maine-et-loire.gouv.fr",
-    "set-cookie": "eZSESSID=li2qdfn644sic72biidd8gh710; path=/",
+    "set-cookie": "eZSESSID=hff0i5g9t8aag9edhprru4a6s1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
@@ -68,8 +68,8 @@
         },
         "location": {
           "accuracy_radius": 200,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
@@ -86,23 +86,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          }
-        ]
+        }
       }
     }
   ]
