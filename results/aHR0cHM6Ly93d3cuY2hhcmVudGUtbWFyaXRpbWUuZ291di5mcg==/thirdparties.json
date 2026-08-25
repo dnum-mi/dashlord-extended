@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "se6uo4j9ro35at8l49kn47i7m1",
+      "value": "0nuias916gbgcc68ehbog11k27",
       "domain": "www.charente-maritime.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Tue, 23 Jun 2026 18:20:56 GMT",
-    "expires": "Tue, 23 Jun 2026 16:20:56 GMT",
-    "last-modified": "Tue, 23 Jun 2026 18:20:56 GMT",
+    "date": "Tue, 25 Aug 2026 15:10:48 GMT",
+    "expires": "Tue, 25 Aug 2026 13:10:48 GMT",
+    "last-modified": "Tue, 25 Aug 2026 15:10:48 GMT",
     "pragma": "no-cache",
     "served-by": "www.charente-maritime.gouv.fr",
-    "set-cookie": "eZSESSID=se6uo4j9ro35at8l49kn47i7m1; path=/",
+    "set-cookie": "eZSESSID=0nuias916gbgcc68ehbog11k27; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
@@ -68,8 +68,8 @@
         },
         "location": {
           "accuracy_radius": 200,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
@@ -86,23 +86,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          }
-        ]
+        }
       }
     }
   ]
