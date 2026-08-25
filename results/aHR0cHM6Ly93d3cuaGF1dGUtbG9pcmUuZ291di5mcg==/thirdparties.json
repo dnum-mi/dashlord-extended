@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "crndnt8n3tat5gp4t6sood0l21",
+      "value": "a2rc17bnklpd5v56k0rrnta1h1",
       "domain": "www.haute-loire.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 16 Jul 2026 10:22:38 GMT",
-    "expires": "Thu, 16 Jul 2026 08:22:39 GMT",
-    "last-modified": "Thu, 16 Jul 2026 10:22:39 GMT",
+    "date": "Tue, 25 Aug 2026 16:18:40 GMT",
+    "expires": "Tue, 25 Aug 2026 14:18:40 GMT",
+    "last-modified": "Tue, 25 Aug 2026 16:18:40 GMT",
     "pragma": "no-cache",
     "served-by": "www.haute-loire.gouv.fr",
-    "set-cookie": "eZSESSID=crndnt8n3tat5gp4t6sood0l21; path=/",
+    "set-cookie": "eZSESSID=a2rc17bnklpd5v56k0rrnta1h1; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
@@ -68,8 +68,8 @@
         },
         "location": {
           "accuracy_radius": 200,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
@@ -86,23 +86,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          }
-        ]
+        }
       }
     }
   ]

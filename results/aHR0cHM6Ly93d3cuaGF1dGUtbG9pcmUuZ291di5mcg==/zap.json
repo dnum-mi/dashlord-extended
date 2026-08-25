@@ -1,16 +1,16 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Thu, 16 Jul 2026 10:26:41",
-	"created": "2026-07-16T10:26:41.149781940Z",
+	"@generated": "Tue, 25 Aug 2026 16:21:50",
+	"created": "2026-08-25T16:21:50.370293508Z",
 	"insights":[
 		{
 			"level": "Low",
 			"reason": "Warning",
 			"site": "",
-			"key": "insight.log.warn",
-			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "1"
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "287"
 		},
 		{
 			"level": "Info",
@@ -18,7 +18,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "1"
+			"statistic": "82"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "https://www.haute-loire.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "76"
+			"statistic": "94"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.haute-loire.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "21"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://www.haute-loire.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "2"
+			"statistic": "3"
 		},
 		{
 			"level": "Info",
@@ -66,7 +66,7 @@
 			"site": "https://www.haute-loire.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "88"
+			"statistic": "50"
 		},
 		{
 			"level": "Info",
@@ -95,7 +95,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "15",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -105,9 +105,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "61",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -115,7 +115,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "65",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -125,7 +125,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "0",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -133,19 +133,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "34",
-							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
@@ -165,7 +155,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "13",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -175,17 +165,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "98",
+							"id": "56",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
@@ -195,7 +175,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
+							"id": "94",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "62",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -205,9 +195,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
+							"id": "63",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -235,47 +225,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "159",
-							"uri": "https://www.haute-loire.gouv.fr/actualites",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/actualites",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 42 [https://www.haute-loire.gouv.fr/Actualites].\nPredicted response size: 342.\nResponse Body Length: 412."
-						},
-						{
-							"id": "156",
-							"uri": "https://www.haute-loire.gouv.fr/cni",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/cni",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 68 [https://www.haute-loire.gouv.fr/Demarches/Carte-nationale-d-identite].\nPredicted response size: 368.\nResponse Body Length: 516."
-						},
-						{
-							"id": "155",
-							"uri": "https://www.haute-loire.gouv.fr/demarches",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/demarches",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 41 [https://www.haute-loire.gouv.fr/Demarches].\nPredicted response size: 341.\nResponse Body Length: 408."
-						},
-						{
-							"id": "160",
-							"uri": "https://www.haute-loire.gouv.fr/horaires",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/horaires",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 62 [https://www.haute-loire.gouv.fr/Outils/Horaires-et-coordonnees].\nPredicted response size: 362.\nResponse Body Length: 492."
-						},
-						{
-							"id": "153",
+							"id": "57",
 							"uri": "https://www.haute-loire.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -283,46 +233,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "Location header URI length: 46 [https://www.haute-loire.gouv.fr/Nous-contacter].\nPredicted response size: 346.\nResponse Body Length: 428."
-						},
-						{
-							"id": "158",
-							"uri": "https://www.haute-loire.gouv.fr/passeport",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/passeport",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 51 [https://www.haute-loire.gouv.fr/Demarches/Passeport].\nPredicted response size: 351.\nResponse Body Length: 448."
-						},
-						{
-							"id": "157",
-							"uri": "https://www.haute-loire.gouv.fr/permis-conduire",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/permis-conduire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 60 [https://www.haute-loire.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 360.\nResponse Body Length: 484."
-						},
-						{
-							"id": "154",
-							"uri": "https://www.haute-loire.gouv.fr/siv",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/siv",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 65 [https://www.haute-loire.gouv.fr/Demarches/Carte-grise/Carte-grise].\nPredicted response size: 365.\nResponse Body Length: 504."
 						}
 					],
-					"count": "8",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 42 [https://www.haute-loire.gouv.fr/Actualites].</p><p>Predicted response size: 342.</p><p>Response Body Length: 412.</p>",
+					"otherinfo": "<p>Location header URI length: 46 [https://www.haute-loire.gouv.fr/Nous-contacter].</p><p>Predicted response size: 346.</p><p>Response Body Length: 428.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "722"
+					"sourceid": "161"
 				},
 				{
 					"pluginid": "10010",
@@ -335,7 +255,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "16",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -365,7 +285,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "18",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -395,7 +315,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "17",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -425,7 +345,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "26",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -435,9 +355,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "75",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -445,7 +365,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "84",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -475,7 +395,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "27",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -485,9 +405,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "76",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -495,7 +415,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "85",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -525,7 +445,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "25",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -535,9 +455,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "74",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -545,7 +465,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "83",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -575,7 +495,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "24",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -585,9 +505,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "73",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -595,7 +515,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "82",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -605,7 +525,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "7",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -615,7 +535,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "29",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -645,7 +565,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "21",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -655,9 +575,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "70",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -665,7 +585,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "79",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -675,7 +595,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "4",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -685,7 +605,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "5",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -715,7 +635,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "22",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -725,17 +645,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "68",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "104",
+							"id": "71",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
@@ -745,7 +655,17 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "87",
+							"id": "103",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "80",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -755,9 +675,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "91",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
+							"id": "89",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -785,7 +705,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "34",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -795,7 +715,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "56",
+							"id": "149",
 							"uri": "https://www.haute-loire.gouv.fr/",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
 							"method": "GET",
@@ -805,17 +725,17 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFDbr\uFFFDbz\uFFFD?\uFFFD\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD8"
 						},
 						{
-							"id": "134",
-							"uri": "https://www.haute-loire.gouv.fr/Actions-de-l-Etat",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actions-de-l-Etat",
+							"id": "152",
+							"uri": "https://www.haute-loire.gouv.fr/Actions-de-l-Etat/Alimentation.-consommation-et-commerce",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actions-de-l-Etat\/Alimentation.-consommation-et-commerce",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "php/Actualites/Actualites-2025",
-							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDnjX\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD"
+							"evidence": "/Actions-de-l-Etat/Animaux/01-Actualites",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC"
 						},
 						{
-							"id": "148",
+							"id": "151",
 							"uri": "https://www.haute-loire.gouv.fr/Actions-de-l-Etat/Energies",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actions-de-l-Etat\/Energies",
 							"method": "GET",
@@ -825,17 +745,17 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFD\uFFFD\uFFFD\u05FE\uFFFD\uFFFD-j\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC"
 						},
 						{
-							"id": "92",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
+							"id": "132",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "php/Actualites/Actualites-2025",
-							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDnjX\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD"
+							"evidence": "/var/ide_site/storage/images/9/5/7/4/24759-2-fre-FR/arton4177_listitem",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDn;\uFFFD\u07F6\uFFFD\uFFFD\uFFFD\uFFFDTj\uFFFDh\uFFFD\uFFFD{\uFFFD\uFFFDb\uFFFD\u062Dz"
 						},
 						{
-							"id": "69",
+							"id": "92",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -845,7 +765,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
 						},
 						{
-							"id": "112",
+							"id": "93",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
@@ -855,7 +775,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
 						},
 						{
-							"id": "75",
+							"id": "130",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
 							"method": "GET",
@@ -865,7 +785,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD(\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFDzg\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD<\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDQ\uFFFD#\uFFFD\uFFFD7\uFFFDj\uFFFD^\uFFFD\uFFFD\uFFFDjW"
 						},
 						{
-							"id": "115",
+							"id": "150",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Delais-d-obtention-CNI-et-passeports-en-Haute-Loire",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Delais-d-obtention-CNI-et-passeports-en-Haute-Loire",
 							"method": "GET",
@@ -875,7 +795,7 @@
 							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD'^\uFFFD\u022D{\uFFFD-\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDj\\x0007\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD?u\uFFFDZ\uFFFD\u03DD\uFFFD\uFFFD\uFFFDz{b\uFFFD\uFFFD\uFFFD/\uFFFD\uFFFD\uFFFDZ\uFFFD\u01E9\uFFFD\uFFFDl\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFDh\uFFFD\uFFFD\uFFFDu\uFFFDZ\uFFFD\u03DD\uFFFD\uFFFD\uFFFDz{b\uFFFD\uFFFDz\u03ED\uFFFD\uFFFD\u07B3\uFFFD~\uFFFD\u05E7\uFFFD+^\uFFFDo=\uFFFD\u07F5\uFFFD\u07DF\uFFFD\uFFFDG\uFFFD\u0795\uFFFD\uFFFD\uFFFD\u07E8n\u05E7\uFFFD*'\uFFFD\u05EC\uFFFD\u062D\uFFFD\uFFFD>w\uFFFDz{b\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "95",
+							"id": "133",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Le-barometre-des-resultats-de-l-action-publique",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Le-barometre-des-resultats-de-l-action-publique",
 							"method": "GET",
@@ -885,7 +805,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFDg\uFFFD\uFFFD\uFFFDz\u03EBz\u02E5\uFFFD\uFFFDl\uFFFD\u05FE\uFFFD\u6736*'\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFD{\uFFFD\uFFFD\uFFFD_\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT-\uFFFDj\uFFFD&z\uFFFD\uFFFD\uFFFD\u05EC\uFFFD\uFFFD\uFFFD\uFFFD[Z\uFFFD\u03DD{\uFFFD~i\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD"
 						},
 						{
-							"id": "132",
+							"id": "134",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Schema-Departemental-d-Aide-aux-Victimes-SDAV",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Schema-Departemental-d-Aide-aux-Victimes-SDAV",
 							"method": "GET",
@@ -915,7 +835,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "19",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -925,9 +845,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "65",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "68",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -935,17 +855,17 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "101",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
+							"id": "100",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"b45f0dec824b0b8ad385bf5b5be6eafa\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire\">\n                                Accueil des ressortissants ukrainiens en Haute-Loire\n                            </a>",
+							"evidence": "<a id=\"b45f0dec824b0b8ad385bf5b5be6eafa\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire\">\n                                Accueil des ressortissants ukrainiens en Haute-Loire\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "82",
+							"id": "77",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -955,9 +875,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "88",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
+							"id": "86",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -985,7 +905,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "23",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -995,17 +915,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "private",
-							"otherinfo": ""
-						},
-						{
-							"id": "93",
+							"id": "72",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1015,7 +925,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "81",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -1025,9 +935,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
+							"id": "90",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "private",
+							"otherinfo": ""
+						},
+						{
+							"id": "59",
+							"uri": "https://www.haute-loire.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1055,7 +975,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "14",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1065,17 +985,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "99",
+							"id": "60",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1085,7 +995,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "98",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Accueil-des-ressortissants-ukrainiens-en-Haute-Loire",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "64",
 							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
@@ -1095,9 +1015,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/COP-Departementale",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/COP-Departementale",
+							"id": "66",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1125,7 +1045,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "20",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1135,9 +1055,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "66",
-							"uri": "https://www.haute-loire.gouv.fr/",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/",
+							"id": "69",
+							"uri": "https://www.haute-loire.gouv.fr/Actualites",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1145,9 +1065,9 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "83",
-							"uri": "https://www.haute-loire.gouv.fr/Actualites/Actualites-2025",
-							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/Actualites\/Actualites-2025",
+							"id": "58",
+							"uri": "https://www.haute-loire.gouv.fr/nous-contacter",
+							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/nous-contacter",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1155,7 +1075,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "35",
+							"id": "2",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1165,7 +1085,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "37",
+							"id": "3",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1195,7 +1115,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "37",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1205,7 +1125,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "10",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1215,7 +1135,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "32",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1245,7 +1165,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "36",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1255,7 +1175,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "9",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1265,7 +1185,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "31",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1295,7 +1215,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "35",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1305,7 +1225,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "8",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1315,7 +1235,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "30",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1345,7 +1265,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "38",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1355,7 +1275,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "11",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1365,7 +1285,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "33",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1395,7 +1315,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "0",
+							"id": "12",
 							"uri": "https://www.haute-loire.gouv.fr",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr",
 							"method": "GET",
@@ -1425,7 +1345,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "6",
 							"uri": "https://www.haute-loire.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1435,7 +1355,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "31",
+							"id": "28",
 							"uri": "https://www.haute-loire.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haute-loire.gouv.fr\/sitemap.xml",
 							"method": "GET",
