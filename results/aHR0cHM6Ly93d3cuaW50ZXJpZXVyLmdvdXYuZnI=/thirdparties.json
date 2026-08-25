@@ -13,21 +13,21 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "cf-ray": "a1bfc83a5adbd098-LAX",
+    "cf-ray": "a30b462e7e33e68e-DFW",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Thu, 16 Jul 2026 08:54:25 GMT",
+    "date": "Tue, 25 Aug 2026 14:26:51 GMT",
     "expires": "Thu, 01 Jan 1970 00:00:01 GMT",
     "referrer-policy": "same-origin",
     "server": "cloudflare",
-    "server-timing": "cfEdge;dur=7,cfOrigin;dur=0",
+    "server-timing": "cfEdge;dur=2,cfOrigin;dur=0",
     "vary": "accept-encoding",
     "x-frame-options": "SAMEORIGIN"
   },
   "endpoints": [
     {
       "hostname": "www.interieur.gouv.fr",
-      "ip": "172.66.149.1",
+      "ip": "104.20.35.184",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -47,7 +47,7 @@
     },
     {
       "hostname": "static.cloudflareinsights.com",
-      "ip": "104.16.80.73",
+      "ip": "104.16.79.73",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
