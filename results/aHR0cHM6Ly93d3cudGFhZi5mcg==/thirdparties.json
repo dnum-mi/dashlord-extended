@@ -10,6 +10,10 @@
     },
     {
       "type": "unknown",
+      "url": "https://taaf.fr//content/plugins/custom-facebook-feed-pro/assets/css/cff-style.min.css"
+    },
+    {
+      "type": "unknown",
       "url": "https://taaf.fr//content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-public.css"
     },
     {
@@ -18,7 +22,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/style.css?id=e2f4fa137fbe9f50c525&ver=25376ffa654e0dad3fa99d11173ee5f3"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/style.css?id=e2f4fa137fbe9f50c525&ver=6f7aba14bd51edff39a3e2390ed1eac1"
     },
     {
       "type": "unknown",
@@ -42,7 +46,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=25376ffa654e0dad3fa99d11173ee5f3",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=6f7aba14bd51edff39a3e2390ed1eac1",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -70,15 +74,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/manifest.js?id=89712bc6d8c588400cae&ver=25376ffa654e0dad3fa99d11173ee5f3"
+      "url": "https://taaf.fr//content/plugins/custom-facebook-feed-pro/assets/js/cff-scripts.min.js"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/vendor.js?id=558b753b938cd1651e99&ver=25376ffa654e0dad3fa99d11173ee5f3"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/manifest.js?id=89712bc6d8c588400cae&ver=6f7aba14bd51edff39a3e2390ed1eac1"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/app.js?id=893ca067491be0ca5054&ver=25376ffa654e0dad3fa99d11173ee5f3"
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/vendor.js?id=558b753b938cd1651e99&ver=6f7aba14bd51edff39a3e2390ed1eac1"
+    },
+    {
+      "type": "unknown",
+      "url": "https://taaf.fr//content/themes/taaf/resources/assets/dist/app.js?id=893ca067491be0ca5054&ver=6f7aba14bd51edff39a3e2390ed1eac1"
     },
     {
       "type": "google fonts",
@@ -87,6 +95,10 @@
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://taaf.fr//content/plugins/w3-total-cache/pub/js/lazyload.min.js"
     },
     {
       "type": "google fonts",
@@ -103,10 +115,6 @@
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://taaf.fr//content/plugins/w3-total-cache/pub/js/lazyload.min.js"
     },
     {
       "type": "google fonts",
@@ -129,16 +137,48 @@
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/HankenGrotesk-VariableFont_wght.ttf?59ba6184e2b8bdef405f6dcdbec7c5b8"
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "unknown",
       "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/icomoon.ttf?bdb9e34b4c42f9e26dcf9c7db70c7753"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/HankenGrotesk-VariableFont_wght.ttf?59ba6184e2b8bdef405f6dcdbec7c5b8"
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/images/pin-grill.png?3ec295900da7ebe1585c1dd8008b794d"
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/images/pin-grill.png?3ec295900da7ebe1585c1dd8008b794d"
+      "url": "https://taaf.fr/content/themes/taaf/resources/assets/dist/fonts/HankenGrotesk-VariableFont_wght.ttf?59ba6184e2b8bdef405f6dcdbec7c5b8"
     },
     {
       "type": "unknown",
@@ -162,11 +202,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/uploads/2026/07/Design-sans-titre-185x120.png"
+      "url": "https://taaf.fr//content/uploads/2026/08/la-rsidence-du-chef-de-district-crozet_18602256705_o-185x120.jpg"
     },
     {
       "type": "unknown",
-      "url": "https://taaf.fr//content/uploads/2026/06/KER-OP4-2025-%C2%A9Aimee-Bouchet-29.jpg"
+      "url": "https://taaf.fr//content/uploads/2026/07/KER_Fabrice-Le-Bouard_Vallee-des-Souilles_-185x120.jpg"
     },
     {
       "type": "unknown",
@@ -182,7 +222,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/6a/common.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/1a/common.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -190,7 +230,7 @@
     },
     {
       "type": "google maps",
-      "url": "https://maps.googleapis.com/maps-api-v3/api/js/65/6a/util.js",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/66/1a/util.js",
       "details": {
         "id": "google maps",
         "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
@@ -203,7 +243,7 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1815741681,
+      "expires": 1819219287,
       "size": 34,
       "httpOnly": false,
       "secure": false,
@@ -217,7 +257,7 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1815741681,
+      "expires": 1819219287,
       "size": 35,
       "httpOnly": false,
       "secure": false,
@@ -231,7 +271,7 @@
       "value": "fr",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1815741680,
+      "expires": 1819219287,
       "size": 14,
       "httpOnly": false,
       "secure": true,
@@ -246,22 +286,8 @@
       "value": "yes",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1815741681,
+      "expires": 1819219287,
       "size": 35,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
-      "name": "cookielawinfo-checkbox-others",
-      "value": "no",
-      "domain": ".taaf.fr",
-      "path": "/",
-      "expires": 1815741681,
-      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -274,8 +300,22 @@
       "value": "no",
       "domain": ".taaf.fr",
       "path": "/",
-      "expires": 1815741681,
+      "expires": 1819219287,
       "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "cookielawinfo-checkbox-others",
+      "value": "no",
+      "domain": ".taaf.fr",
+      "path": "/",
+      "expires": 1819219287,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -287,7 +327,7 @@
   "headers": {
     "content-encoding": "br",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Thu, 16 Jul 2026 12:41:20 GMT",
+    "date": "Tue, 25 Aug 2026 18:41:26 GMT",
     "server": "Apache",
     "vary": "Accept-Encoding",
     "via": "2.0 alproxy"
@@ -491,7 +531,7 @@
     },
     {
       "hostname": "maps.googleapis.com",
-      "ip": "172.217.118.4",
+      "ip": "172.217.113.4",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -545,7 +585,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.40.106",
+      "ip": "142.250.152.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -599,7 +639,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.40.99",
+      "ip": "142.251.214.67",
       "geoip": {
         "continent": {
           "code": "NA",

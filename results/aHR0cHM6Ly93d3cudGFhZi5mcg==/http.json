@@ -10,7 +10,7 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "connection": "close",
-      "date": "Thu, 16 Jul 2026 12:44:55 GMT",
+      "date": "Tue, 25 Aug 2026 18:44:56 GMT",
       "server": "Apache",
       "vary": "Accept-Encoding",
       "content-type": "text/html; charset=UTF-8",
@@ -85,7 +85,7 @@
       "result": "sri-not-implemented-but-external-scripts-loaded-securely",
       "scoreModifier": -5,
       "data": {
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=25376ffa654e0dad3fa99d11173ee5f3": {
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCNl8tXTmp7DSQ7uOgTn74IRnXWEBq_A-Q&ver=6f7aba14bd51edff39a3e2390ed1eac1": {
           "crossorigin": null,
           "integrity": null
         }
