@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/perte-ou-vol-de-permis",
-        "size": 4092.418,
+        "size": 4088.06,
         "nodes": 42,
-        "requests": 55,
+        "requests": 54,
         "grade": "B",
         "score": 72.0,
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-16 08:41:05.232725",
+        "date": "2026-08-25 14:13:06.363828",
         "page_type": "website"
     }
 ]
