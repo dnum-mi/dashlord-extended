@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 16 Jul 2026 10:20:58 GMT",
+      "date": "Tue, 25 Aug 2026 16:15:42 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Thu, 16 Jul 2026 08:20:58 GMT",
-      "last-modified": "Thu, 16 Jul 2026 10:20:58 GMT",
+      "expires": "Tue, 25 Aug 2026 14:15:42 GMT",
+      "last-modified": "Tue, 25 Aug 2026 16:15:42 GMT",
       "served-by": "www.loir-et-cher.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=ovmtkr6v6so0ncalc23cnqpin7; path=/"
+        "eZSESSID=24kjssp6b2nfpb8k00c79kqhs5; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
