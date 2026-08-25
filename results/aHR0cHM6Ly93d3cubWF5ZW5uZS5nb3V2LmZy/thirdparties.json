@@ -3,7 +3,7 @@
   "cookies": [
     {
       "name": "eZSESSID",
-      "value": "rtu6m7nifv3n8u0t4spt0r3vl0",
+      "value": "3jh4ial1cid9ehsndiv7h26m45",
       "domain": "www.mayenne.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -23,12 +23,12 @@
     "content-encoding": "gzip",
     "content-language": "fr-FR",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 16 Jul 2026 10:45:49 GMT",
-    "expires": "Thu, 16 Jul 2026 08:45:49 GMT",
-    "last-modified": "Thu, 16 Jul 2026 10:45:49 GMT",
+    "date": "Tue, 25 Aug 2026 16:40:46 GMT",
+    "expires": "Tue, 25 Aug 2026 14:40:46 GMT",
+    "last-modified": "Tue, 25 Aug 2026 16:40:46 GMT",
     "pragma": "no-cache",
     "served-by": "www.mayenne.gouv.fr",
-    "set-cookie": "eZSESSID=rtu6m7nifv3n8u0t4spt0r3vl0; path=/",
+    "set-cookie": "eZSESSID=3jh4ial1cid9ehsndiv7h26m45; path=/",
     "vary": "X-User-Hash,Accept-Encoding",
     "x-cache": "Miss"
   },
@@ -68,8 +68,8 @@
         },
         "location": {
           "accuracy_radius": 200,
-          "latitude": 48.8558,
-          "longitude": 2.3494,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
         },
         "registered_country": {
@@ -86,23 +86,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 3012874,
-            "iso_code": "IDF",
-            "names": {
-              "de": "Île-de-France",
-              "en": "Île-de-France",
-              "es": "Isla de Francia",
-              "fr": "Île-de-France",
-              "ja": "イル・ド・フランス",
-              "pt-BR": "Ilha de França",
-              "ru": "Иль-де-Франс",
-              "zh-CN": "法兰西岛"
-            }
-          }
-        ]
+        }
       }
     }
   ]
