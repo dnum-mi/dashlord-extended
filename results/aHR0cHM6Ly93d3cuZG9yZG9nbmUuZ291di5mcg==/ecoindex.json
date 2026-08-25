@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.dordogne.gouv.fr",
-        "size": 1165.498,
+        "size": 1164.453,
         "nodes": 702,
         "requests": 44,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.88,
         "water": 2.82,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-16 09:44:33.245744",
+        "date": "2026-08-25 15:33:37.078353",
         "page_type": "website"
     }
 ]
