@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.bouches-du-rhone.gouv.fr",
+        "size": 1340.38,
+        "nodes": 689,
+        "requests": 47,
+        "grade": "D",
+        "score": 55.0,
+        "ges": 1.9,
+        "water": 2.85,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-08-25 15:00:28.664268",
+        "page_type": "website"
+    }
+]
