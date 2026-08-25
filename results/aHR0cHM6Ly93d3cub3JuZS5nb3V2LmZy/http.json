@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 16 Jul 2026 11:12:31 GMT",
+      "date": "Tue, 25 Aug 2026 17:03:52 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Thu, 16 Jul 2026 09:12:32 GMT",
-      "last-modified": "Thu, 16 Jul 2026 11:12:32 GMT",
+      "expires": "Tue, 25 Aug 2026 15:03:52 GMT",
+      "last-modified": "Tue, 25 Aug 2026 17:03:52 GMT",
       "served-by": "www.orne.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=pamr2jfr49s3ni82bkiavco7f1; path=/"
+        "eZSESSID=n7vjtu59vi29csi6tfoiumskt0; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
@@ -57,9 +57,9 @@
     "cross-origin-resource-sharing": {
       "expectation": "cross-origin-resource-sharing-not-implemented",
       "pass": true,
-      "result": "cross-origin-resource-sharing-not-implemented",
+      "result": "cross-origin-resource-sharing-implemented-with-restricted-access",
       "scoreModifier": 0,
-      "data": null
+      "data": "null"
     },
     "redirection": {
       "expectation": "redirection-to-https",
