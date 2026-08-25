@@ -2,6 +2,20 @@
   "trackers": [],
   "cookies": [
     {
+      "name": "bZA_",
+      "value": "v1AfHOgw__875",
+      "domain": "basegun.interieur.gouv.fr",
+      "path": "/",
+      "expires": 1787696452.432534,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "1116f341004f1470f29d41fb0b3b7715",
       "value": "f25fae3ed3d67c12fa1f5b5c4b7c7592",
       "domain": "basegun.interieur.gouv.fr",
@@ -14,20 +28,6 @@
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
-    },
-    {
-      "name": "bZA_",
-      "value": "v1AfHOgw__875",
-      "domain": "basegun.interieur.gouv.fr",
-      "path": "/",
-      "expires": 1784218311.475218,
-      "size": 17,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
     }
   ],
   "headers": {
@@ -35,10 +35,10 @@
     "cache-control": "private",
     "content-length": "1165",
     "content-type": "text/html",
-    "date": "Thu, 16 Jul 2026 14:11:51 GMT",
+    "date": "Tue, 25 Aug 2026 20:20:52 GMT",
     "etag": "\"69ea2e95-48d\"",
     "last-modified": "Thu, 23 Apr 2026 14:37:09 GMT",
-    "set-cookie": "1116f341004f1470f29d41fb0b3b7715=f25fae3ed3d67c12fa1f5b5c4b7c7592; path=/; HttpOnly\nbZA_=v1AfHOgw__875; Expires=Thu, 16-Jul-2026 16:11:51 GMT; Path=/",
+    "set-cookie": "1116f341004f1470f29d41fb0b3b7715=f25fae3ed3d67c12fa1f5b5c4b7c7592; path=/; HttpOnly\nbZA_=v1AfHOgw__875; Expires=Tue, 25-Aug-2026 22:20:52 GMT; Path=/",
     "strict-transport-security": "max-age=31536000"
   },
   "endpoints": [
@@ -46,6 +46,18 @@
       "hostname": "basegun.interieur.gouv.fr",
       "ip": "77.158.220.109",
       "geoip": {
+        "city": {
+          "geoname_id": 2972315,
+          "names": {
+            "de": "Toulouse",
+            "en": "Toulouse",
+            "es": "Toulouse",
+            "fr": "Toulouse",
+            "ja": "トゥールーズ",
+            "pt-BR": "Toulouse",
+            "ru": "Тулуза"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -76,10 +88,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "accuracy_radius": 100,
+          "latitude": 43.6046,
+          "longitude": 1.4451,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "31000"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -95,7 +110,31 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "de": "Okzitanien",
+              "en": "Occitanie",
+              "es": "Occitania",
+              "fr": "Occitanie",
+              "ja": "オクシタニ",
+              "pt-BR": "Occitânia"
+            }
+          },
+          {
+            "geoname_id": 3013767,
+            "iso_code": "31",
+            "names": {
+              "de": "Haute-Garonne",
+              "en": "Upper Garonne",
+              "es": "Alto Garona",
+              "fr": "Haute-Garonne"
+            }
+          }
+        ]
       }
     }
   ]
