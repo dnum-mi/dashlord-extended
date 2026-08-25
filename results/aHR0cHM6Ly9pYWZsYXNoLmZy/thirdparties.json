@@ -14,7 +14,7 @@
     },
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-8VR67GJBF1&cx=c&gtm=4e67e0",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-8VR67GJBF1&cx=c&gtm=4e68o0",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -34,7 +34,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8VR67GJBF1&gtm=45je67e0v9124311396za20g&_p=1784210911055&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid=1988531391.1784210911&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=0&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118395334~118897920~118897930~119773331&dp=%2F&sid=1784210911&sct=1&seg=0&dl=https%3A%2F%2Fiaflash.fr%2F&dt=IA%20Flash&en=page_view&_fv=1&_ss=1&tfd=570",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8VR67GJBF1&gtm=45je68o0v9124311396za20g&_p=1787689101211&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid=664003808.1787689102&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=4&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385423&dp=%2F&sid=1787689101&sct=1&seg=0&dl=https%3A%2F%2Fiaflash.fr%2F&dt=IA%20Flash&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=772",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -42,31 +42,39 @@
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.05ff02b9aacd0d0eabd3.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.infopack.40dcfc6c7c53b1eeddbc.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_vendor.6ed0aa4ba2aa5ed65b02.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_vendor.1e66d2e2854bf7280ede.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.6ba749dd04fa3419194b.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_boot.f57f3f504352a34ab3e5.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.5f467853e8bf6e1456d0.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_app.3e724c499f758216dea2.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_player.20e216ddf7106262245e.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.photon_player.be46b862aca432d54208.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.b9d7b31c0e4e07fc25be.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.includes.689ca8610ee04de02fd7.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.locale-en-US.212ea00fcbfe60567caa.json"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.hlsjs.d731a17b1b19bf447f42.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.locale-en-US.50e5e1a1a70f2601a1fd.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
@@ -78,11 +86,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
+      "url": "https://geo.dailymotion.com/videos/x7okqx3"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/video/x7okqx3.json?legacy=true&embedder=https%3A%2F%2Fiaflash.fr%2F&geo=1&player-id=default&locale=en-US&dmV1st=08F357F1A759A80E935C8E8CB404B42D&dmTs=743342&is_native_app=0&dmViewId=1jtlk3s7b6c7725424f&parallelCalls=1"
+      "url": "https://s2.dmcdn.net/v/Ri5b71enOsMvye-fY/x360"
     },
     {
       "type": "unknown",
@@ -94,11 +102,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.89f0416d5a3b372dcda4.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.advertising.bbcc57f4554417993b32.js"
     },
     {
       "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
+      "url": "https://geo.dailymotion.com/videos/x7okqx3/details"
     },
     {
       "type": "unknown",
@@ -121,6 +129,10 @@
       "url": "https://vendorlist.dmcdn.net/v3/archives/vendor-list-v63.json"
     },
     {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
       "type": "google analytics",
       "url": "https://securepubads.g.doubleclick.net/pagead/ima_ppub_config?ippd=https%3A%2F%2Fiaflash.fr%2F",
       "details": {
@@ -130,7 +142,7 @@
     },
     {
       "type": "google",
-      "url": "https://imasdk.googleapis.com/js/core/bridge3.777.0_en.html#deid=%22%22&eventfe_experiment_ids=%5B%5D&fid=%22goog_1958229248%22&genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45796605%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C745150931%2Cnull%2C%5Bnull%2C1%5D%5D%2C%5Bnull%2C749060184%2Cnull%2C%5Bnull%2C128%5D%5D%2C%5B841585769%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B846355750%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B905081831%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45801847%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45774999%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45784857%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2Cnull%2C45792627%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45661356%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5Bnull%2C45767902%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45794243%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45761216%2Cnull%2Cnull%2C%5B1%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95345206%5D%2C%5B95345207%2C%5B%5B45661356%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95389581%5D%2C%5B95389582%2C%5B%5B635466687%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95390088%5D%2C%5B95390089%2C%5B%5B45784857%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95391735%5D%5D%5D%2C%5B10%2C%5B%5B95391980%5D%2C%5B95391981%2C%5B%5Bnull%2Cnull%2C45792627%2C%5Bnull%2Cnull%2C%5C%22https%3A%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fmanaged%2Fjs%2Factiveview%2Fcurrent%2Frx_omid_video.js%5C%22%5D%5D%5D%5D%2C%5B95391982%2C%5B%5Bnull%2Cnull%2C45792627%2C%5Bnull%2Cnull%2C%5C%22https%3A%2F%2Fpagead2.googlesyndication.com%2Fomsdk%2Freleases%2Flive%2Fomid_monitoring_bin.js%5C%22%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95393784%5D%2C%5B95393785%2C%5B%5B45796605%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95394237%5D%2C%5B95394238%2C%5B%5B45801847%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95396036%5D%2C%5B95396037%2C%5B%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&imalib_experiments=%5B95322027%2C95331589%2C95332046%5D&is_eap_loader=false&managed_js_experiment_id=0&page_correlator=871909212381607&pvsid=4896246846361418&top_accessible_page_url=%22https%3A%2F%2Fiaflash.fr%2F%22",
+      "url": "https://imasdk.googleapis.com/js/core/bridge3.786.0_en.html#deid=%22%22&eventfe_experiment_ids=%5B%5D&fid=%22goog_1122251106%22&genotype_experiment_data=%7B%22experimentStateProto%22%3A%22%5B%5B%5B45713128%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B962325777%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45796605%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C956056724%2Cnull%2C%5B%5D%5D%2C%5B45816264%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45761044%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45722344%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45801847%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45784857%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2Cnull%2C45792627%2C%5B%5D%5D%2C%5B45668885%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685340%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45734716%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45735891%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45663239%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B839547366%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45676441%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45645574%2Cnull%2C%5B%5D%5D%2C%5B45688859%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45685601%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5Bnull%2C45685602%2Cnull%2C%5Bnull%2C100%5D%5D%2C%5B45830425%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45820997%2Cnull%2Cnull%2C%5B%5D%5D%2C%5Bnull%2C45812678%2Cnull%2C%5B%5D%5D%2C%5B45756824%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45794243%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45747172%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B775241416%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107958%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45729602%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B%5D%5D%5D%2C%5B%5B16%2C%5B%5B1%2C%5B%5B31089630%5D%2C%5B31089631%2C%5B%5B45668885%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B83323635%5D%2C%5B83323636%2C%5B%5Bnull%2C45812678%2Cnull%2C%5Bnull%2C100%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B83323831%5D%2C%5B83323832%2C%5B%5B962325777%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B83323870%5D%2C%5B83323871%2C%5B%5B45830425%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1000%2C%5B%5B95332046%5D%5D%5D%2C%5Bnull%2C%5B%5B95332047%5D%5D%5D%2C%5B10%2C%5B%5B95338769%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%2C%5B95338770%2C%5B%5Bnull%2C45645574%2Cnull%2C%5Bnull%2C2%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95351425%5D%2C%5B95351426%2C%5B%5B45676441%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B1%2C%5B%5B95373378%2C%5B%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95373379%2C%5B%5B45747172%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107959%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B792614055%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B781107957%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95378629%5D%2C%5B95378630%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381582%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753603%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%2C%5B95381583%2C%5B%5B45729602%2Cnull%2Cnull%2C%5B1%5D%5D%2C%5B45753604%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95389581%5D%2C%5B95389582%2C%5B%5B635466687%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95393784%5D%2C%5B95393785%2C%5B%5B45796605%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95394237%5D%2C%5B95394238%2C%5B%5B45801847%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95396036%5D%2C%5B95396037%2C%5B%5B45756824%2Cnull%2Cnull%2C%5B%5D%5D%5D%5D%5D%5D%2C%5Bnull%2C%5B%5B95396834%5D%2C%5B95396835%2C%5B%5B45816264%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B50%2C%5B%5B95398187%5D%2C%5B95398188%2C%5B%5B945081832%2Cnull%2Cnull%2C%5B1%5D%5D%5D%5D%5D%5D%2C%5B10%2C%5B%5B95398837%5D%2C%5B95398838%2C%5B%5Bnull%2C960449109%2Cnull%2C%5Bnull%2C1%5D%5D%5D%5D%5D%5D%5D%5D%5D%2Cnull%2Cnull%2C%5Bnull%2C1000%2C1%2C1000%5D%5D%22%7D&imalib_experiments=%5B95322027%2C95331589%2C95332046%5D&is_eap_loader=false&managed_js_experiment_id=0&page_correlator=3548196352159939&pvsid=8634060111825200&top_accessible_page_url=%22https%3A%2F%2Fiaflash.fr%2F%22",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -158,11 +170,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.hold_to_speed.068f162d1d059adc6356.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.hold_to_speed.f4e691b3d7886181e1a4.js"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.controls_vod_secondary.e19eb09de48c7c5f9e0d.js"
+      "url": "https://geo.dailymotion.com/static/latest/cdn/dmp.controls_vod_secondary.65f287e82737d75c165c.js"
     },
     {
       "type": "unknown",
@@ -174,23 +186,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/DailySans-Bulky.woff2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/DailySans-Bulky.woff2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://dmxleo.dailymotion.com/cdn/manifest/video/x7okqx3.m3u8?af=2%2C7%2C8%2C9&vv=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C11%2C12%2C13%2C14&mm=video%2Fmp4%2Cvideo%2Fwebm%2Caudio%2Fmp4%2Caudio%2Fmpeg%2Caudio%2Faac%2Caudio%2Fmpeg3%2Caudio%2Fmp3%2Caudio%2Fvnd.wave%2Caudio%2Fwav%2Caudio%2Fwave%2Caudio%2Fogg%2Caudio%2Fvorbis%2Cimage%2Fjpeg%2Cimage%2Fpng%2Cimage%2Fwebp%2Cimage%2Fsvg%2Bxml&cse=1jtlk3s7b6c7725424f&rts=743342&rhv=1&cen=prod&rla=en&cpr=default&eb=https%3A%2F%2Fiaflash.fr%2F&ps=564x317&td=iaflash.fr&reader_gdpr_flag=0&reader_gdpr_consent=&gdpr_binary_consent=opt-out&gdpr_comes_from_infopack=0&reader_us_privacy=1---&vl=-1&ciid=1jtlk3s7b6c7725424f_VMAP_0_0&cidx=0&sidx=0&vidIdx=0&omp=Dailymotion%2F1.0&omn=0&imal=1&3pcb=0&rap=1&apo=monetization&pos=1&pdm=regular&pbm=2"
+      "url": "https://dmxleo.dailymotion.com/cdn/manifest/video/x7okqx3.m3u8?af=2%2C7%2C8%2C9&vv=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C11%2C12%2C13%2C14&mm=video%2Fmp4%2Cvideo%2Fwebm%2Caudio%2Fmp4%2Caudio%2Fmpeg%2Caudio%2Faac%2Caudio%2Fmpeg3%2Caudio%2Fmp3%2Caudio%2Fvnd.wave%2Caudio%2Fwav%2Caudio%2Fwave%2Caudio%2Fogg%2Caudio%2Fvorbis%2Cimage%2Fjpeg%2Cimage%2Fpng%2Cimage%2Fwebp%2Cimage%2Fsvg%2Bxml&cse=1k0t95qcu01c88fba88&rts=760171&rhv=1&cen=prod&rla=en&cpr=default&eb=https%3A%2F%2Fiaflash.fr%2F&ps=564x317&td=iaflash.fr&reader_gdpr_flag=0&reader_gdpr_consent=&gdpr_binary_consent=opt-out&gdpr_comes_from_infopack=0&reader_us_privacy=1---&vl=-1&ciid=1k0t95qcu01c88fba88_VMAP_0_0&cidx=0&sidx=0&vidIdx=0&omp=Dailymotion%2F1.0&omn=0&imal=1&3pcb=0&rap=1&apo=monetization&pos=1&pdm=regular&pbm=2"
     },
     {
       "type": "unknown",
@@ -198,7 +194,23 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdndirector.dailymotion.com/cdn/manifest/video/x7okqx3.m3u8?sec=MemLIbJqf-VSkT37XLgESsWD2RHKdyO1POMuwx7O7hNY1Q_Zfc87FeGqf0GdnGxfW4BKz2bWw5iIHCI13gqOJHytV13o0un_1Zl3plSyJrx6qY5ElynqO2PK_1tUevTL&dmTs=743342&dmV1st=08F357F1A759A80E935C8E8CB404B42D"
+      "url": "https://cdndirector.dailymotion.com/cdn/manifest/video/x7okqx3.m3u8?sec=tmSYtT6uh3lYkVF3NECoWU-O4TazFG91coa4cAJhty2n3j06-8cifLuje04OSTtDfPIjruJWx8_-PE5ucJ6zeQGrpk50FwnAI-EwYbsjnrx8neff0-9ApjNHuC6PwKnH"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/DailySans-Bulky.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/DailySans-Bulky.woff2"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/ABCFavorit-Bold.woff2"
     },
     {
       "type": "google",
@@ -222,7 +234,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/video/320/245/464542023_mp4_h264_aac.m3u8#cell=core"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/video/320/245/464542023_mp4_h264_aac.m3u8#cell=cf3"
     },
     {
       "type": "unknown",
@@ -230,11 +242,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/history/log/user/etalab/video/x7okqx3?action=start&dmTs=743342&dmV1st=08F357F1A759A80E935C8E8CB404B42D"
+      "url": "https://www.dailymotion.com/history/log/user/etalab/video/x7okqx3?action=start&dmTs=&dmV1st="
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/logger/video/access/x7okqx3?session_id=&referer=https%3A%2F%2Fiaflash.fr%2F&country=US&user_agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F148.0.0.0+Safari%2F537.36&channel_id=24&class=official&mode=vod&visitor_embedder=https%3A%2F%2Fiaflash.fr%2F&src_ref=&client_embedder=&video_id=464542023&v1st=08F357F1A759A80E935C8E8CB404B42D&pid=656baf99597424&visitor_referer=&view_id=1jtlk3s7b6c7725424f&traffic_segment=75&bot_risk_score=-1&owner_id=38056704&parent_id=81333652&blog_key=&user_id=&key=b3cxfe8wiq05qg7e9tia29c&v=6a590ff0&i=14ab1771&h=122dcf5b6df947af68fe7eb4f309929a"
+      "url": "https://www.dailymotion.com/logger/video/access/x7okqx3?session_id=&referer=https%3A%2F%2Fiaflash.fr%2F&country=US&user_agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F148.0.0.0+Safari%2F537.36&channel_id=24&class=official&mode=vod&visitor_embedder=https%3A%2F%2Fiaflash.fr%2F&src_ref=&client_embedder=&video_id=464542023&v1st=&pid=659e4cde1bcff0&visitor_referer=&view_id=&traffic_segment=&bot_risk_score=-1&owner_id=38056704&parent_id=81333652&blog_key=&user_id=&key=3o9w1n6spn05kdug6tkcm20&v=6a8e22a8&i=140fa366&h=e0899c8bee3f18710e4f8aa3d564e5bb"
     },
     {
       "type": "unknown",
@@ -254,19 +266,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(1)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(1)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://geo.dailymotion.com/video/x7okqx3.json?fields=attentionPeaks"
-    },
-    {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
-    },
-    {
-      "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(2)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(2)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
@@ -274,47 +278,51 @@
     },
     {
       "type": "unknown",
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(3)/video/320/245/464542023_mp4_h264_aac.ts"
+    },
+    {
+      "type": "unknown",
       "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(3)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(4)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(4)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(5)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(5)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(6)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(6)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(7)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(7)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(8)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(8)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(9)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(9)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(10)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(10)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(11)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(11)/video/320/245/464542023_mp4_h264_aac.ts"
     },
     {
       "type": "unknown",
-      "url": "https://proxy-001.dc3.dailymotion.com/sec(WODhkw-SfNQrW7-3catQHgHALX0JWpkn3YqP_jk0XjmmIHZuIpyRatLbI7KhfLGrOmhp8t8ZEq8FMKsSgveE0FDEX7GkQlD2DysZt1yKo5Nn9veRj3_vvCY4DGW3UYwm)/frag(12)/video/320/245/464542023_mp4_h264_aac.ts"
+      "url": "https://vod3.cf.dmcdn.net/sec2(LorGmQBsjDmw5j3bGYSaKUnnrvaXM5RB014BKXf87Quv4MZCwkGrH3RNw6WIcDOhQSWkzQoGPdMPdgE5YmID9DH5nWL4hDQ5zjeCi7TnDkLGGRYjZlHL1pdVcaB98gDm5TupELLjfNbjo7FHD9ZWH_FO79ciAsyKnqND7ryMZos)/frag(12)/video/320/245/464542023_mp4_h264_aac.ts"
     }
   ],
   "cookies": [
@@ -323,7 +331,7 @@
       "value": "1",
       "domain": ".iaflash.fr",
       "path": "/",
-      "expires": 1784210971,
+      "expires": 1787689161,
       "size": 25,
       "httpOnly": false,
       "secure": false,
@@ -333,11 +341,11 @@
       "sameParty": false
     },
     {
-      "name": "_gid",
-      "value": "GA1.2.10632564.1784210911",
+      "name": "_ga",
+      "value": "GA1.2.664003808.1787689102",
       "domain": ".iaflash.fr",
       "path": "/",
-      "expires": 1784297311,
+      "expires": 1822249101.649534,
       "size": 29,
       "httpOnly": false,
       "secure": false,
@@ -348,10 +356,10 @@
     },
     {
       "name": "_ga_8VR67GJBF1",
-      "value": "GS2.1.s1784210911$o1$g0$t1784210911$j60$l0$h0",
+      "value": "GS2.1.s1787689101$o1$g0$t1787689101$j60$l0$h0",
       "domain": ".iaflash.fr",
       "path": "/",
-      "expires": 1818770911.392596,
+      "expires": 1822249101.634128,
       "size": 59,
       "httpOnly": false,
       "secure": false,
@@ -361,11 +369,11 @@
       "sameParty": false
     },
     {
-      "name": "_ga",
-      "value": "GA1.1.1988531391.1784210911",
+      "name": "_gid",
+      "value": "GA1.2.767018324.1787689102",
       "domain": ".iaflash.fr",
       "path": "/",
-      "expires": 1818770911.393016,
+      "expires": 1787775501,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -378,30 +386,31 @@
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "24",
+    "age": "27",
     "cache-control": "max-age=600",
     "content-encoding": "gzip",
     "content-length": "1220",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 16 Jul 2026 14:08:31 GMT",
+    "date": "Tue, 25 Aug 2026 20:18:21 GMT",
     "etag": "W/\"60c11a37-cc6\"",
-    "expires": "Thu, 16 Jul 2026 14:18:07 GMT",
+    "expires": "Tue, 25 Aug 2026 20:27:53 GMT",
     "last-modified": "Wed, 09 Jun 2021 19:44:55 GMT",
     "server": "GitHub.com",
     "vary": "Accept-Encoding",
     "via": "1.1 varnish",
     "x-cache": "HIT",
     "x-cache-hits": "1",
-    "x-fastly-request-id": "8550309d0590e1528844d68a4bcfd3b8a9e0ea9a",
-    "x-github-request-id": "6F00:366E09:3F1B9C:4156DF:6A58E5C7",
+    "x-fastly-request-id": "e24fe9018afd98eeea4423426dd8cc3eeec94592",
+    "x-github-edge-region": "iad",
+    "x-github-request-id": "7DAE:3B64FF:B45781:C5910A:6A8DF871",
     "x-proxy-cache": "MISS",
-    "x-served-by": "cache-bur-kbur8200034-BUR",
-    "x-timer": "S1784210911.043356,VS0,VE1"
+    "x-served-by": "cache-chi-kmdw8640042-CHI",
+    "x-timer": "S1787689101.192762,VS0,VE1"
   },
   "endpoints": [
     {
       "hostname": "iaflash.fr",
-      "ip": "185.199.108.153",
+      "ip": "185.199.111.153",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -455,7 +464,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.210.136",
+      "ip": "173.194.206.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -509,7 +518,7 @@
     },
     {
       "hostname": "www.dailymotion.com",
-      "ip": "65.8.20.41",
+      "ip": "3.170.152.44",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -563,7 +572,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.215.206",
+      "ip": "74.125.69.113",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -617,7 +626,7 @@
     },
     {
       "hostname": "geo.dailymotion.com",
-      "ip": "65.8.20.113",
+      "ip": "3.167.138.105",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -768,8 +777,94 @@
       }
     },
     {
+      "hostname": "s2.dmcdn.net",
+      "ip": "13.32.164.23",
+      "geoip": {
+        "city": {
+          "geoname_id": 5128581,
+          "names": {
+            "de": "New York City",
+            "en": "New York",
+            "es": "Nueva York",
+            "fr": "New York",
+            "ja": "ニューヨーク",
+            "pt-BR": "Nova Iorque",
+            "ru": "Нью-Йорк"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 40.7126,
+          "longitude": -74.0066,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "10118"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
+      }
+    },
+    {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "65.8.20.8",
+      "ip": "3.167.183.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -823,7 +918,7 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.251.35.74",
+      "ip": "142.251.184.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -877,7 +972,7 @@
     },
     {
       "hostname": "securepubads.g.doubleclick.net",
-      "ip": "142.251.45.2",
+      "ip": "173.194.195.155",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -931,7 +1026,7 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.40.102",
+      "ip": "74.125.69.148",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -985,7 +1080,7 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.218.2",
+      "ip": "172.217.214.155",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1039,7 +1134,7 @@
     },
     {
       "hostname": "static1.dmcdn.net",
-      "ip": "18.238.96.61",
+      "ip": "108.156.91.54",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1093,19 +1188,19 @@
     },
     {
       "hostname": "dmxleo.dailymotion.com",
-      "ip": "35.95.224.44",
+      "ip": "3.142.253.143",
       "geoip": {
         "city": {
-          "geoname_id": 5714964,
+          "geoname_id": 4509177,
           "names": {
-            "de": "Boardman",
-            "en": "Boardman",
-            "es": "Boardman",
-            "fr": "Boardman",
-            "ja": "ボードマン",
-            "pt-BR": "Boardman",
-            "ru": "Бордман",
-            "zh-CN": "保德曼"
+            "de": "Columbus",
+            "en": "Columbus",
+            "es": "Columbus",
+            "fr": "Columbus",
+            "ja": "コロンバス",
+            "pt-BR": "Columbus",
+            "ru": "Колумбус",
+            "zh-CN": "哥伦布"
           }
         },
         "continent": {
@@ -1138,13 +1233,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 45.8401,
-          "longitude": -119.705,
-          "metro_code": 810,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.9587,
+          "longitude": -82.9987,
+          "metro_code": 535,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "97818"
+          "code": "43215"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1162,17 +1257,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5744337,
-            "iso_code": "OR",
+            "geoname_id": 5165418,
+            "iso_code": "OH",
             "names": {
-              "de": "Oregon",
-              "en": "Oregon",
-              "es": "Oregón",
-              "fr": "Oregon",
-              "ja": "オレゴン州",
-              "pt-BR": "Oregon",
-              "ru": "Орегон",
-              "zh-CN": "俄勒冈州"
+              "de": "Ohio",
+              "en": "Ohio",
+              "es": "Ohio",
+              "fr": "Ohio",
+              "ja": "オハイオ州",
+              "pt-BR": "Ohio",
+              "ru": "Огайо",
+              "zh-CN": "俄亥俄州"
             }
           }
         ]
@@ -1180,7 +1275,7 @@
     },
     {
       "hostname": "graphql.api.dailymotion.com",
-      "ip": "65.8.20.127",
+      "ip": "13.249.141.65",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1254,7 +1349,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.34.67",
+      "ip": "74.125.202.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1307,57 +1402,55 @@
       }
     },
     {
-      "hostname": "proxy-001.dc3.dailymotion.com",
-      "ip": "188.65.126.254",
+      "hostname": "vod3.cf.dmcdn.net",
+      "ip": "3.169.149.48",
       "geoip": {
         "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
+          "code": "NA",
+          "geoname_id": 6255149,
           "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
           }
         },
         "country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
-          "time_zone": "Europe/Paris"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
-          "geoname_id": 3017382,
-          "is_in_european_union": true,
-          "iso_code": "FR",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Frankreich",
-            "en": "France",
-            "es": "Francia",
-            "fr": "France",
-            "ja": "フランス共和国",
-            "pt-BR": "França",
-            "ru": "Франция",
-            "zh-CN": "法国"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         }
       }
