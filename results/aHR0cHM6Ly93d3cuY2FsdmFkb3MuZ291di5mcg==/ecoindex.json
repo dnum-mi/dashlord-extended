@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.calvados.gouv.fr",
+        "size": 1376.895,
+        "nodes": 735,
+        "requests": 47,
+        "grade": "D",
+        "score": 53.0,
+        "ges": 1.94,
+        "water": 2.91,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-08-25 15:04:26.132199",
+        "page_type": "website"
+    }
+]
