@@ -570,14 +570,14 @@
               "ip"           : "www.ile-de-france.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1787682194"
+              "finding"      : "1787685632"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.ile-de-france.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "120 seconds"
+              "finding"      : "58 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.ile-de-france.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "98"
+              "finding"      : "106"
           }
 ]
