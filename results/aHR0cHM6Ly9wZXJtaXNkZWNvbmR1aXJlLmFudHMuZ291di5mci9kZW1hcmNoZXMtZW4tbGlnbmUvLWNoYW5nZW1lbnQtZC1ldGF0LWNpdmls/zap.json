@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Thu, 16 Jul 2026 08:47:10",
-	"created": "2026-07-16T08:47:10.344182244Z",
+	"@generated": "Tue, 25 Aug 2026 14:17:54",
+	"created": "2026-08-25T14:17:54.651499882Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://permisdeconduire.ants.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "71"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -63,7 +63,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "65",
+							"id": "12",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -73,7 +73,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "76",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -83,7 +83,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "14",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -93,7 +93,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "11",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "72",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -133,7 +133,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "53",
+							"id": "7",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -143,7 +143,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "69",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -153,7 +153,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "6",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -163,7 +163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "4",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -173,7 +173,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "67",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -190,7 +190,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10010",
@@ -203,7 +203,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "69",
+							"id": "18",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -213,7 +213,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "79",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -223,7 +223,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "19",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -233,7 +233,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "16",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -243,7 +243,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "109",
+							"id": "74",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -273,7 +273,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "72",
+							"id": "20",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -283,7 +283,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "82",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -293,7 +293,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "23",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -303,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
+							"id": "21",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -313,7 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "110",
+							"id": "77",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -343,7 +343,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "44",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -353,17 +353,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Cross-Origin-Embedder-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "9",
+							"id": "46",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -373,7 +363,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "96",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -383,14 +373,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -403,7 +393,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "45",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -413,17 +403,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Cross-Origin-Opener-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "10",
+							"id": "49",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -433,7 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "97",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -443,14 +423,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Opener-Policy header appropriately, and that it sets the Cross-Origin-Opener-Policy header to 'same-origin' for documents.</p><p>'same-origin-allow-popups' is considered as less secured and should be avoided.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Opener-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-opener-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90004",
@@ -463,7 +443,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "43",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -473,17 +453,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Cross-Origin-Resource-Policy",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "8",
+							"id": "42",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -493,7 +463,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "95",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -503,14 +473,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10063",
@@ -523,7 +493,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "31",
+							"id": "40",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -533,7 +503,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "102",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -543,7 +513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "39",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -553,7 +523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "94",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -580,7 +550,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10035",
@@ -593,7 +563,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "88",
+							"id": "31",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -603,7 +573,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
+							"id": "88",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -613,7 +583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "29",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -623,7 +593,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
+							"id": "28",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -633,7 +603,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "83",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -650,7 +620,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10021",
@@ -663,7 +633,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "91",
+							"id": "32",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -673,7 +643,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "89",
+							"id": "90",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -683,7 +653,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "18",
+							"id": "35",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -693,7 +663,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "94",
+							"id": "34",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -703,7 +673,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "118",
+							"id": "87",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -733,80 +703,80 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "51",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD"
+							"evidence": "/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014"
 						},
 						{
-							"id": "21",
+							"id": "53",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OHGSGE4ATZV46XVQR4RFJOLYDVOGW3EOBA64TIMGZN2X2ZWKRLMQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0019!\uFFFD\uFFFD\\x0004\uFFFDW\uFFFD\uFFFDU\\x0004xDRN-\uFFFD\uFFFD8e\uFFFD\\x0010\uFFFD@\uFFFD\uFFFD0fM\uFFFD}\uFFFDX\uFFFDK1"
+							"evidence": "/redirect_IRMRX3FJVAVDCB254KSYE47VW6GEFAOTUNI2EHZLBFC7B2TPNBBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00111\\x0015\uFFFD\\x0014\uFFFD@T0\uFFFD\u06DE\nI\uFFFD8\uFFFDU\uFFFD\\x0018A@95\r#a\\x0007d\uFFFDE\\x000b\uFFFDvL\uFFFDA\\x0004"
 						},
 						{
-							"id": "33",
+							"id": "104",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD"
+							"evidence": "/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014"
 						},
 						{
-							"id": "99",
+							"id": "107",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD"
+							"evidence": "/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014"
 						},
 						{
-							"id": "1",
+							"id": "55",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OHGSGE4ATZV46XVQR4RFJOLYDVOGW3EOBA64TIMGZN2X2ZWKRLMQ==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0019!\uFFFD\uFFFD\\x0004\uFFFDW\uFFFD\uFFFDU\\x0004xDRN-\uFFFD\uFFFD8e\uFFFD\\x0010\uFFFD@\uFFFD\uFFFD0fM\uFFFD}\uFFFDX\uFFFDK1"
+							"evidence": "/redirect_IRMRX3FJVAVDCB254KSYE47VW6GEFAOTUNI2EHZLBFC7B2TPNBBA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x00111\\x0015\uFFFD\\x0014\uFFFD@T0\uFFFD\u06DE\nI\uFFFD8\uFFFDU\uFFFD\\x0018A@95\r#a\\x0007d\uFFFDE\\x000b\uFFFDvL\uFFFDA\\x0004"
 						},
 						{
-							"id": "30",
+							"id": "98",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD"
+							"evidence": "/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014"
 						},
 						{
-							"id": "96",
+							"id": "103",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA==",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD"
+							"evidence": "/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA==",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014"
 						}
 					],
 					"count": "7",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?bW0\\x0005\\x0010\\x0018\\x0001\\x0005TA\\x0002PC\uFFFD\\x0018\\x0016\\x0001\\x0008\uFFFD<\\x001d\uFFFD\\x0007\uFFFD\uFFFD`\uFFFD\r]\uFFFD\uFFFD\\x0004\uFFFDD</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDPR\uFFFD)-\uFFFD \uFFFD\\x0013`\uFFFD@\uFFFDBY\uFFFD\\x0010$\uFFFD;\\x00146\\x0003\\x000c\uFFFDG+~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -823,53 +793,53 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "84",
+							"id": "25",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "83",
+							"id": "26",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_OHGSGE4ATZV46XVQR4RFJOLYDVOGW3EOBA64TIMGZN2X2ZWKRLMQ====/';</script>",
+							"evidence": "<script>window.location.href='/redirect_IRMRX3FJVAVDCB254KSYE47VW6GEFAOTUNI2EHZLBFC7B2TPNBBA====/';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "82",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA====/demarches-en-ligne';</script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "16",
+							"id": "27",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_OHGSGE4ATZV46XVQR4RFJOLYDVOGW3EOBA64TIMGZN2X2ZWKRLMQ====/demarches-en-ligne/-changement-d-etat-civil';</script>",
+							"evidence": "<script>window.location.href='/redirect_IRMRX3FJVAVDCB254KSYE47VW6GEFAOTUNI2EHZLBFC7B2TPNBBA====/demarches-en-ligne/-changement-d-etat-civil';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "87",
+							"id": "24",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script>window.location.href='/redirect_OAP2JXMAUQGAEFVEECUEPLGBYBCOO5PB3TB5GTYLUNXYXBBOS6RA====/robots.txt';</script>",
+							"evidence": "<script>window.location.href='/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA====/robots.txt';</script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "80",
+							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>window.location.href='/redirect_3VUFKYKS2ZIM4TYPRA645CWYUQJPI7FDYDDKZHK37J6ILB66TFFA====/sitemap.xml';</script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -893,7 +863,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "37",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -903,7 +873,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "101",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -913,7 +883,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "36",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -923,7 +893,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "93",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -933,7 +903,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "99",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -950,7 +920,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10015",
@@ -963,7 +933,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "62",
+							"id": "9",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -973,7 +943,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "75",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -983,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "10",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -993,7 +963,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
+							"id": "8",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1003,7 +973,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "70",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1033,7 +1003,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "60",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1043,17 +1013,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "4",
+							"id": "64",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -1061,19 +1021,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "40",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1093,7 +1043,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "56",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1103,17 +1053,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "3",
+							"id": "62",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -1121,26 +1061,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "36",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1153,7 +1083,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "52",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1163,17 +1093,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "2",
+							"id": "57",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -1181,26 +1101,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "34",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "90005",
@@ -1213,7 +1123,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "63",
 							"uri": "https://permisdeconduire.ants.gouv.fr/",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
 							"method": "GET",
@@ -1223,17 +1133,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
-							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "5",
+							"id": "65",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -1241,26 +1141,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "47",
-							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "2",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "4"
+					"sourceid": "10"
 				},
 				{
 					"pluginid": "10112",
@@ -1273,17 +1163,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "19",
-							"uri": "https://permisdeconduire.ants.gouv.fr/",
-							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/",
-							"method": "GET",
-							"param": "bot_mitigation_cookie",
-							"attack": "",
-							"evidence": "bot_mitigation_cookie",
-							"otherinfo": "cookie:bot_mitigation_cookie"
-						},
-						{
-							"id": "32",
+							"id": "68",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne",
 							"method": "GET",
@@ -1293,7 +1173,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "0",
+							"id": "71",
 							"uri": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/-changement-d-etat-civil",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/demarches-en-ligne\/-changement-d-etat-civil",
 							"method": "GET",
@@ -1303,7 +1183,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "27",
+							"id": "1",
 							"uri": "https://permisdeconduire.ants.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1313,7 +1193,7 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						},
 						{
-							"id": "95",
+							"id": "66",
 							"uri": "https://permisdeconduire.ants.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/permisdeconduire.ants.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1323,14 +1203,14 @@
 							"otherinfo": "cookie:bot_mitigation_cookie"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:bot_mitigation_cookie</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "4"
+					"sourceid": "13"
 				}
 			]
 		}
