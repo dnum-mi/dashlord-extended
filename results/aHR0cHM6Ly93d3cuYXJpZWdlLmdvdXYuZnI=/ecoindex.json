@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.ariege.gouv.fr",
+        "size": 1249.348,
+        "nodes": 635,
+        "requests": 44,
+        "grade": "C",
+        "score": 58.0,
+        "ges": 1.84,
+        "water": 2.76,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-08-25 14:49:22.171622",
+        "page_type": "website"
+    }
+]
