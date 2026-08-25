@@ -18,7 +18,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9b33d56a/www-player.css",
+      "url": "https://www.youtube.com/s/player/e937390a/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -26,7 +26,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-mFO5T_msE.L.W.O/am=AAAAgA/d=0/br=1/rs=AGKMywFlQj6BEEPHOJTr_WojdSAae6h_pA",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywGu3h6Ls91zsaCPcwDQORPOkwMt2A/m=root,base",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -34,7 +34,15 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.tWZ4mpi5MWk.es5.O/am=AAAAgA/d=1/br=1/rs=AGKMywG5-isKrsvhtX6lIZp79kY9CaSzbw/m=root,base",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGTTj3-cTgD-pjEZcKhpleKhdcFmg/m=root,base",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/e937390a/player_embed.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -46,14 +54,6 @@
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9b33d56a/player_embed.vflset/en_US/base.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.tWZ4mpi5MWk.es5.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywG5-isKrsvhtX6lIZp79kY9CaSzbw/m=r78Drb",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/ck=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFHyaab2mCtlM29mRoTuGXwnGFOFg/m=r78Drb",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -105,8 +105,48 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://www.google.com/js/th/JLnL9msYa_UWMZolOOkTjHBljgh_YaIuOcsS5X5it10.js",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/generate_204?gW0A_A",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
       "url": "https://www.youtube.com/embed//mX89qPdCCF0",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=LnKlLZ6aUtjiz-QJ&ver=2&cmt=0&fs=0&rt=0.672&euri=https%3A%2F%2Fpasseport.ants.gouv.fr%2F&lact=701&cl=967453928&mos=0&volume=100&cbr=HeadlessChrome&cbrver=148.0.0.0&c=WEB_EMBEDDED_PLAYER&cver=2.20260824.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&epm=1&hl=en_US&cr=US&len=238&fexp=v1%2C24004644%2C27058999%2C34656%2C124674%2C117689%2C9252%2C3479%2C13030%2C23206%2C35403%2C34393%2C30906%2C2878%2C12227%2C25059%2C4174%2C30447%2C18705%2C21437%2C4571%2C13016%2C1191%2C11918%2C2978%2C6621%2C2783%2C23826%2C9500%2C1840%2C29674%2C23957%2C3015%2C38191%2C20589%2C34313%2C9181%2C15416%2C17459%2C20108%2C366%2C5666%2C1168%2C372%2C7758%2C19626%2C9368%2C5327%2C9866%2C1596%2C927%2C2249%2C12082%2C13051%2C478%2C278%2C9477%2C2127%2C1253%2C4366%2C9717%2C1408%2C2205%2C188%2C3707%2C3301%2C2673%2C1094%2C652%2C2%2C12633%2C2841%2C3291%2C1167%2C2%2C4%2C743%2C15243%2C1341%2C6470%2C4434%2C3242%2C1682%2C11240%2C4420%2C339%2C7941%2C757%2C1538%2C7443%2C16453%2C2420%2C2%2C652%2C2704%2C353%2C3%2C3803%2C4764%2C3507%2C2167%2C10365%2C8305&muted=0&docid=mX89qPdCCF0",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -122,7 +162,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9b33d56a/www-player.css",
+      "url": "https://www.youtube.com/s/player/e937390a/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -130,23 +170,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-mFO5T_msE.L.W.O/am=AAAAgA/d=0/br=1/rs=AGKMywFlQj6BEEPHOJTr_WojdSAae6h_pA",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.tWZ4mpi5MWk.es5.O/am=AAAAgA/d=1/br=1/rs=AGKMywG5-isKrsvhtX6lIZp79kY9CaSzbw/m=root,base",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/9b33d56a/player_embed.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/br=1/rs=AGKMywGu3h6Ls91zsaCPcwDQORPOkwMt2A/m=root,base",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -158,6 +182,22 @@
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywGTTj3-cTgD-pjEZcKhpleKhdcFmg/m=root,base",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/e937390a/player_embed.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -178,7 +218,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.tWZ4mpi5MWk.es5.O/am=AAAAgA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywG5-isKrsvhtX6lIZp79kY9CaSzbw/m=r78Drb",
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.pVZpqNH8SyQ.es5.O/ck=ytembeds.base.f-7_7F-6xmc.L.W.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFHyaab2mCtlM29mRoTuGXwnGFOFg/m=r78Drb",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -202,7 +242,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/8uIar4J4-RenYUa4HtG5DFVcni3D6dGneJv1JZIjHfM.js",
+      "url": "https://www.google.com/js/th/JLnL9msYa_UWMZolOOkTjHBljgh_YaIuOcsS5X5it10.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -210,18 +250,10 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?Xnn2XQ",
+      "url": "https://www.youtube.com/generate_204?ISxWcw",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -244,7 +276,7 @@
   "cookies": [
     {
       "name": "bot_mitigation_cookie",
-      "value": "MRP5MZHRL4FKSHJPEC2LDFHQRUMRTB43E4YMP4DHRH7UKOKBO6U4Q6H4Z7DTQE3ZPFZRX5BPFBWGV4VZ4JFZU7ZCVGWFA2LMKH5XVSAZS54UM===",
+      "value": "ZBIJMYKEKERRJBY3MUUEKEFUWBMG2TXCTN4ETRI7RJWNC3TD47LC7ADJTR3ZCGRE7JZY5DIRRLU22FB2HXG2MTY6DOHNIK7JS3KQ6VBW4LEK2===",
       "domain": "passeport.ants.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -260,19 +292,19 @@
   ],
   "headers": {
     "content-encoding": "br",
-    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-cb4a542c-7428-4bdb-97fe-a684e7cc10d4' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
+    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-cf8d0b4b-fb2d-42eb-be92-8f7d0f48f64a' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
     "content-type": "text/html; charset=utf-8",
     "cross-origin-opener-policy": "same-origin",
     "cross-origin-resource-policy": "same-origin",
-    "date": "Thu, 16 Jul 2026 07:55:55 GMT",
-    "etag": "W/\"12105b-kd8u8suncun6vndtVO8jIEkRYg8\"",
+    "date": "Tue, 25 Aug 2026 13:32:54 GMT",
+    "etag": "W/\"1218d8-eJ31gHsP6frOJMbnFbiuRtmkIvM\"",
     "origin-agent-cluster": "?1",
     "permissions-policy": "geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()\ncamera=(), geolocation=(), microphone=()",
     "referrer-policy": "strict-origin-when-cross-origin\nstrict-origin-when-cross-origin",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff\nnosniff",
-    "x-cp-via": "C2-eb978247-81f12a55",
+    "x-cp-via": "C2-cb1cebf1-c49e33bb",
     "x-dns-prefetch-control": "off",
     "x-download-options": "noopen",
     "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
@@ -282,7 +314,7 @@
   "endpoints": [
     {
       "hostname": "passeport.ants.gouv.fr",
-      "ip": "46.105.60.75",
+      "ip": "87.98.187.73",
       "geoip": {
         "continent": {
           "code": "EU",
@@ -338,7 +370,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.157.4",
+      "ip": "142.251.156.4",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -392,7 +424,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "64.233.180.94",
+      "ip": "142.251.214.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -446,7 +478,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.251.163.155",
+      "ip": "142.251.34.66",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -500,7 +532,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.62.148",
+      "ip": "142.251.215.166",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -554,7 +586,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "192.179.18.119",
+      "ip": "142.251.35.86",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -608,7 +640,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.155.119",
+      "ip": "142.251.157.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -662,7 +694,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "172.217.116.4",
+      "ip": "172.217.117.4",
       "geoip": {
         "continent": {
           "code": "NA",
