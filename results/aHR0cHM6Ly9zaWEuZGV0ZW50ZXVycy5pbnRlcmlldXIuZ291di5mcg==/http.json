@@ -9,12 +9,12 @@
     "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Tue, 25 Aug 2026 13:44:44 GMT",
+      "date": "Tue, 25 Aug 2026 20:17:32 GMT",
       "set-cookie": [
-        "AUTH_SESSION_ID=SlNKaXZhMGFvdGhaRTdiMUJ5Z01US3JxLkFPd01ENTJESllxVTVCc3VEVGQwdmZxTFVoNDRCaTU2VE5fYXF2LUFmSE1vcjBYbFdZajdFSlo1b2hoNWhCalI4WDFEaFRjREM5NlhSRkp1YlRka1h3.936ad44e963e-9960; Version=1; Path=/realms/detenteurs/; Secure; HttpOnly; SameSite=None",
-        "KC_AUTH_SESSION_HASH=\"6MFLzzL974BAblpKHHrTBY4rFN1/2PEQBzRYGafwoRQ+o5Ye5G5OQpjIIx8s7GxX\"; Version=1; Path=/realms/detenteurs/; Max-Age=60; Secure; SameSite=None",
-        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwia2lkIjoiNWMxMjc1NGItMzM0NS00MzgwLWJiOGQtMTc5ZmYwNDAxZTIzIn0..tk1crPHoq1ShcjwE.5FRC3BHMexrHZPHupMSdHz_z-WCbmgqYPYvKXUUnWEGEv7dbxUdRRa8Ax9onqbbfRMVQrORf2KWskJ0osvTypjOoAkj0NI7JuzbuMPpAqZo_Z0EPpzFabYEZxgxTCjx5q-nlddRARpIvk6KIJMZrEVAAIBKXkOT9zfD4qYJoZBsyguWAEJUVsmxqh6eDDmjYmrrh3uF3eDZ0SOnDwMkdFqKiNIsYlhdGCgpvoYEpSqVNHmkz0kiU6rj9mhkuO9cqLMTg_v8bNU_hhsIPZAdi22PRrzi2VNnwdOGyhgUyiCOvPIrA9Unt2vwUL_2DHFDrGIB6Urm4_liEmFVtuNa40_AAmgtszT3BZ005Qqx9qeeQafA3qTqsminmi5teqHInQkgKvnu82g1HuBdRsnzScvNj1Zy3kJmpbN6NTIcLMefLXrVDDdraof0nuSax52aV0z-LUvQSoDQzesiRtMEF0S8PGh86u76-8qYA8Qw-YVeX-JZauXt9Qj2SZh7I9pheY7yqCWVH1Gn14dClm_K26lL229n8csrYa5D5u1ggPtLy0JU57VeDFIoaWCGayGrtawjE8gUZC9LYTcWOM40fQSjehH6wm4GkyR60bushGoNxHtPHaelE3wLAPyfiTHZYdVpT-8B-0ZJp4LPYqfmhPmqLKikOvpNkpN6hgZho2GUw1FXslSI2lQHxIDWG6JhXcTpqqXTJV9j3N0FYC9PvVuF8iGHdDyDWAVMmPY87LbW5CcBN9zqWOu0kNSXypRGQxCQEOBRpOJCqWXA116pKy5Hjwp1IUzOaomVQjlSl8MA58DbHhM1VHpaKvQITn07qc7nklUlh9mZTDQU9w7lvbA7JB8POF6XY9eh5YGOtFg8KUsRXUeiXn_3c39g183plIqRBSmQKc2ua7wDiivFMStPAb1Nyo0dHWUOsJ1GK_vUbRnB-H6j4jrMqVGPrEnunJ57FHVnOk-hamNTF-eDu8SIk8kyRE6hu_U735naI24wI077j0IWrgTEA5rwddY7Fg2O0gDYxe1B9xU4Dc0SiU6ub2IOQnDbE3NJYgcckzitPGP3l-JWo2Ank.u-nhkRcHGxCyifsQrZ7Qdg; Version=1; Path=/realms/detenteurs/; Secure; HttpOnly; SameSite=None",
-        "YOMe1h3tgHKNQxhV6V7n5g__=v1R-DOgwSD2nI; Expires=Tue, 25-Aug-2026 15:44:44 GMT; Path=/"
+        "AUTH_SESSION_ID=YVF6YVJ3cW9IUWxCTVN2Qy11a2hCd1dELmo4LUxaWHVydE0tcGpJdXluMEZqM1kyUGtoMDVGVWVEYWpMdF96TjVialA0RG1Zem5ZYnlxS2g5WjVNZlBwY1B0WWJ1SEZnQy14R2xEZlVfdHB1cE13.936ad44e963e-9960; Version=1; Path=/realms/detenteurs/; Secure; HttpOnly; SameSite=None",
+        "KC_AUTH_SESSION_HASH=\"WhfyNdp2ZDtt1E1z8SVzmQ/153VLbhzt60gZ48tMqtjDpO4MIw0O+1PrMsDPUjzq\"; Version=1; Path=/realms/detenteurs/; Max-Age=60; Secure; SameSite=None",
+        "KC_RESTART=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwia2lkIjoiNWMxMjc1NGItMzM0NS00MzgwLWJiOGQtMTc5ZmYwNDAxZTIzIn0..TUkyxYXf0EQeAcKv.mUNz_p_gnwq73YHGUHpWjBH03cfUacBIhCXTCnoBFfyBBvYT0Z9YC1ziQCrwqSavimP2nnnBhZWoJ21oCTOjCA7QTxFP1QpoonqoV3rCm56JEOQ6G_oid0biXra4uGLrjLR0s1UeVUTJgJoW_YYk4rxgMlzPOFpLucJQXFXazxRifSja1FBbyTuVzv-7wWfwoqTmxQ_an0hM-XOrS7TnREDWzU31x7n1HMqIOwXOLw0YNVkeKtwhOLzx86qA8V8dmemFF11q3B1d8ISV-_B0gGh_qpYdXHOgszerH7H5-NpMy4R3D2s33W7JQyJFc4obzPIzXg_qRDmQUAqxEOYdGTfWtrqPkDIw63dLDMBWHjNlswQS8n7mF6xCMyYrESUoYAsj7CJADOJbz6wGNt46nnFsahXAFGYp-PNPnwLkABMCXPDv7ADraqX5zClBAyUI4dAE_GH1SlK0nNnk9CVMN2mxcfmlov4N2BkFK2uzfx6oQAKUyn9CeSg-1594m1vMhE-v9Avmw4FkNnGSIxMzNaKCiron_oOEW_KARdOcXyG0CrEnUt80ZM7q4q3Z0JEheEpkhQOd_JicQv_it1FiufLCuA2XD_AcI2mSghXYysSklPcWN-nY6r04t5j1G0BjD4Si_D4wonQDg7T7nHiE098d1CV5l4D6UkgOeHtRch0O9Ta8Ac3l_T9xKOmUdGvDdnJZNBzbSgnUHW8ZquVgVbVH_8wG1m-zr-Rh-OyLkPu9YMWJWV62xQQnPg8txJWT1lmSwQ7pSS491b-CUQ1NgdNYU01sSzE3gGelRdO8ph40DOkfw7XtqZ57HIj3UDyytGekBdup_JPb-IvvfYknCLShQ3F9dNtyC5kg-7OKaNdySb9EedLUNh_P6pgiOFVDvBeoqhuoE0DbDTRjwtbI-ilMhbZgR9z4jgM1a4KISj2Ha7feNURUfb5ITaAT8fSQkzwbDAibh4H1nB4AgiJFd1pRSG3OZUP7OJcuYAxTVykqpS_EKi1I_1EbXW7MY5E5CFCUy7jIsEwNSDjKz9wDuen3rv_CwLDKK4v-PW8XHHKpTG_xzOO4y6Id.F04QzBLVhfQrJFOlZiogqQ; Version=1; Path=/realms/detenteurs/; Secure; HttpOnly; SameSite=None",
+        "YOMe1h3tgHKNQxhV6V7n5g__=v1R-DOgwSD2nI; Expires=Tue, 25-Aug-2026 22:17:32 GMT; Path=/"
       ],
       "x-frame-options": "sameorigin, sameorigin",
       "x-xss-protection": "0",
@@ -29,8 +29,8 @@
       "x-oneagent-js-injection": "true",
       "x-ruxit-js-agent": "true",
       "vary": "Accept-Encoding",
-      "server-timing": "dtTrId;desc=\"424d8317be4be692b52d29c90b81e303\", dtSInfo;desc=\"0\", dtRpid;desc=\"676221617\"",
-      "content-length": "4321",
+      "server-timing": "dtTrId;desc=\"09de59506cab4cbbc6500ced7b483b18\", dtSInfo;desc=\"0\", dtRpid;desc=\"1957999885\"",
+      "content-length": "4322",
       "connection": "close"
     }
   },
@@ -106,11 +106,11 @@
         },
         "YOMe1h3tgHKNQxhV6V7n5g__": {
           "domain": "sia.detenteurs.interieur.gouv.fr",
-          "expires": "2026-08-25T15:44:44.000Z",
+          "expires": "2026-08-25T22:17:32.000Z",
           "path": "/",
           "port": null
         },
-        "mod_auth_openidc_state_Uj_JUV4au6UXCBD5eM3eFHFVrfg": {
+        "mod_auth_openidc_state_-dIjPxE5rmIFAhXMVsWvuYvRUaM": {
           "domain": "sia.detenteurs.interieur.gouv.fr",
           "httponly": true,
           "path": "/",
@@ -157,13 +157,13 @@
       "pass": true,
       "result": "redirection-to-https",
       "scoreModifier": 0,
-      "destination": "https://sia.detenteurs.interieur.gouv.fr/realms/detenteurs/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=detenteurs-oidc-client-app&state=S-lvOkjkUlI1Z_6xHmFxqcU0Bbo&redirect_uri=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2Fespace-detenteurs%2Fredirect_uri&nonce=4vOuIbR94cHU_E5PBeLxPZjOc7qiFqSUJS6lOlxR12k",
+      "destination": "https://sia.detenteurs.interieur.gouv.fr/realms/detenteurs/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=detenteurs-oidc-client-app&state=dRjoEhebsRKfvfWZR01Rqec6bWI&redirect_uri=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2Fespace-detenteurs%2Fredirect_uri&nonce=Bz9N_Rcdym4Hz9KnL92x8gsfCS645FPXaJdjFjWsJS4",
       "redirects": true,
       "route": [
         "http://sia.detenteurs.interieur.gouv.fr/",
         "https://sia.detenteurs.interieur.gouv.fr/",
         "https://sia.detenteurs.interieur.gouv.fr/espace-detenteurs",
-        "https://sia.detenteurs.interieur.gouv.fr/realms/detenteurs/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=detenteurs-oidc-client-app&state=S-lvOkjkUlI1Z_6xHmFxqcU0Bbo&redirect_uri=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2Fespace-detenteurs%2Fredirect_uri&nonce=4vOuIbR94cHU_E5PBeLxPZjOc7qiFqSUJS6lOlxR12k"
+        "https://sia.detenteurs.interieur.gouv.fr/realms/detenteurs/protocol/openid-connect/auth?response_type=code&scope=openid%20email&client_id=detenteurs-oidc-client-app&state=dRjoEhebsRKfvfWZR01Rqec6bWI&redirect_uri=https%3A%2F%2Fsia.detenteurs.interieur.gouv.fr%2Fespace-detenteurs%2Fredirect_uri&nonce=Bz9N_Rcdym4Hz9KnL92x8gsfCS645FPXaJdjFjWsJS4"
       ],
       "statusCode": 200
     },
