@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.alpes-maritimes.gouv.fr",
+        "size": 1299.5,
+        "nodes": 652,
+        "requests": 48,
+        "grade": "C",
+        "score": 56.0,
+        "ges": 1.88,
+        "water": 2.82,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-08-25 14:42:56.253899",
+        "page_type": "website"
+    }
+]
