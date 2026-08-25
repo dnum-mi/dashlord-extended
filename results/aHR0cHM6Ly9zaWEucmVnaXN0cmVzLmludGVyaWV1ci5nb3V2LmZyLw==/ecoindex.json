@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://sia.registres.interieur.gouv.fr/",
-        "size": 396.698,
+        "size": 401.812,
         "nodes": 65,
         "requests": 14,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.2,
         "water": 1.8,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-16 08:10:24.754468",
+        "date": "2026-08-25 13:46:49.723654",
         "page_type": null
     }
 ]
