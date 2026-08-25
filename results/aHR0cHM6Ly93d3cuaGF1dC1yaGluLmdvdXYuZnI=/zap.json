@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Thu, 16 Jul 2026 11:26:55",
-	"created": "2026-07-16T11:26:55.833468682Z",
+	"@generated": "Tue, 25 Aug 2026 17:20:18",
+	"created": "2026-08-25T17:20:18.178408013Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "304"
+			"statistic": "134"
 		},
 		{
 			"level": "Low",
@@ -18,7 +18,7 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "2"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -26,7 +26,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "94"
+			"statistic": "55"
 		},
 		{
 			"level": "Info",
@@ -34,7 +34,7 @@
 			"site": "https://www.haut-rhin.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "78"
+			"statistic": "85"
 		},
 		{
 			"level": "Info",
@@ -42,7 +42,7 @@
 			"site": "https://www.haut-rhin.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "7"
+			"statistic": "12"
 		},
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://www.haut-rhin.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "14"
+			"statistic": "1"
 		},
 		{
 			"level": "Info",
@@ -74,7 +74,7 @@
 			"site": "https://www.haut-rhin.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "12"
+			"statistic": "101"
 		},
 		{
 			"level": "Info",
@@ -93,6 +93,36 @@
 			"@ssl": "true",
 			"alerts": [ 
 				{
+					"pluginid": "10202",
+					"alertRef": "10202",
+					"alert": "Absence of Anti-CSRF Tokens",
+					"name": "Absence of Anti-CSRF Tokens",
+					"riskcode": "2",
+					"confidence": "1",
+					"riskdesc": "Medium (Low)",
+					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
+					"instances":[ 
+						{
+							"id": "165",
+							"uri": "https://www.haut-rhin.gouv.fr/Publications/Cartes-et-donnees",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Publications\/Cartes-et-donnees",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form method=\"post\" name=th\u00E9matiques class=\"fr-mb-3w text-center\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
+						}
+					],
+					"count": "1",
+					"systemic": false,
+					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
+					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ].</p>",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
+					"cweid": "352",
+					"wascid": "9",
+					"sourceid": "933"
+				},
+				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
 					"alert": "Content Security Policy (CSP) Header Not Set",
@@ -103,7 +133,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "9",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -113,9 +143,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "64",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -123,7 +153,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "66",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -133,7 +163,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "12",
+							"id": "0",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -141,19 +171,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"id": "13",
-							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
@@ -173,7 +193,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "7",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -183,9 +203,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "89",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -193,9 +213,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "99",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
+							"id": "61",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -203,19 +223,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "90",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "62",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "80",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -243,7 +263,67 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "171",
+							"uri": "https://www.haut-rhin.gouv.fr/actualites",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/actualites",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 40 [https://www.haut-rhin.gouv.fr/Actualites].\nPredicted response size: 340.\nResponse Body Length: 404."
+						},
+						{
+							"id": "168",
+							"uri": "https://www.haut-rhin.gouv.fr/carte-grise",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/carte-grise",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 111 [https://www.haut-rhin.gouv.fr/Demarches/Certificats-d-immatriculation-des-vehicules-anciennement-cartes-grises2].\nPredicted response size: 411.\nResponse Body Length: 688."
+						},
+						{
+							"id": "170",
+							"uri": "https://www.haut-rhin.gouv.fr/carte-identite",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/carte-identite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 57 [https://www.haut-rhin.gouv.fr/Demarches/Carte-d-identite2].\nPredicted response size: 357.\nResponse Body Length: 472."
+						},
+						{
+							"id": "167",
+							"uri": "https://www.haut-rhin.gouv.fr/demarches",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/demarches",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 39 [https://www.haut-rhin.gouv.fr/Demarches].\nPredicted response size: 339.\nResponse Body Length: 400."
+						},
+						{
+							"id": "173",
+							"uri": "https://www.haut-rhin.gouv.fr/etrangers",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/etrangers",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 67 [https://www.haut-rhin.gouv.fr/Demarches/Etrangers-dans-le-Haut-Rhin].\nPredicted response size: 367.\nResponse Body Length: 512."
+						},
+						{
+							"id": "166",
+							"uri": "https://www.haut-rhin.gouv.fr/horaires",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/horaires",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 60 [https://www.haut-rhin.gouv.fr/Outils/Horaires-et-coordonnees].\nPredicted response size: 360.\nResponse Body Length: 484."
+						},
+						{
+							"id": "57",
 							"uri": "https://www.haut-rhin.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -251,16 +331,36 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "Location header URI length: 44 [https://www.haut-rhin.gouv.fr/Nous-contacter].\nPredicted response size: 344.\nResponse Body Length: 420."
+						},
+						{
+							"id": "172",
+							"uri": "https://www.haut-rhin.gouv.fr/passe-port",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/passe-port",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 49 [https://www.haut-rhin.gouv.fr/Demarches/Passeport].\nPredicted response size: 349.\nResponse Body Length: 440."
+						},
+						{
+							"id": "169",
+							"uri": "https://www.haut-rhin.gouv.fr/permis-de-conduire",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/permis-de-conduire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 58 [https://www.haut-rhin.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 358.\nResponse Body Length: 476."
 						}
 					],
-					"count": "1",
+					"count": "9",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 44 [https://www.haut-rhin.gouv.fr/Nous-contacter].</p><p>Predicted response size: 344.</p><p>Response Body Length: 420.</p>",
+					"otherinfo": "<p>Location header URI length: 40 [https://www.haut-rhin.gouv.fr/Actualites].</p><p>Predicted response size: 340.</p><p>Response Body Length: 404.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "153"
+					"sourceid": "1126"
 				},
 				{
 					"pluginid": "10010",
@@ -273,7 +373,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "59",
+							"id": "10",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -303,7 +403,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "61",
+							"id": "12",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -333,7 +433,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "60",
+							"id": "11",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -363,7 +463,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "21",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -373,9 +473,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "85",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -383,7 +483,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "79",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -413,7 +513,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "22",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -423,9 +523,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "86",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -433,7 +533,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "80",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -463,7 +563,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "20",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -473,9 +573,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "84",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -483,7 +583,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "78",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -513,7 +613,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "19",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -523,9 +623,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "83",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -533,7 +633,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "77",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -543,7 +643,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "11",
+							"id": "26",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -553,7 +653,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "10",
+							"id": "25",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -583,7 +683,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "71",
+							"id": "15",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -593,9 +693,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "85",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "73",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -603,7 +703,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "70",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -613,7 +713,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "4",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -623,7 +723,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "5",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -653,7 +753,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "72",
+							"id": "16",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -663,9 +763,9 @@
 							"otherinfo": "1735023600, which evaluates to: 2024-12-24 07:00:00."
 						},
 						{
-							"id": "86",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "98",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -673,9 +773,9 @@
 							"otherinfo": "1735023600, which evaluates to: 2024-12-24 07:00:00."
 						},
 						{
-							"id": "109",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
+							"id": "74",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -683,19 +783,19 @@
 							"otherinfo": "1735023600, which evaluates to: 2024-12-24 07:00:00."
 						},
 						{
-							"id": "64",
+							"id": "105",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1735023600",
+							"otherinfo": "1735023600, which evaluates to: 2024-12-24 07:00:00."
+						},
+						{
+							"id": "71",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1735023600",
-							"otherinfo": "1735023600, which evaluates to: 2024-12-24 07:00:00."
-						},
-						{
-							"id": "91",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -723,7 +823,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "73",
+							"id": "17",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -733,17 +833,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "87",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "113",
+							"id": "99",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
@@ -753,9 +843,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "65",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
+							"id": "81",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -763,9 +853,19 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "95",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
+							"id": "106",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "75",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -793,7 +893,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "52",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -803,9 +903,9 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
 						},
 						{
-							"id": "39",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "162",
+							"uri": "https://www.haut-rhin.gouv.fr/Actions-de-l-Etat",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actions-de-l-Etat",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -813,7 +913,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
 						},
 						{
-							"id": "66",
+							"id": "161",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
 							"method": "GET",
@@ -823,7 +923,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
 						},
 						{
-							"id": "92",
+							"id": "109",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
@@ -833,7 +933,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
 						},
 						{
-							"id": "134",
+							"id": "163",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-Coronavirus-COVID-19",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-Coronavirus-COVID-19",
 							"method": "GET",
@@ -843,7 +943,7 @@
 							"otherinfo": "~\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD+r\\x0018\uFFFDz\u03C2\uFFFD\uFFFD'j\uFFFD\uFFFD\uFFFD\u03C29R\\x0003\uFFFD_"
 						},
 						{
-							"id": "96",
+							"id": "131",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
 							"method": "GET",
@@ -853,7 +953,7 @@
 							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDnjX\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD>i\uFFFDnjX\uFFFDz\u03DD\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD>J\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFDl\uFFFD\u05FE\uFFFDMz\uFFFD\uFFFD\uFFFD\uFFFDm"
 						},
 						{
-							"id": "118",
+							"id": "87",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
@@ -863,17 +963,27 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD(\uFFFD\u02E5\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFDnnX\uFFFD\uFFFD]5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\n\uFFFD\uFFFD[Z\uFFFD*'\uFFFD\u06FE\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "115",
+							"id": "164",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Enquetes-publiques",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Enquetes-publiques",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
+							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
+						},
+						{
+							"id": "110",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "php/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
-							"otherinfo": "\uFFFD\\x001a\\x0001\uFFFDnjX\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD>i\uFFFDnjX\uFFFDz\u03DD\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD~u\uFFFD>J\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFDl\uFFFD\u05FE\uFFFDMz\uFFFD\uFFFD\uFFFD\uFFFDm"
+							"evidence": "fr/var/ide_site/storage/images/actualites/espace-presse/12935-6-fre-FR/Espace-presse",
+							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD\u07B2\u01FF\uFFFDow\uFFFD\uFFFD~\uFFFD\uFFFD\\x0015\\x001f\u0132\uFFFD\uFFFD{\uFFFDkz\uFFFD\\x001e"
 						},
 						{
-							"id": "46",
+							"id": "88",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -883,7 +993,7 @@
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD~j\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD*\uFFFD\uFFFD\u05FE}\uFFFD,zx^\uFFFDo\uFFFD\uFFFD]\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT/\uFFFDzx\uFFFD\uFFFD\u06FE\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD{\uFFFD^\uFFFD\u01E7\uFFFD\uFFFD"
 						},
 						{
-							"id": "74",
+							"id": "132",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
 							"method": "GET",
@@ -893,7 +1003,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFDb\uFFFD\uFFFD>v\uF3ED\uFFFD\u07B7\uFFFD\uFFFD\u05EC\uFFFD*.\uFFFD\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDm5\uFFFD\uFFFD\uFFFDM\uFFFD</p>",
@@ -913,7 +1023,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "69",
+							"id": "13",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -923,9 +1033,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "81",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "95",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -933,29 +1043,29 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "105",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
+							"id": "68",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a id=\"1b37d663577f08f25fe54cee4ff4ff7c\" class=\"fr-nav__link\" target=\"_self\" href=\"/index.php/Actualites/Consultation-du-public\">\n                                 Consultation du public\n                            </a>",
+							"evidence": "<a id=\"1b37d663577f08f25fe54cee4ff4ff7c\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Consultation-du-public\">\n                                 Consultation du public\n                            </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "56",
+							"id": "102",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"1b37d663577f08f25fe54cee4ff4ff7c\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Consultation-du-public\">\n                                 Consultation du public\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "67",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"1b37d663577f08f25fe54cee4ff4ff7c\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Consultation-du-public\">\n                                 Consultation du public\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "88",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -983,7 +1093,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "18",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -993,9 +1103,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
-							"uri": "https://www.haut-rhin.gouv.fr/",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/",
+							"id": "100",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1003,9 +1113,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "82",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1013,7 +1123,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "76",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -1023,7 +1133,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "37",
+							"id": "59",
 							"uri": "https://www.haut-rhin.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1053,7 +1163,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "57",
+							"id": "8",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1063,9 +1173,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "78",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites",
+							"id": "91",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Agenda-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Agenda-public",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1073,9 +1183,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "100",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Archives-actualites-du-Prefet-et-des-Sous-Prefets-de-2016-a-2022",
+							"id": "63",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Consultation-du-public",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Consultation-du-public",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1083,19 +1193,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "93",
+							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Espace-presse",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Espace-presse",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "65",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "82",
-							"uri": "https://www.haut-rhin.gouv.fr/Actualites/Solidarite-avec-l-Ukraine",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/Solidarite-avec-l-Ukraine",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1123,7 +1233,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "70",
+							"id": "14",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1133,7 +1243,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "62",
+							"id": "69",
 							"uri": "https://www.haut-rhin.gouv.fr/Actualites/L-avenir-du-territoire-de-Fessenheim",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/Actualites\/L-avenir-du-territoire-de-Fessenheim",
 							"method": "GET",
@@ -1143,7 +1253,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "41",
+							"id": "58",
 							"uri": "https://www.haut-rhin.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1153,7 +1263,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "14",
+							"id": "3",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1163,7 +1273,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "16",
+							"id": "2",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1193,7 +1303,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "55",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1203,7 +1313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "4",
+							"id": "32",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1213,7 +1323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "31",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1243,7 +1353,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "54",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1253,7 +1363,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "3",
+							"id": "29",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1263,7 +1373,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "30",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1293,7 +1403,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "53",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1303,7 +1413,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "1",
+							"id": "27",
+							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
+							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "28",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1313,7 +1433,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
@@ -1333,7 +1453,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "56",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1343,7 +1463,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "5",
+							"id": "33",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1353,7 +1473,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "7",
+							"id": "34",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1383,17 +1503,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "18",
-							"uri": "https://www.haut-rhin.gouv.fr",
-							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
-							"method": "GET",
-							"param": "eZSESSID",
-							"attack": "",
-							"evidence": "eZSESSID",
-							"otherinfo": "cookie:eZSESSID"
-						},
-						{
-							"id": "36",
+							"id": "6",
 							"uri": "https://www.haut-rhin.gouv.fr",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr",
 							"method": "GET",
@@ -1403,7 +1513,7 @@
 							"otherinfo": "cookie:eZSESSID"
 						}
 					],
-					"count": "2",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p>cookie:eZSESSID</p>",
@@ -1423,7 +1533,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "23",
 							"uri": "https://www.haut-rhin.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1433,7 +1543,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "8",
+							"id": "24",
 							"uri": "https://www.haut-rhin.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.haut-rhin.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1450,7 +1560,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				}
 			]
 		}
