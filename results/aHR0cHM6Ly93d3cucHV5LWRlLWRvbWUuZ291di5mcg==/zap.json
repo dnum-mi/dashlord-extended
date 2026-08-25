@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Thu, 16 Jul 2026 11:15:08",
-	"created": "2026-07-16T11:15:08.961480315Z",
+	"@generated": "Tue, 25 Aug 2026 17:06:04",
+	"created": "2026-08-25T17:06:04.802532510Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,15 +10,7 @@
 			"site": "",
 			"key": "insight.log.error",
 			"description": "ZAP errors logged - see the zap.log file for details",
-			"statistic": "98"
-		},
-		{
-			"level": "Low",
-			"reason": "Warning",
-			"site": "",
-			"key": "insight.log.warn",
-			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "1"
+			"statistic": "170"
 		},
 		{
 			"level": "Info",
@@ -26,7 +18,7 @@
 			"site": "",
 			"key": "insight.network.failure",
 			"description": "Percentage of network failures",
-			"statistic": "38"
+			"statistic": "90"
 		},
 		{
 			"level": "Info",
@@ -34,7 +26,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.code.2xx",
 			"description": "Percentage of responses with status code 2xx",
-			"statistic": "84"
+			"statistic": "75"
 		},
 		{
 			"level": "Info",
@@ -42,7 +34,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.code.3xx",
 			"description": "Percentage of responses with status code 3xx",
-			"statistic": "12"
+			"statistic": "8"
 		},
 		{
 			"level": "Info",
@@ -50,47 +42,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.code.4xx",
 			"description": "Percentage of responses with status code 4xx",
-			"statistic": "3"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.puy-de-dome.gouv.fr",
-			"key": "insight.endpoint.ctype.application/javascript",
-			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "5"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.puy-de-dome.gouv.fr",
-			"key": "insight.endpoint.ctype.image/jpeg",
-			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.puy-de-dome.gouv.fr",
-			"key": "insight.endpoint.ctype.image/png",
-			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "3"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.puy-de-dome.gouv.fr",
-			"key": "insight.endpoint.ctype.image/svg+xml",
-			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "6"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://www.puy-de-dome.gouv.fr",
-			"key": "insight.endpoint.ctype.text/css",
-			"description": "Percentage of endpoints with content type text/css",
-			"statistic": "1"
+			"statistic": "16"
 		},
 		{
 			"level": "Info",
@@ -98,7 +50,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.endpoint.ctype.text/html",
 			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "80"
+			"statistic": "100"
 		},
 		{
 			"level": "Info",
@@ -114,7 +66,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
-			"statistic": "147"
+			"statistic": "10"
 		},
 		{
 			"level": "Info",
@@ -122,7 +74,7 @@
 			"site": "https://www.puy-de-dome.gouv.fr",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "90"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -132,46 +84,6 @@
 			"@port": "443",
 			"@ssl": "true",
 			"alerts": [ 
-				{
-					"pluginid": "10202",
-					"alertRef": "10202",
-					"alert": "Absence of Anti-CSRF Tokens",
-					"name": "Absence of Anti-CSRF Tokens",
-					"riskcode": "2",
-					"confidence": "1",
-					"riskdesc": "Medium (Low)",
-					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
-					"instances":[ 
-						{
-							"id": "156",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actions-de-l-Etat/Environnement-eau-prevention-des-risques-energie",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actions-de-l-Etat\/Environnement-eau-prevention-des-risques-energie",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form method=\"post\" name=Liste class=\"fr-mb-3w\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ]."
-						},
-						{
-							"id": "177",
-							"uri": "https://www.puy-de-dome.gouv.fr/Nous-contacter",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Nous-contacter",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"\" action=\"/contenu/action\" method=\"post\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"Adressepostale-theme\" \"c24286009cfbb9b98cbccedac2d464bb\" \"Codepostal-theme\" \"ContentNodeID\" \"ContentObjectAttribute_ezselect_selected_array_5286\" \"ContentObjectID\" \"dob-theme\" \"email-theme\" \"ezcoa-5298_captcha_theme\" \"nom-theme\" \"prenom-theme\" \"reglement-theme\" \"telephone-theme\" \"theme-0\" \"theme-1\" \"theme-2\" \"theme-3\" \"ViewMode\" \"Ville-theme\" \"votresujet-theme\" ]."
-						}
-					],
-					"count": "2",
-					"systemic": false,
-					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
-					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 2: \"\" ].</p>",
-					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
-					"cweid": "352",
-					"wascid": "9",
-					"sourceid": "578"
-				},
 				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
@@ -183,7 +95,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "3",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -193,7 +105,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
+							"id": "58",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -203,9 +115,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "75",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -213,7 +125,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "16",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -223,7 +135,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "17",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -253,7 +165,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "1",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -263,7 +175,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
+							"id": "56",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -273,29 +185,29 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "92",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2022",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2022",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "78",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "91",
+							"id": "96",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "69",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "73",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -313,76 +225,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "90003",
-					"alertRef": "90003",
-					"alert": "Sub Resource Integrity Attribute Missing",
-					"name": "Sub Resource Integrity Attribute Missing",
-					"riskcode": "2",
-					"confidence": "3",
-					"riskdesc": "Medium (High)",
-					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
-					"instances":[ 
-						{
-							"id": "158",
-							"uri": "https://www.puy-de-dome.gouv.fr/Demarches/Armes",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Demarches\/Armes",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=kvgcitqs3xfm9p541u0lowyzadejnhr2&callback=initWidget\"></script>",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity</p>",
-					"cweid": "345",
-					"wascid": "15",
-					"sourceid": "873"
-				},
-				{
-					"pluginid": "10003",
-					"alertRef": "10003",
-					"alert": "Vulnerable JS Library",
-					"name": "Vulnerable JS Library",
-					"riskcode": "2",
-					"confidence": "2",
-					"riskdesc": "Medium (Medium)",
-					"desc": "<p>The identified library appears to be vulnerable.</p>",
-					"instances":[ 
-						{
-							"id": "180",
-							"uri": "https://www.puy-de-dome.gouv.fr/var/ide_site/cache/public/javascript/6a24daa984f43dff0ef2fd42afe28d44_1727076244.js",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/6a24daa984f43dff0ef2fd42afe28d44_1727076244.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
-							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
-						},
-						{
-							"id": "170",
-							"uri": "https://www.puy-de-dome.gouv.fr/var/ide_site/cache/public/javascript/a1372bdf52fb00c5ca83e41f02aec05b_1727076244.js",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/var\/ide_site\/cache\/public\/javascript\/a1372bdf52fb00c5ca83e41f02aec05b_1727076244.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "f=\"3.4.1\",k=function(e,t){return new k.fn.init(e,t)},p=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;function d(e){var t=!!e&&\"length\"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&(\"array\"===n||0===t||\"number\"==typeof t&&0<t&&t-1 in e)}k.fn=k.prototype={jquery:f,",
-							"otherinfo": "The identified library jquery, version 3.4.1 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
-						}
-					],
-					"count": "2",
-					"systemic": false,
-					"solution": "<p>Upgrade to the latest version of the affected library.</p>",
-					"otherinfo": "<p>The identified library jquery, version 3.4.1 is vulnerable.</p><p>CVE-2020-11023</p><p>CVE-2020-11022</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
-					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
-					"cweid": "1395",
-					"wascid": "-1",
-					"sourceid": "1417"
-				},
-				{
 					"pluginid": "10044",
 					"alertRef": "10044-1",
 					"alert": "Big Redirect Detected (Potential Sensitive Information Leak)",
@@ -393,87 +235,7 @@
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
 						{
-							"id": "166",
-							"uri": "https://www.puy-de-dome.gouv.fr/accessibilite",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/accessibilite",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 75 [https://www.puy-de-dome.gouv.fr/Outils/Accessibilite-partiellement-conforme].\nPredicted response size: 375.\nResponse Body Length: 544."
-						},
-						{
-							"id": "164",
-							"uri": "https://www.puy-de-dome.gouv.fr/actualites",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/actualites",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 42 [https://www.puy-de-dome.gouv.fr/Actualites].\nPredicted response size: 342.\nResponse Body Length: 412."
-						},
-						{
-							"id": "162",
-							"uri": "https://www.puy-de-dome.gouv.fr/cni",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/cni",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 86 [https://www.puy-de-dome.gouv.fr/Demarches/Titres-d-identite/Carte-nationale-d-identite].\nPredicted response size: 386.\nResponse Body Length: 588."
-						},
-						{
-							"id": "179",
-							"uri": "https://www.puy-de-dome.gouv.fr/contenu/action?SearchText=ZAP",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/contenu\/action (SearchText)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 100 [https://www.puy-de-dome.gouv.fr/contenu/recherche/(searchtext)/ZAP/(change)/465172365?SearchText=ZAP].\nPredicted response size: 400.\nResponse Body Length: 644."
-						},
-						{
-							"id": "161",
-							"uri": "https://www.puy-de-dome.gouv.fr/demarches",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/demarches",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 41 [https://www.puy-de-dome.gouv.fr/Demarches].\nPredicted response size: 341.\nResponse Body Length: 408."
-						},
-						{
-							"id": "168",
-							"uri": "https://www.puy-de-dome.gouv.fr/donnees-personnelles-et-cookies",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/donnees-personnelles-et-cookies",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 87 [https://www.puy-de-dome.gouv.fr/Outils/Politique-de-protection-des-donnees-personnelles].\nPredicted response size: 387.\nResponse Body Length: 592."
-						},
-						{
-							"id": "159",
-							"uri": "https://www.puy-de-dome.gouv.fr/horaires",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/horaires",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 62 [https://www.puy-de-dome.gouv.fr/Outils/Horaires-et-coordonnees].\nPredicted response size: 362.\nResponse Body Length: 492."
-						},
-						{
-							"id": "167",
-							"uri": "https://www.puy-de-dome.gouv.fr/mentions-legales",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/mentions-legales",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 48 [https://www.puy-de-dome.gouv.fr/Mentions-legales].\nPredicted response size: 348.\nResponse Body Length: 436."
-						},
-						{
-							"id": "57",
+							"id": "70",
 							"uri": "https://www.puy-de-dome.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -481,46 +243,16 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "Location header URI length: 46 [https://www.puy-de-dome.gouv.fr/Nous-contacter].\nPredicted response size: 346.\nResponse Body Length: 428."
-						},
-						{
-							"id": "165",
-							"uri": "https://www.puy-de-dome.gouv.fr/passeport",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/passeport",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 69 [https://www.puy-de-dome.gouv.fr/Demarches/Titres-d-identite/Passeport].\nPredicted response size: 369.\nResponse Body Length: 520."
-						},
-						{
-							"id": "163",
-							"uri": "https://www.puy-de-dome.gouv.fr/permis-conduire",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/permis-conduire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 60 [https://www.puy-de-dome.gouv.fr/Demarches/Permis-de-conduire].\nPredicted response size: 360.\nResponse Body Length: 484."
-						},
-						{
-							"id": "160",
-							"uri": "https://www.puy-de-dome.gouv.fr/siv",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/siv",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 61 [https://www.puy-de-dome.gouv.fr/Demarches/Demarches-vehicules].\nPredicted response size: 361.\nResponse Body Length: 488."
 						}
 					],
-					"count": "12",
+					"count": "1",
 					"systemic": false,
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 75 [https://www.puy-de-dome.gouv.fr/Outils/Accessibilite-partiellement-conforme].</p><p>Predicted response size: 375.</p><p>Response Body Length: 544.</p>",
+					"otherinfo": "<p>Location header URI length: 46 [https://www.puy-de-dome.gouv.fr/Nous-contacter].</p><p>Predicted response size: 346.</p><p>Response Body Length: 428.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1201"
+					"sourceid": "153"
 				},
 				{
 					"pluginid": "10010",
@@ -533,7 +265,7 @@
 					"desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "4",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -563,7 +295,7 @@
 					"desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "6",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -593,7 +325,7 @@
 					"desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "5",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -613,36 +345,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10017",
-					"alertRef": "10017",
-					"alert": "Cross-Domain JavaScript Source File Inclusion",
-					"name": "Cross-Domain JavaScript Source File Inclusion",
-					"riskcode": "1",
-					"confidence": "2",
-					"riskdesc": "Low (Medium)",
-					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
-					"instances":[ 
-						{
-							"id": "157",
-							"uri": "https://www.puy-de-dome.gouv.fr/Demarches/Armes",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Demarches\/Armes",
-							"method": "GET",
-							"param": "https://snow.artifica.fr/api/js/guide?key=kvgcitqs3xfm9p541u0lowyzadejnhr2&callback=initWidget",
-							"attack": "",
-							"evidence": "<script async defer src=\"https://snow.artifica.fr/api/js/guide?key=kvgcitqs3xfm9p541u0lowyzadejnhr2&callback=initWidget\"></script>",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
-					"otherinfo": "",
-					"reference": "",
-					"cweid": "829",
-					"wascid": "15",
-					"sourceid": "873"
-				},
-				{
 					"pluginid": "90004",
 					"alertRef": "90004-2",
 					"alert": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
@@ -653,7 +355,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "14",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -663,7 +365,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "66",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -673,9 +375,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "86",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -703,7 +405,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "15",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -713,7 +415,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "67",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -723,9 +425,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "87",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -753,7 +455,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "13",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -763,7 +465,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "65",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -773,9 +475,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "85",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -793,86 +495,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10110",
-					"alertRef": "10110",
-					"alert": "Dangerous JS Functions",
-					"name": "Dangerous JS Functions",
-					"riskcode": "1",
-					"confidence": "1",
-					"riskdesc": "Low (Low)",
-					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
-					"instances":[ 
-						{
-							"id": "171",
-							"uri": "https://www.puy-de-dome.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval(",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>See the references for security advice on the use of these functions.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://v17.angular.io/guide/security</p>",
-					"cweid": "749",
-					"wascid": "-1",
-					"sourceid": "1223"
-				},
-				{
-					"pluginid": "110009",
-					"alertRef": "110009",
-					"alert": "Full Path Disclosure",
-					"name": "Full Path Disclosure",
-					"riskcode": "1",
-					"confidence": "1",
-					"riskdesc": "Low (Low)",
-					"desc": "<p>The full path of files which might be sensitive has been exposed to the client.</p>",
-					"instances":[ 
-						{
-							"id": "174",
-							"uri": "https://www.puy-de-dome.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.media.url%20+",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/  url_gouvernement   data[i].media.url  ",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/var/",
-							"otherinfo": ""
-						},
-						{
-							"id": "176",
-							"uri": "https://www.puy-de-dome.gouv.fr/+%20url_gouvernement%20+%20data%5Bi%5D.slug.replace(%22article%22,%22actualite%22)%20+",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/  url_gouvernement   data[i].slug.replace(\"article\",\"actualite\")  ",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/var/",
-							"otherinfo": ""
-						},
-						{
-							"id": "175",
-							"uri": "https://www.puy-de-dome.gouv.fr/'%20+%20url_toutes_actualites%20+%20'",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/'   url_toutes_actualites   '",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/var/",
-							"otherinfo": ""
-						}
-					],
-					"count": "3",
-					"systemic": false,
-					"solution": "<p>Disable directory browsing in your web server. Refer to the web server documentation.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://owasp.org/www-community/attacks/Full_Path_Disclosure</p>",
-					"cweid": "209",
-					"wascid": "13",
-					"sourceid": "1292"
-				},
-				{
 					"pluginid": "10063",
 					"alertRef": "10063-1",
 					"alert": "Permissions Policy Header Not Set",
@@ -883,7 +505,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "12",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -893,7 +515,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "64",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -903,9 +525,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "83",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -913,7 +535,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "24",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -923,7 +545,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "25",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -953,7 +575,7 @@
 					"desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "9",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -963,7 +585,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "61",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -973,9 +595,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "80",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -983,7 +605,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "38",
+							"id": "20",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -993,7 +615,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "21",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1023,7 +645,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "10",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1033,7 +655,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "71",
+							"id": "62",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1043,17 +665,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "104",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2022",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2022",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "84",
+							"id": "107",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
 							"method": "GET",
@@ -1063,9 +675,19 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "103",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
+							"id": "81",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "90",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1093,7 +715,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "50",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1103,7 +725,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFDm5\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "59",
+							"id": "68",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1113,17 +735,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFDm5\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "137",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actions-de-l-Etat/FRANCE-2030-un-plan-d-investissement-national-de-54-Mds-et-un-plan-regionalise-AURA-de-120M",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actions-de-l-Etat\/FRANCE-2030-un-plan-d-investissement-national-de-54-Mds-et-un-plan-regionalise-AURA-de-120M",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "-emploi-et-travail/FRANCE-2030-un-plan-d-investissement-national-de-54-Mds-et-un-plan-regionalise-AURA-de-120M",
-							"otherinfo": "\uFFFD\u9A56\uFFFD\uFFFDz\u07ED\uFFFD\uFFFD\u068A_\uFFFDD\\x0003B\\x0013\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFDej\uFFFD\uFFFD)\uFFFDz\uFFFDb\uFFFD\u01E6z{~\uFFFD\uFFFDb\uFFFDv\uFFFD\uFFFD\u05FE\u73CCv\u03DE\uFFFD\uFFFD\uFFFD\uFFFDZ\uFFFD\uFFFD\u0782*'jX\uFFFD{\uFFFD\\x0014D\\x000f\uFFFD{\uFFFDv\uFFFD"
-						},
-						{
-							"id": "110",
+							"id": "133",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites",
 							"method": "GET",
@@ -1133,17 +745,7 @@
 							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFDm5\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "88",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2022",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2022",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/layout/set/print/Actualites/Actualites-2022",
-							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
-						},
-						{
-							"id": "72",
+							"id": "113",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
 							"method": "GET",
@@ -1153,7 +755,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
 						},
 						{
-							"id": "85",
+							"id": "114",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
 							"method": "GET",
@@ -1163,7 +765,17 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
 						},
 						{
-							"id": "148",
+							"id": "94",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "/layout/set/print/Actualites/Actualites-2025",
+							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
+						},
+						{
+							"id": "93",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
@@ -1173,7 +785,7 @@
 							"otherinfo": "\uFFFDV\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\u694A\u05EC\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD>\uFFFDM\uFFFD"
 						},
 						{
-							"id": "135",
+							"id": "134",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Agenda-Public-d-Anne-Frackowiak-Jacobs-Prefete-du-Puy-de-Dome",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Agenda-Public-d-Anne-Frackowiak-Jacobs-Prefete-du-Puy-de-Dome",
 							"method": "GET",
@@ -1181,29 +793,9 @@
 							"attack": "",
 							"evidence": "fr/var/ide_site/storage/images/actualites/agenda-public-d-anne-frackowiak-jacobs-prefete-du-puy-de-dome/201406-110-fre-FR/Agenda-Public-d-Anne-Frackowiak-Jacobs-Prefete-du-Puy-de-Dome",
 							"otherinfo": "~\uFFFD\uFFFDj\uFFFD\uFFFDu\uFFFD\uFFFD\u05FF\uFFFD\uFFFD+j\\x0007\uFFFD\uFFFDf\uFFFDz\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFDzwZ\uFFFD\uFFFD\uFFFD\uFFFD'>w\u69DD\uF7ED\uFFFD$\uFFFD\\x0008\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD^\uFFFD\u06FE\uFFFD\uFFFDu\uF762g\uFFFD\uFFFDMx\u04EF\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFDG\uFFFD zwZ\uFFFD\uFFFD\uFFFD\uFFFD'>w\uFFFD'\uFFFD\uF16D\uFFFD$\uFFFD\\x0008\uFFFD\uFFFD\uFFFDZr\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD^\uFFFD\u06FE>\uFFFDu\uF0E2g"
-						},
-						{
-							"id": "105",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Archives-2014-2021",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Archives-2014-2021",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "fr/Actualites/Archives-2014-2021",
-							"otherinfo": "~\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD+r\\x0018\uFFFDz\u03F6\uFFFD^>\uFFFDM\uFFFD"
-						},
-						{
-							"id": "108",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Salle-de-presse",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Salle-de-presse",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/Actualites/Archives-2014-2021",
-							"otherinfo": "\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFDm5\uFFFD\uFFFD\uFFFD"
 						}
 					],
-					"count": "11",
+					"count": "8",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>\uFFFD\\x0007-\uFFFD\uFFFDb\uFFFD\uFFFD?\\x0002\uFFFD!\uFFFD\uFFFD\uFFFD\uFFFDm5\uFFFD\uFFFD\uFFFD</p>",
@@ -1211,76 +803,6 @@
 					"cweid": "319",
 					"wascid": "13",
 					"sourceid": "1"
-				},
-				{
-					"pluginid": "10019",
-					"alertRef": "10019-1",
-					"alert": "Content-Type Header Missing",
-					"name": "Content-Type Header Missing",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The Content-Type header was either missing or empty.</p>",
-					"instances":[ 
-						{
-							"id": "169",
-							"uri": "https://www.puy-de-dome.gouv.fr/extension/ide/design/ide_dsfr_design/images/favicon/manifest.webmanifest",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/extension\/ide\/design\/ide_dsfr_design\/images\/favicon\/manifest.webmanifest",
-							"method": "GET",
-							"param": "content-type",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"systemic": false,
-					"solution": "<p>Ensure each page is setting the specific and appropriate content-type value for the content being delivered.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p>",
-					"cweid": "345",
-					"wascid": "12",
-					"sourceid": "1218"
-				},
-				{
-					"pluginid": "10027",
-					"alertRef": "10027",
-					"alert": "Information Disclosure - Suspicious Comments",
-					"name": "Information Disclosure - Suspicious Comments",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
-					"instances":[ 
-						{
-							"id": "173",
-							"uri": "https://www.puy-de-dome.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "ainChildren = Array.from(main.children);",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"id": "172",
-							"uri": "https://www.puy-de-dome.gouv.fr/extension/ide/design/standard/javascript/tarteaucitron/tarteaucitron-202106.js",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/extension\/ide\/design\/standard\/javascript\/tarteaucitron\/tarteaucitron-202106.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "dow width for media query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 3 times, the first in likely comment: \"// get the real window width for media query\", see evidence field for the suspicious comment/snippet."
-						}
-					],
-					"count": "2",
-					"systemic": false,
-					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//var mainChildren = Array.from(main.children);\", see evidence field for the suspicious comment/snippet.</p>",
-					"reference": "",
-					"cweid": "615",
-					"wascid": "13",
-					"sourceid": "1223"
 				},
 				{
 					"pluginid": "10109",
@@ -1293,7 +815,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "7",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1303,7 +825,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "68",
+							"id": "59",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1313,17 +835,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "97",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2022",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2022",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a id=\"0550c6348ba5ff749e1787d8c6468b70\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Agenda-Public-d-Anne-Frackowiak-Jacobs-Prefete-du-Puy-de-Dome\">\n                                Agenda Public d'Anne Frackowiak-Jacobs, Pr\u00E9f\u00E8te du Puy-de-D\u00F4me\n                            </a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
-							"id": "81",
+							"id": "101",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
 							"method": "GET",
@@ -1333,9 +845,19 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "98",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
+							"id": "78",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a id=\"0550c6348ba5ff749e1787d8c6468b70\" class=\"fr-nav__link\" target=\"_self\" href=\"/Actualites/Agenda-Public-d-Anne-Frackowiak-Jacobs-Prefete-du-Puy-de-Dome\">\n                                Agenda Public d'Anne Frackowiak-Jacobs, Pr\u00E9f\u00E8te du Puy-de-D\u00F4me\n                            </a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"id": "84",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1363,7 +885,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "11",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1373,7 +895,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "63",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1383,9 +905,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
+							"id": "82",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1393,9 +915,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "86",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
+							"id": "91",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1403,7 +925,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "72",
 							"uri": "https://www.puy-de-dome.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1433,7 +955,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "2",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1443,7 +965,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "57",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1453,17 +975,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "93",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2022",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2022",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "must-revalidate, no-cache, private",
-							"otherinfo": ""
-						},
-						{
-							"id": "79",
+							"id": "97",
 							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2023",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2023",
 							"method": "GET",
@@ -1473,9 +985,19 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "94",
-							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2024",
-							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2024",
+							"id": "74",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2025",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2025",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "must-revalidate, no-cache, private",
+							"otherinfo": ""
+						},
+						{
+							"id": "76",
+							"uri": "https://www.puy-de-dome.gouv.fr/Actualites/Actualites-2026",
+							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/Actualites\/Actualites-2026",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1503,7 +1025,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "8",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1513,7 +1035,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "69",
+							"id": "60",
 							"uri": "https://www.puy-de-dome.gouv.fr/",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/",
 							"method": "GET",
@@ -1523,7 +1045,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "58",
+							"id": "71",
 							"uri": "https://www.puy-de-dome.gouv.fr/nous-contacter",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/nous-contacter",
 							"method": "GET",
@@ -1533,7 +1055,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "37",
+							"id": "18",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1543,7 +1065,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "35",
+							"id": "19",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1573,7 +1095,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "53",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1583,7 +1105,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "25",
+							"id": "32",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1593,7 +1115,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "30",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1623,7 +1145,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "52",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1633,7 +1155,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "28",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1643,7 +1165,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "29",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1673,7 +1195,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "2",
+							"id": "51",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1683,7 +1205,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "26",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1693,7 +1215,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "27",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1723,7 +1245,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "54",
 							"uri": "https://www.puy-de-dome.gouv.fr",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr",
 							"method": "GET",
@@ -1733,7 +1255,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "33",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1743,7 +1265,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
+							"id": "31",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1803,7 +1325,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "23",
 							"uri": "https://www.puy-de-dome.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1813,7 +1335,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "32",
+							"id": "22",
 							"uri": "https://www.puy-de-dome.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/www.puy-de-dome.gouv.fr\/sitemap.xml",
 							"method": "GET",
