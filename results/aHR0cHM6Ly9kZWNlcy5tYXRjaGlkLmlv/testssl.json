@@ -352,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "52 >= 30 days"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 15 days (12)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -366,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "HIGH",
               "finding"      : "2026-09-07 02:22"
           }
 ,         {
@@ -556,7 +556,7 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1784211639"
+              "finding"      : "1787689819"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "deces.matchid.io/51.159.11.157",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "70"
           }
 ]
