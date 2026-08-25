@@ -6,10 +6,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://genii-script.tolk.ai/lightchat-ext.js"
-    },
-    {
-      "type": "unknown",
       "url": "https://genii-script.tolk.ai/lightchat.css"
     },
     {
@@ -60,7 +56,7 @@
   "cookies": [
     {
       "name": "bot_mitigation_cookie",
-      "value": "JZOJ7SIPZME3UUZ5KWOQ2E4DGVE5OMZ52XYDOCNTNHDKBTE7XISGZD7O2AB6ITNJSRPV5BBCJPXVGRIIAR57NQCRV6XZA4EASDP4KHIY7C4WS===",
+      "value": "S52WAISM7TIQIJIZZOMBRZ6UWJRVCVP3EMMKUBBMYXHIXS45GD5BZNZXAF3H34DVDUZ2PFYZE5LA6JDLR4UNI4SVGZL7U2F47CTVTSHQ4CVYA===",
       "domain": "immatriculation.ants.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -76,12 +72,12 @@
   ],
   "headers": {
     "content-encoding": "br",
-    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-1b310cc1-9411-4a33-9f6f-ab562c278c9b' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
+    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-8ad5b1ea-81d2-4ba4-a1f3-a7c932e79c37' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
     "content-type": "text/html; charset=utf-8",
     "cross-origin-opener-policy": "same-origin",
     "cross-origin-resource-policy": "same-origin",
-    "date": "Thu, 16 Jul 2026 08:12:13 GMT",
-    "etag": "W/\"144c45-JO4V0dsNi041TOb6h3/62bVMcm8\"",
+    "date": "Tue, 25 Aug 2026 13:46:32 GMT",
+    "etag": "W/\"144c45-V1kbvKvrHsEXmhBnoSDng2BRw5o\"",
     "origin-agent-cluster": "?1",
     "permissions-policy": "geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()\ncamera=(), geolocation=(), microphone=()",
     "referrer-policy": "strict-origin-when-cross-origin\nstrict-origin-when-cross-origin",
@@ -90,7 +86,7 @@
     "transfer-encoding": "chunked",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff\nnosniff",
-    "x-cp-via": "C2-c4bfa153-0c79d9a4",
+    "x-cp-via": "C3-954e78e1-91773a05",
     "x-dns-prefetch-control": "off",
     "x-download-options": "noopen",
     "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
@@ -156,7 +152,7 @@
     },
     {
       "hostname": "genii-script.tolk.ai",
-      "ip": "172.66.44.217",
+      "ip": "172.66.47.39",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -232,7 +228,7 @@
     },
     {
       "hostname": "storage.googleapis.com",
-      "ip": "142.251.111.207",
+      "ip": "142.251.35.91",
       "geoip": {
         "continent": {
           "code": "NA",
