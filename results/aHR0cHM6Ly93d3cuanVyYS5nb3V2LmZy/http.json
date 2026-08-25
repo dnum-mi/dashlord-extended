@@ -9,11 +9,11 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 16 Jul 2026 10:19:20 GMT",
+      "date": "Tue, 25 Aug 2026 16:12:44 GMT",
       "cache-control": "must-revalidate, no-cache, private",
       "pragma": "no-cache",
-      "expires": "Thu, 16 Jul 2026 08:19:20 GMT",
-      "last-modified": "Thu, 16 Jul 2026 10:19:20 GMT",
+      "expires": "Tue, 25 Aug 2026 14:12:44 GMT",
+      "last-modified": "Tue, 25 Aug 2026 16:12:44 GMT",
       "served-by": "www.jura.gouv.fr",
       "content-language": "fr-FR",
       "vary": "X-User-Hash,Accept-Encoding",
@@ -22,7 +22,7 @@
       "x-cache": "Miss",
       "accept-ranges": "bytes",
       "set-cookie": [
-        "eZSESSID=2iun9bduj4smrhk0i46mk57nf3; path=/"
+        "eZSESSID=4o6mmc4f7migutb4li8odloeg7; path=/"
       ],
       "transfer-encoding": "chunked",
       "connection": "close"
