@@ -9,12 +9,12 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Thu, 16 Jul 2026 07:43:15 GMT",
+      "date": "Tue, 25 Aug 2026 13:22:08 GMT",
       "x-frame-options": "DENY",
-      "last-modified": "Thu, 09 Jul 2026 07:20:25 GMT",
-      "etag": "\"1445c-65628752fa040\"",
+      "last-modified": "Mon, 17 Aug 2026 12:41:29 GMT",
+      "etag": "\"1533a-6593d7d389040\"",
       "accept-ranges": "bytes",
-      "content-length": "83036",
+      "content-length": "86842",
       "x-xss-protection": "1; mode=block",
       "connection": "close",
       "content-type": "text/html; charset=UTF-8"
