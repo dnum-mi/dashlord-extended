@@ -5,8 +5,8 @@
     "cache-control": "max-age=0, must-revalidate, private",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Thu, 16 Jul 2026 07:54:12 GMT",
-    "expires": "Thu, 16 Jul 2026 07:54:12 GMT",
+    "date": "Tue, 25 Aug 2026 13:30:53 GMT",
+    "expires": "Tue, 25 Aug 2026 13:30:53 GMT",
     "vary": "Accept-Encoding"
   },
   "endpoints": [
