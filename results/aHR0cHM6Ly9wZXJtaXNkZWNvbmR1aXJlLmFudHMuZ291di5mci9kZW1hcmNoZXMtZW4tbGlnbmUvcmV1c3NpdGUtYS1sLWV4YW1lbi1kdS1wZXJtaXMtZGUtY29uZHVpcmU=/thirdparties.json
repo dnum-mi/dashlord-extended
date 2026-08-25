@@ -13,10 +13,6 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://genii-script.tolk.ai/lightchat-ext.js"
-    },
-    {
       "type": "cloudflare",
       "url": "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=turnstileLoad",
       "details": {
@@ -26,7 +22,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/turnstile/v0/b/3104729c556c/api.js",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/e694063b5082/api.js",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -38,7 +34,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/x2t9l/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/i5q8d/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -50,7 +46,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bf9ffeefa4ad06/eNRZvfDkHekkRtArXczBNriamcqSPBNdXpb_ajNrDmk-1784190417-1.2.1.1-wMHK9di_ZS7d5Rzp.1oSzn4cmTiyn3_tireknYtdcUxdMoleWDU5j36uuxQnbp0V",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/1926215453:1787662820:pk9No2XfivcZOBdAS60h2vV_L6F3QvtwqM_d0iuyLlM/a30b1f2bcbe7dc66/u6sMzhPu.2DlWVRAod0BtwbMq3hi5qVlKsbgqcde5qQ-1787666413-1.2.1.1-aMvbNj7pC8p0lDzNmpg2qZh7DNO8ydo6i0JQNM5whb99SSE90EGFbecvij0fbdKC",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -74,7 +70,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/turnstile/v0/b/3104729c556c/api.js",
+      "url": "https://challenges.cloudflare.com/turnstile/v0/b/e694063b5082/api.js",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -82,7 +78,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/rulb6/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/vopjd/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -98,23 +94,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa002dc1fad06/JFJ2b.YRWDa2wPcObCAd7QsKDuSddlXq8Fe0V42pxEQ-1784190418-1.2.1.1-ZuHnoJjTLag7_Jvpa.Nh9Q12ODFaKSLp2nWnkZlkoWZ40AbUqGwROVk2IDTV3cQf",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1bfa002dc1fad06/1784190418610/2eb641fe449e49281dd68c5295708d52e0255aef8fce74777e8a4d1520669db5/MfXqF0v1IMeykzN",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1bfa002dc1fad06/JFJ2b.YRWDa2wPcObCAd7QsKDuSddlXq8Fe0V42pxEQ-1784190418-1.2.1.1-ZuHnoJjTLag7_Jvpa.Nh9Q12ODFaKSLp2nWnkZlkoWZ40AbUqGwROVk2IDTV3cQf",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/1926215453:1787662820:pk9No2XfivcZOBdAS60h2vV_L6F3QvtwqM_d0iuyLlM/a30b1f30af63dc66/6XI24ib0vaiXV1Sq06ISK2W8M2rtLFF67UKTYaEe.7s-1787666414-1.2.1.1-ThDEaUJh9kC9MyvpJYtyuDU2wKfGp8D0nUxzIoTD1mgeCIFp_wNgr8DqbHI_ZSOF",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -154,7 +134,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a1bfa002dc1fad06/1784190418612/5831Q0uUUCb6sXu",
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a30b1f30af63dc66/6XI24ib0vaiXV1Sq06ISK2W8M2rtLFF67UKTYaEe.7s-1787666414-1.2.1.1-ThDEaUJh9kC9MyvpJYtyuDU2wKfGp8D0nUxzIoTD1mgeCIFp_wNgr8DqbHI_ZSOF",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -162,7 +142,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa002dc1fad06/JFJ2b.YRWDa2wPcObCAd7QsKDuSddlXq8Fe0V42pxEQ-1784190418-1.2.1.1-ZuHnoJjTLag7_Jvpa.Nh9Q12ODFaKSLp2nWnkZlkoWZ40AbUqGwROVk2IDTV3cQf",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a30b1f30af63dc66/1787666414476/3bf383303d67987e78e38348574ec1928f1f4d75c8b05213abf942faedbd3a74/7VLllU0c6joQFJCM1H9PW8.1Zm9Ld3sF41cgGOWQIlA-1787666414-1.3.1.1-3gT1CtaNV9jbyubNDXWwR6fcGLBNm3g5qaHvUVqyv3YuW.WWQjRpAdKwVH_60ZUUpBsSsN1vmlCYyQ_f_fq.FUjhOh2dbc5tOLmkbPebi8y624cByS39HqHa0oW31pypFinkekBUfRDOSXLj99igq4CygikoJTY3W02LMpRWLNZnbWhLAlVhzM.6fRSqEeBSRThidAYgYeXAYcEBnw25UR1d1NH5tMaG667hCeg7RQK8AQTyI8_75StoOdfp7ZpCCxBnwkmOm1yKzs0ESLq5VF5usnOgRPusvrILprdfNSl6RfYSNKCdJ8Fo34tSDt38TQvuDCj9ESzkFPzhsIPCgwigYIjfGn6VewYLIc93JBlGn66RPGdhJQB_uLfOnhIjVsFYKsCrWOMLTdWlh78a1SQZ6sb5YrUl0WaPV0gTtM.kdFc4m.yFPJ4VbXb2VNRIUWFlNr.kZmd8_47i8OV_UOQxy.TAqWDFXtWoFdx.CrPmswt08CNP3VHpTTOLeSg6uLJU6VsP09BAQaE9MJ4xqxB4hGD3GY.TQXvYl3JSlyQgwY06l6cDrvri4k2eCr9IvvryETkEuJ.zaSPNd_XGujccTXaacNALqt6bYUXER1XP4aohA6Y2EDm8IfQDi1.dTehlXw5lT9lRqD2fGLXQzxQgvS4pJBRuHV375rsrRsbkETs0fJBWSG9poM0uFsPRv0P3qENcDWJ0LLEXRc5hthcuOP1IYaJ9IhNcG7vv0kH4wPf5ZTDDVYidAkz77DDhr2Xx_j5V3JO7dRb4AVSjAfgOt4FxA0oynT3oW.jP98fRB.1KLuVENWljVdH.S32q",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -170,7 +150,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rchFJDMYfr1WTV1ZfPsv3PfNDjQbIacR5Um5cvfHbKUO_Y-1784190418-1.3.1.1-_3.pQwLQgHGBxQ.SNVp3A1jvihf7tqpAFLCnTfk6ljg/rulb6/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/failure_retry/normal?lang=auto",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a30b1f30af63dc66/1787666414478/ycKGDBzcie8knyy9S1WAJjsRJ4WqoiXH.sc1tMn3e4g-1787666414-1.3.1.1-De_PJgTqlvTfABbxkfYH_tAYRR_u42YL4LT.SnCffgRU06OLLpynbjQh4aIs8hJ_a8ZMbLD8a0w9OnFURnZ_ZHLmpClZ_i87Iqvn5Xw6WUbwK9PUhiOG3G6XjctumvaZe3yWu7wTGKFsoTZKvbVoaRLy65q0AbJgWHdxylJLOCAtz0opDrwSr8cn2DLy1Lyv4YoQ_1Q.EkxgcIun3EOdpK1TR1JPtnGY3Gx4Lr6.V3RwNzCwWasVVZXcs48RXd9hAYeZ0G_jVbX92SpCYLF9_mogmqTbK_0WXkOVYm8yKZXAT8xDRPTyP1KDkSKRUTbqGOyz9igq2nJhMn_Ag9atfXdfH2n98osTbkf4isCVnBBmYWlIiJ34ykySmFGHn2DJKG_xhkbZ3PV2SgPZek56wdf5DgNzbnf7IEWa_D9BSp_b73ke0pebfl7L6q0OkVZNlFHyfxTTKNf9dLfiysIEHXFPEKUtFDbiDCP59IV66vyJdr5JNkVp8PT0O2kSf_nc1cf9yARQqpZdtD4bBbuQGfAiv3pZkGgWMANm_ZFuocaH2GbvauwPKYYnyk80WhKIhyY1ElY.Z61QMdrN1kKoPUG0_0c6K3efmmwtLzBsbC6UBaSicj.N5N4CceJ9LAyF2lO30FaSJnAyDXMELdIFXg0EDZt_i8LXtJ6RU2Pt8fUPbTkTOt0h.BhXw6oRnCzdtvIgJ0UbbIurthQa5lwyQJdosQBNC3R3XgqA3Zuqss4",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -178,135 +158,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa04c7963ad06/Xsf6XVP9WEy1Pg5t2c1LwF_W5iyfVidpKQH6f69gf8k-1784190430-1.2.1.1-.s4ugkKM9tnQKt.v6slbvxXIYG3sBmJ7eD55W_c4Dzcm_Lv7B7wyEpNdKFiM3V.3",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1bfa04c7963ad06/1784190430388/1cacb71fb91ed59ecf158554ac52b8723568cac53e3505001230388d1424bd4b/NTKoY63B-RvrKfQ",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1bfa04c7963ad06/Xsf6XVP9WEy1Pg5t2c1LwF_W5iyfVidpKQH6f69gf8k-1784190430-1.2.1.1-.s4ugkKM9tnQKt.v6slbvxXIYG3sBmJ7eD55W_c4Dzcm_Lv7B7wyEpNdKFiM3V.3",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a1bfa04c7963ad06/1784190430389/JjwYTe4HOn67Sel",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa04c7963ad06/Xsf6XVP9WEy1Pg5t2c1LwF_W5iyfVidpKQH6f69gf8k-1784190430-1.2.1.1-.s4ugkKM9tnQKt.v6slbvxXIYG3sBmJ7eD55W_c4Dzcm_Lv7B7wyEpNdKFiM3V.3",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch3ytlszrRzeoV6iRQgMrGaKgDEaKxdhs1UFVKSVQ1Mq8-1784190430-1.3.1.1-CScPGlLu7qGo6KpjfZnpcXkSbLz1OCpcrnAIDwzXh8M/rulb6/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/failure_retry/normal?lang=auto",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa0961eabad06/3JUI_8ndhQHkhoI1j.EQ21.bsE_W9CRqmQwOQC5JL.0-1784190441-1.2.1.1-o4xcX0YSk0cZIjRTG3QYbjopmjk3p4Oxt_UQywOxcBxDN1FiMBrkdUetABd27kX1",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1bfa0961eabad06/3JUI_8ndhQHkhoI1j.EQ21.bsE_W9CRqmQwOQC5JL.0-1784190441-1.2.1.1-o4xcX0YSk0cZIjRTG3QYbjopmjk3p4Oxt_UQywOxcBxDN1FiMBrkdUetABd27kX1",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1bfa0961eabad06/1784190442184/9c2352a485833a16b69340b48320c269d71e7bb95bb33063abbe0c1957922e88/VGaCo9Zq1lX3_CA",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a1bfa0961eabad06/1784190442186/BlmntXlKTivB4ui",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa0961eabad06/3JUI_8ndhQHkhoI1j.EQ21.bsE_W9CRqmQwOQC5JL.0-1784190441-1.2.1.1-o4xcX0YSk0cZIjRTG3QYbjopmjk3p4Oxt_UQywOxcBxDN1FiMBrkdUetABd27kX1",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rchlxgSlS92oamqtWCUrRyiL.nlTY7F5BpxrDs2FbKqGvA-1784190441-1.3.1.1-8ryq_PLK1FJJwOvXSh8GKGLOt3GLFw2hqhIpRZVtqpg/rulb6/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/failure_retry/normal?lang=auto",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa0e09b2bad06/peySr4CZG02aKMsYVn8VxOOKFPv8koBKd0YM7QiVids-1784190453-1.2.1.1-hdXy3gFAE7UKwFXm5CoRP_tuK0YWCr1GU_X8o6mm1Q4AFNAfVuc8gOGd6SBg7vhb",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a1bfa0e09b2bad06/1784190454091/f504b1d84e91098d2566d8d0decfd946caa36be2719d510c2de9783a544dc30a/ubVnhpoUPb-1V_M",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a1bfa0e09b2bad06/peySr4CZG02aKMsYVn8VxOOKFPv8koBKd0YM7QiVids-1784190453-1.2.1.1-hdXy3gFAE7UKwFXm5CoRP_tuK0YWCr1GU_X8o6mm1Q4AFNAfVuc8gOGd6SBg7vhb",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a1bfa0e09b2bad06/1784190454092/2t_t_F07qef_swr",
-      "details": {
-        "id": "cloudflare",
-        "message": "Host files locally"
-      }
-    },
-    {
-      "type": "cloudflare",
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/3963921409:1784188818:q6MQuZr-vUX58nkqK-dpmi07AGv1EdbJGEV5hZaL1QU/a1bfa0e09b2bad06/peySr4CZG02aKMsYVn8VxOOKFPv8koBKd0YM7QiVids-1784190453-1.2.1.1-hdXy3gFAE7UKwFXm5CoRP_tuK0YWCr1GU_X8o6mm1Q4AFNAfVuc8gOGd6SBg7vhb",
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/1926215453:1787662820:pk9No2XfivcZOBdAS60h2vV_L6F3QvtwqM_d0iuyLlM/a30b1f30af63dc66/6XI24ib0vaiXV1Sq06ISK2W8M2rtLFF67UKTYaEe.7s-1787666414-1.2.1.1-ThDEaUJh9kC9MyvpJYtyuDU2wKfGp8D0nUxzIoTD1mgeCIFp_wNgr8DqbHI_ZSOF",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -316,7 +168,7 @@
   "cookies": [
     {
       "name": "bot_mitigation_cookie",
-      "value": "P46A4ATDS67V2I53OKKLQWTTQMWRKBTQODQZ4TF4BZ7OAPFBILXBHQ25DH2HQ436ZYWJPHUPN3P6TVLOXPKBEZT34ZY3GC4Y5IWSCRJD6LNSA===",
+      "value": "EFDPCM7ANAN2QSKOZQQS2B3T6ZTUCLDFPJUFIYWPN4PAJQDAGXXUJCLZZIQCE2PQLJSQ3X3R7LWMDLAGCBZ5FKAHQ3SFP6EF3VNLHF23G4T6W===",
       "domain": "permisdeconduire.ants.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -332,12 +184,12 @@
   ],
   "headers": {
     "content-encoding": "br",
-    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-700fcaf5-94ce-4077-8577-5a1656b14f13' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
+    "content-security-policy": "default-src 'self';style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://storage.googleapis.com/genii-public/ https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;script-src 'self' https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-afbbfa68-ad96-4082-8e9a-a3eeaa61b348' https://captcha.liveidentity.com https://cdn.woopic.com/ https://cake.cdn.s.woopic.com/ https://www.cybermalveillance.gouv.fr/build-widget/ https://genii-script.tolk.ai https://genii-messages-01.tolk.ai https://genii-messages-02.tolk.ai https://genii-messages-03.tolk.ai https://genii-messages-04.tolk.ai https://genii-messages-05.tolk.ai https://genii-messages-06.tolk.ai;frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/ https://player.vimeo.com/ https://www.cybermalveillance.gouv.fr/;connect-src 'self' https://geo.api.gouv.fr https://*.ants.gouv.fr https://genii-api.tolk.ai https://genii-messages.tolk.ai wss://genii-messages.tolk.ai wss://genii-messages-03.tolk.ai wss://genii-messages-04.tolk.ai https://api.ipify.org https://captcha.liveidentity.com;font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/npm/@gouvfr/ https://www.cybermalveillance.gouv.fr/build-widget/ data:;img-src 'self' https: http: data:;media-src 'self' https://captcha.liveidentity.com;object-src 'none';base-uri 'self';form-action 'self';frame-ancestors 'self';script-src-attr 'none';upgrade-insecure-requests\nframe-ancestors 'self'",
     "content-type": "text/html; charset=utf-8",
     "cross-origin-opener-policy": "same-origin",
     "cross-origin-resource-policy": "same-origin",
-    "date": "Thu, 16 Jul 2026 08:26:56 GMT",
-    "etag": "W/\"1227d4-metO9/0ErVpsqk7B4mccoCFSATg\"",
+    "date": "Tue, 25 Aug 2026 14:00:12 GMT",
+    "etag": "W/\"1227d4-x/TCsQUG1ovFgN0KvxroxiW2p1o\"",
     "origin-agent-cluster": "?1",
     "permissions-policy": "geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()\ncamera=(), geolocation=(), microphone=()",
     "referrer-policy": "strict-origin-when-cross-origin\nstrict-origin-when-cross-origin",
@@ -345,7 +197,7 @@
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff\nnosniff",
-    "x-cp-via": "C3-2d2d40c5-4614e83e",
+    "x-cp-via": "C2-7d44b882-295fe1d5",
     "x-dns-prefetch-control": "off",
     "x-download-options": "noopen",
     "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
@@ -411,7 +263,7 @@
     },
     {
       "hostname": "genii-script.tolk.ai",
-      "ip": "172.66.44.217",
+      "ip": "172.66.47.39",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -433,6 +285,40 @@
       "hostname": "player.vimeo.com",
       "ip": "162.159.128.61",
       "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
@@ -527,7 +413,7 @@
     },
     {
       "hostname": "storage.googleapis.com",
-      "ip": "142.250.152.207",
+      "ip": "104.154.125.27",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -583,6 +469,40 @@
       "hostname": "brunhild.challenges.cloudflare.com",
       "ip": "2606:4700::6812:1192",
       "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
