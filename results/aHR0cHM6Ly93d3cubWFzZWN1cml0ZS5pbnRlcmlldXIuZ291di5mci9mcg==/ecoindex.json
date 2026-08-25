@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.masecurite.interieur.gouv.fr/fr",
-        "size": 2520.02,
+        "size": 2646.807,
         "nodes": 1050,
         "requests": 67,
         "grade": "E",
@@ -11,7 +11,7 @@
         "ges": 2.26,
         "water": 3.39,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-16 14:11:26.354807",
+        "date": "2026-08-25 20:20:52.980810",
         "page_type": "website"
     }
 ]
